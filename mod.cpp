@@ -1,7 +1,7 @@
 name = "Theseus Services 0.0.1";
 picture = "logo_tac_ca.paa";
 actionName = "GitHub";
-action = "https://github.com/Theseus-Aegis/theseus-services";
+action = "https://github.com/Theseus-Aegis/TheseusServices";
 description = "Theseus Services Private Military Company content mod";
 logo = "logo_tac_ca.paa";
 logoOver = "logo_tac_ca.paa";

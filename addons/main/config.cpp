@@ -543,7 +543,7 @@ class CfgPatches {
             "map_vr"
         };
         author[]= {"Theseus Services Team"};
-        authorUrl = "https://github.com/Theseus-Aegis/theseus-services";
+        authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
         VERSION_CONFIG;
     };
 };
@@ -556,6 +556,6 @@ class CfgMods {
         hidePicture = "true";
         hideName = "true";
         actionName = "Website";
-        action = "https://github.com/Theseus-Aegis/theseus-services";
+        action = "https://github.com/Theseus-Aegis/TheseusServices";
     };
 };
