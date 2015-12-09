@@ -1,0 +1,12 @@
+name = "Theseus Services 0.0.1";
+picture = "logo_tac_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/jonpas/theseus-services";
+description = "Theseus Services Private Military Company content mod";
+logo = "logo_tac_ca.paa";
+logoOver = "logo_tac_ca.paa";
+tooltip = "Theseus Services";
+tooltipOwned = "Theseus Services Owned";
+overview = "Theseus Services is a content mod providing assets for Private Military Companies.";
+author = "Theseus Services Team";
+overviewPicture = "logo_tac_ca.paa";
