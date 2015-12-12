@@ -14,7 +14,7 @@ import winreg
 
 ######## GLOBALS #########
 MAINDIR = "x"
-PROJECTDIR = "tac_services"
+PROJECTDIR = "tacs"
 ##########################
 
 def main():

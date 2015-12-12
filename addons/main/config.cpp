@@ -550,12 +550,13 @@ class CfgPatches {
 
 class CfgMods {
     class PREFIX {
-        dir = "@tac_services";
+        dir = "@theseus_services";
         name = "Theseus Services";
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";
         hideName = "true";
         actionName = "Website";
         action = "https://github.com/Theseus-Aegis/TheseusServices";
+        description = "Issue Tracker: https://github.com/Theseus-Aegis/TheseusServices/issues";
     };
 };

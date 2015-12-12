@@ -5,7 +5,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tac_services_common"};
+        requiredAddons[] = {"tacs_common"};
         author[]= {""};
         authorUrl = "";
         VERSION_CONFIG;

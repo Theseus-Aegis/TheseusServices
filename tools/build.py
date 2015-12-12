@@ -6,7 +6,7 @@ import subprocess
 
 ######## GLOBALS #########
 MAINPREFIX = "x"
-PREFIX = "tac_services_"
+PREFIX = "tacs_"
 ##########################
 
 def mod_time(path):

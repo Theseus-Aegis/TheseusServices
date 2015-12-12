@@ -1,6 +1,6 @@
 // COMPONENT should be defined in the script_component.hpp and included BEFORE this hpp
 
-#define PREFIX tac_services
+#define PREFIX tacs
 
 #define MAJOR 0
 #define MINOR 0
