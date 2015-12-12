@@ -542,7 +542,7 @@ class CfgPatches {
             "a3data",
             "map_vr"
         };
-        author[]= {"Theseus Services Team"};
+        author[]= {ECSTRING(common,Author)};
         authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
         VERSION_CONFIG;
     };

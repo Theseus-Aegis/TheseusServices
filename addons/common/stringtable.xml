@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACS">
+    <Package name="Common">
+        <Key ID="STR_TACS_Common_Author">
+            <English>Theseus Services Team</English>
+            <German>Theseus Services Team</German>
+            <Polish>Theseus Services Team</Polish>
+            <Portuguese>Theseus Services Team</Portuguese>
+            <Russian>Theseus Services Team</Russian>
+            <Czech>Theseus Services Team</Czech>
+            <Spanish>Theseus Services Team</Spanish>
+        </Key>
+    </Package>
+</Project>
