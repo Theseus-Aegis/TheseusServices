@@ -36,7 +36,8 @@ def main():
   This script will create two hard links on your system, both pointing to your Theseus Services project folder:
     [Arma 3 installation directory]\\{} => Theseus Services project folder
     P:\\{}                              => Theseus Services project folder
-    """.format(FULLDIR,FULLDIR))
+
+    It will also copy the required CBA includes to {}, if you do not have the CBA source code already.""".format(FULLDIR,FULLDIR,CBA))
     print("\n")
 
     try:
@@ -91,6 +92,22 @@ def main():
         return 6
 
     print("# Links created successfully.")
+
+
+    print("\n# Copying required CBA includes ...")
+
+    if os.path.exists(CBA):
+        print("{} already exists, skipping.".format(CBA))
+        return -1
+
+    try:
+        shutil.copytree(os.path.join(projectpath, "tools", "cba"), CBA)
+    except:
+        raise
+        print("Something went wrong while copying CBA includes. Please copy tools\\cba to {} manually.".format(CBA))
+        return 7
+
+    print("# CBA includes copied successfully to {}.".format(CBA))
 
     return 0
 

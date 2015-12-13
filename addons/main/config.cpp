@@ -540,7 +540,8 @@ class CfgPatches {
             "a3_weapons_f_uniforms",
             "a3_weapons_f_vests",
             "a3data",
-            "map_vr"
+            "map_vr",
+            "extended_eventhandlers", "cba_ui", "cba_xeh", "cba_xeh_a3", "cba_jr"
         };
         author[]= {ECSTRING(common,Author)};
         authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
