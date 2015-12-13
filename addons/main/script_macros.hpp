@@ -25,7 +25,7 @@
 #define ECSTRING(var1,var2) QUOTE(TRIPLES($STR,DOUBLES(PREFIX,var1),var2))
 
 // Path
-#define PATHTOF(var1) \MAINPREFIX\PREFIX\SUBPREFIX\COMPONENT\var1
+#define QPATHTOF(var1) QUOTE(\MAINPREFIX\PREFIX\SUBPREFIX\COMPONENT\var1)
 
-// Debug Functions
+// Debug
 #include "script_debug.hpp"
