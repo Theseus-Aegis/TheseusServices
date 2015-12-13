@@ -543,21 +543,12 @@ class CfgPatches {
             "map_vr",
             "extended_eventhandlers", "cba_ui", "cba_xeh", "cba_xeh_a3", "cba_jr"
         };
-        author[]= {ECSTRING(common,Author)};
+        author[]= {CSTRING(common,Author)};
         authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
         VERSION_CONFIG;
     };
 };
 
-class CfgMods {
-    class PREFIX {
-        dir = "@theseus_services";
-        name = "Theseus Services";
-        picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
-        hidePicture = "true";
-        hideName = "true";
-        actionName = "Website";
-        action = "https://github.com/Theseus-Aegis/TheseusServices";
-        description = "Issue Tracker: https://github.com/Theseus-Aegis/TheseusServices/issues";
-    };
-};
+#include "CfgMods.hpp"
+#include "CfgModuleCategories.hpp"
+#include "CfgVehicleClasses.hpp"

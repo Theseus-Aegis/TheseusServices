@@ -1,6 +1,6 @@
 # About
 
-Backbone of other components, defining most of the commonly used macros.
+Backbone of other components, defining most of the commonly used macros and classes.
 
 ### Authors
 

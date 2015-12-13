@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACS">
+    <Package name="Main">
+        <Key ID="STR_TACS_Main_Name">
+            <English>Theseus Services</English>
+            <German>Theseus Services</German>
+            <Polish>Theseus Services</Polish>
+            <Portuguese>Theseus Services</Portuguese>
+            <Russian>Theseus Services</Russian>
+            <Czech>Theseus Services</Czech>
+            <Spanish>Theseus Services</Spanish>
+        </Key>
+        <Key ID="STR_TACS_Main_Author">
+            <English>Theseus Services Team</English>
+        </Key>
+    </Package>
+</Project>

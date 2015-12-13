@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACS">
+    <Package name="Glasses">
+        <Key ID="STR_TACS_Glasses_Goggles_Black">
+            <English>Tactical Goggles (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Glasses_Goggles_Green">
+            <English>Tactical Goggles (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Glasses_Goggles_Sand">
+            <English>Tactical Goggles (Sand)</English>
+        </Key>
+    </Package>
+</Project>
