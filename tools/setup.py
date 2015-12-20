@@ -15,6 +15,7 @@ import winreg
 ######## GLOBALS #########
 MAINDIR = "x"
 PROJECTDIR = "tacs"
+CBA = "P:\\x\\cba"
 ##########################
 
 def main():
