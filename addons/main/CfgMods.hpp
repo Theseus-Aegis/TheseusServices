@@ -10,7 +10,7 @@ class CfgMods {
         logoSmall = QPATHTOF(UI\logo_tac_ca.paa);
         hidePicture = 0;
         hideName = 0;
-        actionName = "Website";
+        actionName = "GitHub";
         action = "https://github.com/Theseus-Aegis/TheseusServices";
         description = "Issue Tracker: https://github.com/Theseus-Aegis/TheseusServices/issues";
     };
