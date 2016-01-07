@@ -1,5 +1,5 @@
 class CfgVehicleClasses {
-    class TACS {
+    class PREFIX {
         displayName = "Theseus Services";
     };
 };
