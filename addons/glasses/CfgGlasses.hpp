@@ -2,7 +2,7 @@ class CfgGlasses {
     class G_Combat;
     class CLASS(Goggles_Base): G_Combat {
         _generalMacro = QCLASS(Goggles_Base);
-        dlc = DLC;
+        dlc = QUOTE(PREFIX);
         scope = 0;
         identityTypes[] = {};
         model = QPATHTOF(data\goggles.p3d);

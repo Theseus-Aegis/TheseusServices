@@ -3,17 +3,13 @@
 class CfgPatches {
     class ADDON {
         units[] = {};
-        weapons[] = {
-            CLASS(Goggles_Black),
-            CLASS(Goggles_Green),
-            CLASS(Goggles_Sand)
-        };
+        weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
-        author[]= {"Jonpas", "Pomigit"};
+        author[]= {"Jonpas", "BadHabitz"};
         authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
         VERSION_CONFIG;
     };
 };
 
-#include "CfgGlasses.hpp"
+#include "CfgUnitInsignia.hpp"

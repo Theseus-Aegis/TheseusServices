@@ -4,5 +4,3 @@
 
 #define CLASS(var1) DOUBLES(PREFIX,var1)
 #define QCLASS(var1) QUOTE(DOUBLES(PREFIX,var1))
-
-#define DLC QUOTE(PREFIX)
