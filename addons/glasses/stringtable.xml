@@ -3,12 +3,15 @@
     <Package name="Glasses">
         <Key ID="STR_TACS_Glasses_Goggles_Black">
             <English>Tactical Goggles (Black)</English>
+            <German>Taktische Brille (schwarz)</German>
         </Key>
         <Key ID="STR_TACS_Glasses_Goggles_Green">
             <English>Tactical Goggles (Green)</English>
+            <German>Taktische Brille (grün)</German>
         </Key>
         <Key ID="STR_TACS_Glasses_Goggles_Sand">
             <English>Tactical Goggles (Sand)</English>
+            <German>Taktische Brille (sand)</German>
         </Key>
     </Package>
 </Project>
