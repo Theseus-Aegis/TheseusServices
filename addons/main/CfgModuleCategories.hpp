@@ -1,7 +1,7 @@
 class CfgFactionClasses {
     class NO_CATEGORY;
     class PREFIX: NO_CATEGORY {
-        displayName = "Theseus Services";
+        displayName = CSTRING(Name);
         side = 7;
     };
 };
