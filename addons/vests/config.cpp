@@ -3,10 +3,7 @@
 class CfgPatches {
     class ADDON {
         units[] = {};
-        weapons[] = {
-            QCLASS(MX_BlackCamo),
-            QCLASS(MX_GL_BlackCamo)
-        };
+        weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
         author[]= {"Jonpas", "Pomigit", "BadHabitz"};
@@ -14,5 +11,3 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
-
-#include "CfgWeapons.hpp"
