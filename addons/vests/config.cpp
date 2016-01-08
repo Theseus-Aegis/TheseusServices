@@ -6,12 +6,12 @@ class CfgPatches {
         weapons[] = {
             QCLASS(Vest_PlateCarrierFull_Black),
             QCLASS(Vest_PlateCarrierFull_Green),
-            QCLASS(Vest_Tactical_DarkBlack),
             QCLASS(Vest_PlateCarrier_Black),
             QCLASS(Vest_PlateCarrier_Green),
             QCLASS(Vest_PlateCarrier_Coyote),
             QCLASS(Vest_PlateCarrier_Khaki),
-            QCLASS(Vest_PlateCarrier_MARPAT)
+            QCLASS(Vest_PlateCarrier_MARPAT),
+            QCLASS(Vest_Tactical_DarkBlack)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
