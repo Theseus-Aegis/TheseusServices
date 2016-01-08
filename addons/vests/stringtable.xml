@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACS">
+    <Package name="Vests">
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrierFull_Black">
+            <English>Plate Carrier Full (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrierFull_Green">
+            <English>Plate Carrier Full (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Black">
+            <English>Plate Carrier (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Green">
+            <English>Plate Carrier (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Coyote">
+            <English>Plate Carrier (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Khaki">
+            <English>Plate Carrier (Khaki)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_MARPAT">
+            <English>Plate Carrier (MARPAT)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_Tactical_DarkBlack">
+            <English>Tactical Vest (Dark Black)</English>
+        </Key>
+    </Package>
+</Project>
