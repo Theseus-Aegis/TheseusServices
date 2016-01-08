@@ -4,8 +4,8 @@ class CfgPatches {
     class ADDON {
         units[] = {};
         weapons[] = {
-            QCLASS(Rifle_MX_BlackCamo),
-            QCLASS(Rifle_MX_GL_BlackCamo)
+            QCLASS(ARifle_MX_BlackCamo),
+            QCLASS(ARifle_MX_GL_BlackCamo)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
