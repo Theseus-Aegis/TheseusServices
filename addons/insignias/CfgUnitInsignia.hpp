@@ -400,6 +400,12 @@ class CfgUnitInsignia {
         displayName = "Second Amendment";
         texture = QPATHTOF(data\secondamendment.paa);
     };
+    class CLASS(Insignia_SecondAmendment_AK47): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Second Amendment (AK-47)";
+        texture = QPATHTOF(data\secondamendment_ak47.paa);
+    };
     class CLASS(Insignia_SecretSquirrel): CLASS(Insignia_Base) {
         scope = 2;
         author = "BadHabitz";
@@ -519,5 +525,11 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Zombie Outbreak Response Team (Black)";
         texture = QPATHTOF(data\zombieoutbreakresponseteam_black.paa);
+    };
+    class CLASS(Insignia_LeadFarmer_Arid): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Lead Farmer (Arid)";
+        texture = QPATHTOF(data\leadfarmer_arid.paa);
     };
 };
