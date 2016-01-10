@@ -4,7 +4,10 @@ class CfgMods {
         author = CSTRING(common,Author);
         dir = "@theseus_services";
         name = CSTRING(Name);
-        picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
+        picture = QUOTE(PATHTOF(UI\logo_tac_ca.paa));
+        logo = QUOTE(PATHTOF(UI\logo_tac_small_ca.paa));
+        logoOver = QUOTE(PATHTOF(UI\logo_tac_small_ca.paa));
+        logoSmall = QUOTE(PATHTOF(UI\logo_tac_small_ca.paa));
         hidePicture = "true";
         hideName = "true";
         actionName = "GitHub";
