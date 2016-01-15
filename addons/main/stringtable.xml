@@ -12,6 +12,7 @@
         </Key>
         <Key ID="STR_TACS_Main_Author">
             <English>Theseus Services Team</English>
+            <German>Theseus Services Team</German>
         </Key>
     </Package>
 </Project>
