@@ -1,12 +1,12 @@
 name = "Theseus Services 0.0.1";
-picture = "logo_tac_ca.paa";
+picture = "logo_tacs_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/Theseus-Aegis/TheseusServices";
 description = "Theseus Services - Private Military Company Assets";
-logo = "logo_tac_small_ca.paa";
-logoOver = "logo_tac_small_ca.paa";
+logo = "logo_tacs_small_ca.paa";
+logoOver = "logo_tacs_small_ca.paa";
 tooltip = "Theseus Services";
 tooltipOwned = "Theseus Services Owned";
 overview = "Theseus Services is a content mod providing assets for Private Military Companies.";
 author = "Theseus Services Team";
-overviewPicture = "logo_tac_ca.paa";
+overviewPicture = "logo_tacs_ca.paa";
