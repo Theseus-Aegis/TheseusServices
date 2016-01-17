@@ -621,6 +621,24 @@ class CfgUnitInsignia {
         author = "System98";
         displayName = "Spartan Helmet (Black)";
         texture = QPATHTOF(data\spartanhelmet_black.paa);
+    };	
+    class CLASS(Insignia_SpartanHelmet_Black1): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Spartan Helmet (Black + 1)";
+        texture = QPATHTOF(data\spartanhelmet_black1.paa);
+    };		
+    class CLASS(Insignia_SpartanHelmet_Black2): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Spartan Helmet (Black + 2)";
+        texture = QPATHTOF(data\spartanhelmet_black2.paa);
+    };		
+    class CLASS(Insignia_SpartanHelmet_Black3): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Spartan Helmet (Black + 3)";
+        texture = QPATHTOF(data\spartanhelmet_black3.paa);
     };
     class CLASS(Insignia_SpartanHelmet_Multicam): CLASS(Insignia_Base) {
         scope = 2;
@@ -645,5 +663,41 @@ class CfgUnitInsignia {
         author = "System98";
         displayName = "Ace Of Spades";
         texture = QPATHTOF(data\aceofspades.paa);
+    };    
+    class CLASS(Insignia_BustingMyAssToSaveYours): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Busting My Ass To Save Yours";
+        texture = QPATHTOF(data\bustingmyasstosaveyours.paa);
+    };
+    class CLASS(Insignia_CombatLifeSupport): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Combat Life Support";
+        texture = QPATHTOF(data\combatlifesupport.paa);
+    };
+    class CLASS(Insignia_CommandoSkullKnife): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Commando Skull + Knife";
+        texture = QPATHTOF(data\commandoskullknife.paa);
+    };
+    class CLASS(Insignia_IndianChiefSkull): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Indian Chief Skull";
+        texture = QPATHTOF(data\indianchiefskull.paa);
+    };
+    class CLASS(Insignia_Matchmaker): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Matchmaker";
+        texture = QPATHTOF(data\matchmaker.paa);
+    };
+    class CLASS(Insignia_MajorLeagueDoorkicker): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "System98";
+        displayName = "Major League Doorkicker";
+        texture = QPATHTOF(data\majorleaguedoorkicker.paa);
     };
 };
