@@ -621,24 +621,6 @@ class CfgUnitInsignia {
         author = "System98";
         displayName = "Spartan Helmet (Black)";
         texture = QPATHTOF(data\spartanhelmet_black.paa);
-    };	
-    class CLASS(Insignia_SpartanHelmet_Black1): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Spartan Helmet (Black + 1)";
-        texture = QPATHTOF(data\spartanhelmet_black1.paa);
-    };		
-    class CLASS(Insignia_SpartanHelmet_Black2): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Spartan Helmet (Black + 2)";
-        texture = QPATHTOF(data\spartanhelmet_black2.paa);
-    };		
-    class CLASS(Insignia_SpartanHelmet_Black3): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Spartan Helmet (Black + 3)";
-        texture = QPATHTOF(data\spartanhelmet_black3.paa);
     };
     class CLASS(Insignia_SpartanHelmet_Multicam): CLASS(Insignia_Base) {
         scope = 2;
