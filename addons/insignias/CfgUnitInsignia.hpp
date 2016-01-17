@@ -661,7 +661,7 @@ class CfgUnitInsignia {
     class CLASS(Insignia_CommandoSkullKnife): CLASS(Insignia_Base) {
         scope = 2;
         author = "System98";
-        displayName = "Commando Skull + Knife";
+        displayName = "Commando Skull And Knife";
         texture = QPATHTOF(data\commandoskullknife.paa);
     };
     class CLASS(Insignia_IndianChiefSkull): CLASS(Insignia_Base) {
