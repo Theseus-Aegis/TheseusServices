@@ -112,11 +112,11 @@ class CfgUnitInsignia {
         displayName = "Come At Me Bro";
         texture = QPATHTOF(data\comeatmebro.paa);
     };
-    class CLASS(Insignia_CommandoSkullKnife): CLASS(Insignia_Base) {
+    class CLASS(Insignia_CommandoSkullAndKnife): CLASS(Insignia_Base) {
         scope = 2;
         author = "System98";
-        displayName = "Commando Skull + Knife";
-        texture = QPATHTOF(data\commandoskullknife.paa);
+        displayName = "Commando Skull And Knife";
+        texture = QPATHTOF(data\commandoskullandknife.paa);
     };
     class CLASS(Insignia_DixieFlag): CLASS(Insignia_Base) {
         scope = 2;
