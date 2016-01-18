@@ -98,35 +98,35 @@ class CfgWeapons {
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_PlateCarrier_Black);
         picture = QPATHTOF(UI\vest_platecarrier_black_x_ca.paa);//@todo - change logo to TACS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co.paa)};
     };
     class CLASS(Vest_PlateCarrier_Green): CLASS(Vest_PlateCarrier_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_PlateCarrier_Green);
         picture = QPATHTOF(UI\vest_platecarrier_green_x_ca.paa);//@todo - change logo to TACS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co.paa)};
     };
     class CLASS(Vest_PlateCarrier_Coyote): CLASS(Vest_PlateCarrier_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_PlateCarrier_Coyote);
         picture = QPATHTOF(UI\vest_platecarrier_khaki_x_ca.paa);//picture = QPATHTOF(UI\vest_platecarrier_coyote_x_ca.paa);//@todo - new picture + change logo to TACS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co.paa)};
     };
     class CLASS(Vest_PlateCarrier_Khaki): CLASS(Vest_PlateCarrier_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_PlateCarrier_Khaki);
         picture = QPATHTOF(UI\vest_platecarrier_khaki_x_ca.paa);//@todo - change logo to TACS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co.paa)};
     };
     class CLASS(Vest_PlateCarrier_MARPAT): CLASS(Vest_PlateCarrier_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_PlateCarrier_MARPAT);
         picture = QPATHTOF(UI\vest_platecarrier_marpat_x_ca.paa);//@todo - change logo to TACS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co.paa)};
     };
 
 
