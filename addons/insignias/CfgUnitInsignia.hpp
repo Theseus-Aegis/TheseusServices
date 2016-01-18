@@ -34,6 +34,12 @@ class CfgUnitInsignia {
         displayName = "Biohazard";
         texture = QPATHTOF(data\biohazard.paa);
     };
+    class CLASS(Insignia_BitchPlease): CLASS(Insignia_Base) {
+        scope = 2;
+        author = "BadHabitz";
+        displayName = "Bitch Please";
+        texture = QPATHTOF(data\bitchplease.paa);
+    };
     class CLASS(Insignia_BobaFett_ATACSFG): CLASS(Insignia_Base) {
         scope = 2;
         author = "System98";
@@ -63,12 +69,6 @@ class CfgUnitInsignia {
         author = "System98";
         displayName = "Boba Fett (Multicam-Spice)";
         texture = QPATHTOF(data\bobafett_multicamspice.paa);
-    };
-    class CLASS(Insignia_BitchPlease): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "BadHabitz";
-        displayName = "Bitch Please";
-        texture = QPATHTOF(data\bitchplease.paa);
     };
     class CLASS(Insignia_BunsNRoses): CLASS(Insignia_Base) {
         scope = 2;
@@ -681,161 +681,5 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Zombie Outbreak Response Team (Black)";
         texture = QPATHTOF(data\zombieoutbreakresponseteam_black.paa);
-    };
-    class CLASS(Insignia_ImALeadFarmer_Arid): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "I'm A Lead Farmer (Arid)";
-        texture = QPATHTOF(data\iamaleadfarmer_arid.paa);
-    };
-    class CLASS(Insignia_RebelAlliance): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Rebel Alliance";
-        texture = QPATHTOF(data\rebelalliance.paa);
-    };
-    class CLASS(Insignia_BobaFett_ATACSFG): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Boba Fett (ATACS-FG)";
-        texture = QPATHTOF(data\bobafett_atacsfg.paa);
-    };
-    class CLASS(Insignia_BobaFett_BlackSilver): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Boba Fett (Black-Silver)";
-        texture = QPATHTOF(data\bobafett_blacksilver.paa);
-    };
-    class CLASS(Insignia_BobaFett_CoyoteBrown): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Boba Fett (Coyote-Brown)";
-        texture = QPATHTOF(data\bobafett_coyotebrown.paa);
-    };
-    class CLASS(Insignia_BobaFett_MulticamBlack): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Boba Fett (Multicam-Black)";
-        texture = QPATHTOF(data\bobafett_multicamblack.paa);
-    };
-    class CLASS(Insignia_BobaFett_MulticamSpice): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Boba Fett (Multicam-Spice)";
-        texture = QPATHTOF(data\bobafett_multicamspice.paa);
-    };
-    class CLASS(Insignia_SniperUnit): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Sniper Unit";
-        texture = QPATHTOF(data\sniperunit.paa);
-    };
-    class CLASS(Insignia_FromAPlaceYouWillNotSee): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "From A Place You Will Not See";
-        texture = QPATHTOF(data\fromaplaceyouwillnotsee.paa);
-    };
-    class CLASS(Insignia_MandalorianBanthaSkull_BlackRed): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Mandalorian Bantha Skull (Black-Red)";
-        texture = QPATHTOF(data\mandalorianbanthaskull_blackred.paa);
-    };
-    class CLASS(Insignia_MandalorianBanthaSkull_CoyoteBrown): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Mandalorian Bantha Skull (Coyote-Brown)";
-        texture = QPATHTOF(data\mandalorianbanthaskull_coyotebrown.paa);
-    };
-    class CLASS(Insignia_MandalorianBanthaSkull_DesertSand): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Mandalorian Bantha Skull (Desert-Sand)";
-        texture = QPATHTOF(data\mandalorianbanthaskull_desertsand.paa);
-    };
-    class CLASS(Insignia_MandalorianBanthaSkull_Multicam): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Mandalorian Bantha Skull (Multicam)";
-        texture = QPATHTOF(data\mandalorianbanthaskull_multicam.paa);
-    };
-    class CLASS(Insignia_MandalorianBanthaSkull_RedSilver): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Mandalorian Bantha Skull (Red-Silver)";
-        texture = QPATHTOF(data\mandalorianbanthaskull_redsilver.paa);
-    };	
-    class CLASS(Insignia_SpartanHelmet_ACU): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Spartan Helmet (ACU)";
-        texture = QPATHTOF(data\spartanhelmet_acu.paa);
-    };
-    class CLASS(Insignia_SpartanHelmet_Black): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Spartan Helmet (Black)";
-        texture = QPATHTOF(data\spartanhelmet_black.paa);
-    };
-    class CLASS(Insignia_SpartanHelmet_Multicam): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Spartan Helmet (Multicam)";
-        texture = QPATHTOF(data\spartanhelmet_multicam.paa);
-    };
-    class CLASS(Insignia_SpartanHelmet_Tan): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Spartan Helmet (Tan)";
-        texture = QPATHTOF(data\spartanhelmet_tan.paa);
-    };	
-    class CLASS(Insignia_SpartanHelmet_Woodland): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Spartan Helmet (Woodland)";
-        texture = QPATHTOF(data\spartanhelmet_woodland.paa);
-    };
-    class CLASS(Insignia_AceOfSpades): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Ace Of Spades";
-        texture = QPATHTOF(data\aceofspades.paa);
-    };    
-    class CLASS(Insignia_BustingMyAssToSaveYours): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Busting My Ass To Save Yours";
-        texture = QPATHTOF(data\bustingmyasstosaveyours.paa);
-    };
-    class CLASS(Insignia_CombatLifeSupport): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Combat Life Support";
-        texture = QPATHTOF(data\combatlifesupport.paa);
-    };
-    class CLASS(Insignia_CommandoSkullKnife): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Commando Skull And Knife";
-        texture = QPATHTOF(data\commandoskullknife.paa);
-    };
-    class CLASS(Insignia_IndianChiefSkull): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Indian Chief Skull";
-        texture = QPATHTOF(data\indianchiefskull.paa);
-    };
-    class CLASS(Insignia_Matchmaker): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Matchmaker";
-        texture = QPATHTOF(data\matchmaker.paa);
-    };
-    class CLASS(Insignia_MajorLeagueDoorkicker): CLASS(Insignia_Base) {
-        scope = 2;
-        author = "System98";
-        displayName = "Major League Doorkicker";
-        texture = QPATHTOF(data\majorleaguedoorkicker.paa);
     };
 };
