@@ -3,7 +3,6 @@ class CfgUnitInsignia {
         dlc = QUOTE(PREFIX);
         scope = 0;
     };
-    
     class CLASS(Insignia_AceOfSpades): CLASS(Insignia_Base) {
         scope = 2;
         author = "System98";
