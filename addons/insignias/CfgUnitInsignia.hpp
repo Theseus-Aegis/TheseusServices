@@ -682,8 +682,6 @@ class CfgUnitInsignia {
         displayName = "Zombie Outbreak Response Team (Black)";
         texture = QPATHTOF(data\zombieoutbreakresponseteam_black.paa);
     };
-<<<<<<< HEAD
-=======
     class CLASS(Insignia_ImALeadFarmer_Arid): CLASS(Insignia_Base) {
         scope = 2;
         author = "System98";
@@ -840,5 +838,4 @@ class CfgUnitInsignia {
         displayName = "Major League Doorkicker";
         texture = QPATHTOF(data\majorleaguedoorkicker.paa);
     };
->>>>>>> origin/New-Insignias
 };
