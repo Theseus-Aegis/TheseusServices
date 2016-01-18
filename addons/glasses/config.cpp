@@ -3,11 +3,7 @@
 class CfgPatches {
     class ADDON {
         units[] = {};
-        weapons[] = {
-            QCLASS(Goggles_Black),
-            QCLASS(Goggles_Green),
-            QCLASS(Goggles_Sand)
-        };
+        weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
         author[]= {"Jonpas", "Pomigit"};

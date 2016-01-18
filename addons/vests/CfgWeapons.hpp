@@ -3,7 +3,6 @@ class CfgWeapons {
     class V_PlateCarrierIA2_dgtl: V_PlateCarrierIA1_dgtl {
         class ItemInfo;
     };
-
     class CLASS(Vest_PlateCarrierFull_Base): V_PlateCarrierIA2_dgtl {
         dlc = QUOTE(PREFIX);
         scope = 0;
@@ -42,7 +41,6 @@ class CfgWeapons {
             };
         };
     };
-
     class CLASS(Vest_PlateCarrierFull_Black): CLASS(Vest_PlateCarrierFull_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
@@ -50,7 +48,6 @@ class CfgWeapons {
         picture = QPATHTOF(UI\vest_platecarrierfull_black_x_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrierfull_black_co.paa)};
     };
-
     class CLASS(Vest_PlateCarrierFull_Green): CLASS(Vest_PlateCarrierFull_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
@@ -64,7 +61,6 @@ class CfgWeapons {
     class V_PlateCarrier1_rgr: Vest_NoCamo_Base {
         class ItemInfo;
     };
-
     class CLASS(Vest_PlateCarrier_Base): V_PlateCarrier1_rgr {
         dlc = QUOTE(PREFIX);
         scope = 0;
@@ -97,7 +93,6 @@ class CfgWeapons {
             };
         };
     };
-
     class CLASS(Vest_PlateCarrier_Black): CLASS(Vest_PlateCarrier_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
@@ -139,7 +134,6 @@ class CfgWeapons {
     class V_TacVest_khk: Vest_Camo_Base {
         class ItemInfo;
     };
-
     class CLASS(Vest_Tactical_DarkBlack): V_TacVest_khk {
         dlc = QUOTE(PREFIX);
         scope = 2;

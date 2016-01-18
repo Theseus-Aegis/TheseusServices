@@ -1,11 +1,11 @@
 <p align="center">
-    <img src="https://github.com/Theseus-Aegis/TheseusServices/blob/master/extras/assets/logo/TAC-Logo.jpg">
+    <img src="https://github.com/Theseus-Aegis/TheseusServices/blob/master/extras/assets/logo/logo_tacs_ca.png">
 </p>
 <p align="center">
     <a href="https://github.com/Theseus-Aegis/TheseusServices/releases">
-        <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg?style=flat-square" alt="Theseus Services Version">
+        <img src="https://img.shields.io/badge/Version-0.0.1-blue.svg?style=flat-square" alt="Theseus Services Version">
     </a>
-    <a href="https://github.com/Theseus-Aegis/TheseusServices/releases/download/v1.0.0/TheseusServices_1.0.0.zip">
+    <a href="https://github.com/Theseus-Aegis/TheseusServices/releases/download/v0.0.1/TheseusServices_0.0.1.zip">
         <img src="https://img.shields.io/badge/Download-xy.z_MB-green.svg?style=flat-square" alt="Theseus Services Download">
     </a>
     <a href="https://github.com/Theseus-Aegis/TheseusServices/issues">
