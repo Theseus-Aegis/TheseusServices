@@ -14,5 +14,8 @@
             <English>Theseus Services Team</English>
             <German>Theseus Services Team</German>
         </Key>
+        <Key ID="STR_TACS_Main_Company">
+            <English>Theseus Inc</English>
+        </Key>
     </Package>
 </Project>

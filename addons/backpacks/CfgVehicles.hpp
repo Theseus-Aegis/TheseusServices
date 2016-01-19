@@ -7,7 +7,7 @@ class CfgVehicles {
         displayname = CSTRING(Backpack_AssaultExpanded_Black);
         //picture = QPATHTOF(UI\backpack_assaultexpanded_black_ca.paa);//@todo
         hiddenSelectionsTextures[] = {
-            "a3\weapons_f\ammoboxes\bags\data\backpack_compact_blk_co.paa",
+            "\a3\weapons_f\ammoboxes\bags\data\backpack_compact_blk_co.paa",
             QPATHTOEF(vests,data\vest_platecarrier_black_co.paa) // Expanded part - vest texture
         };
         maximumLoad = 180;
@@ -19,7 +19,7 @@ class CfgVehicles {
         displayname = CSTRING(Backpack_AssaultExpanded_Green);
         //picture = QPATHTOF(UI\backpack_assaultexpanded_green_ca.paa);//@todo
         hiddenSelectionsTextures[] = {
-            "a3\weapons_f\ammoboxes\bags\data\backpack_compact_rgr_co.paa",
+            "\a3\weapons_f\ammoboxes\bags\data\backpack_compact_rgr_co.paa",
             QPATHTOEF(vests,data\vest_platecarrier_green_co.paa) // Expanded part - vest texture
         };
         maximumLoad = 180;
@@ -43,8 +43,8 @@ class CfgVehicles {
         scope = 2;
         author = "Bohemia Interactive, BadHabitz, Jonpas";
         displayName = CSTRING(Backpack_Carryall_DarkBlack);
-        picture = "a3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Tortila_blk.paa";
-        hiddenSelectionsTextures[] = {"a3\weapons_f\ammoboxes\bags\data\backpack_tortila_blk_co.paa"};
+        picture = "\a3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Tortila_blk.paa";
+        hiddenSelectionsTextures[] = {"\a3\weapons_f\ammoboxes\bags\data\backpack_tortila_blk_co.paa"};
     };
 
     class B_Kitbag_Base;
@@ -54,6 +54,6 @@ class CfgVehicles {
         author = "Bohemia Interactive, BadHabitz, Jonpas";
         displayName = CSTRING(Backpack_Kitbag_DarkBlack);
         picture = QPATHTOF(UI\backpack_kitbag_darkblack_ca.paa);
-        hiddenSelectionsTextures[] = {"a3\weapons_f\ammoboxes\bags\data\backpack_fast_blk_co.paa"};
+        hiddenSelectionsTextures[] = {"\a3\weapons_f\ammoboxes\bags\data\backpack_fast_blk_co.paa"};
     };
 };

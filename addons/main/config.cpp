@@ -549,6 +549,5 @@ class CfgPatches {
     };
 };
 
+#include "CfgFactionClasses.hpp"
 #include "CfgMods.hpp"
-#include "CfgModuleCategories.hpp"
-#include "CfgVehicleClasses.hpp"
