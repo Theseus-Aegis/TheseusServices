@@ -3,7 +3,7 @@
 class CfgPatches {
     class ADDON {
         units[] = {
-            QCLASS(Unit_Underwear_BlackLogo)
+            //@todo - for Zeus
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
