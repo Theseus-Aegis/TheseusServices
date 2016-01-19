@@ -6,10 +6,10 @@ class CfgWeapons {
     class CLASS(Cap_Headphones_BlackLogo): H_Cap_headphones {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_Headphones_BlackLogo);
         picture = QPATHTOF(UI\cap_headphones_blacklogo_ca.paa);//@todo - change logo to TACS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_headphones_blacklogo_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_headphones_blacklogo_co.paa)};
 
         class ItemInfo: ItemInfo {
             hiddenSelections[] = {"camo"};
@@ -23,18 +23,18 @@ class CfgWeapons {
     class CLASS(Cap_BlackLogo): H_Cap_red {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_BlackLogo);
         picture = QPATHTOF(UI\cap_blacklogo_ca.paa);//@todo - change logo to TACS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
     class CLASS(Cap_TanLogo): H_Cap_red {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_TanLogo);
         picture = QPATHTOF(UI\cap_tanlogo_ca.paa);//@todo - change logo to TACS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};
     };
 
 
@@ -50,17 +50,17 @@ class CfgWeapons {
     };
     class CLASS(Cap_Earpiece_BlackLogo): CLASS(Cap_Earpiece_Base) {
         scope = 2;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         displayname = CSTRING(Cap_Earpiece_BlackLogo);
         //picture = QPATHTOF(UI\cap_earpiece_blacklogo_ca.paa);//@todo
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
     class CLASS(Cap_Earpiece_TanLogo): CLASS(Cap_Earpiece_Base) {
         scope = 2;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         displayname = CSTRING(Cap_Earpiece_TanLogo);
         //picture = QPATHTOF(UI\cap_earpiece_tanlogo_ca.paa);//@todo
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};
     };
 
 
@@ -75,17 +75,17 @@ class CfgWeapons {
     };
     class CLASS(Cap_Backwards_BlackLogo): CLASS(Cap_Backwards_Base) {
         scope = 2;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_Backwards_BlackLogo);
         picture = QPATHTOF(UI\cap_backwards_black_ca.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
     class CLASS(Cap_Backwards_TanLogo): CLASS(Cap_Backwards_Base) {
         scope = 2;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_Backwards_TanLogo);
         picture = QPATHTOF(UI\cap_backwards_tan_ca.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};//@todo - change logo to TACS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};
     };
 
 
