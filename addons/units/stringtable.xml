@@ -3,33 +3,43 @@
     <Package name="Units">
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_GP_BB">
             <English>Combat Uniform Long Sleeves (Black Shirt &amp; Green Pants &amp; Black Boots)</English>
+            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; grüne Hose &amp; schwarze Schuhe)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_GP_TB">
             <English>Combat Uniform Long Sleeves (Black Shirt &amp; Green Pants &amp; Tan Shoes)</English>
+            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; grüne Hose &amp; hellbraune Schuhe)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_TP_BB">
             <English>Combat Uniform Long Sleeves (Black Shirt &amp; Tan Pants &amp; Black Shoes)</English>
+            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; hellbraune Hose &amp; schwarze Schuhe)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_TP_TB">
             <English>Combat Uniform Long Sleeves (Black Shirt &amp; Tan Pants &amp; Tan Shoes)</English>
+            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; hellbraune Hose &amp; hellbraune Schuhe)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_GS_BP_BB">
             <English>Combat Uniform Long Sleeves (Green Shirt &amp; Black Pants &amp; Black Shoes)</English>
+            <German>Kampfuniform, langärmelig (grünes Shirt &amp; schwarze Hose &amp; schwarze Schuhe)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_GS_TP_BB">
             <English>Combat Uniform Long Sleeves (Green Shirt &amp; Tan Pants &amp; Tan Shoes)</English>
+            <German>Kampfuniform, langärmelig (grünes Shirt &amp; hellbraune Hose &amp; hellbraune Schuhe)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_IndP_BB">
             <English>Combat Uniform Long Sleeves (Black Shirt &amp; Independent Pants &amp; Black Shoes)</English>
+            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; digital-grüne Hose &amp; schwarze Schuhe)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_TS_BP_BB">
             <English>Combat Uniform Long Sleeves (Tan Shirt &amp; Black Pants &amp; Black Shoes)</English>
+            <German>Kampfuniform, langärmelig (hellbraunes Shirt &amp; schwarze Hose &amp; schwarze Schuhe)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_TS_GP_BB">
             <English>Combat Uniform Long Sleeves (Tan Shirt &amp; Green Pants &amp; Black Shoes)</English>
+            <German>Kampfuniform, langärmelig hellbraunes Shirt &amp; grüne Hose &amp; schwarze Schuhe)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_TS_GP_TB">
             <English>Combat Uniform Long Sleeves (Tan Shirt &amp; Green Pants &amp; Tan Shoes)</English>
+            <German>Kampfuniform, langärmelig (hellbraunes Shirt &amp; grüne Hose &amp; hellbraune Schuhe)</German>
         </Key>
     </Package>
 </Project>

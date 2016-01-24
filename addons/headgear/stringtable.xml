@@ -3,42 +3,55 @@
     <Package name="Headgear">
         <Key ID="STR_TACS_Headgear_Cap_Headphones_BlackLogo">
             <English>Cap Headphones (Black) Logo</English>
+            <German>Kappe, Kopfhöhrer (schwarz) Logo</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_BlackLogo">
             <English>Cap (Black) Logo</English>
+            <German>Kappe, Kopfhöhrer (schwarz)</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_TanLogo">
             <English>Cap (Tan) Logo</English>
+            <German>Kappe (hellbraun) Logo</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_Earpiece_BlackLogo">
             <English>Cap Earpiece (Black) Logo</English>
+            <German>Kappe, Ohrhöhrer (schwarz) Logo</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_Earpiece_TanLogo">
             <English>Cap Earpiece (Tan) Logo</English>
+            <German>Kappe, Ohrhöhrer (hellbraun) Logo</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_Backwards_BlackLogo">
             <English>Cap Backwards (Black) Logo</English>
+            <German>Kappe, umgekehrt (schwarz) Logo</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_Backwards_TanLogo">
             <English>Cap Backwards (Tan) Logo</English>
+            <German>Kappe, umgekehrt (hellbraun) Logo</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Ballistic_DarkBlack">
             <English>Combat Helmet (Dark Black)</English>
+            <German>Gefechtshelm (dunkelschwarz)</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_PilotHeli_Tan">
             <English>Heli Pilot Helmet (Tan)</English>
+            <German>Heli-Pilotenhelm (hellbraun)</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Hat_Boonie_RangerGreen">
             <English>Boonie Hat (Ranger Green)</English>
+            <German>Buschhut (Ranger-grün)</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Hat_Boonie_DesertMARPAT">
             <English>Boonie Hat (Desert MARPAT)</English>
+            <German>Buschhut (wüste-MARPAT)</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Hat_Boonie_Woodland">
             <English>Boonie Hat (Woodland)</English>
+            <German>Buschhut (wald)</German>
         </Key>
         <Key ID="STR_TACS_Headgear_Hat_Boonie_UCP">
             <English>Boonie Hat (UCP)</English>
+            <German>Buschhut (UCP)</German>
         </Key>
     </Package>
 </Project>
