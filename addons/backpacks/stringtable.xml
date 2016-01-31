@@ -3,18 +3,23 @@
     <Package name="Backpacks">
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_BLack">
             <English>Assault Pack Expanded (Black) Logo</English>
+            <German>Assault Pack, erweitert (schwarz) Logo</German>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Green">
             <English>Assault Pack Expanded (Green) Logo</English>
+            <German>Assault Pack, erweitert (grün) Logo</German>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Tan">
             <English>Assault Pack Expanded (Tan) Logo</English>
+            <German>Assault Pack, erweitert (hellbraun) Logo</German>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Carryall_DarkBlack">
             <English>Carryall Backpack (Dark Black)</English>
+            <German>Carryall Rucksack (dunkelschwarz)</German>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_DarkBlack">
             <English>Kitbag (Dark Black)</English>
+            <German>Kitbag (dunkelschwarz)</German>
         </Key>
     </Package>
 </Project>
