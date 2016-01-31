@@ -102,14 +102,14 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_LS_GS_TP_BB);
         };
     };
-    class CLASS(Uniform_Combat_LS_BS_IndP_BB): CLASS(Uniform_Base) {
+    class CLASS(Uniform_Combat_LS_BS_DGP_BB): CLASS(Uniform_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
-        displayName = CSTRING(Uniform_Combat_LS_BS_IndP_BB);
-        picture = QPATHTOF(UI\uniform_combat_ls_bs_indp_ca.paa);
+        displayName = CSTRING(Uniform_Combat_LS_BS_DGP_BB);
+        picture = QPATHTOF(UI\uniform_combat_ls_bs_dgp_ca.paa);
 
         class ItemInfo: ItemInfo {
-            uniformClass = QCLASS(Unit_Combat_LS_BS_IndP_BB);
+            uniformClass = QCLASS(Unit_Combat_LS_BS_DGP_BB);
         };
     };
     class CLASS(Uniform_Combat_LS_TS_BP_BB): CLASS(Uniform_Base) {

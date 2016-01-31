@@ -102,11 +102,11 @@ class CfgVehicles {
         uniformClass = QCLASS(Uniform_Combat_LS_GS_TP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ls_gs_tp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_BS_IndP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_BS_DGP_BB): CLASS(Unit_Combat_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
-        uniformClass = QCLASS(Uniform_Combat_LS_BS_IndP_BB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ls_bs_indp_bb_ca.paa)};
+        uniformClass = QCLASS(Uniform_Combat_LS_BS_DGP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ls_bs_dgp_bb_ca.paa)};
     };
     class CLASS(Unit_Combat_LS_TS_BP_BB): CLASS(Unit_Combat_Base) {
         scope = 1;
