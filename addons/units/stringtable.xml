@@ -149,5 +149,35 @@
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_GP_BB">
             <English>Combat Garment Rolled Sleeves (Green Shirt &amp; Green Pants &amp; Black Boots)</English>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_BP_BB">
+            <English>Combat Garment Rolled Sleeves (Green Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_EP_TB">
+            <English>Combat Garment Rolled Sleeves (Green Shirt &amp; Grey Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_ES_EP_TB">
+            <English>Combat Garment Rolled Sleeves (Grey Shirt &amp; Grey Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_ES_BP_BB">
+            <English>Combat Garment Rolled Sleeves (Grey Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_ES_GP_BB">
+            <English>Combat Garment Rolled Sleeves (Grey Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_TP_TB">
+            <English>Combat Garment Rolled Sleeves (Tan Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_TP_TB">
+            <English>Combat Garment Rolled Sleeves (Green Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_GP_BB">
+            <English>Combat Garment Rolled Sleeves (Tan Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_TP_TB">
+            <English>Combat Garment Rolled Sleeves (Black Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_BP_BB">
+            <English>Combat Garment Rolled Sleeves (Tan Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
     </Package>
 </Project>
