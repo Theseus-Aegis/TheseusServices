@@ -46,8 +46,8 @@ class CfgVehicles {
 
     // Naming pattern: SizeSleeves_ColorShirt_ColorPants_ColorBoots
 
-    // Combat
-    class CLASS(Unit_Combat_Base): B_Soldier_base_F {
+    // Combat - Long Sleeves
+    class CLASS(Unit_Combat_LS_Base): B_Soldier_base_F {
         dlc = QUOTE(PREFIX);
         scope = 0;
         side = 2;
@@ -65,156 +65,192 @@ class CfgVehicles {
         hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat.rvmat)};
     };
 
-    // Long SLeeves
-    class CLASS(Unit_Combat_LS_BS_GP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_BS_GP_BB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_BS_GP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_gp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_BS_GP_TB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_BS_GP_TB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_BS_GP_TB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_gp_tb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_BS_TP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_BS_TP_BB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_BS_TP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_tp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_BS_TP_TB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_BS_TP_TB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_BS_TP_TB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_tp_tb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_GS_BP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_GS_BP_BB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_GS_BP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_gs_bp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_GS_TP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_GS_TP_BB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_GS_TP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_gs_tp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_BS_DGP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_BS_DGP_BB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_BS_DGP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_dgp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_TS_BP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_TS_BP_BB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_TS_BP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_bp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_TS_GP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_TS_GP_BB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_TS_GP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_gp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_TS_GP_TB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_TS_GP_TB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_TS_GP_TB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_gp_tb_ca.paa)};
     };
     // Checked
-    class CLASS(Unit_Combat_LS_CDBS_GP_TB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_CDBS_GP_TB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_CDBS_GP_TB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cdbs_gp_tb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_CLBS_GP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_CLBS_GP_BB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_CLBS_GP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_clbs_gp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_CLRS_TP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_CLRS_TP_BB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_CLRS_TP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_clrs_tp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_LS_CPS_BP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_LS_CPS_BP_BB): CLASS(Unit_Combat_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_LS_CPS_BP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cps_bp_bb_ca.paa)};
     };
 
-    // Rolled Sleeves
-    class CLASS(Unit_Combat_RS_BS_GP_BB): CLASS(Unit_Combat_Base) {
+    // Combat - Rolled Sleeves
+    class B_Soldier_03_f;
+    class CLASS(Unit_Combat_RS_Base): B_Soldier_03_f {
+        dlc = QUOTE(PREFIX);
+        scope = 0;
+        side = 2;
+        faction = CLASS(IND);
+        weapons[] = {"Throw", "Put"};
+        respawnWeapons[] = {"Throw", "Put"};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        items[] = {"FirstAidKit"};
+        respawnItems[] = {"FirstAidKit"};
+        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+        nakedUniform = QCLASS(Underwear_BlackLogo);
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat.rvmat)};
+    };
+
+    class CLASS(Unit_Combat_RS_BS_GP_BB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_BS_GP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_gp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_RS_BS_GP_TB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_RS_BS_GP_TB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_BS_GP_TB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_gp_tb_ca.paa)};
     };
-    class CLASS(Unit_Combat_RS_BS_TP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_RS_BS_TP_BB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_BS_TP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_tp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_RS_BS_TP_TB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_RS_BS_TP_TB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_BS_TP_TB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_tp_tb_ca.paa)};
     };
-    class CLASS(Unit_Combat_RS_GS_BP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_RS_GS_BP_BB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_GS_BP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_gs_bp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_RS_GS_TP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_RS_GS_TP_BB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_GS_TP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_gs_tp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_RS_BS_DGP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_RS_BS_DGP_BB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_BS_DGP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_dgp_bb_ca.paa)};
     };
+    class CLASS(Unit_Combat_RS_TS_BP_BB): CLASS(Unit_Combat_RS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Combat_RS_TS_BP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_bp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Combat_RS_TS_GP_BB): CLASS(Unit_Combat_RS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Combat_RS_TS_GP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_gp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Combat_RS_TS_GP_TB): CLASS(Unit_Combat_RS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Combat_RS_TS_GP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_gp_tb_ca.paa)};
+    };
     // Checked
-    class CLASS(Unit_Combat_RS_CDBS_GP_TB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_RS_CDBS_GP_TB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_CDBS_GP_TB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cdbs_gp_tb_ca.paa)};
     };
-    class CLASS(Unit_Combat_RS_CLBS_GP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_RS_CLBS_GP_BB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_CLBS_GP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_clbs_gp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_RS_CLRS_TP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_RS_CLRS_TP_BB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_CLRS_TP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_clrs_tp_bb_ca.paa)};
     };
-    class CLASS(Unit_Combat_RS_CPS_BP_BB): CLASS(Unit_Combat_Base) {
+    class CLASS(Unit_Combat_RS_CPS_BP_BB): CLASS(Unit_Combat_RS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Combat_RS_CPS_BP_BB);
@@ -222,8 +258,9 @@ class CfgVehicles {
     };
 
 
-    // Garment
-    class CLASS(Unit_Garment_Base): I_Soldier_base_F {
+    // Garment - Long Sleeves
+    class I_Soldier_base_F;
+    class CLASS(Unit_Garment_LS_Base): I_Soldier_base_F {
         dlc = QUOTE(PREFIX);
         scope = 0;
         side = 2;
@@ -240,11 +277,133 @@ class CfgVehicles {
         nakedUniform = QCLASS(Underwear_GreenLogo);
     };
 
-    // Long SLeeves
-    class CLASS(Unit_Garment_LS_BS_BP_BB): CLASS(Unit_Garment_Base) {
+    class CLASS(Unit_Garment_LS_BS_BP_BB): CLASS(Unit_Garment_LS_Base) {
         scope = 1;
         author = "Pomigit, Jonpas";
-        uniformClass = QCLASS(Uniform_Combat_LS_BS_BP_BB);
+        uniformClass = QCLASS(Uniform_Garment_LS_BS_BP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_bp_bb_ca.paa)};
     };
+    class CLASS(Unit_Garment_LS_BS_GP_BB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_BS_GP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_gp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_BS_EP_TB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_BS_EP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_ep_tb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_GS_GP_BB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_GS_GP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_gs_gp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_GS_BP_BB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_GS_BP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_gs_bp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_GS_EP_TB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_GS_EP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_gs_ep_tb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_ES_EP_TB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_ES_EP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_es_ep_tb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_ES_BP_BB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_ES_BP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_es_bp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_ES_GP_BB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_ES_GP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_es_gp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_TS_TP_TB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_TS_TP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_ts_tp_tb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_GS_TP_TB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_GS_TP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_gs_tp_tb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_TS_GP_BB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_TS_GP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_ts_gp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_BS_TP_TB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_BS_TP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_tp_tb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_LS_TS_BP_BB): CLASS(Unit_Garment_LS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_LS_TS_BP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_ts_bp_bb_ca.paa)};
+    };
+
+    // Garment - Rolled Sleeves
+    class I_Soldier_02_F;
+    class CLASS(Unit_Garment_RS_Base): I_Soldier_02_F {
+        dlc = QUOTE(PREFIX);
+        scope = 0;
+        side = 2;
+        faction = CLASS(IND);
+        weapons[] = {"Throw", "Put"};
+        respawnWeapons[] = {"Throw", "Put"};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        items[] = {"FirstAidKit"};
+        respawnItems[] = {"FirstAidKit"};
+        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+        nakedUniform = QCLASS(Underwear_GreenLogo);
+    };
+
+    class CLASS(Unit_Garment_RS_BS_BP_BB): CLASS(Unit_Garment_RS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_RS_BS_BP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_bp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_RS_BS_GP_BB): CLASS(Unit_Garment_RS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_RS_BS_GP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_gp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_RS_BS_EP_TB): CLASS(Unit_Garment_RS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_RS_BS_EP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_ep_tb_ca.paa)};
+    };
+    class CLASS(Unit_Garment_RS_GS_GP_BB): CLASS(Unit_Garment_RS_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Garment_RS_GS_GP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_gs_gp_bb_ca.paa)};
+    };
+    //@here
 };
