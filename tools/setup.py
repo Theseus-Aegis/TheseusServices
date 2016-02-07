@@ -2,7 +2,6 @@
 
 #################################
 # Theseus Services Setup Script #
-#       (~ ACE3 0771ab2)        #
 #################################
 
 import os
@@ -15,7 +14,6 @@ import winreg
 ######## GLOBALS #########
 MAINDIR = "x"
 PROJECTDIR = "tacs"
-CBA = "P:\\x\\cba"
 ##########################
 
 def main():
@@ -23,7 +21,6 @@ def main():
     print("""
   ##################################################
   # Theseus Services Development Environment Setup #
-  #                (~ ACE3 0771ab2)                #
   ##################################################
 
   This script will create your Theseus Services dev environment for you.
@@ -37,9 +34,7 @@ def main():
   This script will create two hard links on your system, both pointing to your Theseus Services project folder:
     [Arma 3 installation directory]\\{} => Theseus Services project folder
     P:\\{}                              => Theseus Services project folder
-
-    It will also copy the required CBA includes to {}, if you do not have the CBA source code already.""".format(FULLDIR,FULLDIR,CBA))
-    print("\n")
+    """.format(FULLDIR,FULLDIR))
 
     try:
         reg = winreg.ConnectRegistry(None, winreg.HKEY_LOCAL_MACHINE)
@@ -93,23 +88,6 @@ def main():
         return 6
 
     print("# Links created successfully.")
-
-
-    print("\n# Copying required CBA includes ...")
-
-    if os.path.exists(CBA):
-        print("{} already exists, skipping.".format(CBA))
-        return -1
-
-    try:
-        shutil.copytree(os.path.join(projectpath, "tools", "cba"), CBA)
-    except:
-        raise
-        print("Something went wrong while copying CBA includes. Please copy tools\\cba to {} manually.".format(CBA))
-        return 7
-
-    print("# CBA includes copied successfully to {}.".format(CBA))
-
     return 0
 
 

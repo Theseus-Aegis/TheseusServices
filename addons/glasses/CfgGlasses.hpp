@@ -7,7 +7,7 @@ class CfgGlasses {
         model = QPATHTOF(data\goggles.p3d); \
         mass = 2; \
         ace_overlay = ""; \
-        ace_resistance = 2; \
+        ace_resistance = 2;
 
     class CLASS(Goggles_Black): G_Combat {
         MACRO_GOGGLES_COMMON

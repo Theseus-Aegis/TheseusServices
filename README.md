@@ -18,7 +18,6 @@
         <img src="https://img.shields.io/travis/Theseus-Aegis/TheseusServices.svg?style=flat-square" alt="Theseus Services Build Status">
     </a>
 </p>
-<p align="center"><sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.</strong></sup></p>
 
 **Theseus Services** is a content mod providing a number of assets for Arma 3, aimed at Private Military Company game style, developed around the needs of [Theseus Incorporated](http://www.theseus-aegis.com) community. Starting out as a mod by *Pomigit*, then maintained by *BadHabitz* with a number of other community developers contributing, it is a re-brand of a highly successful **PG Services** mod.
 
