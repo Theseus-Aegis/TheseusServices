@@ -175,7 +175,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         modelSides[] = {3, 2, 1, 0};
         identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
-        nakedUniform = QCLASS(Underwear_BlackLogo);
+        nakedUniform = QCLASS(Underwear_WhiteLogo);
         hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat.rvmat)};
     };
 
@@ -288,7 +288,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         modelSides[] = {3, 2, 1, 0};
         identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
-        nakedUniform = QCLASS(Underwear_GreenLogo);
+        nakedUniform = QCLASS(Underwear_BlueLogo);
     };
 
     class CLASS(Unit_Garment_LS_BS_BP_BB): CLASS(Unit_Garment_LS_Base) {
@@ -587,5 +587,80 @@ class CfgVehicles {
         uniformClass = QCLASS(Uniform_Polo_CP_BS_TP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_bs_tp_bb_ca.paa)};
     };
-    //@here
+
+    // TShirt - Jean Pants
+    class CLASS(Unit_TShirt_JP_Base): B_Soldier_base_F {
+        dlc = QUOTE(PREFIX);
+        scope = 0;
+        side = 2;
+        faction = CLASS(IND);
+        weapons[] = {"Throw", "Put"};
+        respawnWeapons[] = {"Throw", "Put"};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        items[] = {"FirstAidKit"};
+        respawnItems[] = {"FirstAidKit"};
+        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        model = "\A3\Characters_F\Civil\c_citizen5.p3d";
+        hiddenSelections[] = {"Camo1", "Camo2"};
+        modelSides[] = {3, 2, 1, 0};
+        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+        nakedUniform = QCLASS(Unit_Underwear_BlackLogo);
+    };
+
+    class CLASS(Unit_TShirt_JP_GS_LP_BB): CLASS(Unit_TShirt_JP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_TShirt_JP_GS_LP_BB);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\underwear_greenlogo_co.paa),
+            QPATHTOF(data\jeans_lp_bb_ca.paa)
+        };
+    };
+    class CLASS(Unit_TShirt_JP_GS_TP_BB): CLASS(Unit_TShirt_JP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_TShirt_JP_GS_TP_BB);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\underwear_greenlogo_co.paa),
+            QPATHTOF(data\jeans_tp_bb_ca.paa)
+        };
+    };
+    class CLASS(Unit_TShirt_JP_BS_LP_BB): CLASS(Unit_TShirt_JP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_TShirt_JP_BS_LP_BB);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\underwear_blacklogo_co.paa),
+            QPATHTOF(data\jeans_lp_bb_ca.paa)
+        };
+    };
+    class CLASS(Unit_TShirt_JP_BS_TP_BB): CLASS(Unit_TShirt_JP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_TShirt_JP_BS_TP_BB);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\underwear_blacklogo_co.paa),
+            QPATHTOF(data\jeans_tp_bb_ca.paa)
+        };
+    };
+    class CLASS(Unit_TShirt_JP_LS_TP_BB): CLASS(Unit_TShirt_JP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_TShirt_JP_LS_TP_BB);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\underwear_bluelogo_co.paa),
+            QPATHTOF(data\jeans_lp_bb_ca.paa)
+        };
+    };
+    class CLASS(Unit_TShirt_JP_WS_LP_BB): CLASS(Unit_TShirt_JP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_TShirt_JP_WS_LP_BB);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\underwear_whitelogo_co.paa),
+            QPATHTOF(data\jeans_lp_bb_ca.paa)
+        };
+    };
 };

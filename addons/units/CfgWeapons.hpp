@@ -757,7 +757,67 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Polo_CP_BS_TP_BB);
         };
     };
-    //@todo translations
-    //@todo units
-    //@todo data
+
+    // TShirt - Jean Pants
+    class CLASS(Uniform_TShirt_JP_GS_LP_BB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_TShirt_JP_GS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_gs_lp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_TShirt_JP_GS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_TShirt_JP_GS_TP_BB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_TShirt_JP_GS_TP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_gs_tp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_TShirt_JP_GS_TP_BB);
+        };
+    };
+    class CLASS(Uniform_TShirt_JP_BS_LP_BB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_TShirt_JP_BS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_bs_lp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_TShirt_JP_BS_LP_BB);
+        };
+    };
+
+    class CLASS(Uniform_TShirt_JP_BS_TP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_TShirt_JP_BS_TP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_bs_tp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_TShirt_JP_BS_TP_BB);
+        };
+    };
+    class CLASS(Uniform_TShirt_JP_LS_TP_BB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_TShirt_JP_LS_TP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_tp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_TShirt_JP_LS_TP_BB);
+        };
+    };
+    class CLASS(Uniform_TShirt_JP_WS_LP_BB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_TShirt_JP_WS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ws_lp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_TShirt_JP_WS_LP_BB);
+        };
+    };
 };

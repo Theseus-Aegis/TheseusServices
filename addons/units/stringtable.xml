@@ -221,5 +221,23 @@
         <Key ID="STR_TACS_Units_Uniform_Polo_CP_BS_TP_BB">
             <English>Tactical Clothes Cords (Black Shirt &amp; Tan Pants &amp; Black Boots)</English>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_LP_BB">
+            <English>T-Shirt &amp; Jeans (Green Shirt &amp; Blue Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_TP_BB">
+            <English>T-Shirt &amp; Jeans (Green Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_BS_LP_BB">
+            <English>T-Shirt &amp; Jeans (Black Shirt &amp; Blue Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_BS_TP_BB">
+            <English>T-Shirt &amp; Jeans (Black Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_LS_TP_BB">
+            <English>T-Shirt &amp; Jeans (Blue Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_WS_LP_BB">
+            <English>T-Shirt &amp; Jeans (White Shirt &amp; Blue Pants &amp; Black Boots)</English>
+        </Key>
     </Package>
 </Project>
