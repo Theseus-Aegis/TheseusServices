@@ -15,7 +15,8 @@ class CfgVehicles {
         respawnItems[] = {};
         linkedItems[] = {};
         respawnLinkedItems[] = {};
-        model = "\a3\characters_f\common\basicbody.p3d";
+        model = "\A3\Characters_F\Common\basicbody.p3d";
+        modelSides[] = {3, 2, 1, 0};
         identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
     };
     class CLASS(Unit_Underwear_BlackLogo): CLASS(Unit_Underwear_Base) {
@@ -60,11 +61,10 @@ class CfgVehicles {
         respawnItems[] = {"FirstAidKit"};
         linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        modelSides[] = {3, 2, 1, 0};
         identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
         nakedUniform = QCLASS(Underwear_BlackLogo);
         hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat.rvmat)};
-
-        class Wounds;
     };
 
     class CLASS(Unit_Combat_LS_BS_GP_BB): CLASS(Unit_Combat_LS_Base) {
@@ -130,11 +130,7 @@ class CfgVehicles {
 
     // Combat - Long Sleeves - Checked
     class CLASS(Unit_Combat_LS_C_Base): CLASS(Unit_Combat_LS_Base) {
-        hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_checked.rvmat)}; //@todo fix Cannot load material file
-
-        class Wounds: Wounds {
-            mat[] = {QPATHTOF(data\uniform_combat_checked.rvmat), "A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat", "A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat", "A3\Characters_F\Common\Data\basicbody.rvmat", "A3\Characters_F\Common\Data\basicbody_injury.rvmat", "A3\Characters_F\Common\Data\basicbody_injury.rvmat", "A3\characters_f\common\data\coveralls.rvmat", "A3\Characters_F\Common\Data\coveralls_injury.rvmat", "A3\Characters_F\Common\Data\coveralls_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat", "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat", "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat", "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_old.rvmat", "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat", "A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat", "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
-        };
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_checked.rvmat)};
     };
 
     class CLASS(Unit_Combat_LS_CDBS_GP_TB): CLASS(Unit_Combat_LS_C_Base) {
@@ -177,11 +173,10 @@ class CfgVehicles {
         respawnItems[] = {"FirstAidKit"};
         linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        modelSides[] = {3, 2, 1, 0};
         identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
         nakedUniform = QCLASS(Underwear_BlackLogo);
         hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat.rvmat)};
-
-        class Wounds;
     };
 
     class CLASS(Unit_Combat_RS_BS_GP_BB): CLASS(Unit_Combat_RS_Base) {
@@ -247,11 +242,7 @@ class CfgVehicles {
 
     // Combat - Rolled Sleeves - Checked
     class CLASS(Unit_Combat_RS_C_Base): CLASS(Unit_Combat_RS_Base) {
-        hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_checked.rvmat)}; //@todo fix Cannot load material file
-
-        class Wounds: Wounds {
-            mat[] = {QPATHTOF(data\uniform_combat_checked.rvmat), "A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat", "A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat", "A3\Characters_F\Common\Data\basicbody.rvmat", "A3\Characters_F\Common\Data\basicbody_injury.rvmat", "A3\Characters_F\Common\Data\basicbody_injury.rvmat", "A3\characters_f\common\data\coveralls.rvmat", "A3\Characters_F\Common\Data\coveralls_injury.rvmat", "A3\Characters_F\Common\Data\coveralls_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat", "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat", "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat", "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_old.rvmat", "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat", "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat", "A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat", "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat", "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
-        };
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_checked.rvmat)};
     };
 
     class CLASS(Unit_Combat_RS_CDBS_GP_TB): CLASS(Unit_Combat_RS_C_Base) {
@@ -295,6 +286,7 @@ class CfgVehicles {
         respawnItems[] = {"FirstAidKit"};
         linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        modelSides[] = {3, 2, 1, 0};
         identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
         nakedUniform = QCLASS(Underwear_GreenLogo);
     };
@@ -399,6 +391,7 @@ class CfgVehicles {
         respawnItems[] = {"FirstAidKit"};
         linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        modelSides[] = {3, 2, 1, 0};
         identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
         nakedUniform = QCLASS(Underwear_GreenLogo);
     };
@@ -486,6 +479,113 @@ class CfgVehicles {
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Uniform_Garment_RS_TS_BP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_ts_bp_bb_ca.paa)};
+    };
+
+
+    // Polo - Tactical Pants
+    class CLASS(Unit_Polo_TP_Base): B_Soldier_base_F {
+        dlc = QUOTE(PREFIX);
+        scope = 0;
+        side = 2;
+        faction = CLASS(IND);
+        weapons[] = {"Throw", "Put"};
+        respawnWeapons[] = {"Throw", "Put"};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        items[] = {"FirstAidKit"};
+        respawnItems[] = {"FirstAidKit"};
+        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        model = "\A3\Characters_F\Civil\c_poloshirtpants.p3d";
+        modelSides[] = {3, 2, 1, 0};
+        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+        nakedUniform = QCLASS(Unit_Underwear_BlueLogo);
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_polo.rvmat)};
+    };
+
+    class CLASS(Unit_Polo_TP_LS_TP_TB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_LS_TP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ls_tp_tb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_TP_TS_GP_BB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_TS_GP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ts_gp_bb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_TP_BS_TP_TB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_BS_TP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_bs_tp_tb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_TP_BS_LP_BB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_BS_LP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_bs_lp_bb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_TP_LS_GP_BB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_LS_GP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ls_gp_bb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_TP_OS_TP_BB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_OS_TP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_os_tp_bb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_TP_OS_LP_BB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_OS_LP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_os_lp_bb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_TP_GS_TP_TB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_GS_TP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_gs_tp_tb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_TP_WS_TP_TB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_WS_TP_TB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ws_tp_tb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_WS_LP_BB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_WS_LP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ws_lp_bb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_TP_WS_GP_BB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_TP_WS_GP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ws_gp_bb_ca.paa)};//@todo - change logo
+    };
+    class CLASS(Unit_Polo_CP_LS_TP_OB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_CP_LS_TP_OB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ls_tp_ob_ca.paa)};
+    };
+    class CLASS(Unit_Polo_CP_RS_LP_BB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_CP_RS_LP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_rs_lp_bb_ca.paa)};
+    };
+    class CLASS(Unit_Polo_CP_BS_TP_BB): CLASS(Unit_Polo_TP_Base) {
+        scope = 1;
+        author = "Pomigit, Jonpas";
+        uniformClass = QCLASS(Uniform_Polo_CP_BS_TP_BB);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_bs_tp_bb_ca.paa)};
     };
     //@here
 };

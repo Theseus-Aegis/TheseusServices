@@ -613,8 +613,151 @@ class CfgWeapons {
         };
     };
 
+
+    // Polo - Tactical Pants
+    class CLASS(Uniform_Polo_TP_LS_TP_TB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_LS_TP_TB);
+        picture = QPATHTOF(UI\uniform_polo_tp_ls_tp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_TP_LS_TP_TB);
+        };
+    };
+    class CLASS(Uniform_Polo_TP_TS_GP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_TS_GP_BB);
+        picture = QPATHTOF(UI\uniform_polo_tp_ts_gp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_TP_TS_GP_BB);
+        };
+    };
+    class CLASS(Uniform_Polo_TP_BS_TP_TB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_BS_TP_TB);
+        picture = QPATHTOF(UI\uniform_polo_tp_bs_tp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_TP_BS_TP_TB);
+        };
+    };
+    class CLASS(Uniform_Polo_TP_BS_LP_BB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_BS_LP_BB);
+        picture = QPATHTOF(UI\uniform_polo_tp_bs_lp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_TP_BS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Polo_TP_LS_GP_BB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_LS_GP_BB);
+        picture = QPATHTOF(UI\uniform_polo_tp_ls_gp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_TP_LS_GP_BB);
+        };
+    };
+    class CLASS(Uniform_Polo_TP_OS_TP_BB): CLASS(Uniform_Base) { // O = Brown
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_OS_TP_BB);
+        picture = QPATHTOF(UI\uniform_polo_tp_os_tp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_TP_OS_TP_BB);
+        };
+    };
+    class CLASS(Uniform_Polo_TP_OS_LP_BB): CLASS(Uniform_Base) { // O = Brown, L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_OS_LP_BB);
+        picture = QPATHTOF(UI\uniform_polo_tp_os_lp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_TP_OS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Polo_TP_GS_TP_TB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_GS_TP_TB);
+        picture = QPATHTOF(UI\uniform_polo_tp_gs_tp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_TP_GS_TP_TB);
+        };
+    };
+    class CLASS(Uniform_Polo_TP_WS_TP_TB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_WS_TP_TB);
+        picture = QPATHTOF(UI\uniform_polo_tp_ws_tp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_TP_WS_TP_TB);
+        };
+    };
+    class CLASS(Uniform_Polo_TP_WS_LP_BB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_WS_LP_BB);
+        picture = QPATHTOF(UI\uniform_polo_tp_ws_lp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_WS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Polo_TP_WS_GP_BB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_TP_WS_GP_BB);
+        picture = QPATHTOF(UI\uniform_polo_tp_ws_gp.paa);//@todo - change logo
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_TP_WS_GP_BB);
+        };
+    };
+
+    // Polo - Cord Pants
+    class CLASS(Uniform_Polo_CP_LS_TP_OB): CLASS(Uniform_Base) { // O = Brown
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_CP_LS_TP_OB);
+        picture = QPATHTOF(UI\uniform_polo_cp_ls_tp.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_CP_LS_TP_OB);
+        };
+    };
+    class CLASS(Uniform_Polo_CP_RS_LP_BB): CLASS(Uniform_Base) { // L = Blue
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_CP_RS_LP_BB);
+        picture = QPATHTOF(UI\uniform_polo_cp_rs_lp.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_CP_RS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Polo_CP_BS_TP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Uniform_Polo_CP_BS_TP_BB);
+        picture = QPATHTOF(UI\uniform_polo_cp_bs_tp.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Polo_CP_BS_TP_BB);
+        };
+    };
     //@todo translations
     //@todo units
     //@todo data
-
 };

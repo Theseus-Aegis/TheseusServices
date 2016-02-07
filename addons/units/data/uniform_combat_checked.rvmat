@@ -77,7 +77,7 @@ class Stage6
 };
 class Stage7
 {
-	texture="a3\data\env_co.paa";
+	texture="a3\data_f\env_co.paa";
 	uvSource="tex";
 	class uvTransform
 	{

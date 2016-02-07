@@ -179,5 +179,47 @@
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_BP_BB">
             <English>Combat Garment Rolled Sleeves (Tan Shirt &amp; Black Pants &amp; Black Boots)</English>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_LS_TP_TB">
+            <English>Tactical Clothes (Blue Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_TS_GP_BB">
+            <English>Tactical Clothes (Tan Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_BS_TP_TB">
+            <English>Tactical Clothes (Black Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_BS_LP_BB">
+            <English>Tactical Clothes (Black Shirt &amp; Blue Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_LS_GP_BB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_TP_BB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_LP_BB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_GS_TP_TB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_TP_TB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_LP_BB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_GP_BB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_CP_LS_TP_OB">
+            <English>Tactical Clothes Cords (Blue Shirt &amp; Tan Pants &amp; Brown Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_CP_RS_LP_BB">
+            <English>Tactical Clothes Cords (Red Shirt &amp; Blue Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_CP_BS_TP_BB">
+            <English>Tactical Clothes Cords (Black Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
     </Package>
 </Project>
