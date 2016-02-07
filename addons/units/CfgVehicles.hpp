@@ -1,4 +1,5 @@
 class CfgVehicles {
+    // UNIFORM HELPER UNITS
     // Naked
     #define MACRO_UNDERWEAR_BASE \
         dlc = QUOTE(PREFIX); \
@@ -56,6 +57,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"}; \
         modelSides[] = {6}; \
         identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+        //genericNames = QUOTE(PREFIX);//@todo
 
     // Naming pattern: SizeSleeves_ColorShirt_ColorPants_ColorBoots
     class B_Soldier_base_F;
@@ -599,5 +601,214 @@ class CfgVehicles {
             QPATHTOF(data\underwear_whitelogo_co.paa),
             QPATHTOF(data\jeans_lp_bb_ca.paa)
         };
+    };
+
+
+
+    // ITEMS ON GROUND
+    //@todo
+
+
+
+    // UNITS
+    class CLASS(Unit_I_Bodyguard): CLASS(Unit_Polo_CP_LS_TP_OB) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Unit_Bodyguard);
+        weapons[] += {"SMG_02_ACO_F", "hgun_P07_F", "Binocular"};
+        respawnWeapons[] += {"SMG_02_ACO_F", "hgun_P07_F", "Binocular"};
+        magazines[] += {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        respawnMagazines[] += {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        linkedItems[] += {QCLASS(Cap_Earpiece_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+        respawnLinkedItems[] += {QCLASS(Cap_Earpiece_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+    };
+    class CLASS(Unit_B_Bodyguard): CLASS(Unit_I_Bodyguard) {
+        side = 1;
+        faction = CLASS(BLU);
+    };
+
+    class CLASS(Unit_I_Contractor): CLASS(Unit_Polo_TP_LS_TP_TB) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Unit_Contractor);
+        weapons[] += {QCLASS(MX_BlackCamo), "hgun_P07_F", "Binocular"};
+        respawnWeapons[] += {QCLASS(MX_BlackCamo), "hgun_P07_F", "Binocular"};
+        magazines[] += {ITEMS_11(30Rnd_65x39_caseless_mag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
+        respawnMagazines[] += {ITEMS_11(30Rnd_65x39_caseless_mag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
+        linkedItems[] += {QCLASS(Cap_Earpiece_TanLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrier_MARPAT)};
+        respawnLinkedItems[] += {QCLASS(Cap_Earpiece_TanLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrier_MARPAT)};
+    };
+    class CLASS(Unit_B_Contractor): CLASS(Unit_I_Contractor) {
+        scope = 2;
+        side = 1;
+        faction = CLASS(BLU);
+    };
+
+    class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_RS_BS_GP_BB) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Unit_Contractor_GL);
+        weapons[] += {QCLASS(MX_GL_BlackCamo), "hgun_P07_F", "Binocular"};
+        respawnWeapons[] += {QCLASS(MX_BlackCamo), "hgun_P07_F", "Binocular"};
+        magazines[] += {ITEMS_8(30Rnd_65x39_caseless_mag), ITEMS_2(1Rnd_Smoke_Grenade_shell), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell", ITEMS_6(1Rnd_HE_Grenade_shell), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_5(HandGrenade)};
+        respawnMagazines[] += {ITEMS_8(30Rnd_65x39_caseless_mag), ITEMS_2(1Rnd_Smoke_Grenade_shell), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell", ITEMS_6(1Rnd_HE_Grenade_shell), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_5(HandGrenade)};
+        linkedItems[] += {QCLASS(Cap_Earpiece_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+        respawnLinkedItems[] += {QCLASS(Cap_Earpiece_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+    };
+    class CLASS(Unit_B_Contractor_GL): CLASS(Unit_I_Contractor_GL) {
+        scope = 2;
+        side = 1;
+        faction = CLASS(BLU);
+    };
+
+    class CLASS(Unit_I_Engineer): CLASS(Unit_Polo_TP_LS_TP_TB) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Unit_Engineer);
+        weapons[] += {QCLASS(MX_BlackCamo), "hgun_P07_F", "Binocular"};
+        respawnWeapons[] += {QCLASS(MX_BlackCamo), "hgun_P07_F", "Binocular"};
+        magazines[] += {ITEMS_12(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        respawnMagazines[] += {ITEMS_12(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        linkedItems[] += {QCLASS(Hat_Boonie_RangerGreen), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
+        respawnLinkedItems[] += {QCLASS(Hat_Boonie_RangerGreen), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
+        //backpack = "B_Bergen_rgr_Exp"; //@todo
+
+        engineer = 1;
+        detectSkill = 40;//@todo - verify value
+        //canDeactivateMines = 1;//@todo - needed=
+        icon = "iconManEngineer";
+		picture = "pictureRepair";
+    };
+    class CLASS(Unit_B_Engineer): CLASS(Unit_I_Engineer) {
+        scope = 2;
+        side = 1;
+        faction = CLASS(BLU);
+    };
+
+    class CLASS(Unit_I_Medic): CLASS(Unit_Combat_RS_BS_GP_BB) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Unit_Medic);
+        weapons[] += {"SMG_02_ACO_F", "hgun_P07_F", "Binocular"};
+        respawnWeapons[] += {"SMG_02_ACO_F", "hgun_P07_F", "Binocular"};
+        magazines[] += {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", ITEMS_2(HandGrenade)};
+        respawnMagazines[] += {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", ITEMS_2(HandGrenade)};
+        linkedItems[] += {QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+        respawnLinkedItems[] += {QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+        //backpack = "B_Kitbag_blk_Medic"; //@todo
+
+        attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
+    };
+    class CLASS(Unit_B_Medic): CLASS(Unit_I_Medic) {
+        scope = 2;
+        side = 1;
+        faction = CLASS(BLU);
+    };
+
+    class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_BS_GP_BB) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Unit_Specialist);
+        weapons[] += {QCLASS(MX_BlackCamo), "hgun_Rook40_F", "Binocular"};
+        respawnWeapons[] += {QCLASS(MX_BlackCamo), "hgun_Rook40_F", "Binocular"};
+        magazines[] += {ITEMS_11(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        respawnMagazines[] += {ITEMS_11(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        linkedItems[] += {QCLASS(Cap_Earpiece_TanLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrierFull_Black)};
+        respawnLinkedItems[] += {QCLASS(Cap_Earpiece_TanLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrierFull_Black)};
+
+        icon = "iconManMG";
+    };
+    class CLASS(Unit_B_Specialist): CLASS(Unit_I_Specialist) {
+        scope = 2;
+        side = 1;
+        faction = CLASS(BLU);
+    };
+
+    class CLASS(Unit_I_TeamLeader): CLASS(Unit_TShirt_JP_GS_LP_BB) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Unit_TeamLeader);
+        weapons[] += {"LMG_Mk200_MRCO_F", "hgun_Rook40_F", "Binocular"};
+        respawnWeapons[] += {"LMG_Mk200_MRCO_F", "hgun_Rook40_F", "Binocular"};
+        magazines[] += {ITEMS_4(200Rnd_65x39_cased_Box_Tracer), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        respawnMagazines[] += {ITEMS_4(200Rnd_65x39_cased_Box_Tracer), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        linkedItems[] += {QCLASS(Cap_Headphones_BlackLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Khaki)};
+        respawnLinkedItems[] += {QCLASS(Cap_Headphones_BlackLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Khaki)};
+
+        icon = "iconManLeader";
+        textSingular = "$STR_A3_nameSound_veh_infantry_officer_s";
+        textPlural = "$STR_A3_nameSound_veh_infantry_officer_p";
+        nameSound = "veh_infantry_officer_s";
+
+        class SpeechVariants {
+            class Default {
+                speechSingular[] = {"veh_infantry_officer_s"};
+                speechPlural[] = {"veh_infantry_officer_p"};
+            };
+        };
+    };
+    class CLASS(Unit_B_TeamLeader): CLASS(Unit_I_TeamLeader) {
+        scope = 2;
+        side = 1;
+        faction = CLASS(BLU);
+    };
+
+    class CLASS(Unit_I_Sniper): CLASS(Unit_TShirt_JP_GS_LP_BB) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Unit_Sniper);
+        weapons[] += {"srifle_EBR_SOS_F", "hgun_Rook40_F", "Binocular"};
+        respawnWeapons[] += {"srifle_EBR_SOS_F", "hgun_Rook40_F", "Binocular"};
+        magazines[] += {ITEMS_10(20Rnd_762x51_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        respawnMagazines[] += {ITEMS_10(20Rnd_762x51_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        linkedItems[] += {QCLASS(Cap_Headphones_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+        respawnLinkedItems[] += {QCLASS(Cap_Headphones_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+
+        //icon = "";//@todo - sniper icon?
+        textSingular = "$STR_A3_nameSound_veh_infantry_sniper_s";
+        textPlural = "$STR_A3_nameSound_veh_infantry_sniper_p";
+        nameSound = "veh_infantry_sniper_s";
+
+        class SpeechVariants {
+            class Default {
+                speechSingular[] = {"veh_infantry_sniper_s"};
+                speechPlural[] = {"veh_infantry_sniper_p"};
+            };
+        };
+    };
+    class CLASS(Unit_B_Sniper): CLASS(Unit_I_Sniper) {
+        scope = 2;
+        side = 1;
+        faction = CLASS(BLU);
+    };
+
+    class CLASS(Unit_I_PilotHelicopter): CLASS(Unit_Combat_RS_BS_GP_BB) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Unit_PilotHelicopter);
+        weapons[] += {"hgun_Rook40_F", "Binocular"};
+        respawnWeapons[] += {"hgun_Rook40_F", "Binocular"};
+        magazines[] += {ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        respawnMagazines[] += {ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        linkedItems[] += {QCLASS(Helmet_PilotHeli_Tan), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+        respawnLinkedItems[] += {QCLASS(Helmet_PilotHeli_Tan), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+
+        textSingular = "$STR_A3_nameSound_veh_infantry_pilot_s";
+        textPlural = "$STR_A3_nameSound_veh_infantry_pilot_p";
+        nameSound = "veh_infantry_pilot_s";
+
+        class SpeechVariants {
+            class Default {
+                speechSingular[] = {"veh_infantry_pilot_s"};
+                speechPlural[] = {"veh_infantry_pilot_p"};
+            };
+        };
+    };
+    class CLASS(Unit_B_PilotHelicopter): CLASS(Unit_I_PilotHelicopter) {
+        scope = 2;
+        side = 1;
+        faction = CLASS(BLU);
     };
 };

@@ -6,7 +6,10 @@ class CfgFactionClasses {
         side = 2;
         priority = 2;
     };
-    class CLASS(BLU): CLASS(IND) {
+    class CLASS(BLU) {
+        displayName = CSTRING(Company);
+        //flag = QPATHTOF(UI\flag_tac_co.paa);//@todo - Theseus flag
+        icon = QPATHTOF(UI\logo_tac_small_ca.paa);
         side = 1;
         priority = 3;
     };

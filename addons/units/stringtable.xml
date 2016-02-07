@@ -239,5 +239,59 @@
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_WS_LP_BB">
             <English>T-Shirt &amp; Jeans (White Shirt &amp; Blue Pants &amp; Black Boots)</English>
         </Key>
+        <Key ID="STR_TACS_Units_Unit_Bodyguard">
+            <English>Bodyguard</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Contractor">
+            <English>Contractor</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Contractor_GL">
+            <English>Contractor (GL)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Engineer">
+            <English>Engineer</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Medic">
+            <English>Medic</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Specialist">
+            <English>Specialist (LMG)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_TeamLeader">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Sniper">
+            <English>Sniper</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_PilotHelicopter">
+            <English>Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_TACS_Units_GroupType_Infantry">
+            <English>Infantry</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Bodyguards">
+            <English>Bodyguards</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Patrol">
+            <English>Patrol</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Team">
+            <English>Team</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Squad">
+            <English>Squad</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Specialists">
+            <English>Specialists</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Support">
+            <English>Support</English>
+        </Key>
+        <Key ID="STR_TACS_Units_GroupType_Motorized">
+            <English>Motorized</English>
+        </Key>
+        <Key ID="STR_TACS_Units_GroupType_Air">
+            <English>Air</English>
+        </Key>
     </Package>
 </Project>

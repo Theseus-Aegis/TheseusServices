@@ -7,24 +7,28 @@ class CfgWeapons {
     };
     class CLASS(Underwear_BlackLogo): U_BasicBody {
         scope = 1;
+        author = "Pomigit, Jonpas, Rory";
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Underwear_BlackLogo);
         };
     };
     class CLASS(Underwear_WhiteLogo): U_BasicBody {
         scope = 1;
+        author = "Pomigit, Jonpas, Rory";
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Underwear_WhiteLogo);
         };
     };
     class CLASS(Underwear_BlueLogo): U_BasicBody {
         scope = 1;
+        author = "Pomigit, Jonpas, Rory";
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Underwear_BlueLogo);
         };
     };
     class CLASS(Underwear_GreenLogo): U_BasicBody {
         scope = 1;
+        author = "Pomigit, Jonpas, Rory";
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Underwear_GreenLogo);
         };

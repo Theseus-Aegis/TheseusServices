@@ -21,3 +21,16 @@
 // Stringtable
 #define CSTRING(var1) QUOTE(TRIPLES($STR,ADDON,var1))
 #define ECSTRING(var1,var2) QUOTE(TRIPLES($STR,DOUBLES(PREFIX,var1),var2))
+
+// Items
+#define ITEMS_2(var) #var, #var
+#define ITEMS_3(var) #var, #var, #var
+#define ITEMS_4(var) #var, #var, #var, #var
+#define ITEMS_5(var) #var, #var, #var, #var, #var
+#define ITEMS_6(var) #var, #var, #var, #var, #var, #var
+#define ITEMS_7(var) #var, #var, #var, #var, #var, #var, #var
+#define ITEMS_8(var) #var, #var, #var, #var, #var, #var, #var, #var
+#define ITEMS_9(var) #var, #var, #var, #var, #var, #var, #var, #var, #var
+#define ITEMS_10(var) #var, #var, #var, #var, #var, #var, #var, #var, #var, #var
+#define ITEMS_11(var) #var, #var, #var, #var, #var, #var, #var, #var, #var, #var, #var
+#define ITEMS_12(var) #var, #var, #var, #var, #var, #var, #var, #var, #var, #var, #var, #var
