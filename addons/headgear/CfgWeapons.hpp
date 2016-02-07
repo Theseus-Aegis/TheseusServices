@@ -44,7 +44,7 @@ class CfgWeapons {
         model = QPATHTOF(data\cap_earpiece.p3d); \
         class ItemInfo: ItemInfo { \
             mass = 5; \
-            uniformModel = QPATHTOF(data\cap_earpiece.p3d);
+            uniformModel = QPATHTOF(data\cap_earpiece.p3d); \
         };
 
     class CLASS(Cap_Earpiece_BlackLogo): H_Cap_red {
@@ -71,14 +71,14 @@ class CfgWeapons {
             uniformModel = QPATHTOF(data\cap_backwards.p3d); \
         };
 
-    class CLASS(Cap_Backwards_BlackLogo): CLASS(Cap_Backwards_Base) {
+    class CLASS(Cap_Backwards_BlackLogo): H_Cap_red {
         MACRO_BACKWARDS_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_Backwards_BlackLogo);
         picture = QPATHTOF(UI\cap_backwards_black_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
-    class CLASS(Cap_Backwards_TanLogo): CLASS(Cap_Backwards_Base) {
+    class CLASS(Cap_Backwards_TanLogo): H_Cap_red {
         MACRO_BACKWARDS_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_Backwards_TanLogo);

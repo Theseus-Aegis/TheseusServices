@@ -9,9 +9,9 @@
             <English>Tactical Goggles (Green)</English>
             <German>Taktische Brille (grün)</German>
         </Key>
-        <Key ID="STR_TACS_Glasses_Goggles_Sand">
-            <English>Tactical Goggles (Sand)</English>
-            <German>Taktische Brille (sand)</German>
+        <Key ID="STR_TACS_Glasses_Goggles_Tan">
+            <English>Tactical Goggles (Tan)</English>
+            <German>Taktische Brille (hellbraune)</German>
         </Key>
     </Package>
 </Project>

@@ -21,10 +21,10 @@ class CfgGlasses {
         displayname = CSTRING(Goggles_Green);
         hiddenSelectionsTextures[] = {QPATHTOF(data\goggles_green_ca.paa)};
     };
-    class CLASS(Goggles_Sand): G_Combat {
+    class CLASS(Goggles_Tan): G_Combat {
         MACRO_GOGGLES_COMMON
         author = "Pomigit, Jonpas";
-        displayname = CSTRING(Goggles_Sand);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\goggles_sand_ca.paa)};
+        displayname = CSTRING(Goggles_Tan);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\goggles_tan_ca.paa)};
     };
 };
