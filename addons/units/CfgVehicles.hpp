@@ -1,3 +1,19 @@
+#define MACRO_BASE_CLASS_COMMON \
+    dlc = QUOTE(PREFIX); \
+    scope = 0; \
+    side = 2; \
+    faction = CLASS(IND); \
+    weapons[] = {"Throw", "Put"}; \
+    respawnWeapons[] = {"Throw", "Put"}; \
+    magazines[] = {}; \
+    respawnMagazines[] = {}; \
+    items[] = {"FirstAidKit"}; \
+    respawnItems[] = {"FirstAidKit"}; \
+    linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"}; \
+    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"}; \
+    modelSides[] = {6}; \
+    identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+
 class CfgVehicles {
     class B_Soldier_base_F;
 
@@ -49,20 +65,7 @@ class CfgVehicles {
 
     // Combat - Long Sleeves
     class CLASS(Unit_Combat_LS_Base): B_Soldier_base_F {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        side = 2;
-        faction = CLASS(IND);
-        weapons[] = {"Throw", "Put"};
-        respawnWeapons[] = {"Throw", "Put"};
-        magazines[] = {};
-        respawnMagazines[] = {};
-        items[] = {"FirstAidKit"};
-        respawnItems[] = {"FirstAidKit"};
-        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        modelSides[] = {3, 2, 1, 0};
-        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+        MACRO_BASE_CLASS_COMMON
         nakedUniform = QCLASS(Underwear_BlackLogo);
         hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat.rvmat)};
     };
@@ -129,7 +132,9 @@ class CfgVehicles {
     };
 
     // Combat - Long Sleeves - Checked
-    class CLASS(Unit_Combat_LS_C_Base): CLASS(Unit_Combat_LS_Base) {
+    class CLASS(Unit_Combat_LS_C_Base): B_Soldier_base_F {
+        MACRO_BASE_CLASS_COMMON
+        nakedUniform = QCLASS(Underwear_BlackLogo);
         hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_checked.rvmat)};
     };
 
@@ -161,20 +166,7 @@ class CfgVehicles {
     // Combat - Rolled Sleeves
     class B_Soldier_03_f;
     class CLASS(Unit_Combat_RS_Base): B_Soldier_03_f {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        side = 2;
-        faction = CLASS(IND);
-        weapons[] = {"Throw", "Put"};
-        respawnWeapons[] = {"Throw", "Put"};
-        magazines[] = {};
-        respawnMagazines[] = {};
-        items[] = {"FirstAidKit"};
-        respawnItems[] = {"FirstAidKit"};
-        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        modelSides[] = {3, 2, 1, 0};
-        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+        MACRO_BASE_CLASS_COMMON
         nakedUniform = QCLASS(Underwear_WhiteLogo);
         hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat.rvmat)};
     };
@@ -274,20 +266,7 @@ class CfgVehicles {
     // Garment - Long Sleeves
     class I_Soldier_base_F;
     class CLASS(Unit_Garment_LS_Base): I_Soldier_base_F {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        side = 2;
-        faction = CLASS(IND);
-        weapons[] = {"Throw", "Put"};
-        respawnWeapons[] = {"Throw", "Put"};
-        magazines[] = {};
-        respawnMagazines[] = {};
-        items[] = {"FirstAidKit"};
-        respawnItems[] = {"FirstAidKit"};
-        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        modelSides[] = {3, 2, 1, 0};
-        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+        MACRO_BASE_CLASS_COMMON
         nakedUniform = QCLASS(Underwear_BlueLogo);
     };
 
@@ -379,20 +358,7 @@ class CfgVehicles {
     // Garment - Rolled Sleeves
     class I_Soldier_02_F;
     class CLASS(Unit_Garment_RS_Base): I_Soldier_02_F {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        side = 2;
-        faction = CLASS(IND);
-        weapons[] = {"Throw", "Put"};
-        respawnWeapons[] = {"Throw", "Put"};
-        magazines[] = {};
-        respawnMagazines[] = {};
-        items[] = {"FirstAidKit"};
-        respawnItems[] = {"FirstAidKit"};
-        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        modelSides[] = {3, 2, 1, 0};
-        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+        MACRO_BASE_CLASS_COMMON
         nakedUniform = QCLASS(Underwear_GreenLogo);
     };
 
@@ -483,22 +449,9 @@ class CfgVehicles {
 
 
     // Polo - Tactical Pants
-    class CLASS(Unit_Polo_TP_Base): B_Soldier_base_F {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        side = 2;
-        faction = CLASS(IND);
-        weapons[] = {"Throw", "Put"};
-        respawnWeapons[] = {"Throw", "Put"};
-        magazines[] = {};
-        respawnMagazines[] = {};
-        items[] = {"FirstAidKit"};
-        respawnItems[] = {"FirstAidKit"};
-        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        model = "\A3\Characters_F\Civil\c_poloshirtpants.p3d";
-        modelSides[] = {3, 2, 1, 0};
-        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
+    class B_RangeMaster_F;
+    class CLASS(Unit_Polo_TP_Base): B_RangeMaster_F {
+        MACRO_BASE_CLASS_COMMON
         nakedUniform = QCLASS(Unit_Underwear_BlueLogo);
         hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_polo.rvmat)};
     };
@@ -590,23 +543,10 @@ class CfgVehicles {
 
     // TShirt - Jean Pants
     class CLASS(Unit_TShirt_JP_Base): B_Soldier_base_F {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        side = 2;
-        faction = CLASS(IND);
-        weapons[] = {"Throw", "Put"};
-        respawnWeapons[] = {"Throw", "Put"};
-        magazines[] = {};
-        respawnMagazines[] = {};
-        items[] = {"FirstAidKit"};
-        respawnItems[] = {"FirstAidKit"};
-        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        MACRO_BASE_CLASS_COMMON
+        nakedUniform = QCLASS(Unit_Underwear_BlackLogo);
         model = "\A3\Characters_F\Civil\c_citizen5.p3d";
         hiddenSelections[] = {"Camo1", "Camo2"};
-        modelSides[] = {3, 2, 1, 0};
-        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
-        nakedUniform = QCLASS(Unit_Underwear_BlackLogo);
     };
 
     class CLASS(Unit_TShirt_JP_GS_LP_BB): CLASS(Unit_TShirt_JP_Base) {

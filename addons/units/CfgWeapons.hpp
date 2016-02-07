@@ -32,15 +32,20 @@ class CfgWeapons {
 
 
     // Uniforms
-    class U_B_CTRG_1;
-    class CLASS(Uniform_Base): U_B_CTRG_1 {
+    class UniformItem;
+    class CLASS(Uniform_Base): Uniform_Base {
         dlc = QUOTE(PREFIX);
         scope = 0;
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 
-        class ItemInfo;
+        class ItemInfo: UniformItem {
+            uniformModel = "-";
+            containerClass = "Supply40";
+            mass = 40;
+        };
     };
 
-    // Naming pattern: SizeSleeves_ColorShirt_ColorPants_ColorBoots
+    // Naming pattern: TypeSleevesOrPants_ColorShirt_ColorPants_ColorBoots
 
     // Combat - Long SLeeves
     class CLASS(Uniform_Combat_LS_BS_GP_BB): CLASS(Uniform_Base) {

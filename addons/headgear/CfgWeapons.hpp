@@ -38,25 +38,24 @@ class CfgWeapons {
     };
 
 
-    class CLASS(Cap_Earpiece_Base): H_Cap_red {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        model = QPATHTOF(data\cap_earpiece.p3d);
-
-        class ItemInfo: ItemInfo {
-            //mass = 4;//default + 1
+    #define MACRO_EARPIECE_COMMON \
+        dlc = QUOTE(PREFIX); \
+        scope = 2; \
+        model = QPATHTOF(data\cap_earpiece.p3d); \
+        class ItemInfo: ItemInfo { \
+            mass = 5; \
             uniformModel = QPATHTOF(data\cap_earpiece.p3d);
         };
-    };
-    class CLASS(Cap_Earpiece_BlackLogo): CLASS(Cap_Earpiece_Base) {
-        scope = 2;
+
+    class CLASS(Cap_Earpiece_BlackLogo): H_Cap_red {
+        MACRO_EARPIECE_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayname = CSTRING(Cap_Earpiece_BlackLogo);
         //picture = QPATHTOF(UI\cap_earpiece_blacklogo_ca.paa);//@todo
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
-    class CLASS(Cap_Earpiece_TanLogo): CLASS(Cap_Earpiece_Base) {
-        scope = 2;
+    class CLASS(Cap_Earpiece_TanLogo): H_Cap_red {
+        MACRO_EARPIECE_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayname = CSTRING(Cap_Earpiece_TanLogo);
         //picture = QPATHTOF(UI\cap_earpiece_tanlogo_ca.paa);//@todo
@@ -64,24 +63,23 @@ class CfgWeapons {
     };
 
 
-    class CLASS(Cap_Backwards_Base): H_Cap_red {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        model = QPATHTOF(data\cap_backwards.p3d);
-
-        class ItemInfo: ItemInfo {
-            uniformModel = QPATHTOF(data\cap_backwards.p3d);
+    #define MACRO_BACKWARDS_COMMON \
+        dlc = QUOTE(PREFIX); \
+        scope = 2; \
+        model = QPATHTOF(data\cap_backwards.p3d); \
+        class ItemInfo: ItemInfo { \
+            uniformModel = QPATHTOF(data\cap_backwards.p3d); \
         };
-    };
+
     class CLASS(Cap_Backwards_BlackLogo): CLASS(Cap_Backwards_Base) {
-        scope = 2;
+        MACRO_BACKWARDS_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_Backwards_BlackLogo);
         picture = QPATHTOF(UI\cap_backwards_black_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
     class CLASS(Cap_Backwards_TanLogo): CLASS(Cap_Backwards_Base) {
-        scope = 2;
+        MACRO_BACKWARDS_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_Backwards_TanLogo);
         picture = QPATHTOF(UI\cap_backwards_tan_ca.paa);
