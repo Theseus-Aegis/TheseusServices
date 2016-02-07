@@ -1,67 +1,64 @@
-#define MACRO_BASE_CLASS_COMMON \
-    dlc = QUOTE(PREFIX); \
-    scope = 0; \
-    side = 2; \
-    faction = CLASS(IND); \
-    weapons[] = {"Throw", "Put"}; \
-    respawnWeapons[] = {"Throw", "Put"}; \
-    magazines[] = {}; \
-    respawnMagazines[] = {}; \
-    items[] = {"FirstAidKit"}; \
-    respawnItems[] = {"FirstAidKit"}; \
-    linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"}; \
-    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"}; \
-    modelSides[] = {6}; \
-    identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
-
 class CfgVehicles {
-    class B_Soldier_base_F;
-
     // Naked
-    class CLASS(Unit_Underwear_Base): B_Soldier_base_F {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        side = 2;
-        faction = CLASS(IND);
-        weapons[] = {"Throw", "Put"};
-        respawnWeapons[] = {"Throw", "Put"};
-        magazines[] = {};
-        respawnMagazines[] = {};
-        items[] = {};
-        respawnItems[] = {};
-        linkedItems[] = {};
+    #define MACRO_UNDERWEAR_BASE \
+        dlc = QUOTE(PREFIX); \
+        scope = 1; \
+        side = 2; \
+        faction = CLASS(IND); \
+        weapons[] = {"Throw", "Put"}; \
+        respawnWeapons[] = {"Throw", "Put"}; \
+        magazines[] = {}; \
+        respawnMagazines[] = {}; \
+        items[] = {}; \
+        respawnItems[] = {}; \
+        linkedItems[] = {}; \
         respawnLinkedItems[] = {};
-        model = "\A3\Characters_F\Common\basicbody.p3d";
-        modelSides[] = {3, 2, 1, 0};
-        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
-    };
-    class CLASS(Unit_Underwear_BlackLogo): CLASS(Unit_Underwear_Base) {
-        scope = 1;
+
+    class Underwear_F;
+    class CLASS(Unit_Underwear_BlackLogo): Underwear_F {
+        MACRO_UNDERWEAR_BASE
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Underwear_BlackLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_blacklogo_co.paa)};
     };
-    class CLASS(Unit_Underwear_WhiteLogo): CLASS(Unit_Underwear_Base) {
-        scope = 1;
+    class CLASS(Unit_Underwear_WhiteLogo): Underwear_F {
+        MACRO_UNDERWEAR_BASE
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Underwear_WhiteLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_whitelogo_co.paa)};
     };
-    class CLASS(Unit_Underwear_BlueLogo): CLASS(Unit_Underwear_Base) {
-        scope = 1;
+    class CLASS(Unit_Underwear_BlueLogo): Underwear_F {
+        MACRO_UNDERWEAR_BASE
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Underwear_BlueLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_bluelogo_co.paa)};
     };
-    class CLASS(Unit_Underwear_GreenLogo): CLASS(Unit_Underwear_Base) {
-        scope = 1;
+    class CLASS(Unit_Underwear_GreenLogo): Underwear_F {
+        MACRO_UNDERWEAR_BASE
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Underwear_GreenLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_greenlogo_co.paa)};
     };
 
+    // Uniforms
+    #define MACRO_BASE_CLASS_COMMON \
+        dlc = QUOTE(PREFIX); \
+        scope = 0; \
+        side = 2; \
+        faction = CLASS(IND); \
+        weapons[] = {"Throw", "Put"}; \
+        respawnWeapons[] = {"Throw", "Put"}; \
+        magazines[] = {}; \
+        respawnMagazines[] = {}; \
+        items[] = {"FirstAidKit"}; \
+        respawnItems[] = {"FirstAidKit"}; \
+        linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"}; \
+        respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"}; \
+        modelSides[] = {6}; \
+        identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
 
     // Naming pattern: SizeSleeves_ColorShirt_ColorPants_ColorBoots
+    class B_Soldier_base_F;
 
     // Combat - Long Sleeves
     class CLASS(Unit_Combat_LS_Base): B_Soldier_base_F {
