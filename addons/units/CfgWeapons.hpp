@@ -789,7 +789,6 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_TShirt_JP_BS_LP_BB);
         };
     };
-
     class CLASS(Uniform_TShirt_JP_BS_TP_BB): CLASS(Uniform_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
