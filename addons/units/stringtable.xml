@@ -3,6 +3,7 @@
     <Package name="Units">
         <Key ID="STR_TACS_Units_Box_Uniforms">
             <English>[TACS] Uniforms</English>
+            <German>[TACS] Uniformen</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_GP_BB">
             <English>Combat Uniform Long Sleeves (Black Shirt &amp; Green Pants &amp; Black Boots)</English>
@@ -310,6 +311,7 @@
         </Key>
         <Key ID="STR_TACS_Units_Suit_VIP">
             <English>VIP Suit</English>
+            <German>VIPAnzug</German>
         </Key>
         <Key ID="STR_TACS_Units_Unit_Bodyguard">
             <English>Bodyguard</English>
@@ -341,7 +343,7 @@
         </Key>
         <Key ID="STR_TACS_Units_Unit_Marksman">
             <English>Marksman</English>
-			<German>Scharfschütze</German>
+            <German>Scharfschütze</German>
         </Key>
         <Key ID="STR_TACS_Units_Unit_PilotHeli">
             <English>Helicopter Pilot</English>
@@ -349,6 +351,7 @@
         </Key>
         <Key ID="STR_TACS_Units_Unit_VIP">
             <English>VIP</English>
+            <German>VIP</German>
         </Key>
         <Key ID="STR_TACS_Units_GroupType_Infantry">
             <English>Infantry</English>
