@@ -671,11 +671,11 @@ class CfgVehicles {
         respawnMagazines[] += {ITEMS_12(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
         linkedItems[] += {QCLASS(Hat_Boonie_RangerGreen), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
         respawnLinkedItems[] += {QCLASS(Hat_Boonie_RangerGreen), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
-        //backpack = "B_Bergen_rgr_Exp"; //@todo
+        backpack = QCLASS(Backpack_AssaultExpanded_Green_ExplosivesTechnician_Filled);
 
         engineer = 1;
-        detectSkill = 40;//@todo - verify value
-        //canDeactivateMines = 1;//@todo - needed=
+        detectSkill = 80;
+        canDeactivateMines = 1;
         icon = "iconManEngineer";
 		picture = "pictureRepair";
     };
@@ -695,7 +695,7 @@ class CfgVehicles {
         respawnMagazines[] += {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", ITEMS_2(HandGrenade)};
         linkedItems[] += {QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
         respawnLinkedItems[] += {QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
-        //backpack = "B_Kitbag_blk_Medic"; //@todo
+        backpack = QCLASS(Backpack_Kitbag_DarkBlack_Medic_Filled);
 
         attendant = 1;
         icon = "iconManMedic";
@@ -766,7 +766,6 @@ class CfgVehicles {
         linkedItems[] += {QCLASS(Cap_Headphones_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
         respawnLinkedItems[] += {QCLASS(Cap_Headphones_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
 
-        //icon = "";//@todo - sniper icon?
         textSingular = "$STR_A3_nameSound_veh_infantry_sniper_s";
         textPlural = "$STR_A3_nameSound_veh_infantry_sniper_p";
         nameSound = "veh_infantry_sniper_s";

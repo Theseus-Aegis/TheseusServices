@@ -101,7 +101,7 @@ class CfgPatches {
             QCLASS(Uniform_TShirt_JP_WS_LP_BB)
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacs_headgear", "tacs_vests", "tacs_weapons"};
+        requiredAddons[] = {"tacs_backpacks", "tacs_headgear", "tacs_vests", "tacs_weapons"};
         author[]= {"Pomigit", "BadHabitz", "Jonpas", "Rory"};
         authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
         VERSION_CONFIG;
