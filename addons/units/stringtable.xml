@@ -3,43 +3,295 @@
     <Package name="Units">
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_GP_BB">
             <English>Combat Uniform Long Sleeves (Black Shirt &amp; Green Pants &amp; Black Boots)</English>
-            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; grüne Hose &amp; schwarze Schuhe)</German>
+            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_GP_TB">
-            <English>Combat Uniform Long Sleeves (Black Shirt &amp; Green Pants &amp; Tan Shoes)</English>
-            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; grüne Hose &amp; hellbraune Schuhe)</German>
+            <English>Combat Uniform Long Sleeves (Black Shirt &amp; Green Pants &amp; Tan Boots)</English>
+            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; grüne Hose &amp; hellbraune Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_TP_BB">
-            <English>Combat Uniform Long Sleeves (Black Shirt &amp; Tan Pants &amp; Black Shoes)</English>
-            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; hellbraune Hose &amp; schwarze Schuhe)</German>
+            <English>Combat Uniform Long Sleeves (Black Shirt &amp; Tan Pants &amp; Black Boots)</English>
+            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; hellbraune Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_TP_TB">
-            <English>Combat Uniform Long Sleeves (Black Shirt &amp; Tan Pants &amp; Tan Shoes)</English>
-            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; hellbraune Hose &amp; hellbraune Schuhe)</German>
+            <English>Combat Uniform Long Sleeves (Black Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; hellbraune Hose &amp; hellbraune Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_GS_BP_BB">
-            <English>Combat Uniform Long Sleeves (Green Shirt &amp; Black Pants &amp; Black Shoes)</English>
-            <German>Kampfuniform, langärmelig (grünes Shirt &amp; schwarze Hose &amp; schwarze Schuhe)</German>
+            <English>Combat Uniform Long Sleeves (Green Shirt &amp; Black Pants &amp; Black Boots)</English>
+            <German>Kampfuniform, langärmelig (grünes Shirt &amp; schwarze Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_GS_TP_BB">
-            <English>Combat Uniform Long Sleeves (Green Shirt &amp; Tan Pants &amp; Tan Shoes)</English>
-            <German>Kampfuniform, langärmelig (grünes Shirt &amp; hellbraune Hose &amp; hellbraune Schuhe)</German>
+            <English>Combat Uniform Long Sleeves (Green Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+            <German>Kampfuniform, langärmelig (grünes Shirt &amp; hellbraune Hose &amp; hellbraune Stiefel)</German>
         </Key>
-        <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_IndP_BB">
-            <English>Combat Uniform Long Sleeves (Black Shirt &amp; Independent Pants &amp; Black Shoes)</English>
-            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; digital-grüne Hose &amp; schwarze Schuhe)</German>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_DGP_BB">
+            <English>Combat Uniform Long Sleeves (Black Shirt &amp; Digital Green Pants &amp; Black Boots)</English>
+            <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; digital-grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_TS_BP_BB">
-            <English>Combat Uniform Long Sleeves (Tan Shirt &amp; Black Pants &amp; Black Shoes)</English>
-            <German>Kampfuniform, langärmelig (hellbraunes Shirt &amp; schwarze Hose &amp; schwarze Schuhe)</German>
+            <English>Combat Uniform Long Sleeves (Tan Shirt &amp; Black Pants &amp; Black Boots)</English>
+            <German>Kampfuniform, langärmelig (hellbraunes Shirt &amp; schwarze Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_TS_GP_BB">
-            <English>Combat Uniform Long Sleeves (Tan Shirt &amp; Green Pants &amp; Black Shoes)</English>
-            <German>Kampfuniform, langärmelig hellbraunes Shirt &amp; grüne Hose &amp; schwarze Schuhe)</German>
+            <English>Combat Uniform Long Sleeves (Tan Shirt &amp; Green Pants &amp; Black Boots)</English>
+            <German>Kampfuniform, langärmelig hellbraunes Shirt &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_TS_GP_TB">
-            <English>Combat Uniform Long Sleeves (Tan Shirt &amp; Green Pants &amp; Tan Shoes)</English>
-            <German>Kampfuniform, langärmelig (hellbraunes Shirt &amp; grüne Hose &amp; hellbraune Schuhe)</German>
+            <English>Combat Uniform Long Sleeves (Tan Shirt &amp; Green Pants &amp; Tan Boots)</English>
+            <German>Kampfuniform, langärmelig (hellbraunes Shirt &amp; grüne Hose &amp; hellbraune Stiefel)</German>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_CDBS_GP_TB">
+            <English>Combat Uniform Long Sleeves (Checked Dark Blue Shirt &amp; Green Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_CLBS_GP_BB">
+            <English>Combat Uniform Long Sleeves (Checked Light Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_CLRS_TP_BB">
+            <English>Combat Uniform Long Sleeves (Checked Light Red Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_CPS_BP_BB">
+            <English>Combat Uniform Long Sleeves (Checked Purple Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_GP_BB">
+            <English>Combat Uniform Rolled Sleeves (Black Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_GP_TB">
+            <English>Combat Uniform Rolled Sleeves (Black Shirt &amp; Green Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_TP_BB">
+            <English>Combat Uniform Rolled Sleeves (Black Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_TP_TB">
+            <English>Combat Uniform Rolled Sleeves (Black Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_GS_BP_BB">
+            <English>Combat Uniform Rolled Sleeves (Green Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_GS_TP_BB">
+            <English>Combat Uniform Rolled Sleeves (Green Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_DGP_BB">
+            <English>Combat Uniform Rolled Sleeves (Green Shirt &amp; Digital Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_TS_BP_BB">
+            <English>Combat Uniform Rolled Sleeves (Tan Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_TS_GP_BB">
+            <English>Combat Uniform Rolled Sleeves (Tan Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_TS_GP_TB">
+            <English>Combat Uniform Rolled Sleeves (Tan Shirt &amp; Green Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_CDBS_GP_TB">
+            <English>Combat Uniform Rolled Sleeves (Checked Dark Blue Shirt &amp; Green Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_CLBS_GP_BB">
+            <English>Combat Uniform Rolled Sleeves (Checked Light Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_CLRS_TP_BB">
+            <English>Combat Uniform Rolled Sleeves (Checked Light Red Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_CPS_BP_BB">
+            <English>Combat Uniform Rolled Sleeves (Checked Purple Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_BS_BP_BB">
+            <English>Combat Garment Long Sleeves (Black Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_BS_GP_BB">
+            <English>Combat Garment Long Sleeves (Black Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_BS_EP_TB">
+            <English>Combat Garment Long Sleeves (Black Shirt &amp; Grey Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_GS_GP_BB">
+            <English>Combat Garment Long Sleeves (Green Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_GS_BP_BB">
+            <English>Combat Garment Long Sleeves (Green Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_GS_EP_TB">
+            <English>Combat Garment Long Sleeves (Green Shirt &amp; Grey Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_ES_EP_TB">
+            <English>Combat Garment Long Sleeves (Grey Shirt &amp; Grey Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_ES_BP_BB">
+            <English>Combat Garment Long Sleeves (Grey Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_ES_GP_BB">
+            <English>Combat Garment Long Sleeves (Grey Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_TS_TP_TB">
+            <English>Combat Garment Long Sleeves (Tan Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_GS_TP_TB">
+            <English>Combat Garment Long Sleeves (Green Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_TS_GP_BB">
+            <English>Combat Garment Long Sleeves (Tan Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_BS_TP_TB">
+            <English>Combat Garment Long Sleeves (Black Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_TS_BP_BB">
+            <English>Combat Garment Long Sleeves (Tan Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_BP_BB">
+            <English>Combat Garment Rolled Sleeves (Black Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_GP_BB">
+            <English>Combat Garment Rolled Sleeves (Black Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_EP_TB">
+            <English>Combat Garment Rolled Sleeves (Black Shirt &amp; Grey Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_GP_BB">
+            <English>Combat Garment Rolled Sleeves (Green Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_BP_BB">
+            <English>Combat Garment Rolled Sleeves (Green Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_EP_TB">
+            <English>Combat Garment Rolled Sleeves (Green Shirt &amp; Grey Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_ES_EP_TB">
+            <English>Combat Garment Rolled Sleeves (Grey Shirt &amp; Grey Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_ES_BP_BB">
+            <English>Combat Garment Rolled Sleeves (Grey Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_ES_GP_BB">
+            <English>Combat Garment Rolled Sleeves (Grey Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_TP_TB">
+            <English>Combat Garment Rolled Sleeves (Tan Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_TP_TB">
+            <English>Combat Garment Rolled Sleeves (Green Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_GP_BB">
+            <English>Combat Garment Rolled Sleeves (Tan Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_TP_TB">
+            <English>Combat Garment Rolled Sleeves (Black Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_BP_BB">
+            <English>Combat Garment Rolled Sleeves (Tan Shirt &amp; Black Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_LS_TP_TB">
+            <English>Tactical Clothes (Blue Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_TS_GP_BB">
+            <English>Tactical Clothes (Tan Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_BS_TP_TB">
+            <English>Tactical Clothes (Black Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_BS_LP_BB">
+            <English>Tactical Clothes (Black Shirt &amp; Blue Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_LS_GP_BB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_TP_BB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_LP_BB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_GS_TP_TB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_TP_TB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_LP_BB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_GP_BB">
+            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_CP_LS_TP_OB">
+            <English>Tactical Clothes Cords (Blue Shirt &amp; Tan Pants &amp; Brown Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_CP_RS_LP_BB">
+            <English>Tactical Clothes Cords (Red Shirt &amp; Blue Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_CP_BS_TP_BB">
+            <English>Tactical Clothes Cords (Black Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_LP_BB">
+            <English>T-Shirt &amp; Jeans (Green Shirt &amp; Blue Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_TP_BB">
+            <English>T-Shirt &amp; Jeans (Green Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_BS_LP_BB">
+            <English>T-Shirt &amp; Jeans (Black Shirt &amp; Blue Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_BS_TP_BB">
+            <English>T-Shirt &amp; Jeans (Black Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_LS_TP_BB">
+            <English>T-Shirt &amp; Jeans (Blue Shirt &amp; Tan Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_WS_LP_BB">
+            <English>T-Shirt &amp; Jeans (White Shirt &amp; Blue Pants &amp; Black Boots)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Bodyguard">
+            <English>Bodyguard</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Contractor">
+            <English>Contractor</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Contractor_GL">
+            <English>Contractor (GL)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Engineer">
+            <English>Engineer</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Medic">
+            <English>Medic</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Specialist">
+            <English>Specialist (LMG)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_TeamLeader">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_Sniper">
+            <English>Sniper</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_PilotHelicopter">
+            <English>Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_TACS_Units_GroupType_Infantry">
+            <English>Infantry</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Bodyguards">
+            <English>Bodyguards</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Patrol">
+            <English>Patrol</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Team">
+            <English>Team</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Squad">
+            <English>Squad</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Specialists">
+            <English>Specialists</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Group_Support">
+            <English>Support</English>
+        </Key>
+        <Key ID="STR_TACS_Units_GroupType_Motorized">
+            <English>Motorized</English>
+        </Key>
+        <Key ID="STR_TACS_Units_GroupType_Air">
+            <English>Air</English>
         </Key>
     </Package>
 </Project>

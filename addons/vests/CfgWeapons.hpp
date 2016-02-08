@@ -1,55 +1,54 @@
 class CfgWeapons {
-    class V_PlateCarrierIA1_dgtl;
-    class V_PlateCarrierIA2_dgtl: V_PlateCarrierIA1_dgtl {
+    class Vest_NoCamo_Base;
+
+    #define MACRO_PLATECARRIERFULL_COMMON \
+        dlc = QUOTE(PREFIX); \
+        scope = 2; \
+        hiddenSelections[] = {"camo"}; \
+        class ItemInfo: ItemInfo { \
+            containerClass = "Supply140"; \
+            mass = 110; \
+            hiddenSelections[] = {"camo"}; \
+            class HitpointsProtectionInfo { \
+                class Chest { \
+                    hitpointName = "HitChest"; \
+                    armor = 22.5; \
+                    passThrough = 0.5; \
+                }; \
+                class Diaphragm { \
+                    hitpointName = "HitDiaphragm"; \
+                    armor = 22.5; \
+                    passThrough = 0.5; \
+                }; \
+                class Abdomen { \
+                    hitpointName = "HitAbdomen"; \
+                    armor = 22.5; \
+                    passThrough = 0.5; \
+                }; \
+                class Pelvis { \
+                    hitpointName = "HitPelvis"; \
+                    armor = 22.5; \
+                    passThrough = 0.5; \
+                }; \
+                class Body { \
+                    hitpointName = "HitBody"; \
+                    passThrough = 0.5; \
+                }; \
+            }; \
+        };
+
+    class V_PlateCarrierIA1_dgtl: Vest_NoCamo_Base {
         class ItemInfo;
     };
-    class CLASS(Vest_PlateCarrierFull_Base): V_PlateCarrierIA2_dgtl {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        hiddenSelections[] = {"camo"};
-
-        class ItemInfo: ItemInfo {
-            containerClass = "Supply140";
-            mass = 110;
-            hiddenSelections[] = {"camo"};
-
-            class HitpointsProtectionInfo {
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 22.5;
-                    passThrough = 0.5;
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 22.5;
-                    passThrough = 0.5;
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 22.5;
-                    passThrough = 0.5;
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 22.5;
-                    passThrough = 0.5;
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.5;
-                };
-            };
-        };
-    };
-    class CLASS(Vest_PlateCarrierFull_Black): CLASS(Vest_PlateCarrierFull_Base) {
-        scope = 2;
+    class CLASS(Vest_PlateCarrierFull_Black): V_PlateCarrierIA1_dgtl {
+        MACRO_PLATECARRIERFULL_COMMON
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_PlateCarrierFull_Black);
         picture = QPATHTOF(UI\vest_platecarrierfull_black_x_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrierfull_black_co.paa)};
     };
-    class CLASS(Vest_PlateCarrierFull_Green): CLASS(Vest_PlateCarrierFull_Base) {
-        scope = 2;
+    class CLASS(Vest_PlateCarrierFull_Green): V_PlateCarrierIA1_dgtl {
+        MACRO_PLATECARRIERFULL_COMMON
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_PlateCarrierFull_Green);
         picture = QPATHTOF(UI\vest_platecarrierfull_green_x_ca.paa);
@@ -57,72 +56,68 @@ class CfgWeapons {
     };
 
 
-    class Vest_NoCamo_Base;
+    #define MACRO_PLATECARRIER_COMMON \
+        dlc = QUOTE(PREFIX); \
+        scope = 2; \
+        hiddenSelections[] = {"camo"}; \
+        class ItemInfo: ItemInfo { \
+            hiddenSelections[] = {"camo"}; \
+            class HitpointsProtectionInfo { \
+                class Chest { \
+                    hitpointName = "HitChest"; \
+                    armor = 20; \
+                    passThrough = 0.5; \
+                }; \
+                class Diaphragm { \
+                    hitpointName = "HitDiaphragm"; \
+                    armor = 20; \
+                    passThrough = 0.5; \
+                }; \
+                class Abdomen { \
+                    hitpointName = "HitAbdomen"; \
+                    armor = 20; \
+                    passThrough = 0.5; \
+                }; \
+                class Body { \
+                    hitpointName = "HitBody"; \
+                    passThrough = 0.5; \
+                }; \
+            }; \
+        };
+
     class V_PlateCarrier1_rgr: Vest_NoCamo_Base {
         class ItemInfo;
     };
-    class CLASS(Vest_PlateCarrier_Base): V_PlateCarrier1_rgr {
-        dlc = QUOTE(PREFIX);
-        scope = 0;
-        hiddenSelections[] = {"camo"};
-
-        class ItemInfo: ItemInfo {
-            mass = 100;
-            hiddenSelections[] = {"camo"};
-
-            class HitpointsProtectionInfo {
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 20;
-                    passThrough = 0.5;
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 20;
-                    passThrough = 0.5;
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.5;
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.5;
-                };
-            };
-        };
-    };
-    class CLASS(Vest_PlateCarrier_Black): CLASS(Vest_PlateCarrier_Base) {
-        scope = 2;
+    class CLASS(Vest_PlateCarrier_Black): V_PlateCarrier1_rgr {
+        MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_Black);
         picture = QPATHTOF(UI\vest_platecarrier_black_x_ca.paa);//@todo - change logo to TACS
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co.paa)};
     };
-    class CLASS(Vest_PlateCarrier_Green): CLASS(Vest_PlateCarrier_Base) {
-        scope = 2;
+    class CLASS(Vest_PlateCarrier_Green): V_PlateCarrier1_rgr {
+        MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_Green);
         picture = QPATHTOF(UI\vest_platecarrier_green_x_ca.paa);//@todo - change logo to TACS
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co.paa)};
     };
-    class CLASS(Vest_PlateCarrier_Coyote): CLASS(Vest_PlateCarrier_Base) {
-        scope = 2;
+    class CLASS(Vest_PlateCarrier_Coyote): V_PlateCarrier1_rgr {
+        MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_Coyote);
         picture = QPATHTOF(UI\vest_platecarrier_khaki_x_ca.paa);//picture = QPATHTOF(UI\vest_platecarrier_coyote_x_ca.paa);//@todo - new picture + change logo to TACS
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co.paa)};
     };
-    class CLASS(Vest_PlateCarrier_Khaki): CLASS(Vest_PlateCarrier_Base) {
-        scope = 2;
+    class CLASS(Vest_PlateCarrier_Khaki): V_PlateCarrier1_rgr {
+        MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_Khaki);
         picture = QPATHTOF(UI\vest_platecarrier_khaki_x_ca.paa);//@todo - change logo to TACS
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co.paa)};
     };
-    class CLASS(Vest_PlateCarrier_MARPAT): CLASS(Vest_PlateCarrier_Base) {
-        scope = 2;
+    class CLASS(Vest_PlateCarrier_MARPAT): V_PlateCarrier1_rgr {
+        MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_MARPAT);
         picture = QPATHTOF(UI\vest_platecarrier_marpat_x_ca.paa);//@todo - change logo to TACS

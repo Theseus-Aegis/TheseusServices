@@ -1,6 +1,8 @@
 // COMPONENT should be defined in the script_component.hpp and included BEFORE this hpp
 
+#define MAINPREFIX x
 #define PREFIX tacs
+#define SUBPREFIX addons
 
 #define MAJOR 0
 #define MINOR 0

@@ -1,4 +1,5 @@
 class CfgVehicles {
+    // Empty
     class B_AssaultPack_Kerry;
     class CLASS(Backpack_AssaultExpanded_Black): B_AssaultPack_Kerry {
         dlc = QUOTE(PREFIX);
@@ -55,5 +56,32 @@ class CfgVehicles {
         displayName = CSTRING(Backpack_Kitbag_DarkBlack);
         picture = QPATHTOF(UI\backpack_kitbag_darkblack_ca.paa);
         hiddenSelectionsTextures[] = {"\a3\weapons_f\ammoboxes\bags\data\backpack_fast_blk_co.paa"};
+    };
+
+
+    // Filled
+    class CLASS(Backpack_AssaultExpanded_Green_ExplosivesTechnician_Filled): CLASS(Backpack_AssaultExpanded_Green) {
+        scope = 1;
+
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(APERSBoundingMine_Range_Mag,3)
+            MACRO_ADDMAGAZINE(ClaymoreDirectionalMine_Remote_Mag,2)
+            MACRO_ADDMAGAZINE(SLAMDirectionalMine_Wire_Mag,2)
+            MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,1)
+        };
+
+        class TransportItems {
+            MACRO_ADDITEM(ToolKit,1)
+            MACRO_ADDITEM(MineDetector,1)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_DarkBlack_Medic_Filled): CLASS(Backpack_Kitbag_DarkBlack) {
+        scope = 1;
+
+        class TransportItems {
+            MACRO_ADDITEM(Medikit,1)
+            MACRO_ADDITEM(FirstAidKit,10)
+        };
     };
 };
