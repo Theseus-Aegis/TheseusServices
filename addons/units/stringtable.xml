@@ -343,7 +343,7 @@
             <English>Marksman</English>
 			<German>Scharfschütze</German>
         </Key>
-        <Key ID="STR_TACS_Units_Unit_PilotHelicopter">
+        <Key ID="STR_TACS_Units_Unit_PilotHeli">
             <English>Helicopter Pilot</English>
             <German>Helikopterpilot</German>
         </Key>
@@ -377,14 +377,6 @@
         <Key ID="STR_TACS_Units_Group_Support">
             <English>Support</English>
             <German>Unterstützung</German>
-        </Key>
-        <Key ID="STR_TACS_Units_GroupType_Motorized">
-            <English>Motorized</English>
-            <German>Motorisiert</German>
-        </Key>
-        <Key ID="STR_TACS_Units_GroupType_Air">
-            <English>Air</English>
-            <German>Luft</German>
         </Key>
     </Package>
 </Project>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACS">
+    <Package name="Vehicles">
+        <Key ID="STR_TACS_Vehicles_Heli_MH6_Blue">
+            <English>MH-6 Little Bird (Blue)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Offroad_Black">
+            <English>Offroad (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Offroad_Armed_Black">
+            <English>Offroad Armed (Black)</English>
+        </Key>
+    </Package>
+</Project>

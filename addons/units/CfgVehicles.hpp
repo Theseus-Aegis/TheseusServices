@@ -874,10 +874,10 @@ class CfgVehicles {
         faction = CLASS(BLU);
     };
 
-    class CLASS(Unit_I_PilotHelicopter): CLASS(Unit_Combat_RS_BS_GP_BB) {
+    class CLASS(Unit_I_PilotHeli): CLASS(Unit_Combat_RS_BS_GP_BB) {
         scope = 2;
         author = "Pomigit, Jonpas";
-        displayName = CSTRING(Unit_PilotHelicopter);
+        displayName = CSTRING(Unit_PilotHeli);
         weapons[] += {"hgun_Rook40_F", "Binocular"};
         respawnWeapons[] += {"hgun_Rook40_F", "Binocular"};
         magazines[] += {ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
@@ -896,7 +896,7 @@ class CfgVehicles {
             };
         };
     };
-    class CLASS(Unit_B_PilotHelicopter): CLASS(Unit_I_PilotHelicopter) {
+    class CLASS(Unit_B_PilotHeli): CLASS(Unit_I_PilotHeli) {
         scope = 2;
         side = 1;
         faction = CLASS(BLU);
@@ -904,7 +904,6 @@ class CfgVehicles {
 
 
     // VIP
-    //@todo zeus
     class Civilian_F;
     class CLASS(Unit_I_VIP): Civilian_F {
         dlc = QUOTE(PREFIX);

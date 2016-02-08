@@ -184,14 +184,6 @@ class CfgGroups {
                     };
                 };
             };
-            class Motorized {
-                name = CSTRING(GroupType_Motorized);
-                //@todo
-            };
-            class Air {
-                name = CSTRING(GroupType_Air);
-                //@todo
-            };
         };
     };
 
@@ -379,14 +371,6 @@ class CfgGroups {
                         position[] = {10, -10, 0};
                     };
                 };
-            };
-            class Motorized {
-                name = CSTRING(GroupType_Motorized);
-                //@todo
-            };
-            class Air {
-                name = CSTRING(GroupType_Air);
-                //@todo
             };
         };
     };
