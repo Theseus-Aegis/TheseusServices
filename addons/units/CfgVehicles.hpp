@@ -13,28 +13,29 @@ class CfgVehicles {
         items[] = {}; \
         respawnItems[] = {}; \
         linkedItems[] = {}; \
-        respawnLinkedItems[] = {};
+        respawnLinkedItems[] = {}; \
+        model = "\A3\Characters_F\Common\basicbody.p3d";
 
-    class Underwear_F;
-    class CLASS(Unit_Underwear_BlackLogo): Underwear_F {
+    class B_Soldier_base_F;
+    class CLASS(Unit_Underwear_BlackLogo): B_Soldier_base_F {
         MACRO_UNDERWEAR_BASE
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Underwear_BlackLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_blacklogo_co.paa)};
     };
-    class CLASS(Unit_Underwear_WhiteLogo): Underwear_F {
+    class CLASS(Unit_Underwear_WhiteLogo): B_Soldier_base_F {
         MACRO_UNDERWEAR_BASE
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Underwear_WhiteLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_whitelogo_co.paa)};
     };
-    class CLASS(Unit_Underwear_BlueLogo): Underwear_F {
+    class CLASS(Unit_Underwear_BlueLogo): B_Soldier_base_F {
         MACRO_UNDERWEAR_BASE
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Underwear_BlueLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_bluelogo_co.paa)};
     };
-    class CLASS(Unit_Underwear_GreenLogo): Underwear_F {
+    class CLASS(Unit_Underwear_GreenLogo): B_Soldier_base_F {
         MACRO_UNDERWEAR_BASE
         author = "Pomigit, Jonpas";
         uniformClass = QCLASS(Underwear_GreenLogo);
@@ -60,7 +61,6 @@ class CfgVehicles {
         genericNames = QUOTE(PREFIX);
 
     // Naming pattern: SizeSleeves_ColorShirt_ColorPants_ColorBoots
-    class B_Soldier_base_F;
 
     // Combat - Long Sleeves
     class CLASS(Unit_Combat_LS_Base): B_Soldier_base_F {
@@ -604,6 +604,7 @@ class CfgVehicles {
     };
 
 
+
     // BOX
     class Box_NATO_Support_F;
     class CLASS(Box_Uniforms): Box_NATO_Support_F {
@@ -697,10 +698,12 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Uniform_TShirt_JP_BS_TP_BB),10)
             MACRO_ADDITEM(CLASS(Uniform_TShirt_JP_LS_TP_BB),10)
             MACRO_ADDITEM(CLASS(Uniform_TShirt_JP_WS_LP_BB),10)
+            MACRO_ADDITEM(CLASS(Suit_VIP),10)
         };
 
         class TransportBackpacks {};
     };
+
 
 
     // ITEMS ON GROUND
@@ -811,8 +814,8 @@ class CfgVehicles {
         displayName = CSTRING(Unit_Specialist);
         weapons[] += {"LMG_Mk200_MRCO_F", "hgun_Rook40_F", "Binocular"};
         respawnWeapons[] += {"LMG_Mk200_MRCO_F", "hgun_Rook40_F", "Binocular"};
-        magazines[] += {ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-        respawnMagazines[] += {ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        magazines[] += {"200Rnd_65x39_cased_Box_Tracer", ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+        respawnMagazines[] += {"200Rnd_65x39_cased_Box_Tracer", ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
         linkedItems[] += {QCLASS(Cap_Earpiece_TanLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrierFull_Black)};
         respawnLinkedItems[] += {QCLASS(Cap_Earpiece_TanLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrierFull_Black)};
         backpack = QCLASS(Backpack_AssaultExpanded_Green_Specialist_Filled);
@@ -894,6 +897,38 @@ class CfgVehicles {
         };
     };
     class CLASS(Unit_B_PilotHelicopter): CLASS(Unit_I_PilotHelicopter) {
+        scope = 2;
+        side = 1;
+        faction = CLASS(BLU);
+    };
+
+
+    // VIP
+    //@todo zeus
+    class Civilian_F;
+    class CLASS(Unit_I_VIP): Civilian_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = CLASS(IND);
+        author = "Pomigit, Jonpas";
+        displayname = CSTRING(Unit_VIP);
+        model = QPATHTOF(data\vip.p3d);
+        modelSides[] = {6};
+        genericNames = QUOTE(PREFIX);
+        uniformClass = QCLASS(Suit_VIP);
+
+        weapons[] = {"Throw", "Put"};
+        respawnWeapons[] = {"Throw", "Put"};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        items[] = {};
+        respawnItems[] = {};
+        linkedItems[] = {"G_Squares_Tinted"};
+        respawnLinkedItems[] = {"G_Squares_Tinted"};
+    };
+    class CLASS(Unit_B_VIP): CLASS(Unit_I_VIP) {
         scope = 2;
         side = 1;
         faction = CLASS(BLU);

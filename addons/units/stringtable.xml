@@ -242,6 +242,9 @@
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_WS_LP_BB">
             <English>T-Shirt &amp; Jeans (White Shirt &amp; Blue Pants &amp; Black Boots)</English>
         </Key>
+        <Key ID="STR_TACS_Units_Suit_VIP">
+            <English>VIP Suit</English>
+        </Key>
         <Key ID="STR_TACS_Units_Unit_Bodyguard">
             <English>Bodyguard</English>
         </Key>
@@ -268,6 +271,9 @@
         </Key>
         <Key ID="STR_TACS_Units_Unit_PilotHelicopter">
             <English>Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Unit_VIP">
+            <English>VIP</English>
         </Key>
         <Key ID="STR_TACS_Units_GroupType_Infantry">
             <English>Infantry</English>

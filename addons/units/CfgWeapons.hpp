@@ -40,7 +40,8 @@ class CfgWeapons {
     class CLASS(Uniform_Base): Uniform_Base {
         dlc = QUOTE(PREFIX);
         scope = 0;
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+        //model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -826,6 +827,21 @@ class CfgWeapons {
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_TShirt_JP_WS_LP_BB);
+        };
+    };
+
+
+    // VIP
+    class CLASS(Suit_VIP): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Pomigit, Jonpas";
+        displayName = CSTRING(Suit_VIP);
+        picture = "\A3\Characters_F\data\ui\icon_u_citizen_ca.paa";//@todo - new picture
+
+        class ItemInfo: ItemInfo {
+            containerClass = "Supply10";
+            mass = 20;
+            uniformClass = QCLASS(Unit_I_VIP);
         };
     };
 };

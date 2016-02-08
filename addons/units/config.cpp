@@ -21,7 +21,9 @@ class CfgPatches {
             QCLASS(Unit_I_Sniper),
             QCLASS(Unit_B_Sniper),
             QCLASS(Unit_I_PilotHelicopter),
-            QCLASS(Unit_B_PilotHelicopter)
+            QCLASS(Unit_B_PilotHelicopter),
+            QCLASS(Unit_I_VIP),
+            QCLASS(Unit_B_VIP)
         };
         weapons[] = {
             QCLASS(Uniform_Combat_LS_BS_GP_BB),
@@ -99,7 +101,8 @@ class CfgPatches {
             QCLASS(Uniform_TShirt_JP_BS_LP_BB),
             QCLASS(Uniform_TShirt_JP_BS_TP_BB),
             QCLASS(Uniform_TShirt_JP_LS_TP_BB),
-            QCLASS(Uniform_TShirt_JP_WS_LP_BB)
+            QCLASS(Uniform_TShirt_JP_WS_LP_BB),
+            QCLASS(Suit_VIP)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_backpacks", "tacs_headgear", "tacs_vests", "tacs_weapons"};

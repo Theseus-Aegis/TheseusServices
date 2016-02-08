@@ -7,6 +7,7 @@ class CfgWorlds {
                 dimas = "Dimas";
                 thomas = "Thomas";
                 brent = "Brent";
+                cory = "Cory";
             };
             class LastNames {
                 james = "James";
@@ -14,6 +15,7 @@ class CfgWorlds {
                 lopez = "López";
                 mueller = "Müller";
                 knyte = "Knyte";
+                larose = "Larose";
             };
         };
     };
