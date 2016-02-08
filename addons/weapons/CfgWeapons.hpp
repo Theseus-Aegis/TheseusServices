@@ -26,4 +26,17 @@ class CfgWeapons {
             QPATHTOF(data\mx_blackcamo_gl_co.paa)
         };
     };
+
+
+    // Equipped
+    class CLASS(MX_BlackCamo_MRCO): CLASS(MX_BlackCamo) {
+        scope = 1;
+
+        class LinkedItems {
+            class LinkedItemsOptics {
+                slot = "CowsSlot";
+                item = "optic_MRCO";
+            };
+        };
+    };
 };

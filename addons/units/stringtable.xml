@@ -263,8 +263,8 @@
         <Key ID="STR_TACS_Units_Unit_TeamLeader">
             <English>Team Leader</English>
         </Key>
-        <Key ID="STR_TACS_Units_Unit_Sniper">
-            <English>Sniper</English>
+        <Key ID="STR_TACS_Units_Unit_Marksman">
+            <English>Marksman</English>
         </Key>
         <Key ID="STR_TACS_Units_Unit_PilotHelicopter">
             <English>Helicopter Pilot</English>

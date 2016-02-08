@@ -1,5 +1,4 @@
 class CfgVehicles {
-    // Empty
     class B_AssaultPack_Kerry;
     class CLASS(Backpack_AssaultExpanded_Black): B_AssaultPack_Kerry {
         dlc = QUOTE(PREFIX);
@@ -82,6 +81,14 @@ class CfgVehicles {
         class TransportItems {
             MACRO_ADDITEM(Medikit,1)
             MACRO_ADDITEM(FirstAidKit,10)
+        };
+    };
+
+    class CLASS(Backpack_AssaultExpanded_Green_Specialist_Filled): CLASS(Backpack_AssaultExpanded_Green) {
+        scope = 1;
+
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(200Rnd_65x39_cased_Box_Tracer,4)
         };
     };
 

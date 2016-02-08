@@ -57,7 +57,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                     };
                     class Unit1: Unit0 {
-                        vehicle = QCLASS(Unit_I_Sniper);
+                        vehicle = QCLASS(Unit_I_Marksman);
                         rank = "SERGEANT";
                         position[] = {5, -5, 0};
                     };
@@ -91,7 +91,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                     };
                     class Unit1: Unit0 {
-                        vehicle = QCLASS(Unit_I_Sniper);
+                        vehicle = QCLASS(Unit_I_Marksman);
                         rank = "SERGEANT";
                         position[] = {5, -5, 0};
                     };
@@ -140,7 +140,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                     };
                     class Unit1: Unit0 {
-                        vehicle = QCLASS(Unit_I_Sniper);
+                        vehicle = QCLASS(Unit_I_Marksman);
                         rank = "SERGEANT";
                         position[] = {5, -5, 0};
                     };
@@ -253,7 +253,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                     };
                     class Unit1: Unit0 {
-                        vehicle = QCLASS(Unit_B_Sniper);
+                        vehicle = QCLASS(Unit_B_Marksman);
                         rank = "SERGEANT";
                         position[] = {5, -5, 0};
                     };
@@ -287,7 +287,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                     };
                     class Unit1: Unit0 {
-                        vehicle = QCLASS(Unit_B_Sniper);
+                        vehicle = QCLASS(Unit_B_Marksman);
                         rank = "SERGEANT";
                         position[] = {5, -5, 0};
                     };
@@ -336,7 +336,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                     };
                     class Unit1: Unit0 {
-                        vehicle = QCLASS(Unit_B_Sniper);
+                        vehicle = QCLASS(Unit_B_Marksman);
                         rank = "SERGEANT";
                         position[] = {5, -5, 0};
                     };
