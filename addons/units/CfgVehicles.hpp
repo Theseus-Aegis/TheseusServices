@@ -57,7 +57,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"}; \
         modelSides[] = {6}; \
         identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"};
-        //genericNames = QUOTE(PREFIX);//@todo
+        genericNames = QUOTE(PREFIX);
 
     // Naming pattern: SizeSleeves_ColorShirt_ColorPants_ColorBoots
     class B_Soldier_base_F;
