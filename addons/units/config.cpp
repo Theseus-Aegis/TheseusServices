@@ -20,8 +20,8 @@ class CfgPatches {
             QCLASS(Unit_B_TeamLeader),
             QCLASS(Unit_I_Sniper),
             QCLASS(Unit_B_Sniper),
-            QCLASS(Unit_I_PilotHelicopter),
-            QCLASS(Unit_B_PilotHelicopter),
+            QCLASS(Unit_I_PilotHeli),
+            QCLASS(Unit_B_PilotHeli),
             QCLASS(Unit_I_VIP),
             QCLASS(Unit_B_VIP)
         };

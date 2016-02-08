@@ -269,7 +269,7 @@
         <Key ID="STR_TACS_Units_Unit_Marksman">
             <English>Marksman</English>
         </Key>
-        <Key ID="STR_TACS_Units_Unit_PilotHelicopter">
+        <Key ID="STR_TACS_Units_Unit_PilotHeli">
             <English>Helicopter Pilot</English>
         </Key>
         <Key ID="STR_TACS_Units_Unit_VIP">
@@ -296,11 +296,7 @@
         <Key ID="STR_TACS_Units_Group_Support">
             <English>Support</English>
         </Key>
-        <Key ID="STR_TACS_Units_GroupType_Motorized">
-            <English>Motorized</English>
-        </Key>
-        <Key ID="STR_TACS_Units_GroupType_Air">
-            <English>Air</English>
+        
         </Key>
     </Package>
 </Project>
