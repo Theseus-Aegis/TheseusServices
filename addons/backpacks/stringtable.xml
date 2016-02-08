@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Backpacks">
-        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_BLack">
+        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Black">
             <English>Assault Pack Expanded (Black) Logo</English>
             <German>Assault Pack, erweitert (schwarz) Logo</German>
         </Key>

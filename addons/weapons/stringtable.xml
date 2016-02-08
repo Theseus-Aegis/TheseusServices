@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Weapons">
+        <Key ID="STR_TACS_Weapons_Box_Weapons">
+            <English>[TACS] Weapons</English>
+        </Key>
         <Key ID="STR_TACS_Weapons_MX_BlackCamo">
             <English>MX 6.5 mm (Black Camo)</English>
             <German>MX 6,5 mm (schwarz tarn)</German>

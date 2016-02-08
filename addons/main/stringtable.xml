@@ -18,5 +18,8 @@
             <English>Theseus Inc.</English>
             <German>Theseus Inc.</German>
         </Key>
+        <Key ID="STR_TACS_Main_Box_Wearables">
+            <English>[TACS] Wearables</English>
+        </Key>
     </Package>
 </Project>

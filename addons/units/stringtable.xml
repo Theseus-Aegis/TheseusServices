@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Units">
+        <Key ID="STR_TACS_Units_Box_Uniforms">
+            <English>[TACS] Uniforms</English>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_GP_BB">
             <English>Combat Uniform Long Sleeves (Black Shirt &amp; Green Pants &amp; Black Boots)</English>
             <German>Kampfuniform, langärmelig (schwarzes Shirt &amp; grüne Hose &amp; schwarze Stiefel)</German>

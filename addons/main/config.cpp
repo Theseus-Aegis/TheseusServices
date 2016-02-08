@@ -2,7 +2,9 @@
 
 class CfgPatches {
     class ADDON {
-        units[] = {};
+        units[] = {
+            QCLASS(Box_Wearables)
+        };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
@@ -550,3 +552,4 @@ class CfgPatches {
 
 #include "CfgFactionClasses.hpp"
 #include "CfgMods.hpp"
+#include "CfgVehicles.hpp"

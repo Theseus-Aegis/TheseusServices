@@ -2,7 +2,9 @@
 
 class CfgPatches {
     class ADDON {
-        units[] = {};
+        units[] = {
+            QCLASS(Box_Weapons)
+        };
         weapons[] = {
             QCLASS(MX_BlackCamo),
             QCLASS(MX_GL_BlackCamo)
@@ -15,4 +17,5 @@ class CfgPatches {
     };
 };
 
+#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"

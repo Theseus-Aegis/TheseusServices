@@ -3,6 +3,7 @@
 class CfgPatches {
     class ADDON {
         units[] = {
+            QCLASS(Box_Uniforms),
             QCLASS(Unit_I_Bodyguard),
             QCLASS(Unit_B_Bodyguard),
             QCLASS(Unit_I_Contractor),

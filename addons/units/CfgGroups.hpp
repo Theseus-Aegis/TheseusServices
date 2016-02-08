@@ -7,7 +7,6 @@ class CfgGroups {
                 class Bodyguards {
                     side = 2;
                     faction = CLASS(IND);
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
                     name = CSTRING(Group_Bodyguards);
                     class Unit0 {
                         side = 2;
@@ -26,8 +25,7 @@ class CfgGroups {
                 };
                 class Patrol {
                     side = 2;
-                    faction = CLASS(IND)
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
+                    faction = CLASS(IND);
                     name = CSTRING(Group_Patrol);
                     class Unit0 {
                         side = 2;
@@ -50,8 +48,7 @@ class CfgGroups {
                 };
                 class Team {
                     side = 2;
-                    faction = CLASS(IND)
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
+                    faction = CLASS(IND);
                     name = CSTRING(Group_Team);
                     class Unit0 {
                         side = 2;
@@ -85,8 +82,7 @@ class CfgGroups {
                 };
                 class Squad {
                     side = 2;
-                    faction = CLASS(IND)
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
+                    faction = CLASS(IND);
                     name = CSTRING(Group_Squad);
                     class Unit0 {
                         side = 2;
@@ -135,8 +131,7 @@ class CfgGroups {
                 };
                 class Specialists {
                     side = 2;
-                    faction = CLASS(IND)
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
+                    faction = CLASS(IND);
                     name = CSTRING(Group_Specialists);
                     class Unit0 {
                         side = 2;
@@ -166,8 +161,7 @@ class CfgGroups {
                 };
                 class Support {
                     side = 2;
-                    faction = CLASS(IND)
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
+                    faction = CLASS(IND);
                     name = CSTRING(Group_Support);
                     class Unit0 {
                         side = 2;
@@ -209,7 +203,6 @@ class CfgGroups {
                 class Bodyguards {
                     side = 1;
                     faction = CLASS(BLU);
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
                     name = CSTRING(Group_Bodyguards);
                     class Unit0 {
                         side = 1;
@@ -228,8 +221,7 @@ class CfgGroups {
                 };
                 class Patrol {
                     side = 1;
-                    faction = CLASS(BLU)
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
+                    faction = CLASS(BLU);
                     name = CSTRING(Group_Patrol);
                     class Unit0 {
                         side = 1;
@@ -252,8 +244,7 @@ class CfgGroups {
                 };
                 class Team {
                     side = 1;
-                    faction = CLASS(BLU)
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
+                    faction = CLASS(BLU);
                     name = CSTRING(Group_Team);
                     class Unit0 {
                         side = 1;
@@ -287,8 +278,7 @@ class CfgGroups {
                 };
                 class Squad {
                     side = 1;
-                    faction = CLASS(BLU)
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
+                    faction = CLASS(BLU);
                     name = CSTRING(Group_Squad);
                     class Unit0 {
                         side = 1;
@@ -337,8 +327,7 @@ class CfgGroups {
                 };
                 class Specialists {
                     side = 1;
-                    faction = CLASS(BLU)
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
+                    faction = CLASS(BLU);
                     name = CSTRING(Group_Specialists);
                     class Unit0 {
                         side = 1;
@@ -368,8 +357,7 @@ class CfgGroups {
                 };
                 class Support {
                     side = 1;
-                    faction = CLASS(BLU)
-                    icon = QPATHTOEF(main,UI\logo_tac_small_ca.paa);//@todo - needed?
+                    faction = CLASS(BLU);
                     name = CSTRING(Group_Support);
                     class Unit0 {
                         side = 1;

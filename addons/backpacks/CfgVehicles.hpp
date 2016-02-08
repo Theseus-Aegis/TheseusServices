@@ -84,4 +84,17 @@ class CfgVehicles {
             MACRO_ADDITEM(FirstAidKit,10)
         };
     };
+
+
+    // Box
+    class Box_NATO_Support_F;
+    class CLASS(Box_Wearables): Box_NATO_Support_F {
+        class TransportBackpacks {
+            MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Black),10)
+            MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Green),10)
+            MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Tan),10)
+            MACRO_ADDBACKPACK(CLASS(Backpack_Carryall_DarkBlack),10)
+            MACRO_ADDBACKPACK(CLASS(Backpack_Kitbag_DarkBlack),10)
+        };
+    };
 };
