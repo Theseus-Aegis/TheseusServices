@@ -3,10 +3,10 @@
 </p>
 <p align="center">
     <a href="https://github.com/Theseus-Aegis/TheseusServices/releases">
-        <img src="https://img.shields.io/badge/Version-0.0.1-blue.svg?style=flat-square" alt="Theseus Services Version">
+        <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square" alt="Theseus Services Version">
     </a>
-    <a href="https://github.com/Theseus-Aegis/TheseusServices/releases/download/v0.0.1/TheseusServices_0.0.1.zip">
-        <img src="https://img.shields.io/badge/Download-xy.z_MB-green.svg?style=flat-square" alt="Theseus Services Download">
+    <a href="https://github.com/Theseus-Aegis/TheseusServices/releases/download/v0.1.0/TheseusServices_0.1.0.zip">
+        <img src="https://img.shields.io/badge/Download-120.0_MB-green.svg?style=flat-square" alt="Theseus Services Download">
     </a>
     <a href="https://github.com/Theseus-Aegis/TheseusServices/issues">
         <img src="https://img.shields.io/github/issues-raw/Theseus-Aegis/TheseusServices.svg?style=flat-square&label=Issues" alt="Theseus Services Issues">

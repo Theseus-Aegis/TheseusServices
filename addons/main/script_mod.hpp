@@ -5,8 +5,8 @@
 #define SUBPREFIX addons
 
 #define MAJOR 0
-#define MINOR 0
-#define PATCHLVL 1
+#define MINOR 1
+#define PATCHLVL 0
 #define BUILD 0
 
 #define VERSION MAJOR.MINOR.PATCHLVL.BUILD
