@@ -19,25 +19,25 @@ class CfgVehicles {
     class B_Soldier_base_F;
     class CLASS(Unit_Underwear_BlackLogo): B_Soldier_base_F {
         MACRO_UNDERWEAR_BASE
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Underwear_BlackLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_blacklogo_co.paa)};
     };
     class CLASS(Unit_Underwear_WhiteLogo): B_Soldier_base_F {
         MACRO_UNDERWEAR_BASE
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Underwear_WhiteLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_whitelogo_co.paa)};
     };
     class CLASS(Unit_Underwear_BlueLogo): B_Soldier_base_F {
         MACRO_UNDERWEAR_BASE
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Underwear_BlueLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_bluelogo_co.paa)};
     };
     class CLASS(Unit_Underwear_GreenLogo): B_Soldier_base_F {
         MACRO_UNDERWEAR_BASE
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Underwear_GreenLogo);
         hiddenSelectionsTextures[] = {QPATHTOF(data\underwear_greenlogo_co.paa)};
     };
@@ -457,69 +457,69 @@ class CfgVehicles {
 
     class CLASS(Unit_Polo_TP_LS_TP_TB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_LS_TP_TB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ls_tp_tb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ls_tp_tb_ca.paa)};
     };
     class CLASS(Unit_Polo_TP_TS_GP_BB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_TS_GP_BB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ts_gp_bb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ts_gp_bb_ca.paa)};
     };
     class CLASS(Unit_Polo_TP_BS_TP_TB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_BS_TP_TB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_bs_tp_tb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_bs_tp_tb_ca.paa)};
     };
     class CLASS(Unit_Polo_TP_BS_LP_BB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_BS_LP_BB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_bs_lp_bb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_bs_lp_bb_ca.paa)};
     };
     class CLASS(Unit_Polo_TP_LS_GP_BB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_LS_GP_BB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ls_gp_bb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ls_gp_bb_ca.paa)};
     };
     class CLASS(Unit_Polo_TP_OS_TP_BB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_OS_TP_BB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_os_tp_bb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_os_tp_bb_ca.paa)};
     };
     class CLASS(Unit_Polo_TP_OS_LP_BB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_OS_LP_BB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_os_lp_bb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_os_lp_bb_ca.paa)};
     };
     class CLASS(Unit_Polo_TP_GS_TP_TB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_GS_TP_TB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_gs_tp_tb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_gs_tp_tb_ca.paa)};
     };
     class CLASS(Unit_Polo_TP_WS_TP_TB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_WS_TP_TB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ws_tp_tb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ws_tp_tb_ca.paa)};
     };
     class CLASS(Unit_Polo_WS_LP_BB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_WS_LP_BB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ws_lp_bb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ws_lp_bb_ca.paa)};
     };
     class CLASS(Unit_Polo_TP_WS_GP_BB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_TP_WS_GP_BB);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ws_gp_bb_ca.paa)};//@todo - change logo
+        hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_ws_gp_bb_ca.paa)};
     };
     class CLASS(Unit_Polo_CP_LS_TP_OB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
@@ -535,7 +535,7 @@ class CfgVehicles {
     };
     class CLASS(Unit_Polo_CP_BS_TP_BB): CLASS(Unit_Polo_TP_Base) {
         scope = 1;
-        author = "Pomigit, Jonpas";
+        author = "Pomigit, Jonpas, Rory";
         uniformClass = QCLASS(Uniform_Polo_CP_BS_TP_BB);
         hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_bs_tp_bb_ca.paa)};
     };
