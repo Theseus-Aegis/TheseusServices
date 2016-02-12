@@ -3,19 +3,19 @@
 </p>
 <p align="center">
     <a href="https://github.com/Theseus-Aegis/TheseusServices/releases">
-        <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square" alt="Theseus Services Version">
+        <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg" alt="Theseus Services Version">
     </a>
     <a href="https://github.com/Theseus-Aegis/TheseusServices/releases/download/v0.1.0/TheseusServices_0.1.0.zip">
-        <img src="https://img.shields.io/badge/Download-120.0_MB-green.svg?style=flat-square" alt="Theseus Services Download">
+        <img src="https://img.shields.io/badge/Download-120.0_MB-green.svg" alt="Theseus Services Download">
     </a>
     <a href="https://github.com/Theseus-Aegis/TheseusServices/issues">
-        <img src="https://img.shields.io/github/issues-raw/Theseus-Aegis/TheseusServices.svg?style=flat-square&label=Issues" alt="Theseus Services Issues">
+        <img src="https://img.shields.io/github/issues-raw/Theseus-Aegis/TheseusServices.svg?label=Issues" alt="Theseus Services Issues">
     </a>
     <a href="https://github.com/Theseus-Aegis/TheseusServices/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/License-GPLv2-red.svg?style=flat-square" alt="Theseus Services License">
+        <img src="https://img.shields.io/badge/License-GPLv2-red.svg" alt="Theseus Services License">
     </a>
     <a href="https://travis-ci.org/Theseus-Aegis/TheseusServices">
-        <img src="https://img.shields.io/travis/Theseus-Aegis/TheseusServices.svg?style=flat-square" alt="Theseus Services Build Status">
+        <img src="https://travis-ci.org/Theseus-Aegis/TheseusServices.svg?branch=master" alt="Theseus Services Build Status">
     </a>
 </p>
 
