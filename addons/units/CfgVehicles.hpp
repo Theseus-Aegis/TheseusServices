@@ -2,8 +2,8 @@ class CfgVehicles {
     #include "CfgVehicles_HelperUnits.hpp"
 
     // Box
-    class Box_NATO_Support_F;
-    class CLASS(Box_Uniforms): Box_NATO_Support_F {
+    class B_supplyCrate_F;
+    class CLASS(Box_Uniforms): B_supplyCrate_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = ECSTRING(main,Author);

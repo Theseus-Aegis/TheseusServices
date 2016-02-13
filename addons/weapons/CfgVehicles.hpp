@@ -28,8 +28,8 @@ class CfgVehicles {
 
 
     // Box
-    class Box_NATO_Support_F;
-    class CLASS(Box_Weapons): Box_NATO_Support_F {
+    class Box_NATO_Wps_F;
+    class CLASS(Box_Weapons): Box_NATO_Wps_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = ECSTRING(main,Author);

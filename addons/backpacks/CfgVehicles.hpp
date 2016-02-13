@@ -94,8 +94,8 @@ class CfgVehicles {
 
 
     // Box
-    class Box_NATO_Support_F;
-    class CLASS(Box_Wearables): Box_NATO_Support_F {
+    class B_supplyCrate_F;
+    class CLASS(Box_Wearables): B_supplyCrate_F {
         class TransportBackpacks {
             MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Black),10)
             MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Green),10)
