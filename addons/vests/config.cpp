@@ -2,7 +2,16 @@
 
 class CfgPatches {
     class ADDON {
-        units[] = {};
+        units[] = {
+            QCLASS(Item_Vest_PlateCarrierFull_Black),
+            QCLASS(Item_Vest_PlateCarrierFull_Green),
+            QCLASS(Item_Vest_PlateCarrier_Black),
+            QCLASS(Item_Vest_PlateCarrier_Green),
+            QCLASS(Item_Vest_PlateCarrier_Coyote),
+            QCLASS(Item_Vest_PlateCarrier_Khaki),
+            QCLASS(Item_Vest_PlateCarrier_MARPAT),
+            QCLASS(Item_Vest_Tactical_DarkBlack)
+        };
         weapons[] = {
             QCLASS(Vest_PlateCarrierFull_Black),
             QCLASS(Vest_PlateCarrierFull_Green),
