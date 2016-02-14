@@ -5,7 +5,7 @@ class CfgWeapons {
         scope = 2;
         author = "BadHabitz, Jonpas";
         displayName = CSTRING(MX_BlackCamo);
-        picture = PATHTOF(UI\mx_blackcamo_ca.paa);
+        picture = QPATHTOF(UI\mx_blackcamo_ca.paa);
         hiddenSelections[] = {"camo1", "camo2"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\mx_blackcamo_base_co.paa),
@@ -19,7 +19,7 @@ class CfgWeapons {
         scope = 2;
         author = "BadHabitz, Jonpas";
         displayName = CSTRING(MX_GL_BlackCamo);
-        picture = PATHTOF(UI\mx_gl_blackcamo_ca.paa);
+        picture = QPATHTOF(UI\mx_gl_blackcamo_ca.paa);
         hiddenSelections[] = {"camo1", "camo2"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\mx_blackcamo_base_co.paa),
