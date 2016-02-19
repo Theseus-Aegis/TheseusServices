@@ -44,14 +44,14 @@ class CfgWeapons {
         MACRO_PLATECARRIERFULL_COMMON
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_PlateCarrierFull_Black);
-        picture = QPATHTOF(UI\vest_platecarrierfull_black_x_ca.paa);
+        picture = QPATHTOF(UI\vest_platecarrierfull_black_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrierfull_black_co.paa)};
     };
     class CLASS(Vest_PlateCarrierFull_Green): V_PlateCarrierIA1_dgtl {
         MACRO_PLATECARRIERFULL_COMMON
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_PlateCarrierFull_Green);
-        picture = QPATHTOF(UI\vest_platecarrierfull_green_x_ca.paa);
+        picture = QPATHTOF(UI\vest_platecarrierfull_green_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrierfull_green_co.paa)};
     };
 
@@ -92,35 +92,35 @@ class CfgWeapons {
         MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_Black);
-        picture = QPATHTOF(UI\vest_platecarrier_black_x_ca.paa);//@todo - change logo to TACS
+        picture = QPATHTOF(UI\vest_platecarrier_black_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co.paa)};
     };
     class CLASS(Vest_PlateCarrier_Green): V_PlateCarrier1_rgr {
         MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_Green);
-        picture = QPATHTOF(UI\vest_platecarrier_green_x_ca.paa);//@todo - change logo to TACS
+        picture = QPATHTOF(UI\vest_platecarrier_green_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co.paa)};
     };
     class CLASS(Vest_PlateCarrier_Coyote): V_PlateCarrier1_rgr {
         MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_Coyote);
-        picture = QPATHTOF(UI\vest_platecarrier_khaki_x_ca.paa);//picture = QPATHTOF(UI\vest_platecarrier_coyote_x_ca.paa);//@todo - new picture + change logo to TACS
+        picture = QPATHTOF(UI\vest_platecarrier_coyote_x_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co.paa)};
     };
     class CLASS(Vest_PlateCarrier_Khaki): V_PlateCarrier1_rgr {
         MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_Khaki);
-        picture = QPATHTOF(UI\vest_platecarrier_khaki_x_ca.paa);//@todo - change logo to TACS
+        picture = QPATHTOF(UI\vest_platecarrier_khaki_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co.paa)};
     };
     class CLASS(Vest_PlateCarrier_MARPAT): V_PlateCarrier1_rgr {
         MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_MARPAT);
-        picture = QPATHTOF(UI\vest_platecarrier_marpat_x_ca.paa);//@todo - change logo to TACS
+        picture = QPATHTOF(UI\vest_platecarrier_marpat_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co.paa)};
     };
 
@@ -134,7 +134,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_Tactical_DarkBlack);
-        picture = "\A3\characters_f\Data\UI\icon_v_tacvest_blk_ca.paa";//picture = QPATHTOF(vest_tactical_darkblack_x_ca.paa);//@todo
+        picture = QPATHTOF(vest_tactical_darkblack_ca.paa);
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_tactical_darkblack_co.paa)};
 
