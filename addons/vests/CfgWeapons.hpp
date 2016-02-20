@@ -106,7 +106,7 @@ class CfgWeapons {
         MACRO_PLATECARRIER_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Vest_PlateCarrier_Coyote);
-        picture = QPATHTOF(UI\vest_platecarrier_coyote_x_ca.paa);
+        picture = QPATHTOF(UI\vest_platecarrier_coyote_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co.paa)};
     };
     class CLASS(Vest_PlateCarrier_Khaki): V_PlateCarrier1_rgr {
@@ -134,7 +134,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Vest_Tactical_DarkBlack);
-        picture = QPATHTOF(vest_tactical_darkblack_ca.paa);
+        picture = QPATHTOF(UI\vest_tactical_darkblack_ca.paa);
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_tactical_darkblack_co.paa)};
 
