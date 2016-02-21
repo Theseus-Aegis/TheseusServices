@@ -12,7 +12,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_vests"};
-        author[]= {"Pomigit", "BadHabitz", "Jonpas"};
+        author[]= {"Pomigit", "BadHabitz", "Jonpas", "Rory"};
         authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
         VERSION_CONFIG;
     };

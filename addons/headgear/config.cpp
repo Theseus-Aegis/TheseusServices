@@ -2,7 +2,21 @@
 
 class CfgPatches {
     class ADDON {
-        units[] = {};
+        units[] = {
+            QCLASS(Item_Cap_Headphones_BlackLogo),
+            QCLASS(Item_Cap_BlackLogo),
+            QCLASS(Item_Cap_TanLogo),
+            QCLASS(Item_Cap_Earpiece_BlackLogo),
+            QCLASS(Item_Cap_Earpiece_TanLogo),
+            QCLASS(Item_Cap_Backwards_BlackLogo),
+            QCLASS(Item_Cap_Backwards_TanLogo),
+            QCLASS(Item_Helmet_Ballistic_DarkBlack),
+            QCLASS(Item_Helmet_PilotHeli_Tan),
+            QCLASS(Item_Hat_Boonie_RangerGreen),
+            QCLASS(Item_Hat_Boonie_DesertMARPAT),
+            QCLASS(Item_Hat_Boonie_Woodland),
+            QCLASS(Item_Hat_Boonie_UCP)
+        };
         weapons[] = {
             QCLASS(Cap_Headphones_BlackLogo),
             QCLASS(Cap_BlackLogo),

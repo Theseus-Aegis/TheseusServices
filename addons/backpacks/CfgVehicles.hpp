@@ -3,9 +3,9 @@ class CfgVehicles {
     class CLASS(Backpack_AssaultExpanded_Black): B_AssaultPack_Kerry {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "BadHabitz, Jonpas";
+        author = "BadHabitz, Jonpas, Rory";
         displayname = CSTRING(Backpack_AssaultExpanded_Black);
-        //picture = QPATHTOF(UI\backpack_assaultexpanded_black_ca.paa);//@todo
+        picture = QPATHTOF(UI\backpack_assaultexpanded_black_ca.paa);
         hiddenSelectionsTextures[] = {
             "\a3\weapons_f\ammoboxes\bags\data\backpack_compact_blk_co.paa",
             QPATHTOEF(vests,data\vest_platecarrier_black_co.paa) // Expanded part - vest texture
@@ -15,9 +15,9 @@ class CfgVehicles {
     class CLASS(Backpack_AssaultExpanded_Green): B_AssaultPack_Kerry {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "BadHabitz, Jonpas";
+        author = "BadHabitz, Jonpas, Rory";
         displayname = CSTRING(Backpack_AssaultExpanded_Green);
-        //picture = QPATHTOF(UI\backpack_assaultexpanded_green_ca.paa);//@todo
+        picture = QPATHTOF(UI\backpack_assaultexpanded_green_ca.paa);
         hiddenSelectionsTextures[] = {
             "\a3\weapons_f\ammoboxes\bags\data\backpack_compact_rgr_co.paa",
             QPATHTOEF(vests,data\vest_platecarrier_green_co.paa) // Expanded part - vest texture
@@ -27,9 +27,9 @@ class CfgVehicles {
     class CLASS(Backpack_AssaultExpanded_Tan): B_AssaultPack_Kerry {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "BadHabitz, Jonpas";
+        author = "BadHabitz, Jonpas, Rory";
         displayname = CSTRING(Backpack_AssaultExpanded_Tan);
-        picture = QPATHTOF(UI\backpack_assaultexpanded_tan_ca.paa);//@todo - update
+        picture = QPATHTOF(UI\backpack_assaultexpanded_tan_ca.paa);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\backpack_assaultexpanded_tan_main_co.paa),
             QPATHTOEF(vests,data\vest_platecarrier_coyote_co.paa) // Expanded part - vest texture
@@ -94,8 +94,8 @@ class CfgVehicles {
 
 
     // Box
-    class Box_NATO_Support_F;
-    class CLASS(Box_Wearables): Box_NATO_Support_F {
+    class B_supplyCrate_F;
+    class CLASS(Box_Wearables): B_supplyCrate_F {
         class TransportBackpacks {
             MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Black),10)
             MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Green),10)

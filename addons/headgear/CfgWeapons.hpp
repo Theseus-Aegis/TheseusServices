@@ -8,7 +8,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_Headphones_BlackLogo);
-        picture = QPATHTOF(UI\cap_headphones_blacklogo_ca.paa);//@todo - change logo to TACS
+        picture = QPATHTOF(UI\cap_headphones_blacklogo_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_headphones_blacklogo_co.paa)};
 
         class ItemInfo: ItemInfo {
@@ -25,7 +25,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_BlackLogo);
-        picture = QPATHTOF(UI\cap_blacklogo_ca.paa);//@todo - change logo to TACS
+        picture = QPATHTOF(UI\cap_blacklogo_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
     class CLASS(Cap_TanLogo): H_Cap_red {
@@ -33,7 +33,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Cap_TanLogo);
-        picture = QPATHTOF(UI\cap_tanlogo_ca.paa);//@todo - change logo to TACS
+        picture = QPATHTOF(UI\cap_tanlogo_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};
     };
 
@@ -51,14 +51,14 @@ class CfgWeapons {
         MACRO_EARPIECE_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayname = CSTRING(Cap_Earpiece_BlackLogo);
-        //picture = QPATHTOF(UI\cap_earpiece_blacklogo_ca.paa);//@todo
+        picture = QPATHTOF(UI\cap_earpiece_blacklogo_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
     };
     class CLASS(Cap_Earpiece_TanLogo): H_Cap_red {
         MACRO_EARPIECE_COMMON
         author = "Pomigit, Jonpas, Rory";
         displayname = CSTRING(Cap_Earpiece_TanLogo);
-        //picture = QPATHTOF(UI\cap_earpiece_tanlogo_ca.paa);//@todo
+        picture = QPATHTOF(UI\cap_earpiece_tanlogo_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};
     };
 
@@ -151,7 +151,7 @@ class CfgWeapons {
         scope = 2;
         author = "Jonpas";
         displayName = CSTRING(Hat_Boonie_UCP);
-        //picture = QPATHTOF(UI\hat_boonie_ucp_ca.paa);//@todo
+        picture = QPATHTOF(UI\hat_boonie_ucp_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\hat_boonie_ucp_co.paa)};
     };
 };

@@ -13,18 +13,18 @@ class CfgGlasses {
         MACRO_GOGGLES_COMMON
         author = "Pomigit, Jonpas";
         displayname = CSTRING(Goggles_Black);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\goggles_black_ca.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\goggles_black_co.paa)};
     };
     class CLASS(Goggles_Green): G_Combat {
         MACRO_GOGGLES_COMMON
         author = "Pomigit, Jonpas";
         displayname = CSTRING(Goggles_Green);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\goggles_green_ca.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\goggles_green_co.paa)};
     };
     class CLASS(Goggles_Tan): G_Combat {
         MACRO_GOGGLES_COMMON
         author = "Pomigit, Jonpas";
         displayname = CSTRING(Goggles_Tan);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\goggles_tan_ca.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\goggles_tan_co.paa)};
     };
 };

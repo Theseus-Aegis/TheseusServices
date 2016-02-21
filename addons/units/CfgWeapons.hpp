@@ -7,28 +7,28 @@ class CfgWeapons {
     };
     class CLASS(Underwear_BlackLogo): U_BasicBody {
         scope = 1;
-        author = "Pomigit, Jonpas, Rory";
+        author = "Pomigit, Jonpas";
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Underwear_BlackLogo);
         };
     };
     class CLASS(Underwear_WhiteLogo): U_BasicBody {
         scope = 1;
-        author = "Pomigit, Jonpas, Rory";
+        author = "Pomigit, Jonpas";
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Underwear_WhiteLogo);
         };
     };
     class CLASS(Underwear_BlueLogo): U_BasicBody {
         scope = 1;
-        author = "Pomigit, Jonpas, Rory";
+        author = "Pomigit, Jonpas";
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Underwear_BlueLogo);
         };
     };
     class CLASS(Underwear_GreenLogo): U_BasicBody {
         scope = 1;
-        author = "Pomigit, Jonpas, Rory";
+        author = "Pomigit, Jonpas";
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Underwear_GreenLogo);
         };
@@ -629,7 +629,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_LS_TP_TB);
-        picture = QPATHTOF(UI\uniform_polo_tp_ls_tp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_ls_tp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_TP_LS_TP_TB);
@@ -639,7 +639,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_TS_GP_BB);
-        picture = QPATHTOF(UI\uniform_polo_tp_ts_gp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_ts_gp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_TP_TS_GP_BB);
@@ -649,7 +649,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_BS_TP_TB);
-        picture = QPATHTOF(UI\uniform_polo_tp_bs_tp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_bs_tp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_TP_BS_TP_TB);
@@ -659,7 +659,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_BS_LP_BB);
-        picture = QPATHTOF(UI\uniform_polo_tp_bs_lp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_bs_lp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_TP_BS_LP_BB);
@@ -669,7 +669,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_LS_GP_BB);
-        picture = QPATHTOF(UI\uniform_polo_tp_ls_gp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_ls_gp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_TP_LS_GP_BB);
@@ -679,7 +679,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_OS_TP_BB);
-        picture = QPATHTOF(UI\uniform_polo_tp_os_tp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_os_tp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_TP_OS_TP_BB);
@@ -689,7 +689,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_OS_LP_BB);
-        picture = QPATHTOF(UI\uniform_polo_tp_os_lp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_os_lp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_TP_OS_LP_BB);
@@ -699,7 +699,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_GS_TP_TB);
-        picture = QPATHTOF(UI\uniform_polo_tp_gs_tp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_gs_tp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_TP_GS_TP_TB);
@@ -709,7 +709,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_WS_TP_TB);
-        picture = QPATHTOF(UI\uniform_polo_tp_ws_tp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_ws_tp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_TP_WS_TP_TB);
@@ -719,7 +719,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_WS_LP_BB);
-        picture = QPATHTOF(UI\uniform_polo_tp_ws_lp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_ws_lp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_WS_LP_BB);
@@ -729,7 +729,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_TP_WS_GP_BB);
-        picture = QPATHTOF(UI\uniform_polo_tp_ws_gp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_polo_tp_ws_gp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_TP_WS_GP_BB);
@@ -741,7 +741,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_CP_LS_TP_OB);
-        picture = QPATHTOF(UI\uniform_polo_cp_ls_tp.paa);
+        picture = QPATHTOF(UI\uniform_polo_cp_ls_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_CP_LS_TP_OB);
@@ -751,7 +751,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_CP_RS_LP_BB);
-        picture = QPATHTOF(UI\uniform_polo_cp_rs_lp.paa);
+        picture = QPATHTOF(UI\uniform_polo_cp_rs_lp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_CP_RS_LP_BB);
@@ -761,7 +761,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Polo_CP_BS_TP_BB);
-        picture = QPATHTOF(UI\uniform_polo_cp_bs_tp.paa);
+        picture = QPATHTOF(UI\uniform_polo_cp_bs_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Polo_CP_BS_TP_BB);
@@ -773,7 +773,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_TShirt_JP_GS_LP_BB);
-        picture = QPATHTOF(UI\uniform_tshirt_jp_gs_lp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_tshirt_jp_gs_lp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_TShirt_JP_GS_LP_BB);
@@ -783,7 +783,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_TShirt_JP_GS_TP_BB);
-        picture = QPATHTOF(UI\uniform_tshirt_jp_gs_tp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_tshirt_jp_gs_tp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_TShirt_JP_GS_TP_BB);
@@ -793,7 +793,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_TShirt_JP_BS_LP_BB);
-        picture = QPATHTOF(UI\uniform_tshirt_jp_bs_lp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_tshirt_jp_bs_lp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_TShirt_JP_BS_LP_BB);
@@ -803,7 +803,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_TShirt_JP_BS_TP_BB);
-        picture = QPATHTOF(UI\uniform_tshirt_jp_bs_tp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_tshirt_jp_bs_tp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_TShirt_JP_BS_TP_BB);
@@ -813,7 +813,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_TShirt_JP_LS_TP_BB);
-        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_tp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_tp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_TShirt_JP_LS_TP_BB);
@@ -823,7 +823,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_TShirt_JP_WS_LP_BB);
-        picture = QPATHTOF(UI\uniform_tshirt_jp_ws_lp.paa);//@todo - change logo
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ws_lp_ca.paa);//@todo - change logo
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_TShirt_JP_WS_LP_BB);
