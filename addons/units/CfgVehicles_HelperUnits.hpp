@@ -58,7 +58,8 @@ class CLASS(Unit_Underwear_GreenLogo): B_Soldier_base_F {
     respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"}; \
     modelSides[] = {6}; \
     identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"}; \
-    genericNames = QUOTE(PREFIX);
+    genericNames = QUOTE(PREFIX); \
+    class EventHandlers;
 
 // Naming pattern: SizeSleeves_ColorShirt_ColorPants_ColorBoots
 

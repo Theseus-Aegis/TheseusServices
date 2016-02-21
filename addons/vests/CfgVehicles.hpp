@@ -82,8 +82,8 @@ class CfgVehicles {
 
 
     // Box
-    class Box_NATO_Support_F;
-    class CLASS(Box_Wearables): Box_NATO_Support_F {
+    class B_supplyCrate_F;
+    class CLASS(Box_Wearables): B_supplyCrate_F {
         class TransportItems {
             MACRO_ADDITEM(CLASS(Vest_PlateCarrierFull_Black),10)
             MACRO_ADDITEM(CLASS(Vest_PlateCarrierFull_Green),10)

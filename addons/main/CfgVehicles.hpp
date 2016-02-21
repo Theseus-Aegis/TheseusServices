@@ -1,6 +1,6 @@
 class CfgVehicles {
-    class Box_NATO_Support_F;
-    class CLASS(Box_Wearables): Box_NATO_Support_F {
+    class B_supplyCrate_F;
+    class CLASS(Box_Wearables): B_supplyCrate_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = CSTRING(Author);
