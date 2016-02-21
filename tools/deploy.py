@@ -16,13 +16,12 @@ from pygithub3 import Github
 
 
 TRANSLATIONISSUE = 1
-TRANSLATIONBODY = """Refer to **[ACE3 Translation Guide](http://ace3mod.com/wiki/development/how-to-translate-ace3.html)**
-(Keep in mind, Theseus Services project and repository information is different!)
+TRANSLATIONBODY = """Refer to the **[Translation Guide](https://github.com/Theseus-Aegis/TheseusServices/wiki/Translation-Guide)**
 
 {}
 """
 
-REPOUSER = "jonpas"
+REPOUSER = "Theseus-Aegis"
 REPONAME = "TheseusServices"
 REPOPATH = "{}/{}".format(REPOUSER,REPONAME)
 
