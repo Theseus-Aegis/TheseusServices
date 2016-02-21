@@ -20,6 +20,7 @@
         </Key>
         <Key ID="STR_TACS_Main_Box_Wearables">
             <English>[TACS] Wearables</English>
+            <German>[TACS] Tragbares</German>
         </Key>
     </Package>
 </Project>
