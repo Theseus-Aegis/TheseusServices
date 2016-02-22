@@ -72,8 +72,8 @@ def main():
         for className, gameName, inheritName in zip(classNames, gameNames, inheritNames):
             classType = "Item" if className.startswith("tacs_Item") else "Object"
             print("{} | `{}` | {} | `{}`".format(classType, className, gameName, inheritName))
-        print("\n**Legend:**",)
-        print("Object - Standard object")
+        print("\n**Legend:**  ",)
+        print("Object - Standard object  ")
         print("Item - Ground item, placeable in Editor/Zeus")
     else:
         if not os.path.exists("temp"):
@@ -91,8 +91,8 @@ def main():
                 dumpFile.write("{} | `{}` | {} | `{}`\n".format(classType, className, gameName, inheritName))
 
             dumpFile.writelines([
-                "\n\n**Legend:**\n",
-                "Object - Standard object\n"
+                "\n**Legend:**  \n",
+                "Object - Standard object  \n"
                 "Item - Ground item, placeable in Editor/Zeus"
             ])
 
