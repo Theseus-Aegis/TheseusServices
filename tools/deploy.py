@@ -16,7 +16,7 @@ from pygithub3 import Github
 
 
 TRANSLATIONISSUE = 1
-TRANSLATIONBODY = """Refer to the **[Translation Guide](https://github.com/Theseus-Aegis/TheseusServices/wiki/Translation-Guide)**
+TRANSLATIONBODY = """**[Translation Guide](https://github.com/Theseus-Aegis/TheseusServices/wiki/Translation-Guide)**
 
 {}
 """
