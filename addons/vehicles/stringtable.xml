@@ -3,12 +3,15 @@
     <Package name="Vehicles">
         <Key ID="STR_TACS_Vehicles_Heli_MH6_Blue">
             <English>MH-6 Little Bird (Blue)</English>
+            <German>MH-6 Little Bird (blau)</German>
         </Key>
         <Key ID="STR_TACS_Vehicles_Offroad_Black">
             <English>Offroad (Black)</English>
+            <German>Geländewagen (schwarz)</German>
         </Key>
         <Key ID="STR_TACS_Vehicles_Offroad_Armed_Black">
             <English>Offroad Armed (Black)</English>
+            <German>Geländewagen, bewaffnet (schwarz)</German>
         </Key>
     </Package>
 </Project>

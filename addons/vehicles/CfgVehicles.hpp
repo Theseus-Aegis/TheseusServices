@@ -21,7 +21,10 @@ class CfgVehicles {
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
 
-    class Offroad_01_unarmed_base_F;
+    class Offroad_01_base_F;
+    class Offroad_01_unarmed_base_F: Offroad_01_base_F {
+        class EventHandlers;
+    };
     class CLASS(Offroad_I_Black): Offroad_01_unarmed_base_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
@@ -37,6 +40,17 @@ class CfgVehicles {
             QPATHTOF(data\offroad_black_ext_co.paa)
         };
         transportMaxBackpacks = 6;
+
+        animationList[] = {
+            "HideBackpacks", 0.5,
+            "HideBumper2", 0.5,
+            "HideConstruction", 0.5,
+            "HideDoor3", 0.5
+        };
+
+        class EventHandlers: EventHandlers {
+            init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
+        };
     };
     class CLASS(Offroad_B_Black): CLASS(Offroad_I_Black) {
         scope = 2;
@@ -47,7 +61,10 @@ class CfgVehicles {
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
 
-    class Offroad_01_armed_base_F;
+    class Offroad_01_military_base_F;
+    class Offroad_01_armed_base_F: Offroad_01_military_base_F {
+        class EventHandlers;
+    };
     class CLASS(Offroad_I_Armed_Black): Offroad_01_armed_base_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
@@ -63,6 +80,17 @@ class CfgVehicles {
             QPATHTOF(data\offroad_black_ext_co.paa)
         };
         transportMaxBackpacks = 6;
+
+        animationList[] = {
+            "HideBackpacks", 0.5,
+            "HideBumper2", 0.5,
+            "HideConstruction", 0.5,
+            "HideDoor3", 0.5
+        };
+
+        class EventHandlers: EventHandlers {
+            init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
+        };
     };
     class CLASS(Offroad_B_Armed_Black): CLASS(Offroad_I_Armed_Black) {
         scope = 2;

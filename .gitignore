@@ -60,3 +60,6 @@ release/*
 *.pbo
 texHeaders.bin
 *.biprivatekey
+
+# Tools temp
+tools/temp
