@@ -5,7 +5,7 @@
 #define SUBPREFIX addons
 
 #define MAJOR 0
-#define MINOR 1
+#define MINOR 9
 #define PATCHLVL 0
 #define BUILD 0
 
