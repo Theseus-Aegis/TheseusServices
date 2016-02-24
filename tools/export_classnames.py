@@ -48,6 +48,10 @@ def main():
                         for line in stringtableFile:
                             if className.startswith("tacs_Item"):
                                 className = "tacs_{}".format(className[10:])
+                            if "_I_" in className:
+                                className = className.replace("_I_", "_")
+                            if "_B_" in className:
+                                className = className.replace("_B_", "_")
 
                             matchStringLocation = re.search(r'"STR_TACS_(.+?)_(.+?)"', line)
                             if matchStringLocation and "tacs_{}".format(matchStringLocation.group(2)) == className:
