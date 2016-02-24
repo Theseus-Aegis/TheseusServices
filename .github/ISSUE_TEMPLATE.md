@@ -1,5 +1,5 @@
-**Arma 3 Version:** `x.xx` *(stable / rc / dev*)
-**ACE3 Version:** `3.x.x` *(stable / dev + commit hash)*
+**Arma 3 Version:** `x.yy` *(stable / rc / dev*)
+**Theseus Services Version:** `x.y.z` *(stable / dev + commit hash)*
 
 **Mods:**
 - `@theseus_services`
