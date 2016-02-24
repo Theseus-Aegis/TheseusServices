@@ -16,15 +16,16 @@ from pygithub3 import Github
 
 
 TRANSLATIONISSUE = 1
-TRANSLATIONBODY = """Refer to **[ACE3 Translation Guide](http://ace3mod.com/wiki/development/how-to-translate-ace3.html)**
-(Keep in mind, Theseus Services project and repository information is different!)
+TRANSLATIONBODY = """**[Translation Guide](https://github.com/Theseus-Aegis/TheseusServices/wiki/Translation-Guide)**
 
 {}
 """
 
-REPOUSER = "jonpas"
+REPOUSER = "Theseus-Aegis"
 REPONAME = "TheseusServices"
 REPOPATH = "{}/{}".format(REPOUSER,REPONAME)
+REPONAME_WIKI = "TheseusServices.wiki"
+REPOPATH_WIKI = "{}/{}".format(REPOUSER,REPONAME_WIKI)
 
 
 def update_translations(token):
@@ -33,6 +34,12 @@ def update_translations(token):
     repo = Github(token).get_repo(REPOPATH)
     issue = repo.get_issue(TRANSLATIONISSUE)
     issue.edit(body=TRANSLATIONBODY.format(diag))
+
+# def update_classnames(token):
+#     diag = sp.check_output(["python3", "tools/export_classnames.py", "--markdown"])
+#     diag = str(diag, "utf-8")
+#     repo = Github(token).get_repo(REPOPATH_WIKI)
+#     # @todo - requires https://github.com/PyGithub/PyGithub/pull/379
 
 
 def main():
@@ -44,7 +51,7 @@ def main():
         print(traceback.format_exc())
         return 1
     else:
-        print("done.")
+        print("Done")
 
     print("\nUpdating translation issue ...")
     try:
@@ -54,7 +61,17 @@ def main():
         print(traceback.format_exc())
         return 1
     else:
-        print("done.")
+        print("Done")
+
+    # print("\nUpdating Class Names wiki page ...")
+    # try:
+    #     update_classnames(token)
+    # except:
+    #     print("Failed to update CLass Names wiki page.")
+    #     print(traceback.format_exc())
+    #     return 1
+    # else:
+    #     print("Done")
 
     return 0
 
