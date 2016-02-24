@@ -126,8 +126,8 @@
             <German>Kampfkleidung, langärmelig (schwarzes Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_BS_EP_TB">
-            <English>Combat Garment Long Sleeves (Black Shirt &amp; Grey Pants &amp; Tan Boots)</English>
-            <German>Kampfkleidung, langärmelig (schwarzes Hemd &amp; graue Hose &amp; hellbraune Stiefel)</German>
+            <English>Combat Garment Long Sleeves (Brown Shirt &amp; Grey Pants &amp; Tan Boots)</English>
+            <German>Kampfkleidung, langärmelig (braunes Hemd &amp; graue Hose &amp; hellbraune Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_GS_GP_BB">
             <English>Combat Garment Long Sleeves (Green Shirt &amp; Green Pants &amp; Black Boots)</English>
@@ -166,8 +166,8 @@
             <German>Kampfkleidung, langärmelig (hellbraunes Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_BS_TP_TB">
-            <English>Combat Garment Long Sleeves (Black Shirt &amp; Tan Pants &amp; Tan Boots)</English>
-            <German>Kampfkleidung, langärmelig (schwarzes Hemd &amp; hellbraune Hose &amp; hellbraune Stiefel)</German>
+            <English>Combat Garment Long Sleeves (Brown Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+            <German>Kampfkleidung, langärmelig (braunes Hemd &amp; hellbraune Hose &amp; hellbraune Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_TS_BP_BB">
             <English>Combat Garment Long Sleeves (Tan Shirt &amp; Black Pants &amp; Black Boots)</English>
@@ -182,8 +182,8 @@
             <German>Kampfkleidung, hochgekrempelt (schwarzes Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_EP_TB">
-            <English>Combat Garment Rolled Sleeves (Black Shirt &amp; Grey Pants &amp; Tan Boots)</English>
-            <German>Kampfkleidung, hochgekrempelt (schwarzes Hemd &amp; graue Hose &amp; hellbraune Stiefel)</German>
+            <English>Combat Garment Rolled Sleeves (Brown Shirt &amp; Grey Pants &amp; Tan Boots)</English>
+            <German>Kampfkleidung, hochgekrempelt (braunes Hemd &amp; graue Hose &amp; hellbraune Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_GP_BB">
             <English>Combat Garment Rolled Sleeves (Green Shirt &amp; Green Pants &amp; Black Boots)</English>
@@ -222,8 +222,8 @@
             <German>Kampfkleidung, hochgekrempelt (hellbraunes Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_TP_TB">
-            <English>Combat Garment Rolled Sleeves (Black Shirt &amp; Tan Pants &amp; Tan Boots)</English>
-            <German>Kampfkleidung, hochgekrempelt (schwarzes Hemd &amp; hellbraune Hose &amp; hellbraune Stiefel)</German>
+            <English>Combat Garment Rolled Sleeves (Brown Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+            <German>Kampfkleidung, hochgekrempelt (braunes Hemd &amp; hellbraune Hose &amp; hellbraune Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_BP_BB">
             <English>Combat Garment Rolled Sleeves (Tan Shirt &amp; Black Pants &amp; Black Boots)</English>
@@ -250,28 +250,28 @@
             <German>Taktische Kleidung (blaues Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_TP_BB">
-            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
-            <German>Taktische Kleidung (blaues Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
+            <English>Tactical Clothes (Brown Shirt &amp; Tan Pants &amp; Black Boots)</English>
+            <German>Taktische Kleidung (braunes Hemd &amp; hellbraune Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_LP_BB">
-            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
-            <German>Taktische Kleidung (blaues Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
+            <English>Tactical Clothes (Brown Shirt &amp; Blue Pants &amp; Black Boots)</English>
+            <German>Taktische Kleidung (braunes Hemd &amp; blaue Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_GS_TP_TB">
-            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
-            <German>Taktische Kleidung (blaues Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
+            <English>Tactical Clothes (Green Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+            <German>Taktische Kleidung (grünes Hemd &amp; hellbraune Hose &amp; hellbraune Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_TP_TB">
-            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
-            <German>Taktische Kleidung (blaues Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
+            <English>Tactical Clothes (White Shirt &amp; Tan Pants &amp; Tan Boots)</English>
+            <German>Taktische Kleidung (weißes Hemd &amp; hellbraune Hose &amp; hellbraune Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_LP_BB">
-            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
-            <German>Taktische Kleidung (blaues Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
+            <English>Tactical Clothes (White Shirt &amp; Blue Pants &amp; Black Boots)</English>
+            <German>Taktische Kleidung (weißes Hemd &amp; blaue Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_GP_BB">
-            <English>Tactical Clothes (Blue Shirt &amp; Green Pants &amp; Black Boots)</English>
-            <German>Taktische Kleidung (blaues Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
+            <English>Tactical Clothes (White Shirt &amp; Green Pants &amp; Black Boots)</English>
+            <German>Taktische Kleidung (weißes Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_CP_LS_TP_OB">
             <English>Tactical Clothes Cords (Blue Shirt &amp; Tan Pants &amp; Brown Boots)</English>
@@ -302,8 +302,8 @@
             <German>T-Shirt &amp; Jeans (schwarzes T-Shirt &amp; hellbraune Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_LS_TP_BB">
-            <English>T-Shirt &amp; Jeans (Blue Shirt &amp; Tan Pants &amp; Black Boots)</English>
-            <German>T-Shirt &amp; Jeans (blaues T-Shirt &amp; hellbraune Hose &amp; schwarze Stiefel)</German>
+            <English>T-Shirt &amp; Jeans (Blue Shirt &amp; Blue Pants &amp; Black Boots)</English>
+            <German>T-Shirt &amp; Jeans (blaues T-Shirt &amp; blaue Hose &amp; schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_WS_LP_BB">
             <English>T-Shirt &amp; Jeans (White Shirt &amp; Blue Pants &amp; Black Boots)</English>
