@@ -125,7 +125,7 @@
             <English>Combat Garment Long Sleeves (Black Shirt &amp; Green Pants &amp; Black Boots)</English>
             <German>Kampfkleidung, langärmelig (schwarzes Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
-        <Key ID="STR_TACS_Units_Uniform_Garment_LS_BS_EP_TB">
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_OS_EP_TB">
             <English>Combat Garment Long Sleeves (Brown Shirt &amp; Grey Pants &amp; Tan Boots)</English>
             <German>Kampfkleidung, langärmelig (braunes Hemd &amp; graue Hose &amp; hellbraune Stiefel)</German>
         </Key>
@@ -165,7 +165,7 @@
             <English>Combat Garment Long Sleeves (Tan Shirt &amp; Green Pants &amp; Black Boots)</English>
             <German>Kampfkleidung, langärmelig (hellbraunes Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
-        <Key ID="STR_TACS_Units_Uniform_Garment_LS_BS_TP_TB">
+        <Key ID="STR_TACS_Units_Uniform_Garment_LS_OS_TP_TB">
             <English>Combat Garment Long Sleeves (Brown Shirt &amp; Tan Pants &amp; Tan Boots)</English>
             <German>Kampfkleidung, langärmelig (braunes Hemd &amp; hellbraune Hose &amp; hellbraune Stiefel)</German>
         </Key>
@@ -181,7 +181,7 @@
             <English>Combat Garment Rolled Sleeves (Black Shirt &amp; Green Pants &amp; Black Boots)</English>
             <German>Kampfkleidung, hochgekrempelt (schwarzes Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
-        <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_EP_TB">
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_OS_EP_TB">
             <English>Combat Garment Rolled Sleeves (Brown Shirt &amp; Grey Pants &amp; Tan Boots)</English>
             <German>Kampfkleidung, hochgekrempelt (braunes Hemd &amp; graue Hose &amp; hellbraune Stiefel)</German>
         </Key>
@@ -221,7 +221,7 @@
             <English>Combat Garment Rolled Sleeves (Tan Shirt &amp; Green Pants &amp; Black Boots)</English>
             <German>Kampfkleidung, hochgekrempelt (hellbraunes Hemd &amp; grüne Hose &amp; schwarze Stiefel)</German>
         </Key>
-        <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_TP_TB">
+        <Key ID="STR_TACS_Units_Uniform_Garment_RS_OS_TP_TB">
             <English>Combat Garment Rolled Sleeves (Brown Shirt &amp; Tan Pants &amp; Tan Boots)</English>
             <German>Kampfkleidung, hochgekrempelt (braunes Hemd &amp; hellbraune Hose &amp; hellbraune Stiefel)</German>
         </Key>
@@ -301,7 +301,7 @@
             <English>T-Shirt &amp; Jeans (Black Shirt &amp; Tan Pants &amp; Black Boots)</English>
             <German>T-Shirt &amp; Jeans (schwarzes T-Shirt &amp; hellbraune Hose &amp; schwarze Stiefel)</German>
         </Key>
-        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_LS_TP_BB">
+        <Key ID="STR_TACS_Units_Uniform_TShirt_JP_LS_LP_BB">
             <English>T-Shirt &amp; Jeans (Blue Shirt &amp; Blue Pants &amp; Black Boots)</English>
             <German>T-Shirt &amp; Jeans (blaues T-Shirt &amp; blaue Hose &amp; schwarze Stiefel)</German>
         </Key>

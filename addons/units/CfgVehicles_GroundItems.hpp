@@ -278,13 +278,13 @@ class CLASS(Item_Uniform_Garment_LS_BS_GP_BB): Item_Base_F {
         MACRO_ADDITEM(CLASS(Uniform_Garment_LS_BS_GP_BB),1);
     };
 };
-class CLASS(Item_Uniform_Garment_LS_BS_EP_TB): Item_Base_F {
+class CLASS(Item_Uniform_Garment_LS_OS_EP_TB): Item_Base_F {
     MACRO_ITEM_COMMON
     author = "Jonpas";
-    displayName = CSTRING(Uniform_Garment_LS_BS_EP_TB);
+    displayName = CSTRING(Uniform_Garment_LS_OS_EP_TB);
 
     class TransportItems {
-        MACRO_ADDITEM(CLASS(Uniform_Garment_LS_BS_EP_TB),1);
+        MACRO_ADDITEM(CLASS(Uniform_Garment_LS_OS_EP_TB),1);
     };
 };
 class CLASS(Item_Uniform_Garment_LS_GS_GP_BB): Item_Base_F {
@@ -368,13 +368,13 @@ class CLASS(Item_Uniform_Garment_LS_TS_GP_BB): Item_Base_F {
         MACRO_ADDITEM(CLASS(Uniform_Garment_LS_TS_GP_BB),1);
     };
 };
-class CLASS(Item_Uniform_Garment_LS_BS_TP_TB): Item_Base_F {
+class CLASS(Item_Uniform_Garment_LS_OS_TP_TB): Item_Base_F {
     MACRO_ITEM_COMMON
     author = "Jonpas";
-    displayName = CSTRING(Uniform_Garment_LS_BS_TP_TB);
+    displayName = CSTRING(Uniform_Garment_LS_OS_TP_TB);
 
     class TransportItems {
-        MACRO_ADDITEM(CLASS(Uniform_Garment_LS_BS_TP_TB),1);
+        MACRO_ADDITEM(CLASS(Uniform_Garment_LS_OS_TP_TB),1);
     };
 };
 class CLASS(Item_Uniform_Garment_LS_TS_BP_BB): Item_Base_F {
@@ -404,13 +404,13 @@ class CLASS(Item_Uniform_Garment_RS_BS_GP_BB): Item_Base_F {
         MACRO_ADDITEM(CLASS(Uniform_Garment_RS_BS_GP_BB),1);
     };
 };
-class CLASS(Item_Uniform_Garment_RS_BS_EP_TB): Item_Base_F {
+class CLASS(Item_Uniform_Garment_RS_OS_EP_TB): Item_Base_F {
     MACRO_ITEM_COMMON
     author = "Jonpas";
-    displayName = CSTRING(Uniform_Garment_RS_BS_EP_TB);
+    displayName = CSTRING(Uniform_Garment_RS_OS_EP_TB);
 
     class TransportItems {
-        MACRO_ADDITEM(CLASS(Uniform_Garment_RS_BS_EP_TB),1);
+        MACRO_ADDITEM(CLASS(Uniform_Garment_RS_OS_EP_TB),1);
     };
 };
 class CLASS(Item_Uniform_Garment_RS_GS_GP_BB): Item_Base_F {
@@ -494,13 +494,13 @@ class CLASS(Item_Uniform_Garment_RS_TS_GP_BB): Item_Base_F {
         MACRO_ADDITEM(CLASS(Uniform_Garment_RS_TS_GP_BB),1);
     };
 };
-class CLASS(Item_Uniform_Garment_RS_BS_TP_TB): Item_Base_F {
+class CLASS(Item_Uniform_Garment_RS_OS_TP_TB): Item_Base_F {
     MACRO_ITEM_COMMON
     author = "Jonpas";
-    displayName = CSTRING(Uniform_Garment_RS_BS_TP_TB);
+    displayName = CSTRING(Uniform_Garment_RS_OS_TP_TB);
 
     class TransportItems {
-        MACRO_ADDITEM(CLASS(Uniform_Garment_RS_BS_TP_TB),1);
+        MACRO_ADDITEM(CLASS(Uniform_Garment_RS_OS_TP_TB),1);
     };
 };
 class CLASS(Item_Uniform_Garment_RS_TS_BP_BB): Item_Base_F {
@@ -674,13 +674,13 @@ class CLASS(Item_Uniform_TShirt_JP_BS_TP_BB): Item_Base_F {
         MACRO_ADDITEM(CLASS(Uniform_TShirt_JP_BS_TP_BB),1);
     };
 };
-class CLASS(Item_Uniform_TShirt_JP_LS_TP_BB): Item_Base_F {
+class CLASS(Item_Uniform_TShirt_JP_LS_LP_BB): Item_Base_F {
     MACRO_ITEM_COMMON
     author = "Jonpas";
-    displayName = CSTRING(Uniform_TShirt_JP_LS_TP_BB);
+    displayName = CSTRING(Uniform_TShirt_JP_LS_LP_BB);
 
     class TransportItems {
-        MACRO_ADDITEM(CLASS(Uniform_TShirt_JP_LS_TP_BB),1);
+        MACRO_ADDITEM(CLASS(Uniform_TShirt_JP_LS_LP_BB),1);
     };
 };
 class CLASS(Item_Uniform_TShirt_JP_WS_LP_BB): Item_Base_F {
