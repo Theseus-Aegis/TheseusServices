@@ -286,7 +286,7 @@ class CLASS(Unit_Garment_LS_OS_EP_TB): CLASS(Unit_Garment_LS_Base) {
     scope = 1;
     author = "Pomigit, Jonpas";
     uniformClass = QCLASS(Uniform_Garment_LS_OS_EP_TB);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_ep_tb_co.paa)};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_os_ep_tb_co.paa)};
 };
 class CLASS(Unit_Garment_LS_GS_GP_BB): CLASS(Unit_Garment_LS_Base) {
     scope = 1;
@@ -346,7 +346,7 @@ class CLASS(Unit_Garment_LS_OS_TP_TB): CLASS(Unit_Garment_LS_Base) {
     scope = 1;
     author = "Pomigit, Jonpas";
     uniformClass = QCLASS(Uniform_Garment_LS_OS_TP_TB);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_tp_tb_co.paa)};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_os_tp_tb_co.paa)};
 };
 class CLASS(Unit_Garment_LS_TS_BP_BB): CLASS(Unit_Garment_LS_Base) {
     scope = 1;
@@ -378,7 +378,7 @@ class CLASS(Unit_Garment_RS_OS_EP_TB): CLASS(Unit_Garment_RS_Base) {
     scope = 1;
     author = "Pomigit, Jonpas";
     uniformClass = QCLASS(Uniform_Garment_RS_OS_EP_TB);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_ep_tb_co.paa)};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_os_ep_tb_co.paa)};
 };
 class CLASS(Unit_Garment_RS_GS_GP_BB): CLASS(Unit_Garment_RS_Base) {
     scope = 1;
@@ -438,7 +438,7 @@ class CLASS(Unit_Garment_RS_OS_TP_TB): CLASS(Unit_Garment_RS_Base) {
     scope = 1;
     author = "Pomigit, Jonpas";
     uniformClass = QCLASS(Uniform_Garment_RS_OS_TP_TB);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_bs_tp_tb_co.paa)};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_os_tp_tb_co.paa)};
 };
 class CLASS(Unit_Garment_RS_TS_BP_BB): CLASS(Unit_Garment_RS_Base) {
     scope = 1;

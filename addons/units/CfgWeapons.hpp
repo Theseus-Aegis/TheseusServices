@@ -359,11 +359,11 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Garment_LS_BS_GP_BB);
         };
     };
-    class CLASS(Uniform_Garment_LS_OS_EP_TB): CLASS(Uniform_Base) { // E = Grey
+    class CLASS(Uniform_Garment_LS_OS_EP_TB): CLASS(Uniform_Base) { // O = Brown, E = Grey
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Garment_LS_OS_EP_TB);
-        picture = QPATHTOF(UI\uniform_garment_ls_bs_ep_ca.paa);
+        picture = QPATHTOF(UI\uniform_garment_ls_os_ep_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Garment_LS_OS_EP_TB);
@@ -459,11 +459,11 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Garment_LS_TS_GP_BB);
         };
     };
-    class CLASS(Uniform_Garment_LS_OS_TP_TB): CLASS(Uniform_Base) {
+    class CLASS(Uniform_Garment_LS_OS_TP_TB): CLASS(Uniform_Base) { // O = Brown
         scope = 2;
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Uniform_Garment_LS_OS_TP_TB);
-        picture = QPATHTOF(UI\uniform_garment_ls_bs_tp_ca.paa);
+        picture = QPATHTOF(UI\uniform_garment_ls_os_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Garment_LS_OS_TP_TB);
@@ -501,11 +501,11 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Garment_RS_BS_GP_BB);
         };
     };
-    class CLASS(Uniform_Garment_RS_OS_EP_TB): CLASS(Uniform_Base) { // E = Grey
+    class CLASS(Uniform_Garment_RS_OS_EP_TB): CLASS(Uniform_Base) { // O = Brown, E = Grey
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Garment_RS_OS_EP_TB);
-        picture = QPATHTOF(UI\uniform_garment_rs_bs_ep_ca.paa);
+        picture = QPATHTOF(UI\uniform_garment_rs_os_ep_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Garment_RS_OS_EP_TB);
@@ -601,11 +601,11 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Garment_RS_TS_GP_BB);
         };
     };
-    class CLASS(Uniform_Garment_RS_OS_TP_TB): CLASS(Uniform_Base) {
+    class CLASS(Uniform_Garment_RS_OS_TP_TB): CLASS(Uniform_Base) { // O = Brown
         scope = 2;
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Uniform_Garment_RS_OS_TP_TB);
-        picture = QPATHTOF(UI\uniform_garment_rs_bs_tp_ca.paa);
+        picture = QPATHTOF(UI\uniform_garment_rs_os_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Garment_RS_OS_TP_TB);
@@ -812,7 +812,7 @@ class CfgWeapons {
         scope = 2;
         author = "Pomigit, Jonpas, Rory";
         displayName = CSTRING(Uniform_TShirt_JP_LS_LP_BB);
-        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_tp_ca.paa);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_TShirt_JP_LS_LP_BB);
