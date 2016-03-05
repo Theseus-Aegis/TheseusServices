@@ -5,9 +5,6 @@
     <a href="https://github.com/Theseus-Aegis/TheseusServices/releases">
         <img src="https://img.shields.io/badge/Version-0.9.0-blue.svg" alt="Theseus Services Version">
     </a>
-    <a href="https://github.com/Theseus-Aegis/TheseusServices/releases/download/v0.9.0/TheseusServices_0.9.0.zip">
-        <img src="https://img.shields.io/badge/Download-122.0_MB-green.svg" alt="Theseus Services Download">
-    </a>
     <a href="https://github.com/Theseus-Aegis/TheseusServices/issues">
         <img src="https://img.shields.io/github/issues-raw/Theseus-Aegis/TheseusServices.svg?label=Issues" alt="Theseus Services Issues">
     </a>
