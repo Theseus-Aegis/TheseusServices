@@ -651,6 +651,12 @@ class CfgUnitInsignia {
         displayName = "Umbrella Corporation";
         texture = QPATHTOF(data\umbrellacorporation.paa);
     };
+    class CLASS(Insignia_Valknut) {
+        MACRO_INSIGNIA_COMMON
+        author = "System98";
+        displayName = "Valknut";
+        texture = QPATHTOF(data\valknut.paa);
+    };
     class CLASS(Insignia_WaterboardingIsBaptism) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
