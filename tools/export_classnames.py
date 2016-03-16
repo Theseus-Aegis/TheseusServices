@@ -68,14 +68,16 @@ def main():
 
     # Print or write to file
     date = time.strftime("%Y/%m/%d")
+    totalClassNames = len(classNames)
 
-    if "--markdown" in sys.argv:
+    if "--print" in sys.argv:
         print("_Generated on: {}_\n".format(date))
         print("Type | Class Name | In-Game Name | Inherits From")
         print("---- | ---------- | ------------ | -------------")
         for className, gameName, inheritName in zip(classNames, gameNames, inheritNames):
             classType = "Item" if className.startswith("tacs_Item") else "Object"
             print("{} | `{}` | {} | `{}`".format(classType, className, gameName, inheritName))
+        print("\n_Total: {}_".format(totalClassNames))
         print("\n**Legend:**  ",)
         print("Object - Standard object  ")
         print("Item - Ground item, placeable in Editor/Zeus")
@@ -95,8 +97,9 @@ def main():
                 dumpFile.write("{} | `{}` | {} | `{}`\n".format(classType, className, gameName, inheritName))
 
             dumpFile.writelines([
-                "\n**Legend:**  \n",
-                "Object - Standard object  \n"
+                "\n_Total: {}_".format(totalClassNames),
+                "\n\n**Legend:**  \n",
+                "Object - Standard object  \n",
                 "Item - Ground item, placeable in Editor/Zeus"
             ])
 

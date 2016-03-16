@@ -36,7 +36,7 @@ def update_translations(token):
     issue.edit(body=TRANSLATIONBODY.format(diag))
 
 # def update_classnames(token):
-#     diag = sp.check_output(["python3", "tools/export_classnames.py", "--markdown"])
+#     diag = sp.check_output(["python3", "tools/export_classnames.py", "--print"])
 #     diag = str(diag, "utf-8")
 #     repo = Github(token).get_repo(REPOPATH_WIKI)
 #     # @todo - requires https://github.com/PyGithub/PyGithub/pull/379
