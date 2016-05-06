@@ -1,7 +1,6 @@
 BIN = bin
 RELEASE = release
 SRC = addons
-FLAGS = -w unquoted-string
 
 $(BIN)/tacs_%.pbo: $(SRC)/%
 	@mkdir -p $(BIN)
