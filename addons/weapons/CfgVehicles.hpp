@@ -13,7 +13,7 @@ class CfgVehicles {
         displayName = CSTRING(MX_BlackCamo);
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(MX_BlackCamo),1);
+            MACRO_ADDITEM(CLASS(MX_BlackCamo),1)
         };
     };
     class CLASS(Item_MX_GL_BlackCamo): Weapon_Base_F {
@@ -22,7 +22,7 @@ class CfgVehicles {
         displayName = CSTRING(MX_GL_BlackCamo);
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(MX_GL_BlackCamo),1);
+            MACRO_ADDITEM(CLASS(MX_GL_BlackCamo),1)
         };
     };
 
