@@ -4,7 +4,7 @@ class CfgGlasses {
         dlc = QUOTE(PREFIX); \
         scope = 2; \
         identityTypes[] = {}; \
-        model = QPATHTOF(data\goggles.p3d); \
+        model = QPATHTOF(data\CLASS(goggles).p3d); \
         mass = 2; \
         ace_overlay = ""; \
         ace_resistance = 2;

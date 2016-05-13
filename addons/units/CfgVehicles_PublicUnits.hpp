@@ -283,7 +283,7 @@ class CLASS(Unit_I_VIP): Civilian_F {
     faction = QCLASS(IND);
     author = "Pomigit, Jonpas";
     displayname = CSTRING(Unit_VIP);
-    model = QPATHTOF(data\vip.p3d);
+    model = QPATHTOF(data\CLASS(vip).p3d);
     modelSides[] = {6};
     genericNames = QUOTE(PREFIX);
     uniformClass = QCLASS(Suit_VIP);
