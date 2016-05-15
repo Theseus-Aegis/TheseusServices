@@ -1,20 +1,29 @@
 VERSION = 1.0.0
-BIN = bin
-RELEASE = release
-SRC = addons
+PREFIX = tacs
+BIN = @theseus_services
+ZIP = TheseusServices
 
-$(BIN)/tacs_%.pbo: $(SRC)/%
-	@mkdir -p $(BIN)
+$(BIN)/addons/$(PREFIX)_%.pbo: addons/%
+	@mkdir -p $(BIN)/addons
 	@echo "  PBO  $@"
 	@armake build ${FLAGS} -f $< $@
 
-all: $(patsubst $(SRC)/%, $(BIN)/tacs_%.pbo, $(wildcard $(SRC)/*))
+$(BIN)/optionals/$(PREFIX)_%.pbo: optionals/%
+	@mkdir -p $(BIN)/optionals
+	@echo "  PBO  $@"
+	@armake build ${FLAGS} -f $< $@
+
+# Shortcut for building single addons (eg. "make <component>.pbo")
+%.pbo:
+	make $(patsubst %, $(BIN)/addons/$(PREFIX)_%, $@)
+
+all: $(patsubst addons/%, $(BIN)/addons/$(PREFIX)_%.pbo, $(wildcard addons/*)) \
+		$(patsubst optionals/%, $(BIN)/optionals/$(PREFIX)_%.pbo, $(wildcard optionals/*))
+
+clean:
+	rm -rf $(BIN) $(ZIP)_*.zip
 
 release: all
-	@mkdir $(RELEASE) 2> /dev/null || rm -rf $(RELEASE)/*
-	@mkdir -p $(RELEASE)/@theseus_services/addons
-	@cp $(BIN)/* $(RELEASE)/@theseus_services/addons/
-	@cp *.cpp $(RELEASE)/@theseus_services/
-	@cp AUTHORS.txt LICENSE logo_tacs_ca.paa logo_tacs_small_ca.paa README.md $(RELEASE)/@theseus_services/
-	@echo "  ZIP  $(RELEASE)/TheseusServices_$(VERSION).zip"
-	@cd $(RELEASE); zip -r TheseusServices_$(VERSION).zip @theseus_services &> /dev/null; cd ..
+	@echo "  ZIP  $(ZIP)_$(VERSION).zip"
+	@cp AUTHORS.txt LICENSE logo_tacs_ca.paa logo_tacs_small_ca.paa mod.cpp README.md $(BIN)
+	@zip -r $(ZIP)_$(VERSION).zip $(BIN) &> /dev/null
