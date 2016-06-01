@@ -8,7 +8,7 @@ class CfgPatches {
         requiredAddons[] = {"tacs_units", "hlcweapons_ar15"};
         author = ECSTRING(main,Author);
         authors[] = {"Jonpas"};
-        PBO_URL;
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

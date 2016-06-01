@@ -8,7 +8,7 @@ class CfgPatches {
         requiredAddons[] = {"tacs_main"};
         author = ECSTRING(main,Author);
         authors[] = {"Jonpas", "BadHabitz", "System98"};
-        PBO_URL;
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
