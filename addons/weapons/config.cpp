@@ -16,7 +16,7 @@ class CfgPatches {
         author = ECSTRING(main,Author);
         url = "https://github.com/Theseus-Aegis/TheseusServices";
         authors[] = {"Jonpas", "Pomigit", "BadHabitz"};
-        authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
+        authorUrl = "https://github.com/jonpas";
         VERSION_CONFIG;
     };
 };
