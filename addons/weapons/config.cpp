@@ -13,6 +13,7 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
+        author = ECSTRING(main,Author);
         authors[] = {"Jonpas", "Pomigit", "BadHabitz"};
         authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
         VERSION_CONFIG;
