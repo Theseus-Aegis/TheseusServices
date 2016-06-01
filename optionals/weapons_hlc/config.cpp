@@ -6,8 +6,10 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_units", "hlcweapons_ar15"};
-        author[]= {"Jonpas"};
-        authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
+        author = ECSTRING(main,Author);
+        url = "https://github.com/Theseus-Aegis/TheseusServices";
+        authors[] = {"Jonpas"};
+        authorUrl = "https://github.com/jonpas";
         VERSION_CONFIG;
     };
 };

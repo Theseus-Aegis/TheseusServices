@@ -6,7 +6,9 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
-        author[]= {""};
+        author = ECSTRING(main,Author);
+        url = "https://github.com/Theseus-Aegis/TheseusServices";
+        authors[] = {""};
         authorUrl = "";
         VERSION_CONFIG;
     };
