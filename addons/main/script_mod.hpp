@@ -9,7 +9,7 @@
 #define PATCHLVL 0
 #define BUILD 0
 
-#define WEB_URL QUOTE(https://github.com/Theseus-Aegis/TheseusServices)
+#define WEB_URL https://github.com/Theseus-Aegis/TheseusServices
 
 // MINIMAL required version for the Mod. Components can specify others..
 #define REQUIRED_VERSION 1.56
