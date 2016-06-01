@@ -35,9 +35,8 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
         author = ECSTRING(main,Author);
-        url = "https://github.com/Theseus-Aegis/TheseusServices";
         authors[] = {"Pomigit", "Jonpas", "Rory"};
-        authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
+        PBO_URL
         VERSION_CONFIG;
     };
 };

@@ -4,6 +4,7 @@
 #define ADDON DOUBLES(PREFIX,COMPONENT)
 
 // Main
+#define PBO_URL url = WEB_URL;
 #define VERSION_CONFIG version = VERSION; versionStr = QUOTE(VERSION); versionAr[] = {VERSION_AR}
 #define QUOTE(var1) #var1
 
