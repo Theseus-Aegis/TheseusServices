@@ -565,7 +565,7 @@ class CfgPatches {
         };
         author = CSTRING(Author);
         authors[] = {"Jonpas"};
-        PBO_URL
+        PBO_URL;
         VERSION_CONFIG;
     };
 };

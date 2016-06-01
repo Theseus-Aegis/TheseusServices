@@ -9,9 +9,6 @@
 #define PATCHLVL 0
 #define BUILD 0
 
-#define VERSION MAJOR.MINOR.PATCHLVL.BUILD
-#define VERSION_AR MAJOR,MINOR,PATCHLVL,BUILD
-
 #define WEB_URL "https://github.com/Theseus-Aegis/TheseusServices"
 
 // MINIMAL required version for the Mod. Components can specify others..

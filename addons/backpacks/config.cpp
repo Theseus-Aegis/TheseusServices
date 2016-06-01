@@ -14,7 +14,7 @@ class CfgPatches {
         requiredAddons[] = {"tacs_vests"};
         author = ECSTRING(main,Author);
         authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory"};
-        PBO_URL
+        PBO_URL;
         VERSION_CONFIG;
     };
 };

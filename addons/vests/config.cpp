@@ -26,7 +26,7 @@ class CfgPatches {
         requiredAddons[] = {"tacs_main"};
         author = ECSTRING(main,Author);
         authors[] = {"Jonpas", "Pomigit", "BadHabitz", "Rory"};
-        PBO_URL
+        PBO_URL;
         VERSION_CONFIG;
     };
 };

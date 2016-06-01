@@ -188,7 +188,7 @@ class CfgPatches {
         requiredAddons[] = {"tacs_backpacks", "tacs_headgear", "tacs_vests", "tacs_weapons"};
         author = ECSTRING(main,Author);
         authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory"};
-        PBO_URL
+        PBO_URL;
         VERSION_CONFIG;
     };
 };
