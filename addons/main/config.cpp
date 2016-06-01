@@ -564,6 +564,7 @@ class CfgPatches {
             "map_vr"
         };
         author = CSTRING(Author);
+        url = "https://github.com/Theseus-Aegis/TheseusServices";
         authors[] = {CSTRING(Author)};
         authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
         VERSION_CONFIG;
