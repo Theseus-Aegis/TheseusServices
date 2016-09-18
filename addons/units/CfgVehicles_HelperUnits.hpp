@@ -14,6 +14,7 @@
     respawnItems[] = {}; \
     linkedItems[] = {}; \
     respawnLinkedItems[] = {}; \
+    modelSides[] = {6}; \
     model = "\A3\Characters_F\Common\basicbody.p3d";
 
 class B_Soldier_base_F;
