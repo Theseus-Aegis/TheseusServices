@@ -41,8 +41,8 @@ class CfgVehicles {
         maximumload = 9001;
 
         class TransportWeapons {
-            MACRO_ADDWEAPON(CLASS(MX_BlackCamo),10)
-            MACRO_ADDWEAPON(CLASS(MX_GL_BlackCamo),10)
+            MACRO_ADDWEAPON(CLASS(MX_BlackCamo),10);
+            MACRO_ADDWEAPON(CLASS(MX_GL_BlackCamo),10);
         };
 
         class TransportMagazines {};
