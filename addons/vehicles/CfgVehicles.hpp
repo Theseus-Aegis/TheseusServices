@@ -8,6 +8,7 @@ class CfgVehicles {
         faction = CLASS(IND);
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Heli_MH6_Blue);
+        editorPreview = QPATHTOF(UI\Heli_I_MH6_Blue.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         hiddenSelectionsTextures[] = {QPATHTOF(data\heli_mh6_blue_ext_co.paa)};
@@ -33,6 +34,7 @@ class CfgVehicles {
         faction = CLASS(IND);
         author = "BadHabitz, Jonpas";
         displayName = CSTRING(Offroad_Black);
+        editorPreview = QPATHTOF(UI\Offroad_I_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         hiddenSelectionsTextures[] = {
@@ -73,6 +75,7 @@ class CfgVehicles {
         faction = CLASS(IND);
         author = "BadHabitz, Jonpas";
         displayName = CSTRING(Offroad_Armed_Black);
+        editorPreview = QPATHTOF(UI\Offroad_I_Armed_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         hiddenSelectionsTextures[] = {
