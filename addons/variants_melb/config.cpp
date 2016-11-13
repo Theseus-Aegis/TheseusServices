@@ -3,11 +3,16 @@
 class CfgPatches {
     class ADDON {
         units[] = {
-            QCLASS(MELB_AH6M_H),
-            QCLASS(MELB_AH6M_L),
-            QCLASS(MELB_AH6M_M),
-            QCLASS(MELB_H6M),
-            QCLASS(MELB_MH6M)
+            QCLASS(MELB_I_AH6M_H_Theseus),
+            QCLASS(MELB_B_AH6M_H_Theseus),
+            QCLASS(MELB_I_AH6M_L_Theseus),
+            QCLASS(MELB_B_AH6M_L_Theseus),
+            QCLASS(MELB_I_AH6M_M_Theseus),
+            QCLASS(MELB_B_AH6M_M_Theseus),
+            QCLASS(MELB_I_H6M_Theseus),
+            QCLASS(MELB_B_H6M_Theseus),
+            QCLASS(MELB_I_MH6M_Theseus),
+            QCLASS(MELB_B_MH6M_Theseus)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
