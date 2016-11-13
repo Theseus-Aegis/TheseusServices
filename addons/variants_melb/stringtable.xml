@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACS">
+    <Package name="Variants_MELB">
+        <Key ID="STR_TACS_Variants_MELB_AH6M_H_Theseus">
+            <English>AH-6M-H Little Bird (Theseus)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_L_Theseus">
+            <English>AH-6M-L Little Bird (Theseus)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_M_Theseus">
+            <English>AH-6M-M Little Bird (Theseus)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_H6M_Theseus">
+            <English>OH-6M (Theseus)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_MH6M_Theseus">
+            <English>MH-6M Little Bird (Theseus)</English>
+        </Key>
+    </Package>
+</Project>
