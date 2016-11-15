@@ -27,51 +27,71 @@ REPOPATH = "{}/{}".format(REPOUSER,REPONAME)
 REPONAME_WIKI = "TheseusServices.wiki"
 REPOPATH_WIKI = "{}/{}".format(REPOUSER,REPONAME_WIKI)
 
+WIKI_CLASSNAMES_FILE = "Class-Names.md"
 
-def update_translations(token):
+
+def update_translations(repo):
     diag = sp.check_output(["python3", "tools/stringtablediag.py", "--markdown"])
     diag = str(diag, "utf-8")
-    repo = Github(token).get_repo(REPOPATH)
     issue = repo.get_issue(TRANSLATIONISSUE)
     issue.edit(body=TRANSLATIONBODY.format(diag))
 
-# def update_classnames(token):
-#     diag = sp.check_output(["python3", "tools/export_classnames.py", "--print"])
-#     diag = str(diag, "utf-8")
-#     repo = Github(token).get_repo(REPOPATH_WIKI)
-#     # @todo - requires https://github.com/PyGithub/PyGithub/pull/379
+def update_classnames(token):
+    classnames_new = sp.check_output(["python3", "tools/export_classnames.py", "--print"])
+    classnames_new = str(classnames_new, "utf-8")
+
+    os.chdir("../{}".format(REPONAME_WIKI))
+
+    with open(WIKI_CLASSNAMES_FILE, "w", newline="\n") as file:
+        file.write(classnames_new)
+
+    diff = sp.check_output(["git", "diff", "--name-only", WIKI_CLASSNAMES_FILE])
+    diff = str(diff, "utf-8")
+
+    if True:#diff != "":
+        # GitHub API does not expose wiki repos
+        #sp.call(["git", "config", "user.name", "Theseus-Aegis"])
+        #sp.call(["git", "config", "user.email", "info@theseus-aegis.com"])
+        sp.call(["git", "commit", "-am", "Update Class Names - Automatically committed through Travis CI."])
+        sp.call(["git", "push"])
+        print("Class Names wiki page successfully updated.")
+    else:
+        print("Class Names wiki page update skipped - no change.")
+
+    os.chdir("../{}".format(REPONAME))
 
 
 def main():
     print("Obtaining token ...")
     try:
         token = os.environ["GH_TOKEN"]
+        repo = Github(token).get_repo(REPOPATH)
     except:
         print("Could not obtain token.")
         print(traceback.format_exc())
         return 1
     else:
-        print("Done")
+        print("Token successfully obtained.")
 
     print("\nUpdating translation issue ...")
     try:
-        update_translations(token)
+        update_translations(repo)
     except:
         print("Failed to update translation issue.")
         print(traceback.format_exc())
         return 1
     else:
-        print("Done")
+        print("Translation issue successfully updated.")
 
-    # print("\nUpdating Class Names wiki page ...")
-    # try:
-    #     update_classnames(token)
-    # except:
-    #     print("Failed to update CLass Names wiki page.")
-    #     print(traceback.format_exc())
-    #     return 1
-    # else:
-    #     print("Done")
+    print("\nUpdating Class Names wiki page ...")
+    try:
+        sp.call(["git", "clone", "https://github.com/{}.git".format(REPOPATH_WIKI), "../{}".format(REPONAME_WIKI)])
+        if os.path.isdir("../{}".format(REPONAME_WIKI)):
+            update_classnames(token)
+    except:
+        print("Failed to update Class Names wiki page.")
+        print(traceback.format_exc())
+        return 1
 
     return 0
 
