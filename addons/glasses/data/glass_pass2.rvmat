@@ -5,11 +5,11 @@ emmisive[] = {0, 0, 0, 1};
 specular[] = {0, 0, 0, 0};
 specularPower = 0;
 renderFlags[] = {
-	"NoColorWrite"
+    "NoColorWrite"
 };
 PixelShaderID = "AlphaShadow";
 VertexShaderID = "Basic";
 class Stage1 {
-	texture = "";
-	uvSource = "none";
+    texture = "";
+    uvSource = "none";
 };
