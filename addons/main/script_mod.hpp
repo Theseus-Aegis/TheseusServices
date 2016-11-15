@@ -4,10 +4,7 @@
 #define PREFIX tacs
 #define SUBPREFIX addons
 
-#define MAJOR 1
-#define MINOR 1
-#define PATCHLVL 0
-#define BUILD 0
+#include "script_version.hpp"
 
 // MINIMAL required version for the Mod. Components can specify others..
 #define REQUIRED_VERSION 1.56
