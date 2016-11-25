@@ -8,7 +8,7 @@ class CfgVehicles {
         faction = CLASS(IND);
         author = "Diesel5187 & sykoCrazy, Rory, Jonpas";
         displayName = CSTRING(AH6M_H_Theseus);
-        //editorPreview = QPATHTOF(UI\MELB_AH6M_H.jpg);
+        editorPreview = QPATHTOF(UI\MELB_AH6M_H_Theseus.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         hiddenSelectionsTextures[] = {QPATHTOF(data\melb_theseus_ext_co.paa)};
@@ -32,7 +32,7 @@ class CfgVehicles {
         faction = CLASS(IND);
         author = "Diesel5187 & sykoCrazy, Rory, Jonpas";
         displayName = CSTRING(AH6M_L_Theseus);
-        //editorPreview = QPATHTOF(UI\MELB_AH6M_L.jpg);
+        editorPreview = QPATHTOF(UI\MELB_AH6M_L_Theseus.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         hiddenSelectionsTextures[] = {QPATHTOF(data\melb_theseus_ext_co.paa)};
@@ -56,7 +56,7 @@ class CfgVehicles {
         faction = CLASS(IND);
         author = "Diesel5187 & sykoCrazy, Rory, Jonpas";
         displayName = CSTRING(AH6M_M_Theseus);
-        //editorPreview = QPATHTOF(UI\MELB_AH6M_M.jpg);
+        editorPreview = QPATHTOF(UI\MELB_AH6M_M_Theseus.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         hiddenSelectionsTextures[] = {QPATHTOF(data\melb_theseus_ext_co.paa)};
@@ -80,7 +80,7 @@ class CfgVehicles {
         faction = CLASS(IND);
         author = "Diesel5187 & sykoCrazy, Rory, Jonpas";
         displayName = CSTRING(H6M_Theseus);
-        //editorPreview = QPATHTOF(UI\MELB_H6M.jpg);
+        editorPreview = QPATHTOF(UI\MELB_H6M_Theseus.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         hiddenSelectionsTextures[] = {QPATHTOF(data\melb_theseus_ext_co.paa)};
@@ -104,7 +104,7 @@ class CfgVehicles {
         faction = CLASS(IND);
         author = "Diesel5187 & sykoCrazy, Rory, Jonpas";
         displayName = CSTRING(MH6M_Theseus);
-        //editorPreview = QPATHTOF(UI\MELB_MH6M.jpg);
+        editorPreview = QPATHTOF(UI\MELB_MH6M_Theseus.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         hiddenSelectionsTextures[] = {QPATHTOF(data\melb_theseus_ext_co.paa)};
