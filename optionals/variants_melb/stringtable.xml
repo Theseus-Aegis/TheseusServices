@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Variants_MELB">
-        <Key ID="STR_TACS_Variants_MELB_AH6M_H_Theseus">
-            <English>AH-6M-H Little Bird (Theseus)</English>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_H_Theseus_Black">
+            <English>AH-6M-H Little Bird (Theseus Black)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MELB_AH6M_L_Theseus">
-            <English>AH-6M-L Little Bird (Theseus)</English>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_L_Theseus_Black">
+            <English>AH-6M-L Little Bird (Theseus Black)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MELB_AH6M_M_Theseus">
-            <English>AH-6M-M Little Bird (Theseus)</English>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_M_Theseus_Black">
+            <English>AH-6M-M Little Bird (Theseus Black)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MELB_H6M_Theseus">
-            <English>OH-6M (Theseus)</English>
+        <Key ID="STR_TACS_Variants_MELB_H6M_Theseus_Black">
+            <English>OH-6M (Theseus Black)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MELB_MH6M_Theseus">
-            <English>MH-6M Little Bird (Theseus)</English>
+        <Key ID="STR_TACS_Variants_MELB_MH6M_Theseus_Black">
+            <English>MH-6M Little Bird (Theseus Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_H_Black">
+            <English>AH-6M-H Little Bird (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_L_Black">
+            <English>AH-6M-L Little Bird (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_M_Black">
+            <English>AH-6M-M Little Bird (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_H6M_Black">
+            <English>OH-6M (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_MH6M_Black">
+            <English>MH-6M Little Bird (Black)</English>
         </Key>
     </Package>
 </Project>

@@ -50,7 +50,7 @@ class Stage4 {
     };
 };
 class Stage5 {
-    texture = "x\tacs\addons\variants_melb\data\melb_theseus_ext_smdi.paa"; // "EXPERIMENTAL" text as is part of SMDI texture
+    texture = "x\tacs\addons\variants_melb\data\melb_clear_ext_smdi.paa"; // "EXPERIMENTAL" text as is part of SMDI texture
     uvSource = "tex";
     class uvTransform {
         aside[] = {1, 0, 0};

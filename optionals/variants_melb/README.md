@@ -4,5 +4,6 @@ Adds additional textured variants of helicopters from [[MELB] Mission Enhanced L
 
 ### Authors
 
-- [Rory](https://github.com/SyMP2005)
+- [Kresky](https://github.com/Kresky)
 - [Jonpas](http://github.com/jonpas)
+- [Rory](https://github.com/SyMP2005)
