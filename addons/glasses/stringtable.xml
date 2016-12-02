@@ -4,14 +4,17 @@
         <Key ID="STR_TACS_Glasses_Goggles_Black">
             <English>Tactical Goggles (Black)</English>
             <German>Taktische Brille (schwarz)</German>
+            <Japanese>タクティカル ゴーグル (黒)</Japanese>
         </Key>
         <Key ID="STR_TACS_Glasses_Goggles_Green">
             <English>Tactical Goggles (Green)</English>
             <German>Taktische Brille (grün)</German>
+            <Japanese>タクティカル ゴーグル (緑)</Japanese>
         </Key>
         <Key ID="STR_TACS_Glasses_Goggles_Tan">
             <English>Tactical Goggles (Tan)</English>
             <German>Taktische Brille (hellbraun)</German>
+            <Japanese>タクティカル ゴーグル (黄褐)</Japanese>
         </Key>
     </Package>
 </Project>
