@@ -4,54 +4,67 @@
         <Key ID="STR_TACS_Headgear_Cap_Headphones_BlackLogo">
             <English>Cap Headphones (Black) Logo</English>
             <German>Kappe, Kopfhöhrer (schwarz) Logo</German>
+            <Japanese>ヘッドホン付き帽子 (黒) ロゴ</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_BlackLogo">
             <English>Cap (Black) Logo</English>
             <German>Kappe, Kopfhöhrer (schwarz)</German>
+            <Japanese>帽子 (黒) ロゴ</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_TanLogo">
             <English>Cap (Tan) Logo</English>
             <German>Kappe (hellbraun) Logo</German>
+            <Japanese>帽子 (黄褐) ロゴ</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_Earpiece_BlackLogo">
             <English>Cap Earpiece (Black) Logo</English>
             <German>Kappe, Ohrhöhrer (schwarz) Logo</German>
+            <Japanese>耳栓付き帽子 (黒) ロゴ</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_Earpiece_TanLogo">
             <English>Cap Earpiece (Tan) Logo</English>
             <German>Kappe, Ohrhöhrer (hellbraun) Logo</German>
+            <Japanese>耳栓付き帽子 (黄褐) ロゴ</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_Backwards_BlackLogo">
             <English>Cap Backwards (Black) Logo</English>
             <German>Kappe, umgekehrt (schwarz) Logo</German>
+            <Japanese>後ろ向き帽子 (黒) ロゴ</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_Backwards_TanLogo">
             <English>Cap Backwards (Tan) Logo</English>
             <German>Kappe, umgekehrt (hellbraun) Logo</German>
+            <Japanese>後ろ向き帽子 (黄褐) ロゴ</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Ballistic_DarkBlack">
             <English>Combat Helmet (Dark Black)</English>
             <German>Gefechtshelm (dunkelschwarz)</German>
+            <Japanese>戦闘ヘルメット (漆黒)</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_PilotHeli_Tan">
             <English>Heli Pilot Helmet (Tan)</English>
             <German>Heli-Pilotenhelm (hellbraun)</German>
+            <Japanese>ヘリ操縦士ヘルメット (黄褐)</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Hat_Boonie_RangerGreen">
             <English>Boonie Hat (Ranger Green)</English>
             <German>Buschhut (Ranger-grün)</German>
+            <Japanese>ブーニーハット (レンジャー グリーン)</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Hat_Boonie_DesertMARPAT">
             <English>Boonie Hat (Desert MARPAT)</English>
             <German>Buschhut (wüste-MARPAT)</German>
+            <Japanese>ブーニーハット (MARPAT 砂漠)</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Hat_Boonie_Woodland">
             <English>Boonie Hat (Woodland)</English>
             <German>Buschhut (wald)</German>
+            <Japanese>ブーニーハット (森林迷彩)</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Hat_Boonie_UCP">
             <English>Boonie Hat (UCP)</English>
             <German>Buschhut (UCP)</German>
+            <Japanese>ブーニーハット (UCP)</Japanese>
         </Key>
     </Package>
 </Project>
