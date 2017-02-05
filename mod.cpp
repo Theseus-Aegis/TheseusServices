@@ -1,4 +1,4 @@
-name = "Theseus Services 1.2.0";
+name = "Theseus Services 1.2.1";
 picture = "logo_tacs_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/Theseus-Aegis/TheseusServices";
