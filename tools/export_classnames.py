@@ -9,7 +9,7 @@ import time
 import itertools
 
 ######## GLOBALS #########
-TEMP_DUMP = "temp\\classnames.md"
+TEMP_DUMP = "temp/classnames.md"
 ##########################
 
 def main():
@@ -17,7 +17,6 @@ def main():
     projectpath = os.path.dirname(os.path.dirname(scriptpath))
     addonspath = os.path.join(projectpath, "addons")
     optionalspath = os.path.join(projectpath, "optionals")
-    paths = itertools.chain(os.walk(addonspath), os.walk(optionalspath))
 
     # Get all info
     classNames = []
@@ -25,7 +24,7 @@ def main():
     inheritNames = []
 
     # Class Names and Inherits From Names
-    for root, dirs, files in paths:
+    for root, dirs, files in itertools.chain(os.walk(addonspath), os.walk(optionalspath)):
         for name in files:
             if name.startswith("Cfg") and name.endswith(".hpp"):
                 with open(os.path.join(root, name)) as cfgFile:
@@ -46,7 +45,7 @@ def main():
     # In-Game Names
     for className in classNames:
         stringFound = False
-        for root, dirs, files in paths:
+        for root, dirs, files in itertools.chain(os.walk(addonspath), os.walk(optionalspath)):
             if stringFound: break
             for name in files:
                 if stringFound: break

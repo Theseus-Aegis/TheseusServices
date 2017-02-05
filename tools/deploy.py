@@ -48,12 +48,12 @@ def update_classnames(token):
     diff = sp.check_output(["git", "diff", "--name-only", WIKI_CLASSNAMES_FILE])
     diff = str(diff, "utf-8")
 
-    if True:#diff != "":
+    if diff != "":
         # GitHub API does not expose wiki repos
-        #sp.call(["git", "config", "user.name", "Theseus-Aegis"])
-        #sp.call(["git", "config", "user.email", "info@theseus-aegis.com"])
+        sp.call(["git", "config", "user.name", "Theseus-Bot"])
+        sp.call(["git", "config", "user.email", "info@theseus-aegis.com"])
         sp.call(["git", "commit", "-am", "Update Class Names - Automatically committed through Travis CI."])
-        sp.call(["git", "push"])
+        sp.call(["git", "push", "--quiet"]) # quiet to make sure token is not displayed in Travis log
         print("Class Names wiki page successfully updated.")
     else:
         print("Class Names wiki page update skipped - no change.")
@@ -79,19 +79,19 @@ def main():
     except:
         print("Failed to update translation issue.")
         print(traceback.format_exc())
-        return 1
+        return 2
     else:
         print("Translation issue successfully updated.")
 
     print("\nUpdating Class Names wiki page ...")
     try:
-        sp.call(["git", "clone", "https://github.com/{}.git".format(REPOPATH_WIKI), "../{}".format(REPONAME_WIKI)])
+        sp.call(["git", "clone", "https://jonpas:{}@github.com/{}.git".format(token, REPOPATH_WIKI), "../{}".format(REPONAME_WIKI)])
         if os.path.isdir("../{}".format(REPONAME_WIKI)):
             update_classnames(token)
     except:
         print("Failed to update Class Names wiki page.")
         print(traceback.format_exc())
-        return 1
+        return 3
 
     return 0
 

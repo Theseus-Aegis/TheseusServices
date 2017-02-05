@@ -4,18 +4,15 @@ branches:
   - release
 language: python
 python:
-- '3.4'
+- "3.6"
 before_script:
-- if [ -n "${GH_TOKEN}" ]; then
+- if [ -n "${GH_TOKEN}" ] && [ "${TRAVIS_BRANCH}" == "master" ] && [ "${TRAVIS_PULL_REQUEST}" == "false" ]; then
     pip install pygithub;
     pip install pygithub3;
   fi
 script:
 - python3 tools/sqf_validator.py
-- if [ -n "${GH_TOKEN}" ]; then
-    git config --global user.name Theseus-Bot;
-    git config --global user.email info@theseus-aegis.com;
-    git config --global user.token ${GH_TOKEN};
+- if [ -n "${GH_TOKEN}" ] && [ "${TRAVIS_BRANCH}" == "master" ] && [ "${TRAVIS_PULL_REQUEST}" == "false" ]; then
     python3 tools/deploy.py;
   fi
 env:
