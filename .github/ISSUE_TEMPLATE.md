@@ -2,7 +2,9 @@
 **Theseus Services Version:** `x.y.z` (stable / dev + commit hash)
 
 **Mods:**
-- `@theseus_services`
+```
+- theseus_services
+```
 
 **Description:**
 - Add a detailed description of the error.
