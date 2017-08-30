@@ -172,8 +172,8 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_LS_TS_TP_TB);
         };
     };
-    // Checked
-    class CLASS(Uniform_Combat_LS_CDBS_GP_TB): CLASS(Uniform_Base) { // CDB = Checked Dark Blue
+    // Plaid
+    class CLASS(Uniform_Combat_LS_CDBS_GP_TB): CLASS(Uniform_Base) { // CDB = Plaid Dark Blue
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Combat_LS_CDBS_GP_TB);
@@ -183,7 +183,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_LS_CDBS_GP_TB);
         };
     };
-    class CLASS(Uniform_Combat_LS_CLBS_GP_BB): CLASS(Uniform_Base) { // CLB = Checked Light Blue
+    class CLASS(Uniform_Combat_LS_CLBS_GP_BB): CLASS(Uniform_Base) { // CLB = Plaid Light Blue
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Combat_LS_CLBS_GP_BB);
@@ -193,7 +193,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_LS_CLBS_GP_BB);
         };
     };
-    class CLASS(Uniform_Combat_LS_CLRS_TP_BB): CLASS(Uniform_Base) { // CLR = Checked Light Red
+    class CLASS(Uniform_Combat_LS_CLRS_TP_BB): CLASS(Uniform_Base) { // CLR = Plaid Light Red
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Combat_LS_CLRS_TP_BB);
@@ -203,7 +203,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_LS_CLRS_TP_BB);
         };
     };
-    class CLASS(Uniform_Combat_LS_CPS_BP_BB): CLASS(Uniform_Base) { // CP = Checked Purple
+    class CLASS(Uniform_Combat_LS_CPS_BP_BB): CLASS(Uniform_Base) { // CP = Plaid Purple
         scope = 2;
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Uniform_Combat_LS_CPS_BP_BB);
@@ -335,7 +335,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_RS_TS_TP_TB);
         };
     };
-    // Checked
+    // Plaid
     class CLASS(Uniform_Combat_RS_CDBS_GP_TB): CLASS(Uniform_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";

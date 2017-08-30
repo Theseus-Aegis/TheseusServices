@@ -144,11 +144,11 @@ class CLASS(Unit_Combat_LS_TS_TP_TB): CLASS(Unit_Combat_LS_Base) {
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_tp_tb_co.paa)};
 };
 
-// Combat - Long Sleeves - Checked
+// Combat - Long Sleeves - Plaid
 class CLASS(Unit_Combat_LS_C_Base): B_Soldier_base_F {
     MACRO_BASE_CLASS_COMMON
     nakedUniform = QCLASS(Underwear_BlackLogo);
-    hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_checked.rvmat)};
+    hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_plaid.rvmat)};
 };
 
 class CLASS(Unit_Combat_LS_CDBS_GP_TB): CLASS(Unit_Combat_LS_C_Base) {
@@ -257,9 +257,9 @@ class CLASS(Unit_Combat_RS_TS_TP_TB): CLASS(Unit_Combat_RS_Base) {
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_tp_tb_co.paa)};
 };
 
-// Combat - Rolled Sleeves - Checked
+// Combat - Rolled Sleeves - Plaid
 class CLASS(Unit_Combat_RS_C_Base): CLASS(Unit_Combat_RS_Base) {
-    hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_checked.rvmat)};
+    hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_plaid.rvmat)};
 };
 
 class CLASS(Unit_Combat_RS_CDBS_GP_TB): CLASS(Unit_Combat_RS_C_Base) {
