@@ -728,6 +728,15 @@ class CLASS(Item_Uniform_Polo_TP_WS_LP_BB_NoLogo): Item_Base_F {
         MACRO_ADDITEM(CLASS(Uniform_Polo_TP_WS_LP_BB_NoLogo),1);
     };
 };
+class CLASS(Item_Uniform_Polo_TP_WS_GP_BB): Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "Jonpas";
+    displayName = CSTRING(Uniform_Polo_TP_WS_GP_BB);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Polo_TP_WS_GP_BB),1);
+    };
+};
 class CLASS(Item_Uniform_Polo_TP_WS_GP_BB_NoLogo): Item_Base_F {
     MACRO_ITEM_COMMON
     author = "Jonpas";
