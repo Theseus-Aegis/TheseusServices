@@ -7,382 +7,382 @@
             <Japanese>[TACS] ユニフォーム</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_GP_BB">
-            <English>Combat Uniform Long Sleeves (Black Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Uniform Long (Black, Green, Black)</English>
             <German>Kampfuniform, langärmelig (schwarzes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (黒シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_GP_TB">
-            <English>Combat Uniform Long Sleeves (Black Shirt, Green Pants, Tan Boots)</English>
+            <English>Combat Uniform Long (Black, Green, Tan)</English>
             <German>Kampfuniform, langärmelig (schwarzes Hemd, grüne Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (黒シャツ、緑パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_TP_BB">
-            <English>Combat Uniform Long Sleeves (Black Shirt, Tan Pants, Black Boots)</English>
+            <English>Combat Uniform Long (Black, Tan, Black)</English>
             <German>Kampfuniform, langärmelig (schwarzes Hemd, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (黒シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_TP_TB">
-            <English>Combat Uniform Long Sleeves (Black Shirt, Tan Pants, Tan Boots)</English>
+            <English>Combat Uniform Long (Black, Tan, Tan)</English>
             <German>Kampfuniform, langärmelig (schwarzes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (黒シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_GS_BP_BB">
-            <English>Combat Uniform Long Sleeves (Green Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Uniform Long (Green, Black, Black)</English>
             <German>Kampfuniform, langärmelig (grünes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (緑シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_GS_TP_BB">
-            <English>Combat Uniform Long Sleeves (Green Shirt, Tan Pants, Tan Boots)</English>
+            <English>Combat Uniform Long (Green, Tan, Tan)</English>
             <German>Kampfuniform, langärmelig (grünes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (緑シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_DGP_BB">
-            <English>Combat Uniform Long Sleeves (Black Shirt, Digital Green Pants, Black Boots)</English>
+            <English>Combat Uniform Long (Black, Digital Green, Black)</English>
             <German>Kampfuniform, langärmelig (schwarzes Hemd, digital-grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (黒シャツ、デジタルの緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_TS_BP_BB">
-            <English>Combat Uniform Long Sleeves (Tan Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Uniform Long (Tan, Black, Black)</English>
             <German>Kampfuniform, langärmelig (hellbraunes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (黄褐シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_TS_GP_BB">
-            <English>Combat Uniform Long Sleeves (Tan Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Uniform Long (Tan, Green, Black)</English>
             <German>Kampfuniform, langärmelig (hellbraunes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (黄褐シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_TS_GP_TB">
-            <English>Combat Uniform Long Sleeves (Tan Shirt, Green Pants, Tan Boots)</English>
+            <English>Combat Uniform Long (Tan, Green, Tan)</English>
             <German>Kampfuniform, langärmelig (hellbraunes Hemd, grüne Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (黄褐シャツ、緑パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_CDBS_GP_TB">
-            <English>Combat Uniform Long Sleeves (Checked Dark Blue Shirt, Green Pants, Tan Boots)</English>
+            <English>Combat Uniform Long (Plaid Dark Blue, Green, Tan)</English>
             <German>Kampfuniform, langärmelig (dunkelblau kariertes Hemd, grüne Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (濃い青のチェック柄シャツ、緑パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_CLBS_GP_BB">
-            <English>Combat Uniform Long Sleeves (Checked Light Blue Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Uniform Long (Plaid Light Blue, Green, Black)</English>
             <German>Kampfuniform, langärmelig (helllblau kariertes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (薄い青のチェック柄シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_CLRS_TP_BB">
-            <English>Combat Uniform Long Sleeves (Checked Light Red Shirt, Tan Pants, Black Boots)</English>
+            <English>Combat Uniform Long (Plaid Light Red, Tan, Black)</English>
             <German>Kampfuniform, langärmelig (hellrot kariertes Hemd, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (薄い赤のチェック柄シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_CPS_BP_BB">
-            <English>Combat Uniform Long Sleeves (Checked Purple Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Uniform Long (Plaid Purple, Black, Black)</English>
             <German>Kampfuniform, langärmelig (lila kariertes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (紫のチェック柄シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_GP_BB">
-            <English>Combat Uniform Rolled Sleeves (Black Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Uniform Rolled (Black, Green, Black)</English>
             <German>Kampfuniform, hochgekrempelt (schwarzes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (黒シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_GP_TB">
-            <English>Combat Uniform Rolled Sleeves (Black Shirt, Green Pants, Tan Boots)</English>
+            <English>Combat Uniform Rolled (Black, Green, Tan)</English>
             <German>Kampfuniform, hochgekrempelt (schwarzes Hemd, grüne Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (黒シャツ、緑パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_TP_BB">
-            <English>Combat Uniform Rolled Sleeves (Black Shirt, Tan Pants, Black Boots)</English>
+            <English>Combat Uniform Rolled (Black, Tan, Black)</English>
             <German>Kampfuniform, hochgekrempelt (schwarzes Hemd, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (黒シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_TP_TB">
-            <English>Combat Uniform Rolled Sleeves (Black Shirt, Tan Pants, Tan Boots)</English>
+            <English>Combat Uniform Rolled (Black, Tan, Tan)</English>
             <German>Kampfuniform, hochgekrempelt (schwarzes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (黒シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_GS_BP_BB">
-            <English>Combat Uniform Rolled Sleeves (Green Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Uniform Rolled (Green, Black, Black)</English>
             <German>Kampfuniform,hochgekrempelt (grünes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (緑シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_GS_TP_BB">
-            <English>Combat Uniform Rolled Sleeves (Green Shirt, Tan Pants, Black Boots)</English>
+            <English>Combat Uniform Rolled (Green, Tan, Black)</English>
             <German>Kampfuniform, hochgekrempelt (grünes Hemd, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (緑シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_DGP_BB">
-            <English>Combat Uniform Rolled Sleeves (Green Shirt, Digital Green Pants, Black Boots)</English>
+            <English>Combat Uniform Rolled (Green, Digital Green, Black)</English>
             <German>Kampfuniform,hochgekrempelt (schwarzes Hemd, digital-grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (緑シャツ、デジタルの緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_TS_BP_BB">
-            <English>Combat Uniform Rolled Sleeves (Tan Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Uniform Rolled (Tan, Black, Black)</English>
             <German>Kampfuniform, hochgekrempelt (hellbraunes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (黄褐シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_TS_GP_BB">
-            <English>Combat Uniform Rolled Sleeves (Tan Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Uniform Rolled (Tan, Green, Black)</English>
             <German>Kampfuniform, hochgekrempelt (hellbraunes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (黄褐シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_TS_GP_TB">
-            <English>Combat Uniform Rolled Sleeves (Tan Shirt, Green Pants, Tan Boots)</English>
+            <English>Combat Uniform Rolled (Tan, Green, Tan)</English>
             <German>Kampfuniform, hochgekrempelt (hellbraunes Hemd, grüne Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (黄褐シャツ、緑パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_CDBS_GP_TB">
-            <English>Combat Uniform Rolled Sleeves (Checked Dark Blue Shirt, Green Pants, Tan Boots)</English>
+            <English>Combat Uniform Rolled (Plaid Dark Blue, Green, Tan)</English>
             <German>Kampfuniform, hochgekrempelt (dunkelblau kariertes Hemd, grüne Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (濃い青のチェック柄シャツ、緑パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_CLBS_GP_BB">
-            <English>Combat Uniform Rolled Sleeves (Checked Light Blue Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Uniform Rolled (Plaid Light Blue, Green, Black)</English>
             <German>Kampfuniform, hochgekrempelt (helllblau kariertes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (薄い青のチェック柄シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_CLRS_TP_BB">
-            <English>Combat Uniform Rolled Sleeves (Checked Light Red Shirt, Tan Pants, Black Boots)</English>
+            <English>Combat Uniform Rolled (Plaid Light Red, Tan, Black)</English>
             <German>Kampfuniform, hochgekrempelt (hellrot kariertes Hemd, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (薄い赤のチェック柄シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_CPS_BP_BB">
-            <English>Combat Uniform Rolled Sleeves (Checked Purple Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Uniform Rolled (Plaid Purple, Black, Black)</English>
             <German>Kampfuniform, hochgekrempelt (lila kariertes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (紫のチェック柄シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_BS_BP_BB">
-            <English>Combat Garment Long Sleeves (Black Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Garment Long (Black, Black, Black)</English>
             <German>Kampfkleidung, langärmelig (schwarzes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (黒シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_BS_GP_BB">
-            <English>Combat Garment Long Sleeves (Black Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Garment Long (Black, Green, Black)</English>
             <German>Kampfkleidung, langärmelig (schwarzes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (黒シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_OS_EP_TB">
-            <English>Combat Garment Long Sleeves (Brown Shirt, Grey Pants, Tan Boots)</English>
+            <English>Combat Garment Long (Brown, Grey, Tan)</English>
             <German>Kampfkleidung, langärmelig (braunes Hemd, graue Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (茶シャツ、灰パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_GS_GP_BB">
-            <English>Combat Garment Long Sleeves (Green Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Garment Long (Green, Green, Black)</English>
             <German>Kampfkleidung, langärmelig (grünes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (緑シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_GS_BP_BB">
-            <English>Combat Garment Long Sleeves (Green Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Garment Long (Green, Black, Black)</English>
             <German>Kampfkleidung, langärmelig (grünes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (緑シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_GS_EP_TB">
-            <English>Combat Garment Long Sleeves (Green Shirt, Grey Pants, Tan Boots)</English>
+            <English>Combat Garment Long (Green, Grey, Tan)</English>
             <German>Kampfkleidung, langärmelig (grünes Hemd, graue Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (緑シャツ、灰パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_ES_EP_TB">
-            <English>Combat Garment Long Sleeves (Grey Shirt, Grey Pants, Tan Boots)</English>
+            <English>Combat Garment Long (Grey, Grey, Tan)</English>
             <German>Kampfkleidung, langärmelig (graues Hemd, graue Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (灰シャツ、灰パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_ES_BP_BB">
-            <English>Combat Garment Long Sleeves (Grey Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Garment Long (Grey, Black, Black)</English>
             <German>Kampfkleidung, langärmelig (graues Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (灰シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_ES_GP_BB">
-            <English>Combat Garment Long Sleeves (Grey Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Garment Long (Grey, Green, Black)</English>
             <German>Kampfkleidung, langärmelig (graues Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (灰シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_TS_TP_TB">
-            <English>Combat Garment Long Sleeves (Tan Shirt, Tan Pants, Tan Boots)</English>
+            <English>Combat Garment Long (Tan, Tan, Tan)</English>
             <German>Kampfkleidung, langärmelig (hellbraunes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (黄褐シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_GS_TP_TB">
-            <English>Combat Garment Long Sleeves (Green Shirt, Tan Pants, Tan Boots)</English>
+            <English>Combat Garment Long (Green, Tan, Tan)</English>
             <German>Kampfkleidung, langärmelig (grünes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (緑シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_TS_GP_BB">
-            <English>Combat Garment Long Sleeves (Tan Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Garment Long (Tan, Green, Black)</English>
             <German>Kampfkleidung, langärmelig (hellbraunes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (黄褐シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_OS_TP_TB">
-            <English>Combat Garment Long Sleeves (Brown Shirt, Tan Pants, Tan Boots)</English>
+            <English>Combat Garment Long (Brown, Tan, Tan)</English>
             <German>Kampfkleidung, langärmelig (braunes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (茶シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_LS_TS_BP_BB">
-            <English>Combat Garment Long Sleeves (Tan Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Garment Long (Tan, Black, Black)</English>
             <German>Kampfkleidung, langärmelig (hellbraunes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 長袖 (黄褐シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_BP_BB">
-            <English>Combat Garment Rolled Sleeves (Black Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Garment Rolled (Black, Black, Black)</English>
             <German>Kampfkleidung, hochgekrempelt (schwarzes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (黒シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_GP_BB">
-            <English>Combat Garment Rolled Sleeves (Black Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Garment Rolled (Black, Green, Black)</English>
             <German>Kampfkleidung, hochgekrempelt (schwarzes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (黒シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_OS_EP_TB">
-            <English>Combat Garment Rolled Sleeves (Brown Shirt, Grey Pants, Tan Boots)</English>
+            <English>Combat Garment Rolled (Brown, Grey, Tan)</English>
             <German>Kampfkleidung, hochgekrempelt (braunes Hemd, graue Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (茶シャツ、灰パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_GP_BB">
-            <English>Combat Garment Rolled Sleeves (Green Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Garment Rolled (Green, Green, Black)</English>
             <German>Kampfkleidung, hochgekrempelt (grünes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (緑シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_BP_BB">
-            <English>Combat Garment Rolled Sleeves (Green Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Garment Rolled (Green, Black, Black)</English>
             <German>Kampfkleidung, hochgekrempelt (grünes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (緑シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_EP_TB">
-            <English>Combat Garment Rolled Sleeves (Green Shirt, Grey Pants, Tan Boots)</English>
+            <English>Combat Garment Rolled (Green, Grey, Tan)</English>
             <German>Kampfkleidung, hochgekrempelt (grünes Hemd, graue Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (緑シャツ、灰パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_ES_EP_TB">
-            <English>Combat Garment Rolled Sleeves (Grey Shirt, Grey Pants, Tan Boots)</English>
+            <English>Combat Garment Rolled (Grey, Grey, Tan)</English>
             <German>Kampfkleidung, hochgekrempelt (graues Hemd, graue Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (灰シャツ、灰パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_ES_BP_BB">
-            <English>Combat Garment Rolled Sleeves (Grey Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Garment Rolled (Grey, Black, Black)</English>
             <German>Kampfkleidung, hochgekrempelt (graues Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (灰シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_ES_GP_BB">
-            <English>Combat Garment Rolled Sleeves (Grey Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Garment Rolled (Grey, Green, Black)</English>
             <German>Kampfkleidung, hochgekrempelt (graues Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (灰シャツ、灰パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_TP_TB">
-            <English>Combat Garment Rolled Sleeves (Tan Shirt, Tan Pants, Tan Boots)</English>
+            <English>Combat Garment Rolled (Tan, Tan, Tan)</English>
             <German>Kampfkleidung, hochgekrempelt (hellbraunes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (黄褐シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_GS_TP_TB">
-            <English>Combat Garment Rolled Sleeves (Green Shirt, Tan Pants, Tan Boots)</English>
+            <English>Combat Garment Rolled (Green, Tan, Tan)</English>
             <German>Kampfkleidung, hochgekrempelt (grünes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (緑シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_GP_BB">
-            <English>Combat Garment Rolled Sleeves (Tan Shirt, Green Pants, Black Boots)</English>
+            <English>Combat Garment Rolled (Tan, Green, Black)</English>
             <German>Kampfkleidung, hochgekrempelt (hellbraunes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (黄褐シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_OS_TP_TB">
-            <English>Combat Garment Rolled Sleeves (Brown Shirt, Tan Pants, Tan Boots)</English>
+            <English>Combat Garment Rolled (Brown, Tan, Tan)</English>
             <German>Kampfkleidung, hochgekrempelt (braunes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (茶シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_TS_BP_BB">
-            <English>Combat Garment Rolled Sleeves (Tan Shirt, Black Pants, Black Boots)</English>
+            <English>Combat Garment Rolled (Tan, Black, Black)</English>
             <German>Kampfkleidung, hochgekrempelt (hellbraunes Hemd, schwarze Hose, schwarze Stiefel)</German>
             <Japanese>戦闘ガーメント 半袖 (黄褐シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_LS_TP_TB">
-            <English>Tactical Clothes (Blue Shirt, Tan Pants, Tan Boots)</English>
+            <English>Tactical Clothes (Blue, Tan, Tan) Logo</English>
             <German>Taktische Kleidung (blaues Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>軽装 (青シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_TS_GP_BB">
-            <English>Tactical Clothes (Tan Shirt, Green Pants, Black Boots)</English>
+            <English>Tactical Clothes (Tan, Green, Black) Logo</English>
             <German>Taktische Kleidung (hellbraunes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (黄褐シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_BS_TP_TB">
-            <English>Tactical Clothes (Black Shirt, Tan Pants, Tan Boots)</English>
+            <English>Tactical Clothes (Black, Tan, Tan) Logo</English>
             <German>Taktische Kleidung (schwarzes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>軽装 (黒シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_BS_LP_BB">
-            <English>Tactical Clothes (Black Shirt, Blue Pants, Black Boots)</English>
+            <English>Tactical Clothes (Black, Blue, Black) Logo</English>
             <German>Taktische Kleidung (schwarzes Hemd, blaue Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (黒シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_LS_GP_BB">
-            <English>Tactical Clothes (Blue Shirt, Green Pants, Black Boots)</English>
+            <English>Tactical Clothes (Blue, Green, Black) Logo</English>
             <German>Taktische Kleidung (blaues Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (青シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_TP_BB">
-            <English>Tactical Clothes (Brown Shirt, Tan Pants, Black Boots)</English>
+            <English>Tactical Clothes (Brown, Tan, Black) Logo</English>
             <German>Taktische Kleidung (braunes Hemd, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (茶シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_LP_BB">
-            <English>Tactical Clothes (Brown Shirt, Blue Pants, Black Boots)</English>
+            <English>Tactical Clothes (Brown, Blue, Black) Logo</English>
             <German>Taktische Kleidung (braunes Hemd, blaue Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (茶シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_GS_TP_TB">
-            <English>Tactical Clothes (Green Shirt, Tan Pants, Tan Boots)</English>
+            <English>Tactical Clothes (Green, Tan, Tan) Logo</English>
             <German>Taktische Kleidung (grünes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>軽装 (緑シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_TP_TB">
-            <English>Tactical Clothes (White Shirt, Tan Pants, Tan Boots)</English>
+            <English>Tactical Clothes (White, Tan, Tan) Logo</English>
             <German>Taktische Kleidung (weißes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>軽装 (白シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_LP_BB">
-            <English>Tactical Clothes (White Shirt, Blue Pants, Black Boots)</English>
+            <English>Tactical Clothes (White, Blue, Black) Logo</English>
             <German>Taktische Kleidung (weißes Hemd, blaue Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (白シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_GP_BB">
-            <English>Tactical Clothes (White Shirt, Green Pants, Black Boots)</English>
+            <English>Tactical Clothes (White, Green, Black) Logo</English>
             <German>Taktische Kleidung (weißes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (白シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_CP_LS_TP_OB">
-            <English>Tactical Clothes Cords (Blue Shirt, Tan Pants, Brown Boots)</English>
+            <English>Tactical Clothes (Plaid Blue, Tan, Brown)</English>
             <German>Taktische Kleidung, Cord (blaues Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (青シャツ、黄褐パンツ、茶ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_CP_RS_LP_BB">
-            <English>Tactical Clothes Cords (Red Shirt, Blue Pants, Black Boots)</English>
+            <English>Tactical Clothes (Plaid Red, Blue, Black)</English>
             <German>Taktische Kleidung, Cord (rotes Hemd, blaue Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (赤シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_CP_BS_TP_BB">
-            <English>Tactical Clothes Cords (Black Shirt, Tan Pants, Black Boots)</English>
+            <English>Tactical Clothes (Black, Tan, Black) Logo</English>
             <German>Taktische Kleidung, Cord (schwarzes Hemd, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (黒シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_LP_BB">
-            <English>T-Shirt, Jeans (Green Shirt, Blue Pants, Black Boots)</English>
+            <English>T-Shirt, Jeans (Green, Blue, Black) Logo</English>
             <German>T-Shirt, Jeans (grünes T-Shirt, blaue Hose, schwarze Stiefel)</German>
             <Japanese>T シャツとジーンズ (緑シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_TP_BB">
-            <English>T-Shirt, Jeans (Green Shirt, Tan Pants, Black Boots)</English>
+            <English>T-Shirt, Jeans (Green, Tan, Black) Logo</English>
             <German>T-Shirt, Jeans (grünes T-Shirt, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>T シャツとジーンズ (緑シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_BS_LP_BB">
-            <English>T-Shirt, Jeans (Black Shirt, Blue Pants, Black Boots)</English>
+            <English>T-Shirt, Jeans (Black, Blue, Black) Logo</English>
             <German>T-Shirt, Jeans (schwarzes T-Shirt, blaue Hose, schwarze Stiefel)	</German>
             <Japanese>T シャツとジーンズ (黒シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_BS_TP_BB">
-            <English>T-Shirt, Jeans (Black Shirt, Tan Pants, Black Boots)</English>
+            <English>T-Shirt, Jeans (Black, Tan, Black) Logo</English>
             <German>T-Shirt, Jeans (schwarzes T-Shirt, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>T シャツとジーンズ (黒シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_LS_LP_BB">
-            <English>T-Shirt, Jeans (Blue Shirt, Blue Pants, Black Boots)</English>
+            <English>T-Shirt, Jeans (Blue, Blue, Black) Logo</English>
             <German>T-Shirt, Jeans (blaues T-Shirt, blaue Hose, schwarze Stiefel)</German>
             <Japanese>T シャツとジーンズ (青シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_WS_LP_BB">
-            <English>T-Shirt, Jeans (White Shirt, Blue Pants, Black Boots)</English>
+            <English>T-Shirt, Jeans (White, Blue, Black) Logo</English>
             <German>T-Shirt, Jeans (weißes T-Shirt, blaue Hose, schwarze Stiefel)</German>
             <Japanese>T シャツとジーンズ (白シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
