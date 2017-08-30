@@ -122,7 +122,7 @@ class CfgPatches {
             QCLASS(Uniform_Combat_LS_TS_BP_BB),
             QCLASS(Uniform_Combat_LS_TS_GP_BB),
             QCLASS(Uniform_Combat_LS_TS_GP_TB),
-            QCLASS(Uniform_Combat_LS_TS_GP_TB),
+            QCLASS(Uniform_Combat_LS_TS_TP_TB),
             QCLASS(Uniform_Combat_LS_CDBS_GP_TB),
             QCLASS(Uniform_Combat_LS_CLBS_GP_BB),
             QCLASS(Uniform_Combat_LS_CLRS_TP_BB),
