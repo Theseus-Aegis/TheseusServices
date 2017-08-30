@@ -1,4 +1,5 @@
 #define COMPONENT weapons_hlc
+#define COMPONENT_BEAUTIFIED HLC Weapons Replacement
 #include "\x\tacs\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_WEAPONS_HLC

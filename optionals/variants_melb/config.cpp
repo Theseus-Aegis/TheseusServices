@@ -2,6 +2,7 @@
 
 class CfgPatches {
     class ADDON {
+        name = COMPONENT_NAME;
         units[] = {
             QCLASS(MELB_I_AH6M_H_Theseus_Black),
             QCLASS(MELB_B_AH6M_H_Theseus_Black),

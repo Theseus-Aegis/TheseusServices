@@ -1,4 +1,5 @@
 #define COMPONENT vehicles
+#define COMPONENT_BEAUTIFIED Vehicles
 #include "\x\tacs\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_VEHICLES

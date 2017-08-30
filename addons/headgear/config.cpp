@@ -2,6 +2,7 @@
 
 class CfgPatches {
     class ADDON {
+        name = COMPONENT_NAME;
         units[] = {
             QCLASS(Item_Cap_Headphones_BlackLogo),
             QCLASS(Item_Cap_BlackLogo),

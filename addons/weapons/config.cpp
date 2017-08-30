@@ -2,6 +2,7 @@
 
 class CfgPatches {
     class ADDON {
+        name = COMPONENT_NAME;
         units[] = {
             QCLASS(Item_MX_BlackCamo),
             QCLASS(Item_MX_GL_BlackCamo),

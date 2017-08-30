@@ -1,4 +1,5 @@
 #define COMPONENT weapons
+#define COMPONENT_BEAUTIFIED Weapons
 #include "\x\tacs\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_WEAPONS
