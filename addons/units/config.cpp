@@ -2,6 +2,7 @@
 
 class CfgPatches {
     class ADDON {
+        name = COMPONENT_NAME;
         units[] = {
             // Ground items
             QCLASS(Item_Uniform_Combat_LS_BS_GP_BB),
@@ -104,7 +105,7 @@ class CfgPatches {
             QCLASS(Unit_B_PilotHeli),
             QCLASS(Unit_I_VIP),
             QCLASS(Unit_B_VIP)
-        };
+            };
         weapons[] = {
             QCLASS(Uniform_Combat_LS_BS_GP_BB),
             QCLASS(Uniform_Combat_LS_BS_GP_TB),
