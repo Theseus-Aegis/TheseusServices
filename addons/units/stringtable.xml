@@ -32,9 +32,8 @@
             <Japanese>戦闘ユニフォーム 長袖 (緑シャツ、黒パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_GS_TP_BB">
-            <English>Combat Uniform Long (Green, Tan, Tan)</English>
-            <German>Kampfuniform, langärmelig (grünes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
-            <Japanese>戦闘ユニフォーム 長袖 (緑シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
+            <English>Combat Uniform Long (Green, Tan, Black)</English>
+            <German>Kampfuniform, langärmelig (grünes Hemd, hellbraune Hose, schwarze Stiefel)</German>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_DGP_BB">
             <English>Combat Uniform Long (Black, Digital Green, Black)</English>
@@ -107,9 +106,8 @@
             <Japanese>戦闘ユニフォーム 半袖 (緑シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_DGP_BB">
-            <English>Combat Uniform Rolled (Green, Digital Green, Black)</English>
+            <English>Combat Uniform Rolled (Black, Digital Green, Black)</English>
             <German>Kampfuniform,hochgekrempelt (schwarzes Hemd, digital-grüne Hose, schwarze Stiefel)</German>
-            <Japanese>戦闘ユニフォーム 半袖 (緑シャツ、デジタルの緑パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_TS_BP_BB">
             <English>Combat Uniform Rolled (Tan, Black, Black)</English>
@@ -357,9 +355,7 @@
             <Japanese>軽装 (黒シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_LP_BB">
-            <English>T-Shirt, Jeans (Green, Blue, Black) Logo</English>
-            <German>T-Shirt, Jeans (grünes T-Shirt, blaue Hose, schwarze Stiefel)</German>
-            <Japanese>T シャツとジーンズ (緑シャツ、青パンツ、黒ブーツ)</Japanese>
+            <English>T-Shirt, Jeans (Green, White, Black) Logo</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_TP_BB">
             <English>T-Shirt, Jeans (Green, Tan, Black) Logo</English>
@@ -372,9 +368,7 @@
             <Japanese>T シャツとジーンズ (黒シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_BS_TP_BB">
-            <English>T-Shirt, Jeans (Black, Tan, Black) Logo</English>
-            <German>T-Shirt, Jeans (schwarzes T-Shirt, hellbraune Hose, schwarze Stiefel)</German>
-            <Japanese>T シャツとジーンズ (黒シャツ、黄褐パンツ、黒ブーツ)</Japanese>
+            <English>T-Shirt, Jeans (Black, White, Black) Logo</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_LS_LP_BB">
             <English>T-Shirt, Jeans (Blue, Blue, Black) Logo</English>
