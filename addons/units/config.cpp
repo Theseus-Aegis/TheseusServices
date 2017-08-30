@@ -9,12 +9,14 @@ class CfgPatches {
             QCLASS(Item_Uniform_Combat_LS_BS_GP_TB),
             QCLASS(Item_Uniform_Combat_LS_BS_TP_BB),
             QCLASS(Item_Uniform_Combat_LS_BS_TP_TB),
+            QCLASS(Item_Uniform_Combat_LS_GS_GP_BB),
             QCLASS(Item_Uniform_Combat_LS_GS_BP_BB),
             QCLASS(Item_Uniform_Combat_LS_GS_TP_BB),
             QCLASS(Item_Uniform_Combat_LS_BS_DGP_BB),
             QCLASS(Item_Uniform_Combat_LS_TS_BP_BB),
             QCLASS(Item_Uniform_Combat_LS_TS_GP_BB),
             QCLASS(Item_Uniform_Combat_LS_TS_GP_TB),
+            QCLASS(Item_Uniform_Combat_LS_TS_TP_TB),
             QCLASS(Item_Uniform_Combat_LS_CDBS_GP_TB),
             QCLASS(Item_Uniform_Combat_LS_CLBS_GP_BB),
             QCLASS(Item_Uniform_Combat_LS_CLRS_TP_BB),
@@ -23,12 +25,14 @@ class CfgPatches {
             QCLASS(Item_Uniform_Combat_RS_BS_GP_TB),
             QCLASS(Item_Uniform_Combat_RS_BS_TP_BB),
             QCLASS(Item_Uniform_Combat_RS_BS_TP_TB),
+            QCLASS(Item_Uniform_Combat_RS_GS_GP_BB),
             QCLASS(Item_Uniform_Combat_RS_GS_BP_BB),
             QCLASS(Item_Uniform_Combat_RS_GS_TP_BB),
             QCLASS(Item_Uniform_Combat_RS_BS_DGP_BB),
             QCLASS(Item_Uniform_Combat_RS_TS_BP_BB),
             QCLASS(Item_Uniform_Combat_RS_TS_GP_BB),
             QCLASS(Item_Uniform_Combat_RS_TS_GP_TB),
+            QCLASS(Item_Uniform_Combat_RS_TS_TP_TB),
             QCLASS(Item_Uniform_Combat_RS_CDBS_GP_TB),
             QCLASS(Item_Uniform_Combat_RS_CLBS_GP_BB),
             QCLASS(Item_Uniform_Combat_RS_CLRS_TP_BB),
@@ -105,17 +109,19 @@ class CfgPatches {
             QCLASS(Unit_B_PilotHeli),
             QCLASS(Unit_I_VIP),
             QCLASS(Unit_B_VIP)
-            };
+        };
         weapons[] = {
             QCLASS(Uniform_Combat_LS_BS_GP_BB),
             QCLASS(Uniform_Combat_LS_BS_GP_TB),
             QCLASS(Uniform_Combat_LS_BS_TP_BB),
             QCLASS(Uniform_Combat_LS_BS_TP_TB),
+            QCLASS(Uniform_Combat_LS_GS_GP_BB),
             QCLASS(Uniform_Combat_LS_GS_BP_BB),
             QCLASS(Uniform_Combat_LS_GS_TP_BB),
             QCLASS(Uniform_Combat_LS_BS_DGP_BB),
             QCLASS(Uniform_Combat_LS_TS_BP_BB),
             QCLASS(Uniform_Combat_LS_TS_GP_BB),
+            QCLASS(Uniform_Combat_LS_TS_GP_TB),
             QCLASS(Uniform_Combat_LS_TS_GP_TB),
             QCLASS(Uniform_Combat_LS_CDBS_GP_TB),
             QCLASS(Uniform_Combat_LS_CLBS_GP_BB),
@@ -125,12 +131,14 @@ class CfgPatches {
             QCLASS(Uniform_Combat_RS_BS_GP_TB),
             QCLASS(Uniform_Combat_RS_BS_TP_BB),
             QCLASS(Uniform_Combat_RS_BS_TP_TB),
+            QCLASS(Uniform_Combat_RS_GS_GP_BB),
             QCLASS(Uniform_Combat_RS_GS_BP_BB),
             QCLASS(Uniform_Combat_RS_GS_TP_BB),
             QCLASS(Uniform_Combat_RS_BS_DGP_BB),
             QCLASS(Uniform_Combat_RS_TS_BP_BB),
             QCLASS(Uniform_Combat_RS_TS_GP_BB),
             QCLASS(Uniform_Combat_RS_TS_GP_TB),
+            QCLASS(Uniform_Combat_RS_TS_TP_TB),
             QCLASS(Uniform_Combat_RS_CDBS_GP_TB),
             QCLASS(Uniform_Combat_RS_CLBS_GP_BB),
             QCLASS(Uniform_Combat_RS_CLRS_TP_BB),
@@ -188,7 +196,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_backpacks", "tacs_headgear", "tacs_vests", "tacs_weapons"};
         author = ECSTRING(main,Author);
-        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory"};
+        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

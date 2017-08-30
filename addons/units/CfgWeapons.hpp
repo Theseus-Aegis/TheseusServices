@@ -92,6 +92,16 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_LS_BS_TP_TB);
         };
     };
+    class CLASS(Uniform_Combat_LS_GS_GP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Kresky, Jonpas";
+        displayName = CSTRING(Uniform_Combat_LS_GS_GP_BB);
+        //picture = QPATHTOF(UI\uniform_combat_ls_gs_gp_ca.paa);//TODO
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_LS_GS_GP_BB);
+        };
+    };
     class CLASS(Uniform_Combat_LS_GS_BP_BB): CLASS(Uniform_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
@@ -150,6 +160,16 @@ class CfgWeapons {
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_TS_GP_TB);
+        };
+    };
+    class CLASS(Uniform_Combat_LS_TS_TP_TB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Kresky, Jonpas";
+        displayName = CSTRING(Uniform_Combat_LS_TS_TP_TB);
+        //picture = QPATHTOF(UI\uniform_combat_ls_ts_tp_ca.paa);//TODO
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_LS_TS_TP_TB);
         };
     };
     // Checked
@@ -235,6 +255,16 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_RS_BS_TP_TB);
         };
     };
+    class CLASS(Uniform_Combat_RS_GS_GP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Kresky, Jonpas";
+        displayName = CSTRING(Uniform_Combat_RS_GS_GP_BB);
+        //picture = QPATHTOF(UI\uniform_combat_rs_gs_gp_ca.paa);//TODO
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_RS_GS_GP_BB);
+        };
+    };
     class CLASS(Uniform_Combat_RS_GS_BP_BB): CLASS(Uniform_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
@@ -293,6 +323,16 @@ class CfgWeapons {
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_TS_GP_TB);
+        };
+    };
+    class CLASS(Uniform_Combat_RS_TS_TP_TB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Kresky, Jonpas";
+        displayName = CSTRING(Uniform_Combat_RS_TS_TP_TB);
+        //picture = QPATHTOF(UI\uniform_combat_rs_ts_tp_ca.paa);//TODO
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_RS_TS_TP_TB);
         };
     };
     // Checked

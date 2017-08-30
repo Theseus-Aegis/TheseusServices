@@ -44,6 +44,15 @@ class CLASS(Item_Uniform_Combat_LS_BS_TP_TB): Item_Base_F {
         MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BS_TP_TB),1);
     };
 };
+class CLASS(Item_Uniform_Combat_LS_GS_GP_BB): Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "Jonpas";
+    displayName = CSTRING(Uniform_Combat_LS_GS_GP_BB);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_LS_GS_GP_BB),1);
+    };
+};
 class CLASS(Item_Uniform_Combat_LS_GS_BP_BB): Item_Base_F {
     MACRO_ITEM_COMMON
     author = "Jonpas";
@@ -96,6 +105,15 @@ class CLASS(Item_Uniform_Combat_LS_TS_GP_TB): Item_Base_F {
 
     class TransportItems {
         MACRO_ADDITEM(CLASS(Uniform_Combat_LS_TS_GP_TB),1);
+    };
+};
+class CLASS(Item_Uniform_Combat_LS_TS_TP_TB): Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "Jonpas";
+    displayName = CSTRING(Uniform_Combat_LS_TS_TP_TB);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_LS_TS_TP_TB),1);
     };
 };
 class CLASS(Item_Uniform_Combat_LS_CDBS_GP_TB): Item_Base_F {
@@ -170,6 +188,15 @@ class CLASS(Item_Uniform_Combat_RS_BS_TP_TB): Item_Base_F {
         MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BS_TP_TB),1);
     };
 };
+class CLASS(Item_Uniform_Combat_RS_GS_GP_BB): Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "Jonpas";
+    displayName = CSTRING(Uniform_Combat_RS_GS_GP_BB);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_RS_GS_GP_BB),1);
+    };
+};
 class CLASS(Item_Uniform_Combat_RS_GS_BP_BB): Item_Base_F {
     MACRO_ITEM_COMMON
     author = "Jonpas";
@@ -222,6 +249,15 @@ class CLASS(Item_Uniform_Combat_RS_TS_GP_TB): Item_Base_F {
 
     class TransportItems {
         MACRO_ADDITEM(CLASS(Uniform_Combat_RS_TS_GP_TB),1);
+    };
+};
+class CLASS(Item_Uniform_Combat_RS_TS_TP_TB): Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "Jonpas";
+    displayName = CSTRING(Uniform_Combat_RS_TS_TP_TB);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_RS_TS_TP_TB),1);
     };
 };
 class CLASS(Item_Uniform_Combat_RS_CDBS_GP_TB): Item_Base_F {

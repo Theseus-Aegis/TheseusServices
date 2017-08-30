@@ -95,6 +95,12 @@ class CLASS(Unit_Combat_LS_BS_TP_TB): CLASS(Unit_Combat_LS_Base) {
     uniformClass = QCLASS(Uniform_Combat_LS_BS_TP_TB);
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_tp_tb_co.paa)};
 };
+class CLASS(Unit_Combat_LS_GS_GP_BB): CLASS(Unit_Combat_LS_Base) {
+    scope = 1;
+    author = "Kresky, Jonpas";
+    uniformClass = QCLASS(Uniform_Combat_LS_GS_GP_BB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_gs_gp_bb_co.paa)};
+};
 class CLASS(Unit_Combat_LS_GS_BP_BB): CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "Pomigit, Jonpas";
@@ -130,6 +136,12 @@ class CLASS(Unit_Combat_LS_TS_GP_TB): CLASS(Unit_Combat_LS_Base) {
     author = "Pomigit, Jonpas";
     uniformClass = QCLASS(Uniform_Combat_LS_TS_GP_TB);
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_gp_tb_co.paa)};
+};
+class CLASS(Unit_Combat_LS_TS_TP_TB): CLASS(Unit_Combat_LS_Base) {
+    scope = 1;
+    author = "Kresky, Jonpas";
+    uniformClass = QCLASS(Uniform_Combat_LS_TS_TP_TB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_tp_tb_co.paa)};
 };
 
 // Combat - Long Sleeves - Checked
@@ -196,6 +208,12 @@ class CLASS(Unit_Combat_RS_BS_TP_TB): CLASS(Unit_Combat_RS_Base) {
     uniformClass = QCLASS(Uniform_Combat_RS_BS_TP_TB);
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_tp_tb_co.paa)};
 };
+class CLASS(Unit_Combat_RS_GS_GP_BB): CLASS(Unit_Combat_RS_Base) {
+    scope = 1;
+    author = "Kresky, Jonpas";
+    uniformClass = QCLASS(Uniform_Combat_RS_GS_GP_BB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_gs_gp_bb_co.paa)};
+};
 class CLASS(Unit_Combat_RS_GS_BP_BB): CLASS(Unit_Combat_RS_Base) {
     scope = 1;
     author = "Pomigit, Jonpas";
@@ -231,6 +249,12 @@ class CLASS(Unit_Combat_RS_TS_GP_TB): CLASS(Unit_Combat_RS_Base) {
     author = "Pomigit, Jonpas";
     uniformClass = QCLASS(Uniform_Combat_RS_TS_GP_TB);
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_gp_tb_co.paa)};
+};
+class CLASS(Unit_Combat_RS_TS_TP_TB): CLASS(Unit_Combat_RS_Base) {
+    scope = 1;
+    author = "Kresky, Jonpas";
+    uniformClass = QCLASS(Uniform_Combat_RS_TS_TP_TB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_tp_tb_co.paa)};
 };
 
 // Combat - Rolled Sleeves - Checked
