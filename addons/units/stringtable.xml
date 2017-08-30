@@ -26,6 +26,9 @@
             <German>Kampfuniform, langärmelig (schwarzes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (黒シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_GS_GP_BB">
+            <English>Combat Uniform Long (Green, Green, Black)</English>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_GS_BP_BB">
             <English>Combat Uniform Long (Green, Black, Black)</English>
             <German>Kampfuniform, langärmelig (grünes Hemd, schwarze Hose, schwarze Stiefel)</German>
@@ -54,6 +57,9 @@
             <English>Combat Uniform Long (Tan, Green, Tan)</English>
             <German>Kampfuniform, langärmelig (hellbraunes Hemd, grüne Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 長袖 (黄褐シャツ、緑パンツ、黄褐ブーツ)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_TS_TP_TB">
+            <English>Combat Uniform Long (Tan, Tan, Tan)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_CDBS_GP_TB">
             <English>Combat Uniform Long (Plaid Dark Blue, Green, Tan)</English>
@@ -95,6 +101,9 @@
             <German>Kampfuniform, hochgekrempelt (schwarzes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (黒シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_GS_GP_BB">
+            <English>Combat Uniform Rolled (Green, Green, Black)</English>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_GS_BP_BB">
             <English>Combat Uniform Rolled (Green, Black, Black)</English>
             <German>Kampfuniform,hochgekrempelt (grünes Hemd, schwarze Hose, schwarze Stiefel)</German>
@@ -123,6 +132,9 @@
             <English>Combat Uniform Rolled (Tan, Green, Tan)</English>
             <German>Kampfuniform, hochgekrempelt (hellbraunes Hemd, grüne Hose, hellbraune Stiefel)</German>
             <Japanese>戦闘ユニフォーム 半袖 (黄褐シャツ、緑パンツ、黄褐ブーツ)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_TS_TP_TB">
+            <English>Combat Uniform Rolled (Tan, Tan, Tan)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_CDBS_GP_TB">
             <English>Combat Uniform Rolled (Plaid Dark Blue, Green, Tan)</English>
@@ -289,8 +301,18 @@
             <German>Taktische Kleidung (blaues Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>軽装 (青シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_LS_TP_TB_NoLogo">
+            <English>Tactical Clothes (Blue, Tan, Tan)</English>
+            <German>Taktische Kleidung (blaues Hemd, hellbraune Hose, hellbraune Stiefel)</German>
+            <Japanese>軽装 (青シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_TS_GP_BB">
             <English>Tactical Clothes (Tan, Green, Black) Logo</English>
+            <German>Taktische Kleidung (hellbraunes Hemd, grüne Hose, schwarze Stiefel)</German>
+            <Japanese>軽装 (黄褐シャツ、緑パンツ、黒ブーツ)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_TS_GP_BB_NoLogo">
+            <English>Tactical Clothes (Tan, Green, Black)</English>
             <German>Taktische Kleidung (hellbraunes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (黄褐シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
@@ -299,8 +321,18 @@
             <German>Taktische Kleidung (schwarzes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>軽装 (黒シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_BS_TP_TB_NoLogo">
+            <English>Tactical Clothes (Black, Tan, Tan)</English>
+            <German>Taktische Kleidung (schwarzes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
+            <Japanese>軽装 (黒シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_BS_LP_BB">
             <English>Tactical Clothes (Black, Blue, Black) Logo</English>
+            <German>Taktische Kleidung (schwarzes Hemd, blaue Hose, schwarze Stiefel)</German>
+            <Japanese>軽装 (黒シャツ、青パンツ、黒ブーツ)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_BS_LP_BB_NoLogo">
+            <English>Tactical Clothes (Black, Blue, Black)</English>
             <German>Taktische Kleidung (schwarzes Hemd, blaue Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (黒シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
@@ -309,8 +341,18 @@
             <German>Taktische Kleidung (blaues Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (青シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_LS_GP_BB_NoLogo">
+            <English>Tactical Clothes (Blue, Green, Black)</English>
+            <German>Taktische Kleidung (blaues Hemd, grüne Hose, schwarze Stiefel)</German>
+            <Japanese>軽装 (青シャツ、緑パンツ、黒ブーツ)</Japanese>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_TP_BB">
             <English>Tactical Clothes (Brown, Tan, Black) Logo</English>
+            <German>Taktische Kleidung (braunes Hemd, hellbraune Hose, schwarze Stiefel)</German>
+            <Japanese>軽装 (茶シャツ、黄褐パンツ、黒ブーツ)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_TP_BB_NoLogo">
+            <English>Tactical Clothes (Brown, Tan, Black)</English>
             <German>Taktische Kleidung (braunes Hemd, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (茶シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
@@ -319,8 +361,18 @@
             <German>Taktische Kleidung (braunes Hemd, blaue Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (茶シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_OS_LP_BB_NoLogo">
+            <English>Tactical Clothes (Brown, Blue, Black)</English>
+            <German>Taktische Kleidung (braunes Hemd, blaue Hose, schwarze Stiefel)</German>
+            <Japanese>軽装 (茶シャツ、青パンツ、黒ブーツ)</Japanese>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_GS_TP_TB">
             <English>Tactical Clothes (Green, Tan, Tan) Logo</English>
+            <German>Taktische Kleidung (grünes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
+            <Japanese>軽装 (緑シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_GS_TP_TB_NoLogo">
+            <English>Tactical Clothes (Green, Tan, Tan)</English>
             <German>Taktische Kleidung (grünes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>軽装 (緑シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
@@ -329,13 +381,28 @@
             <German>Taktische Kleidung (weißes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
             <Japanese>軽装 (白シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_TP_TB_NoLogo">
+            <English>Tactical Clothes (White, Tan, Tan)</English>
+            <German>Taktische Kleidung (weißes Hemd, hellbraune Hose, hellbraune Stiefel)</German>
+            <Japanese>軽装 (白シャツ、黄褐パンツ、黄褐ブーツ)</Japanese>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_LP_BB">
             <English>Tactical Clothes (White, Blue, Black) Logo</English>
             <German>Taktische Kleidung (weißes Hemd, blaue Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (白シャツ、青パンツ、黒ブーツ)</Japanese>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_LP_BB_NoLogo">
+            <English>Tactical Clothes (White, Blue, Black)</English>
+            <German>Taktische Kleidung (weißes Hemd, blaue Hose, schwarze Stiefel)</German>
+            <Japanese>軽装 (白シャツ、青パンツ、黒ブーツ)</Japanese>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_GP_BB">
             <English>Tactical Clothes (White, Green, Black) Logo</English>
+            <German>Taktische Kleidung (weißes Hemd, grüne Hose, schwarze Stiefel)</German>
+            <Japanese>軽装 (白シャツ、緑パンツ、黒ブーツ)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_TP_WS_GP_BB_NoLogo">
+            <English>Tactical Clothes (White, Green, Black)</English>
             <German>Taktische Kleidung (weißes Hemd, grüne Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (白シャツ、緑パンツ、黒ブーツ)</Japanese>
         </Key>
@@ -351,6 +418,11 @@
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_CP_BS_TP_BB">
             <English>Tactical Clothes (Black, Tan, Black) Logo</English>
+            <German>Taktische Kleidung, Cord (schwarzes Hemd, hellbraune Hose, schwarze Stiefel)</German>
+            <Japanese>軽装 (黒シャツ、黄褐パンツ、黒ブーツ)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Polo_CP_BS_TP_BB_NoLogo">
+            <English>Tactical Clothes (Black, Tan, Black)</English>
             <German>Taktische Kleidung, Cord (schwarzes Hemd, hellbraune Hose, schwarze Stiefel)</German>
             <Japanese>軽装 (黒シャツ、黄褐パンツ、黒ブーツ)</Japanese>
         </Key>
