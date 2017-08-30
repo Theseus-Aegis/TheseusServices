@@ -96,7 +96,7 @@ class CfgWeapons {
         scope = 2;
         author = "Kresky, Jonpas";
         displayName = CSTRING(Uniform_Combat_LS_GS_GP_BB);
-        //picture = QPATHTOF(UI\uniform_combat_ls_gs_gp_ca.paa);//TODO
+        picture = QPATHTOF(UI\uniform_combat_ls_gs_gp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_GS_GP_BB);
@@ -166,7 +166,7 @@ class CfgWeapons {
         scope = 2;
         author = "Kresky, Jonpas";
         displayName = CSTRING(Uniform_Combat_LS_TS_TP_TB);
-        //picture = QPATHTOF(UI\uniform_combat_ls_ts_tp_ca.paa);//TODO
+        picture = QPATHTOF(UI\uniform_combat_ls_ts_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_TS_TP_TB);
@@ -259,7 +259,7 @@ class CfgWeapons {
         scope = 2;
         author = "Kresky, Jonpas";
         displayName = CSTRING(Uniform_Combat_RS_GS_GP_BB);
-        //picture = QPATHTOF(UI\uniform_combat_rs_gs_gp_ca.paa);//TODO
+        picture = QPATHTOF(UI\uniform_combat_rs_gs_gp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_GS_GP_BB);
@@ -329,7 +329,7 @@ class CfgWeapons {
         scope = 2;
         author = "Kresky, Jonpas";
         displayName = CSTRING(Uniform_Combat_RS_TS_TP_TB);
-        //picture = QPATHTOF(UI\uniform_combat_rs_ts_tp_ca.paa);//TODO
+        picture = QPATHTOF(UI\uniform_combat_rs_ts_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_TS_TP_TB);
