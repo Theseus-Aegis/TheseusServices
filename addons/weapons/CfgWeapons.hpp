@@ -11,6 +11,7 @@ class CfgWeapons {
             QPATHTOF(data\mx_blackcamo_base_co.paa),
             QPATHTOF(data\mx_blackcamo_short_co.paa)
         };
+        baseWeapon = QCLASS(MX_BlackCamo);
     };
 
     class arifle_MX_GL_F;
@@ -25,6 +26,7 @@ class CfgWeapons {
             QPATHTOF(data\mx_blackcamo_base_co.paa),
             QPATHTOF(data\mx_blackcamo_gl_co.paa)
         };
+        baseWeapon = QCLASS(MX_GL_BlackCamo);
     };
 
 

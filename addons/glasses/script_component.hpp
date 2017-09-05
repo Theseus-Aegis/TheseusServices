@@ -1,4 +1,5 @@
 #define COMPONENT glasses
+#define COMPONENT_BEAUTIFIED Glasses
 #include "\x\tacs\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_GLASSES

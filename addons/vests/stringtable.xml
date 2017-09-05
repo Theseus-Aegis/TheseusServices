@@ -4,34 +4,42 @@
         <Key ID="STR_TACS_Vests_Vest_PlateCarrierFull_Black">
             <English>Plate Carrier Full (Black)</English>
             <German>Plattenträger, komplett (schwarz)</German>
+            <Japanese>完全型プレート キャリア (黒)</Japanese>
         </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrierFull_Green">
             <English>Plate Carrier Full (Green)</English>
             <German>Plattenträger, komplett (grün)</German>
+            <Japanese>プレート キャリア (MARPAT)</Japanese>
         </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Black">
             <English>Plate Carrier (Black)</English>
             <German>Plattenträger (schwarz)</German>
+            <Japanese>プレート キャリア (黒)</Japanese>
         </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Green">
             <English>Plate Carrier (Green)</English>
             <German>Plattenträger (grün)</German>
+            <Japanese>プレート キャリア (緑)</Japanese>
         </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Coyote">
             <English>Plate Carrier (Coyote)</English>
             <German>Plattenträger (coyote)</German>
+            <Japanese>プレート キャリア (コヨーテ)</Japanese>
         </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Khaki">
             <English>Plate Carrier (Khaki)</English>
             <German>Plattenträger (khaki)</German>
+            <Japanese>プレート キャリア (土埃)</Japanese>
         </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrier_MARPAT">
             <English>Plate Carrier (MARPAT)</English>
             <German>Plattenträger (MARPAT)</German>
+            <Japanese>プレート キャリア (MARPAT)</Japanese>
         </Key>
         <Key ID="STR_TACS_Vests_Vest_Tactical_DarkBlack">
             <English>Tactical Vest (Dark Black)</English>
             <German>Plattenträger (dunkelschwarz)</German>
+            <Japanese>タクティカル ベスト (漆黒)</Japanese>
         </Key>
     </Package>
 </Project>

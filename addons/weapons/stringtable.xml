@@ -4,14 +4,17 @@
         <Key ID="STR_TACS_Weapons_Box_Weapons">
             <English>[TACS] Weapons</English>
             <German>[TACS] Waffen</German>
+            <Japanese>[TACS] 武器</Japanese>
         </Key>
         <Key ID="STR_TACS_Weapons_MX_BlackCamo">
             <English>MX 6.5 mm (Black Camo)</English>
             <German>MX 6,5 mm (schwarz tarn)</German>
+            <Japanese>MX 6.5 mm (黒)</Japanese>
         </Key>
         <Key ID="STR_TACS_Weapons_MX_GL_BlackCamo">
             <English>MX 3GL 6.5 mm (Black Camo)</English>
             <German>MX 3GL 6,5 mm (schwarz tarn)</German>
+            <Japanese>MX 3GL 6,5 mm (黒)</Japanese>
         </Key>
     </Package>
 </Project>

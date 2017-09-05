@@ -2,6 +2,7 @@
 
 class CfgPatches {
     class ADDON {
+        name = COMPONENT_NAME;
         units[] = {
             QCLASS(Heli_I_MH6_Blue),
             QCLASS(Heli_B_MH6_Blue),
