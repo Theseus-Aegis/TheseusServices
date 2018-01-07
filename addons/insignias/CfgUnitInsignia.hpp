@@ -699,4 +699,10 @@ class CfgUnitInsignia {
         displayName = "Minotaur (Desert)";
         texture = QPATHTOF(data\minotaur_desert.paa);
     };
+    class CLASS(Insignia_HeliosSwatSubdued) {
+        MACRO_INSIGNIA_COMMON
+        author = "Mick Mathews";
+        displayName = "Helios (SWAT Subdued)";
+        texture = QPATHTOF(data\helios_swatsubdued.paa);
+    };
 };
