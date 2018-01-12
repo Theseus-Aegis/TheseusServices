@@ -687,4 +687,16 @@ class CfgUnitInsignia {
         displayName = "Zombie Outbreak Response Team (Black)";
         texture = QPATHTOF(data\zombieoutbreakresponseteam_black.paa);
     };
+    class CLASS(Insignia_MinotaurForest) {
+        MACRO_INSIGNIA_COMMON
+        author = "Mick Mathews";
+        displayName = "Minotaur (Forest)";
+        texture = QPATHTOF(data\minotaur_forest.paa);
+    };
+    class CLASS(Insignia_MinotaurDesert) {
+        MACRO_INSIGNIA_COMMON
+        author = "Mick Mathews";
+        displayName = "Minotaur (Desert)";
+        texture = QPATHTOF(data\minotaur_desert.paa);
+    };
 };
