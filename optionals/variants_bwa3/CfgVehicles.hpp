@@ -1,9 +1,20 @@
 class CfgVehicles {
-    class BWA3_Eagle_Fleck;
+    class BWA3_Eagle_base;
+    class BWA3_Eagle_hatch_base: BWA3_Eagle_base {
+        class Turrets;
+    };
+    class BWA3_Eagle_Fleck: BWA3_Eagle_hatch_base {
+        class Turrets: Turrets {
+            class CargoTurret_01;
+        }
+    };
+
     class BWA3_Eagle_FLW100_Fleck;
 
-    class BWA3_Eagle_hatch_base;
     class BWA3_Eagle_Tropen: BWA3_Eagle_hatch_base {
+        class Turrets: Turrets {
+            class CargoTurret_01;
+        }
         class TextureSources {
             class Tropen;
             class Tropen2;
@@ -59,6 +70,12 @@ class CfgVehicles {
             "#(argb,8,8,3)color(0,0,0,0,co)",
             "#(argb,8,8,3)color(0,0,0,0,co)"
         };
+
+        class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {
+                gunnerType = QCLASS(Unit_I_Specialist);
+            };
+        };
     };
     class CLASS(BWA3_B_Eagle_Fleck): CLASS(BWA3_I_Eagle_Fleck) {
         scope = 2;
@@ -67,6 +84,12 @@ class CfgVehicles {
         faction = CLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+
+        class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {
+                gunnerType = QCLASS(Unit_B_Specialist);
+            };
+        };
     };
 
     class CLASS(BWA3_I_Eagle_FLW100_Fleck): BWA3_Eagle_FLW100_Fleck {
@@ -123,6 +146,12 @@ class CfgVehicles {
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Tropen.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+
+        class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {
+                gunnerType = QCLASS(Unit_I_Specialist);
+            };
+        };
 
         class TextureSources: TextureSources {
             class Tropen: Tropen {
@@ -234,6 +263,12 @@ class CfgVehicles {
         faction = CLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+
+        class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {
+                gunnerType = QCLASS(Unit_B_Specialist);
+            };
+        };
     };
 
     class CLASS(BWA3_I_Eagle_FLW100_Tropen): BWA3_Eagle_FLW100_Tropen {
@@ -459,6 +494,303 @@ class CfgVehicles {
         };
     };
     class CLASS(BWA3_B_Eagle_FLW100_Tropen): CLASS(BWA3_I_Eagle_FLW100_Tropen) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = CLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+    };
+
+
+    // Eagle - Black
+    class CLASS(BWA3_I_Eagle_Black): BWA3_Eagle_Fleck {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        forceInGarage = 1;
+        side = 2;
+        faction = CLASS(IND);
+        author = "BW-Mod, Mick Mathews, Jonpas";
+        displayName = CSTRING(Eagle_Black);
+        editorPreview = QPATHTOF(UI\BWA3_Eagle_Black.jpg);
+        crew = QCLASS(Unit_I_Contractor);
+        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\bwa3_eagle_black_co.paa),
+            QPATHTOF(data\bwa3_eagle_fahrwerk_black_co.paa),
+            "bwa3_eagle\data\bwa3_eagle_int_co.paa",
+            "bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
+            "#(argb,8,8,3)color(0.345098,0.345098,0.345098,1.0,co)",
+            QPATHTOF(data\bwa3_eagle_parts_black_co.paa),
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)"
+        };
+
+        class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {
+                gunnerType = QCLASS(Unit_I_Specialist);
+            };
+        };
+    };
+    class CLASS(BWA3_B_Eagle_Black): CLASS(BWA3_I_Eagle_Black) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = CLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+
+        class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {
+                gunnerType = QCLASS(Unit_B_Specialist);
+            };
+        };
+    };
+
+    class CLASS(BWA3_I_Eagle_FLW100_Black): BWA3_Eagle_FLW100_Fleck {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        forceInGarage = 1;
+        side = 2;
+        faction = CLASS(IND);
+        author = "BW-Mod, Mick Mathews, Jonpas";
+        displayName = CSTRING(Eagle_FLW100_Black);
+        editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Black.jpg);
+        crew = QCLASS(Unit_I_Contractor);
+        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\bwa3_eagle_black_co.paa),
+            QPATHTOF(data\bwa3_eagle_fahrwerk_black_co.paa),
+            "bwa3_eagle\data\bwa3_eagle_int_co.paa",
+            "bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
+            "#(argb,8,8,3)color(0.345098,0.345098,0.345098,1.0,co)",
+            QPATHTOF(data\bwa3_eagle_parts_black_co.paa),
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "bwa3_eagle\data\bwa3_flw100_co.paa",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)"
+        };
+    };
+    class CLASS(BWA3_B_Eagle_FLW100_Black): CLASS(BWA3_I_Eagle_FLW100_Black) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = CLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+    };
+
+
+    // Eagle - Green
+    class CLASS(BWA3_I_Eagle_Green): BWA3_Eagle_Fleck {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        forceInGarage = 1;
+        side = 2;
+        faction = CLASS(IND);
+        author = "BW-Mod, Mick Mathews, Jonpas";
+        displayName = CSTRING(Eagle_Green);
+        editorPreview = QPATHTOF(UI\BWA3_Eagle_Green.jpg);
+        crew = QCLASS(Unit_I_Contractor);
+        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\bwa3_eagle_green_co.paa),
+            QPATHTOF(data\bwa3_eagle_fahrwerk_green_co.paa),
+            "bwa3_eagle\data\bwa3_eagle_int_co.paa",
+            "bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
+            "#(argb,8,8,3)color(0.345098,0.345098,0.345098,1.0,co)",
+            QPATHTOF(data\bwa3_eagle_parts_green_co.paa),
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)"
+        };
+
+        class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {
+                gunnerType = QCLASS(Unit_I_Specialist);
+            };
+        };
+    };
+    class CLASS(BWA3_B_Eagle_Green): CLASS(BWA3_I_Eagle_Green) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = CLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+
+        class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {
+                gunnerType = QCLASS(Unit_B_Specialist);
+            };
+        };
+    };
+
+    class CLASS(BWA3_I_Eagle_FLW100_Green): BWA3_Eagle_FLW100_Fleck {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        forceInGarage = 1;
+        side = 2;
+        faction = CLASS(IND);
+        author = "BW-Mod, Mick Mathews, Jonpas";
+        displayName = CSTRING(Eagle_FLW100_Green);
+        editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Green.jpg);
+        crew = QCLASS(Unit_I_Contractor);
+        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\bwa3_eagle_green_co.paa),
+            QPATHTOF(data\bwa3_eagle_fahrwerk_green_co.paa),
+            "bwa3_eagle\data\bwa3_eagle_int_co.paa",
+            "bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
+            "#(argb,8,8,3)color(0.345098,0.345098,0.345098,1.0,co)",
+            QPATHTOF(data\bwa3_eagle_parts_green_co.paa),
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "bwa3_eagle\data\bwa3_flw100_co.paa",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)"
+        };
+    };
+    class CLASS(BWA3_B_Eagle_FLW100_Green): CLASS(BWA3_I_Eagle_FLW100_Green) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = CLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+    };
+
+
+    // Eagle - Tan
+    class CLASS(BWA3_I_Eagle_Tan): BWA3_Eagle_Fleck {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        forceInGarage = 1;
+        side = 2;
+        faction = CLASS(IND);
+        author = "BW-Mod, Mick Mathews, Jonpas";
+        displayName = CSTRING(Eagle_Tan);
+        editorPreview = QPATHTOF(UI\BWA3_Eagle_Tan.jpg);
+        crew = QCLASS(Unit_I_Contractor);
+        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\bwa3_eagle_tan_co.paa),
+            QPATHTOF(data\bwa3_eagle_fahrwerk_tan_co.paa),
+            "bwa3_eagle\data\bwa3_eagle_int_co.paa",
+            "bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
+            "#(argb,8,8,3)color(0.345098,0.345098,0.345098,1.0,co)",
+            QPATHTOF(data\bwa3_eagle_parts_tan_co.paa),
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)"
+        };
+
+        class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {
+                gunnerType = QCLASS(Unit_I_Specialist);
+            };
+        };
+    };
+    class CLASS(BWA3_B_Eagle_Tan): CLASS(BWA3_I_Eagle_Tan) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = CLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+
+        class Turrets: Turrets {
+            class CargoTurret_01: CargoTurret_01 {
+                gunnerType = QCLASS(Unit_B_Specialist);
+            };
+        };
+    };
+
+    class CLASS(BWA3_I_Eagle_FLW100_Tan): BWA3_Eagle_FLW100_Fleck {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        forceInGarage = 1;
+        side = 2;
+        faction = CLASS(IND);
+        author = "BW-Mod, Mick Mathews, Jonpas";
+        displayName = CSTRING(Eagle_FLW100_Tan);
+        editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Tan.jpg);
+        crew = QCLASS(Unit_I_Contractor);
+        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\bwa3_eagle_tan_co.paa),
+            QPATHTOF(data\bwa3_eagle_fahrwerk_tan_co.paa),
+            "bwa3_eagle\data\bwa3_eagle_int_co.paa",
+            "bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
+            "#(argb,8,8,3)color(0.345098,0.345098,0.345098,1.0,co)",
+            QPATHTOF(data\bwa3_eagle_parts_tan_co.paa),
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+            "bwa3_eagle\data\bwa3_flw100_co.paa",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
+            "#(argb,8,8,3)color(0,0,0,0,co)"
+        };
+    };
+    class CLASS(BWA3_B_Eagle_FLW100_Tan): CLASS(BWA3_I_Eagle_FLW100_Tan) {
         scope = 2;
         forceInGarage = 0;
         side = 1;
