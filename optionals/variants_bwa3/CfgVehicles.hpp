@@ -6,7 +6,7 @@ class CfgVehicles {
     class BWA3_Eagle_Fleck: BWA3_Eagle_hatch_base {
         class Turrets: Turrets {
             class CargoTurret_01;
-        }
+        };
     };
 
     class BWA3_Eagle_FLW100_Fleck;
@@ -14,7 +14,7 @@ class CfgVehicles {
     class BWA3_Eagle_Tropen: BWA3_Eagle_hatch_base {
         class Turrets: Turrets {
             class CargoTurret_01;
-        }
+        };
         class TextureSources {
             class Tropen;
             class Tropen2;
