@@ -424,7 +424,7 @@ def cleanup_optionals(mod):
                 file_name = "{}{}.pbo".format(pbo_name_prefix,dir_name)
                 folder= "@{}{}".format(pbo_name_prefix,dir_name)
                 src_file_path = os.path.join(release_dir, project, "addons", file_name)
-                dst_file_path = os.path.join(release_dir, project, "optionals",folder,"addon",file_name)
+                dst_file_path = os.path.join(release_dir, project, "optionals",folder,"addons",file_name)
 
                 sigFile_name = "{}.{}.bisign".format(file_name,key_name)
                 src_sig_path = os.path.join(release_dir, project, "addons", sigFile_name)
