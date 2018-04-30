@@ -4,6 +4,7 @@ class CfgVehicles {
         scope = 1;
 
         class TransportMagazines {
+            delete _xx_200Rnd_65x39_cased_Box_Tracer;
             MACRO_ADDMAGAZINE(rhs_200rnd_556x45_M_SAW,3);
         };
     };
