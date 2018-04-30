@@ -1,5 +1,4 @@
 class CfgVehicles {
-
     class CLASS(Backpack_AssaultExpanded_Green);
     class CLASS(Backpack_AssaultExpanded_Green_Specialist_Filled): CLASS(Backpack_AssaultExpanded_Green) {
         scope = 1;
