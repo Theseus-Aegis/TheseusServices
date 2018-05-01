@@ -4,5 +4,5 @@ Adds additional textured variants of assets from [BWMod](http://www.bwmod.de/) m
 
 ### Authors
 
-- Mick Mathews
+- GilleeDoo
 - [Jonpas](http://github.com/jonpas)

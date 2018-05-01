@@ -45,7 +45,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = CLASS(IND);
-        author = "BW-Mod, Mick Mathews, Jonpas";
+        author = "BW-Mod, GilleeDoo, Jonpas";
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Fleck.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
@@ -98,7 +98,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = CLASS(IND);
-        author = "BW-Mod, Mick Mathews, Jonpas";
+        author = "BW-Mod, GilleeDoo, Jonpas";
         editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Fleck.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
@@ -142,7 +142,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = CLASS(IND);
-        author = "BW-Mod, Mick Mathews, Jonpas";
+        author = "BW-Mod, GilleeDoo, Jonpas";
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Tropen.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
@@ -155,7 +155,7 @@ class CfgVehicles {
 
         class TextureSources: TextureSources {
             class Tropen: Tropen {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen_co.paa",
@@ -180,7 +180,7 @@ class CfgVehicles {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class Tropen2: Tropen2 {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen2_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen2_co.paa",
@@ -205,7 +205,7 @@ class CfgVehicles {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class Tropen3: Tropen3 {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen3_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen_co.paa",
@@ -230,7 +230,7 @@ class CfgVehicles {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class Tropen4: Tropen4 {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen4_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen2_co.paa",
@@ -277,14 +277,14 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = CLASS(IND);
-        author = "BW-Mod, Mick Mathews, Jonpas";
+        author = "BW-Mod, GilleeDoo, Jonpas";
         editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Tropen.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
 
         class TextureSources: TextureSources {
             class Tropen: Tropen {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen_co.paa",
@@ -310,7 +310,7 @@ class CfgVehicles {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class Tropen2: Tropen2 {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen_co.paa",
@@ -336,7 +336,7 @@ class CfgVehicles {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class Tropen3: Tropen3 {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen2_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen2_co.paa",
@@ -362,7 +362,7 @@ class CfgVehicles {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class Tropen4: Tropen4 {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen2_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen2_co.paa",
@@ -388,7 +388,7 @@ class CfgVehicles {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class Tropen5: Tropen5 {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen3_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen_co.paa",
@@ -414,7 +414,7 @@ class CfgVehicles {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class Tropen6: Tropen6 {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen3_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen_co.paa",
@@ -440,7 +440,7 @@ class CfgVehicles {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class Tropen7: Tropen7 {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen4_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen2_co.paa",
@@ -466,7 +466,7 @@ class CfgVehicles {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class Tropen8: Tropen8 {
-                author = "BW-Mod, Mick Mathews, Jonpas";
+                author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tropen4_co.paa),
                     "bwa3_eagle\data\bwa3_eagle_fahrwerk_tropen2_co.paa",
@@ -510,7 +510,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = CLASS(IND);
-        author = "BW-Mod, Mick Mathews, Jonpas";
+        author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_Black);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
@@ -564,7 +564,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = CLASS(IND);
-        author = "BW-Mod, Mick Mathews, Jonpas";
+        author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_FLW100_Black);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
@@ -609,7 +609,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = CLASS(IND);
-        author = "BW-Mod, Mick Mathews, Jonpas";
+        author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_Green);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Green.jpg);
         crew = QCLASS(Unit_I_Contractor);
@@ -663,7 +663,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = CLASS(IND);
-        author = "BW-Mod, Mick Mathews, Jonpas";
+        author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_FLW100_Green);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Green.jpg);
         crew = QCLASS(Unit_I_Contractor);
@@ -708,7 +708,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = CLASS(IND);
-        author = "BW-Mod, Mick Mathews, Jonpas";
+        author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_Tan);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Tan.jpg);
         crew = QCLASS(Unit_I_Contractor);
@@ -762,7 +762,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = CLASS(IND);
-        author = "BW-Mod, Mick Mathews, Jonpas";
+        author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_FLW100_Tan);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Tan.jpg);
         crew = QCLASS(Unit_I_Contractor);
