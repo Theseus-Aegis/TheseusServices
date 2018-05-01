@@ -29,7 +29,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_units", "bwa3_eagle"};
         author = ECSTRING(main,Author);
-        authors[] = {"BW-Mod", "Mick Mathews", "Jonpas"};
+        authors[] = {"BW-Mod", "GilleeDoo", "Jonpas"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

@@ -689,13 +689,13 @@ class CfgUnitInsignia {
     };
     class CLASS(Insignia_MinotaurForest) {
         MACRO_INSIGNIA_COMMON
-        author = "Mick Mathews";
+        author = "GilleeDoo";
         displayName = "Minotaur (Forest)";
         texture = QPATHTOF(data\minotaur_forest.paa);
     };
     class CLASS(Insignia_MinotaurDesert) {
         MACRO_INSIGNIA_COMMON
-        author = "Mick Mathews";
+        author = "GilleeDoo";
         displayName = "Minotaur (Desert)";
         texture = QPATHTOF(data\minotaur_desert.paa);
     };
