@@ -705,10 +705,10 @@ class CfgUnitInsignia {
         displayName = "Minotaur (Desert)";
         texture = QPATHTOF(data\minotaur_desert.paa);
     };
-	class CLASS(Insignia_Contractor) {
+	class CLASS(Insignia_ContractorBadass) {
         MACRO_INSIGNIA_COMMON
         author = "System98";
-        displayName = "Contractor";
-        texture = QPATHTOF(data\contractor.paa);
+        displayName = "Contractor Badass";
+        texture = QPATHTOF(data\contractorbadass.paa);
     };
 };
