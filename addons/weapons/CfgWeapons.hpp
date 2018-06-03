@@ -30,17 +30,14 @@ class CfgWeapons {
     };
 
     class hgun_P07_F;
-    class CLASS(Walther_P99): hgun_P07_F
-    {
+    class CLASS(Walther_P99): hgun_P07_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "JoramD";
         displayName = CSTRING(Walther_P99);
         picture = QPATHTOF(UI\walther_p99_ca.paa);
         hiddenSelections[] = {"camo"};
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\walther_p99_co.paa)
-        };
+        hiddenSelectionsTextures[] = {QPATHTOF(data\walther_p99_co.paa)};
         baseWeapon = QCLASS(Walther_P99);
     };
 
