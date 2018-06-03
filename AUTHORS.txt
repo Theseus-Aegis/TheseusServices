@@ -11,6 +11,7 @@ Jonpas <jonpas33@gmail.com>
 # CONTRIBUTORS
 SyMP2005 <rory@theseus-aegis.com>
 System98 <jedi_jones@outlook.de>
+JoramD <j.davids@hotmail.nl>
 
 # PG SERVICES CREDITS
 Pomigit

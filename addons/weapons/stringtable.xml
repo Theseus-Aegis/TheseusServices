@@ -16,5 +16,10 @@
             <German>MX 3GL 6,5 mm (schwarz tarn)</German>
             <Japanese>MX 3GL 6,5 mm (黒)</Japanese>
         </Key>
+        <Key ID="STR_TACS_Weapons_Walther_P99">
+            <English>Walther P99</English>
+            <German></German>
+            <Japanese></Japanese>
+        </Key>
     </Package>
 </Project>
