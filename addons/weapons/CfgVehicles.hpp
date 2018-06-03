@@ -37,6 +37,13 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Walther_P99),1);
         };
     };
+    class CLASS(Item_Walther_P99_Tan): CLASS(Item_Walther_P99) {
+        displayName = CSTRING(Walther_P99_Tan);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Walther_P99_Tan),1);
+        };
+    };
 
 
     // Box
@@ -56,6 +63,7 @@ class CfgVehicles {
             MACRO_ADDWEAPON(CLASS(MX_BlackCamo),10);
             MACRO_ADDWEAPON(CLASS(MX_GL_BlackCamo),10);
             MACRO_ADDWEAPON(CLASS(Walther_P99),10);
+            MACRO_ADDWEAPON(CLASS(Walther_P99_Tan),10);
         };
 
         class TransportMagazines {};
