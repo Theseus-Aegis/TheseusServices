@@ -525,8 +525,8 @@
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_LP_BB">
             <English>T-Shirt, Jeans (Green, Blue, Black) Logo</English>
-            <German>T-Shirt, Jeans (Grün, Weiß, Schwarz) Logo</German>
-            <Japanese>T シャツとジーンズ (緑、白、黒)</Japanese>
+            <German>T-Shirt, Jeans (Grün, Blau, Schwarz) Logo</German>
+            <Japanese>T シャツとジーンズ (緑、青、黒)</Japanese>
             <French>T-Shirt, jean (Vert, Bleu, Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_TP_BB">
