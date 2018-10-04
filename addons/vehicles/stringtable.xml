@@ -1,20 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Vehicles">
         <Key ID="STR_TACS_Vehicles_Heli_MH6_Blue">
             <English>MH-6 Little Bird (Blue)</English>
             <German>MH-6 Little Bird (blau)</German>
             <Japanese>MH-6 リトルバード (青)</Japanese>
+            <French>MH-6 Little Bird (Bleu)</French>
         </Key>
         <Key ID="STR_TACS_Vehicles_Offroad_Black">
             <English>Offroad (Black)</English>
             <German>Geländewagen (schwarz)</German>
             <Japanese>オフロード (黒)</Japanese>
+            <French>Tout-terrain (Noir)</French>
         </Key>
         <Key ID="STR_TACS_Vehicles_Offroad_Armed_Black">
             <English>Offroad Armed (Black)</English>
             <German>Geländewagen, bewaffnet (schwarz)</German>
             <Japanese>武装オフロード (黒)</Japanese>
+            <French>Tout-terrain armé (Noir)</French>
         </Key>
     </Package>
 </Project>
