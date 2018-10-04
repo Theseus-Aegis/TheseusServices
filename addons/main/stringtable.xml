@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Main">
         <Key ID="STR_TACS_Main_Name">
@@ -53,6 +53,7 @@
             <English>[TACS] Wearables</English>
             <German>[TACS] Tragbares</German>
             <Japanese>[TACS] ウェアラブル</Japanese>
+            <French>[TACS] Vêtements</French>
         </Key>
     </Package>
 </Project>
