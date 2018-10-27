@@ -3,19 +3,19 @@
     <Package name="Glasses">
         <Key ID="STR_TACS_Glasses_Goggles_Black">
             <English>Tactical Goggles (Black)</English>
-            <German>Taktische Brille (schwarz)</German>
+            <German>Taktische Brille (Schwarz)</German>
             <Japanese>タクティカル ゴーグル (黒)</Japanese>
             <French>Lunettes tactiques (Noir)</French>
         </Key>
         <Key ID="STR_TACS_Glasses_Goggles_Green">
             <English>Tactical Goggles (Green)</English>
-            <German>Taktische Brille (grün)</German>
+            <German>Taktische Brille (Grün)</German>
             <Japanese>タクティカル ゴーグル (緑)</Japanese>
             <French>Lunettes tactiques (Vert)</French>
         </Key>
         <Key ID="STR_TACS_Glasses_Goggles_Tan">
             <English>Tactical Goggles (Tan)</English>
-            <German>Taktische Brille (hellbraun)</German>
+            <German>Taktische Brille (Hellbraun)</German>
             <Japanese>タクティカル ゴーグル (黄褐)</Japanese>
             <French>Lunettes tactiques (Beige)</French>
         </Key>

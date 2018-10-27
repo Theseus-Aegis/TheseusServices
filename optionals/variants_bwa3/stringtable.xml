@@ -4,26 +4,32 @@
         <Key ID="STR_TACS_Variants_BWA3_Eagle_Black">
             <English>Eagle IV (Black)</English>
             <French>Eagle IV (Noir)</French>
+            <German>Eagle IV (Schwarz)</German>
         </Key>
         <Key ID="STR_TACS_Variants_BWA3_Eagle_FLW100_Black">
             <English>Eagle IV (FLW 100) (Black)</English>
             <French>Eagle IV (FLW 100) (Noir)</French>
+            <German>Eagle IV (FLW 100) (Schwarz)</German>
         </Key>
         <Key ID="STR_TACS_Variants_BWA3_Eagle_Green">
             <English>Eagle IV (Green)</English>
             <French>Eagle IV (Vert)</French>
+            <German>Eagle IV (Grün)</German>
         </Key>
         <Key ID="STR_TACS_Variants_BWA3_Eagle_FLW100_Green">
             <English>Eagle IV (FLW 100) (Green)</English>
             <French>Eagle IV (FLW 100) (Vert)</French>
+            <German>Eagle IV (FLW 100) (Grün)</German>
         </Key>
         <Key ID="STR_TACS_Variants_BWA3_Eagle_Tan">
             <English>Eagle IV (Tan)</English>
             <French>Eagle IV (Beige)</French>
+            <German>Eagle IV (Hellbraun)</German>
         </Key>
         <Key ID="STR_TACS_Variants_BWA3_Eagle_FLW100_Tan">
             <English>Eagle IV (FLW 100) (Tan)</English>
             <French>Eagle IV (FLW100) (Beige)</French>
+            <German>Eagle IV (FLW 100) (Hellbraun)</German>
         </Key>
     </Package>
 </Project>

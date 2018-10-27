@@ -9,23 +9,25 @@
         </Key>
         <Key ID="STR_TACS_Weapons_MX_BlackCamo">
             <English>MX 6.5 mm (Black Camo)</English>
-            <German>MX 6,5 mm (schwarz tarn)</German>
+            <German>MX 6,5 mm (Schwarz Tarnfleck)</German>
             <Japanese>MX 6.5 mm (黒)</Japanese>
             <French>MX 6.5 mm (Camo Noir)</French>
         </Key>
         <Key ID="STR_TACS_Weapons_MX_GL_BlackCamo">
             <English>MX 3GL 6.5 mm (Black Camo)</English>
-            <German>MX 3GL 6,5 mm (schwarz tarn)</German>
+            <German>MX 3GL 6,5 mm (Schwarz Tarnfleck)</German>
             <Japanese>MX 3GL 6,5 mm (黒)</Japanese>
             <French>MX 3GL 6.5 mm (Camo Noir)</French>
         </Key>
         <Key ID="STR_TACS_Weapons_Walther_P99">
             <English>Walther P99</English>
             <French>Walther P99</French>
+            <German>Walter P99</German>
         </Key>
         <Key ID="STR_TACS_Weapons_Walther_P99_Tan">
             <English>Walther P99 (Tan)</English>
             <French>Walther P99 (Beige)</French>
+            <German>Walter P99 (Hellbraun)</German>
         </Key>
     </Package>
 </Project>
