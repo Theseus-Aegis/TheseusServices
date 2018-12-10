@@ -135,14 +135,14 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Hat_Boonie_UCP),1);
         };
     };
-    class CLASS(Item_Hat_Beret): Headgear_Base_F {
+    class CLASS(Item_Hat_Beret_BlackLogo): Headgear_Base_F {
         MACRO_ITEM_COMMON
         author = "Kresky";
-        displayName = CSTRING(Hat_Beret);
+        displayName = CSTRING(Hat_Beret_BlackLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
         
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Hat_Beret),1);
+            MACRO_ADDITEM(CLASS(Item_Hat_Beret_BlackLogo),1);
         };
     };
 
@@ -164,7 +164,7 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Hat_Boonie_DesertMARPAT),10);
             MACRO_ADDITEM(CLASS(Hat_Boonie_Woodland),10);
             MACRO_ADDITEM(CLASS(Hat_Boonie_UCP),10);
-            MACRO_ADDITEM(CLASS(Hat_Beret),10);
+            MACRO_ADDITEM(CLASS(Item_Hat_Beret_BlackLogo),10);
         };
     };
 };

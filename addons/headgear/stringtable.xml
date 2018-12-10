@@ -79,11 +79,11 @@
             <Japanese>ブーニーハット (UCP)</Japanese>
             <French>Chapeau de brousse (UCP)</French>
         </Key>
-        <Key ID="STR_TACS_Headgear_Hat_Beret">
-            <English>Beret (TAC)</English>
-            <German>Barett (TAC)</German>
-            <Japanese>ベレー (TAC)</Japanese>
-            <French>Béret (TAC)</French>
+        <Key ID="STR_TACS_Headgear_Hat_Beret_BlackLogo">
+            <English>Beret (Black) Logo</English>
+            <German>Barett (Schwarz) Logo</German>
+            <Japanese>ベレー (黒) ロゴ</Japanese>
+            <French>Béret (Noir) Logo</French>
         </Key>
     </Package>
 </Project>

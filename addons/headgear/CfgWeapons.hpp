@@ -157,7 +157,7 @@ class CfgWeapons {
 
 
     class H_Beret_02;
-    class CLASS(Hat_Beret) : H_Beret_02 {
+    class CLASS(Hat_Beret_BlackLogo) : H_Beret_02 {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Kresky";
