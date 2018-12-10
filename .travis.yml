@@ -4,7 +4,7 @@ branches:
   - release
 language: python
 python:
-- '3.4'
+- '3.5'
 before_script:
 - if [ -n "${GH_TOKEN}" ] && [ "${TRAVIS_BRANCH}" == "master" ] && [ "${TRAVIS_PULL_REQUEST}" == "false" ]; then
     pip install pygithub;
@@ -17,7 +17,7 @@ script:
   fi
 env:
   global:
-  - secure: 4qbQCb5JPFsjb5vjB+IW6BBXEjJ4kT9GOG/wtLiFRKb8MoK0P4A6hrrRsTX3GQ1xf/Xbk/kkl1Mv0X0pMuGZyEYKwqk3E8lKHysACasQocjKdIPObspvrcaJYMMc/IhZnZt94A91ZUGwTM4LkgTR4QQECPKMMnmIhAqiMRB5mknn7vwc6PwKkReREMCB7oiFlulTYHoQEoKENMBIPVzh6EbfqwCUTP/5VBgkxGIc+5UKGmzdIAzibbyFNgik8HEQWZ8DwFDuTMCS7yqq3lRzIBjU5Q11nNQMivbjCo0kwyjIuBMj3WdNa+pXj7w+tict2R8rU3z1CueBO5mzuF/ehLELkY2HtG5cuZAj3mV+DikQU6GpYfbY6Ko/IsrWm/n0qd1r3RGgLMU7XJCLgia3874mmUdLZuEZmOg6TbAV9dscvbFl8ixBgfzLFZ4WAA++4PQ2R0ggA9NrT0/G5CWkZr2blYaTiRmKtFoyqF/DsiP5TtTBWSP+mttmCvSpoUkpR9GW3OtDxxswG2ppl7s5RRZq3lO6Qsz8h8fqM8YTSsPaE41bggL6laS2URJuINq+zoGB75i3frZ4D0nA8gRxt52pAsVHLyBnfLF4lzh8BrNn0ukDqv93fRtu7AL7WkGjye9l6aZzlDn6STmWMyWINXRcbASC+iTK8NjvfBb2FDM=
+  - secure: qyw9FCHv4yLx6op1rH4RTkLHj5z8Thsm2HQIlShYVdlvl7TEWrILZ+Zw9L+3FpwP6NYBTk1fmzoXijrPHw2hAvUqlP93LAWlpQ+BKsB1ZpGBl1L/VJQ3m0RD0/JFM8dyrXaW+9Cq+ozXvtzpYkKwX1A+xi6UjNpbeZDCxxdJl7XROrq88U4PK/+8wm55i1eJk+JUdQ/ZQ2TAuf0cY4dpyHZ4QpdWdZL+1DAOTgRFgxHYa3pCj8zA9Uubhn8tNNZAC/V00IpWoBarF8uWKZ9MIYJ0K/yOJ58CV0StAkmN/0hsgWidax+hjTfsk6/8xgW407VQW34oPxSEvF10iwentHqyYK+qc7bh6hO3r3gOLbbsd0YWPxD3QPHJQe64ymBeIMdsMXLVoUpp1RUPoAAhGBx6Rvvds2FQ2yQSNrIUW5UCXid0QSoOhLuwJmf84zmVWJukiq7W6SsKvko8GnLR+7Lzp1i60ElL5zVaLnO2ogMFGRnfTYWpfUyoAzwveuQBGhnUz5mS3sI9L+VyuL8m5PNOoQ1KB3KzVSJPlSGFEfVKea3nSMCh+cgmYbZu6iAUKWeLs+mZ0dYdRHiQsYylGm4s4D/MZ2l2Kp4seQhl4veZjUIA3NAlmbXk7TvygFcMA7+IuwZfi4Nuo9YdqqY6TGJERr7t2tqV1TFXVsmo06Y=
 notifications:
   email:
     on_success: never

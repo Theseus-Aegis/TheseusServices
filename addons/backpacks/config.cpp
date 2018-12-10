@@ -2,6 +2,7 @@
 
 class CfgPatches {
     class ADDON {
+        name = COMPONENT_NAME;
         units[] = {
             QCLASS(Backpack_AssaultExpanded_Black),
             QCLASS(Backpack_AssaultExpanded_Green),
@@ -12,8 +13,9 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_vests"};
-        author[]= {"Pomigit", "BadHabitz", "Jonpas", "Rory"};
-        authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
+        author = ECSTRING(main,Author);
+        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

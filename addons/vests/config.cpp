@@ -2,6 +2,7 @@
 
 class CfgPatches {
     class ADDON {
+        name = COMPONENT_NAME;
         units[] = {
             QCLASS(Item_Vest_PlateCarrierFull_Black),
             QCLASS(Item_Vest_PlateCarrierFull_Green),
@@ -24,8 +25,9 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
-        author[]= {"Jonpas", "Pomigit", "BadHabitz", "Rory"};
-        authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
+        author = ECSTRING(main,Author);
+        authors[] = {"Jonpas", "Pomigit", "BadHabitz", "Rory"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

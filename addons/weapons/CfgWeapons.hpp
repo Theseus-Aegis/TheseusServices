@@ -11,6 +11,7 @@ class CfgWeapons {
             QPATHTOF(data\mx_blackcamo_base_co.paa),
             QPATHTOF(data\mx_blackcamo_short_co.paa)
         };
+        baseWeapon = QCLASS(MX_BlackCamo);
     };
 
     class arifle_MX_GL_F;
@@ -25,8 +26,28 @@ class CfgWeapons {
             QPATHTOF(data\mx_blackcamo_base_co.paa),
             QPATHTOF(data\mx_blackcamo_gl_co.paa)
         };
+        baseWeapon = QCLASS(MX_GL_BlackCamo);
     };
 
+    class hgun_P07_F;
+    class CLASS(Walther_P99): hgun_P07_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "JoramD";
+        displayName = CSTRING(Walther_P99);
+        picture = QPATHTOF(UI\walther_p99_ca.paa);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\walther_p99_co.paa)};
+        baseWeapon = QCLASS(Walther_P99);
+    };
+
+    class CLASS(Walther_P99_Tan): CLASS(Walther_P99) {
+        displayName = CSTRING(Walther_P99_Tan);
+        picture = QPATHTOF(UI\walther_p99_tan_ca.paa);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\walther_p99_tan_co.paa)};
+        baseWeapon = QCLASS(Walther_P99_Tan);
+    };
 
     // Equipped
     class CLASS(MX_BlackCamo_MRCO): CLASS(MX_BlackCamo) {

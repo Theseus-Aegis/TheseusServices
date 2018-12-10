@@ -2,12 +2,14 @@
 
 class CfgPatches {
     class ADDON {
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
-        author[]= {"Jonpas", "BadHabitz", "System98"};
-        authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
+        author = ECSTRING(main,Author);
+        authors[] = {"Jonpas", "BadHabitz", "System98", "GilleeDoo"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

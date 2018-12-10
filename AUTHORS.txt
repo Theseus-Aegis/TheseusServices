@@ -7,12 +7,16 @@
 
 # CORE TEAM
 Jonpas <jonpas33@gmail.com>
-
-# CONTRIBUTORS
+JoramD <j.davids@hotmail.nl>
 SyMP2005 <rory@theseus-aegis.com>
 System98 <jedi_jones@outlook.de>
+GilleeDoo
 
 # PG SERVICES CREDITS
 Pomigit
 BadHabitz
 sykoCrazy
+
+# CONTRIBUTORS
+classicarma
+VastGameMaster

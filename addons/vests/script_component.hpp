@@ -1,4 +1,5 @@
 #define COMPONENT vests
+#define COMPONENT_BEAUTIFIED Vests
 #include "\x\tacs\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_VEST

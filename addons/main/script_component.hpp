@@ -1,4 +1,5 @@
 #define COMPONENT main
+#define COMPONENT_BEAUTIFIED Main
 #include "\x\tacs\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_MAIN

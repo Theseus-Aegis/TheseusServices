@@ -2,6 +2,7 @@
 
 class CfgPatches {
     class ADDON {
+        name = COMPONENT_NAME;
         units[] = {
             QCLASS(Heli_I_MH6_Blue),
             QCLASS(Heli_B_MH6_Blue),
@@ -13,8 +14,9 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_units"};
-        author[]= {"Pomigit", "BadHabitz", "Jonpas"};
-        authorUrl = "https://github.com/Theseus-Aegis/TheseusServices";
+        author = ECSTRING(main,Author);
+        authors[] = {"Pomigit", "BadHabitz", "Jonpas"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

@@ -135,25 +135,36 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Hat_Boonie_UCP),1)
         };
     };
+    class CLASS(Item_Hat_Beret_BlackLogo): Headgear_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Hat_Beret_BlackLogo);
+        model = "\A3\Weapons_F\DummyCap.p3d";
+        
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Item_Hat_Beret_BlackLogo),1);
+        };
+    };
 
 
     // Box
     class B_supplyCrate_F;
     class CLASS(Box_Wearables): B_supplyCrate_F {
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Cap_Headphones_BlackLogo),10)
-            MACRO_ADDITEM(CLASS(Cap_BlackLogo),10)
-            MACRO_ADDITEM(CLASS(Cap_TanLogo),10)
-            MACRO_ADDITEM(CLASS(Cap_Earpiece_BlackLogo),10)
-            MACRO_ADDITEM(CLASS(Cap_Earpiece_TanLogo),10)
-            MACRO_ADDITEM(CLASS(Cap_Backwards_BlackLogo),10)
-            MACRO_ADDITEM(CLASS(Cap_Backwards_TanLogo),10)
-            MACRO_ADDITEM(CLASS(Helmet_Ballistic_DarkBlack),10)
-            MACRO_ADDITEM(CLASS(Helmet_PilotHeli_Tan),10)
-            MACRO_ADDITEM(CLASS(Hat_Boonie_RangerGreen),10)
-            MACRO_ADDITEM(CLASS(Hat_Boonie_DesertMARPAT),10)
-            MACRO_ADDITEM(CLASS(Hat_Boonie_Woodland),10)
-            MACRO_ADDITEM(CLASS(Hat_Boonie_UCP),10)
+            MACRO_ADDITEM(CLASS(Cap_Headphones_BlackLogo),10);
+            MACRO_ADDITEM(CLASS(Cap_BlackLogo),10);
+            MACRO_ADDITEM(CLASS(Cap_TanLogo),10);
+            MACRO_ADDITEM(CLASS(Cap_Earpiece_BlackLogo),10);
+            MACRO_ADDITEM(CLASS(Cap_Earpiece_TanLogo),10);
+            MACRO_ADDITEM(CLASS(Cap_Backwards_BlackLogo),10);
+            MACRO_ADDITEM(CLASS(Cap_Backwards_TanLogo),10);
+            MACRO_ADDITEM(CLASS(Helmet_Ballistic_DarkBlack),10);
+            MACRO_ADDITEM(CLASS(Helmet_PilotHeli_Tan),10);
+            MACRO_ADDITEM(CLASS(Hat_Boonie_RangerGreen),10);
+            MACRO_ADDITEM(CLASS(Hat_Boonie_DesertMARPAT),10);
+            MACRO_ADDITEM(CLASS(Hat_Boonie_Woodland),10);
+            MACRO_ADDITEM(CLASS(Hat_Boonie_UCP),10);
+            MACRO_ADDITEM(CLASS(Item_Hat_Beret_BlackLogo),10);
         };
     };
 };

@@ -1,4 +1,5 @@
 #define COMPONENT headgear
+#define COMPONENT_BEAUTIFIED Headgear
 #include "\x\tacs\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_HEADGEAR

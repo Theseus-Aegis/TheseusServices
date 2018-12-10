@@ -4,6 +4,7 @@ class CLASS(Unit_I_Bodyguard): CLASS(Unit_Polo_CP_LS_TP_OB) {
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Bodyguard);
+    editorPreview = QPATHTOF(UI\Unit_Bodyguard.jpg);
     weapons[] = {"Throw", "Put", "SMG_02_ACO_F", "hgun_P07_F", "Binocular"};
     respawnWeapons[] = {"Throw", "Put", "SMG_02_ACO_F", "hgun_P07_F", "Binocular"};
     magazines[] = {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
@@ -29,6 +30,7 @@ class CLASS(Unit_I_Contractor): CLASS(Unit_Polo_TP_LS_TP_TB) {
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Contractor);
+    editorPreview = QPATHTOF(UI\Unit_Contractor.jpg);
     weapons[] = {"Throw", "Put", QCLASS(MX_BlackCamo), "hgun_P07_F", "Binocular"};
     respawnWeapons[] = {"Throw", "Put", QCLASS(MX_BlackCamo), "hgun_P07_F", "Binocular"};
     magazines[] = {ITEMS_8(30Rnd_65x39_caseless_mag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
@@ -57,6 +59,7 @@ class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_RS_BS_GP_BB) {
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Contractor_GL);
+    editorPreview = QPATHTOF(UI\Unit_Contractor_GL.jpg);
     weapons[] = {"Throw", "Put", QCLASS(MX_GL_BlackCamo), "hgun_P07_F", "Binocular"};
     respawnWeapons[] = {"Throw", "Put", QCLASS(MX_BlackCamo), "hgun_P07_F", "Binocular"};
     magazines[] = {ITEMS_5(30Rnd_65x39_caseless_mag), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", ITEMS_3(1Rnd_HE_Grenade_shell), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_2(HandGrenade)};
@@ -85,6 +88,7 @@ class CLASS(Unit_I_Engineer): CLASS(Unit_Polo_TP_LS_TP_TB) {
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Engineer);
+    editorPreview = QPATHTOF(UI\Unit_Engineer.jpg);
     weapons[] = {"Throw", "Put", QCLASS(MX_BlackCamo_MRCO), "hgun_P07_F", "Binocular"};
     respawnWeapons[] = {"Throw", "Put", QCLASS(MX_BlackCamo_MRCO), "hgun_P07_F", "Binocular"};
     magazines[] = {ITEMS_12(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
@@ -122,6 +126,7 @@ class CLASS(Unit_I_Medic): CLASS(Unit_Combat_RS_BS_GP_BB) {
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Medic);
+    editorPreview = QPATHTOF(UI\Unit_Medic.jpg);
     weapons[] = {"Throw", "Put", "SMG_02_ACO_F", "hgun_P07_F", "Binocular"};
     respawnWeapons[] = {"Throw", "Put", "SMG_02_ACO_F", "hgun_P07_F", "Binocular"};
     magazines[] = {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", ITEMS_2(HandGrenade)};
@@ -148,6 +153,7 @@ class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_BS_GP_BB) {
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Specialist);
+    editorPreview = QPATHTOF(UI\Unit_Specialist.jpg);
     weapons[] = {"Throw", "Put", "LMG_Mk200_MRCO_F", "hgun_Rook40_F", "Binocular"};
     respawnWeapons[] = {"Throw", "Put", "LMG_Mk200_MRCO_F", "hgun_Rook40_F", "Binocular"};
     magazines[] = {"200Rnd_65x39_cased_Box_Tracer", ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
@@ -181,6 +187,7 @@ class CLASS(Unit_I_TeamLeader): CLASS(Unit_TShirt_JP_GS_LP_BB) {
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_TeamLeader);
+    editorPreview = QPATHTOF(UI\Unit_TeamLeader.jpg);
     weapons[] = {"Throw", "Put", QCLASS(MX_BlackCamo_MRCO), "hgun_Rook40_F", "Binocular"};
     respawnWeapons[] = {"Throw", "Put", QCLASS(MX_BlackCamo_MRCO), "hgun_Rook40_F", "Binocular"};
     magazines[] = {ITEMS_11(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
@@ -214,6 +221,7 @@ class CLASS(Unit_I_Marksman): CLASS(Unit_TShirt_JP_GS_LP_BB) {
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Marksman);
+    editorPreview = QPATHTOF(UI\Unit_Marksman.jpg);
     weapons[] = {"Throw", "Put", "srifle_EBR_SOS_F", "hgun_Rook40_F", "Binocular"};
     respawnWeapons[] = {"Throw", "Put", "srifle_EBR_SOS_F", "hgun_Rook40_F", "Binocular"};
     magazines[] = {ITEMS_6(20Rnd_762x51_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
@@ -248,6 +256,7 @@ class CLASS(Unit_I_PilotHeli): CLASS(Unit_Combat_RS_BS_GP_BB) {
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_PilotHeli);
+    editorPreview = QPATHTOF(UI\Unit_PilotHeli.jpg);
     weapons[] = {"Throw", "Put", "hgun_Rook40_F", "Binocular"};
     respawnWeapons[] = {"Throw", "Put", "hgun_Rook40_F", "Binocular"};
     magazines[] = {ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
@@ -283,6 +292,7 @@ class CLASS(Unit_I_VIP): Civilian_F {
     faction = QCLASS(IND);
     author = "Pomigit, Jonpas";
     displayname = CSTRING(Unit_VIP);
+    editorPreview = QPATHTOF(UI\Unit_VIP.jpg);
     model = QPATHTOF(data\CLASS(vip).p3d);
     modelSides[] = {6};
     genericNames = QUOTE(PREFIX);

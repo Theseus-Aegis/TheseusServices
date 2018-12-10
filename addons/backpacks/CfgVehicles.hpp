@@ -63,15 +63,15 @@ class CfgVehicles {
         scope = 1;
 
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(APERSBoundingMine_Range_Mag,3)
-            MACRO_ADDMAGAZINE(ClaymoreDirectionalMine_Remote_Mag,2)
-            MACRO_ADDMAGAZINE(SLAMDirectionalMine_Wire_Mag,2)
-            MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,1)
+            MACRO_ADDMAGAZINE(APERSBoundingMine_Range_Mag,3);
+            MACRO_ADDMAGAZINE(ClaymoreDirectionalMine_Remote_Mag,2);
+            MACRO_ADDMAGAZINE(SLAMDirectionalMine_Wire_Mag,2);
+            MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,1);
         };
 
         class TransportItems {
-            MACRO_ADDITEM(ToolKit,1)
-            MACRO_ADDITEM(MineDetector,1)
+            MACRO_ADDITEM(ToolKit,1);
+            MACRO_ADDITEM(MineDetector,1);
         };
     };
 
@@ -79,8 +79,8 @@ class CfgVehicles {
         scope = 1;
 
         class TransportItems {
-            MACRO_ADDITEM(Medikit,1)
-            MACRO_ADDITEM(FirstAidKit,10)
+            MACRO_ADDITEM(Medikit,1);
+            MACRO_ADDITEM(FirstAidKit,10);
         };
     };
 
@@ -88,7 +88,7 @@ class CfgVehicles {
         scope = 1;
 
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(200Rnd_65x39_cased_Box_Tracer,3)
+            MACRO_ADDMAGAZINE(200Rnd_65x39_cased_Box_Tracer,3);
         };
     };
 
@@ -97,11 +97,11 @@ class CfgVehicles {
     class B_supplyCrate_F;
     class CLASS(Box_Wearables): B_supplyCrate_F {
         class TransportBackpacks {
-            MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Black),10)
-            MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Green),10)
-            MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Tan),10)
-            MACRO_ADDBACKPACK(CLASS(Backpack_Carryall_DarkBlack),10)
-            MACRO_ADDBACKPACK(CLASS(Backpack_Kitbag_DarkBlack),10)
+            MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Black),10);
+            MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Green),10);
+            MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Tan),10);
+            MACRO_ADDBACKPACK(CLASS(Backpack_Carryall_DarkBlack),10);
+            MACRO_ADDBACKPACK(CLASS(Backpack_Kitbag_DarkBlack),10);
         };
     };
 };
