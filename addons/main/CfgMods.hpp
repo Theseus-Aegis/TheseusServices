@@ -1,7 +1,7 @@
 class CfgMods {
     class Mod_Base;
     class PREFIX: Mod_Base {
-        author = CSTRING(Common,Author);
+        author = QUOTE(CSTRING(Common,Author));
         dir = "@theseus_services";
         name = CSTRING(Name);
         picture = QPATHTOF(UI\logo_tacs_ca.paa);

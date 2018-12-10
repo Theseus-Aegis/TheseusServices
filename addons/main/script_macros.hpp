@@ -42,22 +42,22 @@
     class _xx_##WEAPON { \
         weapon = QUOTE(WEAPON); \
         count = COUNT; \
-    };
+    }
 
 #define MACRO_ADDITEM(ITEM,COUNT) \
     class _xx_##ITEM { \
         name = QUOTE(ITEM); \
         count = COUNT; \
-    };
+    }
 
 #define MACRO_ADDMAGAZINE(MAGAZINE,COUNT) \
     class _xx_##MAGAZINE { \
         magazine = QUOTE(MAGAZINE); \
         count = COUNT; \
-    };
+    }
 
 #define MACRO_ADDBACKPACK(BACKPACK,COUNT) \
     class _xx_##BACKPACK { \
         backpack = QUOTE(BACKPACK); \
         count = COUNT; \
-    };
+    }

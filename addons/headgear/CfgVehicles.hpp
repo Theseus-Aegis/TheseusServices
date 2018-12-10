@@ -14,7 +14,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Cap_Headphones_BlackLogo),1)
+            MACRO_ADDITEM(CLASS(Cap_Headphones_BlackLogo),1);
         };
     };
     class CLASS(Item_Cap_BlackLogo): Headgear_Base_F {
@@ -24,7 +24,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Cap_BlackLogo),1)
+            MACRO_ADDITEM(CLASS(Cap_BlackLogo),1);
         };
     };
     class CLASS(Item_Cap_TanLogo): Headgear_Base_F {
@@ -34,7 +34,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Cap_TanLogo),1)
+            MACRO_ADDITEM(CLASS(Cap_TanLogo),1);
         };
     };
     class CLASS(Item_Cap_Earpiece_BlackLogo): Headgear_Base_F {
@@ -44,7 +44,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Cap_Earpiece_BlackLogo),1)
+            MACRO_ADDITEM(CLASS(Cap_Earpiece_BlackLogo),1);
         };
     };
     class CLASS(Item_Cap_Earpiece_TanLogo): Headgear_Base_F {
@@ -54,7 +54,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Cap_Earpiece_TanLogo),1)
+            MACRO_ADDITEM(CLASS(Cap_Earpiece_TanLogo),1);
         };
     };
     class CLASS(Item_Cap_Backwards_BlackLogo): Headgear_Base_F {
@@ -64,7 +64,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Cap_Backwards_BlackLogo),1)
+            MACRO_ADDITEM(CLASS(Cap_Backwards_BlackLogo),1);
         };
     };
     class CLASS(Item_Cap_Backwards_TanLogo): Headgear_Base_F {
@@ -74,7 +74,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Cap_Backwards_TanLogo),1)
+            MACRO_ADDITEM(CLASS(Cap_Backwards_TanLogo),1);
         };
     };
     class CLASS(Item_Helmet_Ballistic_DarkBlack): Headgear_Base_F {
@@ -92,7 +92,7 @@ class CfgVehicles {
         displayName = CSTRING(Helmet_PilotHeli_Tan);
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Helmet_PilotHeli_Tan),1)
+            MACRO_ADDITEM(CLASS(Helmet_PilotHeli_Tan),1);
         };
     };
     class CLASS(Item_Hat_Boonie_RangerGreen): Headgear_Base_F {
@@ -102,7 +102,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Hat_Boonie_RangerGreen),1)
+            MACRO_ADDITEM(CLASS(Hat_Boonie_RangerGreen),1);
         };
     };
     class CLASS(Item_Hat_Boonie_DesertMARPAT): Headgear_Base_F {
@@ -112,7 +112,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Hat_Boonie_DesertMARPAT),1)
+            MACRO_ADDITEM(CLASS(Hat_Boonie_DesertMARPAT),1);
         };
     };
     class CLASS(Item_Hat_Boonie_Woodland): Headgear_Base_F {
@@ -122,7 +122,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Hat_Boonie_Woodland),1)
+            MACRO_ADDITEM(CLASS(Hat_Boonie_Woodland),1);
         };
     };
     class CLASS(Item_Hat_Boonie_UCP): Headgear_Base_F {
@@ -132,7 +132,7 @@ class CfgVehicles {
         model = "\A3\Weapons_F\DummyCap.p3d";
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Hat_Boonie_UCP),1)
+            MACRO_ADDITEM(CLASS(Hat_Boonie_UCP),1);
         };
     };
     class CLASS(Item_Hat_Beret_BlackLogo): Headgear_Base_F {
@@ -140,7 +140,7 @@ class CfgVehicles {
         author = "Kresky";
         displayName = CSTRING(Hat_Beret_BlackLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
-        
+
         class TransportItems {
             MACRO_ADDITEM(CLASS(Item_Hat_Beret_BlackLogo),1);
         };
