@@ -137,7 +137,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Hat_Beret): Headgear_Base_F {
         MACRO_ITEM_COMMON
-        author = "Jonpas";
+        author = "Kresky";
         displayName = CSTRING(Hat_Beret);
         model = "\A3\Weapons_F\DummyCap.p3d";
         
