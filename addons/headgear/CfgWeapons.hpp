@@ -162,7 +162,7 @@ class CfgWeapons {
         scope = 2;
         author = "Kresky";
         displayName = CSTRING(Hat_Beret);
-        picture = QPATHTOF(UI\hat_beret_ca.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\hat_beret_co.paa)};
+        picture = QPATHTOF(UI\hat_beret_blacklogo_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\hat_beret_blacklogo_co.paa)};
     };
 };
