@@ -154,4 +154,15 @@ class CfgWeapons {
         picture = QPATHTOF(UI\hat_boonie_ucp_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\hat_boonie_ucp_co.paa)};
     };
+
+
+    class H_Beret_02;
+    class CLASS(Hat_Beret_BlackLogo) : H_Beret_02 {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Kresky";
+        displayName = CSTRING(Hat_Beret);
+        picture = QPATHTOF(UI\hat_beret_blacklogo_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\hat_beret_blacklogo_co.paa)};
+    };
 };
