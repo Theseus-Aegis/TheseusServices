@@ -79,5 +79,11 @@
             <Japanese>ブーニーハット (UCP)</Japanese>
             <French>Chapeau de brousse (UCP)</French>
         </Key>
+        <Key ID="STR_TACS_Headgear_Hat_Beret">
+            <English>Beret (TAC)</English>
+            <German>Barett (TAC)</German>
+            <Japanese>ベレー (TAC)</Japanese>
+            <French>Béret (TAC)</French>
+        </Key>
     </Package>
 </Project>

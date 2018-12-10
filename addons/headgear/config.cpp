@@ -17,6 +17,7 @@ class CfgPatches {
             QCLASS(Item_Hat_Boonie_DesertMARPAT),
             QCLASS(Item_Hat_Boonie_Woodland),
             QCLASS(Item_Hat_Boonie_UCP)
+            QCLASS(Item_Hat_Beret)
         };
         weapons[] = {
             QCLASS(Cap_Headphones_BlackLogo),
@@ -32,6 +33,7 @@ class CfgPatches {
             QCLASS(Hat_Boonie_DesertMARPAT),
             QCLASS(Hat_Boonie_Woodland),
             QCLASS(Hat_Boonie_UCP)
+            QCLASS(Hat_Beret)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
