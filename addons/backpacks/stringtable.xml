@@ -3,31 +3,31 @@
     <Package name="Backpacks">
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Black">
             <English>Assault Pack Expanded (Black) Logo</English>
-            <German>Assault Pack, erweitert (schwarz) Logo</German>
+            <German>Assault Pack, erweitert (Schwarz) Logo</German>
             <Japanese>拡張型アサルト パック (黒) ロゴ</Japanese>
             <French>Paquetage d'assaut étendu (Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Green">
             <English>Assault Pack Expanded (Green) Logo</English>
-            <German>Assault Pack, erweitert (grün) Logo</German>
+            <German>Assault Pack, erweitert (Grün) Logo</German>
             <Japanese>拡張型アサルト パック (緑) ロゴ</Japanese>
             <French>Paquetage d'assaut étendu (Vert) logo</French>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Tan">
             <English>Assault Pack Expanded (Tan) Logo</English>
-            <German>Assault Pack, erweitert (hellbraun) Logo</German>
+            <German>Assault Pack, erweitert (Hellbraun) Logo</German>
             <Japanese>拡張型アサルト パック (黄渇) ロゴ</Japanese>
             <French>Paquetage d'assaut étendu (Beige) logo</French>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Carryall_DarkBlack">
             <English>Carryall Backpack (Dark Black)</English>
-            <German>Carryall Rucksack (dunkelschwarz)</German>
+            <German>Carryall Rucksack (Dunkelschwarz)</German>
             <Japanese>キャリオール バックパック (暗黒)</Japanese>
             <French>Sac à dos multifonction (Noir Foncé)</French>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_DarkBlack">
             <English>Kitbag (Dark Black)</English>
-            <German>Kitbag (dunkelschwarz)</German>
+            <German>Kitbag (Dunkelschwarz)</German>
             <Japanese>雑のう (暗黒)</Japanese>
             <French>Sac modulable (Noir Foncé)</French>
         </Key>
