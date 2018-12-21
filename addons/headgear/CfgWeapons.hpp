@@ -161,7 +161,7 @@ class CfgWeapons {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Kresky";
-        displayName = CSTRING(Hat_Beret);
+        displayName = CSTRING(Hat_Beret_BlackLogo);
         picture = QPATHTOF(UI\hat_beret_blacklogo_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\hat_beret_blacklogo_co.paa)};
     };
