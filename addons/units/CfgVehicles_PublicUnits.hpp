@@ -101,7 +101,7 @@ class CLASS(Unit_I_Engineer): CLASS(Unit_Polo_TP_LS_TP_TB) {
     detectSkill = 80;
     canDeactivateMines = 1;
     icon = "iconManEngineer";
-	picture = "pictureRepair";
+    picture = "pictureRepair";
 
     headgearList[] = {
         QCLASS(Cap_Backwards_BlackLogo), 1,
