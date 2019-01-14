@@ -8,6 +8,15 @@
     model = "\A3\Weapons_F\DummySuitpack.p3d";
 
 class Item_Base_F;
+class CLASS(Item_Uniform_Combat_LS_BS_BP_BB): Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "Jonpas, Kresky";
+    displayName = CSTRING(Uniform_Combat_LS_BS_BP_BB);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BS_BP_BB),1);
+    };
+};
 class CLASS(Item_Uniform_Combat_LS_BS_GP_BB): Item_Base_F {
     MACRO_ITEM_COMMON
     author = "Jonpas";
@@ -150,6 +159,24 @@ class CLASS(Item_Uniform_Combat_LS_CPS_BP_BB): Item_Base_F {
 
     class TransportItems {
         MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CPS_BP_BB),1);
+    };
+};
+class CLASS(Item_Uniform_Combat_LS_WS_WP_WB): Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "Jonpas, Kresky";
+    displayName = CSTRING(Uniform_Combat_LS_WS_WP_WB);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_LS_WS_WP_WB),1);
+    };
+};
+class CLASS(Item_Uniform_Combat_RS_BS_BP_BB): Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "Jonpas, Kresky";
+    displayName = CSTRING(Uniform_Combat_RS_BS_BP_BB);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BS_BP_BB),1);
     };
 };
 class CLASS(Item_Uniform_Combat_RS_BS_GP_BB): Item_Base_F {

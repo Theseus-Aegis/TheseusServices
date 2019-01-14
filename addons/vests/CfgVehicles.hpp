@@ -70,6 +70,15 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Vest_PlateCarrier_MARPAT),1);
         };
     };
+    class CLASS(Item_Vest_PlateCarrier_White): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Jonpas, Kresky";
+        displayName = CSTRING(Vest_PlateCarrier_White);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_PlateCarrier_White),1);
+        };
+    };
     class CLASS(Item_Vest_Tactical_DarkBlack): Vest_Base_F {
         MACRO_ITEM_COMMON
         author = "Jonpas";
@@ -92,6 +101,7 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Vest_PlateCarrier_Coyote),10);
             MACRO_ADDITEM(CLASS(Vest_PlateCarrier_Khaki),10);
             MACRO_ADDITEM(CLASS(Vest_PlateCarrier_MARPAT),10);
+            MACRO_ADDITEM(CLASS(Vest_PlateCarrier_White),10);
             MACRO_ADDITEM(CLASS(Vest_Tactical_DarkBlack),10);
         };
     };

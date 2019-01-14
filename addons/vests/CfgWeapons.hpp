@@ -123,6 +123,13 @@ class CfgWeapons {
         picture = QPATHTOF(UI\vest_platecarrier_marpat_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co.paa)};
     };
+    class CLASS(Vest_PlateCarrier_White): V_PlateCarrier1_rgr {
+        MACRO_PLATECARRIER_COMMON
+        author = "Pomigit, Jonpas, Rory, Kresky";
+        displayName = CSTRING(Vest_PlateCarrier_White);
+        picture = QPATHTOF(UI\vest_platecarrier_white_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_white_co.paa)};
+    };
 
 
     class Vest_Camo_Base;
