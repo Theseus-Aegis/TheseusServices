@@ -116,7 +116,6 @@ class CfgWeapons {
         };
     };
     
-    
     class H_HelmetSpecB;
     class CLASS(Helmet_Enc_Ballistic_DarkBlack): H_HelmetSpecB {
         dlc = QUOTE(PREFIX);

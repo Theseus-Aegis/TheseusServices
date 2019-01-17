@@ -125,7 +125,7 @@ class CfgWeapons {
     };
     class CLASS(Vest_PlateCarrier_White): V_PlateCarrier1_rgr {
         MACRO_PLATECARRIER_COMMON
-        author = "Pomigit, Jonpas, Rory, Kresky";
+        author = "Pomigit, Rory, Kresky";
         displayName = CSTRING(Vest_PlateCarrier_White);
         picture = QPATHTOF(UI\vest_platecarrier_white_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_white_co.paa)};
