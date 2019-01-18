@@ -72,7 +72,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Vest_PlateCarrier_White): Vest_Base_F {
         MACRO_ITEM_COMMON
-        author = "Jonpas, Kresky";
+        author = "Kresky";
         displayName = CSTRING(Vest_PlateCarrier_White);
 
         class TransportItems {

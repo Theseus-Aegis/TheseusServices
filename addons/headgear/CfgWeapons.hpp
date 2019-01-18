@@ -106,7 +106,7 @@ class CfgWeapons {
     class CLASS(Helmet_Ballistic_White): H_HelmetB {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Pomigit, Jonpas, Kresky";
+        author = "Pomigit, Kresky";
         displayName = CSTRING(Helmet_Ballistic_White);
         picture = QPATHTOF(UI\helmet_ballistic_white_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_ballistic_white_co.paa)};

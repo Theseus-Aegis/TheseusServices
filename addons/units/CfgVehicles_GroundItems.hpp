@@ -10,7 +10,7 @@
 class Item_Base_F;
 class CLASS(Item_Uniform_Combat_LS_BS_BP_BB): Item_Base_F {
     MACRO_ITEM_COMMON
-    author = "Jonpas, Kresky";
+    author = "Kresky";
     displayName = CSTRING(Uniform_Combat_LS_BS_BP_BB);
 
     class TransportItems {

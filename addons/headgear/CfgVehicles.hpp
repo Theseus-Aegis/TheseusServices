@@ -88,7 +88,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Helmet_Ballistic_White): Headgear_Base_F {
         MACRO_ITEM_COMMON
-        author = "Jonpas, Kresky";
+        author = "Kresky";
         displayName = CSTRING(Helmet_Ballistic_White);
 
         class TransportItems {

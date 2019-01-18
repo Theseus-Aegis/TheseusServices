@@ -39,7 +39,7 @@ class CfgVehicles {
     class CLASS(Backpack_AssaultExpanded_White): B_AssaultPack_Kerry {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "BadHabitz, Jonpas, Rory, Kresky";
+        author = "BadHabitz, Rory, Kresky";
         displayname = CSTRING(Backpack_AssaultExpanded_White);
         picture = QPATHTOF(UI\backpack_assaultexpanded_white_ca.paa);
         hiddenSelectionsTextures[] = {
