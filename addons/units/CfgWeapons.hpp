@@ -52,6 +52,16 @@ class CfgWeapons {
     // Naming pattern: TypeSleevesOrPants_ColorShirt_ColorPants_ColorBoots
 
     // Combat - Long SLeeves
+    class CLASS(Uniform_Combat_LS_BS_BP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Pomigit, Kresky";
+        displayName = CSTRING(Uniform_Combat_LS_BS_BP_BB);
+        picture = QPATHTOF(UI\uniform_combat_ls_bs_bp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_LS_BS_BP_BB);
+        };
+    };
     class CLASS(Uniform_Combat_LS_BS_GP_BB): CLASS(Uniform_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
@@ -94,7 +104,7 @@ class CfgWeapons {
     };
     class CLASS(Uniform_Combat_LS_GS_GP_BB): CLASS(Uniform_Base) {
         scope = 2;
-        author = "Kresky, Jonpas";
+        author = "Kresky";
         displayName = CSTRING(Uniform_Combat_LS_GS_GP_BB);
         picture = QPATHTOF(UI\uniform_combat_ls_gs_gp_ca.paa);
 
@@ -164,12 +174,22 @@ class CfgWeapons {
     };
     class CLASS(Uniform_Combat_LS_TS_TP_TB): CLASS(Uniform_Base) {
         scope = 2;
-        author = "Kresky, Jonpas";
+        author = "Kresky";
         displayName = CSTRING(Uniform_Combat_LS_TS_TP_TB);
         picture = QPATHTOF(UI\uniform_combat_ls_ts_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_TS_TP_TB);
+        };
+    };
+    class CLASS(Uniform_Combat_LS_WS_WP_WB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Kresky";
+        displayName = CSTRING(Uniform_Combat_LS_WS_WP_WB);
+        picture = QPATHTOF(UI\uniform_combat_ls_ws_wp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_LS_WS_WP_WB);
         };
     };
     // Plaid
@@ -215,6 +235,16 @@ class CfgWeapons {
     };
 
     // Combat - Rolled Sleeves
+    class CLASS(Uniform_Combat_RS_BS_BP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Pomigit, Kresky";
+        displayName = CSTRING(Uniform_Combat_RS_BS_BP_BB);
+        picture = QPATHTOF(UI\uniform_combat_rs_bs_bp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_RS_BS_BP_BB);
+        };
+    };
     class CLASS(Uniform_Combat_RS_BS_GP_BB): CLASS(Uniform_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
@@ -257,7 +287,7 @@ class CfgWeapons {
     };
     class CLASS(Uniform_Combat_RS_GS_GP_BB): CLASS(Uniform_Base) {
         scope = 2;
-        author = "Kresky, Jonpas";
+        author = "Kresky";
         displayName = CSTRING(Uniform_Combat_RS_GS_GP_BB);
         picture = QPATHTOF(UI\uniform_combat_rs_gs_gp_ca.paa);
 
@@ -327,7 +357,7 @@ class CfgWeapons {
     };
     class CLASS(Uniform_Combat_RS_TS_TP_TB): CLASS(Uniform_Base) {
         scope = 2;
-        author = "Kresky, Jonpas";
+        author = "Kresky";
         displayName = CSTRING(Uniform_Combat_RS_TS_TP_TB);
         picture = QPATHTOF(UI\uniform_combat_rs_ts_tp_ca.paa);
 

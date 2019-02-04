@@ -43,6 +43,12 @@
             <Japanese>プレート キャリア (MARPAT)</Japanese>
             <French>Gilet léger (MARPAT)</French>
         </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_White">
+            <English>Plate Carrier (White)</English>
+            <German>Plattenträger (Weiß)</German>
+            <Japanese>プレート キャリア (白)</Japanese>
+            <French>Gilet léger (Blanc)</French>
+        </Key>
         <Key ID="STR_TACS_Vests_Vest_Tactical_DarkBlack">
             <English>Tactical Vest (Dark Black)</English>
             <German>Plattenträger (Dunkelschwarz)</German>

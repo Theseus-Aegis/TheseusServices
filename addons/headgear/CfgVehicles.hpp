@@ -86,6 +86,33 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Helmet_Ballistic_DarkBlack),1);
         };
     };
+    class CLASS(Item_Helmet_Ballistic_White): Headgear_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Helmet_Ballistic_White);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Ballistic_White),1);
+        };
+    };
+    class CLASS(Item_Helmet_Enc_Ballistic_DarkBlack): Headgear_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Helmet_Enc_Ballistic_DarkBlack);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Enc_Ballistic_DarkBlack),1);
+        };
+    };
+    class CLASS(Item_Helmet_Enc_Ballistic_White): Headgear_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Helmet_Enc_Ballistic_White);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Enc_Ballistic_White),1);
+        };
+    };
     class CLASS(Item_Helmet_PilotHeli_Tan): Headgear_Base_F {
         MACRO_ITEM_COMMON
         author = "Jonpas";
@@ -159,6 +186,9 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Cap_Backwards_BlackLogo),10);
             MACRO_ADDITEM(CLASS(Cap_Backwards_TanLogo),10);
             MACRO_ADDITEM(CLASS(Helmet_Ballistic_DarkBlack),10);
+            MACRO_ADDITEM(CLASS(Helmet_Ballistic_White),10);
+            MACRO_ADDITEM(CLASS(Helmet_Enc_Ballistic_DarkBlack),10);
+            MACRO_ADDITEM(CLASS(Helmet_Enc_Ballistic_White),10);
             MACRO_ADDITEM(CLASS(Helmet_PilotHeli_Tan),10);
             MACRO_ADDITEM(CLASS(Hat_Boonie_RangerGreen),10);
             MACRO_ADDITEM(CLASS(Hat_Boonie_DesertMARPAT),10);

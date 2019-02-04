@@ -5,6 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             // Ground items
+            QCLASS(Item_Uniform_Combat_LS_BS_BP_BB),
             QCLASS(Item_Uniform_Combat_LS_BS_GP_BB),
             QCLASS(Item_Uniform_Combat_LS_BS_GP_TB),
             QCLASS(Item_Uniform_Combat_LS_BS_TP_BB),
@@ -21,6 +22,8 @@ class CfgPatches {
             QCLASS(Item_Uniform_Combat_LS_CLBS_GP_BB),
             QCLASS(Item_Uniform_Combat_LS_CLRS_TP_BB),
             QCLASS(Item_Uniform_Combat_LS_CPS_BP_BB),
+            QCLASS(Item_Uniform_Combat_LS_WS_WP_WB),
+            QCLASS(Item_Uniform_Combat_RS_BS_BP_BB),
             QCLASS(Item_Uniform_Combat_RS_BS_GP_BB),
             QCLASS(Item_Uniform_Combat_RS_BS_GP_TB),
             QCLASS(Item_Uniform_Combat_RS_BS_TP_BB),
@@ -123,6 +126,7 @@ class CfgPatches {
             QCLASS(Unit_B_VIP)
         };
         weapons[] = {
+            QCLASS(Uniform_Combat_LS_BS_BP_BB),
             QCLASS(Uniform_Combat_LS_BS_GP_BB),
             QCLASS(Uniform_Combat_LS_BS_GP_TB),
             QCLASS(Uniform_Combat_LS_BS_TP_BB),
@@ -139,6 +143,8 @@ class CfgPatches {
             QCLASS(Uniform_Combat_LS_CLBS_GP_BB),
             QCLASS(Uniform_Combat_LS_CLRS_TP_BB),
             QCLASS(Uniform_Combat_LS_CPS_BP_BB),
+            QCLASS(Uniform_Combat_LS_WS_WP_WB),
+            QCLASS(Uniform_Combat_RS_BS_BP_BB),
             QCLASS(Uniform_Combat_RS_BS_GP_BB),
             QCLASS(Uniform_Combat_RS_BS_GP_TB),
             QCLASS(Uniform_Combat_RS_BS_TP_BB),

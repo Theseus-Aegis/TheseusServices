@@ -19,6 +19,12 @@
             <Japanese>拡張型アサルト パック (黄渇) ロゴ</Japanese>
             <French>Paquetage d'assaut étendu (Beige) logo</French>
         </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_White">
+            <English>Assault Pack Expanded (White) Logo</English>
+            <German>Assault Pack, erweitert (Weiß) Logo</German>
+            <Japanese>拡張型アサルト パック (白) ロゴ</Japanese>
+            <French>Paquetage d'assaut étendu (Blanc) logo</French>
+        </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Carryall_DarkBlack">
             <English>Carryall Backpack (Dark Black)</English>
             <German>Carryall Rucksack (Dunkelschwarz)</German>

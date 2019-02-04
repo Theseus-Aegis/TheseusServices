@@ -12,6 +12,9 @@ class CfgPatches {
             QCLASS(Item_Cap_Backwards_BlackLogo),
             QCLASS(Item_Cap_Backwards_TanLogo),
             QCLASS(Item_Helmet_Ballistic_DarkBlack),
+            QCLASS(Item_Helmet_Ballistic_White),
+            QCLASS(Item_Helmet_Enc_Ballistic_DarkBlack),
+            QCLASS(Item_Helmet_Enc_Ballistic_White),
             QCLASS(Item_Helmet_PilotHeli_Tan),
             QCLASS(Item_Hat_Boonie_RangerGreen),
             QCLASS(Item_Hat_Boonie_DesertMARPAT),
@@ -28,6 +31,9 @@ class CfgPatches {
             QCLASS(Cap_Backwards_BlackLogo),
             QCLASS(Cap_Backwards_TanLogo),
             QCLASS(Helmet_Ballistic_DarkBlack),
+            QCLASS(Helmet_Ballistic_White),
+            QCLASS(Helmet_Enc_Ballistic_DarkBlack),
+            QCLASS(Helmet_Enc_Ballistic_White),
             QCLASS(Helmet_PilotHeli_Tan),
             QCLASS(Hat_Boonie_RangerGreen),
             QCLASS(Hat_Boonie_DesertMARPAT),
@@ -38,7 +44,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
         author = ECSTRING(main,Author);
-        authors[] = {"Pomigit", "Jonpas", "Rory"};
+        authors[] = {"Pomigit", "Jonpas", "Rory", "Kresky"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

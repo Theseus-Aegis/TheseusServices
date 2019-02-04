@@ -36,6 +36,18 @@ class CfgVehicles {
         };
         maximumLoad = 180;
     };
+    class CLASS(Backpack_AssaultExpanded_White): B_AssaultPack_Kerry {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Rory, Kresky";
+        displayname = CSTRING(Backpack_AssaultExpanded_White);
+        picture = QPATHTOF(UI\backpack_assaultexpanded_white_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_assaultexpanded_white_main_co.paa),
+            QPATHTOEF(vests,data\vest_platecarrier_white_co.paa) // Expanded part - vest texture
+        };
+        maximumLoad = 180;
+    };
 
     class B_Carryall_Base;
     class CLASS(Backpack_Carryall_DarkBlack): B_Carryall_Base {
@@ -100,6 +112,7 @@ class CfgVehicles {
             MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Black),10);
             MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Green),10);
             MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_Tan),10);
+            MACRO_ADDBACKPACK(CLASS(Backpack_AssaultExpanded_White),10);
             MACRO_ADDBACKPACK(CLASS(Backpack_Carryall_DarkBlack),10);
             MACRO_ADDBACKPACK(CLASS(Backpack_Kitbag_DarkBlack),10);
         };

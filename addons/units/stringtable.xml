@@ -7,6 +7,12 @@
             <Japanese>[TACS] 被服</Japanese>
             <French>[TACS] Uniformes</French>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_BP_BB">
+            <English>Combat Uniform Long (Black, Black, Black)</English>
+            <German>Kampfuniform, lang (Schwarz, Schwarz, Schwarz)</German>
+            <Japanese>戦闘服 長袖 (黒、黒、黒)</Japanese>
+            <French>Uniforme de combat long (Noir, Noir, Noir)</French>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_GP_BB">
             <English>Combat Uniform Long (Black, Green, Black)</English>
             <German>Kampfuniform, lang (Schwarz, Grün, Schwarz)</German>
@@ -102,6 +108,18 @@
             <German>Kampfuniform, lang (Lila-Kariert, Schwarz, Schwarz)</German>
             <Japanese>戦闘服 長袖 (チェック紫、黒、黒)</Japanese>
             <French>Uniforme de combat long (Plaid violet, Noir, Noir)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_WS_WP_WB">
+            <English>Combat Uniform Long (White, White, White)</English>
+            <German>Kampfuniform, lang (Weiß, Weiß, Weiß)</German>
+            <Japanese>戦闘服 長袖 (白、白、白)</Japanese>
+            <French>Uniforme de combat long (Blanc, Blanc, Blanc)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_BP_BB">
+            <English>Combat Uniform Rolled (Black, Black, Black)</English>
+            <German>Kampfuniform, kurz (Schwarz, Schwarz, Schwarz)</German>
+            <Japanese>戦闘服 袖まくり (黒、黒、黒)</Japanese>
+            <French>Uniforme de combat retroussé (Noir, Noir, Noir)</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_GP_BB">
             <English>Combat Uniform Rolled (Black, Green, Black)</English>
