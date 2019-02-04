@@ -236,6 +236,7 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Hunting Crew";
         texture = QPATHTOF(data\huntingcrew.paa);
+    };
     class CLASS(Insignia_ImALeadFarmer_ACU) {
         MACRO_INSIGNIA_COMMON
         author = "System98";
@@ -705,7 +706,6 @@ class CfgUnitInsignia {
         texture = QPATHTOF(data\minotaur_desert.paa);
     };
     class CLASS(Insignia_ContractorBadass) {
-    };
         MACRO_INSIGNIA_COMMON
         author = "System98";
         displayName = "Contractor Badass";
