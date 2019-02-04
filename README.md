@@ -3,7 +3,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/Theseus-Aegis/TheseusServices/releases">
-        <img src="https://img.shields.io/badge/Version-1.6.0-blue.svg" alt="Theseus Services Version">
+        <img src="https://img.shields.io/badge/Version-1.7.0-blue.svg" alt="Theseus Services Version">
     </a>
     <a href="https://github.com/Theseus-Aegis/TheseusServices/issues">
         <img src="https://img.shields.io/github/issues-raw/Theseus-Aegis/TheseusServices.svg?label=Issues" alt="Theseus Services Issues">
@@ -21,3 +21,8 @@
 The project is entirely **open-source** and all contributions are welcome. Feel free to maintain your own custom version, so long as the changes you make are open to the public in accordance with the GNU General Public License ([GPLv2](https://github.com/Theseus-Aegis/TheseusServices/blob/master/LICENSE)).
 
 Reference the [wiki](https://github.com/Theseus-Aegis/TheseusServices/wiki) to learn about ways of contributing, getting sources and general information about the mod.
+
+![Showcase Heli](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_heli.jpg)
+![Showcase Team](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_team.jpg)
+![Showcase VIP](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_vip.jpg)
+![Showcase Winter](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_winter.jpg)
