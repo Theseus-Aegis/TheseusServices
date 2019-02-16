@@ -69,7 +69,29 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\a3\weapons_f\ammoboxes\bags\data\backpack_fast_blk_co.paa"};
     };
 
-    class CLASS(Backpack_Kitbag_Medic_blk): B_Kitbag_Base {
+    class CLASS(Backpack_Kitbag_White): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_White);
+        picture = ""; // TODO
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_white_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Medic_White): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_Medic_White);
+        picture = ""; // TODO
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_medic_white_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Medic_Black): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
@@ -80,7 +102,7 @@ class CfgVehicles {
         };
     };
 
-    class CLASS(Backpack_Kitbag_Medic_cbr): B_Kitbag_Base { // TEXTURE MISSING
+    class CLASS(Backpack_Kitbag_Medic_Coyote): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
@@ -91,7 +113,7 @@ class CfgVehicles {
         };
     };
 
-    class CLASS(Backpack_Kitbag_Medic_digi): B_Kitbag_Base {
+    class CLASS(Backpack_Kitbag_Medic_Digi): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
@@ -102,7 +124,7 @@ class CfgVehicles {
         };
     };
 
-    class CLASS(Backpack_Kitbag_Medic_mcamo): B_Kitbag_Base {
+    class CLASS(Backpack_Kitbag_Medic_MTP): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
@@ -113,7 +135,7 @@ class CfgVehicles {
         };
     };
 
-    class CLASS(Backpack_Kitbag_Medic_rgr): B_Kitbag_Base {
+    class CLASS(Backpack_Kitbag_Medic_Green): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
@@ -124,7 +146,7 @@ class CfgVehicles {
         };
     };
 
-    class CLASS(Backpack_Kitbag_Medic_sgg): B_Kitbag_Base {
+    class CLASS(Backpack_Kitbag_Medic_Sage): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
@@ -135,7 +157,7 @@ class CfgVehicles {
         };
     };
 
-    class CLASS(Backpack_Kitbag_Medic_tan): B_Kitbag_Base {
+    class CLASS(Backpack_Kitbag_Medic_Tan): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
