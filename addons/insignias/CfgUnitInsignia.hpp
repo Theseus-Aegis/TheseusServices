@@ -733,7 +733,7 @@ class CfgUnitInsignia {
         MACRO_INSIGNIA_COMMON
         author = "Gilleedoo, JoramD";
         displayName = "Simple Medic (Sage)";
-        texture = QPATHTOF(data\medicSimple_ssg.paa);
+        texture = QPATHTOF(data\medicSimple_sgg.paa);
     };
     class CLASS(Insignia_MedicSimple_Tan) {
         MACRO_INSIGNIA_COMMON
