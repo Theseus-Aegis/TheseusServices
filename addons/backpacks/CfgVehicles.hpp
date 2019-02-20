@@ -96,9 +96,9 @@ class CfgVehicles {
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
         displayName = CSTRING(Backpack_Kitbag_Medic_Black);
-        picture = QPATHTOF(UI\backpack_kitbag_medic_blk_ca.paa);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_black_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_kitbag_medic_blk_co.paa)
+            QPATHTOF(data\backpack_kitbag_medic_black_co.paa)
         };
     };
 
@@ -107,9 +107,9 @@ class CfgVehicles {
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
         displayName = CSTRING(Backpack_Kitbag_Medic_Coyote);
-        picture = QPATHTOF(UI\backpack_kitbag_medic_cbr_ca.paa);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_coyote_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_kitbag_medic_cbr_co.paa)
+            QPATHTOF(data\backpack_kitbag_medic_coyote_co.paa)
         };
     };
 
@@ -129,9 +129,9 @@ class CfgVehicles {
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
         displayName = CSTRING(Backpack_Kitbag_Medic_MTP);
-        picture = QPATHTOF(UI\backpack_kitbag_medic_mcamo_ca.paa);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_mtp_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_kitbag_medic_mcamo_co.paa)
+            QPATHTOF(data\backpack_kitbag_medic_mtp_co.paa)
         };
     };
 
@@ -140,9 +140,9 @@ class CfgVehicles {
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
         displayName = CSTRING(Backpack_Kitbag_Medic_Green);
-        picture = QPATHTOF(UI\backpack_kitbag_medic_rgr_ca.paa);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_green_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_kitbag_medic_rgr_co.paa)
+            QPATHTOF(data\backpack_kitbag_medic_green_co.paa)
         };
     };
 
@@ -151,9 +151,9 @@ class CfgVehicles {
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
         displayName = CSTRING(Backpack_Kitbag_Medic_Sage);
-        picture = QPATHTOF(UI\backpack_kitbag_medic_sgg_ca.paa);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_sage_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_kitbag_medic_sgg_co.paa)
+            QPATHTOF(data\backpack_kitbag_medic_sage_co.paa)
         };
     };
 

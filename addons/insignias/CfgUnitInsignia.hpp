@@ -711,40 +711,40 @@ class CfgUnitInsignia {
         displayName = "Contractor Badass";
         texture = QPATHTOF(data\contractorbadass.paa);
     };
-    class CLASS(Insignia_MedicSimple_Black) {
+    class CLASS(Insignia_Medic_Simple_Black) {
         MACRO_INSIGNIA_COMMON
-        author = "Gilleedoo, JoramD";
+        author = "GilleeDoo, JoramD";
         displayName = "Simple Medic (Black)";
-        texture = QPATHTOF(data\medicSimple_blk.paa);
+        texture = QPATHTOF(data\medicsimple_black.paa);
     };
-    class CLASS(Insignia_MedicSimple_MTP) {
+    class CLASS(Insignia_Medic_Simple_MTP) {
         MACRO_INSIGNIA_COMMON
-        author = "Gilleedoo, JoramD";
+        author = "GilleeDoo, JoramD";
         displayName = "Simple Medic (MTP)";
-        texture = QPATHTOF(data\medicSimple_mcamo.paa);
+        texture = QPATHTOF(data\medicsimple_mtp.paa);
     };
-    class CLASS(Insignia_MedicSimple_Green) {
+    class CLASS(Insignia_Medic_Simple_Green) {
         MACRO_INSIGNIA_COMMON
-        author = "Gilleedoo, JoramD";
+        author = "GilleeDoo, JoramD";
         displayName = "Simple Medic (Green)";
-        texture = QPATHTOF(data\medicSimple_rgr.paa);
+        texture = QPATHTOF(data\medicsimple_green.paa);
     };
-    class CLASS(Insignia_MedicSimple_Sage) {
+    class CLASS(Insignia_Medic_Simple_Sage) {
         MACRO_INSIGNIA_COMMON
-        author = "Gilleedoo, JoramD";
+        author = "GilleeDoo, JoramD";
         displayName = "Simple Medic (Sage)";
-        texture = QPATHTOF(data\medicSimple_sgg.paa);
+        texture = QPATHTOF(data\medicsimple_sage.paa);
     };
-    class CLASS(Insignia_MedicSimple_Tan) {
+    class CLASS(Insignia_Medic_Simple_Tan) {
         MACRO_INSIGNIA_COMMON
-        author = "Gilleedoo, JoramD";
+        author = "GilleeDoo, JoramD";
         displayName = "Simple Medic (Tan)";
-        texture = QPATHTOF(data\medicSimple_tan.paa);
+        texture = QPATHTOF(data\medicsimple_tan.paa);
     };
-    class CLASS(Insignia_MedicSimple_White) {
+    class CLASS(Insignia_Medic_Simple_White) {
         MACRO_INSIGNIA_COMMON
-        author = "Gilleedoo, JoramD";
+        author = "GilleeDoo, JoramD";
         displayName = "Simple Medic (White)";
-        texture = QPATHTOF(data\medicSimple_white.paa);
+        texture = QPATHTOF(data\medicsimple_white.paa);
     };
 };
