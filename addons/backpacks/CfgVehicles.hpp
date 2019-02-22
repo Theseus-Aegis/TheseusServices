@@ -113,14 +113,14 @@ class CfgVehicles {
         };
     };
 
-    class CLASS(Backpack_Kitbag_Medic_Digi): B_Kitbag_Base {
+    class CLASS(Backpack_Kitbag_Medic_Digital): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
         displayName = CSTRING(Backpack_Kitbag_Medic_Digi);
-        picture = QPATHTOF(UI\backpack_kitbag_medic_digi_ca.paa);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_digital_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_kitbag_medic_digi_co.paa)
+            QPATHTOF(data\backpack_kitbag_medic_digital_co.paa)
         };
     };
 
