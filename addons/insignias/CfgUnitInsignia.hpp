@@ -711,4 +711,40 @@ class CfgUnitInsignia {
         displayName = "Contractor Badass";
         texture = QPATHTOF(data\contractorbadass.paa);
     };
+    class CLASS(Insignia_MedicSimple_Black) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (Black)";
+        texture = QPATHTOF(data\medicsimple_black.paa);
+    };
+    class CLASS(Insignia_MedicSimple_MTP) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (MTP)";
+        texture = QPATHTOF(data\medicsimple_mtp.paa);
+    };
+    class CLASS(Insignia_MedicSimple_Green) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (Green)";
+        texture = QPATHTOF(data\medicsimple_green.paa);
+    };
+    class CLASS(Insignia_MedicSimple_Sage) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (Sage)";
+        texture = QPATHTOF(data\medicsimple_sage.paa);
+    };
+    class CLASS(Insignia_MedicSimple_Tan) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (Tan)";
+        texture = QPATHTOF(data\medicsimple_tan.paa);
+    };
+    class CLASS(Insignia_MedicSimple_White) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (White)";
+        texture = QPATHTOF(data\medicsimple_white.paa);
+    };
 };

@@ -69,6 +69,104 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\a3\weapons_f\ammoboxes\bags\data\backpack_fast_blk_co.paa"};
     };
 
+    class CLASS(Backpack_Kitbag_White): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_White);
+        picture = QPATHTOF(UI\backpack_kitbag_white_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_white_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Medic_White): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_Medic_White);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_white_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_medic_white_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Medic_Black): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_Medic_Black);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_black_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_medic_black_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Medic_Coyote): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_Medic_Coyote);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_coyote_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_medic_coyote_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Medic_Digital): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_Medic_Digital);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_digital_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_medic_digital_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Medic_MTP): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_Medic_MTP);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_mtp_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_medic_mtp_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Medic_Green): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_Medic_Green);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_green_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_medic_green_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Medic_Sage): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_Medic_Sage);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_sage_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_medic_sage_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Medic_Tan): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, JoramD";
+        displayName = CSTRING(Backpack_Kitbag_Medic_Tan);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_tan_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_medic_tan_co.paa)
+        };
+    };
 
     // Filled
     class CLASS(Backpack_AssaultExpanded_Green_ExplosivesTechnician_Filled): CLASS(Backpack_AssaultExpanded_Green) {

@@ -37,5 +37,32 @@
             <Japanese>雑のう (暗黒)</Japanese>
             <French>Sac modulable (Noir Foncé)</French>
         </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_White">
+            <English>Kitbag (White)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_White">
+            <English>Kitbag Medic (White)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Black">
+            <English>Kitbag Medic (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Coyote">
+            <English>Kitbag Medic (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Digital">
+            <English>Kitbag Medic (Digital)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_MTP">
+            <English>Kitbag Medic (MTP)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Green">
+            <English>Kitbag Medic (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Sage">
+            <English>Kitbag Medic (Sage)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Tan">
+            <English>Kitbag Medic (Tan)</English>
+        </Key>
     </Package>
 </Project>
