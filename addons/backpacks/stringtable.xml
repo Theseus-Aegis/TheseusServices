@@ -49,8 +49,8 @@
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Coyote">
             <English>Kitbag Medic (Coyote)</English>
         </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Digi">
-            <English>Kitbag Medic (Digi)</English>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Digital">
+            <English>Kitbag Medic (Digital)</English>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_MTP">
             <English>Kitbag Medic (MTP)</English>

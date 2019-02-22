@@ -117,7 +117,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo, JoramD";
-        displayName = CSTRING(Backpack_Kitbag_Medic_Digi);
+        displayName = CSTRING(Backpack_Kitbag_Medic_Digital);
         picture = QPATHTOF(UI\backpack_kitbag_medic_digital_ca.paa);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\backpack_kitbag_medic_digital_co.paa)
