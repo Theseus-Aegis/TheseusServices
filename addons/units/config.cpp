@@ -5,6 +5,11 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             // Ground items
+            QCLASS(Item_Uniform_Combat_LS_BPS_BP_BB_CO),
+            QCLASS(Item_Uniform_Combat_LS_DES_TP_TB_CO),
+            QCLASS(Item_Uniform_Combat_LS_DFS_GP_TB_CO),
+            QCLASS(Item_Uniform_Combat_LS_LES_TP_BB_CO),
+            QCLASS(Item_Uniform_Combat_LS_LFS_GP_BB_CO),
             QCLASS(Item_Uniform_Combat_LS_BS_BP_BB),
             QCLASS(Item_Uniform_Combat_LS_BS_GP_BB),
             QCLASS(Item_Uniform_Combat_LS_BS_GP_TB),
@@ -23,6 +28,11 @@ class CfgPatches {
             QCLASS(Item_Uniform_Combat_LS_CLRS_TP_BB),
             QCLASS(Item_Uniform_Combat_LS_CPS_BP_BB),
             QCLASS(Item_Uniform_Combat_LS_WS_WP_WB),
+            QCLASS(Item_Uniform_Combat_RS_BPS_BP_BB_CO),
+            QCLASS(Item_Uniform_Combat_RS_DES_TP_TB_CO),
+            QCLASS(Item_Uniform_Combat_RS_DFS_GP_TB_CO),
+            QCLASS(Item_Uniform_Combat_RS_LES_TP_BB_CO),
+            QCLASS(Item_Uniform_Combat_RS_LFS_GP_BB_CO),
             QCLASS(Item_Uniform_Combat_RS_BS_BP_BB),
             QCLASS(Item_Uniform_Combat_RS_BS_GP_BB),
             QCLASS(Item_Uniform_Combat_RS_BS_GP_TB),
