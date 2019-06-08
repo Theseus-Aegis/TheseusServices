@@ -7,6 +7,26 @@
             <Japanese>[TACS] 被服</Japanese>
             <French>[TACS] Uniformes</French>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_BPS_BP_BB_CO">
+            <English>Combat Uniform Long (Buffalo Plaid)</English>
+            <French>Uniforme de combat long (Chemise à carreaux)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_DES_TP_TB_CO">
+            <English>Combat Uniform Long (Dark Earth)</English>
+            <French>Uniforme de combat long (Terre sombre)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_DFS_GP_TB_CO">
+            <English>Combat Uniform Long (Dark Foliage)</English>
+            <French>Uniforme de combat long (Feuillage sombre)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_LES_TP_BB_CO">
+            <English>Combat Uniform Long (Light Earth)</English>
+            <French>Uniforme de combat long (Terre claire)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_LFS_GP_BB_CO">
+            <English>Combat Uniform Long (Light Foliage)</English>
+            <French>Uniforme de combat long (Feuillage clair)</French>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_BP_BB">
             <English>Combat Uniform Long (Black, Black, Black)</English>
             <German>Kampfuniform, lang (Schwarz, Schwarz, Schwarz)</German>
@@ -114,6 +134,26 @@
             <German>Kampfuniform, lang (Weiß, Weiß, Weiß)</German>
             <Japanese>戦闘服 長袖 (白、白、白)</Japanese>
             <French>Uniforme de combat long (Blanc, Blanc, Blanc)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_BPS_BP_BB_CO">
+            <English>Combat Uniform Rolled (Buffalo Plaid)</English>
+            <French>Uniforme de combat retroussé (Chemise à carreaux)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_DES_TP_TB_CO">
+            <English>Combat Uniform Rolled (Dark Earth)</English>
+            <French>Uniforme de combat retroussé (Terre sombre)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_DFS_GP_TB_CO">
+            <English>Combat Uniform Rolled (Dark Foliage)</English>
+            <French>Uniforme de combat retroussé (Feuillage sombre)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_LES_TP_BB_CO">
+            <English>Combat Uniform Rolled (Light Earth)</English>
+            <French>Uniforme de combat retroussé (Terre claire)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_LFS_GP_BB_CO">
+            <English>Combat Uniform Rolled (Light Foliage)</English>
+            <French>Uniforme de combat retroussé (Feuillage clair)</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_BP_BB">
             <English>Combat Uniform Rolled (Black, Black, Black)</English>

@@ -1,10 +1,17 @@
 #include "script_component.hpp"
 
-class CfgPatches {
-    class ADDON {
+class CfgPatches
+{
+    class ADDON
+    {
         name = COMPONENT_NAME;
         units[] = {
             // Ground items
+            QCLASS(Item_Uniform_Combat_LS_BPS_BP_BB_CO),
+            QCLASS(Item_Uniform_Combat_LS_DES_TP_TB_CO),
+            QCLASS(Item_Uniform_Combat_LS_DFS_GP_TB_CO),
+            QCLASS(Item_Uniform_Combat_LS_LES_TP_BB_CO),
+            QCLASS(Item_Uniform_Combat_LS_LFS_GP_BB_CO),
             QCLASS(Item_Uniform_Combat_LS_BS_BP_BB),
             QCLASS(Item_Uniform_Combat_LS_BS_GP_BB),
             QCLASS(Item_Uniform_Combat_LS_BS_GP_TB),
@@ -23,6 +30,11 @@ class CfgPatches {
             QCLASS(Item_Uniform_Combat_LS_CLRS_TP_BB),
             QCLASS(Item_Uniform_Combat_LS_CPS_BP_BB),
             QCLASS(Item_Uniform_Combat_LS_WS_WP_WB),
+            QCLASS(Item_Uniform_Combat_RS_BPS_BP_BB_CO),
+            QCLASS(Item_Uniform_Combat_RS_DES_TP_TB_CO),
+            QCLASS(Item_Uniform_Combat_RS_DFS_GP_TB_CO),
+            QCLASS(Item_Uniform_Combat_RS_LES_TP_BB_CO),
+            QCLASS(Item_Uniform_Combat_RS_LFS_GP_BB_CO),
             QCLASS(Item_Uniform_Combat_RS_BS_BP_BB),
             QCLASS(Item_Uniform_Combat_RS_BS_GP_BB),
             QCLASS(Item_Uniform_Combat_RS_BS_GP_TB),
@@ -123,9 +135,13 @@ class CfgPatches {
             QCLASS(Unit_I_PilotHeli),
             QCLASS(Unit_B_PilotHeli),
             QCLASS(Unit_I_VIP),
-            QCLASS(Unit_B_VIP)
-        };
+            QCLASS(Unit_B_VIP)};
         weapons[] = {
+            QCLASS(Uniform_Combat_LS_BPS_BP_BB_CO),
+            QCLASS(Uniform_Combat_LS_DES_TP_TB_CO),
+            QCLASS(Uniform_Combat_LS_DFS_GP_TB_CO),
+            QCLASS(Uniform_Combat_LS_LES_TP_BB_CO),
+            QCLASS(Uniform_Combat_LS_LFS_GP_BB_CO),
             QCLASS(Uniform_Combat_LS_BS_BP_BB),
             QCLASS(Uniform_Combat_LS_BS_GP_BB),
             QCLASS(Uniform_Combat_LS_BS_GP_TB),
@@ -144,6 +160,11 @@ class CfgPatches {
             QCLASS(Uniform_Combat_LS_CLRS_TP_BB),
             QCLASS(Uniform_Combat_LS_CPS_BP_BB),
             QCLASS(Uniform_Combat_LS_WS_WP_WB),
+            QCLASS(Uniform_Combat_RS_BPS_BP_BB_CO),
+            QCLASS(Uniform_Combat_RS_DES_TP_TB_CO),
+            QCLASS(Uniform_Combat_RS_DFS_GP_TB_CO),
+            QCLASS(Uniform_Combat_RS_LES_TP_BB_CO),
+            QCLASS(Uniform_Combat_RS_LFS_GP_BB_CO),
             QCLASS(Uniform_Combat_RS_BS_BP_BB),
             QCLASS(Uniform_Combat_RS_BS_GP_BB),
             QCLASS(Uniform_Combat_RS_BS_GP_TB),
@@ -221,13 +242,12 @@ class CfgPatches {
             QCLASS(Uniform_TShirt_JP_BS_TP_BB),
             QCLASS(Uniform_TShirt_JP_LS_LP_BB),
             QCLASS(Uniform_TShirt_JP_WS_LP_BB),
-            QCLASS(Suit_VIP)
-        };
+            QCLASS(Suit_VIP)};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_backpacks", "tacs_headgear", "tacs_vests", "tacs_weapons"};
-        author = ECSTRING(main,Author);
+        author = ECSTRING(main, Author);
         authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky"};
-        url = ECSTRING(main,URL);
+        url = ECSTRING(main, URL);
         VERSION_CONFIG;
     };
 };
