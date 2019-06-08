@@ -8,6 +8,51 @@
     model = "\A3\Weapons_F\DummySuitpack.p3d";
 
 class Item_Base_F;
+class CLASS(Item_Uniform_Combat_LS_BPS_BP_BB_CO) : Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "GilleeDoo, Tyrone";
+    displayName = CSTRING(Uniform_Combat_LS_BPS_BP_BB_CO);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BPS_BP_BB_CO), 1);
+    };
+};
+class CLASS(Item_Uniform_Combat_LS_DES_TP_TB_CO) : Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "GilleeDoo, Tyrone";
+    displayName = CSTRING(Uniform_Combat_LS_DES_TP_TB_CO);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_LS_DES_TP_TB_CO), 1);
+    };
+};
+class CLASS(Item_Uniform_Combat_LS_DFS_GP_TB_CO) : Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "GilleeDoo, Tyrone";
+    displayName = CSTRING(Uniform_Combat_LS_DFS_GP_TB_CO);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_LS_DFS_GP_TB_CO), 1);
+    };
+};
+class CLASS(Item_Uniform_Combat_LS_LES_TP_BB_CO) : Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "GilleeDoo, Tyrone";
+    displayName = CSTRING(Uniform_Combat_LS_LES_TP_BB_CO);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_LS_LES_TP_BB_CO), 1);
+    };
+};
+class CLASS(Item_Uniform_Combat_LS_LFS_GP_BB_CO) : Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "GilleeDoo, Tyrone";
+    displayName = CSTRING(Uniform_Combat_LS_LFS_GP_BB_CO);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_LS_LFS_GP_BB_CO), 1);
+    };
+};
 class CLASS(Item_Uniform_Combat_LS_BS_BP_BB): Item_Base_F {
     MACRO_ITEM_COMMON
     author = "Kresky";
@@ -168,6 +213,51 @@ class CLASS(Item_Uniform_Combat_LS_WS_WP_WB): Item_Base_F {
 
     class TransportItems {
         MACRO_ADDITEM(CLASS(Uniform_Combat_LS_WS_WP_WB),1);
+    };
+};
+class CLASS(Item_Uniform_Combat_RS_BPS_BP_BB_CO) : Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "GilleeDoo, Tyrone";
+    displayName = CSTRING(Uniform_Combat_RS_BPS_BP_BB_CO);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BPS_BP_BB_CO), 1);
+    };
+};
+class CLASS(Item_Uniform_Combat_RS_DES_TP_TB_CO) : Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "GilleeDoo, Tyrone";
+    displayName = CSTRING(Uniform_Combat_RS_DES_TP_TB_CO);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_RS_DES_TP_TB_CO), 1);
+    };
+};
+class CLASS(Item_Uniform_Combat_RS_DFS_GP_TB_CO) : Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "GilleeDoo, Tyrone";
+    displayName = CSTRING(Uniform_Combat_RS_DFS_GP_TB_CO);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_RS_DFS_GP_TB_CO), 1);
+    };
+};
+class CLASS(Item_Uniform_Combat_RS_LES_TP_BB_CO) : Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "GilleeDoo, Tyrone";
+    displayName = CSTRING(Uniform_Combat_RS_LES_TP_BB_CO);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_RS_LES_TP_BB_CO), 1);
+    };
+};
+class CLASS(Item_Uniform_Combat_RS_LFS_GP_BB_CO) : Item_Base_F {
+    MACRO_ITEM_COMMON
+    author = "GilleeDoo, Tyrone";
+    displayName = CSTRING(Uniform_Combat_RS_LFS_GP_BB_CO);
+
+    class TransportItems {
+        MACRO_ADDITEM(CLASS(Uniform_Combat_RS_LFS_GP_BB_CO), 1);
     };
 };
 class CLASS(Item_Uniform_Combat_RS_BS_BP_BB): Item_Base_F {
