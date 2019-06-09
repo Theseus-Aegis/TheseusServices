@@ -192,7 +192,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_LS_WS_WP_WB);
         };
     };
-	
+
     // Plaid
     class CLASS(Uniform_Combat_LS_BPS_BP_BB_CO): CLASS(Uniform_Base) { // BPS = Buffalo Plaid Shirt
         scope = 2;
@@ -413,10 +413,10 @@ class CfgWeapons {
         picture = QPATHTOF(UI\uniform_combat_rs_ts_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_RS_TS_TP_TB);
+            uniformClass = QCLASS(Unit_Combat_RS_TS_TP_TB);
         };
     };
-	
+
     // Plaid
     class CLASS(Uniform_Combat_RS_BPS_BP_BB_CO): CLASS(Uniform_Base) { // BPS = Buffalo Plaid Shirt
         scope = 2;
