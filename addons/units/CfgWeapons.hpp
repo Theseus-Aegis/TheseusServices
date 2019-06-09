@@ -194,56 +194,56 @@ class CfgWeapons {
     };
 	
     // Plaid
-	class CLASS(Uniform_Combat_LS_BPS_BP_BB_CO): CLASS(Uniform_Base) { // BPS = Buffalo Plaid Shirt
-		scope = 2;
-		author = "GilleeDoo, Tyrone";
-		displayName = CSTRING(Uniform_Combat_LS_BPS_BP_BB_CO);
-		picture = QPATHOF(UI\uniform_combat_ls_bps_bp_bb_co.paa);
-		
-		class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_LS_BPS_BP_BB_CO);
-		};
-	};
-	class CLASS(Uniform_Combat_LS_DES_TP_TB_CO): CLASS(Uniform_Base) { // DES = Dark Earth Plaid
-		scope = 2;
-		author = "GilleeDoo, Tyrone";
-		displayName = CSTRING(Uniform_Combat_LS_DES_TP_TB_CO);
-		picture = QPATHOF(UI\uniform_combat_ls_des_tp_tb_co.paa);
-		
-		class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_LS_DES_TP_TB_CO);
-		};
-	};
-	class CLASS(Uniform_Combat_LS_DFS_GP_TB_CO): CLASS(Uniform_Base) { // DFS = Dark Foliage Plaid
-		scope = 2;
-		author = "GilleeDoo, Tyrone";
-		displayName = CSTRING(Uniform_Combat_LS_DFS_GP_TB_CO);
-		picture = QPATHOF(UI\uniform_combat_ls_dfs_gp_tb_co.paa);
-		
-		class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_LS_DFS_GP_TB_CO);
-		};
-	};
-	class CLASS(Uniform_Combat_LS_LES_TP_BB_CO): CLASS(Uniform_Base) { // LES = Light Earth Plaid
-		scope = 2;
-		author = "GilleeDoo, Tyrone";
-		displayName = CSTRING(Uniform_Combat_LS_LES_TP_BB_CO);
-		picture = QPATHOF(UI\uniform_combat_ls_les_tp_bb_co.paa);
-		
-		class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_LS_LES_TP_BB_CO);
-		};
-	};
-	class CLASS (Uniform_Combat_LS_LFS_GP_BB_CO): CLASS(Uniform_Base) { // LFS = Light Foliage Plaid
-		scope = 2;
-		author = "GilleeDoo, Tyrone";
-		displayName = CSTRING(Uniform_Combat_LS_LFS_GP_BB_CO);
-		picture = QPATHOF(UI\uniform_combat_ls_lfs_gp_bb_co.paa);
-		
-		class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_LS_LFS_GP_BB_CO);
-		};
-	};
+    class CLASS(Uniform_Combat_LS_BPS_BP_BB_CO): CLASS(Uniform_Base) { // BPS = Buffalo Plaid Shirt
+        scope = 2;
+        author = "GilleeDoo, Tyrone";
+        displayName = CSTRING(Uniform_Combat_LS_BPS_BP_BB_CO);
+        picture = QPATHOF(UI\uniform_combat_ls_bps_bp_bb_co.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_LS_BPS_BP_BB_CO);
+        };
+    };
+    class CLASS(Uniform_Combat_LS_DES_TP_TB_CO): CLASS(Uniform_Base) { // DES = Dark Earth Plaid
+        scope = 2;
+        author = "GilleeDoo, Tyrone";
+        displayName = CSTRING(Uniform_Combat_LS_DES_TP_TB_CO);
+        picture = QPATHOF(UI\uniform_combat_ls_des_tp_tb_co.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_LS_DES_TP_TB_CO);
+        };
+    };
+    class CLASS(Uniform_Combat_LS_DFS_GP_TB_CO): CLASS(Uniform_Base) { // DFS = Dark Foliage Plaid
+        scope = 2;
+        author = "GilleeDoo, Tyrone";
+        displayName = CSTRING(Uniform_Combat_LS_DFS_GP_TB_CO);
+        picture = QPATHOF(UI\uniform_combat_ls_dfs_gp_tb_co.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_LS_DFS_GP_TB_CO);
+        };
+    };
+    class CLASS(Uniform_Combat_LS_LES_TP_BB_CO): CLASS(Uniform_Base) { // LES = Light Earth Plaid
+        scope = 2;
+        author = "GilleeDoo, Tyrone";
+        displayName = CSTRING(Uniform_Combat_LS_LES_TP_BB_CO);
+        picture = QPATHOF(UI\uniform_combat_ls_les_tp_bb_co.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_LS_LES_TP_BB_CO);
+        };
+    };
+    class CLASS (Uniform_Combat_LS_LFS_GP_BB_CO): CLASS(Uniform_Base) { // LFS = Light Foliage Plaid
+        scope = 2;
+        author = "GilleeDoo, Tyrone";
+        displayName = CSTRING(Uniform_Combat_LS_LFS_GP_BB_CO);
+        picture = QPATHOF(UI\uniform_combat_ls_lfs_gp_bb_co.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_LS_LFS_GP_BB_CO);
+        };
+    };
     class CLASS(Uniform_Combat_LS_CDBS_GP_TB): CLASS(Uniform_Base) { // CDB = Plaid Dark Blue
         scope = 2;
         author = "Pomigit, Jonpas";
@@ -418,56 +418,56 @@ class CfgWeapons {
     };
 	
     // Plaid
-	class CLASS(Uniform_Combat_RS_BPS_BP_BB_CO): CLASS(Uniform_Base) { // BPS = Buffalo Plaid Shirt
-		scope = 2;
-		author = "GilleeDoo, Tyrone";
-		displayName = CSTRING(Uniform_Combat_RS_BPS_BP_BB_CO);
-		picture = QPATHOF(UI\uniform_combat_rs_bps_bp_bb_co.paa);
-		
-		class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_RS_BPS_BP_BB_CO);
-		};
-	};
-	class CLASS(Uniform_Combat_RS_DES_TP_TB_CO): CLASS(Uniform_Base) { // DES = Dark Earth Plaid
-		scope = 2;
-		author = "GilleeDoo, Tyrone";
-		displayName = CSTRING(Uniform_Combat_RS_DES_TP_TB_CO);
-		picture = QPATHOF(UI\uniform_combat_rs_des_tp_tb_co.paa);
-		
-		class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_RS_DES_TP_TB_CO);
-		};
-	};
-	class CLASS(Uniform_Combat_RS_DFS_GP_TB_CO): CLASS(Uniform_Base) { // DFS = Dark Foliage Plaid
-		scope = 2;
-		author = "GilleeDoo, Tyrone";
-		displayName = CSTRING(Uniform_Combat_RS_DFS_GP_TB_CO);
-		picture = QPATHOF(UI\uniform_combat_rs_dfs_gp_tb_co.paa);
-		
-		class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_RS_DFS_GP_TB_CO);
-		};
-	};
-	class CLASS(Uniform_Combat_RS_LES_TP_BB_CO): CLASS(Uniform_Base) { // LES = Light Earth Plaid
-		scope = 2;
-		author = "GilleeDoo, Tyrone";
-		displayName = CSTRING(Uniform_Combat_RS_LES_TP_BB_CO);
-		picture = QPATHOF(UI\uniform_combat_rs_les_tp_bb_co.paa);
-		
-		class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_RS_LES_TP_BB_CO);
-		};
-	};
-	class CLASS (Uniform_Combat_RS_LFS_GP_BB_CO): CLASS(Uniform_Base) { // LFS = Light Foliage Plaid
-		scope = 2;
-		author = "GilleeDoo, Tyrone";
-		displayName = CSTRING(Uniform_Combat_RS_LFS_GP_BB_CO);
-		picture = QPATHOF(UI\uniform_combat_rs_lfs_gp_bb_co.paa);
-		
-		class ItemInfo: ItemInfo {
-			uniformClass = QCLASS(Unit_Combat_RS_LFS_GP_BB_CO);
-		};
-	};
+    class CLASS(Uniform_Combat_RS_BPS_BP_BB_CO): CLASS(Uniform_Base) { // BPS = Buffalo Plaid Shirt
+        scope = 2;
+        author = "GilleeDoo, Tyrone";
+        displayName = CSTRING(Uniform_Combat_RS_BPS_BP_BB_CO);
+        picture = QPATHOF(UI\uniform_combat_rs_bps_bp_bb_co.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_RS_BPS_BP_BB_CO);
+        };
+    };
+    class CLASS(Uniform_Combat_RS_DES_TP_TB_CO): CLASS(Uniform_Base) { // DES = Dark Earth Plaid
+        scope = 2;
+        author = "GilleeDoo, Tyrone";
+        displayName = CSTRING(Uniform_Combat_RS_DES_TP_TB_CO);
+        picture = QPATHOF(UI\uniform_combat_rs_des_tp_tb_co.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_RS_DES_TP_TB_CO);
+        };
+    };
+    class CLASS(Uniform_Combat_RS_DFS_GP_TB_CO): CLASS(Uniform_Base) { // DFS = Dark Foliage Plaid
+        scope = 2;
+        author = "GilleeDoo, Tyrone";
+        displayName = CSTRING(Uniform_Combat_RS_DFS_GP_TB_CO);
+        picture = QPATHOF(UI\uniform_combat_rs_dfs_gp_tb_co.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_RS_DFS_GP_TB_CO);
+        };
+    };
+    class CLASS(Uniform_Combat_RS_LES_TP_BB_CO): CLASS(Uniform_Base) { // LES = Light Earth Plaid
+        scope = 2;
+        author = "GilleeDoo, Tyrone";
+        displayName = CSTRING(Uniform_Combat_RS_LES_TP_BB_CO);
+        picture = QPATHOF(UI\uniform_combat_rs_les_tp_bb_co.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_RS_LES_TP_BB_CO);
+        };
+    };
+    class CLASS (Uniform_Combat_RS_LFS_GP_BB_CO): CLASS(Uniform_Base) { // LFS = Light Foliage Plaid
+        scope = 2;
+        author = "GilleeDoo, Tyrone";
+        displayName = CSTRING(Uniform_Combat_RS_LFS_GP_BB_CO);
+        picture = QPATHOF(UI\uniform_combat_rs_lfs_gp_bb_co.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Combat_RS_LFS_GP_BB_CO);
+        };
+    };
     class CLASS(Uniform_Combat_RS_CDBS_GP_TB): CLASS(Uniform_Base) {
         scope = 2;
         author = "Pomigit, Jonpas";
