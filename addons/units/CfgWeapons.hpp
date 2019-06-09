@@ -194,12 +194,12 @@ class CfgWeapons {
     };
     // Plaid
 	class CLASS(Uniform_Combat_LS_BPS_BP_BB_CO): CLASS(Uniform_Base) { // Buffalo Plaid Shirt
-        scope = 2;
+		scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_LS_BPS_BP_BB_CO);
         picture = QPATHTOF(UI\uniform_combat_ls_bps_bp_bb_co.paa);
 
-        class ItemInfo : ItemInfo {
+        class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_BPS_BP_BB_CO);
         };
     };
@@ -209,7 +209,7 @@ class CfgWeapons {
         displayName = CSTRING(Uniform_Combat_LS_DES_TP_TB_CO);
         picture = QPATHTOF(UI\uniform_combat_ls_des_tp_tb_co.paa);
 
-        class ItemInfo : ItemInfo {
+        class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_DES_TP_TB_CO);
         };
 	};
@@ -219,7 +219,7 @@ class CfgWeapons {
         displayName = CSTRING(Uniform_Combat_LS_DFS_GP_TB_CO);
         picture = QPATHTOF(UI\uniform_combat_ls_dfs_gp_tb_co.paa);
 
-        class ItemInfo : ItemInfo {
+        class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_DFS_GP_TB_CO);
         };
     };
@@ -229,7 +229,7 @@ class CfgWeapons {
         displayName = CSTRING(Uniform_Combat_LS_LES_TP_BB_CO);
         picture = QPATHTOF(UI\uniform_combat_ls_les_tp_bb_co.paa);
 
-        class ItemInfo : ItemInfo {
+        class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_LES_TP_BB_CO);
         };
     };
@@ -239,7 +239,7 @@ class CfgWeapons {
         displayName = CSTRING(Uniform_Combat_LS_LFS_GP_BB_CO);
         picture = QPATHTOF(UI\uniform_combat_ls_lfs_gp_bb_co.paa);
 
-        class ItemInfo : ItemInfo {
+        class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_LFS_GP_BB_CO);
         };
     };
@@ -422,7 +422,7 @@ class CfgWeapons {
         displayName = CSTRING(Uniform_Combat_RS_BPS_BP_BB_CO);
         picture = QPATHTOF(UI\uniform_combat_rs_bps_bp_bb_co.paa);
 
-        class ItemInfo : ItemInfo {
+        class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_BPS_BP_BB_CO);
         };
     };
@@ -432,7 +432,7 @@ class CfgWeapons {
         displayName = CSTRING(Uniform_Combat_RS_DES_TP_TB_CO);
         picture = QPATHTOF(UI\uniform_combat_rs_des_tp_tb_co.paa);
 
-        class ItemInfo : ItemInfo {
+        class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_DES_TP_TB_CO);
         };
     };
@@ -442,7 +442,7 @@ class CfgWeapons {
         displayName = CSTRING(Uniform_Combat_RS_DFS_GP_TB_CO);
         picture = QPATHTOF(UI\uniform_combat_rs_dfs_gp_tb_co.paa);
 
-        class ItemInfo : ItemInfo {
+        class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_DFS_GP_TB_CO);
         };
     };
@@ -452,7 +452,7 @@ class CfgWeapons {
         displayName = CSTRING(Uniform_Combat_RS_LES_TP_BB_CO);
         picture = QPATHTOF(UI\uniform_combat_rs_les_tp_bb_co.paa);
 
-        class ItemInfo : ItemInfo {
+        class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_LES_TP_BB_CO);
         };
     };
@@ -462,7 +462,7 @@ class CfgWeapons {
         displayName = CSTRING(Uniform_Combat_RS_LFS_GP_BB_CO);
         picture = QPATHTOF(UI\uniform_combat_rs_lfs_gp_bb_co.paa);
 
-        class ItemInfo : ItemInfo {
+        class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_LFS_GP_BB_CO);
         };
     };
