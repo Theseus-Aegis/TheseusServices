@@ -192,6 +192,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_LS_WS_WP_WB);
         };
     };
+	
     // Plaid
 	class CLASS(Uniform_Combat_LS_BPS_BP_BB_CO): CLASS(Uniform_Base) { // BPS = Buffalo Plaid Shirt
 		scope = 2;
@@ -211,6 +212,7 @@ class CfgWeapons {
 		
 		class ItemInfo: ItemInfo {
 			uniformClass = QCLASS(Unit_Combat_LS_DES_TP_TB_CO);
+		};
 	};
 	class CLASS(Uniform_Combat_LS_DFS_GP_TB_CO): CLASS(Uniform_Base) { // DFS = Dark Foliage Plaid
 		scope = 2;
@@ -221,6 +223,7 @@ class CfgWeapons {
 		class ItemInfo: ItemInfo {
 			uniformClass = QCLASS(Unit_Combat_LS_DFS_GP_TB_CO);
 		};
+	};
 	class CLASS(Uniform_Combat_LS_LES_TP_BB_CO): CLASS(Uniform_Base) { // LES = Light Earth Plaid
 		scope = 2;
 		author = "GilleeDoo, Tyrone";
@@ -413,6 +416,7 @@ class CfgWeapons {
 			uniformClass = QCLASS(Unit_Combat_RS_TS_TP_TB);
         };
     };
+	
     // Plaid
 	class CLASS(Uniform_Combat_RS_BPS_BP_BB_CO): CLASS(Uniform_Base) { // BPS = Buffalo Plaid Shirt
 		scope = 2;
@@ -432,6 +436,7 @@ class CfgWeapons {
 		
 		class ItemInfo: ItemInfo {
 			uniformClass = QCLASS(Unit_Combat_RS_DES_TP_TB_CO);
+		};
 	};
 	class CLASS(Uniform_Combat_RS_DFS_GP_TB_CO): CLASS(Uniform_Base) { // DFS = Dark Foliage Plaid
 		scope = 2;
@@ -442,6 +447,7 @@ class CfgWeapons {
 		class ItemInfo: ItemInfo {
 			uniformClass = QCLASS(Unit_Combat_RS_DFS_GP_TB_CO);
 		};
+	};
 	class CLASS(Uniform_Combat_RS_LES_TP_BB_CO): CLASS(Uniform_Base) { // LES = Light Earth Plaid
 		scope = 2;
 		author = "GilleeDoo, Tyrone";
