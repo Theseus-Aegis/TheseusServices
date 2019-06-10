@@ -208,7 +208,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_LS_CDES_TP_TB);
-        picture = QPATHOF(UI\uniform_combat_ls_cdes_tp_tb_ca.paa);
+        picture = QPATHOF(UI\uniform_combat_ls_cdes_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_CDES_TP_TB);
