@@ -224,7 +224,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_LS_CDFS_GP_TB);
         };
     };
-    class CLASS(Uniform_Combat_LS_CLES_TP_BB): CLASS(Uniform_Base) { // LES = Light Earth Plaid
+    class CLASS(Uniform_Combat_LS_CLES_TP_BB): CLASS(Uniform_Base) { // CLE = Plaid Light Earth
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_LS_CLES_TP_BB);
