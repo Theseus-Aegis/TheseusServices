@@ -428,7 +428,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_RS_CBPS_BP_BB);
         };
     };
-    class CLASS(Uniform_Combat_RS_CDES_TP_TB): CLASS(Uniform_Base) { // DES = Dark Earth Plaid
+    class CLASS(Uniform_Combat_RS_CDES_TP_TB): CLASS(Uniform_Base) { // CDE = Plaid Dark Earth
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CDES_TP_TB);
