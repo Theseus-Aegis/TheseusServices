@@ -194,7 +194,7 @@ class CfgWeapons {
     };
 
     // Plaid
-    class CLASS(Uniform_Combat_LS_CBPS_BP_BB): CLASS(Uniform_Base) { // BPS = Buffalo Plaid Shirt
+    class CLASS(Uniform_Combat_LS_CBPS_BP_BB): CLASS(Uniform_Base) { // CBP = Buffalo Plaid
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_LS_CBPS_BP_BB);
