@@ -418,11 +418,11 @@ class CfgWeapons {
     };
 
     // Plaid
-    class CLASS(Uniform_Combat_RS_CBPS_BP_BB): CLASS(Uniform_Base) { // BPS = Buffalo Plaid Shirt
+    class CLASS(Uniform_Combat_RS_CBPS_BP_BB): CLASS(Uniform_Base) { // CBP = Buffalo Plaid
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CBPS_BP_BB);
-        picture = QPATHOF(UI\uniform_combat_rs_cbps_bp_bb_ca.paa);
+        picture = QPATHOF(UI\uniform_combat_rs_cbps_bp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_CBPS_BP_BB);
@@ -442,27 +442,27 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CDFS_GP_TB);
-        picture = QPATHOF(UI\uniform_combat_rs_cdfs_gp_tb_ca.paa);
+        picture = QPATHOF(UI\uniform_combat_rs_cdfs_gp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_CDFS_GP_TB);
         };
     };
-    class CLASS(Uniform_Combat_RS_CLES_TP_BB): CLASS(Uniform_Base) { // LES = Light Earth Plaid
+    class CLASS(Uniform_Combat_RS_CLES_TP_BB): CLASS(Uniform_Base) { // CLE = Plaid Light Earth
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CLES_TP_BB);
-        picture = QPATHOF(UI\uniform_combat_rs_cles_tp_bb_ca.paa);
+        picture = QPATHOF(UI\uniform_combat_rs_cles_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_CLES_TP_BB);
         };
     };
-    class CLASS (Uniform_Combat_RS_CLFS_GP_BB): CLASS(Uniform_Base) { // LFS = Light Foliage Plaid
+    class CLASS (Uniform_Combat_RS_CLFS_GP_BB): CLASS(Uniform_Base) { // CLF = Plaid Light Foliage
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CLFS_GP_BB);
-        picture = QPATHOF(UI\uniform_combat_rs_clfs_gp_bb_ca.paa);
+        picture = QPATHOF(UI\uniform_combat_rs_clfs_gp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_CLFS_GP_BB);
