@@ -438,7 +438,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_RS_CDES_TP_TB);
         };
     };
-    class CLASS(Uniform_Combat_RS_CDFS_GP_TB): CLASS(Uniform_Base) { // DFS = Dark Foliage Plaid
+    class CLASS(Uniform_Combat_RS_CDFS_GP_TB): CLASS(Uniform_Base) { // CDF = Plaid Dark Foliage
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CDFS_GP_TB);
