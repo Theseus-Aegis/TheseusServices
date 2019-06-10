@@ -163,35 +163,35 @@ class CLASS(Unit_Combat_LS_C_Base): B_Soldier_base_F {
     hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_plaid.rvmat)};
 };
 
-class CLASS(Unit_Combat_LS_BPS_BP_BB_CO) : CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_LS_CBPS_BP_BB) : CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "GilleeDoo, Tyrone";
-    uniformClass = QCLASS(Uniform_Combat_LS_BPS_BP_BB_CO);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bps_bp_bb_co.paa)};
+    uniformClass = QCLASS(Uniform_Combat_LS_CBPS_BP_BB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cbps_bp_bb_co.paa)};
 };
-class CLASS(Unit_Combat_LS_DES_TP_TB_CO) : CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_LS_CDES_TP_TB) : CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "GilleeDoo, Tyrone";
-    uniformClass = QCLASS(Uniform_Combat_LS_DES_TP_TB_CO);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_des_tp_tb_co.paa)};
+    uniformClass = QCLASS(Uniform_Combat_LS_CDES_TP_TB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cdes_tp_tb_co.paa)};
 };
-class CLASS(Unit_Combat_LS_DFS_GP_TB_CO) : CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_LS_CDFS_GP_TB) : CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "GilleeDoo, Tyrone";
-    uniformClass = QCLASS(Uniform_Combat_LS_DFS_GP_TB_CO);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_dfs_gp_tb_co.paa)};
+    uniformClass = QCLASS(Uniform_Combat_LS_CDFS_GP_TB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cdfs_gp_tb_co.paa)};
 };
-class CLASS(Unit_Combat_LS_LES_TP_BB_CO) : CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_LS_CLES_TP_BB) : CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "GilleeDoo, Tyrone";
-    uniformClass = QCLASS(Uniform_Combat_LS_LES_TP_BB_CO);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_les_tp_bb_co.paa)};
+    uniformClass = QCLASS(Uniform_Combat_LS_CLES_TP_BB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cles_tp_bb_co.paa)};
 };
-class CLASS(Unit_Combat_LS_LFS_GP_BB_CO) : CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_LS_CLFS_GP_BB) : CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "GilleeDoo, Tyrone";
-    uniformClass = QCLASS(Uniform_Combat_LS_LFS_GP_BB_CO);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_lfs_gp_bb_co.paa)};
+    uniformClass = QCLASS(Uniform_Combat_LS_CLFS_GP_BB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_clfs_gp_bb_co.paa)};
 };
 class CLASS(Unit_Combat_LS_CDBS_GP_TB): CLASS(Unit_Combat_LS_C_Base) {
     scope = 1;
@@ -310,35 +310,35 @@ class CLASS(Unit_Combat_RS_C_Base): CLASS(Unit_Combat_RS_Base) {
     hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_plaid.rvmat)};
 };
 
-class CLASS(Unit_Combat_RS_BPS_BP_BB_CO) : CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_RS_CBPS_BP_BB) : CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "GilleeDoo, Tyrone";
-    uniformClass = QCLASS(Uniform_Combat_RS_BPS_BP_BB_CO);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bps_bp_bb_co.paa)};
+    uniformClass = QCLASS(Uniform_Combat_RS_CBPS_BP_BB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cbps_bp_bb_co.paa)};
 };
-class CLASS(Unit_Combat_RS_DES_TP_TB_CO) : CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_RS_CDES_TP_TB) : CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "GilleeDoo, Tyrone";
-    uniformClass = QCLASS(Uniform_Combat_RS_DES_TP_TB_CO);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_des_tp_tb_co.paa)};
+    uniformClass = QCLASS(Uniform_Combat_RS_CDES_TP_TB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cdes_tp_tb_co.paa)};
 };
-class CLASS(Unit_Combat_RS_DFS_GP_TB_CO) : CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_RS_CDFS_GP_TB) : CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "GilleeDoo, Tyrone";
-    uniformClass = QCLASS(Uniform_Combat_RS_DFS_GP_TB_CO);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_dfs_gp_tb_co.paa)};
+    uniformClass = QCLASS(Uniform_Combat_RS_CDFS_GP_TB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cdfs_gp_tb_co.paa)};
 };
-class CLASS(Unit_Combat_RS_LES_TP_BB_CO) : CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_RS_CLES_TP_BB) : CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "GilleeDoo, Tyrone";
-    uniformClass = QCLASS(Uniform_Combat_RS_LES_TP_BB_CO);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_les_tp_bb_co.paa)};
+    uniformClass = QCLASS(Uniform_Combat_RS_CLES_TP_BB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cles_tp_bb_co.paa)};
 };
-class CLASS(Unit_Combat_RS_LFS_GP_BB_CO) : CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_RS_CLFS_GP_BB) : CLASS(Unit_Combat_LS_Base) {
     scope = 1;
     author = "GilleeDoo, Tyrone";
-    uniformClass = QCLASS(Uniform_Combat_RS_LFS_GP_BB_CO);
-    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_lfs_gp_bb_co.paa)};
+    uniformClass = QCLASS(Uniform_Combat_RS_CLFS_GP_BB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_clfs_gp_bb_co.paa)};
 };
 class CLASS(Unit_Combat_RS_CDBS_GP_TB): CLASS(Unit_Combat_RS_C_Base) {
     scope = 1;

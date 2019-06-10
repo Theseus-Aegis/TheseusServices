@@ -18,11 +18,6 @@ class CfgVehicles {
         class TransportMagazines {};
 
         class TransportItems {
-            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BPS_BP_BB_CO), 10);
-            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_DES_TP_TB_CO), 10);
-            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_DFS_GP_TB_CO), 10);
-            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_LES_TP_BB_CO), 10);
-            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_LFS_GP_BB_CO), 10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BS_BP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BS_GP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BS_GP_TB),10);
@@ -36,16 +31,16 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_TS_GP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_TS_GP_TB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_TS_TP_TB),10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CBPS_BP_BB), 10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CDES_TP_TB), 10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CDFS_GP_TB), 10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CLES_TP_BB), 10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CLFS_GP_BB), 10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CDBS_GP_TB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CLBS_GP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CLRS_TP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CPS_BP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_WS_WP_WB),10);
-            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BPS_BP_BB_CO), 10);
-            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_DES_TP_TB_CO), 10);
-            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_DFS_GP_TB_CO), 10);
-            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_LES_TP_BB_CO), 10);
-            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_LFS_GP_BB_CO), 10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BS_BP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BS_GP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BS_GP_TB),10);
@@ -59,6 +54,11 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_TS_GP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_TS_GP_TB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_TS_TP_TB),10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CBPS_BP_BB), 10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CDES_TP_TB), 10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CDFS_GP_TB), 10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CLES_TP_BB), 10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CLFS_GP_BB), 10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CDBS_GP_TB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CLBS_GP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CLRS_TP_BB),10);
