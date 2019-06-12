@@ -198,7 +198,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_LS_CBPS_BP_BB);
-        picture = QPATHOF(UI\uniform_combat_ls_cbps_bp_ca.paa);
+        picture = QPATHTOF(UI\uniform_combat_ls_cbps_bp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_CBPS_BP_BB);
@@ -208,7 +208,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_LS_CDES_TP_TB);
-        picture = QPATHOF(UI\uniform_combat_ls_cdes_tp_ca.paa);
+        picture = QPATHTOF(UI\uniform_combat_ls_cdes_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_CDES_TP_TB);
@@ -218,7 +218,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_LS_CDFS_GP_TB);
-        picture = QPATHOF(UI\uniform_combat_ls_cdfs_gp_ca.paa);
+        picture = QPATHTOF(UI\uniform_combat_ls_cdfs_gp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_CDFS_GP_TB);
@@ -228,7 +228,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_LS_CLES_TP_BB);
-        picture = QPATHOF(UI\uniform_combat_ls_cles_tp_ca.paa);
+        picture = QPATHTOF(UI\uniform_combat_ls_cles_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_CLES_TP_BB);
@@ -238,7 +238,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_LS_CLFS_GP_BB);
-        picture = QPATHOF(UI\uniform_combat_ls_clfs_gp_ca.paa);
+        picture = QPATHTOF(UI\uniform_combat_ls_clfs_gp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_LS_CLFS_GP_BB);
@@ -422,7 +422,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CBPS_BP_BB);
-        picture = QPATHOF(UI\uniform_combat_rs_cbps_bp_ca.paa);
+        picture = QPATHTOF(UI\uniform_combat_rs_cbps_bp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_CBPS_BP_BB);
@@ -432,7 +432,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CDES_TP_TB);
-        picture = QPATHOF(UI\uniform_combat_rs_cdes_tp_ca.paa);
+        picture = QPATHTOF(UI\uniform_combat_rs_cdes_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_CDES_TP_TB);
@@ -442,7 +442,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CDFS_GP_TB);
-        picture = QPATHOF(UI\uniform_combat_rs_cdfs_gp_ca.paa);
+        picture = QPATHTOF(UI\uniform_combat_rs_cdfs_gp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_CDFS_GP_TB);
@@ -452,7 +452,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CLES_TP_BB);
-        picture = QPATHOF(UI\uniform_combat_rs_cles_tp_ca.paa);
+        picture = QPATHTOF(UI\uniform_combat_rs_cles_tp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_CLES_TP_BB);
@@ -462,7 +462,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CLFS_GP_BB);
-        picture = QPATHOF(UI\uniform_combat_rs_clfs_gp_ca.paa);
+        picture = QPATHTOF(UI\uniform_combat_rs_clfs_gp_ca.paa);
 
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Unit_Combat_RS_CLFS_GP_BB);
