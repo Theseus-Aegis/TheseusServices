@@ -458,7 +458,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Combat_RS_CLES_TP_BB);
         };
     };
-    class CLASS (Uniform_Combat_RS_CLFS_GP_BB): CLASS(Uniform_Base) { // CLF = Plaid Light Foliage
+    class CLASS(Uniform_Combat_RS_CLFS_GP_BB): CLASS(Uniform_Base) { // CLF = Plaid Light Foliage
         scope = 2;
         author = "GilleeDoo, Tyrone";
         displayName = CSTRING(Uniform_Combat_RS_CLFS_GP_BB);
