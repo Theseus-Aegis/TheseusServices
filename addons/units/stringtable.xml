@@ -85,6 +85,26 @@
             <Japanese>戦闘服 長袖 (黄褐、黄褐、黄褐)</Japanese>
             <French>Uniforme de combat long (Beige, Beige, Beige)</French>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_CBPS_BP_BB">
+            <English>Combat Uniform Long (Buffalo Plaid, Black, Black)</English>
+            <French>Uniforme de combat long (Chemise à carreaux, Noir, Noir)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_CDES_TP_TB">
+            <English>Combat Uniform Long (Plaid Dark Earth, Tan, Tan)</English>
+            <French>Uniforme de combat long (Terre sombre, Beige, Beige)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_CDFS_GP_TB">
+            <English>Combat Uniform Long (Plaid Dark Foliage, Green, Tan)</English>
+            <French>Uniforme de combat long (Feuillage sombre, Vert, Beige)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_CLES_TP_BB">
+            <English>Combat Uniform Long (Plaid Light Earth, Tan, Black)</English>
+            <French>Uniforme de combat long (Terre claire, Beige, Noir)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_CLFS_GP_BB">
+            <English>Combat Uniform Long (Plaid Light Foliage, Green, Black)</English>
+            <French>Uniforme de combat long (Feuillage clair, Vert, Noir)</French>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_CDBS_GP_TB">
             <English>Combat Uniform Long (Plaid Dark Blue, Green, Tan)</English>
             <German>Kampfuniform, lang (Dunkelblau-Kariert, Grün, Hellbraun)</German>
@@ -192,6 +212,26 @@
             <German>Kampfuniform, kurz (Hellbraun, Hellbraun, Hellbraun)</German>
             <Japanese>戦闘服 袖まくり (黄褐、黄褐、黄褐)</Japanese>
             <French>Uniforme de combat retroussé (Beige, Beige, Beige)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_CBPS_BP_BB">
+            <English>Combat Uniform Rolled (Buffalo Plaid, Black, Black)</English>
+            <French>Uniforme de combat retroussé (Chemise à carreaux, Noir, Noir)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_CDES_TP_TB">
+            <English>Combat Uniform Rolled (Plaid Dark Earth, Tan, Tan)</English>
+            <French>Uniforme de combat retroussé (Terre sombre, Beige, Beige)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_CDFS_GP_TB">
+            <English>Combat Uniform Rolled (Plaid Dark Foliage, Green, Tan)</English>
+            <French>Uniforme de combat retroussé (Feuillage sombre, Vert, Beige)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_CLES_TP_BB">
+            <English>Combat Uniform Rolled (Plaid Light Earth, Tan, Black)</English>
+            <French>Uniforme de combat retroussé (Terre claire, Beige, Noir)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_CLFS_GP_BB">
+            <English>Combat Uniform Rolled (Plaid Light Foliage, Green, Black)</English>
+            <French>Uniforme de combat retroussé (Feuillage clair, Vert, Noir)</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_CDBS_GP_TB">
             <English>Combat Uniform Rolled (Plaid Dark Blue, Green, Tan)</English>
@@ -305,7 +345,7 @@
             <English>Combat Garment Rolled (Black, Black, Black)</English>
             <German>Kampfkleidung, kurz (Schwarz, Schwarz, Schwarz)</German>
             <Japanese>戦闘ガーメント 袖まくり (黒、黒、黒)</Japanese>
-            <French>Tenue de combat retroussée (Noiir, Noir, Noir)</French>
+            <French>Tenue de combat retroussée (Noir, Noir, Noir)</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Garment_RS_BS_GP_BB">
             <English>Combat Garment Rolled (Black, Green, Black)</English>
