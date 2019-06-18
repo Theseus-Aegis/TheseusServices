@@ -4,10 +4,10 @@
 #define ADDON DOUBLES(PREFIX,COMPONENT)
 
 // Main
+#define QUOTE(var1) #var1
 #define VERSION MAJOR.MINOR.PATCHLVL.BUILD
 #define VERSION_AR MAJOR,MINOR,PATCHLVL,BUILD
-#define VERSION_CONFIG version = VERSION; versionStr = QUOTE(VERSION); versionAr[] = {VERSION_AR}
-#define QUOTE(var1) #var1
+#define VERSION_CONFIG version = QUOTE(VERSION); versionStr = QUOTE(VERSION); versionAr[] = {VERSION_AR}
 
 // Path
 #define PATHTOF_SYS(var1,var2,var3) \MAINPREFIX\##var1\SUBPREFIX\##var2\##var3
@@ -25,17 +25,17 @@
 #define ECSTRING(var1,var2) QUOTE(TRIPLES($STR,DOUBLES(PREFIX,var1),var2))
 
 // Items
-#define ITEMS_2(var) var, var
-#define ITEMS_3(var) var, var, var
-#define ITEMS_4(var) var, var, var, var
-#define ITEMS_5(var) var, var, var, var, var
-#define ITEMS_6(var) var, var, var, var, var, var
-#define ITEMS_7(var) var, var, var, var, var, var, var
-#define ITEMS_8(var) var, var, var, var, var, var, var, var
-#define ITEMS_9(var) var, var, var, var, var, var, var, var, var
-#define ITEMS_10(var) var, var, var, var, var, var, var, var, var, var
-#define ITEMS_11(var) var, var, var, var, var, var, var, var, var, var, var
-#define ITEMS_12(var) var, var, var, var, var, var, var, var, var, var, var, var
+#define ITEMS_2(var) QUOTE(var), QUOTE(var)
+#define ITEMS_3(var) QUOTE(var), QUOTE(var), QUOTE(var)
+#define ITEMS_4(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
+#define ITEMS_5(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
+#define ITEMS_6(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
+#define ITEMS_7(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
+#define ITEMS_8(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
+#define ITEMS_9(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
+#define ITEMS_10(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
+#define ITEMS_11(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
+#define ITEMS_12(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
 
 #define MACRO_ADDWEAPON(WEAPON,COUNT) \
     class _xx_##WEAPON { \

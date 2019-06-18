@@ -5,7 +5,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Pomigit, Jonpas";
         displayName = CSTRING(Heli_MH6_Blue);
         editorPreview = QPATHTOF(UI\Heli_MH6_Blue.jpg);
@@ -17,7 +17,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -31,7 +31,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BadHabitz, Jonpas";
         displayName = CSTRING(Offroad_Black);
         editorPreview = QPATHTOF(UI\Offroad_Black.jpg);
@@ -58,7 +58,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -72,7 +72,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BadHabitz, Jonpas";
         displayName = CSTRING(Offroad_Armed_Black);
         editorPreview = QPATHTOF(UI\Offroad_Armed_Black.jpg);
@@ -99,7 +99,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };

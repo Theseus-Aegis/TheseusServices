@@ -167,7 +167,7 @@ class CfgVehicles {
         author = "Kresky";
         displayName = CSTRING(Hat_Beret_BlackLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
-        
+
         class TransportItems {
             MACRO_ADDITEM(CLASS(Hat_Beret_BlackLogo),1);
         };

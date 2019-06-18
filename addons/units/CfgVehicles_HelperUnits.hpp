@@ -5,7 +5,7 @@
     dlc = QUOTE(PREFIX); \
     scope = 1; \
     side = 2; \
-    faction = CLASS(IND); \
+    faction = QCLASS(IND); \
     weapons[] = {"Throw", "Put"}; \
     respawnWeapons[] = {"Throw", "Put"}; \
     magazines[] = {}; \
@@ -48,7 +48,7 @@ class CLASS(Unit_Underwear_GreenLogo): B_Soldier_base_F {
     dlc = QUOTE(PREFIX); \
     scope = 0; \
     side = 2; \
-    faction = CLASS(IND); \
+    faction = QCLASS(IND); \
     weapons[] = {"Throw", "Put"}; \
     respawnWeapons[] = {"Throw", "Put"}; \
     magazines[] = {}; \

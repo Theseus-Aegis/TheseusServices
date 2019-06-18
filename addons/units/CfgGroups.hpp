@@ -6,7 +6,7 @@ class CfgGroups {
                 name = CSTRING(GroupType_Infantry);
                 class Bodyguards {
                     side = 2;
-                    faction = CLASS(IND);
+                    faction = QCLASS(IND);
                     name = CSTRING(Group_Bodyguards);
                     class Unit0 {
                         side = 2;
@@ -25,7 +25,7 @@ class CfgGroups {
                 };
                 class Patrol {
                     side = 2;
-                    faction = CLASS(IND);
+                    faction = QCLASS(IND);
                     name = CSTRING(Group_Patrol);
                     class Unit0 {
                         side = 2;
@@ -48,7 +48,7 @@ class CfgGroups {
                 };
                 class Team {
                     side = 2;
-                    faction = CLASS(IND);
+                    faction = QCLASS(IND);
                     name = CSTRING(Group_Team);
                     class Unit0 {
                         side = 2;
@@ -82,7 +82,7 @@ class CfgGroups {
                 };
                 class Squad {
                     side = 2;
-                    faction = CLASS(IND);
+                    faction = QCLASS(IND);
                     name = CSTRING(Group_Squad);
                     class Unit0 {
                         side = 2;
@@ -131,7 +131,7 @@ class CfgGroups {
                 };
                 class Specialists {
                     side = 2;
-                    faction = CLASS(IND);
+                    faction = QCLASS(IND);
                     name = CSTRING(Group_Specialists);
                     class Unit0 {
                         side = 2;
@@ -161,7 +161,7 @@ class CfgGroups {
                 };
                 class Support {
                     side = 2;
-                    faction = CLASS(IND);
+                    faction = QCLASS(IND);
                     name = CSTRING(Group_Support);
                     class Unit0 {
                         side = 2;
@@ -194,7 +194,7 @@ class CfgGroups {
                 name = CSTRING(GroupType_Infantry);
                 class Bodyguards {
                     side = 1;
-                    faction = CLASS(BLU);
+                    faction = QCLASS(BLU);
                     name = CSTRING(Group_Bodyguards);
                     class Unit0 {
                         side = 1;
@@ -213,7 +213,7 @@ class CfgGroups {
                 };
                 class Patrol {
                     side = 1;
-                    faction = CLASS(BLU);
+                    faction = QCLASS(BLU);
                     name = CSTRING(Group_Patrol);
                     class Unit0 {
                         side = 1;
@@ -236,7 +236,7 @@ class CfgGroups {
                 };
                 class Team {
                     side = 1;
-                    faction = CLASS(BLU);
+                    faction = QCLASS(BLU);
                     name = CSTRING(Group_Team);
                     class Unit0 {
                         side = 1;
@@ -270,7 +270,7 @@ class CfgGroups {
                 };
                 class Squad {
                     side = 1;
-                    faction = CLASS(BLU);
+                    faction = QCLASS(BLU);
                     name = CSTRING(Group_Squad);
                     class Unit0 {
                         side = 1;
@@ -319,7 +319,7 @@ class CfgGroups {
                 };
                 class Specialists {
                     side = 1;
-                    faction = CLASS(BLU);
+                    faction = QCLASS(BLU);
                     name = CSTRING(Group_Specialists);
                     class Unit0 {
                         side = 1;
@@ -349,7 +349,7 @@ class CfgGroups {
                 };
                 class Support {
                     side = 1;
-                    faction = CLASS(BLU);
+                    faction = QCLASS(BLU);
                     name = CSTRING(Group_Support);
                     class Unit0 {
                         side = 1;

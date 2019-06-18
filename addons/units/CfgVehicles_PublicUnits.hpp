@@ -23,7 +23,7 @@ class CLASS(Unit_I_Bodyguard): CLASS(Unit_Polo_CP_LS_TP_OB) {
 };
 class CLASS(Unit_B_Bodyguard): CLASS(Unit_I_Bodyguard) {
     side = 1;
-    faction = CLASS(BLU);
+    faction = QCLASS(BLU);
 };
 
 class CLASS(Unit_I_Contractor): CLASS(Unit_Polo_TP_LS_TP_TB) {
@@ -52,7 +52,7 @@ class CLASS(Unit_I_Contractor): CLASS(Unit_Polo_TP_LS_TP_TB) {
 class CLASS(Unit_B_Contractor): CLASS(Unit_I_Contractor) {
     scope = 2;
     side = 1;
-    faction = CLASS(BLU);
+    faction = QCLASS(BLU);
 };
 
 class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_RS_BS_GP_BB) {
@@ -81,7 +81,7 @@ class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_RS_BS_GP_BB) {
 class CLASS(Unit_B_Contractor_GL): CLASS(Unit_I_Contractor_GL) {
     scope = 2;
     side = 1;
-    faction = CLASS(BLU);
+    faction = QCLASS(BLU);
 };
 
 class CLASS(Unit_I_Engineer): CLASS(Unit_Polo_TP_LS_TP_TB) {
@@ -119,7 +119,7 @@ class CLASS(Unit_I_Engineer): CLASS(Unit_Polo_TP_LS_TP_TB) {
 class CLASS(Unit_B_Engineer): CLASS(Unit_I_Engineer) {
     scope = 2;
     side = 1;
-    faction = CLASS(BLU);
+    faction = QCLASS(BLU);
 };
 
 class CLASS(Unit_I_Medic): CLASS(Unit_Combat_RS_BS_GP_BB) {
@@ -146,7 +146,7 @@ class CLASS(Unit_I_Medic): CLASS(Unit_Combat_RS_BS_GP_BB) {
 class CLASS(Unit_B_Medic): CLASS(Unit_I_Medic) {
     scope = 2;
     side = 1;
-    faction = CLASS(BLU);
+    faction = QCLASS(BLU);
 };
 
 class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_BS_GP_BB) {
@@ -180,7 +180,7 @@ class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_BS_GP_BB) {
 class CLASS(Unit_B_Specialist): CLASS(Unit_I_Specialist) {
     scope = 2;
     side = 1;
-    faction = CLASS(BLU);
+    faction = QCLASS(BLU);
 };
 
 class CLASS(Unit_I_TeamLeader): CLASS(Unit_TShirt_JP_GS_LP_BB) {
@@ -214,7 +214,7 @@ class CLASS(Unit_I_TeamLeader): CLASS(Unit_TShirt_JP_GS_LP_BB) {
 class CLASS(Unit_B_TeamLeader): CLASS(Unit_I_TeamLeader) {
     scope = 2;
     side = 1;
-    faction = CLASS(BLU);
+    faction = QCLASS(BLU);
 };
 
 class CLASS(Unit_I_Marksman): CLASS(Unit_TShirt_JP_GS_LP_BB) {
@@ -249,7 +249,7 @@ class CLASS(Unit_I_Marksman): CLASS(Unit_TShirt_JP_GS_LP_BB) {
 class CLASS(Unit_B_Marksman): CLASS(Unit_I_Marksman) {
     scope = 2;
     side = 1;
-    faction = CLASS(BLU);
+    faction = QCLASS(BLU);
 };
 
 class CLASS(Unit_I_PilotHeli): CLASS(Unit_Combat_RS_BS_GP_BB) {
@@ -278,7 +278,7 @@ class CLASS(Unit_I_PilotHeli): CLASS(Unit_Combat_RS_BS_GP_BB) {
 class CLASS(Unit_B_PilotHeli): CLASS(Unit_I_PilotHeli) {
     scope = 2;
     side = 1;
-    faction = CLASS(BLU);
+    faction = QCLASS(BLU);
 };
 
 
@@ -289,7 +289,7 @@ class CLASS(Unit_I_VIP): Civilian_F {
     scope = 2;
     scopeCurator = 2;
     side = 2;
-    faction = CLASS(IND);
+    faction = QCLASS(IND);
     author = "Pomigit, Jonpas";
     displayname = CSTRING(Unit_VIP);
     editorPreview = QPATHTOF(UI\Unit_VIP.jpg);
@@ -310,5 +310,5 @@ class CLASS(Unit_I_VIP): Civilian_F {
 class CLASS(Unit_B_VIP): CLASS(Unit_I_VIP) {
     scope = 2;
     side = 1;
-    faction = CLASS(BLU);
+    faction = QCLASS(BLU);
 };
