@@ -46,9 +46,10 @@ Temporary Items
 # Project Files
 # =========================
 
-# Release
+# Releases
 release/*
 *.cache
+releases/*
 
 # Swap
 *.swp

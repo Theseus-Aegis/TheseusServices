@@ -1,0 +1,22 @@
+name = "Theseus Services"
+prefix = "tacs"
+author = "Theseus Services Team"
+files = [
+    "mod.cpp",
+    "README.md",
+    "AUTHORS.txt",
+    "LICENSE",
+    "logo_tacs_ca.paa",
+    "logo_tacs_small_ca.paa",
+    "meta.cpp"
+]
+headerexts = [
+    "version={{git \"id 8\"}}"
+]
+modname = "theseus_services"
+keyname = "{{prefix}}_{{version}}"
+signame = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+
+releasebuild = [
+    "@zip"
+]
