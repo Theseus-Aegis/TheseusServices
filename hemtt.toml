@@ -18,5 +18,5 @@ keyname = "{{prefix}}_{{version}}"
 signame = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
 
 releasebuild = [
-    "@zip"
+    "@zip TheseusServices_{{version}}"
 ]
