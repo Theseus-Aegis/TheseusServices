@@ -64,7 +64,7 @@ class Stage6 {
     uvSource = "none";
 };
 class Stage7 {
-    useWorldEnvMap = true;
+    useWorldEnvMap = "true";
     texture = "A3\data_f\env_land_CA.tga";
     uvSource = "tex";
     class uvTransform {
