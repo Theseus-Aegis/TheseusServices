@@ -51,6 +51,10 @@ release/*
 *.cache
 releases/*
 
+# HEMTT
+hemtt
+hemtt.exe
+
 # Swap
 *.swp
 
