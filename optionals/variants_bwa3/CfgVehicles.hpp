@@ -27,7 +27,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen) {
@@ -55,7 +55,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen2) {
@@ -83,7 +83,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen3) {
@@ -111,7 +111,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen4) {
@@ -139,7 +139,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Black) {
@@ -167,7 +167,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Green) {
@@ -195,7 +195,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tan) {
@@ -223,7 +223,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
         };
     };
@@ -256,7 +256,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
             class CLASS(Tropen) {
                 displayName = "$STR_TACS_Camo_Theseus_Tropen_Fleck";
@@ -284,7 +284,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen2) {
@@ -313,7 +313,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen3) {
@@ -342,7 +342,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen4) {
@@ -371,7 +371,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen5) {
@@ -400,7 +400,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen6) {
@@ -429,7 +429,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen7) {
@@ -458,7 +458,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tropen8) {
@@ -487,7 +487,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Black) {
@@ -516,7 +516,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Green) {
@@ -545,7 +545,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
             class CLASS(Tan) {
@@ -574,7 +574,7 @@ class CfgVehicles {
                     "bwa3_common\data\symbols\1_ca.paa",
                     "#(argb,8,8,3)color(0,0,0,0,co)"
                 };
-                factions[] = {CLASS(IND), CLASS(BLU)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
         };
@@ -603,7 +603,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_Fleck);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Fleck.jpg);
@@ -621,7 +621,7 @@ class CfgVehicles {
     class CLASS(BWA3_B_Eagle_Fleck): CLASS(BWA3_I_Eagle_Fleck) {
         scope = 2;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
 
@@ -636,7 +636,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_FLW100_Fleck);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Fleck.jpg);
@@ -649,7 +649,7 @@ class CfgVehicles {
     class CLASS(BWA3_B_Eagle_FLW100_Fleck): CLASS(BWA3_I_Eagle_FLW100_Fleck) {
         scope = 2;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -660,7 +660,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_Tropen);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Tropen.jpg);
@@ -683,7 +683,7 @@ class CfgVehicles {
     class CLASS(BWA3_B_Eagle_Tropen): CLASS(BWA3_I_Eagle_Tropen) {
         scope = 2;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
 
@@ -698,7 +698,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_FLW100_Tropen);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Tropen.jpg);
@@ -719,7 +719,7 @@ class CfgVehicles {
     class CLASS(BWA3_B_Eagle_FLW100_Tropen): CLASS(BWA3_I_Eagle_FLW100_Tropen) {
         scope = 2;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -730,7 +730,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_Black);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Black.jpg);
@@ -748,7 +748,7 @@ class CfgVehicles {
     class CLASS(BWA3_B_Eagle_Black): CLASS(BWA3_I_Eagle_Black) {
         scope = 2;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
 
@@ -763,7 +763,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_FLW100_Black);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Black.jpg);
@@ -776,7 +776,7 @@ class CfgVehicles {
     class CLASS(BWA3_B_Eagle_FLW100_Black): CLASS(BWA3_I_Eagle_FLW100_Black) {
         scope = 2;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -787,7 +787,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_Green);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Green.jpg);
@@ -805,7 +805,7 @@ class CfgVehicles {
     class CLASS(BWA3_B_Eagle_Green): CLASS(BWA3_I_Eagle_Green) {
         scope = 2;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
 
@@ -820,7 +820,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_FLW100_Green);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Green.jpg);
@@ -833,7 +833,7 @@ class CfgVehicles {
     class CLASS(BWA3_B_Eagle_FLW100_Green): CLASS(BWA3_I_Eagle_FLW100_Green) {
         scope = 2;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -844,7 +844,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_Tan);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_Tan.jpg);
@@ -862,7 +862,7 @@ class CfgVehicles {
     class CLASS(BWA3_B_Eagle_Tan): CLASS(BWA3_I_Eagle_Tan) {
         scope = 2;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
 
@@ -877,7 +877,7 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "BW-Mod, GilleeDoo, Jonpas";
         displayName = CSTRING(Eagle_FLW100_Tan);
         editorPreview = QPATHTOF(UI\BWA3_Eagle_FLW100_Tan.jpg);
@@ -890,7 +890,7 @@ class CfgVehicles {
     class CLASS(BWA3_B_Eagle_FLW100_Tan): CLASS(BWA3_I_Eagle_FLW100_Tan) {
         scope = 2;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };

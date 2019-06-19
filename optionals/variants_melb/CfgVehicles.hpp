@@ -12,7 +12,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Diesel5187 & sykoCrazy, Kresky, Jonpas, Rory";
         displayName = CSTRING(AH6M_H_Theseus_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_H_Black.jpg);
@@ -25,7 +25,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -35,7 +35,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Diesel5187 & sykoCrazy, Kresky, Jonpas, Rory";
         displayName = CSTRING(AH6M_L_Theseus_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_L_Black.jpg);
@@ -48,7 +48,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -58,7 +58,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Diesel5187 & sykoCrazy, Kresky, Jonpas, Rory";
         displayName = CSTRING(AH6M_M_Theseus_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_M_Black.jpg);
@@ -71,7 +71,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -81,7 +81,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Diesel5187 & sykoCrazy, Kresky, Jonpas, Rory";
         displayName = CSTRING(H6M_Theseus_Black);
         editorPreview = QPATHTOF(UI\MELB_H6M_Black.jpg);
@@ -94,7 +94,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -104,7 +104,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Diesel5187 & sykoCrazy, Kresky, Jonpas, Rory";
         displayName = CSTRING(MH6M_Theseus_Black);
         editorPreview = QPATHTOF(UI\MELB_MH6M_Black.jpg);
@@ -117,7 +117,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -129,7 +129,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Diesel5187 & sykoCrazy, Kresky, Jonpas";
         displayName = CSTRING(AH6M_H_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_H_Black.jpg);
@@ -142,7 +142,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -152,7 +152,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Diesel5187 & sykoCrazy, Kresky, Jonpas";
         displayName = CSTRING(AH6M_L_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_L_Black.jpg);
@@ -165,7 +165,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -175,7 +175,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Diesel5187 & sykoCrazy, Kresky, Jonpas";
         displayName = CSTRING(AH6M_M_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_M_Black.jpg);
@@ -188,7 +188,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -198,7 +198,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Diesel5187 & sykoCrazy, Kresky, Jonpas";
         displayName = CSTRING(H6M_Black);
         editorPreview = QPATHTOF(UI\MELB_H6M_Black.jpg);
@@ -211,7 +211,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
@@ -221,7 +221,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = CLASS(IND);
+        faction = QCLASS(IND);
         author = "Diesel5187 & sykoCrazy, Kresky, Jonpas";
         displayName = CSTRING(MH6M_Black);
         editorPreview = QPATHTOF(UI\MELB_MH6M_Black.jpg);
@@ -234,7 +234,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = CLASS(BLU);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
