@@ -1,6 +1,33 @@
 class CfgWeapons {
     class Vest_NoCamo_Base;
 
+    #define MACRO_HEAVYPLATECARRIER_COMMON \
+        dlc = QUOTE(PREFIX); \
+        scope = 2; \
+
+    class V_PlateCarrierGL_rgr;
+    class CLASS(Vest_HeavyPlateCarrier_Black): V_PlateCarrierGL_rgr {
+        MACRO_HEAVYPLATECARRIER_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Vest_HeavyPlateCarrier_Black);
+        //picture = QPATHTOF(UI\vest_platecarrierfull_black_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_heavyplatecarrier_black_co.paa)};
+    };
+    class CLASS(Vest_HeavyPlateCarrier_Coyote): V_PlateCarrierGL_rgr {
+        MACRO_HEAVYPLATECARRIER_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Vest_HeavyPlateCarrier_Coyote);
+        //picture = QPATHTOF(UI\vest_platecarrierfull_coyote_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_heavyplatecarrier_coyote_co.paa)};
+    };
+    class CLASS(Vest_HeavyPlateCarrier_Green): V_PlateCarrierGL_rgr {
+        MACRO_HEAVYPLATECARRIER_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Vest_HeavyPlateCarrier_Green);
+        //picture = QPATHTOF(UI\vest_platecarrierfull_green_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_heavyplatecarrier_green_co.paa)};
+    };
+
     #define MACRO_PLATECARRIERFULL_COMMON \
         dlc = QUOTE(PREFIX); \
         scope = 2; \

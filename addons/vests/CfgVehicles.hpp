@@ -7,6 +7,33 @@ class CfgVehicles {
         vehicleClass = "ItemsVests";
 
     class Vest_Base_F;
+    class CLASS(Item_Vest_HeavyPlateCarrier_Black): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Jonpas";
+        displayName = CSTRING(Vest_HeavyPlateCarrier_Black);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_HeavyPlateCarrier_Black),1);
+        };
+    };
+    class CLASS(Item_Vest_HeavyPlateCarrier_Coyote): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Jonpas";
+        displayName = CSTRING(Vest_HeavyPlateCarrier_Coyote);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_HeavyPlateCarrier_Coyote),1);
+        };
+    };
+    class CLASS(Item_Vest_HeavyPlateCarrier_Green): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Jonpas";
+        displayName = CSTRING(Vest_HeavyPlateCarrier_Green);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_HeavyPlateCarrier_Green),1);
+        };
+    };
     class CLASS(Item_Vest_PlateCarrierFull_Black): Vest_Base_F {
         MACRO_ITEM_COMMON
         author = "Jonpas";
