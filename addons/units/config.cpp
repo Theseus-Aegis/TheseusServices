@@ -124,6 +124,8 @@ class CfgPatches {
             QCLASS(Unit_B_Engineer),
             QCLASS(Unit_I_Medic),
             QCLASS(Unit_B_Medic),
+            QCLASS(Unit_I_Marksman),
+            QCLASS(Unit_B_Marksman),
             QCLASS(Unit_I_Specialist),
             QCLASS(Unit_B_Specialist),
             QCLASS(Unit_I_TeamLeader),
