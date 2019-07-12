@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Vests">
-        <Key ID="STR_TACS_Vests_Vest_HeavyPlateCarrier_Black">
-            <English>Heavy Plate Carrier (Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_HeavyPlateCarrier_Coyote">
-            <English>Heavy Plate Carrier (Coyote)</English>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_HeavyPlateCarrier_Green">
-            <English>Heavy Plate Carrier (Green)</English>
-        </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrierFull_Black">
             <English>Plate Carrier Full (Black)</English>
             <German>Plattenträger, komplett (Schwarz)</German>
@@ -57,6 +48,15 @@
             <German>Plattenträger (Weiß)</German>
             <Japanese>プレート キャリア (白)</Japanese>
             <French>Gilet léger (Blanc)</French>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_Black">
+            <English>Heavy Plate Carrier (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_Coyote">
+            <English>Heavy Plate Carrier (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_Green">
+            <English>Heavy Plate Carrier (Green)</English>
         </Key>
         <Key ID="STR_TACS_Vests_Vest_Tactical_DarkBlack">
             <English>Tactical Vest (Dark Black)</English>
