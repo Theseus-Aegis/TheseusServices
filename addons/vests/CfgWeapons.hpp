@@ -132,6 +132,34 @@ class CfgWeapons {
     };
 
 
+    #define MACRO_PlateCarrierHeavy_COMMON \
+        dlc = QUOTE(PREFIX); \
+        scope = 2; \
+
+    class V_PlateCarrierGL_rgr;
+    class CLASS(Vest_PlateCarrierHeavy_Black): V_PlateCarrierGL_rgr {
+        MACRO_PlateCarrierHeavy_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Vest_PlateCarrierHeavy_Black);
+        picture = QPATHTOF(UI\vest_PlateCarrierHeavy_black_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_PlateCarrierHeavy_black_co.paa)};
+    };
+    class CLASS(Vest_PlateCarrierHeavy_Coyote): V_PlateCarrierGL_rgr {
+        MACRO_PlateCarrierHeavy_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Vest_PlateCarrierHeavy_Coyote);
+        picture = QPATHTOF(UI\vest_PlateCarrierHeavy_coyote_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_PlateCarrierHeavy_coyote_co.paa)};
+    };
+    class CLASS(Vest_PlateCarrierHeavy_Green): V_PlateCarrierGL_rgr {
+        MACRO_PlateCarrierHeavy_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Vest_PlateCarrierHeavy_Green);
+        picture = QPATHTOF(UI\vest_PlateCarrierHeavy_green_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_PlateCarrierHeavy_green_co.paa)};
+    };
+
+
     class Vest_Camo_Base;
     class V_TacVest_khk: Vest_Camo_Base {
         class ItemInfo;

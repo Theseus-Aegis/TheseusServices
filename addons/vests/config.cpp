@@ -4,6 +4,9 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            QCLASS(Item_Vest_HeavyPlateCarrier_Black),
+            QCLASS(Item_Vest_HeavyPlateCarrier_Coyote),
+            QCLASS(Item_Vest_HeavyPlateCarrier_Green),
             QCLASS(Item_Vest_PlateCarrierFull_Black),
             QCLASS(Item_Vest_PlateCarrierFull_Green),
             QCLASS(Item_Vest_PlateCarrier_Black),
@@ -15,6 +18,9 @@ class CfgPatches {
             QCLASS(Item_Vest_Tactical_DarkBlack)
         };
         weapons[] = {
+            QCLASS(Vest_HeavyPlateCarrier_Black),
+            QCLASS(Vest_HeavyPlateCarrier_Coyote),
+            QCLASS(Vest_HeavyPlateCarrier_Green),
             QCLASS(Vest_PlateCarrierFull_Black),
             QCLASS(Vest_PlateCarrierFull_Green),
             QCLASS(Vest_PlateCarrier_Black),

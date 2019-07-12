@@ -49,6 +49,15 @@
             <Japanese>プレート キャリア (白)</Japanese>
             <French>Gilet léger (Blanc)</French>
         </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_Black">
+            <English>Heavy Plate Carrier (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_Coyote">
+            <English>Heavy Plate Carrier (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_Green">
+            <English>Heavy Plate Carrier (Green)</English>
+        </Key>
         <Key ID="STR_TACS_Vests_Vest_Tactical_DarkBlack">
             <English>Tactical Vest (Dark Black)</English>
             <German>Plattenträger (Dunkelschwarz)</German>
