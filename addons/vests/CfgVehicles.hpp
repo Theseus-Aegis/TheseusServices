@@ -7,33 +7,6 @@ class CfgVehicles {
         vehicleClass = "ItemsVests";
 
     class Vest_Base_F;
-    class CLASS(Item_Vest_PlateCarrierHeavy_Black): Vest_Base_F {
-        MACRO_ITEM_COMMON
-        author = "Jonpas";
-        displayName = CSTRING(Vest_PlateCarrierHeavy_Black);
-
-        class TransportItems {
-            MACRO_ADDITEM(CLASS(Vest_PlateCarrierHeavy_Black),1);
-        };
-    };
-    class CLASS(Item_Vest_PlateCarrierHeavy_Coyote): Vest_Base_F {
-        MACRO_ITEM_COMMON
-        author = "Jonpas";
-        displayName = CSTRING(Vest_PlateCarrierHeavy_Coyote);
-
-        class TransportItems {
-            MACRO_ADDITEM(CLASS(Vest_PlateCarrierHeavy_Coyote),1);
-        };
-    };
-    class CLASS(Item_Vest_PlateCarrierHeavy_Green): Vest_Base_F {
-        MACRO_ITEM_COMMON
-        author = "Jonpas";
-        displayName = CSTRING(Vest_PlateCarrierHeavy_Green);
-
-        class TransportItems {
-            MACRO_ADDITEM(CLASS(Vest_PlateCarrierHeavy_Green),1);
-        };
-    };
     class CLASS(Item_Vest_PlateCarrierFull_Black): Vest_Base_F {
         MACRO_ITEM_COMMON
         author = "Jonpas";
@@ -104,6 +77,33 @@ class CfgVehicles {
 
         class TransportItems {
             MACRO_ADDITEM(CLASS(Vest_PlateCarrier_White),1);
+        };
+    };
+    class CLASS(Item_Vest_PlateCarrierHeavy_Black): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Jonpas";
+        displayName = CSTRING(Vest_PlateCarrierHeavy_Black);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_PlateCarrierHeavy_Black),1);
+        };
+    };
+    class CLASS(Item_Vest_PlateCarrierHeavy_Coyote): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Jonpas";
+        displayName = CSTRING(Vest_PlateCarrierHeavy_Coyote);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_PlateCarrierHeavy_Coyote),1);
+        };
+    };
+    class CLASS(Item_Vest_PlateCarrierHeavy_Green): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Jonpas";
+        displayName = CSTRING(Vest_PlateCarrierHeavy_Green);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_PlateCarrierHeavy_Green),1);
         };
     };
     class CLASS(Item_Vest_Tactical_DarkBlack): Vest_Base_F {
