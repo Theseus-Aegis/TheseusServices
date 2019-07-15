@@ -15,7 +15,7 @@ headerexts = [
 ]
 modname = "theseus_services"
 keyname = "{{prefix}}_{{version}}"
-signame = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+signame = "{{prefix}}_{{version}}"
 
 releasebuild = [
     "@zip TheseusServices_{{version}}"
