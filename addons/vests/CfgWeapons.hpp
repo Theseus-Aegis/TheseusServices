@@ -158,6 +158,13 @@ class CfgWeapons {
         picture = QPATHTOF(UI\vest_PlateCarrierHeavy_green_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_PlateCarrierHeavy_green_co.paa)};
     };
+    class CLASS(Vest_PlateCarrierHeavy_White): V_PlateCarrierGL_rgr {
+        MACRO_PlateCarrierHeavy_COMMON
+        author = "Kresky";
+        displayName = CSTRING(Vest_PlateCarrierHeavy_White);
+        picture = QPATHTOF(UI\vest_PlateCarrierHeavy_white_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_PlateCarrierHeavy_white_co.paa)};
+    };
 
 
     class Vest_Camo_Base;

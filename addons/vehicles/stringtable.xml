@@ -19,5 +19,14 @@
             <Japanese>武装オフロード (黒)</Japanese>
             <French>Tout-terrain armé (Noir)</French>
         </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Black">
+            <English>Polaris DAGOR (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Armed_Black">
+            <English>Polaris DAGOR Armed (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_AT_Black">
+            <English>Polaris DAGOR AT (Black)</English>
+        </Key>
     </Package>
 </Project>
