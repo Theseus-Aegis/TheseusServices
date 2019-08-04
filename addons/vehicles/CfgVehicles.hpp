@@ -1,6 +1,7 @@
 class CfgVehicles {
     class B_Heli_Light_01_F;
     class CLASS(Heli_I_MH6_Blue): B_Heli_Light_01_F {
+        MACRO_SET_VEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -27,6 +28,7 @@ class CfgVehicles {
         class EventHandlers;
     };
     class CLASS(Offroad_I_Black): Offroad_01_unarmed_base_F {
+        MACRO_SET_VEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -68,6 +70,7 @@ class CfgVehicles {
         class EventHandlers;
     };
     class CLASS(Offroad_I_Armed_Black): Offroad_01_armed_base_F {
+        MACRO_SET_VEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -104,18 +107,12 @@ class CfgVehicles {
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
 
-    #define MACRO_CLEAR_VEHICLE_CARGO \
-        class TransportBackpacks {}; \
-        class TransportItems {}; \
-        class TransportMagazines {}; \
-        class TransportWeapons {};
-
     class LSV_01_base_F;
     class LSV_01_unarmed_base_F: LSV_01_base_F {
         class EventHandlers;
     };
     class CLASS(Polaris_I_Black): LSV_01_unarmed_base_F {
-        MACRO_CLEAR_VEHICLE_CARGO
+        MACRO_SET_VEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -146,11 +143,54 @@ class CfgVehicles {
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
 
+    class CLASS(Polaris_I_Tan): CLASS(Polaris_I_Black) {
+        scope = 2;
+        displayName = CSTRING(Polaris_Tan);
+        editorPreview = QPATHTOF(UI\Polaris_Tan.jpg);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\polaris_tan_ext01_co.paa),
+            QPATHTOF(data\polaris_tan_ext02_co.paa),
+            QPATHTOF(data\polaris_tan_ext03_co.paa),
+            QPATHTOF(data\polaris_tan_adds_co.paa)
+        };
+    };
+    class CLASS(Polaris_B_Tan): CLASS(Polaris_I_Tan) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = QCLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+    };
+
+    class B_T_LSV_01_unarmed_F;
+    class CLASS(Polaris_I_Green): B_T_LSV_01_unarmed_F {
+        MACRO_SET_VEHICLE_CARGO
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        forceInGarage = 1;
+        side = 2;
+        faction = QCLASS(IND);
+        author = "Kresky";
+        displayName = CSTRING(Polaris_Green);
+        editorPreview = QPATHTOF(UI\Polaris_Green.jpg);
+        crew = QCLASS(Unit_I_Contractor);
+        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+    };
+    class CLASS(Polaris_B_Green): CLASS(Polaris_I_Green) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = QCLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+    };
+
     class LSV_01_armed_base_F: LSV_01_base_F {
         class EventHandlers;
     };
     class CLASS(Polaris_I_Armed_Black): LSV_01_armed_base_F {
-        MACRO_CLEAR_VEHICLE_CARGO
+        MACRO_SET_VEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -181,11 +221,54 @@ class CfgVehicles {
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
 
+    class CLASS(Polaris_I_Armed_Tan): CLASS(Polaris_I_Armed_Black) {
+        scope = 2;
+        displayName = CSTRING(Polaris_Armed_Tan);
+        editorPreview = QPATHTOF(UI\Polaris_Armed_Tan.jpg);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\polaris_tan_ext01_co.paa),
+            QPATHTOF(data\polaris_tan_ext02_co.paa),
+            QPATHTOF(data\polaris_tan_ext03_co.paa),
+            QPATHTOF(data\polaris_tan_adds_co.paa)
+        };
+    };
+    class CLASS(Polaris_B_Armed_Tan): CLASS(Polaris_I_Armed_Tan) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = QCLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+    };
+
+    class B_T_LSV_01_armed_F;
+    class CLASS(Polaris_I_Armed_Green): B_T_LSV_01_armed_F {
+        MACRO_SET_VEHICLE_CARGO
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        forceInGarage = 1;
+        side = 2;
+        faction = QCLASS(IND);
+        author = "Kresky";
+        displayName = CSTRING(Polaris_Armed_Green);
+        editorPreview = QPATHTOF(UI\Polaris_Armed_Green.jpg);
+        crew = QCLASS(Unit_I_Contractor);
+        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+    };
+    class CLASS(Polaris_B_Armed_Green): CLASS(Polaris_I_Armed_Green) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = QCLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+    };
+
     class LSV_01_AT_base_F: LSV_01_base_F {
         class EventHandlers;
     };
     class CLASS(Polaris_I_AT_Black): LSV_01_AT_base_F {
-        MACRO_CLEAR_VEHICLE_CARGO
+        MACRO_SET_VEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -210,6 +293,51 @@ class CfgVehicles {
         };
     };
     class CLASS(Polaris_B_AT_Black): CLASS(Polaris_I_AT_Black) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = QCLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+    };
+
+    class CLASS(Polaris_I_AT_Tan): CLASS(Polaris_I_AT_Black) {
+        scope = 2;
+        displayName = CSTRING(Polaris_AT_Tan);
+        editorPreview = QPATHTOF(UI\Polaris_AT_Tan.jpg);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\polaris_tan_ext01_co.paa),
+            QPATHTOF(data\polaris_tan_ext02_co.paa),
+            QPATHTOF(data\polaris_tan_ext03_co.paa),
+            QPATHTOF(data\polaris_tan_adds_co.paa),
+            QPATHTOF(data\polaris_tan_atlauncher_co.paa),
+            QPATHTOF(data\polaris_tan_attube_co.paa)
+        };
+    };
+    class CLASS(Polaris_B_AT_Tan): CLASS(Polaris_I_AT_Tan) {
+        scope = 2;
+        forceInGarage = 0;
+        side = 1;
+        faction = QCLASS(BLU);
+        crew = QCLASS(Unit_B_Contractor);
+        typicalCargo[] = {QCLASS(Unit_B_Engineer)};
+    };
+
+    class B_T_LSV_01_AT_F;
+    class CLASS(Polaris_I_AT_Green): B_T_LSV_01_AT_F {
+        MACRO_SET_VEHICLE_CARGO
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        forceInGarage = 1;
+        side = 2;
+        faction = QCLASS(IND);
+        author = "Kresky";
+        displayName = CSTRING(Polaris_AT_Green);
+        editorPreview = QPATHTOF(UI\Polaris_AT_Green.jpg);
+        crew = QCLASS(Unit_I_Contractor);
+        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+    };
+    class CLASS(Polaris_B_AT_Green): CLASS(Polaris_I_AT_Green) {
         scope = 2;
         forceInGarage = 0;
         side = 1;

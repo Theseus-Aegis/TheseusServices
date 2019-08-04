@@ -28,5 +28,23 @@
         <Key ID="STR_TACS_Vehicles_Polaris_AT_Black">
             <English>Polaris DAGOR AT (Black)</English>
         </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Tan">
+            <English>Polaris DAGOR (Tan)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Armed_Tan">
+            <English>Polaris DAGOR Armed (Tan)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_AT_Tan">
+            <English>Polaris DAGOR AT (Tan)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Green">
+            <English>Polaris DAGOR (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Armed_Green">
+            <English>Polaris DAGOR Armed (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_AT_Green">
+            <English>Polaris DAGOR AT (Green)</English>
+        </Key>
     </Package>
 </Project>

@@ -60,3 +60,9 @@
         backpack = #BACKPACK; \
         count = COUNT; \
     }
+
+#define MACRO_SET_VEHICLE_CARGO \
+        class TransportBackpacks {}; \
+        class TransportItems {MACRO_ADDITEM(FirstAidKit,4)}; \
+        class TransportMagazines {}; \
+        class TransportWeapons {};
