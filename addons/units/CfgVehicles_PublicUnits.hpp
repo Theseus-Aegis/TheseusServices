@@ -17,6 +17,10 @@ class CLASS(Unit_I_Bodyguard): CLASS(Unit_Polo_CP_LS_TP_OB) {
         QCLASS(Cap_Earpiece_TanLogo), 1
     };
 
+    tacs_allowedFacewear[] = {
+        "G_Shades_Black", 1
+    };
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_unitHeadgear; };";
     };
@@ -43,6 +47,14 @@ class CLASS(Unit_I_Contractor): CLASS(Unit_Polo_TP_LS_TP_TB) {
         QCLASS(Cap_TanLogo), 1,
         QCLASS(Cap_Earpiece_BlackLogo), 1,
         QCLASS(Cap_Earpiece_TanLogo), 1
+    };
+
+    tacs_allowedFacewear[] = {
+        "None", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
     };
 
     class EventHandlers: EventHandlers {
@@ -72,6 +84,14 @@ class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_RS_BS_GP_BB) {
         QCLASS(Cap_TanLogo), 1,
         QCLASS(Cap_Earpiece_BlackLogo), 1,
         QCLASS(Cap_Earpiece_TanLogo), 1
+    };
+
+    tacs_allowedFacewear[] = {
+        "None", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
     };
 
     class EventHandlers: EventHandlers {
@@ -112,6 +132,14 @@ class CLASS(Unit_I_Engineer): CLASS(Unit_Polo_TP_LS_TP_TB) {
         QCLASS(Hat_Boonie_UCP), 1
     };
 
+    tacs_allowedFacewear[] = {
+        "None", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
+    };
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_unitHeadgear; };";
     };
@@ -138,6 +166,14 @@ class CLASS(Unit_I_Medic): CLASS(Unit_Combat_RS_BS_GP_BB) {
     attendant = 1;
     icon = "iconManMedic";
     picture = "pictureHeal";
+
+    tacs_allowedFacewear[] = {
+        "None", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
+    };
 
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_unitHeadgear; };";
@@ -173,6 +209,14 @@ class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_BS_GP_BB) {
         QCLASS(Cap_Backwards_TanLogo), 1
     };
 
+    tacs_allowedFacewear[] = {
+        "None", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
+    };
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_unitHeadgear; };";
     };
@@ -205,6 +249,14 @@ class CLASS(Unit_I_TeamLeader): CLASS(Unit_TShirt_JP_GS_LP_BB) {
             speechSingular[] = {"veh_infantry_officer_s"};
             speechPlural[] = {"veh_infantry_officer_p"};
         };
+    };
+
+    tacs_allowedFacewear[] = {
+        "None", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
     };
 
     class EventHandlers: EventHandlers {
@@ -242,6 +294,14 @@ class CLASS(Unit_I_Marksman): CLASS(Unit_TShirt_JP_GS_LP_BB) {
         QCLASS(Hat_Boonie_UCP), 1
     };
 
+    tacs_allowedFacewear[] = {
+        "None", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
+    };
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_unitHeadgear; };";
     };
@@ -273,6 +333,10 @@ class CLASS(Unit_I_PilotHeli): CLASS(Unit_Combat_RS_BS_GP_BB) {
             speechSingular[] = {"veh_infantry_pilot_s"};
             speechPlural[] = {"veh_infantry_pilot_p"};
         };
+    };
+
+    tacs_allowedFacewear[] = {
+        "None", 1
     };
 };
 class CLASS(Unit_B_PilotHeli): CLASS(Unit_I_PilotHeli) {
@@ -306,6 +370,12 @@ class CLASS(Unit_I_VIP): Civilian_F {
     respawnItems[] = {};
     linkedItems[] = {DEFAULT_ITEMS, "G_Squares_Tinted"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Squares_Tinted"};
+
+    tacs_allowedFacewear[] = {
+        "None", 1,
+        "G_Squares_Tinted", 1,
+        "G_Spectacles_Tinted", 1
+    };
 };
 class CLASS(Unit_B_VIP): CLASS(Unit_I_VIP) {
     scope = 2;
