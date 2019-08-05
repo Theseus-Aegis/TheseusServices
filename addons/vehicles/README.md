@@ -4,4 +4,5 @@ Vehicle retextures.
 
 ### Authors
 
-- [Jonpas](http://github.com/jonpas)
+- [Jonpas](https://github.com/jonpas)
+- [Kresky](https://github.com/Kresky)
