@@ -1,7 +1,7 @@
 class CfgVehicles {
     class B_Heli_Light_01_F;
     class CLASS(Heli_I_MH6_Blue): B_Heli_Light_01_F {
-        MACRO_SET_AIRVEHICLE_CARGO
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -110,7 +110,7 @@ class CfgVehicles {
         class EventHandlers;
     };
     class CLASS(Polaris_I_Black): LSV_01_unarmed_base_F {
-        MACRO_SET_LANDVEHICLE_CARGO
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -163,7 +163,7 @@ class CfgVehicles {
 
     class B_T_LSV_01_unarmed_F;
     class CLASS(Polaris_I_Green): B_T_LSV_01_unarmed_F {
-        MACRO_SET_LANDVEHICLE_CARGO
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -188,7 +188,7 @@ class CfgVehicles {
         class EventHandlers;
     };
     class CLASS(Polaris_I_Armed_Black): LSV_01_armed_base_F {
-        MACRO_SET_LANDVEHICLE_CARGO
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -241,7 +241,7 @@ class CfgVehicles {
 
     class B_T_LSV_01_armed_F;
     class CLASS(Polaris_I_Armed_Green): B_T_LSV_01_armed_F {
-        MACRO_SET_LANDVEHICLE_CARGO
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -266,7 +266,7 @@ class CfgVehicles {
         class EventHandlers;
     };
     class CLASS(Polaris_I_AT_Black): LSV_01_AT_base_F {
-        MACRO_SET_LANDVEHICLE_CARGO
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -323,7 +323,7 @@ class CfgVehicles {
 
     class B_T_LSV_01_AT_F;
     class CLASS(Polaris_I_AT_Green): B_T_LSV_01_AT_F {
-        MACRO_SET_LANDVEHICLE_CARGO
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;

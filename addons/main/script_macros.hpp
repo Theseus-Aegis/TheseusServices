@@ -61,7 +61,7 @@
         count = COUNT; \
     }
 
-#define MACRO_SET_LANDVEHICLE_CARGO \
+#define MACRO_LANDVEHICLE_CARGO \
     class TransportBackpacks {}; \
     class TransportItems { \
         MACRO_ADDITEM(FirstAidKit,8); \
@@ -73,7 +73,7 @@
     }; \
     class TransportWeapons {};
 
-#define MACRO_SET_AIRVEHICLE_CARGO \
+#define MACRO_AIRVEHICLE_CARGO \
     class TransportBackpacks { \
         MACRO_ADDBACKPACK(B_Parachute,2); \
     }; \
