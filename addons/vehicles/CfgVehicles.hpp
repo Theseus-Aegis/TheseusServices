@@ -28,7 +28,6 @@ class CfgVehicles {
         class EventHandlers;
     };
     class CLASS(Offroad_I_Black): Offroad_01_unarmed_base_F {
-        MACRO_SET_VEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -70,7 +69,6 @@ class CfgVehicles {
         class EventHandlers;
     };
     class CLASS(Offroad_I_Armed_Black): Offroad_01_armed_base_F {
-        MACRO_SET_VEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
