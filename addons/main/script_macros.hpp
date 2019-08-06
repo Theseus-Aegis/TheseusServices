@@ -61,8 +61,30 @@
         count = COUNT; \
     }
 
-#define MACRO_SET_VEHICLE_CARGO \
-        class TransportBackpacks {}; \
-        class TransportItems {MACRO_ADDITEM(FirstAidKit,4)}; \
-        class TransportMagazines {}; \
-        class TransportWeapons {};
+#define MACRO_SET_LANDVEHICLE_CARGO \
+    class TransportBackpacks {}; \
+    class TransportItems { \
+        MACRO_ADDITEM(FirstAidKit,8); \
+    }; \
+    class TransportMagazines { \
+        MACRO_ADDMAGAZINE(SmokeShell,6); \
+        MACRO_ADDMAGAZINE(SmokeShellBlue,2); \
+        MACRO_ADDMAGAZINE(SmokeShellRed,2); \
+    }; \
+    class TransportWeapons {};
+
+#define MACRO_SET_AIRVEHICLE_CARGO \
+    class TransportBackpacks { \
+        MACRO_ADDBACKPACK(B_Parachute,2); \
+    }; \
+    class TransportItems { \
+        MACRO_ADDITEM(FirstAidKit,8); \
+        MACRO_ADDITEM(ItemGPS,1); \
+        MACRO_ADDITEM(ToolKit,1); \
+    }; \
+    class TransportMagazines { \
+        MACRO_ADDMAGAZINE(SmokeShell,6); \
+        MACRO_ADDMAGAZINE(SmokeShellBlue,2); \
+        MACRO_ADDMAGAZINE(SmokeShellRed,2); \
+    }; \
+    class TransportWeapons {};
