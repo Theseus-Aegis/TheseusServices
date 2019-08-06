@@ -9,7 +9,25 @@ class CfgPatches {
             QCLASS(Offroad_I_Black),
             QCLASS(Offroad_B_Black),
             QCLASS(Offroad_I_Armed_Black),
-            QCLASS(Offroad_B_Armed_Black)
+            QCLASS(Offroad_B_Armed_Black),
+            QCLASS(Polaris_I_Black),
+            QCLASS(Polaris_B_Black),
+            QCLASS(Polaris_I_Armed_Black),
+            QCLASS(Polaris_B_Armed_Black),
+            QCLASS(Polaris_I_AT_Black),
+            QCLASS(Polaris_B_AT_Black),
+            QCLASS(Polaris_I_Tan),
+            QCLASS(Polaris_B_Tan),
+            QCLASS(Polaris_I_Armed_Tan),
+            QCLASS(Polaris_B_Armed_Tan),
+            QCLASS(Polaris_I_AT_Tan),
+            QCLASS(Polaris_B_AT_Tan),
+            QCLASS(Polaris_I_Green),
+            QCLASS(Polaris_B_Green),
+            QCLASS(Polaris_I_Armed_Green),
+            QCLASS(Polaris_B_Armed_Green),
+            QCLASS(Polaris_I_AT_Green),
+            QCLASS(Polaris_B_AT_Green)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

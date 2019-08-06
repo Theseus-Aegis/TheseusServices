@@ -8,6 +8,7 @@ class CfgVehicles {
 
     // Theseus Black
     class CLASS(MELB_I_AH6M_H_Theseus_Black): MELB_AH6M_H {
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -31,6 +32,7 @@ class CfgVehicles {
     };
 
     class CLASS(MELB_I_AH6M_L_Theseus_Black): MELB_AH6M_L {
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -54,6 +56,7 @@ class CfgVehicles {
     };
 
     class CLASS(MELB_I_AH6M_M_Theseus_Black): MELB_AH6M_M {
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -77,6 +80,7 @@ class CfgVehicles {
     };
 
     class CLASS(MELB_I_H6M_Theseus_Black): MELB_H6M {
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -100,6 +104,7 @@ class CfgVehicles {
     };
 
     class CLASS(MELB_I_MH6M_Theseus_Black): MELB_MH6M {
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -125,6 +130,7 @@ class CfgVehicles {
 
     // Black
     class CLASS(MELB_I_AH6M_H_Black): MELB_AH6M_H {
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -148,6 +154,7 @@ class CfgVehicles {
     };
 
     class CLASS(MELB_I_AH6M_L_Black): MELB_AH6M_L {
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -171,6 +178,7 @@ class CfgVehicles {
     };
 
     class CLASS(MELB_I_AH6M_M_Black): MELB_AH6M_M {
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -194,6 +202,7 @@ class CfgVehicles {
     };
 
     class CLASS(MELB_I_H6M_Black): MELB_H6M {
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -217,6 +226,7 @@ class CfgVehicles {
     };
 
     class CLASS(MELB_I_MH6M_Black): MELB_MH6M {
+        MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;

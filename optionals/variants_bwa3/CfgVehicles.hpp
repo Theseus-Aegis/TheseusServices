@@ -600,6 +600,7 @@ class CfgVehicles {
 
     // Eagle - Flecktarn without German markings
     class CLASS(BWA3_I_Eagle_Fleck): BWA3_Eagle_Fleck {
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
@@ -633,6 +634,7 @@ class CfgVehicles {
     };
 
     class CLASS(BWA3_I_Eagle_FLW100_Fleck): BWA3_Eagle_FLW100_Fleck {
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
@@ -657,6 +659,7 @@ class CfgVehicles {
 
     // Eagle - Tropentarn without German markings
     class CLASS(BWA3_I_Eagle_Tropen): BWA3_Eagle_Tropen {
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
@@ -695,6 +698,7 @@ class CfgVehicles {
     };
 
     class CLASS(BWA3_I_Eagle_FLW100_Tropen): BWA3_Eagle_FLW100_Tropen {
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
@@ -727,6 +731,7 @@ class CfgVehicles {
 
     // Eagle - Black
     class CLASS(BWA3_I_Eagle_Black): BWA3_Eagle_Fleck {
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
@@ -760,6 +765,7 @@ class CfgVehicles {
     };
 
     class CLASS(BWA3_I_Eagle_FLW100_Black): BWA3_Eagle_FLW100_Fleck {
+        MACRO_SET_VEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
@@ -784,6 +790,7 @@ class CfgVehicles {
 
     // Eagle - Green
     class CLASS(BWA3_I_Eagle_Green): BWA3_Eagle_Fleck {
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
@@ -817,6 +824,7 @@ class CfgVehicles {
     };
 
     class CLASS(BWA3_I_Eagle_FLW100_Green): BWA3_Eagle_FLW100_Fleck {
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
@@ -841,6 +849,7 @@ class CfgVehicles {
 
     // Eagle - Tan
     class CLASS(BWA3_I_Eagle_Tan): BWA3_Eagle_Fleck {
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
@@ -874,6 +883,7 @@ class CfgVehicles {
     };
 
     class CLASS(BWA3_I_Eagle_FLW100_Tan): BWA3_Eagle_FLW100_Fleck {
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;

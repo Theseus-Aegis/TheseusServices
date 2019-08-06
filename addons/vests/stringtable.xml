@@ -58,6 +58,9 @@
         <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_Green">
             <English>Heavy Plate Carrier (Green)</English>
         </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_White">
+            <English>Heavy Plate Carrier (White)</English>
+        </Key>
         <Key ID="STR_TACS_Vests_Vest_Tactical_DarkBlack">
             <English>Tactical Vest (Dark Black)</English>
             <German>Plattenträger (Dunkelschwarz)</German>

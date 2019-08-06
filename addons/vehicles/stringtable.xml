@@ -19,5 +19,32 @@
             <Japanese>武装オフロード (黒)</Japanese>
             <French>Tout-terrain armé (Noir)</French>
         </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Black">
+            <English>Polaris DAGOR (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Armed_Black">
+            <English>Polaris DAGOR (XM312) (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_AT_Black">
+            <English>Polaris DAGOR (Mini-Spike AT) (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Tan">
+            <English>Polaris DAGOR (Tan)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Armed_Tan">
+            <English>Polaris DAGOR (XM312) (Tan)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_AT_Tan">
+            <English>Polaris DAGOR (Mini-Spike AT) (Tan)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Green">
+            <English>Polaris DAGOR (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Armed_Green">
+            <English>Polaris DAGOR (XM312) (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_AT_Green">
+            <English>Polaris DAGOR (Mini-Spike AT) (Green)</English>
+        </Key>
     </Package>
 </Project>
