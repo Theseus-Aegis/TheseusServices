@@ -765,7 +765,7 @@ class CfgVehicles {
     };
 
     class CLASS(BWA3_I_Eagle_FLW100_Black): BWA3_Eagle_FLW100_Fleck {
-        MACRO_SET_VEHICLE_CARGO
+        MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
         side = 2;
