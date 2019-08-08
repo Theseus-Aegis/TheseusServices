@@ -6,6 +6,7 @@ class CfgVehicles {
         scopeCurator = 2; \
         vehicleClass = "ItemsVests";
 
+    // Plate Carrier Full
     class Vest_Base_F;
     class CLASS(Item_Vest_PlateCarrierFull_Black): Vest_Base_F {
         MACRO_ITEM_COMMON
@@ -25,6 +26,8 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Vest_PlateCarrierFull_Green),1);
         };
     };
+
+    // Plate Carrier
     class CLASS(Item_Vest_PlateCarrier_Black): Vest_Base_F {
         MACRO_ITEM_COMMON
         author = "Jonpas";
@@ -79,6 +82,8 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Vest_PlateCarrier_White),1);
         };
     };
+
+    // Plate Carrier Heavy
     class CLASS(Item_Vest_PlateCarrierHeavy_Black): Vest_Base_F {
         MACRO_ITEM_COMMON
         author = "Kresky";
@@ -115,6 +120,8 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Vest_PlateCarrierHeavy_White),1);
         };
     };
+
+    // Tactical
     class CLASS(Item_Vest_Tactical_DarkBlack): Vest_Base_F {
         MACRO_ITEM_COMMON
         author = "Jonpas";
