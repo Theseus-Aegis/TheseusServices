@@ -113,6 +113,7 @@ class CfgVehicles {
         MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
+        scopeCurator = 2;
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
@@ -191,6 +192,7 @@ class CfgVehicles {
         MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
+        scopeCurator = 2;
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
@@ -269,6 +271,7 @@ class CfgVehicles {
         MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
+        scopeCurator = 2;
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
