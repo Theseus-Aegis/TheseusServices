@@ -17,7 +17,7 @@ class CLASS(Unit_I_Bodyguard): CLASS(Unit_Polo_CP_LS_TP_OB) {
         QCLASS(Cap_Earpiece_TanLogo), 1
     };
 
-    CBA_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "G_Shades_Black", 1
     };
 
@@ -49,7 +49,7 @@ class CLASS(Unit_I_Contractor): CLASS(Unit_Polo_TP_LS_TP_TB) {
         QCLASS(Cap_Earpiece_TanLogo), 1
     };
 
-    CBA_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "", 0.5,
         "G_Shades_Black", 0.25,
         "G_Shades_Blue", 0.25,
@@ -86,7 +86,7 @@ class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_RS_BS_GP_BB) {
         QCLASS(Cap_Earpiece_TanLogo), 1
     };
 
-    CBA_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "", 0.5,
         "G_Shades_Black", 0.25,
         "G_Shades_Blue", 0.25,
@@ -132,7 +132,7 @@ class CLASS(Unit_I_Engineer): CLASS(Unit_Polo_TP_LS_TP_TB) {
         QCLASS(Hat_Boonie_UCP), 1
     };
 
-    CBA_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "", 0.5,
         "G_Shades_Black", 0.25,
         "G_Shades_Blue", 0.25,
@@ -167,7 +167,7 @@ class CLASS(Unit_I_Medic): CLASS(Unit_Combat_RS_BS_GP_BB) {
     icon = "iconManMedic";
     picture = "pictureHeal";
 
-    CBA_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "", 0.5,
         "G_Shades_Black", 0.25,
         "G_Shades_Blue", 0.25,
@@ -209,7 +209,7 @@ class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_BS_GP_BB) {
         QCLASS(Cap_Backwards_TanLogo), 1
     };
 
-    CBA_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "", 0.5,
         "G_Shades_Black", 0.25,
         "G_Shades_Blue", 0.25,
@@ -251,7 +251,7 @@ class CLASS(Unit_I_TeamLeader): CLASS(Unit_TShirt_JP_GS_LP_BB) {
         };
     };
 
-    CBA_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "", 0.5,
         "G_Shades_Black", 0.25,
         "G_Shades_Blue", 0.25,
@@ -294,7 +294,7 @@ class CLASS(Unit_I_Marksman): CLASS(Unit_TShirt_JP_GS_LP_BB) {
         QCLASS(Hat_Boonie_UCP), 1
     };
 
-    CBA_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "", 0.5,
         "G_Shades_Black", 0.25,
         "G_Shades_Blue", 0.25,
@@ -335,7 +335,7 @@ class CLASS(Unit_I_PilotHeli): CLASS(Unit_Combat_RS_BS_GP_BB) {
         };
     };
 
-    CBA_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "", 1
     };
 };
@@ -371,7 +371,7 @@ class CLASS(Unit_I_VIP): Civilian_F {
     linkedItems[] = {DEFAULT_ITEMS, "G_Squares_Tinted"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Squares_Tinted"};
 
-    CBA_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "", 1,
         "G_Squares_Tinted", 1,
         "G_Spectacles_Tinted", 1
