@@ -9,12 +9,16 @@ class CLASS(Unit_I_Bodyguard): CLASS(Unit_Polo_CP_LS_TP_OB) {
     respawnWeapons[] = {"SMG_02_ACO_F", "hgun_P07_F", "Binocular", "Throw", "Put"};
     magazines[] = {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
     respawnMagazines[] = {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-    linkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+    linkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_Earpiece_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_Earpiece_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
 
     headgearList[] = {
         QCLASS(Cap_Earpiece_BlackLogo), 1,
         QCLASS(Cap_Earpiece_TanLogo), 1
+    };
+
+    CBA_facewearList[] = {
+        "G_Shades_Black", 1
     };
 
     class EventHandlers: EventHandlers {
@@ -35,14 +39,22 @@ class CLASS(Unit_I_Contractor): CLASS(Unit_Polo_TP_LS_TP_TB) {
     respawnWeapons[] = {QCLASS(MX_BlackCamo), "hgun_P07_F", "Binocular", "Throw", "Put"};
     magazines[] = {ITEMS_8(30Rnd_65x39_caseless_mag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
     respawnMagazines[] = {ITEMS_8(30Rnd_65x39_caseless_mag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
-    linkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_PlateCarrier_MARPAT)};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_PlateCarrier_MARPAT)};
+    linkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_BlackLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrier_MARPAT)};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_BlackLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrier_MARPAT)};
 
     headgearList[] = {
         QCLASS(Cap_BlackLogo), 1,
         QCLASS(Cap_TanLogo), 1,
         QCLASS(Cap_Earpiece_BlackLogo), 1,
         QCLASS(Cap_Earpiece_TanLogo), 1
+    };
+
+    CBA_facewearList[] = {
+        "", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
     };
 
     class EventHandlers: EventHandlers {
@@ -64,14 +76,22 @@ class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_RS_BS_GP_BB) {
     respawnWeapons[] = {QCLASS(MX_BlackCamo), "hgun_P07_F", "Binocular", "Throw", "Put"};
     magazines[] = {ITEMS_5(30Rnd_65x39_caseless_mag), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", ITEMS_3(1Rnd_HE_Grenade_shell), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_2(HandGrenade)};
     respawnMagazines[] = {ITEMS_5(30Rnd_65x39_caseless_mag), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", ITEMS_3(1Rnd_HE_Grenade_shell), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_2(HandGrenade)};
-    linkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+    linkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
 
     headgearList[] = {
         QCLASS(Cap_BlackLogo), 1,
         QCLASS(Cap_TanLogo), 1,
         QCLASS(Cap_Earpiece_BlackLogo), 1,
         QCLASS(Cap_Earpiece_TanLogo), 1
+    };
+
+    CBA_facewearList[] = {
+        "", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
     };
 
     class EventHandlers: EventHandlers {
@@ -93,8 +113,8 @@ class CLASS(Unit_I_Engineer): CLASS(Unit_Polo_TP_LS_TP_TB) {
     respawnWeapons[] = {QCLASS(MX_BlackCamo_MRCO), "hgun_P07_F", "Binocular", "Throw", "Put"};
     magazines[] = {ITEMS_12(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
     respawnMagazines[] = {ITEMS_12(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-    linkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
+    linkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_Backwards_BlackLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_Backwards_BlackLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
     backpack = QCLASS(Backpack_AssaultExpanded_Green_ExplosivesTechnician_Filled);
 
     engineer = 1;
@@ -110,6 +130,14 @@ class CLASS(Unit_I_Engineer): CLASS(Unit_Polo_TP_LS_TP_TB) {
         QCLASS(Hat_Boonie_DesertMARPAT), 1,
         QCLASS(Hat_Boonie_Woodland), 1,
         QCLASS(Hat_Boonie_UCP), 1
+    };
+
+    CBA_facewearList[] = {
+        "", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
     };
 
     class EventHandlers: EventHandlers {
@@ -131,13 +159,21 @@ class CLASS(Unit_I_Medic): CLASS(Unit_Combat_RS_BS_GP_BB) {
     respawnWeapons[] = {"SMG_02_ACO_F", "hgun_P07_F", "Binocular", "Throw", "Put"};
     magazines[] = {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", ITEMS_2(HandGrenade)};
     respawnMagazines[] = {ITEMS_9(30Rnd_9x21_Mag), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", ITEMS_2(HandGrenade)};
-    linkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Helmet_Ballistic_DarkBlack), QCLASS(Vest_Tactical_DarkBlack)};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Helmet_Ballistic_DarkBlack), QCLASS(Vest_Tactical_DarkBlack)};
+    linkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
     backpack = QCLASS(Backpack_Kitbag_DarkBlack_Medic_Filled);
 
     attendant = 1;
     icon = "iconManMedic";
     picture = "pictureHeal";
+
+    CBA_facewearList[] = {
+        "", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
+    };
 
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_unitHeadgear; };";
@@ -158,8 +194,8 @@ class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_BS_GP_BB) {
     respawnWeapons[] = {"LMG_Mk200_MRCO_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
     magazines[] = {"200Rnd_65x39_cased_Box_Tracer", ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
     respawnMagazines[] = {"200Rnd_65x39_cased_Box_Tracer", ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-    linkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_PlateCarrierFull_Black)};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_PlateCarrierFull_Black)};
+    linkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_BlackLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrierFull_Black)};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_BlackLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrierFull_Black)};
     backpack = QCLASS(Backpack_AssaultExpanded_Green_Specialist_Filled);
 
     icon = "iconManMG";
@@ -171,6 +207,14 @@ class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_BS_GP_BB) {
         QCLASS(Cap_Earpiece_TanLogo), 1,
         QCLASS(Cap_Backwards_BlackLogo), 1,
         QCLASS(Cap_Backwards_TanLogo), 1
+    };
+
+    CBA_facewearList[] = {
+        "", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
     };
 
     class EventHandlers: EventHandlers {
@@ -192,8 +236,8 @@ class CLASS(Unit_I_TeamLeader): CLASS(Unit_TShirt_JP_GS_LP_BB) {
     respawnWeapons[] = {QCLASS(MX_BlackCamo_MRCO), "hgun_Rook40_F", "Binocular", "Throw", "Put"};
     magazines[] = {ITEMS_11(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
     respawnMagazines[] = {ITEMS_11(30Rnd_65x39_caseless_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-    linkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Cap_Headphones_BlackLogo), QCLASS(Vest_PlateCarrier_Khaki)};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Cap_Headphones_BlackLogo), QCLASS(Vest_PlateCarrier_Khaki)};
+    linkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_Headphones_BlackLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Khaki)};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_Headphones_BlackLogo), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Khaki)};
 
     icon = "iconManLeader";
     textSingular = "$STR_A3_nameSound_veh_infantry_officer_s";
@@ -205,6 +249,14 @@ class CLASS(Unit_I_TeamLeader): CLASS(Unit_TShirt_JP_GS_LP_BB) {
             speechSingular[] = {"veh_infantry_officer_s"};
             speechPlural[] = {"veh_infantry_officer_p"};
         };
+    };
+
+    CBA_facewearList[] = {
+        "", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
     };
 
     class EventHandlers: EventHandlers {
@@ -226,8 +278,8 @@ class CLASS(Unit_I_Marksman): CLASS(Unit_TShirt_JP_GS_LP_BB) {
     respawnWeapons[] = {"srifle_EBR_SOS_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
     magazines[] = {ITEMS_6(20Rnd_762x51_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
     respawnMagazines[] = {ITEMS_6(20Rnd_762x51_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-    linkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+    linkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Cap_BlackLogo), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
 
     headgearList[] = {
         QCLASS(Cap_BlackLogo), 1,
@@ -240,6 +292,14 @@ class CLASS(Unit_I_Marksman): CLASS(Unit_TShirt_JP_GS_LP_BB) {
         QCLASS(Hat_Boonie_DesertMARPAT), 1,
         QCLASS(Hat_Boonie_Woodland), 1,
         QCLASS(Hat_Boonie_UCP), 1
+    };
+
+    CBA_facewearList[] = {
+        "", 0.5,
+        "G_Shades_Black", 0.25,
+        "G_Shades_Blue", 0.25,
+        "G_Shades_Green", 0.25,
+        "G_Shades_Red", 0.25
     };
 
     class EventHandlers: EventHandlers {
@@ -274,6 +334,10 @@ class CLASS(Unit_I_PilotHeli): CLASS(Unit_Combat_RS_BS_GP_BB) {
             speechPlural[] = {"veh_infantry_pilot_p"};
         };
     };
+
+    CBA_facewearList[] = {
+        "", 1
+    };
 };
 class CLASS(Unit_B_PilotHeli): CLASS(Unit_I_PilotHeli) {
     scope = 2;
@@ -306,6 +370,12 @@ class CLASS(Unit_I_VIP): Civilian_F {
     respawnItems[] = {};
     linkedItems[] = {DEFAULT_ITEMS, "G_Squares_Tinted"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Squares_Tinted"};
+
+    CBA_facewearList[] = {
+        "", 1,
+        "G_Squares_Tinted", 1,
+        "G_Spectacles_Tinted", 1
+    };
 };
 class CLASS(Unit_B_VIP): CLASS(Unit_I_VIP) {
     scope = 2;
