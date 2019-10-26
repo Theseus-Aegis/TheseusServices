@@ -1,6 +1,6 @@
 class CfgWeapons {
-    class arifle_MX_F;
-    class CLASS(MX_BlackCamo): arifle_MX_F {
+    class arifle_MX_Black_F;
+    class CLASS(MX_BlackCamo): arifle_MX_Black_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "BadHabitz, Jonpas";
@@ -14,8 +14,8 @@ class CfgWeapons {
         baseWeapon = QCLASS(MX_BlackCamo);
     };
 
-    class arifle_MX_GL_F;
-    class CLASS(MX_GL_BlackCamo): arifle_MX_GL_F {
+    class arifle_MX_GL_Black_F;
+    class CLASS(MX_GL_BlackCamo): arifle_MX_GL_Black_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
         author = "BadHabitz, Jonpas";
