@@ -8,16 +8,16 @@
             <French>[TACS] Armes</French>
         </Key>
         <Key ID="STR_TACS_Weapons_MX_BlackCamo">
-            <English>MX 6.5 mm (Black Camo)</English>
-            <German>MX 6,5 mm (Schwarz Tarnfleck)</German>
-            <Japanese>MX 6.5 mm (黒)</Japanese>
-            <French>MX 6.5 mm (Camo Noir)</French>
+            <English>MX (Black Camo)</English>
+            <German>MX (Schwarz Tarnfleck)</German>
+            <Japanese>MX (黒)</Japanese>
+            <French>MX (Camo Noir)</French>
         </Key>
         <Key ID="STR_TACS_Weapons_MX_GL_BlackCamo">
-            <English>MX 3GL 6.5 mm (Black Camo)</English>
-            <German>MX 3GL 6,5 mm (Schwarz Tarnfleck)</German>
-            <Japanese>MX 3GL 6,5 mm (黒)</Japanese>
-            <French>MX 3GL 6.5 mm (Camo Noir)</French>
+            <English>MX 3GL (Black Camo)</English>
+            <German>MX 3GL (Schwarz Tarnfleck)</German>
+            <Japanese>MX 3GL (黒)</Japanese>
+            <French>MX 3GL (Camo Noir)</French>
         </Key>
         <Key ID="STR_TACS_Weapons_Walther_P99">
             <English>Walther P99</English>
