@@ -1,6 +1,6 @@
 # About
 
-Replaces unit's vanilla weapons with APEX weapons.
+Replaces unit's base Arma 3 weapons with Arma 3 Apex weapons.
 
 ### Authors
 
