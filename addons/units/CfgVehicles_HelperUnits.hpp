@@ -550,7 +550,6 @@ class CLASS(Unit_Garment_RS_TS_BP_BB): CLASS(Unit_Garment_RS_Base) {
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_garment_ts_bp_bb_co.paa)};
 };
 
-
 // Polo - Tactical Pants
 class B_RangeMaster_F;
 class CLASS(Unit_Polo_TP_Base): B_RangeMaster_F {

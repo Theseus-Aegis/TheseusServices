@@ -8,6 +8,14 @@ class CfgWorlds {
                 thomas = "Thomas";
                 brent = "Brent";
                 cory = "Cory";
+                tyrone = "Tyrone";
+                jack = "Jack";
+                tim = "Tim";
+                earth = "Earth";
+                josuan = "Josuan";
+                kelly = "Kelly";
+                mick = "Mick";
+                rory = "Rory";
             };
             class LastNames {
                 james = "James";
@@ -16,6 +24,14 @@ class CfgWorlds {
                 mueller = "Müller";
                 knyte = "Knyte";
                 larose = "Larose";
+                woods = "Woods";
+                laird = "Laird";
+                dau = "Dau";
+                kuma = "Kuma";
+                albin = "Albin";
+                gingras = "Gingras";
+                mathews = "Mathews";
+                guldentops = "Guldentops";
             };
         };
     };

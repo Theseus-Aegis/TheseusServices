@@ -60,4 +60,26 @@ class CfgWeapons {
             };
         };
     };
+
+    class CLASS(MX_BlackCamo_ACO): CLASS(MX_BlackCamo) {
+        scope = 1;
+
+        class LinkedItems {
+            class LinkedItemsOptics {
+                slot = "CowsSlot";
+                item = "optic_aco";
+            };
+        };
+    };
+
+    class CLASS(MX_BlackCamo_GL_ACO): CLASS(MX_GL_BlackCamo) {
+        scope = 1;
+
+        class LinkedItems {
+            class LinkedItemsOptics {
+                slot = "CowsSlot";
+                item = "optic_aco";
+            };
+        };
+    };
 };
