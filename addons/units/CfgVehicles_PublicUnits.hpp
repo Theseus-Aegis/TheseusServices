@@ -128,10 +128,10 @@ class CLASS(Unit_I_Engineer): CLASS(Unit_Combat_RS_GS_BP_BB) {
     picture = "pictureRepair";
 
     headgearList[] = {
-        "H_HelmetSpecB", 1,
-        "H_HelmetB", 1,
         QCLASS(Cap_Earpiece_TanLogo), 1,
-        QCLASS(Cap_TanLogo), 1
+        QCLASS(Cap_TanLogo), 1,
+        "H_HelmetSpecB", 1,
+        "H_HelmetB", 1
     };
 
     CBA_facewearList[] = {
@@ -211,11 +211,11 @@ class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_GS_BP_BB) {
     icon = "iconManMG";
 
     headgearList[] = {
-        "H_HelmetB", 1,
-        "H_HelmetSpecB", 1,
         QCLASS(H_Cap_headphones), 1,
         QCLASS(H_Watchcap_camo), 1,
-        QCLASS(Cap_BlackLogo), 1
+        QCLASS(Cap_BlackLogo), 1,
+        "H_HelmetB", 1,
+        "H_HelmetSpecB", 1
     };
 
     CBA_facewearList[] = {
