@@ -64,5 +64,8 @@
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Tan">
             <English>Kitbag Medic (Tan)</English>
         </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_RGR">
+            <English>Kitbag Medic (RGR)</English>
+        </Key>
     </Package>
 </Project>
