@@ -72,7 +72,7 @@ class CfgWeapons {
         };
     };
 
-    class CLASS(MX_BlackCamo_GL_ACO): CLASS(MX_GL_BlackCamo) {
+    class CLASS(MX_GL_BlackCamo_ACO): CLASS(MX_GL_BlackCamo) {
         scope = 1;
 
         class LinkedItems {
