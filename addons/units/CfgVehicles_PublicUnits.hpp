@@ -20,7 +20,7 @@ class CLASS(Unit_I_Bodyguard): CLASS(Unit_Polo_TP_BS_TP_TB) {
     CBA_facewearList[] = {
         "G_Shades_Black", 0.30,
         "G_Aviator", 0.30,
-        "G_Spectacles_Tinted", 0.30,
+        "G_Spectacles_Tinted", 0.30
     };
 
     class EventHandlers: EventHandlers {
