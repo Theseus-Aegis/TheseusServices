@@ -41,7 +41,7 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
     crewCrashProtection = 0.25;
     displayName = "GT SUV Base";
     hiddenSelections[] = {"camo"};
-    HiddenSelectionsTextures[] = {"\x\tacs\addons\arcadian\data\arcadian_body_black_co.paa"};
+    HiddenSelectionsTextures[] = {QPATHTOF(data\arcadian_body_black_co.paa)};
 
     // Damage & Hitpoints
     class HitPoints: HitPoints {
@@ -199,6 +199,7 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
                 factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
+
             class CLASS(Green) {
                 displayName = "Theseus Green";
                 author = "CUP, GilleeDoo, TyroneMF";
@@ -213,6 +214,7 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
         displayName = "GT Arcadian Black";
         crew = "tacs_Unit_B_Contractor";
         typicalCargo[] = {"Unit_B_Contractor"};
+        HiddenSelectionsTextures[] = {QPATHTOF(data\arcadian_body_black_co.paa)};
         side = 1;
         faction = QCLASS(BLU);
         accuracy = 0.5;
@@ -229,12 +231,14 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
     class CLASS(Arcadian_B_SUV_Tan): CLASS(Arcadian_B_SUV) {
         displayName = "GT Arcadian Tan";
         editorPreview = QPATHTOF(ui\Arcadian_B_SUV_Tan.jpg);
+        HiddenSelectionsTextures[] = {QPATHTOF(data\arcadian_body_earth_co.paa)};
         textureList[] = {QCLASS(Tan), 1};
     };
 
     class CLASS(Arcadian_B_SUV_Green): CLASS(Arcadian_B_SUV) {
         displayName = "GT Arcadian Green";
         editorPreview = QPATHTOF(ui\Arcadian_B_SUV_Green.jpg);
+        HiddenSelectionsTextures[] = {QPATHTOF(data\arcadian_body_foliage_co.paa)};
         textureList[] = {QCLASS(Green), 1};
     };
 
