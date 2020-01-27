@@ -40,8 +40,9 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
     armor = 90;
     crewCrashProtection = 0.25;
     displayName = "GT SUV Base";
-    hiddenSelections[] = { "camo" };
+    hiddenSelections[] = {"camo"};
     HiddenSelectionsTextures[] = { "\x\tacs\addons\arcadian\data\arcadian_body_black_co.paa" };
+
     // Damage & Hitpoints
     class HitPoints: HitPoints {
         class HitLFWheel: HitLFWheel {
@@ -118,7 +119,7 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
     soundEngineOffInt[] = { "A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_stop",0.501187,1 };
     soundEngineOffExt[] = { "A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_stop",1.99526,1,50 };
 
-#include "sounds.hpp"
+    #include "sounds.hpp"
 
     thrustDelay = 0.1;
     brakeIdleSpeed = 1.78;
@@ -126,7 +127,8 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
     fuelCapacity = 45;
     idleRpm = 800;
     redRpm = 4500;
-    // Source, Vanilla Hunter
+
+    // Source: Vanilla Hunter
     class complexGearbox {
         GearboxRatios[] = { "R1",-4,"N",0,"D1","4.5*(0.58^0)","D2","4.2*(0.58^1)","D3","4.0*(0.58^2)","D4","3.8*(0.58^3)","D5","3.6*(0.59^4)","D6","3.4*(0.6^5)" };
         TransmissionRatios[] = { "High",5.539 };
