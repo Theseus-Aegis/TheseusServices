@@ -41,7 +41,7 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
     crewCrashProtection = 0.25;
     displayName = "GT SUV Base";
     hiddenSelections[] = {"camo"};
-    HiddenSelectionsTextures[] = { "\x\tacs\addons\arcadian\data\arcadian_body_black_co.paa" };
+    HiddenSelectionsTextures[] = {"\x\tacs\addons\arcadian\data\arcadian_body_black_co.paa"};
 
     // Damage & Hitpoints
     class HitPoints: HitPoints {
@@ -130,8 +130,8 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
 
     // Source: Vanilla Hunter
     class complexGearbox {
-        GearboxRatios[] = { "R1",-4,"N",0,"D1","4.5*(0.58^0)","D2","4.2*(0.58^1)","D3","4.0*(0.58^2)","D4","3.8*(0.58^3)","D5","3.6*(0.59^4)","D6","3.4*(0.6^5)" };
-        TransmissionRatios[] = { "High",5.539 };
+        GearboxRatios[] = {"R1",-4,"N",0,"D1","4.5*(0.58^0)","D2","4.2*(0.58^1)","D3","4.0*(0.58^2)","D4","3.8*(0.58^3)","D5","3.6*(0.59^4)","D6","3.4*(0.6^5)"};
+        TransmissionRatios[] = {"High",5.539};
         gearUpMaxCoef = 0.94999999;
         gearDownMaxCoef = 0.85000002;
         gearUpMinCoef = 0.64999998;
@@ -145,7 +145,7 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
     dampingRateFullThrottle = 0.079999998;
     dampingRateZeroThrottleClutchEngaged = 0.5;
     dampingRateZeroThrottleClutchDisengaged = 0.34999999;
-    torqueCurve[] = { { "(0/3500)","(0/425)" }, { "(500/3500)","(200/425)" }, { "(1500/3500)","(405/425)" }, { "(2000/3500)","(425/425)" }, { "(2500/3500)","(350/425)" }, { "(3000/3500)","(300/425)" }, { "(6000/3500)","(0/425)" } };
+    torqueCurve[] = {{"(0/3500)","(0/425)"}, {"(500/3500)","(200/425)"}, {"(1500/3500)","(405/425)"}, {"(2000/3500)","(425/425)"}, {"(2500/3500)","(350/425)"}, {"(3000/3500)","(300/425)"}, {"(6000/3500)","(0/425)"}};
     changeGearMinEffectivity[] = {0.94999999,0.15000001,0.94999999,0.94999999,0.94999999,0.94999999,0.94999999}; // Default {1,0.15000001,1,1,1,1,1,1};
     switchTime =  0.31;
     latency =  1.5;
@@ -153,85 +153,114 @@ class CLASS(SUV_Base): CUP_SUV_Unarmed_Base {
 
     class CargoTurret;
     class Turrets: Turrets {
-    delete CargoTurret_03;
-    delete CargoTurret_04;
-    delete CargoTurret_05;
-    delete CargoTurret_06;
-    delete CargoTurret_07;
-    delete CargoTurret_08;
+        delete CargoTurret_03;
+        delete CargoTurret_04;
+        delete CargoTurret_05;
+        delete CargoTurret_06;
+        delete CargoTurret_07;
+        delete CargoTurret_08;
         class CargoTurret_09: CargoTurret {
-        minElev = -10;
-        maxElev = 18;
-        maxTurn = -10;
-        minTurn = -110;
-        gunnerAction = "passenger_boat_4";
-        gunnerName = "Rear Gunner";
-        proxyIndex = 13;
-        isPersonTurret = 1;
-        memoryPointsGetInGunner = "pos cargo rear";
-        memoryPointsGetInGunnerDir = "pos cargo dir rear";
-        memoryPointGunnerOptics = "";
-        gunnerOutOpticsModel = "";
-        gunnerOpticsModel = "";
-        enabledByAnimationSource = "rear_window_source";
-        usepip = 0;
-        startEngine = 0;
-        outGunnerMayFire = 1;
-        inGunnerMayFire = 0;
-        commanding = -2;
+            minElev = -10;
+            maxElev = 18;
+            maxTurn = -10;
+            minTurn = -110;
+            gunnerAction = "passenger_boat_4";
+            gunnerName = "Rear Gunner";
+            proxyIndex = 13;
+            isPersonTurret = 1;
+            memoryPointsGetInGunner = "pos cargo rear";
+            memoryPointsGetInGunnerDir = "pos cargo dir rear";
+            memoryPointGunnerOptics = "";
+            gunnerOutOpticsModel = "";
+            gunnerOpticsModel = "";
+            enabledByAnimationSource = "rear_window_source";
+            usepip = 0;
+            startEngine = 0;
+            outGunnerMayFire = 1;
+            inGunnerMayFire = 0;
+            commanding = -2;
         };
     };
 };
 
     class CLASS(Arcadian_B_SUV): CLASS(SUV_Base) {
+        class TextureSources {
+            class CLASS(Black) {
+                displayName = "Theseus Black";
+                author = "CUP, GilleeDoo, TyroneMF";
+                textures[] = {QPATHTOF(data\arcadian_body_black_co.paa)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
+            };
+
+            class CLASS(Tan) {
+                displayName = "Theseus Tan";
+                author = "CUP, GilleeDoo, TyroneMF";
+                textures[] = {QPATHTOF(data\arcadian_body_earth_co.paa)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
+            };
+
+            class CLASS(Green) {
+                displayName = "Theseus Green";
+                author = "CUP, GilleeDoo, TyroneMF";
+                texture[] = {QPATHTOF(data\arcadian_body_foliage_co.paa)};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
+            };
+        };
+
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
         displayName = "GT Arcadian Black";
         crew = "tacs_Unit_B_Contractor";
-        typicalCargo[] = { "Unit_B_Contractor" };
+        typicalCargo[] = {"Unit_B_Contractor"};
         side = 1;
-        faction = "TACS_BLU";
-        HiddenSelectionsTextures[] = { "\x\tacs\addons\arcadian\data\arcadian_body_black_co.paa" };
+        faction = QCLASS(BLU);
         accuracy = 0.5;
         author = "Tyrone, Gilleedoo";
-        editorPreview = "\x\tacs\addons\arcadian\ui\Arcadian_B_SUV.jpg";
-        class TransportWeapons { };
-        class TransportMagazines { };
+        editorPreview = QPATHTOF(ui\Arcadian_B_SUV.jpg);
+        class TransportWeapons {};
+        class TransportMagazines {};
         maximumLoad = 2500;
-        class TransportItems { };
-        class TransportBackpacks { };
+        class TransportItems {};
+        class TransportBackpacks {};
+        textureList[] = {QCLASS(Black), 1};
     };
 
     class CLASS(Arcadian_B_SUV_Tan): CLASS(Arcadian_B_SUV) {
         displayName = "GT Arcadian Tan";
-        HiddenSelectionsTextures[] = { "\x\tacs\addons\arcadian\data\arcadian_body_earth_co.paa" };
-        editorPreview = "\x\tacs\addons\arcadian\ui\Arcadian_B_SUV_Tan.jpg";
+        editorPreview = QPATHTOF(ui\Arcadian_B_SUV_Tan.jpg);
+        textureList[] = {QCLASS(Tan), 1};
     };
 
     class CLASS(Arcadian_B_SUV_Green): CLASS(Arcadian_B_SUV) {
         displayName = "GT Arcadian Green";
-        HiddenSelectionsTextures[] = { "\x\tacs\addons\arcadian\data\arcadian_body_foliage_co.paa" };
-        editorPreview = "\x\tacs\addons\arcadian\ui\Arcadian_B_SUV_Green.jpg";
+        editorPreview = QPATHTOF(ui\Arcadian_B_SUV_Green.jpg);
+        textureList[] = {QCLASS(Green), 1};
     };
 
     class CLASS(Arcadian_I_SUV_Black): CLASS(Arcadian_B_SUV) {
         displayName = "GT Arcadian Black";
         crew = "tacs_Unit_I_Contractor";
-        typicalCargo[] = { "Unit_I_Contractor" };
+        typicalCargo[] = {"Unit_I_Contractor"};
         side = 2;
-        faction = "TACS_IND";
+        faction = QCLASS(IND);
     };
 
-    class CLASS(Arcadian_I_SUV_Tan): CLASS(Arcadian_I_SUV_Black) {
+    class CLASS(Arcadian_I_SUV_Tan): CLASS(Arcadian_B_SUV_Tan) {
         displayName = "GT Arcadian Tan";
-        HiddenSelectionsTextures[] = { "\x\tacs\addons\arcadian\data\arcadian_body_earth_co.paa" };
-        editorPreview = "\x\tacs\addons\arcadian\ui\Arcadian_B_SUV_Tan.jpg";
+        crew = "tacs_Unit_I_Contractor";
+        typicalCargo[] = {"Unit_I_Contractor"};
+        side = 2;
+        faction = QCLASS(IND);
+        editorPreview = QPATHTOF(ui\Arcadian_B_SUV_Tan.jpg);
     };
 
-    class CLASS(Arcadian_I_SUV_Green): CLASS(Arcadian_I_SUV_Black) {
+    class CLASS(Arcadian_I_SUV_Green): CLASS(Arcadian_B_SUV_Green) {
         displayName = "GT Arcadian Green";
-        HiddenSelectionsTextures[] = { "\x\tacs\addons\arcadian\data\arcadian_body_foliage_co.paa" };
-        editorPreview = "\x\tacs\addons\arcadian\ui\Arcadian_B_SUV_Green.jpg";
+        crew = "tacs_Unit_I_Contractor";
+        typicalCargo[] = {"Unit_I_Contractor"};
+        side = 2;
+        faction = QCLASS(IND);
+        editorPreview = QPATHTOF(UI\Arcadian_B_SUV_Green.jpg);
     };
 };

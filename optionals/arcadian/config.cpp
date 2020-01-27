@@ -11,9 +11,9 @@ class CfgPatches {
             QCLASS(Arcadian_I_SUV_Tan),
             QCLASS(Arcadian_I_SUV_Green)
         };
-        weapons[] = { };
+        weapons[] = {};
         requiredVersion = 0.1;
-        requiredAddons[] = { "tacs_main", "CUP_WheeledVehicles_Core", "CUP_Wheeled_SUV" };
+        requiredAddons[] = {"tacs_main", "CUP_Wheeled_SUV"};
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF", "GilleeDoo"};
         url = ECSTRING(main,URL);
