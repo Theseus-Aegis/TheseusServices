@@ -654,10 +654,8 @@
             <French>Infirmier</French>
         </Key>
         <Key ID="STR_TACS_Units_Unit_Specialist">
-            <English>Specialist (LMG)</English>
-            <German>Spezialist (lMG)</German>
-            <Japanese>特技兵 (LMG)</Japanese>
-            <French>Spécialiste (Fusillier)</French>
+            <English>Machine Gunner</English>
+            <German>Maschinengewehrschütze</German>
         </Key>
         <Key ID="STR_TACS_Units_Unit_TeamLeader">
             <English>Team Leader</English>

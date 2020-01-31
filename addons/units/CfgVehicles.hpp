@@ -129,7 +129,6 @@ class CfgVehicles {
         class TransportBackpacks {};
     };
 
-
     #include "CfgVehicles_GroundItems.hpp"
     #include "CfgVehicles_PublicUnits.hpp"
 };
