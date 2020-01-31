@@ -75,8 +75,8 @@ class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_LS_BS_TP_TB) {
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Contractor_GL);
     editorPreview = QPATHTOF(UI\Unit_Contractor_GL.jpg);
-    weapons[] = {QCLASS(MX_BlackCamo_GL_ACO), "hgun_P07_F", "Binocular", "Throw", "Put"};
-    respawnWeapons[] = {QCLASS(MX_BlackCamo_GL_ACO), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    weapons[] = {QCLASS(MX_GL_BlackCamo_ACO), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    respawnWeapons[] = {QCLASS(MX_GL_BlackCamo_ACO), "hgun_P07_F", "Binocular", "Throw", "Put"};
     magazines[] = {ITEMS_5(30Rnd_65x39_caseless_black_mag), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", ITEMS_3(1Rnd_HE_Grenade_shell), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_2(HandGrenade)};
     respawnMagazines[] = {ITEMS_5(30Rnd_65x39_caseless_black_mag), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", ITEMS_3(1Rnd_HE_Grenade_shell), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_2(HandGrenade)};
     linkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Black)};
