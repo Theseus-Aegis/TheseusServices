@@ -10,13 +10,14 @@ files = [
     "logo_tacs_small_ca.paa",
     "meta.cpp"
 ]
-headerexts = [
-    "version={{git \"id 8\"}}"
-]
+
 modname = "theseus_services"
-keyname = "{{prefix}}_{{version}}"
-signame = "{{prefix}}_{{version}}"
+key_name = "{{prefix}}_{{version}}"
+sig_name = "{{prefix}}_{{version}}"
 
 releasebuild = [
     "@zip TheseusServices_{{version}}"
 ]
+
+[header_exts]
+version = "{{git \"id 8\"}}"
