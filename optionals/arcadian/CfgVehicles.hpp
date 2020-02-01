@@ -33,22 +33,22 @@ class CfgVehicles {
         armor = 90;
         class HitPoints: HitPoints {
             class HitLFWheel: HitLFWheel {
-                armor = 100;
+                armor = 1;
                 passThrough = 0;
                 explosionShielding = 2;
             };
             class HitLF2Wheel: HitLF2Wheel {
-                armor = 100;
+                armor = 1;
                 passThrough = 0;
                 explosionShielding = 2;
             };
             class HitRFWheel: HitRFWheel {
-                armor = 100;
+                armor = 1;
                 passThrough = 0;
                 explosionShielding = 2;
             };
             class HitRF2Wheel: HitRF2Wheel {
-                armor = 100;
+                armor = 1;
                 passThrough = 0;
                 explosionShielding = 2;
             };
@@ -63,22 +63,22 @@ class CfgVehicles {
                 explosionShielding = 1.5;
             };
             class HitGlass1: HitGlass1 {
-                armor = 1;
+                armor = 0.35;
                 explosionShielding = 3;
                 passThrough = 0;
             };
             class HitGlass2: HitGlass2 {
-                armor = 1;
+                armor = 0.35;
                 explosionShielding = 3;
                 passThrough = 0;
             };
             class HitGlass3: HitGlass3 {
-                armor = 1;
+                armor = 0.35;
                 explosionShielding = 3;
                 passThrough = 0;
             };
             class HitGlass4: HitGlass4 {
-                armor = 1;
+                armor = 0.35;
                 explosionShielding = 3;
                 passThrough = 0;
             };
