@@ -1,5 +1,5 @@
 #define COMPONENT arcadian
-#define COMPONENT_BEAUTIFIED GT Arcadian
+#define COMPONENT_BEAUTIFIED Arcadian GT
 
 #include "\x\tacs\addons\main\script_mod.hpp"
 

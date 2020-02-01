@@ -4,12 +4,12 @@ class CfgPatches {
     class Arcadian {
         name = COMPONENT_NAME;
         units[] = {
-            QCLASS(Arcadian_B_SUV),
-            QCLASS(Arcadian_B_SUV_Tan),
-            QCLASS(Arcadian_B_SUV_Green),
-            QCLASS(Arcadian_I_SUV_Black),
-            QCLASS(Arcadian_I_SUV_Tan),
-            QCLASS(Arcadian_I_SUV_Green)
+            QCLASS(Arcadian_I_Black),
+            QCLASS(Arcadian_B_Black),
+            QCLASS(Arcadian_I_Tan),
+            QCLASS(Arcadian_B_Tan),
+            QCLASS(Arcadian_I_Green),
+            QCLASS(Arcadian_B_Green)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
