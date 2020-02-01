@@ -33,22 +33,22 @@ class CfgVehicles {
         armor = 90;
         class HitPoints: HitPoints {
             class HitLFWheel: HitLFWheel {
-                armor = 200;
+                armor = 100;
                 passThrough = 0;
                 explosionShielding = 2;
             };
             class HitLF2Wheel: HitLF2Wheel {
-                armor = 200;
+                armor = 100;
                 passThrough = 0;
                 explosionShielding = 2;
             };
             class HitRFWheel: HitRFWheel {
-                armor = 200;
+                armor = 100;
                 passThrough = 0;
                 explosionShielding = 2;
             };
             class HitRF2Wheel: HitRF2Wheel {
-                armor = 200;
+                armor = 100;
                 passThrough = 0;
                 explosionShielding = 2;
             };
