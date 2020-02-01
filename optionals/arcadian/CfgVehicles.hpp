@@ -54,7 +54,7 @@ class CfgVehicles {
             };
             class HitEngine: HitEngine {
                 armor = 0.5;
-                passThrough = 0.30000001;
+                passThrough = 0.3;
                 explosionShielding = 0.2;
             };
             class HitBody: HitBody {
@@ -87,10 +87,10 @@ class CfgVehicles {
         accuracy = 0.35; // Increase targeting priority for AI due to more durable vehicle (default: 0.25)
 
         // Sound
-        soundEngineOnInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_Start", 0.630957, 1};
-        soundEngineOnExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_Start", 1.995260, 1, 50};
-        soundEngineOffInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_stop", 0.501187, 1};
-        soundEngineOffExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_stop", 1.995260, 1, 50};
+        soundEngineOnInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_Start", 0.63, 1};
+        soundEngineOnExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_Start", 1.99, 1, 50};
+        soundEngineOffInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_stop", 0.5, 1};
+        soundEngineOffExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_stop", 1.99, 1, 50};
 
         #include "sounds.hpp"
 
@@ -113,19 +113,19 @@ class CfgVehicles {
                 "D6", "3.4 * (0.6 ^ 5)"
             };
             transmissionRatios[] = {"High", 5.539};
-            gearUpMaxCoef = 0.94999999;
-            gearDownMaxCoef = 0.85000002;
-            gearUpMinCoef = 0.64999998;
-            gearDownMinCoef = 0.55000001;
+            gearUpMaxCoef = 0.95;
+            gearDownMaxCoef = 0.85;
+            gearUpMinCoef = 0.65;
+            gearDownMinCoef = 0.55;
             transmissionDelay = 2;
         };
 
         enginePower = 150;
         maxOmega = 450;
         peakTorque = 425;
-        dampingRateFullThrottle = 0.079999998;
+        dampingRateFullThrottle = 0.08;
         dampingRateZeroThrottleClutchEngaged = 0.5;
-        dampingRateZeroThrottleClutchDisengaged = 0.34999999;
+        dampingRateZeroThrottleClutchDisengaged = 0.35;
         torqueCurve[] = {
             {"(0/3500)", "(0/425)"},
             {"(500/3500)", "(200/425)"},
@@ -135,7 +135,7 @@ class CfgVehicles {
             {"(3000/3500)", "(300/425)"},
             {"(6000/3500)", "(0/425)"}
         };
-        changeGearMinEffectivity[] = {0.94999999, 0.15000001, 0.94999999, 0.94999999, 0.94999999, 0.94999999, 0.94999999}; // Default: {1, 0.15, 1, 1, 1, 1, 1, 1}
+        changeGearMinEffectivity[] = {0.95, 0.15, 0.95, 0.95, 0.95, 0.95, 0.95}; // Default: {1, 0.15000001, 1, 1, 1, 1, 1, 1}
         switchTime = 0.31;
         latency = 1.5;
 
