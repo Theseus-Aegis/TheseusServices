@@ -50,32 +50,32 @@ class CfgVehicles {
                 armor = 100;
                 explosionShielding = 2;
                 passThrough = 0;
-                radius = 0.33000001;
+                radius = 0.33;
             };
             class HitLF2Wheel: HitLF2Wheel {
                 armor = 100;
                 explosionShielding = 2;
                 passThrough = 0;
-                radius = 0.33000001;
+                radius = 0.33;
             };
             class HitRFWheel: HitRFWheel {
                 armor = 100;
                 explosionShielding = 2;
                 passThrough = 0;
-                radius = 0.33000001;
+                radius = 0.33;
             };
             class HitRF2Wheel: HitRF2Wheel {
                 armor = 100;
                 explosionShielding = 2;
                 passThrough = 0;
-                radius = 0.33000001;
+                radius = 0.33;
             };
             class HitEngine: HitEngine {
                 armor = 0.5;
                 material = -1;
                 name = "engine";
                 visual = "-";
-                passThrough = 0.30000001;
+                passThrough = 0.3;
                 explosionShielding = 0.2;
             };
             class HitBody: HitBody {
@@ -85,7 +85,7 @@ class CfgVehicles {
                 visual = "camo";
                 passThrough = 1;
                 explosionShielding = 1.5;
-                radius = 0.44999999;
+                radius = 0.45;
             };
             class HitGlass1: HitGlass1 {
                 armor = 1;
@@ -112,13 +112,13 @@ class CfgVehicles {
                 passThrough = 0;
             };
         };
-        wheelDamageThreshold = 0.18000001;
+        wheelDamageThreshold = 0.18;
         wheelDamageRadiusCoef = 0.75;
-        wheelDestroyRadiusCoef = 0.47999999;
-        soundEngineOnInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_Start", 0.630957, 1};
-        soundEngineOnExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_Start", 1.995260, 1, 50};
-        soundEngineOffInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_stop", 0.501187, 1};
-        soundEngineOffExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_stop", 1.995260, 1, 50};
+        wheelDestroyRadiusCoef = 0.48;
+        soundEngineOnInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_Start", 0.63, 1};
+        soundEngineOnExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_Start", 1.99, 1, 50};
+        soundEngineOffInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_stop", 0.5, 1};
+        soundEngineOffExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_stop", 1.99, 1, 50};
 
         #include "sounds.hpp"
 
@@ -142,19 +142,19 @@ class CfgVehicles {
                 "D6", "3.4 * (0.6 ^ 5)"
             };
             transmissionRatios[] = {"High", 5.539};
-            gearUpMaxCoef = 0.94999999;
-            gearDownMaxCoef = 0.85000002;
-            gearUpMinCoef = 0.64999998;
-            gearDownMinCoef = 0.55000001;
+            gearUpMaxCoef = 0.95;
+            gearDownMaxCoef = 0.85;
+            gearUpMinCoef = 0.65;
+            gearDownMinCoef = 0.55;
             transmissionDelay = 2;
         };
 
         enginePower = 150;
         maxOmega = 450;
         peakTorque = 425;
-        dampingRateFullThrottle = 0.079999998;
+        dampingRateFullThrottle = 0.08;
         dampingRateZeroThrottleClutchEngaged = 0.5;
-        dampingRateZeroThrottleClutchDisengaged = 0.34999999;
+        dampingRateZeroThrottleClutchDisengaged = 0.35;
         torqueCurve[] = {
             {"(0/3500)", "(0/425)"},
             {"(500/3500)", "(200/425)"},
@@ -164,7 +164,7 @@ class CfgVehicles {
             {"(3000/3500)", "(300/425)"},
             {"(6000/3500)","(0/425)"}
         };
-        changeGearMinEffectivity[] = {0.94999999, 0.15000001, 0.94999999, 0.94999999, 0.94999999, 0.94999999, 0.94999999}; // Default {1, 0.15000001, 1, 1, 1, 1, 1, 1};
+        changeGearMinEffectivity[] = {0.95, 0.15, 0.95, 0.95, 0.95, 0.95, 0.95}; // Default {1, 0.15000001, 1, 1, 1, 1, 1, 1};
         switchTime = 0.31;
         latency = 1.5;
 
