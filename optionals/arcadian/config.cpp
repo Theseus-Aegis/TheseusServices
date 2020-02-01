@@ -12,7 +12,7 @@ class CfgPatches {
             QCLASS(Arcadian_I_SUV_Green)
         };
         weapons[] = {};
-        requiredVersion = 0.1;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main", "CUP_Wheeled_SUV"};
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF", "GilleeDoo"};

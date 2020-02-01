@@ -49,7 +49,7 @@ class Sounds {
         volume = "engineOn * 1 * 0.5 * (((1+0.1*1 *thrust) * ((1-1 ) * (speed factor [0, 45]) + 1  * (rpm factor [850,    5500])) - 0.2*((abs(speed)) factor [2, 6]) + 0.2*((abs(speed)) factor [0, 4])*((abs(speed)) factor [0, 4]) - 0.3 * (1 - 1 *thrust)*((1-1 ) * (speed factor [0, 45]) + 1  * (rpm factor [850,    5500])) - 0.2*((abs(speed)) factor [2, 6]) + 0.2*((abs(speed)) factor [0, 4])*((abs(speed)) factor [0, 4])) + 0.5*(speed factor[0.3,0]) * ((angVelocity factor[0,0.8]) - (rpm factor [850,    5500])) factor[(4000 - 850)/(5500 - 850) + (((5500 - 850)/(5500 - 850) - (4000 - 850)/(5500 - 850)) - (1 * ((5500 - 850)/(5500 - 850) - (4000 - 850)/(5500 - 850))))/2, (5500 - 850)/(5500 - 850) - (((5500 - 850)/(5500 - 850) - (4000 - 850)/(5500 - 850)) - (1 * ((5500 - 850)/(5500 - 850) - (4000 - 850)/(5500 - 850))))/2])";
     };
 
-    class IdleThrust { 
+    class IdleThrust {
         sound[]={"A3\Sounds_F\vehicles\soft\Hatchback_01\Hatchback_01_ext_idle_exhaust","db-6",1,200};
         frequency = "0.9 + ((rpm/7000) factor[(400/7000),(1150/7000)])*0.2";
         volume = "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*1";
