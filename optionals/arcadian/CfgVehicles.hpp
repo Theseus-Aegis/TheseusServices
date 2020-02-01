@@ -47,25 +47,25 @@ class CfgVehicles {
         // Damage & Hitpoints
         class HitPoints: HitPoints {
             class HitLFWheel: HitLFWheel {
-                armor = 200;
+                armor = 100;
                 explosionShielding = 2;
                 passThrough = 0;
                 radius = 0.33000001;
             };
             class HitLF2Wheel: HitLF2Wheel {
-                armor = 200;
+                armor = 100;
                 explosionShielding = 2;
                 passThrough = 0;
                 radius = 0.33000001;
             };
             class HitRFWheel: HitRFWheel {
-                armor = 200;
+                armor = 100;
                 explosionShielding = 2;
                 passThrough = 0;
                 radius = 0.33000001;
             };
             class HitRF2Wheel: HitRF2Wheel {
-                armor = 200;
+                armor = 100;
                 explosionShielding = 2;
                 passThrough = 0;
                 radius = 0.33000001;
