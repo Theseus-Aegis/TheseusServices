@@ -85,6 +85,7 @@ class CfgVehicles {
         };
 
         accuracy = 0.35; // Increase targeting priority for AI due to more durable vehicle (default: 0.25)
+        wheelDamageThreshold = 0.18; // Required to simulate runflat tires
 
         // Sound
         soundEngineOnInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_Start", 0.63, 1};
