@@ -10,8 +10,5 @@
         <Key ID="STR_TACS_Arcadian_Green">
             <English>Arcadian GT (Green)</English>
         </Key>
-        <Key ID="STR_TACS_Arcadian_RearDoor">
-            <English>Rear Door</English>
-        </Key>
     </Package>
 </Project>

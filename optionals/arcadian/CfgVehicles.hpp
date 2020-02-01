@@ -182,7 +182,7 @@ class CfgVehicles {
                 maxTurn = -10;
                 minTurn = -110;
                 gunnerAction = "passenger_boat_4";
-                gunnerName = CSTRING(RearDoor);
+                gunnerName = "$str_a3_rear_gunner";
                 proxyIndex = 13;
                 isPersonTurret = 1;
                 memoryPointsGetInGunner = "pos cargo rear";
