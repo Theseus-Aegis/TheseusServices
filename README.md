@@ -27,4 +27,4 @@ Reference the [wiki](https://github.com/Theseus-Aegis/TheseusServices/wiki) to l
 ![Showcase Heli](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_heli.jpg)
 ![Showcase Team](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_team.jpg)
 ![Showcase Winter Medic](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_winter_medic.jpg)
-
+![Showcase Arcadian](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_arcadian.jpg)
