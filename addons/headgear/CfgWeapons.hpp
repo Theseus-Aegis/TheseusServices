@@ -115,7 +115,7 @@ class CfgWeapons {
             modelSides[] = {6};
         };
     };
-    
+
     class H_HelmetSpecB;
     class CLASS(Helmet_Enc_Ballistic_DarkBlack): H_HelmetSpecB {
         dlc = QUOTE(PREFIX);
@@ -132,6 +132,16 @@ class CfgWeapons {
         displayName = CSTRING(Helmet_Enc_Ballistic_White);
         picture = QPATHTOF(UI\helmet_enc_ballistic_white_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_enc_ballistic_white_co.paa)};
+    };
+
+    class H_HelmetB_light_black;
+    class CLASS(Helmet_Light_Ballistic_DarkBlack): H_HelmetB_light_black {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Kresky";
+        displayName = CSTRING(Helmet_Light_Ballistic_DarkBlack);
+        picture = QPATHTOF(UI\helmet_light_ballistic_darkblack_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_light_ballistic_darkblack_co.paa)};
     };
 
     class H_PilotHelmetHeli_B: H_HelmetB {
