@@ -139,13 +139,6 @@ class CfgVehicles {
         changeGearMinEffectivity[] = {0.95, 0.15, 0.95, 0.95, 0.95, 0.95, 0.95}; // Default: {1, 0.15000001, 1, 1, 1, 1, 1, 1}
         switchTime = 0.31;
         latency = 1.5;
-
-        // Turrets (remove side mounts)
-        class Turrets: Turrets {
-            class CargoTurret_09: CargoTurret_09 {
-                gunnerName = "$STR_A3_Rear_Gunner"; // Fix rear gunner seat name
-            };
-        };
     };
 
 
