@@ -17,10 +17,6 @@ class CfgVehicles {
             class HitGlass3;
             class HitGlass4;
         };
-
-        class Turrets {
-            class CargoTurret_09;
-        };
     };
 
     // Base
