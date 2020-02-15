@@ -67,6 +67,12 @@
             <Japanese>強化戦闘ヘルメット (白)</Japanese>
             <French>Casque de combat amélioré (Blanc)</French>
         </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Light_Ballistic_DarkBlack">
+            <English>Light Combat Helmet (Dark Black)</English>
+            <German>Leichter Gefechtshelm (Dunkelschwarz)</German>
+            <Japanese>光戦闘ヘルメット (漆黒)</Japanese>
+            <French>Casque de combat léger (Noir Foncé)</French>
+        </Key>
         <Key ID="STR_TACS_Headgear_Helmet_PilotHeli_Tan">
             <English>Heli Pilot Helmet (Tan)</English>
             <German>Heli-Pilotenhelm (Hellbraun)</German>
