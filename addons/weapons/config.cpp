@@ -3,6 +3,9 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
+        magazines[] = {
+            QCLASS(30Rnd_65x39_caseless_BlackCamo_mag)
+        };
         units[] = {
             QCLASS(Item_MX_BlackCamo),
             QCLASS(Item_MX_GL_BlackCamo),
@@ -23,3 +26,5 @@ class CfgPatches {
 
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgMagazineWells.hpp"
