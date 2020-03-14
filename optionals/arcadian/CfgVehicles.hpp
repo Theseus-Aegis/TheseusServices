@@ -17,6 +17,8 @@ class CfgVehicles {
             class HitGlass3;
             class HitGlass4;
         };
+        
+        class Turrets;
     };
 
     // Base
@@ -135,6 +137,9 @@ class CfgVehicles {
         changeGearMinEffectivity[] = {0.95, 0.15, 0.95, 0.95, 0.95, 0.95, 0.95}; // Default: {1, 0.15000001, 1, 1, 1, 1, 1, 1}
         switchTime = 0.31;
         latency = 1.5;
+        
+        // Turrets (remove side mounts)
+        class Turrets: Turrets {};
     };
 
 
