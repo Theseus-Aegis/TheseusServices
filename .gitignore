@@ -55,6 +55,7 @@ releases/*
 hemtt
 hemtt.exe
 keys/*
+.hemtt/local
 
 # Swap
 *.swp
