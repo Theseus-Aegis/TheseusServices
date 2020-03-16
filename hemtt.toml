@@ -13,7 +13,7 @@ files = [
 
 modname = "theseus_services"
 key_name = "{{prefix}}_{{version}}"
-authority = "{{prefix}}_{{version}}"
+sig_name = "{{prefix}}_{{version}}"
 
 releasebuild = [
     "@zip TheseusServices_{{version}}"
