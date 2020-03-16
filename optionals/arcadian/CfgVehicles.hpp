@@ -140,8 +140,10 @@ class CfgVehicles {
         switchTime = 0.31;
         latency = 1.5;
         
-        // Turrets (remove side mounts)
-        class Turrets: Turrets {};
+        // Turrets (remove side mounts, keep rear gunner)
+        class Turrets: Turrets {
+            class CargoTurret_09: CargoTurret_09 {};
+        };
     };
 
 
