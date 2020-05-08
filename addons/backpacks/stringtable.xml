@@ -40,6 +40,9 @@
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_White">
             <English>Kitbag (White)</English>
         </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_RGR">
+            <English>Kitbag (RGR)</English>
+        </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_White">
             <English>Kitbag Medic (White)</English>
         </Key>
