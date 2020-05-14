@@ -19,6 +19,11 @@
             <Japanese>MX 3GL (黒)</Japanese>
             <French>MX 3GL (Camo Noir)</French>
         </Key>
+        <Key ID="STR_TACS_Weapons_EBR_Black_F">
+            <English>Mk14 Mod 1 EBR (Anodised Black)</English>
+            <German>Mk14 Mod 1 EBR (Schwarz Eloxiert)</German>
+            <French>Mk14 Mod 1 EBR (Noir Anodisé)</French>
+        </Key>
         <Key ID="STR_TACS_Weapons_Walther_P99">
             <English>Walther P99</English>
             <French>Walther P99</French>

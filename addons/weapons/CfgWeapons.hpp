@@ -28,6 +28,21 @@ class CfgWeapons {
         };
         baseWeapon = QCLASS(MX_GL_BlackCamo);
     };
+    
+    class srifle_EBR_F;
+    class CLASS(EBR_Black_F): srifle_EBR_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Tyrone";
+        displayName = CSTRING(EBR_Black_F);
+        picture = QPATHTOF(UI\mk14_ebr_ca.paa);
+        hiddenSelections[] = {"camo1", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\m14_ebr01_blackcamo_co.paa),
+            QPATHTOF(data\m14_ebr02_blackcamo_co.paa)
+        };
+        baseWeapon = QCLASS(EBR_Black_F);
+    };
 
     class hgun_P07_F;
     class CLASS(Walther_P99): hgun_P07_F {
