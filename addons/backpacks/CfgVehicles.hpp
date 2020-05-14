@@ -79,6 +79,17 @@ class CfgVehicles {
             QPATHTOF(data\backpack_kitbag_white_co.paa)
         };
     };
+    
+    class CLASS(Backpack_Kitbag_RGR): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, Tyrone";
+        displayName = CSTRING(Backpack_Kitbag_RGR);
+        picture = QPATHTOF(UI\backpack_kitbag_rgr_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_rgr_co.paa)
+        };
+    };
 
     class CLASS(Backpack_Kitbag_Medic_White): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
