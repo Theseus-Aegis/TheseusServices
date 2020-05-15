@@ -24,6 +24,11 @@
             <German>Mk14 Mod 1 EBR (Schwarz Eloxiert)</German>
             <French>Mk14 Mod 1 EBR (Noir Anodisé)</French>
         </Key>
+        <Key ID="STR_TACS_Weapons_Mk20_Black_F">
+            <English>F2000 (Black Camo)</English>
+            <German>F2000 (Schwarz Tarnfleck)</German>
+            <French>F2000 (Camo Noir)</French>
+        </Key>
         <Key ID="STR_TACS_Weapons_Walther_P99">
             <English>Walther P99</English>
             <French>Walther P99</French>
