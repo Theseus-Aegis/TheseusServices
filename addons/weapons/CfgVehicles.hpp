@@ -36,6 +36,16 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(EBR_Black_F),1);
         };
     };
+    class CLASS(Item_Mk20_Black_F): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "Tyrone";
+        displayName = CSTRING(Mk20_Black_F);
+        
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Mk20_Black_F),1);
+        };
+    };
     class Pistol_Base_F;
     class CLASS(Item_Walther_P99): Pistol_Base_F {
         MACRO_ITEM_COMMON

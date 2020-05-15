@@ -8,6 +8,7 @@ class CfgPatches {
         };
         units[] = {
             QCLASS(Item_EBR_Black_F),
+            QCLASS(Item_Mk20_Black_F),
             QCLASS(Item_MX_BlackCamo),
             QCLASS(Item_MX_GL_BlackCamo),
             QCLASS(Item_Walther_P99),
@@ -15,6 +16,7 @@ class CfgPatches {
         };
         weapons[] = {
             QCLASS(EBR_Black_F),
+            QCLASS(Mk20_Black_F),
             QCLASS(MX_BlackCamo),
             QCLASS(MX_GL_BlackCamo),
             QCLASS(Walther_P99),

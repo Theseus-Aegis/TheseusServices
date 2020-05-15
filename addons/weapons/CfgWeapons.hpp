@@ -44,6 +44,20 @@ class CfgWeapons {
         baseWeapon = QCLASS(EBR_Black_F);
     };
 
+    class arifle_Mk20_plain_F;
+    class CLASS(Mk20_Black_F): arifle_Mk20_plain_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Tyrone";
+        displayName = CSTRING(Mk20_Black_F);
+        picture = QPATHTOF(UI\mk20_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mk20_blackcamo_co.paa)
+        };
+        baseWeapon = QCLASS(Mk20_Black_F);
+    };
+
     class hgun_P07_F;
     class CLASS(Walther_P99): hgun_P07_F {
         dlc = QUOTE(PREFIX);
