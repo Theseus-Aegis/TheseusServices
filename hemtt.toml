@@ -15,9 +15,25 @@ modname = "theseus_services"
 key_name = "{{prefix}}_{{version}}"
 authority = "{{prefix}}_{{version}}"
 
+check = [
+    "!binarizer_link"
+]
 releasebuild = [
     "@zip TheseusServices_{{version}}"
 ]
 
 [header_exts]
 version = "{{git \"id 8\"}}"
+
+# Binarizer file search compatibility
+[scripts.binarizer_link]
+steps_windows = [
+    "if not exist x\\tacs mkdir x\\tacs",
+    "if not exist x\\tacs\\addons mklink /j x\\tacs\\addons addons"
+]
+steps_linux = [
+    # Prepartion for Windows Binarizer (run once on Linux for network share compatibility)
+    "mkdir -p x/tacs",
+    "ln -sr addons x/tacs/addons"
+]
+show_output = true
