@@ -41,7 +41,7 @@ class CfgVehicles {
         vehicleClass = "WeaponsPrimary";
         author = "Tyrone";
         displayName = CSTRING(Mk20_Black_F);
-
+        
         class TransportItems {
             MACRO_ADDITEM(CLASS(Mk20_Black_F),1);
         };
@@ -62,28 +62,6 @@ class CfgVehicles {
 
         class TransportItems {
             MACRO_ADDITEM(CLASS(Walther_P99_Tan),1);
-        };
-    };
-
-    class Launcher_Base_F;
-    class CLASS(Item_MRAWS_Black_F): Launcher_Base_F {
-        MACRO_ITEM_COMMON
-        vehicleClass = "WeaponsSecondary";
-        author = "Kresky";
-        displayName = CSTRING(MRAWS_Black_F);
-
-        class TransportItems {
-            MACRO_ADDITEM(CLASS(MRAWS_Black_F),1);
-        };
-    };
-    class CLASS(Item_MRAWS_Black_Rail_F): Launcher_Base_F {
-        MACRO_ITEM_COMMON
-        vehicleClass = "WeaponsSecondary";
-        author = "Kresky";
-        displayName = CSTRING(MRAWS_Black_Rail_F);
-
-        class TransportItems {
-            MACRO_ADDITEM(CLASS(MRAWS_Black_Rail_F),1);
         };
     };
 

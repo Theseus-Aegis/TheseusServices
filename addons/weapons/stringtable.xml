@@ -39,12 +39,6 @@
             <French>Walther P99 (Beige)</French>
             <German>Walter P99 (Hellbraun)</German>
         </Key>
-        <Key ID="STR_TACS_Weapons_MRAWS_Black_F">
-            <English>MAAWS Mk4 Mod 1 (Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Weapons_MRAWS_Black_Rail_F">
-            <English>MAAWS Mk4 Mod 0 (Black)</English>
-        </Key>
         <Key ID="STR_TACS_Weapons_30Rnd_65x39_caseless_BlackCamo_mag">
             <English>30Rnd 6.5mm Magazine (Black Camo)</English>
         </Key>

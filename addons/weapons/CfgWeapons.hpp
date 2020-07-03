@@ -28,7 +28,7 @@ class CfgWeapons {
         };
         baseWeapon = QCLASS(MX_GL_BlackCamo);
     };
-
+    
     class srifle_EBR_F;
     class CLASS(EBR_Black_F): srifle_EBR_F {
         dlc = QUOTE(PREFIX);
@@ -76,36 +76,6 @@ class CfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\walther_p99_tan_co.paa)};
         baseWeapon = QCLASS(Walther_P99_Tan);
-    };
-
-    class launch_MRAWS_green_F;
-    class CLASS(MRAWS_Black_F): launch_MRAWS_green_F {
-        dlc = QUOTE(PREFIX);
-        scope = 2;
-        author = "Kresky";
-        displayName = CSTRING(MRAWS_Black_F);
-        picture = QPATHTOF(UI\mraws_black_ca.paa);
-        hiddenSelections[] = {"camo1", "camo2"};
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\mraws_black_co.paa),
-            "\A3\Weapons_F_Tank\Launchers\MRAWS\Data\launch_MRAWS_02_F_co"
-        };
-        baseWeapon = QCLASS(MRAWS_Black_F);
-    };
-
-    class launch_MRAWS_green_rail_F;
-    class CLASS(MRAWS_Black_Rail_F): launch_MRAWS_green_rail_F {
-        dlc = QUOTE(PREFIX);
-        scope = 2;
-        author = "Kresky";
-        displayName = CSTRING(MRAWS_Black_Rail_F);
-        picture = QPATHTOF(UI\mraws_black_rail_ca.paa);
-        hiddenSelections[] = {"camo1", "camo2"};
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\mraws_black_co.paa),
-            "\A3\Weapons_F_Tank\Launchers\MRAWS\Data\launch_MRAWS_rail_02_F_co"
-        };
-        baseWeapon = QCLASS(MRAWS_Black_Rail_F);
     };
 
     // Equipped
