@@ -70,5 +70,17 @@
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_RGR">
             <English>Kitbag Medic (RGR)</English>
         </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_ViperHarness_Coyote">
+            <English>Viper Harness (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_ViperHarness_Green">
+            <English>Viper Harness (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_ViperLightHarness_Coyote">
+            <English>Viper Light Harness (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_ViperLightHarness_Green">
+            <English>Viper Light Harness (Green)</English>
+        </Key>
     </Package>
 </Project>

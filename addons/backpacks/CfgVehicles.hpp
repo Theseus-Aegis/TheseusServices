@@ -79,7 +79,7 @@ class CfgVehicles {
             QPATHTOF(data\backpack_kitbag_white_co.paa)
         };
     };
-    
+
     class CLASS(Backpack_Kitbag_RGR): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
@@ -187,6 +187,50 @@ class CfgVehicles {
         picture = QPATHTOF(UI\backpack_kitbag_medic_rgr_ca.paa);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\backpack_kitbag_medic_rgr_co.paa)
+        };
+    };
+
+    class B_ViperHarness_base_F;
+    class CLASS(Backpack_ViperHarness_Coyote): B_ViperHarness_base_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Kresky";
+        displayName = CSTRING(Backpack_ViperHarness_Coyote);
+        picture = QPATHTOF(UI\backpack_viperharness_coyote_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_viperharness_coyote_co.paa)
+        };
+    };
+    class CLASS(Backpack_ViperHarness_Green): B_ViperHarness_base_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Kresky";
+        displayName = CSTRING(Backpack_ViperHarness_Green);
+        picture = QPATHTOF(UI\backpack_viperharness_green_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_viperharness_green_co.paa)
+        };
+    };
+
+    class B_ViperLightHarness_base_F;
+    class CLASS(Backpack_ViperLightHarness_Coyote): B_ViperLightHarness_base_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Kresky";
+        displayName = CSTRING(Backpack_ViperLightHarness_Coyote);
+        picture = QPATHTOF(UI\backpack_viperlightharness_coyote_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_viperharness_coyote_co.paa)
+        };
+    };
+    class CLASS(Backpack_ViperLightHarness_Green): B_ViperLightHarness_base_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Kresky";
+        displayName = CSTRING(Backpack_ViperLightHarness_Green);
+        picture = QPATHTOF(UI\backpack_viperlightharness_green_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_viperharness_green_co.paa)
         };
     };
 
