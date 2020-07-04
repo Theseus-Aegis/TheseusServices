@@ -1058,7 +1058,6 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Polo_CP_BS_TP_BB_NoLogo);
         };
     };
-
     // TShirt - Jean Pants
     class CLASS(Uniform_TShirt_JP_GS_LP_BB): CLASS(Uniform_Base) { // L = Blue
         scope = 2;
@@ -1120,8 +1119,108 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_TShirt_JP_WS_LP_BB);
         };
     };
+    // Floral Shirts with Jeans
+    class CLASS(Uniform_Floral_JP_BS_LP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_JP_BS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
 
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_JP_BS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_JP_RS_LP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_JP_RS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
 
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_JP_RS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_JP_GS_LP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_JP_GS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_JP_GS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_JP_WS_LP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_JP_WS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_JP_WS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_JP_BYS_LP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_JP_BYS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_JP_BYS_LP_BB);
+        };
+    };
+    // Floral Shirts with Shorts
+    class CLASS(Uniform_Floral_SP_BS_LP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_SP_BS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_SP_BS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_SP_RS_LP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_SP_RS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_SP_RS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_SP_GS_LP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_SP_GS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_SP_GS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_SP_WS_LP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_SP_WS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_SP_WS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_SP_BYS_LP_BB): CLASS(Uniform_Base) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_SP_BYS_LP_BB);
+        picture = QPATHTOF(UI\uniform_tshirt_jp_ls_lp_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_SP_BYS_LP_BB);
+        };
+    };
     // VIP
     class CLASS(Suit_VIP): CLASS(Uniform_Base) {
         scope = 2;
