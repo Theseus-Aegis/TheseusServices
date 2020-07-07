@@ -2,7 +2,7 @@
 
 A plethora of custom and retextured uniforms, placeable units, groups and AI names.
 
-Hawaiian clothing was integrated with permissions from [Dadpat](https://steamcommunity.com/sharedfiles/filedetails/?id=1744343347)
+Hawaiian clothing integrated with permissions from [DADPAT](https://steamcommunity.com/sharedfiles/filedetails/?id=1744343347) by [Trenchgun](https://steamcommunity.com/id/PyroTiger)
 
 ### Authors
 
