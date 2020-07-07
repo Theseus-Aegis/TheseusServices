@@ -582,70 +582,70 @@
             <French>Vêtements tactiques (Noir, Beige, Noir)</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_LP_BB">
-            <English>T-Shirt, Jeans (Green, Blue, Black) Logo</English>
+            <English>T-Shirt & Jeans (Green, Blue, Black) Logo</English>
             <German>T-Shirt, Jeans (Grün, Blau, Schwarz) Logo</German>
             <Japanese>T シャツとジーンズ (緑、青、黒)</Japanese>
             <French>T-Shirt, jean (Vert, Bleu, Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_GS_TP_BB">
-            <English>T-Shirt, Jeans (Green, Tan, Black) Logo</English>
+            <English>T-Shirt & Jeans (Green, Tan, Black) Logo</English>
             <German>T-Shirt, Jeans (Grün, Hellbraun, Schwarz) Logo</German>
             <Japanese>T シャツとジーンズ (緑、黄褐、黒)</Japanese>
             <French>T-Shirt, jean (Vert, Beige, Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_BS_LP_BB">
-            <English>T-Shirt, Jeans (Black, Blue, Black) Logo</English>
+            <English>T-Shirt & Jeans (Black, Blue, Black) Logo</English>
             <German>T-Shirt, Jeans (Schwarz, Blau, Schwarz) Logo</German>
             <Japanese>T シャツとジーンズ (黒、青、黒)</Japanese>
             <French>T-Shirt, jean (Noir, Bleu, Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_BS_TP_BB">
-            <English>T-Shirt, Jeans (Black, White, Black) Logo</English>
+            <English>T-Shirt & Jeans (Black, White, Black) Logo</English>
             <German>T-Shirt, Jeans (Schwarz, Weiß, Schwarz) Logo</German>
             <Japanese>T シャツとジーンズ (黒、白、黒)</Japanese>
             <French>T-Shirt, jean (Noir, Blanc, Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_LS_LP_BB">
-            <English>T-Shirt, Jeans (Blue, Blue, Black) Logo</English>
+            <English>T-Shirt & Jeans (Blue, Blue, Black) Logo</English>
             <German>T-Shirt, Jeans (Blau, Blau, Schwarz) Logo</German>
             <Japanese>T シャツとジーンズ (青、青、黒)</Japanese>
             <French>T-Shirt, jean (Bleu, Bleu, Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_TShirt_JP_WS_LP_BB">
-            <English>T-Shirt, Jeans (White, Blue, Black) Logo</English>
+            <English>T-Shirt & Jeans (White, Blue, Black) Logo</English>
             <German>T-Shirt, Jeans (Weiß, Blau, Schwarz) Logo</German>
             <Japanese>T シャツとジーンズ (白、青、黒)</Japanese>
             <French>T-Shirt, jean (Blanc, Bleu, Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_JP_BS_LP_BB">
-            <English>Blue Hawaiian Shirt, Denim Long Pants</English>
+            <English>Hawaiian Shirt & Long Pants (Blue, Denim)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_JP_RS_LP_BB">
-            <English>Maroon Hawaiian Shirt, Denim Long Pants</English>
+            <English>Hawaiian Shirt & Long Pants (Maroon, Denim)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_JP_GS_LP_BB">
-            <English>Green Hawaiian Shirt, Denim Long Pants</English>
+            <English>Hawaiian Shirt & Long Pants (Green, Denim)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_JP_WS_LP_BB">
-            <English>Lavender Hawaiian Shirt, Khaki Long Pants</English>
+            <English>Hawaiian Shirt & Long Pants (Lavender, Khaki)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_JP_BYS_LP_BB">
-            <English>Gold Hawaiian Shirt, Khaki Long Pants</English>
+            <English>Hawaiian Shirt & Long Pants (Gold, Khaki)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_BS_LP_BB">
-            <English>Blue Hawaiian Shirt, Khaki Short Pants</English>
+            <English>Hawaiian Shirt & Shorts (Blue, Khaki)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_RS_LP_BB">
-            <English>Maroon Hawaiian Shirt, Khaki Short Pants</English>
+            <English>Hawaiian Shirt & Shorts (Maroon, Khaki)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_GS_LP_BB">
-            <English>Green Hawaiian Shirt, Khaki Short Pants</English>
+            <English>Hawaiian Shirt & Shorts (Green, Khaki)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_WS_LP_BB">
-            <English>Lavender Hawaiian Shirt, Khaki Short Pants</English>
+            <English>Hawaiian Shirt & Shorts (Lavender, Khaki)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_BYS_LP_BB">
-            <English>Gold Hawaiian Shirt, Khaki Short Pants</English>
+            <English>Hawaiian Shirt & Shorts (Gold, Khaki)</English>
         </Key>
         <Key ID="STR_TACS_Units_Suit_VIP">
             <English>VIP Suit</English>

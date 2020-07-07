@@ -1067,6 +1067,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Polo_CP_BS_TP_BB_NoLogo);
         };
     };
+
     // TShirt - Jean Pants
     class CLASS(Uniform_TShirt_JP_GS_LP_BB): CLASS(Uniform_Base) { // L = Blue
         scope = 2;
@@ -1179,6 +1180,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Floral_JP_BYS_LP_BB);
         };
     };
+
     // Floral Shirts with Shorts
     class CLASS(Uniform_Floral_SP_BS_LP_BB): CLASS(Uniform_Base_Floral) {
         scope = 2;
@@ -1230,6 +1232,7 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_Floral_SP_BYS_LP_BB);
         };
     };
+
     // VIP
     class CLASS(Suit_VIP): CLASS(Uniform_Base) {
         scope = 2;

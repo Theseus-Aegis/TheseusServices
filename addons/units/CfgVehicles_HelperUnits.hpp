@@ -777,6 +777,7 @@ class CLASS(Unit_TShirt_JP_WS_LP_BB): CLASS(Unit_TShirt_JP_Base) {
         QPATHTOF(data\jeans_lp_bb_co.paa)
     };
 };
+
 // Floral Shirts with Jeans
 class CLASS(Unit_TShirt_Floral_Denim_Base): B_Soldier_base_F {
     MACRO_BASE_CLASS_COMMON
@@ -826,6 +827,7 @@ class CLASS(Unit_Floral_JP_BYS_LP_BB): CLASS(Unit_TShirt_Floral_Denim_Base) {
         QPATHTOF(data\uniform_floral_denim_bys_bp_bb.paa)
     };
 };
+
 // Floral Shirts with Shorts
 class CLASS(Unit_TShirt_Floral_Shorts_Base): B_Soldier_base_F {
     MACRO_BASE_CLASS_COMMON
