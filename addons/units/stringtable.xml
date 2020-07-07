@@ -618,34 +618,34 @@
             <French>T-Shirt, jean (Blanc, Bleu, Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_JP_BS_LP_BB">
-            <English>Test 1</English>
+            <English>Blue Hawaiian Shirt, Denim Long Pants</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_JP_RS_LP_BB">
-            <English>Test 2</English>
+            <English>Maroon Hawaiian Shirt, Denim Long Pants</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_JP_GS_LP_BB">
-            <English>Test 3</English>
+            <English>Green Hawaiian Shirt, Denim Long Pants</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_JP_WS_LP_BB">
-            <English>Test 4</English>
+            <English>Lavender Hawaiian Shirt, Khaki Long Pants</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_JP_BYS_LP_BB">
-            <English>Test 5</English>
+            <English>Gold Hawaiian Shirt, Khaki Long Pants</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_BS_LP_BB">
-            <English>Test 6</English>
+            <English>Blue Hawaiian Shirt, Khaki Short Pants</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_RS_LP_BB">
-            <English>Test 7</English>
+            <English>Maroon Hawaiian Shirt, Khaki Short Pants</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_GS_LP_BB">
-            <English>Test 8</English>
+            <English>Green Hawaiian Shirt, Khaki Short Pants</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_WS_LP_BB">
-            <English>Test 9</English>
+            <English>Lavender Hawaiian Shirt, Khaki Short Pants</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_BYS_LP_BB">
-            <English>Test 10</English>
+            <English>Gold Hawaiian Shirt, Khaki Short Pants</English>
         </Key>
         <Key ID="STR_TACS_Units_Suit_VIP">
             <English>VIP Suit</English>
