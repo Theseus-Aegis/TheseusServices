@@ -48,6 +48,15 @@ class CfgWeapons {
             mass = 40;
         };
     };
+    class CLASS(Uniform_Base_Floral): CLASS(Uniform_Base) {
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+
+        class ItemInfo: UniformItem {
+            uniformModel = "-";
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
 
     // Naming pattern: TypeSleevesOrPants_ColorShirt_ColorPants_ColorBoots
 
@@ -1120,7 +1129,109 @@ class CfgWeapons {
             uniformClass = QCLASS(Unit_TShirt_JP_WS_LP_BB);
         };
     };
+    // Floral Shirts with Jeans
+    class CLASS(Uniform_Floral_JP_BS_LP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_JP_BS_LP_BB);
+        picture = QPATHTOF(UI\uniform_floral_jp_bs_lp_bb_ca.paa);
 
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_JP_BS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_JP_RS_LP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_JP_RS_LP_BB);
+        picture = QPATHTOF(UI\uniform_floral_jp_rs_lp_bb_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_JP_RS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_JP_GS_LP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_JP_GS_LP_BB);
+        picture = QPATHTOF(UI\uniform_floral_jp_gs_lp_bb_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_JP_GS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_JP_WS_LP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_JP_WS_LP_BB);
+        picture = QPATHTOF(UI\uniform_floral_jp_ws_lp_bb_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_JP_WS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_JP_BYS_LP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_JP_BYS_LP_BB);
+        picture = QPATHTOF(UI\uniform_floral_jp_bys_lp_bb_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_JP_BYS_LP_BB);
+        };
+    };
+
+    // Floral Shirts with Shorts
+    class CLASS(Uniform_Floral_SP_BS_LP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_SP_BS_LP_BB);
+        picture = QPATHTOF(UI\uniform_floral_sp_bs_lp_bb_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_SP_BS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_SP_RS_LP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_SP_RS_LP_BB);
+        picture = QPATHTOF(UI\uniform_floral_sp_rs_lp_bb_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_SP_RS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_SP_GS_LP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_SP_GS_LP_BB);
+        picture = QPATHTOF(UI\uniform_floral_sp_gs_lp_bb_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_SP_GS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_SP_WS_LP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_SP_WS_LP_BB);
+        picture = QPATHTOF(UI\uniform_floral_sp_ws_lp_bb_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_SP_WS_LP_BB);
+        };
+    };
+    class CLASS(Uniform_Floral_SP_BYS_LP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Floral_SP_BYS_LP_BB);
+        picture = QPATHTOF(UI\uniform_floral_sp_bys_lp_bb_ca.paa);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Unit_Floral_SP_BYS_LP_BB);
+        };
+    };
 
     // VIP
     class CLASS(Suit_VIP): CLASS(Uniform_Base) {

@@ -110,6 +110,16 @@ class CfgPatches {
             QCLASS(Item_Uniform_TShirt_JP_BS_TP_BB),
             QCLASS(Item_Uniform_TShirt_JP_LS_LP_BB),
             QCLASS(Item_Uniform_TShirt_JP_WS_LP_BB),
+            QCLASS(Item_Uniform_Floral_JP_BS_LP_BB),
+            QCLASS(Item_Uniform_Floral_JP_RS_LP_BB),
+            QCLASS(Item_Uniform_Floral_JP_GS_LP_BB),
+            QCLASS(Item_Uniform_Floral_JP_WS_LP_BB),
+            QCLASS(Item_Uniform_Floral_JP_BYS_LP_BB),
+            QCLASS(Item_Uniform_Floral_SP_BS_LP_BB),
+            QCLASS(Item_Uniform_Floral_SP_RS_LP_BB),
+            QCLASS(Item_Uniform_Floral_SP_GS_LP_BB),
+            QCLASS(Item_Uniform_Floral_SP_WS_LP_BB),
+            QCLASS(Item_Uniform_Floral_SP_BYS_LP_BB),
             QCLASS(Item_Suit_VIP),
             // Box
             QCLASS(Box_Uniforms),
@@ -233,6 +243,16 @@ class CfgPatches {
             QCLASS(Uniform_TShirt_JP_BS_TP_BB),
             QCLASS(Uniform_TShirt_JP_LS_LP_BB),
             QCLASS(Uniform_TShirt_JP_WS_LP_BB),
+            QCLASS(Uniform_Floral_JP_BS_LP_BB),
+            QCLASS(Uniform_Floral_JP_RS_LP_BB),
+            QCLASS(Uniform_Floral_JP_GS_LP_BB),
+            QCLASS(Uniform_Floral_JP_WS_LP_BB),
+            QCLASS(Uniform_Floral_JP_BYS_LP_BB),
+            QCLASS(Uniform_Floral_SP_BS_LP_BB),
+            QCLASS(Uniform_Floral_SP_RS_LP_BB),
+            QCLASS(Uniform_Floral_SP_GS_LP_BB),
+            QCLASS(Uniform_Floral_SP_WS_LP_BB),
+            QCLASS(Uniform_Floral_SP_BYS_LP_BB),
             QCLASS(Suit_VIP)
         };
         requiredVersion = REQUIRED_VERSION;

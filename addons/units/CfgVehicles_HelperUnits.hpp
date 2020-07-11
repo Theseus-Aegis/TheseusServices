@@ -777,3 +777,103 @@ class CLASS(Unit_TShirt_JP_WS_LP_BB): CLASS(Unit_TShirt_JP_Base) {
         QPATHTOF(data\jeans_lp_bb_co.paa)
     };
 };
+
+// Floral Shirts with Jeans
+class CLASS(Unit_TShirt_Floral_Denim_Base): B_Soldier_base_F {
+    MACRO_BASE_CLASS_COMMON
+    nakedUniform = QCLASS(Unit_Underwear_BlackLogo);
+    model = "\A3\characters_f\Civil\c_poloshirtpants.p3d";
+    hiddenSelectionsMaterials[] = {
+        "\A3\characters_f\Civil\Data\c_poloshirtpants.rvmat"
+    };
+};
+class CLASS(Unit_Floral_JP_BS_LP_BB): CLASS(Unit_TShirt_Floral_Denim_Base) {
+    scope = 1;
+    author = "Trenchgun, Tyrone";
+    uniformClass = QCLASS(Uniform_Floral_JP_BS_LP_BB);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\uniform_floral_denim_bs_bp_bb.paa)
+    };
+};
+class CLASS(Unit_Floral_JP_RS_LP_BB): CLASS(Unit_TShirt_Floral_Denim_Base) {
+    scope = 1;
+    author = "Trenchgun, Tyrone";
+    uniformClass = QCLASS(Uniform_Floral_JP_RS_LP_BB);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\uniform_floral_denim_rs_bp_bb.paa)
+    };
+};
+class CLASS(Unit_Floral_JP_GS_LP_BB): CLASS(Unit_TShirt_Floral_Denim_Base) {
+    scope = 1;
+    author = "Trenchgun, Tyrone";
+    uniformClass = QCLASS(Uniform_Floral_JP_GS_LP_BB);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\uniform_floral_denim_gs_bp_bb.paa)
+    };
+};
+class CLASS(Unit_Floral_JP_WS_LP_BB): CLASS(Unit_TShirt_Floral_Denim_Base) {
+    scope = 1;
+    author = "Trenchgun, Tyrone";
+    uniformClass = QCLASS(Uniform_Floral_JP_GS_LP_BB);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\uniform_floral_denim_ws_bp_bb.paa)
+    };
+};
+class CLASS(Unit_Floral_JP_BYS_LP_BB): CLASS(Unit_TShirt_Floral_Denim_Base) {
+    scope = 1;
+    author = "Trenchgun, Tyrone";
+    uniformClass = QCLASS(Uniform_Floral_JP_BYS_LP_BB);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\uniform_floral_denim_bys_bp_bb.paa)
+    };
+};
+
+// Floral Shirts with Shorts
+class CLASS(Unit_TShirt_Floral_Shorts_Base): B_Soldier_base_F {
+    MACRO_BASE_CLASS_COMMON
+    nakedUniform = QCLASS(Unit_Underwear_BlackLogo);
+    model = "\A3\characters_f\Civil\c_poloshirt.p3d";
+    hiddenSelectionsMaterials[] = {
+        "\A3\characters_f\Civil\Data\c_poloshirt.rvmat"
+    }; 
+};
+class CLASS(Unit_Floral_SP_BS_LP_BB): CLASS(Unit_TShirt_Floral_Shorts_Base) {
+    scope = 1;
+    author = "Trenchgun, Tyrone";
+    uniformClass = QCLASS(Uniform_Floral_SP_BS_LP_BB);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\uniform_floral_shorts_bs_bp_bb.paa)
+    };
+};
+class CLASS(Unit_Floral_SP_RS_LP_BB): CLASS(Unit_TShirt_Floral_Shorts_Base) {
+    scope = 1;
+    author = "Trenchgun, Tyrone";
+    uniformClass = QCLASS(Uniform_Floral_SP_RS_LP_BB);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\uniform_floral_shorts_rs_bp_bb.paa)
+    };
+};
+class CLASS(Unit_Floral_SP_GS_LP_BB): CLASS(Unit_TShirt_Floral_Shorts_Base) {
+    scope = 1;
+    author = "Trenchgun, Tyrone";
+    uniformClass = QCLASS(Uniform_Floral_SP_GS_LP_BB);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\uniform_floral_shorts_gs_bp_bb.paa)
+    };
+};
+class CLASS(Unit_Floral_SP_WS_LP_BB): CLASS(Unit_TShirt_Floral_Shorts_Base) {
+    scope = 1;
+    author = "Trenchgun, Tyrone";
+    uniformClass = QCLASS(Uniform_Floral_SP_WS_LP_BB);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\uniform_floral_shorts_ws_bp_bb.paa)
+    };
+};
+class CLASS(Unit_Floral_SP_BYS_LP_BB): CLASS(Unit_TShirt_Floral_Shorts_Base) {
+    scope = 1;
+    author = "Trenchgun, Tyrone";
+    uniformClass = QCLASS(Uniform_Floral_SP_BYS_LP_BB);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\uniform_floral_shorts_bys_bp_bb.paa)
+    };
+};
