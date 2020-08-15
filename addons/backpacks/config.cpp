@@ -8,6 +8,8 @@ class CfgPatches {
             QCLASS(Backpack_AssaultExpanded_Green),
             QCLASS(Backpack_AssaultExpanded_Tan),
             QCLASS(Backpack_AssaultExpanded_White),
+            QCLASS(Backpack_AssaultExpanded_RGR),
+            QCLASS(Backpack_AssaultPack_RGR),
             QCLASS(Backpack_Carryall_DarkBlack),
             QCLASS(Backpack_Kitbag_DarkBlack),
             QCLASS(Backpack_Kitbag_White),

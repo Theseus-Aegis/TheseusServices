@@ -48,6 +48,31 @@ class CfgVehicles {
         };
         maximumLoad = 180;
     };
+    class CLASS(Backpack_AssaultExpanded_RGR): B_AssaultPack_Kerry {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Jonpas, Rory, JoramD, GilleeDoo";
+        displayname = CSTRING(Backpack_AssaultExpanded_RGR);
+        picture = QPATHTOF(UI\backpack_assaultexpanded_rgr_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_assaultexpanded_rgr_main_co.paa),
+            QPATHTOEF(vests,data\vest_platecarrier_rgr_co.paa) // Expanded part - vest texture
+        };
+        maximumLoad = 180;
+    };
+
+    class B_AssaultPack_Base;
+    class CLASS(Backpack_AssaultPack_RGR): B_AssaultPack_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "BadHabitz, Jonpas, Rory, JoramD, GilleeDoo";
+        displayname = CSTRING(Backpack_AssaultPack_RGR);
+        picture = QPATHTOF(UI\backpack_assaultpack_rgr_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_assaultexpanded_rgr_main_co.paa)
+        };
+        maximumLoad = 160;
+    };
 
     class B_Carryall_Base;
     class CLASS(Backpack_Carryall_DarkBlack): B_Carryall_Base {

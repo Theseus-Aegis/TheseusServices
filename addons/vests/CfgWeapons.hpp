@@ -88,6 +88,15 @@ class CfgWeapons {
         FIX_CAMO_HIDDENSELECTIONS
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_white_co.paa)};
     };
+    class CLASS(Vest_PlateCarrier_RGR): V_PlateCarrier1_rgr {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Pomigit, Jonpas, Rory, JoramD, GilleeDoo";
+        displayName = CSTRING(Vest_PlateCarrier_RGR);
+        picture = QPATHTOF(UI\vest_platecarrier_rgr_ca.paa);
+        FIX_CAMO_HIDDENSELECTIONS
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_rgr_co.paa)};
+    };
 
     // Plate Carrier Heavy
     class V_PlateCarrierGL_rgr;
