@@ -747,4 +747,10 @@ class CfgUnitInsignia {
         displayName = "Simple Medic (White)";
         texture = QPATHTOF(data\medicsimple_white.paa);
     };
+    class CLASS(Insignia_WillWorkForAmmo) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo";
+        displayName = "Will Work For Ammo";
+        texture = QPATHTOF(data\willworkforammo.paa);
+    };
 };
