@@ -31,7 +31,7 @@ class CfgVehicles {
         displayname = CSTRING(Backpack_AssaultExpanded_Tan);
         picture = QPATHTOF(UI\backpack_assaultexpanded_tan_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_assaultexpanded_tan_main_co.paa),
+            QPATHTOF(data\backpack_assaultexpanded_tan_co.paa),
             QPATHTOEF(vests,data\vest_platecarrier_coyote_co.paa) // Expanded part - vest texture
         };
         maximumLoad = 180;
@@ -43,7 +43,7 @@ class CfgVehicles {
         displayname = CSTRING(Backpack_AssaultExpanded_White);
         picture = QPATHTOF(UI\backpack_assaultexpanded_white_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_assaultexpanded_white_main_co.paa),
+            QPATHTOF(data\backpack_assaultexpanded_white_co.paa),
             QPATHTOEF(vests,data\vest_platecarrier_white_co.paa) // Expanded part - vest texture
         };
         maximumLoad = 180;
@@ -55,7 +55,7 @@ class CfgVehicles {
         displayname = CSTRING(Backpack_AssaultExpanded_RGR);
         picture = QPATHTOF(UI\backpack_assaultexpanded_rgr_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_assaultexpanded_rgr_main_co.paa),
+            QPATHTOF(data\backpack_assaultexpanded_rgr_co.paa),
             QPATHTOEF(vests,data\vest_platecarrier_rgr_co.paa) // Expanded part - vest texture
         };
         maximumLoad = 180;
