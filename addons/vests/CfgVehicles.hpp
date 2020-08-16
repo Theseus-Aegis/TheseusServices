@@ -82,6 +82,15 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Vest_PlateCarrier_White),1);
         };
     };
+    class CLASS(Item_Vest_PlateCarrier_RGR): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Jonpas, JoramD, GilleeDoo";
+        displayName = CSTRING(Vest_PlateCarrier_RGR);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_PlateCarrier_RGR),1);
+        };
+    };
 
     // Plate Carrier Heavy
     class CLASS(Item_Vest_PlateCarrierHeavy_Black): Vest_Base_F {

@@ -49,6 +49,9 @@
             <Japanese>プレート キャリア (白)</Japanese>
             <French>Gilet léger (Blanc)</French>
         </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_RGR">
+            <English>Plate Carrier (RGR)</English>
+        </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_Black">
             <English>Heavy Plate Carrier (Black)</English>
         </Key>

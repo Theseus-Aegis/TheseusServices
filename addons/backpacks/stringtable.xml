@@ -25,6 +25,12 @@
             <Japanese>拡張型アサルト パック (白) ロゴ</Japanese>
             <French>Paquetage d'assaut étendu (Blanc) logo</French>
         </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_RGR">
+            <English>Assault Pack Expanded (RGR) Logo</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_AssaultPack_RGR">
+            <English>Assault Pack (RGR)</English>
+        </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Carryall_DarkBlack">
             <English>Carryall Backpack (Dark Black)</English>
             <German>Carryall Rucksack (Dunkelschwarz)</German>
