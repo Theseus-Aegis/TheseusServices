@@ -69,7 +69,7 @@ class CfgVehicles {
         displayname = CSTRING(Backpack_AssaultPack_RGR);
         picture = QPATHTOF(UI\backpack_assaultpack_rgr_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_assaultexpanded_rgr_main_co.paa)
+            QPATHTOF(data\backpack_assaultexpanded_rgr_co.paa)
         };
         maximumLoad = 160;
     };
