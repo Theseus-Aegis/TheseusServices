@@ -11,7 +11,7 @@
  * The return value <BOOL>
  *
  * Example:
- * ["something", player] call tacs_common_fnc_exampleFunction
+ * ["something", player] call tacs_blank_fnc_exampleFunction
  *
  * Public: [Yes/No]
  */
