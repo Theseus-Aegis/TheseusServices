@@ -13,7 +13,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(UI\C130J_B_Theseus.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
-        hiddenSelections[] = {"camo1","camo2"};
+        hiddenSelections[] = {"camo1", "camo2"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\theseus_c130j_body_co.paa),
             QPATHTOF(data\theseus_c130j_wings_co.paa)
