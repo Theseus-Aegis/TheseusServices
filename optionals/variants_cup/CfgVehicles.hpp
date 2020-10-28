@@ -18,8 +18,8 @@ class CfgVehicles {
             QPATHTOF(data\theseus_c130j_body_co.paa),
             QPATHTOF(data\theseus_c130j_wings_co.paa)
         };
-        class textureSources {
-            class TACS {
+        class TextureSources {
+            class ADDON {
                 displayname = CSTRING(C130J_Theseus_Texture_Name);
                 author = CSTRING(C130J_Author);
                 textures[] = {
