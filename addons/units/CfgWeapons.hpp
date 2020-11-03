@@ -1233,6 +1233,148 @@ class CfgWeapons {
         };
     };
 
+    // Plaid Shirts with Jeans
+    class CLASS(Uniform_Plaid_JP_GY_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_JP_GY_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_JP_GY_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_JP_LP_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_JP_LP_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_JP_LP_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_BP_LPP_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_BP_LPP_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_BP_LPP_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_BP_LY_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_BP_LY_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_BP_LY_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_JP_CB_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_JP_CB_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_JP_CB_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_JP_RO_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_JP_RO_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_JP_RO_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_JP_RT_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_JP_RT_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_JP_RT_BP_BB);
+        };
+    };
+    // Plaid Shirts with Shorts
+    class CLASS(Uniform_Plaid_SP_GY_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_SP_GY_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_SP_GY_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_SP_LP_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_SP_LP_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_SP_LP_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_SP_LPP_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_SP_LPP_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_SP_LPP_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_SP_LY_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_SP_LY_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_SP_LY_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_SP_CB_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_SP_CB_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_SP_CB_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_SP_RO_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_SP_RO_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_SP_RO_BP_BB);
+        };
+    };
+    class CLASS(Uniform_Plaid_SP_RT_BP_BB): CLASS(Uniform_Base_Floral) {
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Uniform_Plaid_SP_RT_BP_BB);
+//      picture = QPATHTOF(UI\);
+
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_Plaid_SP_RT_BP_BB);
+        };
+    };
     // VIP
     class CLASS(Suit_VIP): CLASS(Uniform_Base) {
         scope = 2;

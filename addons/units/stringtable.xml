@@ -647,6 +647,48 @@
         <Key ID="STR_TACS_Units_Uniform_Floral_SP_BYS_LP_BB">
             <English>Hawaiian Shirt, Shorts (Gold, Khaki)</English>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_JP_GY_BP_BB">
+            <English>Plaid Shirt, Jeans (Golden Yellow)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_JP_LP_BP_BB">
+            <English>Plaid Shirt, Jeans (Light Pink)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_BP_LPP_BP_BB">
+            <English>Plaid Shirt, Jeans (Light Purple)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_BP_LY_BP_BB">
+            <English>Plaid Shirt, Jeans (Light Yellow)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_JP_CB_BP_BB">
+            <English>Plaid Shirt, Jeans (Cream Blue)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_JP_RO_BP_BB">
+            <English>Plaid Shirt, Jeans (Red Olive)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_JP_RT_BP_BB">
+            <English>Plaid Shirt, Jeans (Red Tartan)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_SP_GY_BP_BB">
+            <English>Plaid Shirt, Shorts (Golden Yellow)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_SP_LP_BP_BB">
+            <English>Plaid Shirt, Shorts (Light Pink)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_SP_LPP_BP_BB">
+            <English>Plaid Shirt, Shorts (Light Purple)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_SP_LY_BP_BB">
+            <English>Plaid Shirt, Shorts (Light Yellow)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_SP_CB_BP_BB">
+            <English>Plaid Shirt, Shorts (Cream Blue)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_SP_RO_BP_BB">
+            <English>Plaid Shirt, Shorts (Red Olive)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Plaid_SP_RT_BP_BB">
+            <English>Plaid Shirt, Shorts (Red Tartan)</English>
+        </Key>
         <Key ID="STR_TACS_Units_Suit_VIP">
             <English>VIP Suit</English>
             <German>VIP Anzug</German>
