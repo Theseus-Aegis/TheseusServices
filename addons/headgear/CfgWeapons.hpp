@@ -205,4 +205,189 @@ class CfgWeapons {
         picture = QPATHTOF(UI\hat_beret_blacklogo_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\hat_beret_blacklogo_co.paa)};
     };
+
+    // Advanced Modular Helmet
+    class H_HelmetHBK_F;
+    class CLASS(Helmet_Modular_Black): H_HelmetHBK_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Black);
+        picture = QPATHTOF(UI\helmet_modular_black_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_black_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Green): H_HelmetHBK_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Green);
+        picture = QPATHTOF(UI\helmet_modular_green_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_green_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Coyote): H_HelmetHBK_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Coyote);
+        picture = QPATHTOF(UI\helmet_modular_coyote_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_coyote_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_AU): H_HelmetHBK_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_AU);
+        picture = QPATHTOF(UI\helmet_modular_au_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_au_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_FG): H_HelmetHBK_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_FG);
+        picture = QPATHTOF(UI\helmet_modular_fg_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_fg_co.paa)};
+    };
+
+    class H_HelmetHBK_chops_F;
+    class CLASS(Helmet_Modular_Chops_Black): H_HelmetHBK_chops_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Chops_Black);
+        picture = QPATHTOF(UI\helmet_modular_chops_black_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_black_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Chops_Green): H_HelmetHBK_chops_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Chops_Green);
+        picture = QPATHTOF(UI\helmet_modular_chops_green_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_green_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Chops_Coyote): H_HelmetHBK_chops_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Chops_Coyote);
+        picture = QPATHTOF(UI\helmet_modular_chops_coyote_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_coyote_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Chops_AU): H_HelmetHBK_chops_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Chops_AU);
+        picture = QPATHTOF(UI\helmet_modular_chops_au_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_au_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Chops_FG): H_HelmetHBK_chops_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Chops_FG);
+        picture = QPATHTOF(UI\helmet_modular_chops_fg_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_fg_co.paa)};
+    };
+
+    class H_HelmetHBK_headset_F;
+    class CLASS(Helmet_Modular_Headset_Black): H_HelmetHBK_headset_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Headset_Black);
+        picture = QPATHTOF(UI\helmet_modular_black_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_black_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Headset_Green): H_HelmetHBK_headset_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Headset_Green);
+        picture = QPATHTOF(UI\helmet_modular_green_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_green_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Headset_Coyote): H_HelmetHBK_headset_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Headset_Coyote);
+        picture = QPATHTOF(UI\helmet_modular_coyote_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_coyote_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Headset_AU): H_HelmetHBK_headset_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Headset_AU);
+        picture = QPATHTOF(UI\helmet_modular_au_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_au_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Headset_FG): H_HelmetHBK_headset_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Headset_FG);
+        picture = QPATHTOF(UI\helmet_modular_fg_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_fg_co.paa)};
+    };
+
+    class H_HelmetHBK_ear_F;
+    class CLASS(Helmet_Modular_Ear_Black): H_HelmetHBK_ear_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Ear_Black);
+        picture = QPATHTOF(UI\helmet_modular_ear_black_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_black_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Ear_Green): H_HelmetHBK_ear_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Ear_Green);
+        picture = QPATHTOF(UI\helmet_modular_ear_green_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_green_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Ear_Coyote): H_HelmetHBK_ear_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Ear_Coyote);
+        picture = QPATHTOF(UI\helmet_modular_ear_coyote_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_coyote_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Ear_AU): H_HelmetHBK_ear_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Ear_AU);
+        picture = QPATHTOF(UI\helmet_modular_ear_au_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_au_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Ear_FG): H_HelmetHBK_ear_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Helmet_Modular_Ear_FG);
+        picture = QPATHTOF(UI\helmet_modular_ear_fg_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_fg_co.paa)};
+    };
 };

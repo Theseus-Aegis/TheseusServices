@@ -21,7 +21,27 @@ class CfgPatches {
             QCLASS(Item_Hat_Boonie_DesertMARPAT),
             QCLASS(Item_Hat_Boonie_Woodland),
             QCLASS(Item_Hat_Boonie_UCP),
-            QCLASS(Item_Hat_Beret_BlackLogo)
+            QCLASS(Item_Hat_Beret_BlackLogo),
+            QCLASS(Item_Helmet_Modular_Black),
+            QCLASS(Item_Helmet_Modular_Green),
+            QCLASS(Item_Helmet_Modular_Coyote),
+            QCLASS(Item_Helmet_Modular_AU),
+            QCLASS(Item_Helmet_Modular_FG),
+            QCLASS(Item_Helmet_Modular_Headset_Black),
+            QCLASS(Item_Helmet_Modular_Headset_Green),
+            QCLASS(Item_Helmet_Modular_Headset_Coyote),
+            QCLASS(Item_Helmet_Modular_Headset_AU),
+            QCLASS(Item_Helmet_Modular_Headset_FG),
+            QCLASS(Item_Helmet_Modular_Chops_Black),
+            QCLASS(Item_Helmet_Modular_Chops_Green),
+            QCLASS(Item_Helmet_Modular_Chops_Coyote),
+            QCLASS(Item_Helmet_Modular_Chops_AU),
+            QCLASS(Item_Helmet_Modular_Chops_FG),
+            QCLASS(Item_Helmet_Modular_Ear_Black),
+            QCLASS(Item_Helmet_Modular_Ear_Green),
+            QCLASS(Item_Helmet_Modular_Ear_Coyote),
+            QCLASS(Item_Helmet_Modular_Ear_AU),
+            QCLASS(Item_Helmet_Modular_Ear_FG)
         };
         weapons[] = {
             QCLASS(Cap_Headphones_BlackLogo),
@@ -41,12 +61,32 @@ class CfgPatches {
             QCLASS(Hat_Boonie_DesertMARPAT),
             QCLASS(Hat_Boonie_Woodland),
             QCLASS(Hat_Boonie_UCP),
-            QCLASS(Hat_Beret_BlackLogo)
+            QCLASS(Hat_Beret_BlackLogo),
+            QCLASS(Helmet_Modular_Black),
+            QCLASS(Helmet_Modular_Green),
+            QCLASS(Helmet_Modular_Coyote),
+            QCLASS(Helmet_Modular_AU),
+            QCLASS(Helmet_Modular_FG),
+            QCLASS(Helmet_Modular_Chops_Black),
+            QCLASS(Helmet_Modular_Chops_Green),
+            QCLASS(Helmet_Modular_Chops_Coyote),
+            QCLASS(Helmet_Modular_Chops_AU),
+            QCLASS(Helmet_Modular_Chops_FG),
+            QCLASS(Helmet_Modular_Headset_Black),
+            QCLASS(Helmet_Modular_Headset_Green),
+            QCLASS(Helmet_Modular_Headset_Coyote),
+            QCLASS(Helmet_Modular_Headset_AU),
+            QCLASS(Helmet_Modular_Headset_FG),
+            QCLASS(Helmet_Modular_Ear_Black),
+            QCLASS(Helmet_Modular_Ear_Green),
+            QCLASS(Helmet_Modular_Ear_Coyote),
+            QCLASS(Helmet_Modular_Ear_AU),
+            QCLASS(Helmet_Modular_Ear_FG)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
         author = ECSTRING(main,Author);
-        authors[] = {"Pomigit", "Jonpas", "Rory", "Kresky"};
+        authors[] = {"Pomigit", "Jonpas", "Rory", "Kresky", "Trenchgun", "TyroneMF"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

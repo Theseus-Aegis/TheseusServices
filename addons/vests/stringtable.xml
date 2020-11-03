@@ -70,5 +70,14 @@
             <Japanese>タクティカル ベスト (漆黒)</Japanese>
             <French>Gillet par-balles (Noir Foncé)</French>
         </Key>
+        <Key ID="STR_TACS_Vests_Vest_Modular_Black">
+            <English>Modular Carrier Vest (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_Modular_Green">
+            <English>Modular Carrier Vest (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_Modular_Coyote">
+            <English>Modular Carrier Vest (Coyote)</English>
+        </Key>
     </Package>
 </Project>

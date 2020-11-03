@@ -141,6 +141,36 @@ class CfgVehicles {
         };
     };
 
+    // Modular Carrier
+    class CLASS(Item_Vest_Modular_Black): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Vest_Modular_Black);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_Modular_Black),1);
+        };
+    };
+
+    class CLASS(Item_Vest_Modular_Green): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Vest_Modular_Green);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_Modular_Green),1);
+        };
+    };
+
+    class CLASS(Item_Vest_Modular_Coyote): Vest_Base_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, TyroneMF";
+        displayName = CSTRING(Vest_Modular_Coyote);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Vest_Modular_Coyote),1);
+        };
+    };
 
     // Box
     class B_supplyCrate_F;
@@ -159,6 +189,9 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Vest_PlateCarrierHeavy_Green),10);
             MACRO_ADDITEM(CLASS(Vest_PlateCarrierHeavy_White),10);
             MACRO_ADDITEM(CLASS(Vest_Tactical_DarkBlack),10);
+            MACRO_ADDITEM(CLASS(Vest_Modular_Black),10);
+            MACRO_ADDITEM(CLASS(Vest_Modular_Green),10);
+            MACRO_ADDITEM(CLASS(Vest_Modular_Coyote),10);
         };
     };
 };

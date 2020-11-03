@@ -109,5 +109,65 @@
             <Japanese>ベレー (黒) ロゴ</Japanese>
             <French>Béret (Noir) Logo</French>
         </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Black">
+            <English>Advanced Modular Helmet (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Green">
+            <English>Advanced Modular Helmet (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Coyote">
+            <English>Advanced Modular Helmet (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_AU">
+            <English>Advanced Modular Helmet (A-TACS AU)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_FG">
+            <English>Advanced Modular Helmet (A-TACS FG)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Black">
+            <English>Advanced Modular Helmet, Chops (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Green">
+            <English>Advanced Modular Helmet, Chops (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Coyote">
+            <English>Advanced Modular Helmet, Chops (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_AU">
+            <English>Advanced Modular Helmet, Chops (A-TACS AU)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_FG">
+            <English>Advanced Modular Helmet, Chops (A-TACS FG)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Black">
+            <English>Advanced Modular Helmet, Headset (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Green">
+            <English>Advanced Modular Helmet, Headset (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Coyote">
+            <English>Advanced Modular Helmet, Headset (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_AU">
+            <English>Advanced Modular Helmet, Headset (A-TACS AU)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_FG">
+            <English>Advanced Modular Helmet, Headset (A-TACS FG)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Black">
+            <English>Advanced Modular Helmet, Ear Protection (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Green">
+            <English>Advanced Modular Helmet, Ear Protection (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Coyote">
+            <English>Advanced Modular Helmet, Ear Protection (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_AU">
+            <English>Advanced Modular Helmet, Ear Protection (A-TACS AU)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_FG">
+            <English>Advanced Modular Helmet, Ear Protection (A-TACS FG)</English>
+        </Key>
     </Package>
 </Project>

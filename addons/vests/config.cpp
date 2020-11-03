@@ -17,6 +17,9 @@ class CfgPatches {
             QCLASS(Item_Vest_PlateCarrier_MARPAT),
             QCLASS(Item_Vest_PlateCarrier_White),
             QCLASS(Item_Vest_Tactical_DarkBlack)
+            QCLASS(Item_Vest_Modular_Black),
+            QCLASS(Item_Vest_Modular_Green),
+            QCLASS(Item_Vest_Modular_Coyote)
         };
         weapons[] = {
             QCLASS(Vest_PlateCarrierHeavy_Black),
@@ -31,7 +34,10 @@ class CfgPatches {
             QCLASS(Vest_PlateCarrier_Khaki),
             QCLASS(Vest_PlateCarrier_MARPAT),
             QCLASS(Vest_PlateCarrier_White),
-            QCLASS(Vest_Tactical_DarkBlack)
+            QCLASS(Vest_Tactical_DarkBlack),
+            QCLASS(Vest_Modular_Black),
+            QCLASS(Vest_Modular_Green),
+            QCLASS(Vest_Modular_Coyote)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
