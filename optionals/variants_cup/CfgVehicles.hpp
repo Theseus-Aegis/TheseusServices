@@ -26,7 +26,10 @@ class CfgVehicles {
                     QPATHTOF(data\theseus_c130j_body_co.paa),
                     QPATHTOF(data\theseus_c130j_wings_co.paa)
                 };
-                factions[] = {};
+                factions[] = {
+                    QCLASS(IND),
+                    QCLASS(BLU)
+                };
             };
         };
     };
