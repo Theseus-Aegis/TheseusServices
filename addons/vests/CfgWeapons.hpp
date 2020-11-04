@@ -149,7 +149,7 @@ class CfgWeapons {
     class CLASS(Vest_Modular_Black): V_CarrierRigKBT_01_EAF_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Trenchgun, TyroneMF";
+        author = "Trenchgun, Tyrone";
         displayName = CSTRING(Vest_Modular_Black);
         picture = QPATHTOF(UI\vest_modular_black_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_modular_black_co.paa)};
