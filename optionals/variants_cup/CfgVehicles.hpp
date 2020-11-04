@@ -10,7 +10,7 @@ class CfgVehicles {
         faction = QCLASS(IND);
         author = CSTRING(C130J_Author);
         displayName = CSTRING(C130J_Theseus_Name);
-        editorPreview = QPATHTOF(UI\C130J_B_Theseus.jpg);
+        editorPreview = QPATHTOF(ui\C130J_B_Theseus.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         hiddenSelections[] = {"camo1", "camo2"};
