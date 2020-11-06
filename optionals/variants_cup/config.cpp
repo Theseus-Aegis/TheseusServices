@@ -3,7 +3,10 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {
+            QCLASS(C130J_I_Theseus),
+            QCLASS(C130J_B_Theseus)
+        };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_units", "CUP_AirVehicles_C130J"};
