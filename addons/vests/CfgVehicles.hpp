@@ -152,16 +152,6 @@ class CfgVehicles {
         };
     };
 
-    class CLASS(Item_Vest_Modular_Green): Vest_Base_F {
-        MACRO_ITEM_COMMON
-        author = "Trenchgun, Tyrone";
-        displayName = CSTRING(Vest_Modular_Green);
-
-        class TransportItems {
-            MACRO_ADDITEM(CLASS(Vest_Modular_Green),1);
-        };
-    };
-
     class CLASS(Item_Vest_Modular_Coyote): Vest_Base_F {
         MACRO_ITEM_COMMON
         author = "Trenchgun, Tyrone";

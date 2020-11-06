@@ -155,13 +155,6 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_modular_black_co.paa)};
     };
 
-    class CLASS(Vest_Modular_Green): CLASS(Vest_Modular_Black) {
-        scope = 2;
-        displayName = CSTRING(Vest_Modular_Green);
-        picture = QPATHTOF(UI\vest_modular_green_ca.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_modular_green_co.paa)};
-    };
-
     class CLASS(Vest_Modular_Coyote): CLASS(Vest_Modular_Black) {
         scope = 2;
         displayName = CSTRING(Vest_Modular_Coyote);
