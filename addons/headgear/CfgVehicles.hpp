@@ -233,6 +233,16 @@ class CfgVehicles {
         };
     };
 
+    class CLASS(Item_Helmet_Modular_RGR): Headgear_H_HelmetHBK_F {
+        MACRO_ITEM_COMMON
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_RGR);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_RGR),1);
+        };
+    };
+
     class Headgear_H_HelmetHBK_headset_F;
     class CLASS(Item_Helmet_Modular_Headset_Black): Headgear_H_HelmetHBK_headset_F {
         MACRO_ITEM_COMMON
@@ -281,6 +291,16 @@ class CfgVehicles {
 
         class TransportItems {
             MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_FG),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Headset_RGR): Headgear_H_HelmetHBK_headset_F {
+        MACRO_ITEM_COMMON
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_Headset_RGR);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_RGR),1);
         };
     };
 
@@ -335,6 +355,16 @@ class CfgVehicles {
         };
     };
 
+    class CLASS(Item_Helmet_Modular_Chops_RGR): Headgear_H_HelmetHBK_chops_F {
+        MACRO_ITEM_COMMON
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_Chops_RGR);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_RGR),1);
+        };
+    };
+
     class Headgear_H_HelmetHBK_ear_F;
     class CLASS(Item_Helmet_Modular_Ear_Black): Headgear_H_HelmetHBK_ear_F {
         MACRO_ITEM_COMMON
@@ -383,6 +413,16 @@ class CfgVehicles {
 
         class TransportItems {
             MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_FG),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Ear_RGR): Headgear_H_HelmetHBK_ear_F {
+        MACRO_ITEM_COMMON
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_Ear_RGR);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_RGR),1);
         };
     };
 

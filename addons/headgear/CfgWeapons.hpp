@@ -253,6 +253,14 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_fg_co.paa)};
     };
 
+    class CLASS(Helmet_Modular_RGR): H_HelmetHBK_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_RGR);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_rgr_co.paa)};
+    };
+
     class H_HelmetHBK_chops_F;
     class CLASS(Helmet_Modular_Chops_Black): H_HelmetHBK_chops_F {
         dlc = QUOTE(PREFIX);
@@ -297,6 +305,14 @@ class CfgWeapons {
         displayName = CSTRING(Helmet_Modular_Chops_FG);
         picture = QPATHTOF(UI\helmet_modular_chops_fg_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_fg_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Chops_RGR): H_HelmetHBK_chops_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_Chops_RGR);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_rgr_co.paa)};
     };
 
     class H_HelmetHBK_headset_F;
@@ -345,6 +361,14 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_fg_co.paa)};
     };
 
+    class CLASS(Helmet_Modular_Headset_RGR): H_HelmetHBK_headset_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_Headset_RGR);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_rgr_co.paa)};
+    };
+
     class H_HelmetHBK_ear_F;
     class CLASS(Helmet_Modular_Ear_Black): H_HelmetHBK_ear_F {
         dlc = QUOTE(PREFIX);
@@ -389,5 +413,13 @@ class CfgWeapons {
         displayName = CSTRING(Helmet_Modular_Ear_FG);
         picture = QPATHTOF(UI\helmet_modular_ear_fg_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_fg_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Ear_RGR): H_HelmetHBK_ear_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_Ear_RGR);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_rgr_co.paa)};
     };
 };

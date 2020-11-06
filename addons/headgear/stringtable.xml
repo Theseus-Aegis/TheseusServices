@@ -124,6 +124,9 @@
         <Key ID="STR_TACS_Headgear_Helmet_Modular_FG">
             <English>Advanced Modular Helmet (A-TACS FG)</English>
         </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_RGR">
+            <English>Advanced Modular Helmet (RGR)</English>
+        </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Black">
             <English>Advanced Modular Helmet, Chops (Black)</English>
         </Key>
@@ -138,6 +141,9 @@
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_FG">
             <English>Advanced Modular Helmet, Chops (A-TACS FG)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_RGR">
+            <English>Advanced Modular Helmet, Chops (RGR)</English>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Black">
             <English>Advanced Modular Helmet, Headset (Black)</English>
@@ -154,6 +160,9 @@
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_FG">
             <English>Advanced Modular Helmet, Headset (A-TACS FG)</English>
         </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_RGR">
+            <English>Advanced Modular Helmet, Headset (RGR)</English>
+        </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Black">
             <English>Advanced Modular Helmet, Ear Protection (Black)</English>
         </Key>
@@ -168,6 +177,9 @@
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_FG">
             <English>Advanced Modular Helmet, Ear Protection (A-TACS FG)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_RGR">
+            <English>Advanced Modular Helmet, Ear Protection (RGR)</English>
         </Key>
     </Package>
 </Project>
