@@ -182,6 +182,249 @@ class CfgVehicles {
         };
     };
 
+    class Headgear_H_HelmetHBK_F;
+    class CLASS(Item_Helmet_Modular_Black): Headgear_H_HelmetHBK_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Black);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Black),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Green): Headgear_H_HelmetHBK_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Green);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Green),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Coyote): Headgear_H_HelmetHBK_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Coyote);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Coyote),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_AU): Headgear_H_HelmetHBK_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_AU);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_AU),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_FG): Headgear_H_HelmetHBK_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_FG);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_FG),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_RGR): Headgear_H_HelmetHBK_F {
+        MACRO_ITEM_COMMON
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_RGR);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_RGR),1);
+        };
+    };
+
+    class Headgear_H_HelmetHBK_headset_F;
+    class CLASS(Item_Helmet_Modular_Headset_Black): Headgear_H_HelmetHBK_headset_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Headset_Black);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Black),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Headset_Green): Headgear_H_HelmetHBK_headset_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Headset_Green);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Green),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Headset_Coyote): Headgear_H_HelmetHBK_headset_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Headset_Coyote);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Coyote),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Headset_AU): Headgear_H_HelmetHBK_headset_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Headset_AU);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_AU),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Headset_FG): Headgear_H_HelmetHBK_headset_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Headset_FG);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_FG),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Headset_RGR): Headgear_H_HelmetHBK_headset_F {
+        MACRO_ITEM_COMMON
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_Headset_RGR);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_RGR),1);
+        };
+    };
+
+    class Headgear_H_HelmetHBK_chops_F;
+    class CLASS(Item_Helmet_Modular_Chops_Black): Headgear_H_HelmetHBK_chops_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Chops_Black);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Black),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Chops_Green): Headgear_H_HelmetHBK_chops_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Chops_Green);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Green),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Chops_Coyote): Headgear_H_HelmetHBK_chops_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Chops_Coyote);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Coyote),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Chops_AU): Headgear_H_HelmetHBK_chops_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Chops_AU);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_AU),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Chops_FG): Headgear_H_HelmetHBK_chops_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Chops_FG);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_FG),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Chops_RGR): Headgear_H_HelmetHBK_chops_F {
+        MACRO_ITEM_COMMON
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_Chops_RGR);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_RGR),1);
+        };
+    };
+
+    class Headgear_H_HelmetHBK_ear_F;
+    class CLASS(Item_Helmet_Modular_Ear_Black): Headgear_H_HelmetHBK_ear_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Ear_Black);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Black),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Ear_Green): Headgear_H_HelmetHBK_ear_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Ear_Green);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Green),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Ear_Coyote): Headgear_H_HelmetHBK_ear_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Ear_Coyote);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Coyote),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Ear_AU): Headgear_H_HelmetHBK_ear_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Ear_AU);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_AU),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Ear_FG): Headgear_H_HelmetHBK_ear_F {
+        MACRO_ITEM_COMMON
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Helmet_Modular_Ear_FG);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_FG),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Ear_RGR): Headgear_H_HelmetHBK_ear_F {
+        MACRO_ITEM_COMMON
+        author = "Tyrone";
+        displayName = CSTRING(Helmet_Modular_Ear_RGR);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_RGR),1);
+        };
+    };
 
     // Box
     class B_supplyCrate_F;
@@ -205,6 +448,26 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Hat_Boonie_Woodland),10);
             MACRO_ADDITEM(CLASS(Hat_Boonie_UCP),10);
             MACRO_ADDITEM(CLASS(Hat_Beret_BlackLogo),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Black),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Green),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Coyote),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_AU),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_FG),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Black),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Green),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Coyote),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_AU),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_FG),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Black),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Green),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Coyote),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_AU),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_FG),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Black),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Green),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Coyote),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_AU),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_FG),10);
         };
     };
 };

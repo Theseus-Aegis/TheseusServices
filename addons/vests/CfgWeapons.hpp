@@ -143,4 +143,22 @@ class CfgWeapons {
         picture = QPATHTOF(UI\vest_tactical_darkblack_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_tactical_darkblack_co.paa)};
     };
+
+    // Modular Carrier
+    class V_CarrierRigKBT_01_EAF_F;
+    class CLASS(Vest_Modular_Black): V_CarrierRigKBT_01_EAF_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Trenchgun, Tyrone";
+        displayName = CSTRING(Vest_Modular_Black);
+        picture = QPATHTOF(UI\vest_modular_black_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_modular_black_co.paa)};
+    };
+
+    class CLASS(Vest_Modular_Coyote): CLASS(Vest_Modular_Black) {
+        scope = 2;
+        displayName = CSTRING(Vest_Modular_Coyote);
+        picture = QPATHTOF(UI\vest_modular_coyote_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vest_modular_coyote_co.paa)};
+    };
 };
