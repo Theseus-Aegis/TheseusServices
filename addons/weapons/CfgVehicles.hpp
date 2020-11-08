@@ -122,6 +122,12 @@ class CfgVehicles {
         maximumload = 9001;
 
         class TransportWeapons {
+            MACRO_ADDWEAPON(CLASS(EBR_Black_F),10);
+            MACRO_ADDWEAPON(CLASS(Mk20_Black_F),10);
+            MACRO_ADDWEAPON(CLASS(MK20C_Black_F),10);
+            MACRO_ADDWEAPON(CLASS(MK20_EGLM_Black_F),10);
+            MACRO_ADDWEAPON(CLASS(MRAWS_Black_F),10);
+            MACRO_ADDWEAPON(CLASS(MRAWS_Black_Rail_F),10);
             MACRO_ADDWEAPON(CLASS(MX_BlackCamo),10);
             MACRO_ADDWEAPON(CLASS(MX_GL_BlackCamo),10);
             MACRO_ADDWEAPON(CLASS(Walther_P99),10);
