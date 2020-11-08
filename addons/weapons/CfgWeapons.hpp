@@ -58,6 +58,35 @@ class CfgWeapons {
         baseWeapon = QCLASS(Mk20_Black_F);
     };
 
+    class arifle_Mk20C_plain_F;
+    class CLASS(MK20C_Black_F): arifle_Mk20C_plain_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Tyrone";
+        displayName = CSTRING(Mk20C_Black_F);
+        picture = QPATHTOF(UI\mk20c_blackcamo_ca.paa);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mk20_blackcamo_co.paa)
+        };
+        baseWeapon = QCLASS(MK20C_Black_F);
+    };
+
+    class arifle_Mk20_GL_plain_F;
+    class CLASS(MK20_EGLM_Black_F): arifle_Mk20_GL_plain_F {
+        dlc = QUOTE(PREFIX)
+        scope = 2;
+        author = "Tyrone";
+        displayName = CSTRING(Mk20_EGLM_Black_F);
+        picture = QPATHTOF(UI\mk20_eglm_ca.paa);
+        hiddenSelections[] = {"camo", "camo2"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\mk20_blackcamo_co.paa),
+            "\A3\Weapons_F_Beta\Rifles\MK20\Data\mk20_utilities_CO.paa"
+        };
+        baseWeapon =  QCLASS(MK20_EGLM_Black_F);
+    };
+
     class hgun_P07_F;
     class CLASS(Walther_P99): hgun_P07_F {
         dlc = QUOTE(PREFIX);
