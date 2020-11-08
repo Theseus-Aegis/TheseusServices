@@ -17,7 +17,7 @@ class CfgVehicles {
             class HitGlass3;
             class HitGlass4;
         };
-        
+
         class Turrets {
             class CargoTurret_09;
         };
@@ -139,7 +139,8 @@ class CfgVehicles {
         changeGearMinEffectivity[] = {0.95, 0.15, 0.95, 0.95, 0.95, 0.95, 0.95}; // Default: {1, 0.15000001, 1, 1, 1, 1, 1, 1}
         switchTime = 0.31;
         latency = 1.5;
-        
+        maxFordingDepth = 1.25;
+
         // Turrets (remove side mounts, keep rear gunner)
         class Turrets: Turrets {
             class CargoTurret_09: CargoTurret_09 {};
