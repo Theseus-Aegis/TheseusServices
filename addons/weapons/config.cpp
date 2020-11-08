@@ -9,6 +9,8 @@ class CfgPatches {
         units[] = {
             QCLASS(Item_EBR_Black_F),
             QCLASS(Item_Mk20_Black_F),
+            QCLASS(Item_MK20C_Black_F),
+            QCLASS(Item_MK20_EGLM_Black_F),
             QCLASS(Item_MRAWS_Black_F),
             QCLASS(Item_MRAWS_Black_Rail_F),
             QCLASS(Item_MX_BlackCamo),
@@ -19,6 +21,8 @@ class CfgPatches {
         weapons[] = {
             QCLASS(EBR_Black_F),
             QCLASS(Mk20_Black_F),
+            QCLASS(MK20C_Black_F),
+            QCLASS(MK20_EGLM_Black_F),
             QCLASS(MRAWS_Black_F),
             QCLASS(MRAWS_Black_Rail_F),
             QCLASS(MX_BlackCamo),

@@ -25,19 +25,19 @@
             <French>Mk14 Mod 1 EBR (Noir Anodisé)</French>
         </Key>
         <Key ID="STR_TACS_Weapons_Mk20_Black_F">
-            <English>F2000 (Black Camo)</English>
-            <German>F2000 (Schwarz Tarnfleck)</German>
-            <French>F2000 (Camo Noir)</French>
+            <English>F2000 (Theseus Camo)</English>
+            <German>F2000 (Theseus Tarnfleck)</German>
+            <French>F2000 (Theseus Noir)</French>
         </Key>
         <Key ID="STR_TACS_Weapons_Mk20C_Black_F">
-            <English>F2000 Tactical (Black Camo)</English>
-            <German>F2000 Taktisch (Schwarz Tarnfleck)</German>
-            <French>F2000 Tactique (Camo Noir)</French>
+            <English>F2000 Tactical (Theseus Camo)</English>
+            <German>F2000 Taktisch (Theseus Tarnfleck)</German>
+            <French>F2000 Tactique (Theseus Noir)</French>
         </Key>
         <Key ID="STR_TACS_Weapons_Mk20_EGLM_Black_F">
-            <English>F2000 EGLM (Black Camo)</English>
-            <German>F2000 EGLM (Schwarz Tarnfleck)</German>
-            <French>F2000 EGLM (Camo Noir)</French>
+            <English>F2000 EGLM (Theseus Camo)</English>
+            <German>F2000 EGLM (Theseus Tarnfleck)</German>
+            <French>F2000 EGLM (Theseus Noir)</French>
         </Key>
         <Key ID="STR_TACS_Weapons_Walther_P99">
             <English>Walther P99</English>
