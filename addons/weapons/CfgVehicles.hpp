@@ -46,6 +46,26 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Mk20_Black_F),1);
         };
     };
+    class CLASS(Item_MK20C_Black_F): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "Tyrone";
+        displayName = CSTRING(MK20C_Black_F);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MK20C_Black_F),1);
+        }:
+    };
+    class CLASS(Item_MK20_EGLM_Black_F): Weapon_Base_F {
+        MACRO_ITEM_COMMON
+        vehicleClass = "WeaponsPrimary";
+        author = "Tyrone";
+        displayName = CSTRING(MK20_EGLM_Black_F);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(MK20_EGLM_Black_F),1);
+        };
+    };
     class Pistol_Base_F;
     class CLASS(Item_Walther_P99): Pistol_Base_F {
         MACRO_ITEM_COMMON
@@ -102,6 +122,12 @@ class CfgVehicles {
         maximumload = 9001;
 
         class TransportWeapons {
+            MACRO_ADDWEAPON(CLASS(EBR_Black_F),10);
+            MACRO_ADDWEAPON(CLASS(Mk20_Black_F),10);
+            MACRO_ADDWEAPON(CLASS(MK20C_Black_F),10);
+            MACRO_ADDWEAPON(CLASS(MK20_EGLM_Black_F),10);
+            MACRO_ADDWEAPON(CLASS(MRAWS_Black_F),10);
+            MACRO_ADDWEAPON(CLASS(MRAWS_Black_Rail_F),10);
             MACRO_ADDWEAPON(CLASS(MX_BlackCamo),10);
             MACRO_ADDWEAPON(CLASS(MX_GL_BlackCamo),10);
             MACRO_ADDWEAPON(CLASS(Walther_P99),10);
