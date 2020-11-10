@@ -54,7 +54,7 @@ class CfgVehicles {
 
         class TransportItems {
             MACRO_ADDITEM(CLASS(MK20C_Black_F),1);
-        }:
+        };
     };
     class CLASS(Item_MK20_EGLM_Black_F): Weapon_Base_F {
         MACRO_ITEM_COMMON
