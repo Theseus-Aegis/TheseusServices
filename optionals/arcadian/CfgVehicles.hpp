@@ -114,10 +114,10 @@ class CfgVehicles {
                 };
             };
             class LightCarHeadL02: LightCarHeadL01 {
-                position="LightCarHeadL02";
-                direction="LightCarHeadL02_end";
-                hitpoint="Light_L2";
-                selection="Light_L2";
+                position = "LightCarHeadL02";
+                direction = "LightCarHeadL02_end";
+                hitpoint = "Light_L2";
+                selection = "Light_L2";
             };
             class LightCarHeadR01: LightCarHeadL01 {
                 position = "LightCarHeadR01";
