@@ -87,6 +87,52 @@ class CfgVehicles {
         accuracy = 0.35; // Increase targeting priority for AI due to more durable vehicle (default: 0.25)
         wheelDamageThreshold = 0.18; // Required to simulate runflat tires
 
+        // Lights - Change from low yellow to LED blue.
+        class Reflectors {
+            class LightCarHeadL01 {
+                color[] = {185, 190, 199};
+                ambient[] = {6, 9, 9};
+                size = 1;
+                innerAngle = 100;
+                outerAngle = 179;
+                coneFadeCoef = 10;
+                intensity = 15;
+                useFlare = 1;
+                flareSize = 1.5;
+                dayLight = 0;
+                position = "LightCarHeadL01";
+                direction = "LightCarHeadL01_end";
+                hitpoint = "Light_L";
+                selection = "Light_L";
+                class Attenuation {
+                    start = 1;
+                    constant = 0;
+                    linear = 0;
+                    quadratic = 0.25;
+                    hardLimitStart = 30;
+                    hardLimitEnd = 60;
+                };
+            };
+            class LightCarHeadL02: LightCarHeadL01 {
+                position="LightCarHeadL02";
+                direction="LightCarHeadL02_end";
+                hitpoint="Light_L2";
+                selection="Light_L2";
+            };
+            class LightCarHeadR01: LightCarHeadL01 {
+                position = "LightCarHeadR01";
+                direction = "LightCarHeadR01_end";
+                hitpoint = "Light_R";
+                selection = "Light_R";
+            };
+			class LightCarHeadR02: LightCarHeadR01 {
+                position = "LightCarHeadR02";
+                direction = "LightCarHeadR02_end";
+                hitpoint = "Light_R2";
+                selection = "Light_R2";
+            };
+        };
+
         // Sound
         soundEngineOnInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_Start", 0.63, 1};
         soundEngineOnExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_Start", 1.99, 1, 50};
