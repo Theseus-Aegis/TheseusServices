@@ -191,6 +191,9 @@ class CfgVehicles {
         class Turrets: Turrets {
             class CargoTurret_09: CargoTurret_09 {};
         };
+
+        // Increase cargo space (default: 4)
+        ace_cargo_space = 6;
     };
 
 
