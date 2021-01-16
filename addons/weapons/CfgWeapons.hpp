@@ -74,7 +74,7 @@ class CfgWeapons {
 
     class arifle_Mk20_GL_plain_F;
     class CLASS(MK20_EGLM_Black_F): arifle_Mk20_GL_plain_F {
-        dlc = QUOTE(PREFIX)
+        dlc = QUOTE(PREFIX);
         scope = 2;
         author = "Tyrone";
         displayName = CSTRING(Mk20_EGLM_Black_F);
