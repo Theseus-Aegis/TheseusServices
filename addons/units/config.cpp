@@ -5,6 +5,10 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             // Ground items
+            QCLASS(Item_Uniform_Combat_LS_ATACS_ATX),
+            QCLASS(Item_Uniform_Combat_LS_ATACS_AUX),
+            QCLASS(Item_Uniform_Combat_LS_ATACS_IX),
+            QCLASS(Item_Uniform_Combat_LS_ATACS_LEX),
             QCLASS(Item_Uniform_Combat_LS_BS_BP_BB),
             QCLASS(Item_Uniform_Combat_LS_BS_GP_BB),
             QCLASS(Item_Uniform_Combat_LS_BS_GP_TB),
@@ -28,6 +32,10 @@ class CfgPatches {
             QCLASS(Item_Uniform_Combat_LS_CLRS_TP_BB),
             QCLASS(Item_Uniform_Combat_LS_CPS_BP_BB),
             QCLASS(Item_Uniform_Combat_LS_WS_WP_WB),
+            QCLASS(Item_Uniform_Combat_RS_ATACS_ATX),
+            QCLASS(Item_Uniform_Combat_RS_ATACS_AUX),
+            QCLASS(Item_Uniform_Combat_RS_ATACS_IX),
+            QCLASS(Item_Uniform_Combat_RS_ATACS_LEX),
             QCLASS(Item_Uniform_Combat_RS_BS_BP_BB),
             QCLASS(Item_Uniform_Combat_RS_BS_GP_BB),
             QCLASS(Item_Uniform_Combat_RS_BS_GP_TB),
@@ -162,6 +170,10 @@ class CfgPatches {
             QCLASS(Unit_B_VIP)
         };
         weapons[] = {
+            QCLASS(Uniform_Combat_LS_ATACS_ATX),
+            QCLASS(Uniform_Combat_LS_ATACS_AUX),
+            QCLASS(Uniform_Combat_LS_ATACS_IX),
+            QCLASS(Uniform_Combat_LS_ATACS_LEX),
             QCLASS(Uniform_Combat_LS_BS_BP_BB),
             QCLASS(Uniform_Combat_LS_BS_GP_BB),
             QCLASS(Uniform_Combat_LS_BS_GP_TB),
@@ -180,6 +192,10 @@ class CfgPatches {
             QCLASS(Uniform_Combat_LS_CLRS_TP_BB),
             QCLASS(Uniform_Combat_LS_CPS_BP_BB),
             QCLASS(Uniform_Combat_LS_WS_WP_WB),
+            QCLASS(Uniform_Combat_RS_ATACS_ATX),
+            QCLASS(Uniform_Combat_RS_ATACS_AUX),
+            QCLASS(Uniform_Combat_RS_ATACS_IX),
+            QCLASS(Uniform_Combat_RS_ATACS_LEX),
             QCLASS(Uniform_Combat_RS_BS_BP_BB),
             QCLASS(Uniform_Combat_RS_BS_GP_BB),
             QCLASS(Uniform_Combat_RS_BS_GP_TB),
@@ -286,7 +302,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_backpacks", "tacs_headgear", "tacs_vests", "tacs_weapons"};
         author = ECSTRING(main,Author);
-        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky"};
+        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky", "Tibernius", "Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

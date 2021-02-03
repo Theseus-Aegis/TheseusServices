@@ -7,6 +7,30 @@
             <Japanese>[TACS] 被服</Japanese>
             <French>[TACS] Uniformes</French>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_ATACS_ATX">
+            <English>Combat Uniform Long (A-TACS A-TX)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_ATACS_AUX">
+            <English>Combat Uniform Long (A-TACS AU-X)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_ATACS_IX">
+            <English>Combat Uniform Long (A-TACS iX)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_ATACS_LEX">
+            <English>Combat Uniform Long (A-TACS LE-X)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_ATACS_ATX">
+            <English>Combat Uniform Rolled (A-TACS A-TX)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_ATACS_AUX">
+            <English>Combat Uniform Rolled (A-TACS AU-X)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_ATACS_IX">
+            <English>Combat Uniform Rolled (A-TACS iX)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_ATACS_LEX">
+            <English>Combat Uniform Rolled (A-TACS LE-X)</English>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_BP_BB">
             <English>Combat Uniform Long (Black, Black, Black)</English>
             <German>Kampfuniform, lang (Schwarz, Schwarz, Schwarz)</German>
