@@ -18,6 +18,10 @@ class CfgVehicles {
         class TransportMagazines {};
 
         class TransportItems {
+            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_ATACS_ATX),10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_ATACS_AUX),10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_ATACS_IX),10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_LS_ATACS_LEX),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BS_BP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BS_GP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BS_GP_TB),10);
@@ -41,6 +45,10 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CLRS_TP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CPS_BP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_LS_WS_WP_WB),10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_ATACS_ATX),10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_ATACS_AUX),10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_ATACS_IX),10);
+            MACRO_ADDITEM(CLASS(Uniform_Combat_RS_ATACS_LEX),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BS_BP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BS_GP_BB),10);
             MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BS_GP_TB),10);
