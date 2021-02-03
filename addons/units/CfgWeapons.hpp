@@ -58,7 +58,7 @@ class CfgWeapons {
         };
     };
 
-    // Naming pattern: Sleeve length_Camo_CamoName
+    // Naming pattern: SleeveType_Camo_Pattern
     // Combat ATACS - Long Sleeves
     class CLASS(Uniform_Combat_LS_ATACS_ATX): CLASS(Uniform_Base) {
         scope = 2;
