@@ -69,7 +69,7 @@ class CLASS(Unit_Combat_LS_Base): B_Soldier_base_F {
 
 // Combat - Long Sleeves - Atacs
 
-class CLASS(Unit_Combat_LS_Atacs_Base): CLASS(Unit_Combat_LS_Base) {
+class CLASS(Unit_Combat_LS_ATACS_Base): CLASS(Unit_Combat_LS_Base) {
     hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_atacs.rvmat)};
 };
 
@@ -89,7 +89,7 @@ class CLASS(Unit_Combat_RS_Base): B_Soldier_03_f {
 };
 
 // Combat - Rolled Sleeves - Atacs
-class CLASS(Unit_Combat_RS_Atacs_Base): CLASS(Unit_Combat_RS_Base) {
+class CLASS(Unit_Combat_RS_ATACS_Base): CLASS(Unit_Combat_RS_Base) {
     hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_atacs.rvmat)};
 };
 
