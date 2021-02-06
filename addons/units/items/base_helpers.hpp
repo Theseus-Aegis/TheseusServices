@@ -67,6 +67,11 @@ class CLASS(Unit_Combat_LS_Base): B_Soldier_base_F {
     hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat.rvmat)};
 };
 
+// Combat - Long Sleeves - Atacs
+class CLASS(Unit_Combat_LS_ATACS_Base): CLASS(Unit_Combat_LS_Base) {
+    hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_atacs.rvmat)};
+};
+
 // Combat - Long Sleeves - Plaid
 class CLASS(Unit_Combat_LS_C_Base): B_Soldier_base_F {
     MACRO_BASE_CLASS_COMMON
@@ -80,6 +85,11 @@ class CLASS(Unit_Combat_RS_Base): B_Soldier_03_f {
     MACRO_BASE_CLASS_COMMON
     nakedUniform = QCLASS(Underwear_WhiteLogo);
     hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat.rvmat)};
+};
+
+// Combat - Rolled Sleeves - Atacs
+class CLASS(Unit_Combat_RS_ATACS_Base): CLASS(Unit_Combat_RS_Base) {
+    hiddenSelectionsMaterials[] = {QPATHTOF(data\uniform_combat_atacs.rvmat)};
 };
 
 // Combat - Rolled Sleeves - Plaid
