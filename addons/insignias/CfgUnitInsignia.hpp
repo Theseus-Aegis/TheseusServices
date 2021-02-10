@@ -261,24 +261,6 @@ class CfgUnitInsignia {
         displayName = "Indian Chief Skull";
         texture = QPATHTOF(data\indianchiefskull.paa);
     };
-    class CLASS(Insignia_Infidel) {
-        MACRO_INSIGNIA_COMMON
-        author = "BadHabitz";
-        displayName = "Infidel";
-        texture = QPATHTOF(data\infidel.paa);
-    };
-    class CLASS(Insignia_Infidel2) {
-        MACRO_INSIGNIA_COMMON
-        author = "BadHabitz";
-        displayName = "Infidel 2";
-        texture = QPATHTOF(data\infidel2.paa);
-    };
-    class CLASS(Insignia_InfidelNation) {
-        MACRO_INSIGNIA_COMMON
-        author = "BadHabitz";
-        displayName = "Infidel Nation";
-        texture = QPATHTOF(data\infidelnation.paa);
-    };
     class CLASS(Insignia_IPleadThe2nd) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
@@ -290,12 +272,6 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Jedi Order Shield";
         texture = QPATHTOF(data\jediordershield.paa);
-    };
-    class CLASS(Insignia_JoinOrDie) {
-        MACRO_INSIGNIA_COMMON
-        author = "BadHabitz";
-        displayName = "Join or Die";
-        texture = QPATHTOF(data\joinordie.paa);
     };
     class CLASS(Insignia_KeepCalmAndReload) {
         MACRO_INSIGNIA_COMMON
@@ -356,12 +332,6 @@ class CfgUnitInsignia {
         author = "System98";
         displayName = "Mandalorian Bantha Skull (Red-Silver)";
         texture = QPATHTOF(data\mandalorianbanthaskull_redsilver.paa);
-    };
-    class CLASS(Insignia_Matchmaker) {
-        MACRO_INSIGNIA_COMMON
-        author = "System98";
-        displayName = "Matchmaker";
-        texture = QPATHTOF(data\matchmaker.paa);
     };
     class CLASS(Insignia_Medic) {
         MACRO_INSIGNIA_COMMON
@@ -434,18 +404,6 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Pirate Flag (Multicam)";
         texture = QPATHTOF(data\pirateflag_Multicam.paa);
-    };
-    class CLASS(Insignia_PorkEatingCrusader) {
-        MACRO_INSIGNIA_COMMON
-        author = "BadHabitz";
-        displayName = "Pork Eating Crusader";
-        texture = QPATHTOF(data\porkeatingcrusader.paa);
-    };
-    class CLASS(Insignia_PorkEatingCrusader_Tan) {
-        MACRO_INSIGNIA_COMMON
-        author = "BadHabitz";
-        displayName = "Pork Eating Crusader (Tan)";
-        texture = QPATHTOF(data\porkeatingcrusader_tan.paa);
     };
     class CLASS(Insignia_POWMIA) {
         MACRO_INSIGNIA_COMMON
@@ -662,12 +620,6 @@ class CfgUnitInsignia {
         author = "System98";
         displayName = "Valknut";
         texture = QPATHTOF(data\valknut.paa);
-    };
-    class CLASS(Insignia_WaterboardingIsBaptism) {
-        MACRO_INSIGNIA_COMMON
-        author = "BadHabitz";
-        displayName = "Waterboarding is Baptism";
-        texture = QPATHTOF(data\waterboardingisbaptism.paa);
     };
     class CLASS(Insignia_WellDoItLive) {
         MACRO_INSIGNIA_COMMON
