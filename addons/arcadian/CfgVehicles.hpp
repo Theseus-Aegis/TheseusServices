@@ -21,18 +21,18 @@ class CfgVehicles {
         class Damage {
             tex[] = {};
             mat[] = {
-                QPATHTOF(data\suv_armouredbody.rvmat),
-                QPATHTOF(data\suv_armouredbody_damage.rvmat),
-                QPATHTOF(data\suv_armouredbody_destruct.rvmat),
-                QPATHTOF(data\suv_chrom.rvmat),
-                QPATHTOF(data\suv_chrom_damage.rvmat),
-                QPATHTOF(data\suv_chrom_destruct.rvmat),
-                QPATHTOF(data\suv_glass.rvmat),
-                QPATHTOF(data\suv_glass_damage.rvmat),
-                QPATHTOF(data\suv_glass_destruct.rvmat),
+                QPATHTOR(data\suv_armouredbody.rvmat),
+                QPATHTOR(data\suv_armouredbody_damage.rvmat),
+                QPATHTOR(data\suv_armouredbody_destruct.rvmat),
+                QPATHTOR(data\suv_chrom.rvmat),
+                QPATHTOR(data\suv_chrom_damage.rvmat),
+                QPATHTOR(data\suv_chrom_destruct.rvmat),
+                QPATHTOR(data\suv_glass.rvmat),
+                QPATHTOR(data\suv_glass_damage.rvmat),
+                QPATHTOR(data\suv_glass_destruct.rvmat),
                 "a3\data_f\default.rvmat",
                 "a3\data_f\default.rvmat",
-                "A3\data_F\default_destruct.rvmat"
+                "a3\data_F\default_destruct.rvmat"
             };
         };
         animationList[] = {
@@ -61,19 +61,18 @@ class CfgVehicles {
         class Damage {
             tex[] = {};
             mat[] = {
-				QPATHTOF(data\suv_body.rvmat),
-				QPATHTOF(data\suv_body_damage.rvmat),
-				QPATHTOF(data\suv_body_destruct.rvmat),
-				QPATHTOF(data\suv_chrom.rvmat),
-				QPATHTOF(data\suv_chrom_damage.rvmat),
-				QPATHTOF(data\suv_chrom_destruct.rvmat),
-				QPATHTOF(data\suv_glass.rvmat),
-				QPATHTOF(data\suv_glass_damage.rvmat),
-				QPATHTOF(data\suv_glass_destruct.rvmat),
-
-				"a3\data_f\default.rvmat",
-				"a3\data_f\default.rvmat",
-				"A3\data_F\default_destruct.rvmat"
+                QPATHTOR(data\suv_body.rvmat),
+                QPATHTOR(data\suv_body_damage.rvmat),
+                QPATHTOR(data\suv_body_destruct.rvmat),
+                QPATHTOR(data\suv_chrom.rvmat),
+                QPATHTOR(data\suv_chrom_damage.rvmat),
+                QPATHTOR(data\suv_chrom_destruct.rvmat),
+                QPATHTOR(data\suv_glass.rvmat),
+                QPATHTOR(data\suv_glass_damage.rvmat),
+                QPATHTOR(data\suv_glass_destruct.rvmat),
+                "a3\data_f\default.rvmat",
+                "a3\data_f\default.rvmat",
+                "a3\data_F\default_destruct.rvmat"
             };
         };
         class AnimationSources: AnimationSources {

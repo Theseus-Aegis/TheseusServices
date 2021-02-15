@@ -8,11 +8,17 @@
 #define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCHLVL.BUILD); versionAr[] = {MAJOR,MINOR,PATCHLVL,BUILD}
 
 // Path
-#define PATHTOF_SYS(var1,var2,var3) \MAINPREFIX\##var1\SUBPREFIX\##var2\##var3
+#define PATHTOF_SYS(var1,var2,var3) \MAINPREFIX\var1\SUBPREFIX\var2\var3
 #define PATHTOF(var1) PATHTOF_SYS(PREFIX,COMPONENT,var1)
 #define PATHTOEF(var1,var2) PATHTOF_SYS(PREFIX,var1,var2)
 #define QPATHTOF(var1) QUOTE(PATHTOF(var1))
 #define QPATHTOEF(var1,var2) QUOTE(PATHTOEF(var1,var2))
+
+#define PATHTOR_SYS(var1,var2,var3) MAINPREFIX\var1\SUBPREFIX\var2\var3
+#define PATHTOR(var1) PATHTOR_SYS(PREFIX,COMPONENT,var1)
+#define PATHTOER(var1,var2) PATHTOR_SYS(PREFIX,var1,var2)
+#define QPATHTOR(var1) QUOTE(PATHTOR(var1))
+#define QPATHTOER(var1,var2) QUOTE(PATHTOER(var1,var2))
 
 // Class
 #define CLASS(var1) DOUBLES(PREFIX,var1)
