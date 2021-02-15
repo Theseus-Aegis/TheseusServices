@@ -12,9 +12,10 @@ class CLASS(Arcadian_I_Black): CLASS(Arcadian_Base) {
         QPATHTOF(data\armoredsuv_interier_co.paa)
     };
     hiddenSelectionMaterials[] = {
-        QPATHTOF(data\suv_body.rvmat),
+        QPATHTOF(data\suv_armouredbody.rvmat.rvmat),
         QPATHTOF(data\suv_interier.rvmat)
     };
+
     class Damage {
         tex[] = {};
         mat[] = {
@@ -25,7 +26,7 @@ class CLASS(Arcadian_I_Black): CLASS(Arcadian_Base) {
             QPATHTOR(data\suv_chrom_damage.rvmat),
             QPATHTOR(data\suv_chrom_destruct.rvmat),
             QPATHTOR(data\suv_glass.rvmat),
-            QPATHTOR(data\suv_glass_damage.rvmat),
+            //QPATHTOR(data\suv_glass_damage.rvmat),
             QPATHTOR(data\suv_glass_destruct.rvmat),
             "a3\data_f\default.rvmat",
             "a3\data_f\default.rvmat",
@@ -90,4 +91,13 @@ class CLASS(Arcadian_B_Green): CLASS(Arcadian_I_Green) {
     faction = QCLASS(BLU);
     crew = QCLASS(Unit_B_Contractor);
     typicalCargo[] = {QCLASS(Unit_B_Contractor)};
+};
+
+// Grey Variants
+class CLASS(Arcadian_I_Grey): CLASS(Arcadian_I_Black) {
+    scope = 2;
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\arcadian_body_grey_co.paa),
+        QPATHTOF(data\armoredsuv_interier_co.paa)
+    };
 };
