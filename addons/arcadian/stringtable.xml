@@ -10,5 +10,14 @@
         <Key ID="STR_TACS_Arcadian_Green">
             <English>Arcadian GT (Green)</English>
         </Key>
+        <Key ID="STR_TACS_Arcadian_Armed_Black">
+            <English>Arcadian GT (Black/Armed)</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Armed_Tan">
+            <English>Arcadian GT (Tan/Armed)</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Armed_Green">
+            <English>Arcadian GT (Green/Armed)</English>
+        </Key>
     </Package>
 </Project>

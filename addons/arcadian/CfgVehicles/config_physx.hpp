@@ -1,4 +1,4 @@
-thrustDelay = 0.3;
+thrustDelay = 0.25;
 brakeIdleSpeed = 1.78;
 maxSpeed = 200;
 fuelCapacity = 45;
@@ -7,20 +7,21 @@ antiRollbarForceCoef=3;
 antiRollbarForceLimit=2;
 antiRollbarSpeedMin=20;
 antiRollbarSpeedMax=150;
-idleRpm = 1000;
+idleRpm = 800;
 redRpm = 6500;
+
 class complexGearbox {
     GearboxRatios[] = {
         "R1", -4,
         "N", 0,
-        "D1", "4.5*(0.58 ^ 0)",
-        "D2", "4.5*(0.58 ^ 1)",
-        "D3", "4.5*(0.58 ^ 2)",
-        "D4", "4.5*(0.58 ^ 3)",
-        "D5", "4.5*(0.59 ^ 4)",
-        "D6", "4.5*(0.6 ^ 5)"
+        "D1", "4.5 * (0.58 ^ 0)",
+        "D2", "4.5 * (0.58 ^ 1)",
+        "D3", "4.5 * (0.58 ^ 2)",
+        "D4", "4.5 * (0.58 ^ 3)",
+        "D5", "4.5 * (0.59 ^ 4)",
+        "D6", "4.5 * (0.6 ^ 5)"
     };
-    TransmissionRatios[] = {"High",7};
+    TransmissionRatios[] = {"High", 5.539};
     gearBoxMode = "auto";
     moveOffGear = 1;
     driveString = "D";
@@ -55,9 +56,11 @@ torqueCurve[] = {
     {"(3000/3500)", "(300/425)"},
     {"(6000/3500)", "(0/425)"}
 };
-changeGearMinEffectivity[] = {1,0.15,1,1,1,1,1,1};
+changeGearMinEffectivity[] = {1, 0.15, 1, 1, 1, 1, 1, 1};
 switchTime = 0.31;
 latency = 1.5;
+maxFordingDepth = 1.25;
+
 class Wheels {
     class LF {
         boneName = "wheel_1_1_damper";

@@ -140,6 +140,7 @@ class CLASS(Arcadian_Base): Car_F {
             maxElev=45;
             initElev=0;
             soundServo[] = {"", db-40, 1.0};
+            stabilizedInAxes = "StabilizedInAxesBoth";
             gunBeg = "muzzle_1";
             gunEnd = "chamber_1";
             weapons[] = {QCLASS(LMG_Minigun_SUV)};
@@ -259,7 +260,7 @@ class CLASS(Arcadian_Base): Car_F {
         class BeaconsStart {
             source = "user";
             animPeriod = 0;
-            initPhase = 1;
+            initPhase = 0;
             displayName = "Start Beacon Lights";
         };
         class roofbar_hide_source {
@@ -436,20 +437,24 @@ class CLASS(Arcadian_Base): Car_F {
     };
     class HitPoints: HitPoints {
         class HitLFWheel: HitLFWheel {
-            armor = 0.19;
+            armor = 0.6;
             passThrough = 0;
+            explosionShielding = 2;
         };
         class HitLF2Wheel: HitLF2Wheel {
-            armor = 0.19;
+            armor = 0.6;
             passThrough = 0;
+            explosionShielding = 2;
         };
         class HitRFWheel: HitRFWheel {
-            armor = 0.19;
+            armor = 0.6;
             passThrough = 0;
+            explosionShielding = 2;
         };
         class HitRF2Wheel: HitRF2Wheel {
-            armor = 0.19;
+            armor = 0.6;
             passThrough = 0;
+            explosionShielding = 2;
         };
         class HitFuel: HitFuel {
             armor=2;
@@ -459,22 +464,24 @@ class CLASS(Arcadian_Base): Car_F {
             passThrough=0.2;
         };
         class HitEngine: HitEngine {
-            armor=4;
-            material=60;
-            name="engine";
-            visual="";
-            passThrough=0.2;
+            armor = 2;
+            material = 60;
+            name = "engine";
+            visual = "";
+            passThrough=0.3;
+            explosionShielding = 0.2;
         };
         class HitBody: HitBody {
-            armor = 6;
+            armor = 3;
             name = "karoserie";
             visual = "zbytek";
             passThrough = 1;
             radius = 0.45;
+            explosionShielding = 1.5;
         };
         class HitGlass1: HitGlass1 {
-            armor = 1;
-            explosionShielding = 0.8;
+            armor = 0.5;
+            explosionShielding = 1;
             minimalHit = 0.1;
             name = "glass1";
             passThrough = 0;
@@ -482,8 +489,8 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass1";
         };
         class HitGlass2: HitGlass1 {
-            armor=1;
-            explosionShielding = 0.8;
+            armor = 0.5;
+            explosionShielding = 1;
             minimalHit = 0.1;
             name = "glass2";
             passThrough = 0;
@@ -491,8 +498,8 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass2";
         };
         class HitGlass3: HitGlass1 {
-            armor=1;
-            explosionShielding = 0.8;
+            armor = 0.5;
+            explosionShielding = 1;
             minimalHit = 0.1;
             name = "glass3";
             passThrough = 0;
@@ -500,8 +507,8 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass3";
         };
         class HitGlass4: HitGlass1 {
-            armor=1;
-            explosionShielding = 0.8;
+            armor = 0.5;
+            explosionShielding = 1;
             minimalHit = 0.1;
             name = "glass4";
             passThrough = 0;
@@ -509,8 +516,8 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass4";
         };
         class HitGlass5: HitGlass1 {
-            armor=1;
-            explosionShielding = 0.8;
+            armor = 0.5;
+            explosionShielding = 1;
             minimalHit = 0.1;
             name = "glass5";
             passThrough = 0;
@@ -518,8 +525,8 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass5";
         };
         class HitGlass6: HitGlass1 {
-            armor=1;
-            explosionShielding = 0.8;
+            armor = 0.5;
+            explosionShielding = 1;
             minimalHit = 0.1;
             name = "glass6";
             passThrough = 0;
@@ -527,8 +534,8 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass6";
         };
         class HitGlass7: HitGlass1 {
-            armor=1;
-            explosionShielding = 0.8;
+            armor = 0.5;
+            explosionShielding = 1;
             minimalHit = 0.1;
             name = "glass7";
             passThrough = 0;
@@ -536,8 +543,8 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass7";
         };
         class HitGlass8: HitGlass1 {
-            armor=1;
-            explosionShielding = 0.8;
+            armor = 0.5;
+            explosionShielding = 1;
             minimalHit = 0.1;
             name = "glass8";
             passThrough = 0;

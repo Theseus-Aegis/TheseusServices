@@ -2,10 +2,6 @@ attenuationEffectType = "SemiOpenCarAttenuation2";
 soundGetIn[] = {"A3\Sounds_F\vehicles\soft\SUV_01\SUV_01_door", 0.316228, 1};
 soundGetOut[] = {"A3\Sounds_F\vehicles\soft\SUV_01\SUV_01_door", 0.316228, 1, 60};
 soundDammage[] = {"", 0.562341, 1};
-soundEngineOnInt[] = {"A3\Sounds_F\vehicles\soft\SUV_01\SUV_01_engine_start_int", 0.446684, 1};
-soundEngineOnExt[] = {"A3\Sounds_F\vehicles\soft\SUV_01\SUV_01_engine_start", 0.501187, 1, 200};
-soundEngineOffInt[] = {"A3\Sounds_F\vehicles\soft\SUV_01\SUV_01_engine_stop_int", 0.446684, 1};
-soundEngineOffExt[] = {"A3\Sounds_F\vehicles\soft\SUV_01\SUV_01_engine_stop", 0.501187, 1, 100};
 insideSoundCoef = 1;
 buildCrash0[] = {"A3\Sounds_F\vehicles\crashes\cars\cars_coll_big_default_ext_1", 1, 1, 200};
 buildCrash1[] = {"A3\Sounds_F\vehicles\crashes\cars\cars_coll_big_default_ext_2", 1, 1, 200};
@@ -27,6 +23,13 @@ Crash1[] = {"A3\Sounds_F\vehicles\crashes\cars\cars_coll_big_default_ext_2", 1, 
 Crash2[] = {"A3\Sounds_F\vehicles\crashes\cars\cars_coll_big_default_ext_3", 1, 1, 200};
 Crash3[] = {"A3\Sounds_F\vehicles\crashes\cars\cars_coll_big_default_ext_4", 1, 1, 200};
 soundCrashes[] = {"Crash0", 0.25, "Crash1", 0.25, "Crash2", 0.25, "Crash3", 0.25};
+
+// Engine on/off sounds (Source: Vanilla Hunter)
+soundEngineOnInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_Start", 0.63, 1};
+soundEngineOnExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_Start", 1.99, 1, 50};
+soundEngineOffInt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Int_stop", 0.5, 1};
+soundEngineOffExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_stop", 1.99, 1, 50};
+
 class Sounds {
     soundSetsInt[] = {
         "Suv_01_Engine_RPM0_INT_SoundSet",
