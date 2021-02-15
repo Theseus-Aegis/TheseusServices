@@ -230,20 +230,7 @@ class CLASS(Arcadian_Base): Car_F {
             animPeriod = 0;
             initPhase = 0;
             displayName = "Hide Turret";
-            onPhaseChanged = " \
-            if ((_this select 1) == 0) then { \
-                (_this select 0) lockTurret [[0],false]; \
-                (_this select 0) setObjectTextureGlobal [0, 'x\tacs\addons\arcadian\data\armoredsuv_bodygun_co.paa']; \
-                (_this select 0) setObjectTextureGlobal [1, 'x\tacs\addons\arcadian\data\armoredsuv_interiergun_co.paa']; \
-                (_this select 0) setObjectMaterialGlobal [0, 'x\tacs\addons\arcadian\data\suv_armouredbody.rvmat']; \
-                (_this select 0) setObjectMaterialGlobal [1, 'x\tacs\addons\arcadian\data\suv_interier.rvmat']; \
-            } else { \
-                (_this select 0) lockTurret [[0],true]; \
-                (_this select 0) setObjectTextureGlobal [0, 'x\tacs\addons\arcadian\data\armoredsuv_body_co.paa']; \
-                (_this select 0) setObjectTextureGlobal [1, 'x\tacs\addons\arcadian\data\armoredsuv_interier_co.paa']; \
-                (_this select 0) setObjectMaterialGlobal [0, 'x\tacs\addons\arcadian\data\suv_body.rvmat']; \
-                (_this select 0) setObjectMaterialGlobal [1, 'x\tacs\addons\arcadian\data\suv_interier.rvmat']; \
-            };";
+            onPhaseChanged = "_this call tacs_arcadian_fnc_toggleGun";
         };
         class ram_hide_source {
             source = "user";
