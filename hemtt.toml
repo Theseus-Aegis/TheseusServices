@@ -29,11 +29,14 @@ version = "{{git \"id 8\"}}"
 [scripts.binarizer_link]
 steps_windows = [
     "if not exist x\\tacs mkdir x\\tacs",
-    "if not exist x\\tacs\\addons mklink /j x\\tacs\\addons addons"
+    "if not exist x\\tacs\\addons mklink /j x\\tacs\\addons addons",
+	"if not exist a3 mklink /j a3 include\\a3"
 ]
 steps_linux = [
     # Preparation for Windows Binarizer (run once on Linux for network share compatibility)
     "mkdir -p x/tacs",
-    "[ -d x/tacs/addons ] || ln -sr addons x/tacs/"
+    "[ -d x/tacs/addons ] || ln -sr addons x/tacs/",
+    "mkdir -p a3",
+    "[ -d a3 ] || ln -sr include/a3 a3/"
 ]
 show_output = true

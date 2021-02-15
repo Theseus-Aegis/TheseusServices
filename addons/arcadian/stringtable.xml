@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACS">
+    <Package name="Arcadian">
+        <Key ID="STR_TACS_Arcadian_Black">
+            <English>Arcadian GT (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Tan">
+            <English>Arcadian GT (Tan)</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Green">
+            <English>Arcadian GT (Green)</English>
+        </Key>
+    </Package>
+</Project>
