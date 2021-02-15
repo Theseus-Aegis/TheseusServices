@@ -9,30 +9,24 @@ class CLASS(Arcadian_I_Black): CLASS(Arcadian_Base) {
     typicalCargo[] = {QCLASS(Unit_I_Contractor)};
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\arcadian_body_black_co.paa),
-        QPATHTOF(data\armoredsuv_interier_co.paa)
+        QPATHTOF(data\arcadian_interier_co.paa)
     };
     hiddenSelectionMaterials[] = {
-        QPATHTOF(data\suv_armouredbody.rvmat),
+        QPATHTOF(data\suv_body.rvmat),
         QPATHTOF(data\suv_interier.rvmat)
     };
-/*
-    class Damage {
-        tex[] = {};
-        mat[] = {
-            QPATHTOR(data\suv_body.rvmat),
-            QPATHTOR(data\suv_body_damage.rvmat),
-            QPATHTOR(data\suv_body_destruct.rvmat),
-            QPATHTOR(data\suv_chrom.rvmat),
-            QPATHTOR(data\suv_chrom_damage.rvmat),
-            QPATHTOR(data\suv_chrom_destruct.rvmat),
-            QPATHTOR(data\suv_glass.rvmat),
-            //QPATHTOR(data\suv_glass_damage.rvmat),
-            QPATHTOR(data\suv_glass_destruct.rvmat),
-            "a3\data_f\default.rvmat",
-            "a3\data_f\default.rvmat",
-            "a3\data_F\default_destruct.rvmat"
-        };
-    }; */
+
+    animationList[] = {
+        "gun_hide_source", 1,
+        "CloseCover", 0,
+        "reardoor_source", 0,
+        "ram_hide_source", 0,
+        "lightbar_hide_source", 1,
+        "BeaconsStart", 1,
+        "roofbar_hide_source", 0,
+        "antenna_hide_source", 0,
+        "rearseats_source", 0
+    };
 };
 class CLASS(Arcadian_B_Black): CLASS(Arcadian_I_Black) {
     MACRO_BLUFOR_VEHICLE
@@ -44,7 +38,8 @@ class CLASS(Arcadian_I_Tan): CLASS(Arcadian_I_Black) {
     displayName = CSTRING(Tan);
     //editorPreview = QPATHTOF(ui\Arcadian_Tan.jpg);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\arcadian_body_tan_co.paa)
+        QPATHTOF(data\arcadian_body_tan_co.paa),
+        QPATHTOF(data\arcadian_interier_co.paa)
     };
 };
 class CLASS(Arcadian_B_Tan): CLASS(Arcadian_I_Tan) {
@@ -57,7 +52,8 @@ class CLASS(Arcadian_I_Green): CLASS(Arcadian_I_Black) {
     displayName = CSTRING(Green);
     //editorPreview = QPATHTOF(ui\Arcadian_Green.jpg);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\arcadian_body_green_co.paa)
+        QPATHTOF(data\arcadian_body_green_co.paa),
+        QPATHTOF(data\arcadian_interier_co.paa)
     };
 };
 class CLASS(Arcadian_B_Green): CLASS(Arcadian_I_Green) {
@@ -67,6 +63,7 @@ class CLASS(Arcadian_B_Green): CLASS(Arcadian_I_Green) {
 // Grey Variants
 class CLASS(Arcadian_I_Grey): CLASS(Arcadian_I_Black) {
     scope = 2;
+    displayName = CSTRING(Grey);
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\arcadian_body_grey_co.paa),
         QPATHTOF(data\armoredsuv_interier_co.paa)

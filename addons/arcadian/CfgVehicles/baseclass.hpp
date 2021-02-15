@@ -68,7 +68,7 @@ class CLASS(Arcadian_Base): Car_F {
             QPATHTOR(data\suv_chrom_damage.rvmat),
             QPATHTOR(data\suv_chrom_destruct.rvmat),
             QPATHTOR(data\suv_glass.rvmat),
-            //QPATHTOR(data\suv_glass_damage.rvmat),
+            QPATHTOR(data\suv_glass_damage.rvmat),
             QPATHTOR(data\suv_glass_destruct.rvmat),
             "a3\data_f\default.rvmat",
             "a3\data_f\default.rvmat",
@@ -180,6 +180,13 @@ class CLASS(Arcadian_Base): Car_F {
         };
     };
     class AnimationSources: AnimationSources {
+        class gun_hide_source {
+            source = "user";
+            animPeriod = 0;
+            initPhase = 1;
+            displayName = "Hide Turret";
+            onPhaseChanged = "_this call tacs_arcadian_fnc_toggleGun";
+        };
         class CloseCover {
             source = "user";
             initPhase = 0;
@@ -228,7 +235,7 @@ class CLASS(Arcadian_Base): Car_F {
         class rearseats_source {
             source = "user";
             animPeriod = 1;
-            initPhase = 1;
+            initPhase = 0;
             displayName = "Fold Rear Seats";
             lockCargo[] = {4, 5};
             lockCargoAnimationPhase = 1;
@@ -503,25 +510,8 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass8";
         };
     };
-
     class Library {
         libTextDesc = $STR_PMC_LIB_ARMOREDSUV;
-    };
-    class textureSources {
-        /* Do These Later!
-        class GunArmoured {
-            displayName = "Armoured (Minigun)";
-            textures[] = {
-                QPATHTOF(data\armoredsuv_bodygun_co.paa),
-                QPATHTOF(data\armoredsuv_interiergun_co.paa)
-            };
-            factions[] = {};
-            materials[] = {
-                QPATHTOF(data\suv_armouredbody.rvmat),
-                QPATHTOF(data\suv_interier.rvmat)
-            };
-        };
-        */
     };
     textureList[] = {};
     maxFordingDepth = 1.25;
@@ -589,6 +579,15 @@ class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
             initPhase = 0;
             displayName = "Hide Turret";
             onPhaseChanged = "_this call tacs_arcadian_fnc_toggleGun";
+        };
+        class rearseats_source {
+            source = "user";
+            animPeriod = 1;
+            initPhase = 1;
+            displayName = "Fold Rear Seats";
+            lockCargo[] = {4, 5};
+            lockCargoAnimationPhase = 1;
+            useSource = 1;
         };
     };
 };

@@ -8,7 +8,7 @@ class CLASS(Arcadian_I_Armed_Black): CLASS(Arcadian_Armed_Base) {
     //editorPreview = QPATHTOF(ui\Arcadian_Armed_Black.jpg);
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\arcadian_body_armed_black_co.paa),
-        QPATHTOF(data\armoredsuv_interiergun_co.paa)
+        QPATHTOF(data\arcadian_interier_armed_co.paa)
     };
     hiddenSelectionMaterials[] = {
         QPATHTOF(data\suv_armouredbody.rvmat),
@@ -16,27 +16,10 @@ class CLASS(Arcadian_I_Armed_Black): CLASS(Arcadian_Armed_Base) {
     };
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Contractor)};
-/*
-    class Damage {
-        tex[] = {};
-        mat[] = {
-            QPATHTOR(data\suv_armouredbody.rvmat),
-            QPATHTOR(data\suv_armouredbody_damage.rvmat),
-            QPATHTOR(data\suv_armouredbody_destruct.rvmat),
-            QPATHTOR(data\suv_chrom.rvmat),
-            QPATHTOR(data\suv_chrom_damage.rvmat),
-            QPATHTOR(data\suv_chrom_destruct.rvmat),
-            QPATHTOR(data\suv_glass.rvmat),
-            //QPATHTOR(data\suv_glass_damage.rvmat),
-            QPATHTOR(data\suv_glass_destruct.rvmat),
-            "a3\data_f\default.rvmat",
-            "a3\data_f\default.rvmat",
-            "a3\data_F\default_destruct.rvmat"
-        };
-    }; */
+
     animationList[] = {
-        "rearseats_source", 1,
-        "gun_hide_source", 0
+        "gun_hide_source", 0,
+        "rearseats_source", 1
     };
 };
 
@@ -80,7 +63,7 @@ class CLASS(Arcadian_I_Armed_Grey): CLASS(Arcadian_I_Armed_Black) {
     };
 };
 
-class CLASS(Arcadian_B_Armed_Grey): CLASS(Arcadian_B_Armed_Green) {
+class CLASS(Arcadian_B_Armed_Grey): CLASS(Arcadian_I_Armed_Grey) {
     MACRO_BLUFOR_VEHICLE
 };
 
