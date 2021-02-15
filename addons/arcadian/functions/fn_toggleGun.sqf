@@ -1,11 +1,11 @@
 #include "script_component.hpp"
 /*
  * Author: Deltagamer, JoramD
- * [Description]
+ * Set textues and locks turret based on animation state.
  *
  * Arguments:
- * 0: Unknown Arg <?>
- * 1: Unknown Arg <?>
+ * 0: Vehicle <OBJECT>
+ * 1: State <NUMBER>
  *
  * Example:
  * _this call tacs_arcadian_fnc_toggleGun
