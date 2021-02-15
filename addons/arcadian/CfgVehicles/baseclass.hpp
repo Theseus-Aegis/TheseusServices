@@ -58,6 +58,23 @@ class CLASS(Arcadian_Base): Car_F {
     #include "config_sound.hpp"
     #include "config_physx.hpp"
 
+    class Damage {
+        tex[] = {};
+        mat[] = {
+            QPATHTOR(data\suv_armouredbody.rvmat),
+            QPATHTOR(data\suv_armouredbody_damage.rvmat),
+            QPATHTOR(data\suv_armouredbody_destruct.rvmat),
+            QPATHTOR(data\suv_chrom.rvmat),
+            QPATHTOR(data\suv_chrom_damage.rvmat),
+            QPATHTOR(data\suv_chrom_destruct.rvmat),
+            QPATHTOR(data\suv_glass.rvmat),
+            //QPATHTOR(data\suv_glass_damage.rvmat),
+            QPATHTOR(data\suv_glass_destruct.rvmat),
+            "a3\data_f\default.rvmat",
+            "a3\data_f\default.rvmat",
+            "a3\data_F\default_destruct.rvmat"
+        };
+    };
     class SimpleObject {
         animate[] = {
             {"damageHide", 0},
@@ -134,51 +151,6 @@ class CLASS(Arcadian_Base): Car_F {
     class AcreRacks {};
     class CargoTurret;
     class Turrets: Turrets {
-        class MainTurret: MainTurret {
-            body = "mainTurret";
-            gun = "mainGun";
-            viewGunnerInExternal = 1;
-            minElev= -30;
-            maxElev=45;
-            initElev=0;
-            soundServo[] = {"", db-40, 1.0};
-            stabilizedInAxes = "StabilizedInAxesBoth";
-            gunBeg = "muzzle_1";
-            gunEnd = "chamber_1";
-            weapons[] = {QCLASS(LMG_Minigun_SUV)};
-            maxHorizontalRotSpeed = 1.8;
-            maxVerticalRotSpeed = 1.8;
-            magazines[] = {"2000Rnd_65x39_Belt_Tracer_Red"};
-            gunnerRightHandAnimName = "OtocHlavenSUV";
-            gunnerLeftHandAnimName = "OtocHlavenSUV";
-            animationSourceHatch = "close_cover_source";
-            gunnerInAction = "ArmoredSUV_GunnerTurnIn_PMC"; //ArmoredSUV_GunnerIn_PMC
-            gunnerAction = "ArmoredSUV_GunnerTurnOut_PMC"; //ArmoredSUV_Gunner_PMC
-            gunnerOpticsModel = "";
-            gunnerOutOpticsModel = "\A3\weapons_f\reticle\optics_empty";
-            memoryPointGunnerOutOptics = "gunnerview";
-            memoryPointGunnerOptics = "";
-            memoryPointsGetInGunner = "pos cargo rear";
-            memoryPointsGetInGunnerDir = "pos cargo dir rear";
-            outGunnerMayFire = 1;
-            startEngine = 0;
-            inGunnerMayFire = 0;
-            LODTurnedIn = 1000;
-            LODOpticsIn = 1000;
-            LODTurnedOut = 1000;
-            LODOpticsOut = 1000;
-            canhideGunner = 1;
-            castGunnerShadow = 1;
-            hideProxyInCombat = 0;
-            forceHideGunner = 0;
-            gunnerCompartments = "Compartment1";
-            class ViewOptics: ViewOptics {
-                minFov = 0.25;
-                maxFov = 1.25;
-                initFov = 0.75;
-            };
-            class ViewGunner: ViewOptics {};
-        };
         class CargoTurret_1: CargoTurret {
             minElev = -10;
             maxElev = 23;
@@ -208,10 +180,6 @@ class CLASS(Arcadian_Base): Car_F {
         };
     };
     class AnimationSources: AnimationSources {
-        class Revolving {
-            source = "revolving";
-            weapon = QCLASS(LMG_Minigun_SUV);
-        };
         class CloseCover {
             source = "user";
             initPhase = 0;
@@ -227,18 +195,23 @@ class CLASS(Arcadian_Base): Car_F {
         class reardoor_2_source: reardoor_source {
             displayName = "Rear Door Window";
         };
-        class gun_hide_source {
-            source = "user";
-            animPeriod = 0;
-            initPhase = 0;
-            displayName = "Hide Turret";
-            onPhaseChanged = "_this call tacs_arcadian_fnc_toggleGun";
-        };
         class ram_hide_source {
             source = "user";
             animPeriod = 0;
             initPhase = 0;
             displayName = "Hide Pushbar";
+        };
+        class lightbar_hide_source {
+            source = "user";
+            animPeriod = 0;
+            initPhase = 1;
+            displayName = "Hide Beacon Lights (Unmarked)";
+        };
+        class BeaconsStart {
+            source = "user";
+            animPeriod = 0;
+            initPhase = 1;
+            displayName = "Start Beacon Lights";
         };
         class roofbar_hide_source {
             source = "user";
@@ -292,6 +265,32 @@ class CLASS(Arcadian_Base): Car_F {
             priority = 10;
             condition = "this doorPhase ""reardoor_source"" < 0.5 && this doorPhase ""reardoor_2_source"" < 0.5 && ((this getCargoIndex player) isEqualTo 0)";
             statement = "this animateDoor [""reardoor_2_source"",1];";
+        };
+        class beacons_start {
+            animPeriod = 2;
+            condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' > 0.5} && {Alive(this)} ";
+            displayName = "Beacons On";
+            displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\beacons_ON_ca.paa' size='2.5'/>";
+            onlyForplayer = 0;
+            position = "mph_axis";
+            priority = 1.5;
+            radius = 1.8;
+            showWindow = 0;
+            statement = "this animateSource ['BeaconsStart',0];";
+            userActionID = 50;
+        };
+        class beacons_stop: beacons_start {
+            animPeriod = 2;
+            condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' < 0.5} && {Alive(this)} ";
+            displayName = "Beacons Off";
+            displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\beacons_OFF_ca.paa' size='2.5'/>";
+            onlyForplayer = 0;
+            position = "mph_axis";
+            priority = 1.5;
+            radius = 1.8;
+            showWindow = 0;
+            statement = "this animateSource ['BeaconsStart',1];";
+            userActionID = 51;
         };
         class Closerearwindow {
             displayName = "Close Rear Window";
@@ -522,19 +521,74 @@ class CLASS(Arcadian_Base): Car_F {
                 QPATHTOF(data\suv_interier.rvmat)
             };
         };
-        class Armoured {
-            displayName = "Armoured (Unarmed)";
-            textures[] = {
-                QPATHTOF(data\armoredsuv_body_co.paa),
-                QPATHTOF(data\armoredsuv_interier_co.paa)
-            };
-            factions[] = {};
-            materials[] = {
-                QPATHTOF(data\suv_body.rvmat),
-                QPATHTOF(data\suv_interier.rvmat)
-            };
-        };
         */
     };
     textureList[] = {};
+    maxFordingDepth = 1.25;
+    ace_cargo_space = 6;
+};
+
+// Armed Base
+class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
+    class Turrets: Turrets {
+        class MainTurret: MainTurret {
+            body = "mainTurret";
+            gun = "mainGun";
+            viewGunnerInExternal = 1;
+            minElev= -30;
+            maxElev=45;
+            initElev=0;
+            soundServo[] = {"", db-40, 1.0};
+            stabilizedInAxes = "StabilizedInAxesBoth";
+            gunBeg = "muzzle_1";
+            gunEnd = "chamber_1";
+            weapons[] = {QCLASS(LMG_Minigun_SUV)};
+            maxHorizontalRotSpeed = 1.8;
+            maxVerticalRotSpeed = 1.8;
+            magazines[] = {"2000Rnd_65x39_Belt_Tracer_Red"};
+            gunnerRightHandAnimName = "OtocHlavenSUV";
+            gunnerLeftHandAnimName = "OtocHlavenSUV";
+            animationSourceHatch = "close_cover_source";
+            gunnerInAction = "ArmoredSUV_GunnerTurnIn_PMC"; //ArmoredSUV_GunnerIn_PMC
+            gunnerAction = "ArmoredSUV_GunnerTurnOut_PMC"; //ArmoredSUV_Gunner_PMC
+            gunnerOpticsModel = "";
+            gunnerOutOpticsModel = "\A3\weapons_f\reticle\optics_empty";
+            memoryPointGunnerOutOptics = "gunnerview";
+            memoryPointGunnerOptics = "";
+            memoryPointsGetInGunner = "pos cargo rear";
+            memoryPointsGetInGunnerDir = "pos cargo dir rear";
+            outGunnerMayFire = 1;
+            startEngine = 0;
+            inGunnerMayFire = 0;
+            LODTurnedIn = 1000;
+            LODOpticsIn = 1000;
+            LODTurnedOut = 1000;
+            LODOpticsOut = 1000;
+            canhideGunner = 1;
+            castGunnerShadow = 1;
+            hideProxyInCombat = 0;
+            forceHideGunner = 0;
+            gunnerCompartments = "Compartment1";
+            class ViewOptics: ViewOptics {
+                minFov = 0.25;
+                maxFov = 1.25;
+                initFov = 0.75;
+            };
+            class ViewGunner: ViewOptics {};
+        };
+    };
+
+    class AnimationSources: AnimationSources {
+        class Revolving {
+            source = "revolving";
+            weapon = QCLASS(LMG_Minigun_SUV);
+        };
+        class gun_hide_source {
+            source = "user";
+            animPeriod = 0;
+            initPhase = 0;
+            displayName = "Hide Turret";
+            onPhaseChanged = "_this call tacs_arcadian_fnc_toggleGun";
+        };
+    };
 };

@@ -1,13 +1,13 @@
-/*
-class CLASS(Arcadian_I_Minigun_Black): CLASS(Arcadian_Armed_Base) {
+class CLASS(Arcadian_I_Armed_Black): CLASS(Arcadian_Armed_Base) {
     scope = 2;
     scopeCurator = 2;
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
-    displayName = "Arcadian GT Armed (Black)";
+    displayName = CSTRING(Armed_Black);
+    //editorPreview = QPATHTOF(ui\Arcadian_Armed_Black.jpg);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\armoredsuv_bodygun_co.paa),
+        QPATHTOF(data\arcadian_body_armed_black_co.paa),
         QPATHTOF(data\armoredsuv_interiergun_co.paa)
     };
     hiddenSelectionMaterials[] = {
@@ -16,7 +16,7 @@ class CLASS(Arcadian_I_Minigun_Black): CLASS(Arcadian_Armed_Base) {
     };
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Contractor)};
-
+/*
     class Damage {
         tex[] = {};
         mat[] = {
@@ -33,19 +33,54 @@ class CLASS(Arcadian_I_Minigun_Black): CLASS(Arcadian_Armed_Base) {
             "a3\data_f\default.rvmat",
             "a3\data_F\default_destruct.rvmat"
         };
-    };
+    }; */
     animationList[] = {
         "rearseats_source", 1,
         "gun_hide_source", 0
     };
 };
 
-class CLASS(Arcadian_B_Minigun_Black): CLASS(Arcadian_I_Minigun_Black) {
-    scope = 2;
-    forceInGarage = 0;
-    side = 1;
-    faction = QCLASS(BLU);
-    crew = QCLASS(Unit_B_Contractor);
-    typicalCargo[] = {QCLASS(Unit_B_Contractor)};
+class CLASS(Arcadian_B_Armed_Black): CLASS(Arcadian_I_Armed_Black) {
+    MACRO_BLUFOR_VEHICLE
 };
-*/
+
+// Tan Variants
+class CLASS(Arcadian_I_Armed_Tan): CLASS(Arcadian_I_Armed_Black) {
+    scope = 2;
+    displayName = CSTRING(Armed_Tan);
+    //editorPreview = QPATHTOF(ui\Arcadian_Armed_Tan.jpg);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\arcadian_body_armed_tan_co.paa)
+    };
+};
+
+class CLASS(Arcadian_B_Armed_Tan): CLASS(Arcadian_I_Armed_Tan) {
+    MACRO_BLUFOR_VEHICLE
+};
+
+class CLASS(Arcadian_I_Armed_Green): CLASS(Arcadian_I_Armed_Black) {
+    scope = 2;
+    displayName = CSTRING(Armed_Green);
+    //editorPreview = QPATHTOF(ui\Arcadian_Armed_Green.jpg);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\arcadian_body_armed_green_co.paa)
+    };
+};
+
+class CLASS(Arcadian_B_Armed_Green): CLASS(Arcadian_I_Armed_Green) {
+    MACRO_BLUFOR_VEHICLE
+};
+
+class CLASS(Arcadian_I_Armed_Grey): CLASS(Arcadian_I_Armed_Black) {
+    scope = 2;
+    displayName = CSTRING(Armed_Grey);
+    //editorPreview = QPATHTOF(ui\Arcadian_Armed_Grey.jpg);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\arcadian_body_armed_grey_co.paa)
+    };
+};
+
+class CLASS(Arcadian_B_Armed_Grey): CLASS(Arcadian_B_Armed_Green) {
+    MACRO_BLUFOR_VEHICLE
+};
+
