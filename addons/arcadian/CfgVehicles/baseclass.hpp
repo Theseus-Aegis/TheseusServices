@@ -54,8 +54,8 @@ class CLASS(Arcadian_Base): Car_F {
     cargoAction[] = {"SUV_Cargo_EP1", "SUV_Cargo02_EP1", "SUV_Cargo01_EP1"};
     outsideSoundFilter = 1;
     hiddenSelections[] = {"Camo1", "Camo2"};
-    //#include "config_sound.hpp"
-    //#include "config_physx.hpp"
+    #include "config_sound.hpp"
+    #include "config_physx.hpp"
     class SimpleObject {
         animate[] = {
             {"damageHide", 0},
@@ -552,7 +552,7 @@ class CLASS(Arcadian_Base): Car_F {
         class GunArmoured {
             displayName = "Armoured (Minigun)";
             textures[] = {
-                QPATHTOF(data\armoredssuv_bodygun_co.paa),
+                QPATHTOF(data\armoredsuv_bodygun_co.paa),
                 QPATHTOF(data\armoredsuv_interiergun_co.paa)
             };
             factions[] = {};
