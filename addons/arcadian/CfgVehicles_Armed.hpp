@@ -33,7 +33,8 @@ class CLASS(Arcadian_I_Armed_Tan): CLASS(Arcadian_I_Armed_Black) {
     displayName = CSTRING(Armed_Tan);
     //editorPreview = QPATHTOF(ui\Arcadian_Armed_Tan.jpg);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\arcadian_body_armed_tan_co.paa)
+        QPATHTOF(data\arcadian_body_armed_tan_co.paa),
+        QPATHTOF(data\arcadian_interier_armed_co.paa)
     };
 };
 
@@ -46,7 +47,8 @@ class CLASS(Arcadian_I_Armed_Green): CLASS(Arcadian_I_Armed_Black) {
     displayName = CSTRING(Armed_Green);
     //editorPreview = QPATHTOF(ui\Arcadian_Armed_Green.jpg);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\arcadian_body_armed_green_co.paa)
+        QPATHTOF(data\arcadian_body_armed_green_co.paa),
+        QPATHTOF(data\arcadian_interier_armed_co.paa)
     };
 };
 
@@ -59,7 +61,8 @@ class CLASS(Arcadian_I_Armed_Grey): CLASS(Arcadian_I_Armed_Black) {
     displayName = CSTRING(Armed_Grey);
     //editorPreview = QPATHTOF(ui\Arcadian_Armed_Grey.jpg);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\arcadian_body_armed_grey_co.paa)
+        QPATHTOF(data\arcadian_body_armed_grey_co.paa),
+        QPATHTOF(data\arcadian_interier_armed_co.paa)
     };
 };
 

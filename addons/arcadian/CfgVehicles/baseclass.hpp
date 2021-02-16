@@ -214,12 +214,14 @@ class CLASS(Arcadian_Base): Car_F {
             initPhase = 1;
             displayName = "Hide Beacon Lights (Unmarked)";
         };
+        /*
         class BeaconsStart {
             source = "user";
             animPeriod = 0;
             initPhase = 1;
             displayName = "Start Beacon Lights";
         };
+        */
         class roofbar_hide_source {
             source = "user";
             animPeriod = 0;
@@ -273,6 +275,7 @@ class CLASS(Arcadian_Base): Car_F {
             condition = "this doorPhase ""reardoor_source"" < 0.5 && this doorPhase ""reardoor_2_source"" < 0.5 && ((this getCargoIndex player) isEqualTo 0)";
             statement = "this animateDoor [""reardoor_2_source"",1];";
         };
+        /*
         class beacons_start {
             animPeriod = 2;
             condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' > 0.5} && {Alive(this)} ";
@@ -299,6 +302,7 @@ class CLASS(Arcadian_Base): Car_F {
             statement = "this animateSource ['BeaconsStart',1];";
             userActionID = 51;
         };
+        */
         class Closerearwindow {
             displayName = "Close Rear Window";
             displayNameDefault = "";
@@ -343,15 +347,22 @@ class CLASS(Arcadian_Base): Car_F {
             selection = "Light_R";
         };
         class Light_L2: Light_L {
-            position = "";
-            direction = "";
+            intensity = 0;
+            size = 0;
+            position = "Light_L2";
+            direction = "Light_L2 Dir";
         };
         class Light_R2: Light_R {
-            position = "";
-            direction = "";
+            intensity = 0;
+            size = 0;
+            position = "Light_R2";
+            direction = "Light_R2_Dir";
         };
     };
-    aggregateReflectors[] = {{"Light_L","Light_L2"}, {"Light_R","Light_R2"}};
+    aggregateReflectors[] = {
+        {"Light_L", "Light_L2"},
+        {"Light_R", "Light_R2"}
+    };
     selectionBackLights = "lights_running";
     selectionBrakeLights = "lights_brake";
     class Exhausts {
@@ -430,7 +441,7 @@ class CLASS(Arcadian_Base): Car_F {
             explosionShielding = 0.2;
         };
         class HitBody: HitBody {
-            armor = 3;
+            armor = 5;
             name = "karoserie";
             visual = "zbytek";
             passThrough = 1;
@@ -438,7 +449,7 @@ class CLASS(Arcadian_Base): Car_F {
             explosionShielding = 1.5;
         };
         class HitGlass1: HitGlass1 {
-            armor = 0.3;
+            armor = 0.4;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass1";
@@ -447,7 +458,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass1";
         };
         class HitGlass2: HitGlass1 {
-            armor = 0.3;
+            armor = 0.4;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass2";
@@ -456,7 +467,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass2";
         };
         class HitGlass3: HitGlass1 {
-            armor = 0.3;
+            armor = 0.4;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass3";
@@ -465,7 +476,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass3";
         };
         class HitGlass4: HitGlass1 {
-            armor = 0.3;
+            armor = 0.4;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass4";
@@ -474,7 +485,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass4";
         };
         class HitGlass5: HitGlass1 {
-            armor = 0.3;
+            armor = 0.4;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass5";
@@ -483,7 +494,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass5";
         };
         class HitGlass6: HitGlass1 {
-            armor = 0.3;
+            armor = 0.4;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass6";
@@ -492,7 +503,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass6";
         };
         class HitGlass7: HitGlass1 {
-            armor = 0.3;
+            armor = 0.4;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass7";
@@ -501,7 +512,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass7";
         };
         class HitGlass8: HitGlass1 {
-            armor = 0.3;
+            armor = 0.4;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass8";
@@ -525,9 +536,9 @@ class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
             body = "mainTurret";
             gun = "mainGun";
             viewGunnerInExternal = 1;
-            minElev= -30;
-            maxElev=45;
-            initElev=0;
+            minElev = -30;
+            maxElev = 45;
+            initElev = 0;
             soundServo[] = {"", db-40, 1.0};
             stabilizedInAxes = "StabilizedInAxesBoth";
             gunBeg = "muzzle_1";

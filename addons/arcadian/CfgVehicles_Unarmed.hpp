@@ -18,7 +18,7 @@ class CLASS(Arcadian_I_Black): CLASS(Arcadian_Base) {
 
     animationList[] = {
         "gun_hide_source", 1,
-        "CloseCover", 0,
+        "CloseCover", 1,
         "reardoor_source", 0,
         "ram_hide_source", 0,
         "lightbar_hide_source", 1,
