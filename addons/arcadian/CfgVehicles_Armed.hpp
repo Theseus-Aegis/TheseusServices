@@ -10,7 +10,7 @@ class CLASS(Arcadian_I_Armed_Black): CLASS(Arcadian_Armed_Base) {
         QPATHTOF(data\arcadian_body_armed_black_co.paa),
         QPATHTOF(data\arcadian_interier_armed_co.paa)
     };
-    hiddenSelectionMaterials[] = {
+    hiddenSelectionsMaterials[] = {
         QPATHTOF(data\suv_armouredbody.rvmat),
         QPATHTOF(data\suv_interier.rvmat)
     };

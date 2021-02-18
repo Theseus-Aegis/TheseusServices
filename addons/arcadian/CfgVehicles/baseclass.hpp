@@ -61,9 +61,9 @@ class CLASS(Arcadian_Base): Car_F {
     class Damage {
         tex[] = {};
         mat[] = {
-            QPATHTOR(data\suv_armouredbody.rvmat),
-            QPATHTOR(data\suv_armouredbody_damage.rvmat),
-            QPATHTOR(data\suv_armouredbody_destruct.rvmat),
+            QPATHTOR(data\suv_body.rvmat),
+            QPATHTOR(data\suv_body_damage.rvmat),
+            QPATHTOR(data\suv_body_destruct.rvmat),
 
             QPATHTOR(data\suv_chrom.rvmat),
             QPATHTOR(data\suv_chrom_damage.rvmat),
@@ -188,20 +188,19 @@ class CLASS(Arcadian_Base): Car_F {
             animPeriod = 0;
             initPhase = 1;
             displayName = "Hide Turret";
+            onPhaseChanged = "_this call tacs_arcadian_fnc_toggleGun";
         };
         class CloseCover {
             source = "user";
             initPhase = 0;
             animPeriod = 1.2;
         };
-        /*
         class BeaconsStart {
             source = "user";
             animPeriod = 0;
             initPhase = 1;
             displayName = "Start Beacon Lights";
         };
-        */
         class reardoor_source {
             source = "door";
             animPeriod = 1;
@@ -602,6 +601,27 @@ class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
                 initFov = 0.75;
             };
             class ViewGunner: ViewOptics {};
+        };
+    };
+
+    class Damage {
+        tex[] = {};
+        mat[] = {
+            QPATHTOR(data\suv_armouredbody.rvmat),
+            QPATHTOR(data\suv_armouredbody_damage.rvmat),
+            QPATHTOR(data\suv_armouredbody_destruct.rvmat),
+
+            QPATHTOR(data\suv_chrom.rvmat),
+            QPATHTOR(data\suv_chrom_damage.rvmat),
+            QPATHTOR(data\suv_chrom_destruct.rvmat),
+
+            QPATHTOR(data\suv_glass.rvmat),
+            QPATHTOR(data\suv_glass_damage.rvmat),
+            QPATHTOR(data\suv_glass_destruct.rvmat),
+
+            "a3\data_f\default.rvmat",
+            "a3\data_f\default.rvmat",
+            "a3\data_F\default_destruct.rvmat"
         };
     };
 

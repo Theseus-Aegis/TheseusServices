@@ -17,14 +17,14 @@ params ["_paramZero", "_paramOne"];
 
 if (_paramOne == 0) then {
     _paramZero lockTurret [[0], false];
-    _paramZero setObjectTextureGlobal [0, 'x\tacs\addons\arcadian\data\armoredsuv_bodygun_co.paa'];
-    _paramZero setObjectTextureGlobal [1, 'x\tacs\addons\arcadian\data\armoredsuv_interiergun_co.paa'];
-    _paramZero setObjectMaterialGlobal [0, 'x\tacs\addons\arcadian\data\suv_armouredbody.rvmat'];
-    _paramZero setObjectMaterialGlobal [1, 'x\tacs\addons\arcadian\data\suv_interier.rvmat'];
+    _paramZero setObjectTextureGlobal [0, QPATHTOF(data\arcadian_body_armed_black_co.paa)];
+    _paramZero setObjectTextureGlobal [1, QPATHTOF(data\arcadian_interier_armed_co.paa)];
+    _paramZero setObjectMaterialGlobal [0, QPATHTOF(data\suv_armouredbody.rvmat)];
+    _paramZero setObjectMaterialGlobal [1, QPATHTOF(data\suv_interier.rvmat)];
 } else {
     _paramZero lockTurret [[0], true];
-    _paramZero setObjectTextureGlobal [0, 'x\tacs\addons\arcadian\data\armoredsuv_body_co.paa'];
-    _paramZero setObjectTextureGlobal [1, 'x\tacs\addons\arcadian\data\armoredsuv_interier_co.paa'];
-    _paramZero setObjectMaterialGlobal [0, 'x\tacs\addons\arcadian\data\suv_body.rvmat'];
-    _paramZero setObjectMaterialGlobal [1, 'x\tacs\addons\arcadian\data\suv_interier.rvmat'];
+    _paramZero setObjectTextureGlobal [0, QPATHTOF(data\arcadian_body_black_co.paa)];
+    _paramZero setObjectTextureGlobal [1, QPATHTOF(data\arcadian_interier_co.paa)];
+    _paramZero setObjectMaterialGlobal [0, QPATHTOF(data\suv_body.rvmat)];
+    _paramZero setObjectMaterialGlobal [1, QPATHTOF(data\suv_interier.rvmat)];
 };
