@@ -195,12 +195,14 @@ class CLASS(Arcadian_Base): Car_F {
             initPhase = 0;
             animPeriod = 1.2;
         };
+        /*
         class BeaconsStart {
             source = "user";
             animPeriod = 0;
             initPhase = 1;
             displayName = "Start Beacon Lights";
         };
+        */
         class reardoor_source {
             source = "door";
             animPeriod = 1;
@@ -422,7 +424,7 @@ class CLASS(Arcadian_Base): Car_F {
             explosionShielding = 1.5;
         };
         class HitGlass1: HitGlass1 {
-            armor = 0.4;
+            armor = 1;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass1";
@@ -431,7 +433,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass1";
         };
         class HitGlass2: HitGlass1 {
-            armor = 0.4;
+            armor = 1;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass2";
@@ -440,7 +442,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass2";
         };
         class HitGlass3: HitGlass1 {
-            armor = 0.4;
+            armor = 1;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass3";
@@ -449,7 +451,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass3";
         };
         class HitGlass4: HitGlass1 {
-            armor = 0.4;
+            armor = 1;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass4";
@@ -458,7 +460,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass4";
         };
         class HitGlass5: HitGlass1 {
-            armor = 0.4;
+            armor = 1;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass5";
@@ -467,7 +469,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass5";
         };
         class HitGlass6: HitGlass1 {
-            armor = 0.4;
+            armor = 1;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass6";
@@ -476,7 +478,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass6";
         };
         class HitGlass7: HitGlass1 {
-            armor = 0.4;
+            armor = 1;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass7";
@@ -485,7 +487,7 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass7";
         };
         class HitGlass8: HitGlass1 {
-            armor = 0.4;
+            armor = 1;
             explosionShielding = 0.5;
             minimalHit = 0.1;
             name = "glass8";
