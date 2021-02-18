@@ -64,12 +64,15 @@ class CLASS(Arcadian_Base): Car_F {
             QPATHTOR(data\suv_armouredbody.rvmat),
             QPATHTOR(data\suv_armouredbody_damage.rvmat),
             QPATHTOR(data\suv_armouredbody_destruct.rvmat),
+
             QPATHTOR(data\suv_chrom.rvmat),
             QPATHTOR(data\suv_chrom_damage.rvmat),
             QPATHTOR(data\suv_chrom_destruct.rvmat),
+
             QPATHTOR(data\suv_glass.rvmat),
             QPATHTOR(data\suv_glass_damage.rvmat),
             QPATHTOR(data\suv_glass_destruct.rvmat),
+
             "a3\data_f\default.rvmat",
             "a3\data_f\default.rvmat",
             "a3\data_F\default_destruct.rvmat"
@@ -185,13 +188,20 @@ class CLASS(Arcadian_Base): Car_F {
             animPeriod = 0;
             initPhase = 1;
             displayName = "Hide Turret";
-            onPhaseChanged = "_this call tacs_arcadian_fnc_toggleGun";
         };
         class CloseCover {
             source = "user";
             initPhase = 0;
             animPeriod = 1.2;
         };
+        /*
+        class BeaconsStart {
+            source = "user";
+            animPeriod = 0;
+            initPhase = 1;
+            displayName = "Start Beacon Lights";
+        };
+        */
         class reardoor_source {
             source = "door";
             animPeriod = 1;
@@ -214,14 +224,6 @@ class CLASS(Arcadian_Base): Car_F {
             initPhase = 1;
             displayName = "Hide Beacon Lights (Unmarked)";
         };
-        /*
-        class BeaconsStart {
-            source = "user";
-            animPeriod = 0;
-            initPhase = 1;
-            displayName = "Start Beacon Lights";
-        };
-        */
         class roofbar_hide_source {
             source = "user";
             animPeriod = 0;
@@ -275,34 +277,6 @@ class CLASS(Arcadian_Base): Car_F {
             condition = "this doorPhase ""reardoor_source"" < 0.5 && this doorPhase ""reardoor_2_source"" < 0.5 && ((this getCargoIndex player) isEqualTo 0)";
             statement = "this animateDoor [""reardoor_2_source"",1];";
         };
-        /*
-        class beacons_start {
-            animPeriod = 2;
-            condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' > 0.5} && {Alive(this)} ";
-            displayName = "Beacons On";
-            displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\beacons_ON_ca.paa' size='2.5'/>";
-            onlyForplayer = 0;
-            position = "mph_axis";
-            priority = 1.5;
-            radius = 1.8;
-            showWindow = 0;
-            statement = "this animateSource ['BeaconsStart',0];";
-            userActionID = 50;
-        };
-        class beacons_stop: beacons_start {
-            animPeriod = 2;
-            condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' < 0.5} && {Alive(this)} ";
-            displayName = "Beacons Off";
-            displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\beacons_OFF_ca.paa' size='2.5'/>";
-            onlyForplayer = 0;
-            position = "mph_axis";
-            priority = 1.5;
-            radius = 1.8;
-            showWindow = 0;
-            statement = "this animateSource ['BeaconsStart',1];";
-            userActionID = 51;
-        };
-        */
         class Closerearwindow {
             displayName = "Close Rear Window";
             displayNameDefault = "";
@@ -524,9 +498,61 @@ class CLASS(Arcadian_Base): Car_F {
     class Library {
         libTextDesc = $STR_PMC_LIB_ARMOREDSUV;
     };
-    textureList[] = {};
+
     maxFordingDepth = 1.25;
     ace_cargo_space = 6;
+
+    class textureSources {
+        class Black {
+            displayName = CSTRING(Black);
+            textures[] = {
+                QPATHTOF(data\arcadian_body_black_co.paa),
+                QPATHTOF(data\arcadian_interier_co.paa)
+            };
+            materials[] = {
+                QPATHTOF(data\suv_body.rvmat),
+                QPATHTOF(data\suv_interier.rvmat)
+            };
+            factions[] = {};
+        };
+        class Tan {
+            displayName = CSTRING(Tan);
+            textures[] = {
+                QPATHTOF(data\arcadian_body_tan_co.paa),
+                QPATHTOF(data\arcadian_interier_co.paa)
+            };
+            materials[] = {
+                QPATHTOF(data\suv_body.rvmat),
+                QPATHTOF(data\suv_interier.rvmat)
+            };
+            factions[] = {};
+        };
+        class Green {
+            displayName = CSTRING(Green);
+            textures[] = {
+                QPATHTOF(data\arcadian_body_green_co.paa),
+                QPATHTOF(data\arcadian_interier_co.paa)
+            };
+            materials[] = {
+                QPATHTOF(data\suv_body.rvmat),
+                QPATHTOF(data\suv_interier.rvmat)
+            };
+            factions[] = {};
+        };
+        class Grey {
+            displayName = CSTRING(Grey);
+            textures[] = {
+                QPATHTOF(data\arcadian_body_grey_co.paa),
+                QPATHTOF(data\arcadian_interier_co.paa)
+            };
+            materials[] = {
+                QPATHTOF(data\suv_body.rvmat),
+                QPATHTOF(data\suv_interier.rvmat)
+            };
+            factions[] = {};
+        };
+    };
+    textureList[] = {};
 };
 
 // Armed Base
