@@ -201,6 +201,32 @@ class CLASS(Arcadian_Base): Car_F {
             initPhase = 1;
             displayName = "Start Beacon Lights";
         };
+        class beacons_start {
+            animPeriod = 2;
+            condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' > 0.5} && {Alive(this)} ";
+            displayName = "Beacons On";
+            displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\beacons_ON_ca.paa' size='2.5'/>";
+            onlyForplayer = 0;
+            position = "mph_axis";
+            priority = 1.5;
+            radius = 1.8;
+            showWindow = 0;
+            statement = "this animateSource ['BeaconsStart',0];";
+            userActionID = 50;
+        };
+        class beacons_stop: beacons_start {
+            animPeriod = 2;
+            condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' < 0.5} && {Alive(this)} ";
+            displayName = "Beacons Off";
+            displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\beacons_OFF_ca.paa' size='2.5'/>";
+            onlyForplayer = 0;
+            position = "mph_axis";
+            priority = 1.5;
+            radius = 1.8;
+            showWindow = 0;
+            statement = "this animateSource ['BeaconsStart',1];";
+            userActionID = 51;
+        };
         class reardoor_source {
             source = "door";
             animPeriod = 1;
