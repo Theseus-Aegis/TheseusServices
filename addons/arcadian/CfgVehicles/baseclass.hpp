@@ -195,14 +195,12 @@ class CLASS(Arcadian_Base): Car_F {
             initPhase = 0;
             animPeriod = 1.2;
         };
-        /*
         class BeaconsStart {
             source = "user";
             animPeriod = 0;
             initPhase = 1;
             displayName = "Start Beacon Lights";
         };
-        */
         class reardoor_source {
             source = "door";
             animPeriod = 1;
