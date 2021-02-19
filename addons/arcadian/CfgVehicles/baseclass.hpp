@@ -199,7 +199,7 @@ class CLASS(Arcadian_Base): Car_F {
             source = "user";
             animPeriod = 0;
             initPhase = 1;
-            displayName = "Stop Beacon Lights";
+            displayName = "Convoy Lights Off";
         };
         class reardoor_source {
             source = "door";
@@ -221,7 +221,7 @@ class CLASS(Arcadian_Base): Car_F {
             source = "user";
             animPeriod = 0;
             initPhase = 1;
-            displayName = "Hide Beacon Lights (Unmarked)";
+            displayName = "Hide Rear Convoy Lights";
         };
         class roofbar_hide_source {
             source = "user";
@@ -289,7 +289,7 @@ class CLASS(Arcadian_Base): Car_F {
         class beacons_start {
             animPeriod = 2;
             condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' > 0.5} && {Alive(this)} ";
-            displayName = "Beacons On";
+            displayName = "Convoy Lights On";
             displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\beacons_ON_ca.paa' size='2.5'/>";
             onlyForplayer = 0;
             position = "mph_axis";
@@ -302,7 +302,7 @@ class CLASS(Arcadian_Base): Car_F {
         class beacons_stop: beacons_start {
             animPeriod = 2;
             condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' < 0.5} && {Alive(this)} ";
-            displayName = "Beacons Off";
+            displayName = "Convoy Lights Off";
             displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\beacons_OFF_ca.paa' size='2.5'/>";
             onlyForplayer = 0;
             position = "mph_axis";

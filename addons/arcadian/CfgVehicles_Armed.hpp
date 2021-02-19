@@ -69,4 +69,3 @@ class CLASS(Arcadian_I_Armed_Grey): CLASS(Arcadian_I_Armed_Black) {
 class CLASS(Arcadian_B_Armed_Grey): CLASS(Arcadian_I_Armed_Grey) {
     MACRO_BLUFOR_VEHICLE
 };
-
