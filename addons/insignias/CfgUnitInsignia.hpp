@@ -54,7 +54,7 @@ class CfgUnitInsignia {
     class CLASS(Insignia_BrandOfSacrifice) {
         MACRO_INSIGNIA_COMMON
         author = "Lairdd1989";
-        displayName = "Brand of Sacrifice";
+        displayName = "Brand Of Sacrifice";
         texture = QPATHTOF(data\brandofsacrifice.paa);
     };
     class CLASS(Insignia_BridgeFour) {
