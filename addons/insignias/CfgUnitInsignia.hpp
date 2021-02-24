@@ -51,13 +51,13 @@ class CfgUnitInsignia {
         displayName = "Boba Fett (Black-Silver)";
         texture = QPATHTOF(data\bobafett_blacksilver.paa);
     };
-    class CLASS(Insignia_brandofsacrifice) {
+    class CLASS(Insignia_BrandOfSacrifice) {
         MACRO_INSIGNIA_COMMON
         author = "Lairdd1989";
         displayName = "Brand of Sacrifice";
         texture = QPATHTOF(data\brandofsacrifice.paa);
     };
-    class CLASS(Insignia_bridgefour) {
+    class CLASS(Insignia_BridgeFour) {
         MACRO_INSIGNIA_COMMON
         author = "Lairdd1989";
         displayName = "Bridge Four";
@@ -261,13 +261,13 @@ class CfgUnitInsignia {
         displayName = "I'm A Lead Farmer (Arid)";
         texture = QPATHTOF(data\iamaleadfarmer_arid.paa);
     };
-    class CLASS(Insignia_iamunstoppable) {
+    class CLASS(Insignia_IAmUnstoppable) {
         MACRO_INSIGNIA_COMMON
         author = "Lairdd1989";
-        displayName = "I am Unstoppable";
+        displayName = "I Am Unstoppable";
         texture = QPATHTOF(data\iamunstoppable.paa);
     };
-        class CLASS(Insignia_IComeILeave) {
+    class CLASS(Insignia_IComeILeave) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
         displayName = "I Come I Leave";
@@ -291,7 +291,7 @@ class CfgUnitInsignia {
         displayName = "Jedi Order Shield";
         texture = QPATHTOF(data\jediordershield.paa);
     };
-    class CLASS(Insignia_judge) {
+    class CLASS(Insignia_Judge) {
         MACRO_INSIGNIA_COMMON
         author = "Lairdd1989";
         displayName = "Judge";
@@ -393,13 +393,13 @@ class CfgUnitInsignia {
         displayName = "Murica (Multicam)";
         texture = QPATHTOF(data\murica_Multicam.paa);
     };
-    class CLASS(Insignia_naturaltwenty) {
+    class CLASS(Insignia_NaturalTwenty) {
         MACRO_INSIGNIA_COMMON
         author = "Lairdd1989";
         displayName = "Natural Twenty";
         texture = QPATHTOF(data\naturaltwenty.paa);
     };
-    class CLASS(Insignia_neverforget) {
+    class CLASS(Insignia_NeverForget) {
         MACRO_INSIGNIA_COMMON
         author = "Lairdd1989";
         displayName = "Never Forget";
@@ -477,7 +477,7 @@ class CfgUnitInsignia {
         displayName = "Punisher Tactical";
         texture = QPATHTOF(data\punishertactical.paa);
     };
-    class CLASS(Insignia_raptorsquad) {
+    class CLASS(Insignia_RaptorSquad) {
         MACRO_INSIGNIA_COMMON
         author = "Lairdd1989";
         displayName = "Raptor Squad";
