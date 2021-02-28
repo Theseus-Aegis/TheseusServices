@@ -77,7 +77,7 @@ class CLASS(Arcadian_Base): Car_F {
 
             "a3\data_f\default.rvmat",
             "a3\data_f\default.rvmat",
-            "a3\data_F\default_destruct.rvmat"
+            "a3\data_f\default_destruct.rvmat"
         };
     };
     class SimpleObject {
@@ -292,7 +292,7 @@ class CLASS(Arcadian_Base): Car_F {
             animPeriod = 2;
             condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' > 0.5} && {Alive(this)} ";
             displayName = "Convoy Lights On";
-            displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\beacons_ON_ca.paa' size='2.5'/>";
+            displayNameDefault = "<img image='\a3\Ui_f\data\IGUI\Cfg\Actions\beacons_ON_ca.paa' size='2.5'/>";
             onlyForplayer = 0;
             position = "mph_axis";
             priority = 1.5;
@@ -305,7 +305,7 @@ class CLASS(Arcadian_Base): Car_F {
             animPeriod = 2;
             condition = "(driver this == player) && {{this animationSourcePhase _x isEqualTo 0} count ['lightbar_hide_source'] > 0.5} && {this animationPhase 'BeaconsStart' < 0.5} && {Alive(this)} ";
             displayName = "Convoy Lights Off";
-            displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\beacons_OFF_ca.paa' size='2.5'/>";
+            displayNameDefault = "<img image='\a3\Ui_f\data\IGUI\Cfg\Actions\beacons_OFF_ca.paa' size='2.5'/>";
             onlyForplayer = 0;
             position = "mph_axis";
             priority = 1.5;
@@ -606,7 +606,7 @@ class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
             gunnerInAction = "ArmoredSUV_GunnerTurnIn_PMC"; //ArmoredSUV_GunnerIn_PMC
             gunnerAction = "ArmoredSUV_GunnerTurnOut_PMC"; //ArmoredSUV_Gunner_PMC
             gunnerOpticsModel = "";
-            gunnerOutOpticsModel = "\A3\weapons_f\reticle\optics_empty";
+            gunnerOutOpticsModel = "\a3\weapons_f\reticle\optics_empty";
             memoryPointGunnerOutOptics = "gunnerview";
             memoryPointGunnerOptics = "";
             memoryPointsGetInGunner = "pos cargo rear";
@@ -649,7 +649,7 @@ class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
 
             "a3\data_f\default.rvmat",
             "a3\data_f\default.rvmat",
-            "a3\data_F\default_destruct.rvmat"
+            "a3\data_f\default_destruct.rvmat"
         };
     };
 
