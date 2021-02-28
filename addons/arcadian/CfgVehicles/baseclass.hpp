@@ -27,6 +27,7 @@ class Car_F: Car {
     class EventHandlers;
     class CargoTurret;
 };
+
 // Unarmed Base
 class CLASS(Arcadian_Base): Car_F {
     htMin = 60;
@@ -57,6 +58,7 @@ class CLASS(Arcadian_Base): Car_F {
 
     #include "config_sound.hpp"
     #include "config_physx.hpp"
+    #include "config_acre.hpp"
 
     class Damage {
         tex[] = {};
