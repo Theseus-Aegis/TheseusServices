@@ -1,4 +1,4 @@
-class CLASS(Arcadian_I_Armed_Black): CLASS(Arcadian_Armed_Base) {
+class CLASS(Arcadian_I_Armed_Black): CLASS(Arcadian_Base) {
     scope = 2;
     scopeCurator = 2;
     forceInGarage = 1;
@@ -17,6 +17,14 @@ class CLASS(Arcadian_I_Armed_Black): CLASS(Arcadian_Armed_Base) {
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Contractor)};
 
+    class AnimationSources: AnimationSources {
+        class gun_hide_source: gun_hide_source {
+            initPhase = 0;
+        };
+        class rearseats_source: rearseats_source {
+            initPhase = 1;
+        };
+    };
     animationList[] = {
         "gun_hide_source", 0,
         "rearseats_source", 1

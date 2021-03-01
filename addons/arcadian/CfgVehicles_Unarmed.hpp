@@ -15,6 +15,7 @@ class CLASS(Arcadian_I_Black): CLASS(Arcadian_Base) {
         QPATHTOF(data\suv_body.rvmat),
         QPATHTOF(data\suv_interier.rvmat)
     };
+
     class AnimationSources: AnimationSources {
         class gun_hide_source: gun_hide_source {
             initPhase = 1;
@@ -23,7 +24,10 @@ class CLASS(Arcadian_I_Black): CLASS(Arcadian_Base) {
             initPhase = 0;
         };
     };
-    animationList[] = {"rearseats_source", 0, "gun_hide_source", 1};
+    animationList[] = {
+        "gun_hide_source", 1,
+        "rearseats_source", 0
+    };
 };
 class CLASS(Arcadian_B_Black): CLASS(Arcadian_I_Black) {
     MACRO_BLUFOR_VEHICLE
@@ -61,6 +65,7 @@ class CLASS(Arcadian_B_Green): CLASS(Arcadian_I_Green) {
 class CLASS(Arcadian_I_Grey): CLASS(Arcadian_I_Black) {
     scope = 2;
     displayName = CSTRING(Grey);
+    //editorPreview = QPATHTOF(ui\Arcadian_Grey.jpg);
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\arcadian_body_grey_co.paa),
         QPATHTOF(data\arcadian_interier_co.paa)

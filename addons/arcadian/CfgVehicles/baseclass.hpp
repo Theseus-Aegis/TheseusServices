@@ -52,9 +52,9 @@ class CLASS(Arcadian_Base): Car_F {
     cargoCompartments[] = {"Compartment1"};
     weapons[] = {"SportCarHorn"};
     driverAction = "Driver_low01";
-    cargoAction[] = {"SUV_Cargo_EP1", "SUV_Cargo02_EP1", "SUV_Cargo01_EP1"};
+    cargoAction[] = {"passenger_low01","passenger_generic01_leanleft","passenger_generic01_foldhands","passenger_generic01_leanleft","passenger_low01"};
     outsideSoundFilter = 1;
-    hiddenSelections[] = {"Camo1", "Camo2"};
+    hiddenSelections[] = {"camo1", "camo2"};
 
     #include "config_sound.hpp"
     #include "config_physx.hpp"
@@ -71,9 +71,9 @@ class CLASS(Arcadian_Base): Car_F {
             QPATHTOR(data\suv_chrom_damage.rvmat),
             QPATHTOR(data\suv_chrom_destruct.rvmat),
 
-            QPATHTOR(data\suv_glass.rvmat),
-            QPATHTOR(data\suv_glass_damage.rvmat),
-            QPATHTOR(data\suv_glass_destruct.rvmat),
+            "a3\data_f\glass_veh.rvmat",
+            "a3\data_f\glass_veh_damage.rvmat",
+            "a3\data_f\glass_veh_damage.rvmat",
 
             "a3\data_f\default.rvmat",
             "a3\data_f\default.rvmat",
@@ -152,10 +152,59 @@ class CLASS(Arcadian_Base): Car_F {
         hide[] = {"clan", "zasleh"};
         verticalOffset = -0.00731516;
     };
+    class PlateInfos {
+        name = "spz";
+        color[]  = {0, 0, 0, 0.75};
+    };
     class AcreIntercoms {};
     class AcreRacks {};
     class CargoTurret;
     class Turrets: Turrets {
+        class MainTurret: MainTurret {
+            body = "mainTurret";
+            gun = "mainGun";
+            viewGunnerInExternal = 1;
+            minElev = -30;
+            maxElev = 45;
+            initElev = 0;
+            soundServo[] = {"", db-40, 1.0};
+            stabilizedInAxes = "StabilizedInAxesBoth";
+            gunBeg = "muzzle_1";
+            gunEnd = "chamber_1";
+            weapons[] = {QCLASS(LMG_Minigun_SUV)};
+            maxHorizontalRotSpeed = 1.8;
+            maxVerticalRotSpeed = 1.8;
+            magazines[] = {"2000Rnd_65x39_Belt_Tracer_Red"};
+            gunnerRightHandAnimName = "OtocHlavenSUV";
+            gunnerLeftHandAnimName = "OtocHlavenSUV";
+            animationSourceHatch = "close_cover_source";
+            gunnerInAction = "ArmoredSUV_GunnerTurnIn_PMC"; //ArmoredSUV_GunnerIn_PMC
+            gunnerAction = "ArmoredSUV_GunnerTurnOut_PMC"; //ArmoredSUV_Gunner_PMC
+            gunnerOpticsModel = "";
+            gunnerOutOpticsModel = "\a3\weapons_f\reticle\optics_empty";
+            memoryPointGunnerOutOptics = "gunnerview";
+            memoryPointGunnerOptics = "";
+            memoryPointsGetInGunner = "pos cargo rear";
+            memoryPointsGetInGunnerDir = "pos cargo dir rear";
+            outGunnerMayFire = 1;
+            startEngine = 0;
+            inGunnerMayFire = 0;
+            LODTurnedIn = 1000;
+            LODOpticsIn = 1000;
+            LODTurnedOut = 1000;
+            LODOpticsOut = 1000;
+            canhideGunner = 1;
+            castGunnerShadow = 1;
+            hideProxyInCombat = 0;
+            forceHideGunner = 0;
+            gunnerCompartments = "Compartment1";
+            class ViewOptics: ViewOptics {
+                minFov = 0.25;
+                maxFov = 1.25;
+                initFov = 0.75;
+            };
+            class ViewGunner: ViewOptics {};
+        };
         class CargoTurret_1: CargoTurret {
             minElev = -10;
             maxElev = 23;
@@ -185,6 +234,10 @@ class CLASS(Arcadian_Base): Car_F {
         };
     };
     class AnimationSources: AnimationSources {
+        class Revolving {
+            source = "revolving";
+            weapon = QCLASS(LMG_Minigun_SUV);
+        };
         class gun_hide_source {
             source = "user";
             animPeriod = 0;
@@ -260,8 +313,8 @@ class CLASS(Arcadian_Base): Car_F {
         };
         class Closereardoor {
             displayName= "Close Rear Door";
-            displayNameDefault     = "";
-            position="reardoor_mem";
+            displayNameDefault = "";
+            position = "reardoor_mem";
             radius = 0.8;
             onlyForplayer = 0;
             priority = 1;
@@ -411,21 +464,9 @@ class CLASS(Arcadian_Base): Car_F {
             passThrough = 0;
             explosionShielding = 2;
         };
-        class HitLF2Wheel: HitLF2Wheel {
-            armor = 1;
-            passThrough = 0;
-            explosionShielding = 2;
-        };
-        class HitRFWheel: HitRFWheel {
-            armor = 1;
-            passThrough = 0;
-            explosionShielding = 2;
-        };
-        class HitRF2Wheel: HitRF2Wheel {
-            armor = 1;
-            passThrough = 0;
-            explosionShielding = 2;
-        };
+        class HitLF2Wheel: HitLFWheel {};
+        class HitRFWheel: HitLFWheel {};
+        class HitRF2Wheel: HitLFWheel {};
         class HitFuel: HitFuel {
             armor = 2;
             material = -1;
@@ -459,66 +500,31 @@ class CLASS(Arcadian_Base): Car_F {
             visual = "glass1";
         };
         class HitGlass2: HitGlass1 {
-            armor = 1;
-            explosionShielding = 0.5;
-            minimalHit = 0.1;
             name = "glass2";
-            passThrough = 0;
-            radius = 0.11;
             visual = "glass2";
         };
         class HitGlass3: HitGlass1 {
-            armor = 1;
-            explosionShielding = 0.5;
-            minimalHit = 0.1;
             name = "glass3";
-            passThrough = 0;
-            radius = 0.11;
             visual = "glass3";
         };
         class HitGlass4: HitGlass1 {
-            armor = 1;
-            explosionShielding = 0.5;
-            minimalHit = 0.1;
             name = "glass4";
-            passThrough = 0;
-            radius = 0.11;
             visual = "glass4";
         };
         class HitGlass5: HitGlass1 {
-            armor = 1;
-            explosionShielding = 0.5;
-            minimalHit = 0.1;
             name = "glass5";
-            passThrough = 0;
-            radius = 0.11;
             visual = "glass5";
         };
         class HitGlass6: HitGlass1 {
-            armor = 1;
-            explosionShielding = 0.5;
-            minimalHit = 0.1;
             name = "glass6";
-            passThrough = 0;
-            radius = 0.11;
             visual = "glass6";
         };
         class HitGlass7: HitGlass1 {
-            armor = 1;
-            explosionShielding = 0.5;
-            minimalHit = 0.1;
             name = "glass7";
-            passThrough = 0;
-            radius = 0.11;
             visual = "glass7";
         };
         class HitGlass8: HitGlass1 {
-            armor = 1;
-            explosionShielding = 0.5;
-            minimalHit = 0.1;
             name = "glass8";
-            passThrough = 0;
-            radius = 0.11;
             visual = "glass8";
         };
     };
@@ -580,99 +586,4 @@ class CLASS(Arcadian_Base): Car_F {
         };
     };
     textureList[] = {};
-};
-
-// Armed Base
-class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
-    class Turrets: Turrets {
-        class MainTurret: MainTurret {
-            body = "mainTurret";
-            gun = "mainGun";
-            viewGunnerInExternal = 1;
-            minElev = -30;
-            maxElev = 45;
-            initElev = 0;
-            soundServo[] = {"", db-40, 1.0};
-            stabilizedInAxes = "StabilizedInAxesBoth";
-            gunBeg = "muzzle_1";
-            gunEnd = "chamber_1";
-            weapons[] = {QCLASS(LMG_Minigun_SUV)};
-            maxHorizontalRotSpeed = 1.8;
-            maxVerticalRotSpeed = 1.8;
-            magazines[] = {"2000Rnd_65x39_Belt_Tracer_Red"};
-            gunnerRightHandAnimName = "OtocHlavenSUV";
-            gunnerLeftHandAnimName = "OtocHlavenSUV";
-            animationSourceHatch = "close_cover_source";
-            gunnerInAction = "ArmoredSUV_GunnerTurnIn_PMC"; //ArmoredSUV_GunnerIn_PMC
-            gunnerAction = "ArmoredSUV_GunnerTurnOut_PMC"; //ArmoredSUV_Gunner_PMC
-            gunnerOpticsModel = "";
-            gunnerOutOpticsModel = "\a3\weapons_f\reticle\optics_empty";
-            memoryPointGunnerOutOptics = "gunnerview";
-            memoryPointGunnerOptics = "";
-            memoryPointsGetInGunner = "pos cargo rear";
-            memoryPointsGetInGunnerDir = "pos cargo dir rear";
-            outGunnerMayFire = 1;
-            startEngine = 0;
-            inGunnerMayFire = 0;
-            LODTurnedIn = 1000;
-            LODOpticsIn = 1000;
-            LODTurnedOut = 1000;
-            LODOpticsOut = 1000;
-            canhideGunner = 1;
-            castGunnerShadow = 1;
-            hideProxyInCombat = 0;
-            forceHideGunner = 0;
-            gunnerCompartments = "Compartment1";
-            class ViewOptics: ViewOptics {
-                minFov = 0.25;
-                maxFov = 1.25;
-                initFov = 0.75;
-            };
-            class ViewGunner: ViewOptics {};
-        };
-    };
-
-    class Damage {
-        tex[] = {};
-        mat[] = {
-            QPATHTOR(data\suv_armouredbody.rvmat),
-            QPATHTOR(data\suv_armouredbody_damage.rvmat),
-            QPATHTOR(data\suv_armouredbody_destruct.rvmat),
-
-            QPATHTOR(data\suv_chrom.rvmat),
-            QPATHTOR(data\suv_chrom_damage.rvmat),
-            QPATHTOR(data\suv_chrom_destruct.rvmat),
-
-            QPATHTOR(data\suv_glass.rvmat),
-            QPATHTOR(data\suv_glass_damage.rvmat),
-            QPATHTOR(data\suv_glass_destruct.rvmat),
-
-            "a3\data_f\default.rvmat",
-            "a3\data_f\default.rvmat",
-            "a3\data_f\default_destruct.rvmat"
-        };
-    };
-
-    class AnimationSources: AnimationSources {
-        class Revolving {
-            source = "revolving";
-            weapon = QCLASS(LMG_Minigun_SUV);
-        };
-        class gun_hide_source {
-            source = "user";
-            animPeriod = 0;
-            initPhase = 0;
-            displayName = "Hide Turret";
-            onPhaseChanged = "_this call tacs_arcadian_fnc_toggleGun";
-        };
-        class rearseats_source {
-            source = "user";
-            animPeriod = 1;
-            initPhase = 1;
-            displayName = "Fold Rear Seats";
-            lockCargo[] = {4, 5};
-            lockCargoAnimationPhase = 1;
-            useSource = 1;
-        };
-    };
 };
