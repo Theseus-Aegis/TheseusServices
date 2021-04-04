@@ -138,3 +138,10 @@ class CLASS(Unit_TShirt_Floral_Shorts_Base): B_Soldier_base_F {
         "\A3\characters_f\Civil\Data\c_poloshirt.rvmat"
     };
 };
+
+// Heli Pilot Coverall
+class U_B_HeliPilotCoveralls;
+class CLASS(Unit_HeliPilotCoveralls_Base): U_B_HeliPilotCoveralls {
+    MACRO_BASE_CLASS_COMMON
+    nakedUniform = QCLASS(Unit_Underwear_BlackLogo);
+};

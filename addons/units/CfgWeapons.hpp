@@ -10,6 +10,7 @@ class CfgWeapons {
     #include "uniforms\floral_shorts.hpp"
     #include "uniforms\garment_long.hpp"
     #include "uniforms\garment_rolled.hpp"
+    #include "uniforms\heli_pilot_coveralls.hpp"
     #include "uniforms\plaid_jeans.hpp"
     #include "uniforms\plaid_shorts.hpp"
     #include "uniforms\polo_cord.hpp"

@@ -449,6 +449,18 @@
             <Japanese>戦闘ガーメント 袖まくり (黄褐、黒、黒)</Japanese>
             <French>Tenue de combat retroussée (Beige, Noir, Noir)</French>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_HeliPilotCoveralls_Black">
+            <English>Heli Pilot Coveralls (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_HeliPilotCoveralls_Green">
+            <English>Heli Pilot Coveralls (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_HeliPilotCoveralls_Grey">
+            <English>Heli Pilot Coveralls (Grey)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_HeliPilotCoveralls_Sand">
+            <English>Heli Pilot Coveralls (Sand)</English>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_LS_TP_TB">
             <English>Tactical Clothes (Blue, Tan, Tan) Logo</English>
             <German>Taktische Kleidung (Blau, Hellbraun, Hellbraun) Logo</German>
