@@ -140,8 +140,8 @@ class CLASS(Unit_TShirt_Floral_Shorts_Base): B_Soldier_base_F {
 };
 
 // Heli Pilot Coverall
-class U_B_HeliPilotCoveralls;
-class CLASS(Unit_HeliPilotCoveralls_Base): U_B_HeliPilotCoveralls {
+class B_Soldier_04_f;
+class CLASS(Unit_HeliPilotCoveralls_Base): B_Soldier_04_f {
     MACRO_BASE_CLASS_COMMON
     nakedUniform = QCLASS(Unit_Underwear_BlackLogo);
 };
