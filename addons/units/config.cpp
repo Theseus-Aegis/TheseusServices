@@ -97,6 +97,10 @@ class CfgPatches {
             QCLASS(Item_Uniform_Garment_RS_TS_BP_BB),
             QCLASS(Item_Uniform_Garment_RS_TS_GP_BB),
             QCLASS(Item_Uniform_Garment_RS_TS_TP_TB),
+            QCLASS(Item_Uniform_HeliPilotCoveralls_Black),
+            QCLASS(Item_Uniform_HeliPilotCoveralls_Green),
+            QCLASS(Item_Uniform_HeliPilotCoveralls_Grey),
+            QCLASS(Item_Uniform_HeliPilotCoveralls_Sand),
             QCLASS(Item_Uniform_Plaid_BP_LP_BP_BB),
             QCLASS(Item_Uniform_Plaid_BP_LY_BP_BB),
             QCLASS(Item_Uniform_Plaid_JP_CB_BP_BB),
@@ -252,6 +256,10 @@ class CfgPatches {
             QCLASS(Uniform_Garment_RS_TS_BP_BB),
             QCLASS(Uniform_Garment_RS_TS_GP_BB),
             QCLASS(Uniform_Garment_RS_TS_TP_TB),
+            QCLASS(Uniform_HeliPilotCoveralls_Black),
+            QCLASS(Uniform_HeliPilotCoveralls_Green),
+            QCLASS(Uniform_HeliPilotCoveralls_Grey),
+            QCLASS(Uniform_HeliPilotCoveralls_Sand),
             QCLASS(Uniform_Plaid_BP_LPP_BP_BB),
             QCLASS(Uniform_Plaid_BP_LY_BP_BB),
             QCLASS(Uniform_Plaid_JP_CB_BP_BB),
@@ -302,7 +310,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_backpacks", "tacs_headgear", "tacs_vests", "tacs_weapons"};
         author = ECSTRING(main,Author);
-        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky", "Tibernius", "Tyrone"};
+        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky", "Tibernius", "Tyrone", "GilleeDoo"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

@@ -96,6 +96,10 @@ class CLASS(Box_Uniforms): B_supplyCrate_F {
         MACRO_ADDITEM(CLASS(Uniform_Garment_RS_TS_BP_BB),10);
         MACRO_ADDITEM(CLASS(Uniform_Garment_RS_TS_GP_BB),10);
         MACRO_ADDITEM(CLASS(Uniform_Garment_RS_TS_TP_TB),10);
+        MACRO_ADDITEM(CLASS(Uniform_HeliPilotCoveralls_Black),10);
+        MACRO_ADDITEM(CLASS(Uniform_HeliPilotCoveralls_Green),10);
+        MACRO_ADDITEM(CLASS(Uniform_HeliPilotCoveralls_Grey),10);
+        MACRO_ADDITEM(CLASS(Uniform_HeliPilotCoveralls_Sand),10);
         MACRO_ADDITEM(CLASS(Uniform_Polo_CP_BS_TP_BB),10);
         MACRO_ADDITEM(CLASS(Uniform_Polo_CP_BS_TP_BB_NoLogo),10);
         MACRO_ADDITEM(CLASS(Uniform_Polo_CP_LS_TP_OB),10);
