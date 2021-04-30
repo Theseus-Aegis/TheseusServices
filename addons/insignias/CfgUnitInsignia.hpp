@@ -99,6 +99,12 @@ class CfgUnitInsignia {
         displayName = "Clone Trooper";
         texture = QPATHTOF(data\clonetrooper.paa);
     };
+    class CLASS(Insignia_CobaltGuard) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Cobalt Guard";
+        texture = QPATHTOF(data\cobaltguard.paa);
+    };
     class CLASS(Insignia_CombatLifeSupport) {
         MACRO_INSIGNIA_COMMON
         author = "System98";
@@ -129,6 +135,12 @@ class CfgUnitInsignia {
         displayName = "Commando Skull And Knife";
         texture = QPATHTOF(data\commandoskullandknife.paa);
     };
+    class CLASS(Insignia_DefiantDefenceForce) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Defiant Defence Force";
+        texture = QPATHTOF(data\defiantdefenceforce.paa);
+    };
     class CLASS(Insignia_DixieFlag) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
@@ -140,6 +152,12 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Dixie Flag (Multicam)";
         texture = QPATHTOF(data\dixieflag_multicam.paa);
+    };
+    class CLASS(Insignia_DoNotPet) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Do Not Pet";
+        texture = QPATHTOF(data\donotpet.paa);
     };
     class CLASS(Insignia_DontTreadOnMe) {
         MACRO_INSIGNIA_COMMON
@@ -164,6 +182,12 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Don't Tread On Me (Shield)";
         texture = QPATHTOF(data\donttreadonme_shield.paa);
+    };
+    class CLASS(Insignia_Doomslug) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Doomslug";
+        texture = QPATHTOF(data\doomslug.paa);
     };
     class CLASS(Insignia_DoubleTap) {
         MACRO_INSIGNIA_COMMON
@@ -212,6 +236,12 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Galactic Empire";
         texture = QPATHTOF(data\galacticempire.paa);
+    };
+    class CLASS(Insignia_GoodBoysClub) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Good Boys Club";
+        texture = QPATHTOF(data\goodboysclub.paa);
     };
     class CLASS(Insignia_GrimReaper) {
         MACRO_INSIGNIA_COMMON
@@ -555,6 +585,12 @@ class CfgUnitInsignia {
         displayName = "Sniper Unit";
         texture = QPATHTOF(data\sniperunit.paa);
     };
+    class CLASS(Insignia_SpaceCowboy) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Space Cowboy";
+        texture = QPATHTOF(data\spacecowboy.paa);
+    };
     class CLASS(Insignia_SpartanHelmet_ACU) {
         MACRO_INSIGNIA_COMMON
         author = "System98";
@@ -674,6 +710,12 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Who's Your Daddy?";
         texture = QPATHTOF(data\whosyourdaddy.paa);
+    };
+    class CLASS(Insignia_WingsOfFreedom) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Wings Of Freedom";
+        texture = QPATHTOF(data\wingsoffreedom.paa);
     };
     class CLASS(Insignia_ZombieOutbreakResponseTeam) {
         MACRO_INSIGNIA_COMMON
