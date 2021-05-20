@@ -36,7 +36,7 @@ class CfgVehicles {
                     QPATHTOF(data\offroad_black_ext_co.paa),
                     QPATHTOF(data\offroad_black_ext_co.paa)
                 };
-                factions[] = {"BLU_F", "OPF_F", "IND_F", "CIV_F"};
+                factions[] = {};
             };
 
             class theseusblack {
@@ -46,13 +46,8 @@ class CfgVehicles {
                     QPATHTOF(data\offroad_theseus_black_ext_co.paa),
                     QPATHTOF(data\offroad_theseus_black_ext_co.paa)
                 };
-                factions[] = {"BLU_F", "IND_F"};
+                factions[] = {};
             };
-        };
-
-        textureList[] = {
-            "black", 0.5,
-            "theseusblack", 0.5
         };
 
         animationList[] = {
@@ -79,6 +74,10 @@ class CfgVehicles {
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         transportMaxBackpacks = 6;
+        textureList[] = {
+            "black", 0.5,
+            "theseusblack", 0.5
+        };
     };
     class CLASS(Offroad_B_Black): CLASS(Offroad_I_Black) {
         scope = 2;
@@ -116,11 +115,6 @@ class CfgVehicles {
             };
         };
 
-        textureList[] = {
-            "black", 0.5,
-            "theseusblack", 0.5
-        };
-
         animationList[] = {
             "HideBackpacks", 0.5,
             "HideBumper2", 0.5,
@@ -147,6 +141,10 @@ class CfgVehicles {
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         transportMaxBackpacks = 6;
+        textureList[] = {
+            "black", 0.5,
+            "theseusblack", 0.5
+        };
     };
     class CLASS(Offroad_B_Armed_Black): CLASS(Offroad_I_Armed_Black) {
         scope = 2;
