@@ -12,11 +12,12 @@ jobs:
     steps:
     - name: Validate Config
       run: python3 tools/config_style_checker.py
+  deploy:
     - name: Deploy
-    if: github.repository == 'Theseus-Aegis/TheseusServices' && ! contains(github.event.head_commit.message, '[ci skip]')
-    env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    run: |
-      pip3 install pygithub
-      pip3 install pygithub3
-      python3 tools/deploy.py
+      if: github.repository == 'Theseus-Aegis/TheseusServices' && ! contains(github.event.head_commit.message, '[ci skip]')
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        pip3 install pygithub
+        pip3 install pygithub3
+        python3 tools/deploy.py
