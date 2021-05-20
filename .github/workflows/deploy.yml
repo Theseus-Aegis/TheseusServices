@@ -12,6 +12,7 @@ jobs:
     steps:
     - name: Validate Config
       run: python3 tools/config_style_checker.py
+
   deploy:
     runs-on: ubuntu-latest
     steps:
