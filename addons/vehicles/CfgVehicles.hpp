@@ -58,10 +58,9 @@ class CfgVehicles {
         };
 
         class EventHandlers: EventHandlers {
-            init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
+            init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
         };
     };
-
     class CLASS(Offroad_I_Black): CLASS(Offroad_Base) {
         dlc = QUOTE(PREFIX);
         scope = 2;
@@ -74,6 +73,7 @@ class CfgVehicles {
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         transportMaxBackpacks = 6;
+
         textureList[] = {
             "black", 0.5,
             "theseusblack", 0.5
@@ -125,7 +125,7 @@ class CfgVehicles {
         };
 
         class EventHandlers: EventHandlers {
-            init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
+            init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
         };
     };
 
@@ -141,6 +141,7 @@ class CfgVehicles {
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
         transportMaxBackpacks = 6;
+
         textureList[] = {
             "black", 0.5,
             "theseusblack", 0.5
