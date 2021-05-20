@@ -27,7 +27,41 @@ class CfgVehicles {
     class Offroad_01_unarmed_base_F: Offroad_01_base_F {
         class EventHandlers;
     };
-    class CLASS(Offroad_I_Black): Offroad_01_unarmed_base_F {
+    class CLASS(Offroad_Base): Offroad_01_unarmed_base_F {
+        class textureSources {
+            class black {
+                displayName = "Black";
+                author = "BadHabitz, Jonpas";
+                textures[] = {
+                    QPATHTOF(data\offroad_black_ext_co.paa),
+                    QPATHTOF(data\offroad_black_ext_co.paa)
+                };
+                factions[] = {};
+            };
+
+            class theseusblack {
+                displayName = "Theseus Black";
+                author = "Tyrone";
+                textures[] = {
+                    QPATHTOF(data\offroad_theseus_black_ext_co.paa),
+                    QPATHTOF(data\offroad_theseus_black_ext_co.paa)
+                };
+                factions[] = {};
+            };
+        };
+
+        animationList[] = {
+            "HideBackpacks", 0.5,
+            "HideBumper2", 0.5,
+            "HideConstruction", 0.5,
+            "HideDoor3", 0.5
+        };
+
+        class EventHandlers: EventHandlers {
+            init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        };
+    };
+    class CLASS(Offroad_I_Black): CLASS(Offroad_Base) {
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -38,21 +72,11 @@ class CfgVehicles {
         editorPreview = QPATHTOF(UI\Offroad_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\offroad_black_ext_co.paa),
-            QPATHTOF(data\offroad_black_ext_co.paa)
-        };
         transportMaxBackpacks = 6;
 
-        animationList[] = {
-            "HideBackpacks", 0.5,
-            "HideBumper2", 0.5,
-            "HideConstruction", 0.5,
-            "HideDoor3", 0.5
-        };
-
-        class EventHandlers: EventHandlers {
-            init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
+        textureList[] = {
+            "black", 0.5,
+            "theseusblack", 0.5
         };
     };
     class CLASS(Offroad_B_Black): CLASS(Offroad_I_Black) {
@@ -68,7 +92,44 @@ class CfgVehicles {
     class Offroad_01_armed_base_F: Offroad_01_military_base_F {
         class EventHandlers;
     };
-    class CLASS(Offroad_I_Armed_Black): Offroad_01_armed_base_F {
+    class CLASS(Offroad_Armed_Base): Offroad_01_armed_base_F {
+        class textureSources {
+            class black {
+                displayName = "Black";
+                author = "BadHabitz, Jonpas";
+                textures[] = {
+                    QPATHTOF(data\offroad_black_ext_co.paa),
+                    QPATHTOF(data\offroad_black_ext_co.paa)
+                };
+                factions[] = {};
+            };
+
+            class theseusblack {
+                displayName = "Theseus Black";
+                author = "Tyrone";
+                textures[] = {
+                    QPATHTOF(data\offroad_theseus_black_ext_co.paa),
+                    QPATHTOF(data\offroad_theseus_black_ext_co.paa)
+                };
+                factions[] = {};
+            };
+        };
+
+        animationList[] = {
+            "HideBackpacks", 0.5,
+            "HideBumper2", 0.5,
+            "HideConstruction", 0.5,
+            "HideDoor3", 0.5,
+            "Hide_Rail", 0.5,
+            "Hide_Shield", 0.5
+        };
+
+        class EventHandlers: EventHandlers {
+            init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        };
+    };
+
+    class CLASS(Offroad_I_Armed_Black): CLASS(Offroad_Armed_Base) {
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;
@@ -79,21 +140,11 @@ class CfgVehicles {
         editorPreview = QPATHTOF(UI\Offroad_Armed_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\offroad_black_ext_co.paa),
-            QPATHTOF(data\offroad_black_ext_co.paa)
-        };
         transportMaxBackpacks = 6;
 
-        animationList[] = {
-            "HideBackpacks", 0.5,
-            "HideBumper2", 0.5,
-            "HideConstruction", 0.5,
-            "HideDoor3", 0.5
-        };
-
-        class EventHandlers: EventHandlers {
-            init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
+        textureList[] = {
+            "black", 0.5,
+            "theseusblack", 0.5
         };
     };
     class CLASS(Offroad_B_Armed_Black): CLASS(Offroad_I_Armed_Black) {
