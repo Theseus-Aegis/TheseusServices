@@ -160,7 +160,12 @@ class CfgVehicles {
     class LSV_01_unarmed_base_F: LSV_01_base_F {
         class EventHandlers;
     };
-    class CLASS(Polaris_I_Black): LSV_01_unarmed_base_F {
+
+    class CLASS(Polaris_Base): LSV_01_unarmed_base_F {
+        MACRO_POLARIS_TEXTURES
+    };
+
+    class CLASS(Polaris_I_Black): CLASS(Polaris_Base) {
         MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
@@ -173,16 +178,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(UI\Polaris_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\polaris_black_ext01_co.paa),
-            QPATHTOF(data\polaris_black_ext02_co.paa),
-            QPATHTOF(data\polaris_black_ext03_co.paa),
-            QPATHTOF(data\polaris_black_adds_co.paa)
-        };
-
-        class EventHandlers: EventHandlers {
-            init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
-        };
+        textureList[] = {"black", 1};
     };
     class CLASS(Polaris_B_Black): CLASS(Polaris_I_Black) {
         scope = 2;
@@ -197,12 +193,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Polaris_Tan);
         editorPreview = QPATHTOF(UI\Polaris_Tan.jpg);
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\polaris_tan_ext01_co.paa),
-            QPATHTOF(data\polaris_tan_ext02_co.paa),
-            QPATHTOF(data\polaris_tan_ext03_co.paa),
-            QPATHTOF(data\polaris_tan_adds_co.paa)
-        };
+        textureList[] = {"tan", 1};
     };
     class CLASS(Polaris_B_Tan): CLASS(Polaris_I_Tan) {
         scope = 2;
@@ -213,19 +204,11 @@ class CfgVehicles {
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
 
-    class B_T_LSV_01_unarmed_F;
-    class CLASS(Polaris_I_Green): B_T_LSV_01_unarmed_F {
-        MACRO_LANDVEHICLE_CARGO
-        dlc = QUOTE(PREFIX);
+    class CLASS(Polaris_I_Green): CLASS(Polaris_I_Black) {
         scope = 2;
-        forceInGarage = 1;
-        side = 2;
-        faction = QCLASS(IND);
-        author = "Kresky";
         displayName = CSTRING(Polaris_Green);
         editorPreview = QPATHTOF(UI\Polaris_Green.jpg);
-        crew = QCLASS(Unit_I_Contractor);
-        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+        textureList[] = {"green", 1};
     };
     class CLASS(Polaris_B_Green): CLASS(Polaris_I_Green) {
         scope = 2;
@@ -239,7 +222,11 @@ class CfgVehicles {
     class LSV_01_armed_base_F: LSV_01_base_F {
         class EventHandlers;
     };
-    class CLASS(Polaris_I_Armed_Black): LSV_01_armed_base_F {
+    class CLASS(Polaris_Armed_Base): LSV_01_armed_base_F {
+        MACRO_POLARIS_TEXTURES
+    };
+
+    class CLASS(Polaris_I_Armed_Black): CLASS(Polaris_Armed_Base) {
         MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
@@ -252,16 +239,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(UI\Polaris_Armed_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\polaris_black_ext01_co.paa),
-            QPATHTOF(data\polaris_black_ext02_co.paa),
-            QPATHTOF(data\polaris_black_ext03_co.paa),
-            QPATHTOF(data\polaris_black_adds_co.paa)
-        };
-
-        class EventHandlers: EventHandlers {
-            init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
-        };
+        textureList[] = {"black", 1};
     };
     class CLASS(Polaris_B_Armed_Black): CLASS(Polaris_I_Armed_Black) {
         scope = 2;
@@ -276,12 +254,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Polaris_Armed_Tan);
         editorPreview = QPATHTOF(UI\Polaris_Armed_Tan.jpg);
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\polaris_tan_ext01_co.paa),
-            QPATHTOF(data\polaris_tan_ext02_co.paa),
-            QPATHTOF(data\polaris_tan_ext03_co.paa),
-            QPATHTOF(data\polaris_tan_adds_co.paa)
-        };
+        textureList[] = {"tan", 1};
     };
     class CLASS(Polaris_B_Armed_Tan): CLASS(Polaris_I_Armed_Tan) {
         scope = 2;
@@ -292,19 +265,11 @@ class CfgVehicles {
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
 
-    class B_T_LSV_01_armed_F;
-    class CLASS(Polaris_I_Armed_Green): B_T_LSV_01_armed_F {
-        MACRO_LANDVEHICLE_CARGO
-        dlc = QUOTE(PREFIX);
+    class CLASS(Polaris_I_Armed_Green): CLASS(Polaris_I_Armed_Black) {
         scope = 2;
-        forceInGarage = 1;
-        side = 2;
-        faction = QCLASS(IND);
-        author = "Kresky";
         displayName = CSTRING(Polaris_Armed_Green);
         editorPreview = QPATHTOF(UI\Polaris_Armed_Green.jpg);
-        crew = QCLASS(Unit_I_Contractor);
-        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+        textureList[] = {"tan", 1};
     };
     class CLASS(Polaris_B_Armed_Green): CLASS(Polaris_I_Armed_Green) {
         scope = 2;
@@ -318,7 +283,10 @@ class CfgVehicles {
     class LSV_01_AT_base_F: LSV_01_base_F {
         class EventHandlers;
     };
-    class CLASS(Polaris_I_AT_Black): LSV_01_AT_base_F {
+    class CLASS(Polaris_AT_Base): LSV_01_AT_base_F {
+        MACRO_POLARIS_TEXTURES
+    };
+    class CLASS(Polaris_I_AT_Black): CLASS(Polaris_AT_Base) {
         MACRO_LANDVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
@@ -331,18 +299,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(UI\Polaris_AT_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\polaris_black_ext01_co.paa),
-            QPATHTOF(data\polaris_black_ext02_co.paa),
-            QPATHTOF(data\polaris_black_ext03_co.paa),
-            QPATHTOF(data\polaris_black_adds_co.paa),
-            QPATHTOF(data\polaris_black_atlauncher_co.paa),
-            QPATHTOF(data\polaris_black_attube_co.paa)
-        };
-
-        class EventHandlers: EventHandlers {
-            init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
-        };
+        textureList[] = {"black", 1};
     };
     class CLASS(Polaris_B_AT_Black): CLASS(Polaris_I_AT_Black) {
         scope = 2;
@@ -357,14 +314,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Polaris_AT_Tan);
         editorPreview = QPATHTOF(UI\Polaris_AT_Tan.jpg);
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\polaris_tan_ext01_co.paa),
-            QPATHTOF(data\polaris_tan_ext02_co.paa),
-            QPATHTOF(data\polaris_tan_ext03_co.paa),
-            QPATHTOF(data\polaris_tan_adds_co.paa),
-            QPATHTOF(data\polaris_tan_atlauncher_co.paa),
-            QPATHTOF(data\polaris_tan_attube_co.paa)
-        };
+        textureList[] = {"tan", 1};
     };
     class CLASS(Polaris_B_AT_Tan): CLASS(Polaris_I_AT_Tan) {
         scope = 2;
@@ -375,19 +325,11 @@ class CfgVehicles {
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };
 
-    class B_T_LSV_01_AT_F;
-    class CLASS(Polaris_I_AT_Green): B_T_LSV_01_AT_F {
-        MACRO_LANDVEHICLE_CARGO
-        dlc = QUOTE(PREFIX);
+    class CLASS(Polaris_I_AT_Green): CLASS(Polaris_I_AT_Black) {
         scope = 2;
-        forceInGarage = 1;
-        side = 2;
-        faction = QCLASS(IND);
-        author = "Kresky";
         displayName = CSTRING(Polaris_AT_Green);
         editorPreview = QPATHTOF(UI\Polaris_AT_Green.jpg);
-        crew = QCLASS(Unit_I_Contractor);
-        typicalCargo[] = {QCLASS(Unit_I_Engineer)};
+        textureList[] = {"green", 1};
     };
     class CLASS(Polaris_B_AT_Green): CLASS(Polaris_I_AT_Green) {
         scope = 2;
