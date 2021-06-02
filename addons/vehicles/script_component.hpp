@@ -22,32 +22,32 @@
                     QPATHTOF(data\polaris_black_ext02_co.paa), \
                     QPATHTOF(data\polaris_black_ext03_co.paa), \
                     QPATHTOF(data\polaris_black_adds_co.paa), \
-                    QPATHTOF(data\polaris_black_atlauncher_co.paa), \
-                    QPATHTOF(data\polaris_black_attube_co.paa) \
+                    "\A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa", \
+                    "\A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa" \
                 }; \
                 factions[] = {}; \
             }; \
             class tan { \
                 displayName = "Tan"; \
-                author = "Kresky"; \
+                author = "GilleeDoo"; \
                 textures[] = { \
                     QPATHTOF(data\polaris_tan_ext01_co.paa), \
                     QPATHTOF(data\polaris_tan_ext02_co.paa), \
                     QPATHTOF(data\polaris_tan_ext03_co.paa), \
                     QPATHTOF(data\polaris_tan_adds_co.paa), \
-                    QPATHTOF(data\polaris_tan_atlauncher_co.paa), \
-                    QPATHTOF(data\polaris_tan_attube_co.paa) \
+                    "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa", \
+                    "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa" \
                 }; \
                 factions[] = {}; \
             }; \
             class green { \
                 displayName = "Green"; \
-                author = "Bohemia Interactive"; \
+                author = "GilleDoo"; \
                 textures[] = { \
-                    "\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_olive_CO.paa", \
-                    "\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_olive_CO.paa", \
-                    "\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_olive_CO.paa", \
-                    "\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa", \
+                    QPATHTOF(data\polaris_green_ext01_co.paa), \
+                    QPATHTOF(data\polaris_green_ext02_co.paa), \
+                    QPATHTOF(data\polaris_green_ext03_co.paa), \
+                    QPATHTOF(data\polaris_green_adds_co.paa), \
                     "\A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa", \
                     "\A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa" \
                 }; \
