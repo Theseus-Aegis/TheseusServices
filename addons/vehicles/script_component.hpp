@@ -42,7 +42,7 @@
             }; \
             class green { \
                 displayName = "Green"; \
-                author = "GilleDoo"; \
+                author = "GilleeDoo"; \
                 textures[] = { \
                     QPATHTOF(data\polaris_green_ext01_co.paa), \
                     QPATHTOF(data\polaris_green_ext02_co.paa), \
