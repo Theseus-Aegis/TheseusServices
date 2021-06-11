@@ -28,25 +28,25 @@ class CfgVehicles {
         class EventHandlers;
     };
     class CLASS(Offroad_Base): Offroad_01_unarmed_base_F {
-        class textureSources {
-            class black {
-                displayName = "Black";
+        class TextureSources {
+            class Black {
+                displayName = "STR_A3_TEXTURESOURCES_BLACK0";
                 author = "BadHabitz, Jonpas";
                 textures[] = {
                     QPATHTOF(data\offroad_black_ext_co.paa),
                     QPATHTOF(data\offroad_black_ext_co.paa)
                 };
-                factions[] = {};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
-            class theseusblack {
+            class TheseusBlack {
                 displayName = "Theseus Black";
                 author = "Tyrone";
                 textures[] = {
                     QPATHTOF(data\offroad_theseus_black_ext_co.paa),
                     QPATHTOF(data\offroad_theseus_black_ext_co.paa)
                 };
-                factions[] = {};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
         };
 
@@ -75,8 +75,8 @@ class CfgVehicles {
         transportMaxBackpacks = 6;
 
         textureList[] = {
-            "black", 0.5,
-            "theseusblack", 0.5
+            "Black", 0.5,
+            "TheseusBlack", 0.5
         };
     };
     class CLASS(Offroad_B_Black): CLASS(Offroad_I_Black) {
@@ -93,25 +93,25 @@ class CfgVehicles {
         class EventHandlers;
     };
     class CLASS(Offroad_Armed_Base): Offroad_01_armed_base_F {
-        class textureSources {
-            class black {
-                displayName = "Black";
+        class TextureSources {
+            class Black {
+                displayName = "STR_A3_TEXTURESOURCES_BLACK0";
                 author = "BadHabitz, Jonpas";
                 textures[] = {
                     QPATHTOF(data\offroad_black_ext_co.paa),
                     QPATHTOF(data\offroad_black_ext_co.paa)
                 };
-                factions[] = {};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
 
-            class theseusblack {
+            class TheseusBlack {
                 displayName = "Theseus Black";
                 author = "Tyrone";
                 textures[] = {
                     QPATHTOF(data\offroad_theseus_black_ext_co.paa),
                     QPATHTOF(data\offroad_theseus_black_ext_co.paa)
                 };
-                factions[] = {};
+                factions[] = {QCLASS(IND), QCLASS(BLU)};
             };
         };
 
@@ -143,8 +143,8 @@ class CfgVehicles {
         transportMaxBackpacks = 6;
 
         textureList[] = {
-            "black", 0.5,
-            "theseusblack", 0.5
+            "Black", 0.5,
+            "TheseusBlack", 0.5
         };
     };
     class CLASS(Offroad_B_Armed_Black): CLASS(Offroad_I_Armed_Black) {
@@ -178,7 +178,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(UI\Polaris_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
-        textureList[] = {"black", 1};
+        textureList[] = {"Black", 1};
     };
     class CLASS(Polaris_B_Black): CLASS(Polaris_I_Black) {
         scope = 2;
@@ -193,7 +193,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Polaris_Tan);
         editorPreview = QPATHTOF(UI\Polaris_Tan.jpg);
-        textureList[] = {"tan", 1};
+        textureList[] = {"Tan", 1};
     };
     class CLASS(Polaris_B_Tan): CLASS(Polaris_I_Tan) {
         scope = 2;
@@ -208,7 +208,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Polaris_Green);
         editorPreview = QPATHTOF(UI\Polaris_Green.jpg);
-        textureList[] = {"green", 1};
+        textureList[] = {"Green", 1};
     };
     class CLASS(Polaris_B_Green): CLASS(Polaris_I_Green) {
         scope = 2;
@@ -239,7 +239,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(UI\Polaris_Armed_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
-        textureList[] = {"black", 1};
+        textureList[] = {"Black", 1};
     };
     class CLASS(Polaris_B_Armed_Black): CLASS(Polaris_I_Armed_Black) {
         scope = 2;
@@ -254,7 +254,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Polaris_Armed_Tan);
         editorPreview = QPATHTOF(UI\Polaris_Armed_Tan.jpg);
-        textureList[] = {"tan", 1};
+        textureList[] = {"Tan", 1};
     };
     class CLASS(Polaris_B_Armed_Tan): CLASS(Polaris_I_Armed_Tan) {
         scope = 2;
@@ -269,7 +269,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Polaris_Armed_Green);
         editorPreview = QPATHTOF(UI\Polaris_Armed_Green.jpg);
-        textureList[] = {"green", 1};
+        textureList[] = {"Green", 1};
     };
     class CLASS(Polaris_B_Armed_Green): CLASS(Polaris_I_Armed_Green) {
         scope = 2;
@@ -299,7 +299,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(UI\Polaris_AT_Black.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
-        textureList[] = {"black", 1};
+        textureList[] = {"Black", 1};
     };
     class CLASS(Polaris_B_AT_Black): CLASS(Polaris_I_AT_Black) {
         scope = 2;
@@ -314,7 +314,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Polaris_AT_Tan);
         editorPreview = QPATHTOF(UI\Polaris_AT_Tan.jpg);
-        textureList[] = {"tan", 1};
+        textureList[] = {"Tan", 1};
     };
     class CLASS(Polaris_B_AT_Tan): CLASS(Polaris_I_AT_Tan) {
         scope = 2;
@@ -329,7 +329,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Polaris_AT_Green);
         editorPreview = QPATHTOF(UI\Polaris_AT_Green.jpg);
-        textureList[] = {"green", 1};
+        textureList[] = {"Green", 1};
     };
     class CLASS(Polaris_B_AT_Green): CLASS(Polaris_I_AT_Green) {
         scope = 2;
