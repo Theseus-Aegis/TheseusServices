@@ -13,7 +13,7 @@
 #include "\x\tacs\addons\main\script_macros.hpp"
 
 #define MACRO_POLARIS_TEXTURES \
-    class textureSources { \
+    class TextureSources { \
         class Black { \
             displayName = "STR_A3_TEXTURESOURCES_BLACK0"; \
             author = "Kresky"; \
@@ -22,8 +22,8 @@
                 QPATHTOF(data\polaris_black_ext02_co.paa), \
                 QPATHTOF(data\polaris_black_ext03_co.paa), \
                 QPATHTOF(data\polaris_black_adds_co.paa), \
-                "\A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa", \
-                "\A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa" \
+                "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa", \
+                "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa" \
             }; \
             factions[] = {QCLASS(IND), QCLASS(BLU)}; \
         }; \
@@ -48,8 +48,8 @@
                 QPATHTOF(data\polaris_green_ext02_co.paa), \
                 QPATHTOF(data\polaris_green_ext03_co.paa), \
                 QPATHTOF(data\polaris_green_adds_co.paa), \
-                "\A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa", \
-                "\A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa" \
+                "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa", \
+                "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa" \
             }; \
             factions[] = {QCLASS(IND), QCLASS(BLU)}; \
         }; \
