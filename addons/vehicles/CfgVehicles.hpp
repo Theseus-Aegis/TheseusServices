@@ -269,7 +269,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Polaris_Armed_Green);
         editorPreview = QPATHTOF(UI\Polaris_Armed_Green.jpg);
-        textureList[] = {"tan", 1};
+        textureList[] = {"green", 1};
     };
     class CLASS(Polaris_B_Armed_Green): CLASS(Polaris_I_Armed_Green) {
         scope = 2;
