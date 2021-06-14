@@ -30,7 +30,7 @@ class CfgPatches {
             QCLASS(Polaris_B_AT_Green),
             QCLASS(Van_Cargo_I_Black),
             QCLASS(Van_Cargo_B_Black),
-            QCLASS(Van_Cargo_I_Black),
+            QCLASS(Van_Transport_I_Black),
             QCLASS(Van_Transport_B_Black)
         };
         weapons[] = {};

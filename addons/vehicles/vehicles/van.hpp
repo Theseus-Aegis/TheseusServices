@@ -81,7 +81,7 @@ class CLASS(Van_Cargo_I_Black): CLASS(Van_Cargo_Base) {
     faction = QCLASS(IND);
     author = "Tyrone";
     displayName = CSTRING(Van_Cargo_Black);
-    //editorPreview = QPATHTOF(UI\);
+    editorPreview = QPATHTOF(UI\Van_Cargo_Black.jpg);
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Engineer)};
 
@@ -167,7 +167,7 @@ class CLASS(Van_Transport_I_Black): CLASS(Van_Transport_Base) {
     faction = QCLASS(IND);
     author = "Tyrone";
     displayName = CSTRING(Van_Transport_Black);
-    //editorPreview = QPATHTOF(UI\);
+    editorPreview = QPATHTOF(UI\Van_Transport_Black.jpg);
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Engineer)};
 
