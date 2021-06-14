@@ -1,20 +1,6 @@
 class Van_02_base_F;
 class Van_02_vehicle_base_F: Van_02_base_F {
     class EventHandlers;
-
-    class TextureSources {
-        class Verstappen {
-            displayName = "Verstappen Karts";
-            author = "Tibernius";
-            textures[] = {
-                QPATHTOF(data\verstappen_body_co.paa),
-                "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
-                "\a3\soft_f_orange\van_02\data\van_glass_utility_ca.paa",
-                "\a3\soft_f_orange\van_02\data\van_body_White_co.paa"
-            };
-            factions[] = {"CIV_F"};
-        };
-    };
 };
 
 class CLASS(Van_Cargo_Base): Van_02_vehicle_base_F {
