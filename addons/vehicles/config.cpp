@@ -27,13 +27,17 @@ class CfgPatches {
             QCLASS(Polaris_I_Armed_Green),
             QCLASS(Polaris_B_Armed_Green),
             QCLASS(Polaris_I_AT_Green),
-            QCLASS(Polaris_B_AT_Green)
+            QCLASS(Polaris_B_AT_Green),
+            QCLASS(Van_Cargo_I_Black),
+            QCLASS(Van_Cargo_B_Black),
+            QCLASS(Van_Cargo_I_Black),
+            QCLASS(Van_Transport_B_Black)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_units"};
         author = ECSTRING(main,Author);
-        authors[] = {"Pomigit", "BadHabitz", "Jonpas"};
+        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

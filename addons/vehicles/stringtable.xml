@@ -46,5 +46,11 @@
         <Key ID="STR_TACS_Vehicles_Polaris_AT_Green">
             <English>Polaris DAGOR (Mini-Spike AT) (Green)</English>
         </Key>
+        <Key ID="STR_TACS_Vehicles_Van_Cargo_Black">
+            <English>Van (Cargo) (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Van_Transport_Black">
+            <English>Van (Transport) (Black)</English>
+        </Key>
     </Package>
 </Project>
