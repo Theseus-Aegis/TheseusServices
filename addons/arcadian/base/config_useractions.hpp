@@ -1,7 +1,7 @@
 class UserActions {
     class OpenRearDoor {
         displayName = "Open Rear Door";
-        displayNameDefault 	= "";
+        displayNameDefault = "";
         position = "reardoor_mem";
         radius = 0.8;
         onlyForPlayer = 0;
