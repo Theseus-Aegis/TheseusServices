@@ -5,7 +5,7 @@
 
 #include "\x\tacs\addons\main\script_macros.hpp"
 
-#define MACRO_DAMAGE \
+#define MACRO_ARCADIAN_DAMAGE \
 class Damage { \
     tex[] = {}; \
     mat[] = { \
@@ -23,6 +23,15 @@ class Damage { \
         "a3\data_f\default_destruct.rvmat" \
     }; \
 };
+
+#define MACRO_INDEPENDENT_VEHICLE \
+    scope = 2; \
+    scopeCurator = 2; \
+    forceInGarage = 1; \
+    side = 2; \
+    faction = QCLASS(IND); \
+    crew = QCLASS(Unit_I_Contractor); \
+    typicalCargo[] = {QCLASS(Unit_I_Contractor)};
 
 #define MACRO_BLUFOR_VEHICLE \
     scope = 2; \

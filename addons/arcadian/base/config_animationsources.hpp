@@ -23,7 +23,6 @@ class AnimationSources: AnimationSources {
         animPeriod = 0;
         initPhase = 1;
         displayName = "Hide Turret";
-        onPhaseChanged = "_this call tacs_arcadian_fnc_toggleGun";
         lockCargoAnimationPhase = 1;
         lockCargo[] = {0};
     };

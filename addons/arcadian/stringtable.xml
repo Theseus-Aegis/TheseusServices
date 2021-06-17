@@ -14,16 +14,16 @@
             <English>Arcadian GT (Grey)</English>
         </Key>
         <Key ID="STR_TACS_Arcadian_Armed_Black">
-            <English>Arcadian GT Armed (Black)</English>
+            <English>Arcadian GT (Black) (M134)</English>
         </Key>
         <Key ID="STR_TACS_Arcadian_Armed_Tan">
-            <English>Arcadian GT Armed (Tan)</English>
+            <English>Arcadian GT (Tan) (M134)</English>
         </Key>
         <Key ID="STR_TACS_Arcadian_Armed_Green">
-            <English>Arcadian GT Armed (Green)</English>
+            <English>Arcadian GT (Green) (M134)</English>
         </Key>
         <Key ID="STR_TACS_Arcadian_Armed_Grey">
-            <English>Arcadian GT Armed (Grey)</English>
+            <English>Arcadian GT (Grey) (M134)</English>
         </Key>
     </Package>
 </Project>

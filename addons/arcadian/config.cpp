@@ -7,8 +7,20 @@ class CfgPatches {
         units[] = {
             QCLASS(Arcadian_I_Black),
             QCLASS(Arcadian_B_Black),
+            QCLASS(Arcadian_I_Tan),
+            QCLASS(Arcadian_B_Tan),
+            QCLASS(Arcadian_I_Green),
+            QCLASS(Arcadian_B_Green),
+            QCLASS(Arcadian_I_Grey),
+            QCLASS(Arcadian_B_Grey),
             QCLASS(Arcadian_Armed_I_Black),
-            QCLASS(Arcadian_Armed_B_Black)
+            QCLASS(Arcadian_Armed_B_Black),
+            QCLASS(Arcadian_Armed_I_Tan),
+            QCLASS(Arcadian_Armed_B_Tan),
+            QCLASS(Arcadian_Armed_I_Green),
+            QCLASS(Arcadian_Armed_B_Green),
+            QCLASS(Arcadian_Armed_I_Grey),
+            QCLASS(Arcadian_Armed_B_Grey)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
@@ -20,6 +32,5 @@ class CfgPatches {
     };
 };
 
-#include "CfgFunctions.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
