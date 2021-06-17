@@ -25,35 +25,55 @@ class HitPoints: HitPoints {
     };
     class HitEngine: HitEngine {
         name = "engine";
-        armor = 0.5;
+        armor = 2;
         radius = 0.25;
+        passThrough = 1;
     };
     class HitBody: HitBody {
-        armor = 3;
+        armor = 10;
+        explosionShielding = 0.25;
         name = "body";
         visual = "zbytek";
         passThrough = 1;
     };
 
     class HitGlass1: HitGlass1 {
-        armor = 0.35;
-        explosionShielding = 0.5;
+        armor = 0.1;
+        explosionShielding = 0.9;
         minimalHit = 0.1;
         name = "glass1";
-        passThrough = 0;
-        radius = 0.11;
+        passThrough = 0.1;
+        radius = 0.25;
         visual = "glass1";
     };
-    class HitGlass2: HitGlass1 {};
-    class HitGlass3: HitGlass1 {};
-    class HitGlass4: HitGlass1 {};
-    class HitGlass5: HitGlass1 {};
-    class HitGlass6: HitGlass1 {};
-    class HitGlass7: HitGlass1 {
+    class HitGlass2: HitGlass1 {
+        name = "glass2";
+        visual = "glass2";
+        radius = 0.11;
+        explosionShielding = 1;
+        minimalHit = 0.05;
+    };
+    class HitGlass3: HitGlass2 {
+        name = "glass3";
+        visual = "glass3";
+    };
+    class HitGlass4: HitGlass2 {
+        name = "glass4";
+        visual = "glass4";
+    };
+    class HitGlass5: HitGlass1 {
+        name = "glass5";
+        visual = "glass5";
+    };
+    class HitGlass6: HitGlass2 {
+        name = "glass6";
+        visual = "glass6";
+    };
+    class HitGlass7: HitGlass2 {
         name = "glass7";
         visual = "glass7";
     };
-    class HitGlass8: HitGlass1 {
+    class HitGlass8: HitGlass2 {
         name = "glass8";
         visual = "glass8";
     };

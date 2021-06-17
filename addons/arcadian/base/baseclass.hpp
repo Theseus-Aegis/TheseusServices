@@ -45,7 +45,6 @@ class CLASS(Arcadian_Base): Car_F {
     #include "config_turret_rear.hpp"
     #include "config_useractions.hpp"
 
-
     class Exhausts {
         class Exhaust1 {
             position = "exhaust_1";

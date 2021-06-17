@@ -36,8 +36,9 @@ getInAction = "GetInLow";
 getOutAction = "GetOutLow";
 
 // Damage
-crewCrashProtection = 0.75;
+crewCrashProtection = 1.5; // Lower is better protection
 armor = 80;
+armorStructural = 2;
 damageResistance = 0.006;
 wheelDamageThreshold = 0.18;
 

@@ -16,11 +16,8 @@ class Damage { \
         QPATHTOR(data\suv_chrom_damage.rvmat), \
         QPATHTOR(data\suv_chrom_destruct.rvmat), \
         "a3\data_f\glass_veh.rvmat", \
-        "a3\data_f\Glass_veh_damage.rvmat", \
-        "a3\data_f\Glass_veh_damage.rvmat", \
-        "a3\data_f\default.rvmat", \
-        "a3\data_f\default.rvmat", \
-        "a3\data_f\default_destruct.rvmat" \
+        "a3\data_f\glass_veh_armored_damage.rvmat", \
+        "a3\data_f\glass_veh_armored_damage.rvmat", \
     }; \
 };
 
