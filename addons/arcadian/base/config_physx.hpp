@@ -1,7 +1,6 @@
 thrustDelay = 0.25;
 brakeIdleSpeed = 1.78;
 maxSpeed = 200;
-fuelCapacity = 45;
 wheelCircumference = 2.805;
 antiRollbarForceCoef=3;
 antiRollbarForceLimit=2;
@@ -59,7 +58,6 @@ torqueCurve[] = {
 changeGearMinEffectivity[] = {1, 0.15, 1, 1, 1, 1, 1, 1};
 switchTime = 0.31;
 latency = 1.5;
-maxFordingDepth = 1.25;
 
 class Wheels {
     class LF {

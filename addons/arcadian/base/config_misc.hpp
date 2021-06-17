@@ -5,32 +5,37 @@ mfMax = 100;
 mFact = 1;
 tBody = 200;
 mapSize = 7;
-accuracy = 0.2;
+accuracy = 0.35;
 driverLeftHandAnimName = "drivewheel";
 driverRightHandAnimName = "drivewheel";
 weapons[] = {"SportCarHorn"};
 outsideSoundFilter = 1;
 hiddenSelections[] = {"camo1", "camo2"};
 maxFordingDepth = 1.25;
+fuelCapacity = 20;
 
 // Cargo
 ace_cargo_space = 6;
-/*
 cargoAction[] = {
-    "Arcadian_Cargo_1",
-    "Arcadian_Cargo_2",
-    "Arcadian_Cargo_3"
+    "passenger_low01",
+    "passenger_generic01_leanleft",
+    "passenger_generic01_foldhands",
+    "passenger_generic01_leanleft",
+    "passenger_low01"
 };
-*/
-cargoAction[] = {"passenger_low01","passenger_generic01_leanleft","passenger_generic01_foldhands","passenger_generic01_leanleft","passenger_low01"};
 cargoCompartments[] = {"Compartment1"};
-//driverAction = "Arcadian_Driver";
+cargoGetInAction[] = {"GetInLow"};
+cargoGetOutAction[] = {"GetOutLow"};
 driverAction = "Driver_low01";
 driverCompartments = "Compartment1";
+getInAction = "GetInLow";
+getOutAction = "GetOutLow";
 
 // Damage
+crewCrashProtection = 0.75;
 armor = 80;
 damageResistance = 0.006;
+wheelDamageThreshold = 0.18;
 
 // Transport
 transportSoldier = 5;

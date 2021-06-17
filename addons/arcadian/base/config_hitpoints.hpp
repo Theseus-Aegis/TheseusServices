@@ -25,17 +25,18 @@ class HitPoints: HitPoints {
     };
     class HitEngine: HitEngine {
         name = "engine";
-        armor = 4;
+        armor = 0.5;
         radius = 0.25;
     };
     class HitBody: HitBody {
+        armor = 3;
         name = "body";
         visual = "zbytek";
         passThrough = 1;
     };
 
     class HitGlass1: HitGlass1 {
-        armor = 1;
+        armor = 0.35;
         explosionShielding = 0.5;
         minimalHit = 0.1;
         name = "glass1";

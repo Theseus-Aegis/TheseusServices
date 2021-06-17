@@ -24,6 +24,8 @@ class AnimationSources: AnimationSources {
         initPhase = 1;
         displayName = "Hide Turret";
         onPhaseChanged = "_this call tacs_arcadian_fnc_toggleGun";
+        lockCargoAnimationPhase = 1;
+        lockCargo[] = {0};
     };
     class ram_hide_source {
         source = "user";

@@ -6,12 +6,6 @@ class CfgMovesBasic {
         Arcadian_GunnerIn = "Arcadian_GunnerIn";
         Arcadian_GunnerTurnOut = "Arcadian_GunnerTurnOut";
         Arcadian_GunnerTurnIn = "Arcadian_GunnerTurnIn";
-        /*
-        Arcadian_Cargo_1 = "Arcadian_Cargo_1";
-        Arcadian_Cargo_2 = "Arcadian_Cargo_2";
-        Arcadian_Cargo_3 = "Arcadian_Cargo_3";
-        Arcadian_Driver = "Arcadian_Driver";
-        */
     };
 };
 
@@ -69,60 +63,5 @@ class CfgMovesMaleSdr: CfgMovesBasic {
             speed = -1.8;
             looped = 0;
         };
-        /*
-        class Arcadian_Cargo_1: Crew {
-            file = QPATHTOF(data\anim\arcadian_cargo.rtm);
-            interpolateTo[] = {
-                "Arcadian_Cargo_1_KIA", 0.01
-            };
-            speed = 1e+010;
-        };
-        class Arcadian_Cargo_2: Arcadian_Cargo_1 {
-            file = QPATHTOF(data\anim\arcadian_cargo_1.rtm);
-            interpolateTo[] = {
-                "Arcadian_Cargo_2_KIA", 0.01
-            };
-        };
-        class Arcadian_Cargo_3: Arcadian_Cargo_1 {
-            file = QPATHTOF(data\anim\arcadian_cargo_2.rtm);
-            interpolateTo[] = {
-                "Arcadian_Cargo_3_KIA", 0.01
-            };
-        };
-        class Arcadian_Cargo_1_KIA: DefaultDie {
-            actions = "DeadActions";
-            file = QPATHTOF(data\anim\arcadian_kia_cargo.rtm);
-            speed = 1e+010;
-            terminal = 1;
-            soundEnabled = 0;
-            looped = 0;
-            connectTo[] = {
-                "Unconscious", 0.1
-            };
-        };
-        class Arcadian_Cargo_2_KIA: Arcadian_Cargo_1_KIA {
-            file = QPATHTOF(data\anim\arcadian_kia_cargo_1.rtm);
-        };
-        class Arcadian_Cargo_3_KIA: Arcadian_Cargo_1_KIA {
-            file = QPATHTOF(data\anim\arcadian_kia_cargo_2.rtm);
-        };
-        class Arcadian_Driver: Crew {
-            file = QPATHTOF(data\anim\arcadian_driver.rtm);
-            interpolateTo[] = {
-                "Arcadian_Driver_KIA", 1
-            };
-        };
-        class Arcadian_Driver_KIA: DefaultDie {
-            actions = "DeadActions";
-            file = QPATHTOF(data\anim\arcadian_kia_driver.rtm);
-            speed = 1e+010;
-            terminal = 1;
-            soundEnabled = 0;
-            looped = 0;
-            connectTo[] = {
-                "Unconscious", 0.1
-            };
-        };
-        */
     };
 };
