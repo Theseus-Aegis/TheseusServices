@@ -41,7 +41,6 @@ class CLASS(Arcadian_Base): Car_F {
     #include "config_rendertargets.hpp"
     #include "config_simpleobject.hpp"
     #include "config_sound.hpp"
-    #include "config_turret_gatling.hpp"
     #include "config_turret_rear.hpp"
     #include "config_useractions.hpp"
 
@@ -83,7 +82,7 @@ class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
 class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
     MACRO_ARCADIAN_DAMAGE
     #include "config_texturesources_armed.hpp"
-
+    #include "config_turret_gatling.hpp"
     class AnimationSources: AnimationSources {
         class gun_hide_source: gun_hide_source {
             initPhase = 1;
