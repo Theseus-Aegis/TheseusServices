@@ -8,15 +8,12 @@ class AnimationSources: AnimationSources {
         initPhase = 0;
         animPeriod = 1.2;
     };
-    class reardoor_source {
+    class reardoor_2_source {
+        displayName = "Rear Door Window";
         source = "door";
         animPeriod = 1;
         initPhase = 0;
         sound = "PlasticDoorsSound";
-        displayName = "Rear Door";
-    };
-    class reardoor_2_source: reardoor_source {
-        displayName = "Rear Door Window";
     };
     class gun_hide_source {
         source = "user";
