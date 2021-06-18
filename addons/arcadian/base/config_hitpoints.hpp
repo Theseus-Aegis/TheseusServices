@@ -8,14 +8,17 @@ class HitPoints: HitPoints {
         explosionShielding = 2;
         passThrough = 0;
     };
-    class HitLF2Wheel: HitLFWheel {
+    class HitLF2Wheel: HitLF2Wheel {
         visual = "wheel_1_2_damage";
+        armorComponent = "wheel_1_2_hide";
     };
-    class HitRFWheel: HitLFWheel {
+    class HitRFWheel: HitRFWheel {
         visual = "wheel_2_1_damage";
+        armorComponent = "wheel_2_1_hide";
     };
-    class HitRF2Wheel: HitLFWheel {
+    class HitRF2Wheel: HitRF2Wheel {
         visual = "wheel_2_2_damage";
+        armorComponent = "wheel_2_2_hide";
     };
 
     class HitFuel: HitFuel {
