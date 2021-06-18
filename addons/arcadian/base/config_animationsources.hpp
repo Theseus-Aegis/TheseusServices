@@ -32,18 +32,6 @@ class AnimationSources: AnimationSources {
         initPhase = 0;
         displayName = "Hide Pushbar";
     };
-    class lightbar_hide_source {
-        source = "user";
-        animPeriod = 0;
-        initPhase = 1;
-        displayName = "Hide Beacon Lights";
-    };
-    class BeaconsStart {
-        source = "user";
-        animPeriod = 0;
-        initPhase = 0;
-        displayName = "Start Beacon Lights";
-    };
     class roofbar_hide_source {
         source = "user";
         animPeriod = 0;
