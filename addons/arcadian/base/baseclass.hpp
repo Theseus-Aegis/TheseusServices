@@ -80,6 +80,7 @@ class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
 };
 
 class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
+    model = QPATHTOF(Arcadian_Armed.p3d);
     MACRO_ARCADIAN_DAMAGE
     #include "config_texturesources_armed.hpp"
     #include "config_turret_gatling.hpp"
