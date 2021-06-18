@@ -1,4 +1,4 @@
-thrustDelay = 0.25;
+thrustDelay = 0.15;
 brakeIdleSpeed = 1.78;
 maxSpeed = 200;
 wheelCircumference = 2.805;
@@ -6,7 +6,7 @@ antiRollbarForceCoef=3;
 antiRollbarForceLimit=2;
 antiRollbarSpeedMin=20;
 antiRollbarSpeedMax=150;
-idleRpm = 800;
+idleRpm = 700;
 redRpm = 6500;
 
 class complexGearbox {
@@ -40,20 +40,20 @@ frontBias = 1.5;
 rearBias = 1.5;
 centreBias = 1.3;
 clutchStrength = 20.0;
-enginePower = 150;
-maxOmega = 450;
-peakTorque = 425;
+enginePower = 250;
+maxOmega = 525;
+peakTorque = 500;
 dampingRateFullThrottle = 0.08;
 dampingRateZeroThrottleClutchEngaged = 0.5;
 dampingRateZeroThrottleClutchDisengaged = 0.35;
 torqueCurve[] = {
-    {"(0/3500)", "(0/425)"},
-    {"(500/3500)", "(200/425)"},
-    {"(1500/3500)", "(405/425)"},
-    {"(2000/3500)", "(425/425)"},
-    {"(2500/3500)", "(350/425)"},
-    {"(3000/3500)", "(300/425)"},
-    {"(6000/3500)", "(0/425)"}
+    {"(0.1/3500)", "(0.1/500)"},
+    {"(500/3500)", "(200/500)"},
+    {"(1500/3500)", "(405/500)"},
+    {"(2000/3500)", "(425/500)"},
+    {"(2500/3500)", "(350/500)"},
+    {"(3000/3500)", "(300/500)"},
+    {"(6000/3500)", "(0/500)"}
 };
 changeGearMinEffectivity[] = {1, 0.15, 1, 1, 1, 1, 1, 1};
 switchTime = 0.31;
@@ -70,12 +70,12 @@ class Wheels {
         mass = 25;
         MOI = 12.8;
         dampingRate = 1;
-        maxBrakeTorque = 2000;
+        maxBrakeTorque = 2500;
         maxHandBrakeTorque = 0;
         suspTravelDirection[] = {0, -1, 0};
         suspForceAppPointOffset = "wheel_1_1_axis";
         tireForceAppPointOffset = "wheel_1_1_axis";
-        maxCompression = 0.050000001;
+        maxCompression = 0.05;
         mMaxDroop = 0.1;
         sprungMass = 650;
         springStrength = 56000;
@@ -98,7 +98,7 @@ class Wheels {
         boundary = "wheel_1_2_bound";
         suspForceAppPointOffset = "wheel_1_2_axis";
         tireForceAppPointOffset = "wheel_1_2_axis";
-        maxHandBrakeTorque = 3500;
+        maxHandBrakeTorque = 4000;
     };
     class RF: LF {
         boneName = "wheel_2_1_damper";
