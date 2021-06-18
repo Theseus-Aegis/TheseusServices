@@ -1,10 +1,10 @@
 class HitPoints: HitPoints {
     class HitLFWheel: HitLFWheel {
-        radius = 0.2;
+        radius = 0.25;
         visual = "wheel_1_1_damage";
         armorComponent = "wheel_1_1_hide";
         armor = 1;
-        minimalHit = 0;
+        minimalHit = -0.016;
         explosionShielding = 2;
         passThrough = 0;
     };
@@ -30,11 +30,13 @@ class HitPoints: HitPoints {
         passThrough = 1;
     };
     class HitBody: HitBody {
-        armor = 10;
+        armor = 6;
         explosionShielding = 0.25;
         name = "body";
         visual = "zbytek";
         passThrough = 1;
+        minimalHit = 0.01;
+        radius = 0.4;
     };
 
     class HitGlass1: HitGlass1 {

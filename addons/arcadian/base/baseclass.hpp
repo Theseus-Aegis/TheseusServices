@@ -32,6 +32,8 @@ class Car_F: Car {
 
 class CLASS(Arcadian_Base): Car_F {
     model = QPATHTOF(Arcadian.p3d);
+    icon = QPATHTOF(ui\icon_arcadian.paa);
+
     #include "config_acre.hpp"
     #include "config_animationsources.hpp"
     #include "config_hitpoints.hpp"

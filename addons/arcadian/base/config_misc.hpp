@@ -35,6 +35,11 @@ driverCompartments = "Compartment1";
 getInAction = "GetInLow";
 getOutAction = "GetOutLow";
 
+class TransportBackpacks {};
+class TransportItems {};
+class TransportMagazines {};
+class TransportWeapons {};
+
 // Damage
 crewCrashProtection = 1.5; // Lower is better protection
 armor = 80;
