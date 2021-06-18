@@ -13,7 +13,7 @@ class AnimationSources: AnimationSources {
         animPeriod = 1;
         initPhase = 1;
         displayName = "Fold Rear Seats";
-        lockCargo[] = {4,5};
+        lockCargo[] = {3,4};
         lockCargoAnimationPhase = 1;
         useSource = 1;
     };

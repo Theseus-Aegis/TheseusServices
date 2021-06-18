@@ -66,7 +66,7 @@ class Wheels {
         side = "left";
         center = "wheel_1_1_axis";
         boundary = "wheel_1_1_bound";
-        width = "0.126";
+        width = "0.24";
         mass = 25;
         MOI = 12.8;
         dampingRate = 1;

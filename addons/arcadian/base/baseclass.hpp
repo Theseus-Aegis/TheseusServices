@@ -78,6 +78,7 @@ class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
 
 class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
     model = QPATHTOF(Arcadian_Armed.p3d);
+    icon = QPATHTOF(ui\icon_arcadian_armed.paa);
     MACRO_ARCADIAN_DAMAGE
     #include "config_animationsources_armed.hpp"
     #include "config_texturesources_armed.hpp"
