@@ -69,11 +69,6 @@ class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
     MACRO_ARCADIAN_DAMAGE
     #include "config_texturesources_unarmed.hpp"
 
-    animationList[] = {
-        "rearseats_source", 0,
-        "gun_hide_source", 1
-    };
-
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle;};";
     };
@@ -82,19 +77,12 @@ class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
 class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
     model = QPATHTOF(Arcadian_Armed.p3d);
     MACRO_ARCADIAN_DAMAGE
+    #include "config_animationsources_armed.hpp"
     #include "config_texturesources_armed.hpp"
     #include "config_turret_gatling.hpp"
-    class AnimationSources: AnimationSources {
-        class gun_hide_source: gun_hide_source {
-            initPhase = 1;
-        };
-        class rearseats_source: rearseats_source {
-            initPhase = 0;
-        };
-    };
+
     animationList[] = {
         "rearseats_source", 1,
-        "gun_hide_source", 0
     };
 
     class EventHandlers: EventHandlers {
