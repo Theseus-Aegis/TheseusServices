@@ -1,24 +1,30 @@
+#define MACRO_WHEEL_DAMAGE \
+    radius = 0.25; \
+    armor = 1; \
+    minimalHit = -0.016; \
+    explosionShielding = 2; \
+    passThrough = 0;
+
 class HitPoints: HitPoints {
     class HitLFWheel: HitLFWheel {
-        radius = 0.25;
         visual = "wheel_1_1_damage";
         armorComponent = "wheel_1_1_hide";
-        armor = 1;
-        minimalHit = -0.016;
-        explosionShielding = 2;
-        passThrough = 0;
+        MACRO_WHEEL_DAMAGE
     };
     class HitLF2Wheel: HitLF2Wheel {
         visual = "wheel_1_2_damage";
         armorComponent = "wheel_1_2_hide";
+        MACRO_WHEEL_DAMAGE
     };
     class HitRFWheel: HitRFWheel {
         visual = "wheel_2_1_damage";
         armorComponent = "wheel_2_1_hide";
+        MACRO_WHEEL_DAMAGE
     };
     class HitRF2Wheel: HitRF2Wheel {
         visual = "wheel_2_2_damage";
         armorComponent = "wheel_2_2_hide";
+        MACRO_WHEEL_DAMAGE
     };
 
     class HitFuel: HitFuel {
