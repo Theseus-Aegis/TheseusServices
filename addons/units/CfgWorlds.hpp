@@ -16,6 +16,15 @@ class CfgWorlds {
                 kelly = "Kelly";
                 mick = "Mick";
                 rory = "Rory";
+                ian = "Ian";
+                joram = "Joram";
+                omer = "Omer";
+                phil = "Phil";
+                hayes = "Hayes";
+                laszlo = "László";
+                jonah = "Jonah";
+                leila = "Leila";
+                josh = "josh";
             };
             class LastNames {
                 james = "James";
@@ -32,6 +41,16 @@ class CfgWorlds {
                 gingras = "Gingras";
                 mathews = "Mathews";
                 guldentops = "Guldentops";
+                pierce = "Pierce";
+                davids = "Davids";
+                sil = "Sil";
+                maciejewski = "Maciejewski";
+                ackerly = "Ackerly";
+                kovacs = "Kovács";
+                rufford = "Rufford";
+                rowe = "Rowe";
+                rambo = "Rambo";
+                vee = "Vee";
             };
         };
     };
