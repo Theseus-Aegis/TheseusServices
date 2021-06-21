@@ -1,4 +1,11 @@
 class AnimationSources: AnimationSources {
+    class HitGlass1;
+    class HitGlass7: HitGlass1 {
+        hitpoint = "HitGlass7";
+    };
+    class HitGlass8: HitGlass1 {
+        hitpoint = "HitGlass8";
+    };
     class reardoor_2_source {
         displayName = "Rear Door Window";
         source = "door";

@@ -1,15 +1,24 @@
-// Ref; Chevrolet Suburban https://media.chevrolet.com/media/us/en/chevrolet/vehicles/suburban/2021.tab1.html
-
 thrustDelay = 0.15;
 brakeIdleSpeed = 1.78;
-maxSpeed = 200;
-wheelCircumference = 2.505; // Chevrolet suburban has 265/65 18" tires -> 2517mm circum.
+maxSpeed = 160;
+wheelCircumference = 2.517;
 antiRollbarForceCoef=3;
 antiRollbarForceLimit=2;
 antiRollbarSpeedMin=20;
 antiRollbarSpeedMax=150;
+
+// ENGINE
 idleRpm = 700;
-redRpm = 6000; // Suburban runs redline at 5750
+redRpm = 6500;
+enginePower = 300;
+peakTorque = 625;
+maxOmega = 680;  // maxOmega = (maxRpm * 2 * Pi) / 60
+clutchStrength = 15.0;
+engineMOI = 1.05;
+
+dampingRateFullThrottle = 0.08;
+dampingRateZeroThrottleClutchEngaged = 0.45;
+dampingRateZeroThrottleClutchDisengaged = 0.30;
 
 class complexGearbox {
     GearboxRatios[] = {
@@ -26,35 +35,18 @@ class complexGearbox {
         "D9", 0.69,
         "D10", 0.63
     };
-    TransmissionRatios[] = {"High", 3.23}; // Real life value
+    TransmissionRatios[] = {"High", 3.23};
     gearBoxMode = "auto";
     moveOffGear = 1;
     driveString = "D";
     neutralString = "N";
     reverseString = "R";
     gearUpMaxCoef = 0.95;
+    gearUpMinCoef = 0.75;
     gearDownMaxCoef = 0.85;
-    gearUpMinCoef = 0.65;
     gearDownMinCoef = 0.55;
     transmissionDelay = 2;
 };
-
-simulation = "carx";
-dampersBumpCoef = 3.0;
-differentialType = "all_limited";
-frontRearSplit = 0.45; // 45/55 front/back distribution
-frontBias = 1.5;
-rearBias = 1.5;
-centreBias = 1.3;
-clutchStrength = 20.0;
-enginePower = 290; // tuned down real life value
-maxOmega = 680; // properly calculated from maxOmega = (maxRpm*2*Pi)/60
-peakTorque = 519; // real life value
-dampingRateFullThrottle = 0.08;
-dampingRateZeroThrottleClutchEngaged = 0.45;
-dampingRateZeroThrottleClutchDisengaged = 0.30;
-
-// Close to real life values
 torqueCurve[] = {
     {"(1000/6000)", "(150/519)"},
     {"(1500/6000)", "(300/519)"},
@@ -66,9 +58,21 @@ torqueCurve[] = {
     {"(6000/6000)", "(300/519)"},
     {"(7500/6000)", "(10/519)"}
 };
-changeGearMinEffectivity[] = {1, 0.15, 0.98, 0.98, 0.98, 0.98, 0.98, 0.98};
-switchTime = 0.31;
+changeGearMinEffectivity[] = {1, 0.15, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95};
+switchTime = 0.6;
 latency = 1.5;
+
+
+
+simulation = "carx";
+dampersBumpCoef = 3.0;
+turnCoef = 3.5;
+differentialType = "all_limited";
+frontRearSplit = 0.45;
+frontBias = 1.5;
+rearBias = 1.5;
+centreBias = 1.3;
+
 
 class Wheels {
     class LF {
@@ -81,16 +85,16 @@ class Wheels {
         mass = 25;
         MOI = 12.8;
         dampingRate = 1;
-        maxBrakeTorque = 2500;
+        maxBrakeTorque = 4500;
         maxHandBrakeTorque = 0;
         suspTravelDirection[] = {0, -1, 0};
         suspForceAppPointOffset = "wheel_1_1_axis";
         tireForceAppPointOffset = "wheel_1_1_axis";
         maxCompression = 0.05;
-        mMaxDroop = 0.10;
-        sprungMass = 650;
-        springStrength = 55000; // Reduced by 1000 to make it slightly softer
-        springDamperRate = 13500; // Produces dampingRatio of 1.119
+        mMaxDroop = 0.10; // CHANGED
+        sprungMass = 1527.49; // CHANGED: Vehicle mass is 6109.96 so each wheel supports 1/4 of the weight
+        springStrength = 55000;
+        springDamperRate = 13500;
         longitudinalStiffnessPerUnitGravity = 10000;
         latStiffX = 25;
         latStiffY = 180;
@@ -113,12 +117,12 @@ class Wheels {
         boneName = "wheel_1_2_damper";
         steering = 0;
         center = "wheel_1_2_axis";
-        springStrength = 73000; // Reduced by 1000 to make it slightly softer
-        sprungMass = 650;
+        springStrength = 73000;
+        sprungMass = 1527.49; // CHANGED: Vehicle mass is 6109.96 so each wheel supports 1/4 of the weight
         boundary = "wheel_1_2_bound";
         suspForceAppPointOffset = "wheel_1_2_axis";
         tireForceAppPointOffset = "wheel_1_2_axis";
-        maxHandBrakeTorque = 6000; // Increased a bit
+        maxHandBrakeTorque = 9000;
     };
     class RR: LR {
         boneName = "wheel_2_2_damper";

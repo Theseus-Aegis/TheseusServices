@@ -43,7 +43,7 @@ class TransportWeapons {};
 // Damage
 crewCrashProtection = 1.5; // Lower is better protection
 armor = 80;
-armorStructural = 2;
+armorStructural = 1;
 damageResistance = 0.006;
 wheelDamageThreshold = 0.18;
 

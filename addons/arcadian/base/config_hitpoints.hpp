@@ -1,9 +1,14 @@
 #define MACRO_WHEEL_DAMAGE \
     radius = 0.25; \
     armor = 1; \
-    minimalHit = -0.016; \
-    explosionShielding = 2; \
-    passThrough = 0;
+    minimalHit = -0.02; \
+    explosionShielding = 0.25; \
+    passThrough = 0.3;
+
+#define MACRO_GLASS_DAMAGE_SIDE \
+    armor = 1; \
+    explosionShielding = 0.75; \
+    minimalHit = -0.05;
 
 class HitPoints: HitPoints {
     class HitLFWheel: HitLFWheel {
@@ -26,65 +31,54 @@ class HitPoints: HitPoints {
         armorComponent = "wheel_2_2_hide";
         MACRO_WHEEL_DAMAGE
     };
-
     class HitFuel: HitFuel {
         name = "palivo";
-        armor = 2;
+        armor = 1;
         radius = 0.45;
+        passThrough = 0.2;
     };
     class HitEngine: HitEngine {
         name = "engine";
-        armor = 2;
+        armor = 1;
+        minimalHit = -0.010;
         radius = 0.25;
-        passThrough = 1;
+        passThrough = 0.2;
     };
     class HitBody: HitBody {
-        armor = 6;
+        armor = 1;
         explosionShielding = 0.25;
         name = "body";
         visual = "zbytek";
-        passThrough = 1;
-        minimalHit = 0.01;
+        passThrough = 0.5;
+        minimalHit = -0.1;
         radius = 0.4;
     };
-
     class HitGlass1: HitGlass1 {
-        armor = 0.1;
-        explosionShielding = 0.9;
-        minimalHit = 0.1;
-        name = "glass1";
-        passThrough = 0.1;
+        armor = 3;
+        explosionShielding = 0.75;
         radius = 0.25;
-        visual = "glass1";
     };
-    class HitGlass2: HitGlass1 {
-        name = "glass2";
-        visual = "glass2";
-        radius = 0.11;
-        explosionShielding = 1;
-        minimalHit = 0.05;
+    class HitGlass2: HitGlass2 {
+        MACRO_GLASS_DAMAGE_SIDE
     };
-    class HitGlass3: HitGlass2 {
-        name = "glass3";
-        visual = "glass3";
+    class HitGlass3: HitGlass3 {
+        MACRO_GLASS_DAMAGE_SIDE
     };
-    class HitGlass4: HitGlass2 {
-        name = "glass4";
-        visual = "glass4";
+    class HitGlass4: HitGlass4 {
+        MACRO_GLASS_DAMAGE_SIDE
     };
-    class HitGlass5: HitGlass1 {
-        name = "glass5";
-        visual = "glass5";
+    class HitGlass5: HitGlass5 {
+        armor = 3;
+        explosionShielding = 0.75;
     };
-    class HitGlass6: HitGlass2 {
-        name = "glass6";
-        visual = "glass6";
+    class HitGlass6: HitGlass6 {
+        MACRO_GLASS_DAMAGE_SIDE
     };
-    class HitGlass7: HitGlass2 {
+    class HitGlass7: HitGlass6 {
         name = "glass7";
         visual = "glass7";
     };
-    class HitGlass8: HitGlass2 {
+    class HitGlass8: HitGlass6 {
         name = "glass8";
         visual = "glass8";
     };
