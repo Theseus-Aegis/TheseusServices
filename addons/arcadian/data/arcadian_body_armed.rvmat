@@ -7,7 +7,7 @@ specularPower = 500;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1 {
-    texture = "x\tacs\addons\arcadian\data\armoredsuv_body_nohq.paa";
+    texture = "x\tacs\addons\arcadian\data\arcadian_body_armed_nohq.paa";
     uvSource = "tex";
     class uvTransform {
         aside[] = {1,0,0};
@@ -47,7 +47,7 @@ class Stage4 {
     };
 };
 class Stage5 {
-    texture = "x\tacs\addons\arcadian\data\armoredsuv_body_smdi.paa";
+    texture = "x\tacs\addons\arcadian\data\arcadian_body_armed_smdi.paa";
     uvSource = "tex";
     class uvTransform {
         aside[] = {1,0,0};
@@ -77,5 +77,5 @@ class Stage7 {
     };
 };
 class StageTI {
-    texture = "x\tacs\addons\arcadian\data\suv_body_ti_ca.paa";
+    texture = "x\tacs\addons\arcadian\data\arcadian_body_armed_ti_ca.paa";
 };

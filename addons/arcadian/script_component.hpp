@@ -9,12 +9,12 @@
 class Damage { \
     tex[] = {}; \
     mat[] = { \
-        QPATHTOR(data\suv_body.rvmat), \
-        QPATHTOR(data\suv_body_damage.rvmat), \
-        QPATHTOR(data\suv_body_destruct.rvmat), \
-        QPATHTOR(data\suv_chrom.rvmat), \
-        QPATHTOR(data\suv_chrom_damage.rvmat), \
-        QPATHTOR(data\suv_chrom_destruct.rvmat), \
+        QPATHTOR(data\arcadian_body.rvmat), \
+        QPATHTOR(data\arcadian_body_damage.rvmat), \
+        QPATHTOR(data\arcadian_body_destruct.rvmat), \
+        QPATHTOR(data\arcadian_chrome.rvmat), \
+        QPATHTOR(data\arcadian_chrome_damage.rvmat), \
+        QPATHTOR(data\arcadian_chrome_destruct.rvmat), \
         "a3\data_f\glass_veh.rvmat", \
         "a3\data_f\glass_veh_armored_damage.rvmat", \
         "a3\data_f\glass_veh_armored_damage.rvmat", \
