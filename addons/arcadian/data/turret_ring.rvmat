@@ -1,4 +1,4 @@
-surfaceInfo = "a3\data_f\penetration\armour_plate_1mm.bisurf";
+surfaceInfo = "x\tacs\addons\arcadian\data\arcadian_armour_plate.bisurf";
 
 ambient[] = {0.75, 0.75, 0.75, 1};
 diffuse[] = {0.75, 0.75, 0.75, 1};
