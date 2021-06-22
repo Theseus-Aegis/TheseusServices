@@ -62,8 +62,6 @@ changeGearMinEffectivity[] = {1, 0.15, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95};
 switchTime = 0.6;
 latency = 1.5;
 
-
-
 simulation = "carx";
 dampersBumpCoef = 3.0;
 turnCoef = 3.5;
@@ -72,7 +70,6 @@ frontRearSplit = 0.45;
 frontBias = 1.5;
 rearBias = 1.5;
 centreBias = 1.3;
-
 
 class Wheels {
     class LF {
@@ -133,3 +130,13 @@ class Wheels {
         tireForceAppPointOffset = "wheel_2_2_axis";
     };
 };
+
+// Wheel markings on roads
+memoryPointTrackFLL = "wheeltrack_f_l_l"; // Front Left / Left
+memoryPointTrackFLR = "wheeltrack_f_l_r"; // Front Left / Right
+memoryPointTrackBLL = "wheeltrack_f_r_l"; // Back Left / Left
+memoryPointTrackBLR = "wheeltrack_f_r_r"; // Back Left / Right
+memoryPointTrackFRL = "wheeltrack_r_l_l"; // Front Right / Left
+memoryPointTrackFRR = "wheeltrack_r_l_r"; // Front Right / Right
+memoryPointTrackBRL = "wheeltrack_r_r_l"; // Back Right / Left
+memoryPointTrackBRR = "wheeltrack_r_r_r"; // Back Right / Right

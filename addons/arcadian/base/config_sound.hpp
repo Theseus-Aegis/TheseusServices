@@ -106,14 +106,13 @@ soundEngineOffExt[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Engine_Ext_st
 
 class Sounds {
     soundSetsInt[] = {
-        "Mrap_01_Engine_RPM0_INT_SoundSet",
-        "Mrap_01_Engine_RPM1_INT_SoundSet",
-        "Mrap_01_Engine_RPM2_INT_SoundSet",
-        "Mrap_01_Engine_RPM3_INT_SoundSet",
-        "Mrap_01_Engine_RPM4_INT_SoundSet",
-        "Mrap_01_Engine_INT_Burst_SoundSet",
+        "Offroad_01_Engine_RPM0_INT_SoundSet",
+        "Offroad_01_Engine_RPM1_INT_SoundSet",
+        "Offroad_01_Engine_RPM2_INT_SoundSet",
+        "Offroad_01_Engine_RPM3_INT_SoundSet",
+        "Offroad_01_Engine_RPM4_INT_SoundSet",
         "Mrap_01_Rattling_INT_SoundSet",
-        //"Mrap_01_Stress_INT_SoundSet",
+        "",
         "Mrap_01_Rain_INT_SoundSet",
         "Mrap_01_Tires_Rock_Fast_INT_SoundSet",
         "Mrap_01_Tires_Grass_Fast_INT_SoundSet",
@@ -137,14 +136,12 @@ class Sounds {
         "Tires_Movement_Dirt_Int_01_SoundSet"
     };
     soundSetsExt[] = {
-        "Mrap_01_Engine_RPM0_EXT_SoundSet",
-        "Mrap_01_Engine_RPM1_EXT_SoundSet",
-        "Mrap_01_Engine_RPM2_EXT_SoundSet",
-        "Mrap_01_Engine_RPM3_EXT_SoundSet",
-        "Mrap_01_Engine_RPM4_EXT_SoundSet",
-        "Mrap_01_Engine_EXT_Burst_SoundSet",
-        "Mrap_01_Rattling_EXT_SoundSet",
-        //"Mrap_01_Stress_EXT_SoundSet",
+        "Offroad_01_Engine_RPM0_EXT_SoundSet",
+        "Offroad_01_Engine_RPM1_EXT_SoundSet",
+        "Offroad_01_Engine_RPM2_EXT_SoundSet",
+        "Offroad_01_Engine_RPM3_EXT_SoundSet",
+        "Offroad_01_Engine_RPM4_EXT_SoundSet",
+        "",
         "Mrap_01_Rain_EXT_SoundSet",
         "Mrap_01_Tires_Rock_Fast_EXT_SoundSet",
         "Mrap_01_Tires_Grass_Fast_EXT_SoundSet",
