@@ -8,6 +8,7 @@ class CfgWorlds {
                 cory = "Cory";
                 dimas = "Dimas";
                 earth = "Earth";
+                gary = "Gary";
                 hayes = "Hayes";
                 ian = "Ian";
                 jack = "Jack";
@@ -20,6 +21,7 @@ class CfgWorlds {
                 kelly = "Kelly";
                 laszlo = "László";
                 leila = "Leila";
+                matt = "Matt";
                 mick = "Mick";
                 omer = "Omer";
                 phil = "Phil";
@@ -33,6 +35,7 @@ class CfgWorlds {
             class LastNames {
                 ackerly = "Ackerly";
                 albin = "Albin";
+                crimbo = "Crimbo";
                 dau = "Dau";
                 davids = "Davids";
                 gingras = "Gingras";
@@ -46,6 +49,7 @@ class CfgWorlds {
                 laird = "Laird";
                 larose = "Larose";
                 lopez = "López";
+                mccarthy = "McCarthy";
                 maciejewski = "Maciejewski";
                 mathews = "Mathews";
                 mueller = "Müller";
