@@ -16,6 +16,7 @@ hiddenSelectionsTextures[] = {
     QPATHTOF(data\arcadian_interior_co.paa)
 };
 maxFordingDepth = 1.25;
+waterResistance = 1;
 fuelCapacity = 20;
 
 // Cargo
