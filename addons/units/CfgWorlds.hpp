@@ -8,6 +8,8 @@ class CfgWorlds {
                 cory = "Cory";
                 dimas = "Dimas";
                 earth = "Earth";
+                ethan = "Ethan";
+                garrett = "Garrett";
                 gary = "Gary";
                 hayes = "Hayes";
                 ian = "Ian";
@@ -25,7 +27,9 @@ class CfgWorlds {
                 mick = "Mick";
                 omer = "Omer";
                 phil = "Phil";
+                philippe = "Philippe";
                 rory = "Rory";
+                skits = "Skits";
                 skye = "Skye";
                 thomas = "Thomas";
                 tim = "Tim";
@@ -38,6 +42,7 @@ class CfgWorlds {
                 crimbo = "Crimbo";
                 dau = "Dau";
                 davids = "Davids";
+                finn = "Finn";
                 gingras = "Gingras";
                 guldentops = "Guldentops";
                 harrison = "Harrison";
@@ -50,15 +55,18 @@ class CfgWorlds {
                 larose = "Larose";
                 lopez = "López";
                 mccarthy = "McCarthy";
+                mcquade = "McQuade";
                 maciejewski = "Maciejewski";
                 mathews = "Mathews";
                 mueller = "Müller";
                 pierce = "Pierce";
                 rambo = "Rambo";
+                richards = "Richards";
                 rowe = "Rowe";
                 rufford = "Rufford";
                 sil = "Sil";
                 taylor = "Taylor";
+                teschner = "Teschner";
                 vee = "Vee";
                 walker = "Walker";
                 woods = "Woods";
