@@ -6,6 +6,7 @@ mFact = 1;
 tBody = 200;
 mapSize = 7;
 accuracy = 0.35;
+cost = 50000;
 driverLeftHandAnimName = "drivewheel";
 driverRightHandAnimName = "drivewheel";
 weapons[] = {"SportCarHorn"};
@@ -43,8 +44,8 @@ class TransportWeapons {};
 
 // Damage
 crewCrashProtection = 1.5; // Lower is better protection
-armor = 80;
-armorStructural = 1;
+armor = 120;
+armorStructural = 5;
 damageResistance = 0.006;
 wheelDamageThreshold = 0.18;
 

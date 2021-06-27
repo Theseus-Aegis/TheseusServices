@@ -1,5 +1,4 @@
 #define MACRO_WHEEL_DAMAGE \
-    radius = 0.25; \
     armor = 1; \
     minimalHit = -0.025; \
     explosionShielding = 0.25; \
@@ -13,7 +12,6 @@
 #define MACRO_GLASS_DAMAGE_MAIN \
     armor = 1.5; \
     explosionShielding = 0.75; \
-    radius = 0.25; \
     minimalHit = -0.035;
 
 class HitPoints: HitPoints {
@@ -41,23 +39,24 @@ class HitPoints: HitPoints {
         name = "palivo";
         armor = 1;
         radius = 0.45;
-        passThrough = 0.2;
+        passThrough = 0.1;
+        minimalHit = -0.025;
     };
     class HitEngine: HitEngine {
         name = "engine";
         armor = 1;
         minimalHit = -0.03;
-        radius = 0.25;
-        passThrough = 0.2;
+        radius = 0.45;
+        passThrough = 0.1;
     };
     class HitBody: HitBody {
-        armor = 1;
-        explosionShielding = 0.25;
+        armor = 6;
+        explosionShielding = 1.5;
         name = "body";
         visual = "zbytek";
-        passThrough = 0.5;
-        minimalHit = -0.01;
-        radius = 0.4;
+        passThrough = 1;
+        minimalHit = -0.35;
+        radius = 0.45;
     };
     class HitGlass1: HitGlass1 {
         MACRO_GLASS_DAMAGE_MAIN

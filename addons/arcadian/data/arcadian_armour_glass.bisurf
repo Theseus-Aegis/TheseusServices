@@ -1,8 +1,8 @@
 Density = 5000;
-Thickness = 30;
+Thickness = 16;
 rough = 0;
 dust = 0;
-bulletPenetrabilityWithThickness = 36;
+bulletPenetrabilityWithThickness = 12;
 soundEnviron = "Empty";
 isWater = "false";
 friction = 0.69;
