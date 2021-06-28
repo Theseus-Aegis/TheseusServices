@@ -4,6 +4,7 @@ class CfgWorlds {
             class FirstNames {
                 brent = "Brent";
                 brett = "Brett";
+                chris = "Chris";
                 cole = "Cole";
                 cory = "Cory";
                 dimas = "Dimas";
@@ -69,6 +70,7 @@ class CfgWorlds {
                 teschner = "Teschner";
                 vee = "Vee";
                 walker = "Walker";
+                werthers = "Werthers";
                 woods = "Woods";
                 zakharov = "Zakharov";
             };
