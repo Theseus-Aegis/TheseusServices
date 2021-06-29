@@ -43,9 +43,9 @@ class TransportMagazines {};
 class TransportWeapons {};
 
 // Damage
-crewCrashProtection = 1.5; // Lower is better protection
+crewCrashProtection = 2; // Lower is better protection
 armor = 120;
-armorStructural = 5;
+armorStructural = 3;
 damageResistance = 0.006;
 wheelDamageThreshold = 0.18;
 

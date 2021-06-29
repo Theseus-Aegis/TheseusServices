@@ -1,8 +1,7 @@
 #define MACRO_WHEEL_DAMAGE \
     armor = 1; \
     minimalHit = -0.025; \
-    explosionShielding = 0.25; \
-    passThrough = 0.25;
+    explosionShielding = 0.25;
 
 #define MACRO_GLASS_DAMAGE_SIDE \
     armor = 1; \
@@ -51,7 +50,7 @@ class HitPoints: HitPoints {
     };
     class HitBody: HitBody {
         armor = 6;
-        explosionShielding = 1.5;
+        explosionShielding = 0.25;
         name = "body";
         visual = "zbytek";
         passThrough = 1;

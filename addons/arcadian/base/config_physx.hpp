@@ -1,25 +1,45 @@
-thrustDelay = 0.15;
+// Ref; Chevrolet Suburban https://media.chevrolet.com/media/us/en/chevrolet/vehicles/suburban/2021.tab1.html
+
+simulation = "carx";
+thrustDelay = 0.5;
 brakeIdleSpeed = 1.78;
 maxSpeed = 160;
 wheelCircumference = 2.517;
-antiRollbarForceCoef=3;
-antiRollbarForceLimit=2;
-antiRollbarSpeedMin=20;
-antiRollbarSpeedMax=150;
 
 // ENGINE
 idleRpm = 700;
 redRpm = 6500;
-enginePower = 300;
-peakTorque = 625;
+enginePower = 420; // in kW;
+peakTorque = 800; // In Nm; more than standard because we have a heavily armoured car, hence upgrades to the engine
 maxOmega = 680;  // maxOmega = (maxRpm * 2 * Pi) / 60
 clutchStrength = 15.0;
-engineMOI = 1.05;
+engineMOI = 1.025;
 
-dampingRateFullThrottle = 0.08;
-dampingRateZeroThrottleClutchEngaged = 0.45;
-dampingRateZeroThrottleClutchDisengaged = 0.30;
+torqueCurve[] = {
+    {(1000/6000), (150/519)},
+    {(1500/6000), (300/519)},
+    {(2500/6000), (450/519)},
+    {(3000/6000), (475/519)},
+    {(4000/6000), (519/519)},
+    {(4500/6000), (450/519)},
+    {(5000/6000), (350/519)},
+    {(6000/6000), (300/519)}
+};
 
+changeGearMinEffectivity[] = {
+    1,
+    0.15,
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.95
+};
+switchTime = 0.31;
+latency = 1.5;
+
+// GEARBOX
 class complexGearbox {
     GearboxRatios[] = {
         "R1", -4.86,
@@ -47,28 +67,21 @@ class complexGearbox {
     gearDownMinCoef = 0.55;
     transmissionDelay = 2;
 };
-torqueCurve[] = {
-    {"(1000/6000)", "(150/519)"},
-    {"(1500/6000)", "(300/519)"},
-    {"(2500/6000)", "(450/519)"},
-    {"(3000/6000)", "(475/519)"},
-    {"(4000/6000)", "(519/519)"},
-    {"(4500/6000)", "(450/519)"},
-    {"(5000/6000)", "(350/519)"},
-    {"(6000/6000)", "(300/519)"}
-};
-changeGearMinEffectivity[] = {1, 0.15, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95};
-switchTime = 0.6;
-latency = 1.5;
 
-simulation = "carx";
-dampersBumpCoef = 3.0;
-turnCoef = 3.5;
+// DIFFERENTIAL
 differentialType = "all_limited";
 frontRearSplit = 0.45;
 frontBias = 1.5;
 rearBias = 1.5;
 centreBias = 1.3;
+
+// SUSPENSION
+antiRollbarForceCoef=7;
+antiRollbarForceLimit=3;
+antiRollbarSpeedMin=20;
+antiRollbarSpeedMax=80;
+dampersBumpCoef = 5;
+turnCoef = 2.9;
 
 class Wheels {
     class LF {
@@ -77,20 +90,20 @@ class Wheels {
         side = "left";
         center = "wheel_1_1_axis";
         boundary = "wheel_1_1_bound";
-        width = "0.24";
-        mass = 25;
+        width = 0.265;
+        mass = 30;
         MOI = 12.8;
-        dampingRate = 1;
-        maxBrakeTorque = 4500;
+        dampingRate = 0.4;
+        maxBrakeTorque = 6500;
         maxHandBrakeTorque = 0;
         suspTravelDirection[] = {0, -1, 0};
         suspForceAppPointOffset = "wheel_1_1_axis";
         tireForceAppPointOffset = "wheel_1_1_axis";
-        maxCompression = 0.05;
-        mMaxDroop = 0.10; // CHANGED
-        sprungMass = 1527.49; // CHANGED: Vehicle mass is 6109.96 so each wheel supports 1/4 of the weight
-        springStrength = 55000;
-        springDamperRate = 13500;
+        maxCompression = 0.1;
+        maxDroop = 0.15;
+        sprungMass = 1527.49;
+        springStrength = 120000;
+        springDamperRate = 29785; // dampingRatio * 2 * sqrt(springStrength * sprungMass); dampingRatio=1.1
         longitudinalStiffnessPerUnitGravity = 10000;
         latStiffX = 25;
         latStiffY = 180;
@@ -113,12 +126,14 @@ class Wheels {
         boneName = "wheel_1_2_damper";
         steering = 0;
         center = "wheel_1_2_axis";
-        springStrength = 73000;
-        sprungMass = 1527.49; // CHANGED: Vehicle mass is 6109.96 so each wheel supports 1/4 of the weight
+        springStrength = 130000;
+        sprungMass = 1527.49;
+        springDamperRate = 31001; // dampingRatio * 2 * sqrt(springStrength * sprungMass); dampingRatio=1.1
+
         boundary = "wheel_1_2_bound";
         suspForceAppPointOffset = "wheel_1_2_axis";
         tireForceAppPointOffset = "wheel_1_2_axis";
-        maxHandBrakeTorque = 9000;
+        maxHandBrakeTorque = 200000;
     };
     class RR: LR {
         boneName = "wheel_2_2_damper";
