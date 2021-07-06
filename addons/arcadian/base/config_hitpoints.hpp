@@ -4,14 +4,14 @@
     explosionShielding = 0.25;
 
 #define MACRO_GLASS_DAMAGE_SIDE \
-    armor = 1; \
+    armor = 0.5; \
     explosionShielding = 0.75; \
-    minimalHit = -0.02; \
+    minimalHit = -0.01; \
 
 #define MACRO_GLASS_DAMAGE_MAIN \
-    armor = 1.5; \
+    armor = 0.75; \
     explosionShielding = 0.75; \
-    minimalHit = -0.035;
+    minimalHit = -0.03;
 
 class HitPoints: HitPoints {
     class HitLFWheel: HitLFWheel {
@@ -43,13 +43,13 @@ class HitPoints: HitPoints {
     };
     class HitEngine: HitEngine {
         name = "engine";
-        armor = 1;
+        armor = 1.25;
         minimalHit = -0.03;
         radius = 0.45;
         passThrough = 0.1;
     };
     class HitBody: HitBody {
-        armor = 6;
+        armor = 4;
         explosionShielding = 0.25;
         name = "body";
         visual = "zbytek";

@@ -20,6 +20,18 @@ maxFordingDepth = 1.25;
 waterResistance = 1;
 fuelCapacity = 20;
 
+class Exhausts {
+    class Exhaust1 {
+        position = "exhaust_1";
+        direction = "exhaust_1_dir";
+        effect = "ExhaustsEffect";
+    };
+};
+
+class Library {
+    libTextDesc = "";
+};
+
 // Cargo
 ace_cargo_space = 6;
 cargoAction[] = {

@@ -33,11 +33,13 @@ class Car_F: Car {
 class CLASS(Arcadian_Base): Car_F {
     model = QPATHTOF(Arcadian.p3d);
     icon = QPATHTOF(ui\icon_arcadian.paa);
+    MACRO_ARCADIAN_DAMAGE
 
     #include "config_acre.hpp"
     #include "config_animationsources.hpp"
     #include "config_hitpoints.hpp"
     #include "config_misc.hpp"
+    #include "config_plateinfo.hpp"
     #include "config_physx.hpp"
     #include "config_reflectors.hpp"
     #include "config_rendertargets.hpp"
@@ -45,30 +47,9 @@ class CLASS(Arcadian_Base): Car_F {
     #include "config_sound.hpp"
     #include "config_turret_rear.hpp"
     #include "config_useractions.hpp"
-
-    class Exhausts {
-        class Exhaust1 {
-            position = "exhaust_1";
-            direction = "exhaust_1_dir";
-            effect = "ExhaustsEffect";
-        };
-    };
-
-    class Library {
-        libTextDesc = "";
-    };
-
-    class PlateInfos {
-        name = "spz";
-        color[] = {0, 0, 0, 0.75};
-        plateFont = "RobotoCondensedLight";
-        plateFormat = "TACS - ####"; // Will show as TACS - 0123 in game.
-        plateLetters = "ABCDEFHIKLMOPRSTVXYZ";
-    };
 };
 
 class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
-    MACRO_ARCADIAN_DAMAGE
     #include "config_texturesources_unarmed.hpp"
 
     class EventHandlers: EventHandlers {
@@ -79,7 +60,6 @@ class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
 class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
     model = QPATHTOF(Arcadian_Armed.p3d);
     icon = QPATHTOF(ui\icon_arcadian_armed.paa);
-    MACRO_ARCADIAN_DAMAGE
     #include "config_animationsources_armed.hpp"
     #include "config_texturesources_armed.hpp"
     #include "config_turret_gatling.hpp"

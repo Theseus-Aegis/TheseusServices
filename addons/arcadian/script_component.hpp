@@ -17,7 +17,7 @@ class Damage { \
         QPATHTOR(data\arcadian_chrome_destruct.rvmat), \
         "a3\data_f\glass_veh.rvmat", \
         "a3\data_f\glass_veh_armored_damage.rvmat", \
-        "a3\data_f\glass_veh_armored_damage.rvmat", \
+        "a3\data_f\glass_veh_armored_damage.rvmat" \
     }; \
 };
 
