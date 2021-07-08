@@ -1,5 +1,5 @@
-Density = 8600;
-Thickness = 16;
+density = 8600;
+thickness = 16;
 rough = 0.1;
 dust = 0;
 bulletPenetrabilityWithThickness = 16.5;

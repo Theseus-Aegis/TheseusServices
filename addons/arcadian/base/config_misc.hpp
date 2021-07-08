@@ -50,7 +50,12 @@ getInAction = "GetInLow";
 getOutAction = "GetOutLow";
 
 class TransportBackpacks {};
-class TransportItems {};
+class TransportItems {
+    class _xx_FirstAidKit {
+        name = "FirstAidKit";
+        count = 4;
+    };
+};
 class TransportMagazines {};
 class TransportWeapons {};
 

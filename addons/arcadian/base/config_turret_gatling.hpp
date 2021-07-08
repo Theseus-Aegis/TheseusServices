@@ -6,7 +6,7 @@ class Turrets: Turrets {
         minElev = -10;
         maxElev = 10;
         initElev = 0;
-        soundServo[] = {"a3\sounds_f\vehicles\armor\noises\servo_best", db-40, 1};
+        soundServo[] = {"a3\sounds_f\dummysound", 0, 1};
         stabilizedInAxes = StabilizedInAxesNone;
         gunBeg = "muzzle_1";
         gunEnd = "chamber_1";
