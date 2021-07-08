@@ -2,8 +2,8 @@ class RenderTargets {
     class LeftMirror {
         renderTarget = "rendertarget0";
         class CameraView1 {
-            pointPosition = "PIP0_pos";
-            pointDirection = "PIP0_dir";
+            pointPosition = "pip0_pos";
+            pointDirection = "pip0_dir";
             renderQuality = 2;
             renderVisionMode = 4;
             fov = 0.7;
@@ -12,8 +12,8 @@ class RenderTargets {
     class RightMirror {
         renderTarget = "renderTarget1";
         class CameraView1 {
-            pointPosition = "PIP1_pos";
-            pointDirection = "PIP1_dir";
+            pointPosition = "pip1_pos";
+            pointDirection = "pip1_dir";
             renderQuality = 2;
             renderVisionMode = 4;
             fov = 0.7;

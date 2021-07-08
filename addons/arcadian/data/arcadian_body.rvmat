@@ -1,3 +1,7 @@
+class StageTI {
+    texture = "x\tacs\addons\arcadian\data\arcadian_body_ti_ca.paa";
+};
+
 ambient[] = {1,1,1,1};
 diffuse[] = {1,1,1,1};
 forcedDiffuse[] = {0,0,0,0};
@@ -6,6 +10,7 @@ specular[] = {1,1,1,1};
 specularPower = 500;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
+
 class Stage1 {
     texture = "x\tacs\addons\arcadian\data\arcadian_body_nohq.paa";
     uvSource = "tex";
@@ -75,7 +80,4 @@ class Stage7 {
         dir[] = {0,0,1};
         pos[] = {0,0,0};
     };
-};
-class StageTI {
-    texture = "x\tacs\addons\arcadian\data\arcadian_body_ti_ca.paa";
 };

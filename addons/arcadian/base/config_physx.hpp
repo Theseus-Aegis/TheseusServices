@@ -39,7 +39,7 @@ changeGearMinEffectivity[] = {
 switchTime = 0.31;
 latency = 1.5;
 
-// GEARBOX
+// Gearbox
 class complexGearbox {
     GearboxRatios[] = {
         "R1", -4.86,
@@ -68,18 +68,18 @@ class complexGearbox {
     transmissionDelay = 2;
 };
 
-// DIFFERENTIAL
+// Differential
 differentialType = "all_limited";
 frontRearSplit = 0.45;
 frontBias = 1.5;
 rearBias = 1.5;
 centreBias = 1.3;
 
-// SUSPENSION
-antiRollbarForceCoef=7;
-antiRollbarForceLimit=3;
-antiRollbarSpeedMin=20;
-antiRollbarSpeedMax=80;
+// Suspension
+antiRollbarForceCoef = 7;
+antiRollbarForceLimit = 3;
+antiRollbarSpeedMin = 20;
+antiRollbarSpeedMax = 80;
 dampersBumpCoef = 5;
 turnCoef = 2.9;
 

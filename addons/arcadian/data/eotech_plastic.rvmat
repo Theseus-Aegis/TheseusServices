@@ -1,6 +1,7 @@
 class StageTI {
     texture = "a3\data_f\default_ti_ca.paa";
 };
+
 ambient[] = {0.99999982,0.99999982,0.99999982,1};
 diffuse[] = {0.99999982,0.99999982,0.99999982,1};
 forcedDiffuse[] = {0,0,0,0};
@@ -9,6 +10,7 @@ specular[] = {0.37600037,0.37600037,0.37600037,1};
 specularPower = 35;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
+
 class Stage1 {
     texture = "x\tacs\addons\arcadian\data\eotech553b_nohq.paa";
     uvSource = "tex";
