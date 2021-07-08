@@ -7,7 +7,7 @@ class UserActions {
         onlyForPlayer = 0;
         priority = 10;
         condition = "this doorPhase 'reardoor_2_source' < 0.5 && {(this getCargoIndex (missionNamespace getVariable ['bis_fnc_moduleRemoteControl_unit', player])) isEqualTo 0}";
-        statement = "this animateDoor ['reardoor_2_source',1];";
+        statement = "this animateDoor ['reardoor_2_source', 1];";
     };
     class CloseRearWindow: OpenRearWindow {
         displayName = CSTRING(Window_Close);
