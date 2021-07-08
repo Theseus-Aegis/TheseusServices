@@ -25,5 +25,20 @@
         <Key ID="STR_TACS_Arcadian_Armed_Grey">
             <English>Arcadian GT (Grey) (M134)</English>
         </Key>
+        <Key ID="STR_TACS_Arcadian_Window">
+            <English>Open Rear Window</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Window_Close">
+            <English>Close Rear Window</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Pushbar">
+            <English>Toggle Pushbar</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Roofbar">
+            <English>Extend Roofbar</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Antenna">
+            <English>Toggle Antenna</English>
+        </Key>
     </Package>
 </Project>

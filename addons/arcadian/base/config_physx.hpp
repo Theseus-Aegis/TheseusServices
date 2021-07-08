@@ -1,4 +1,4 @@
-// Ref; Chevrolet Suburban https://media.chevrolet.com/media/us/en/chevrolet/vehicles/suburban/2021.tab1.html
+// Reference: Chevrolet Suburban https://media.chevrolet.com/media/us/en/chevrolet/vehicles/suburban/2021.tab1.html
 
 simulation = "carx";
 thrustDelay = 0.5;
@@ -6,7 +6,7 @@ brakeIdleSpeed = 1.78;
 maxSpeed = 160;
 wheelCircumference = 2.517;
 
-// ENGINE
+// Engine
 idleRpm = 700;
 redRpm = 6500;
 enginePower = 420; // in kW;
@@ -16,14 +16,14 @@ clutchStrength = 15.0;
 engineMOI = 1.025;
 
 torqueCurve[] = {
-    {(1000/6000), (150/519)},
-    {(1500/6000), (300/519)},
-    {(2500/6000), (450/519)},
-    {(3000/6000), (475/519)},
-    {(4000/6000), (519/519)},
-    {(4500/6000), (450/519)},
-    {(5000/6000), (350/519)},
-    {(6000/6000), (300/519)}
+    {1000/6000, (150/519},
+    {1500/6000), (300/519},
+    {2500/6000), (450/519},
+    {3000/6000), (475/519},
+    {4000/6000), (519/519},
+    {4500/6000), (450/519},
+    {5000/6000), (350/519},
+    {6000/6000), (300/519}
 };
 
 changeGearMinEffectivity[] = {

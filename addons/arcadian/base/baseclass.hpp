@@ -31,7 +31,7 @@ class Car_F: Car {
 };
 
 class CLASS(Arcadian_Base): Car_F {
-    model = QPATHTOF(Arcadian.p3d);
+    model = QPATHTOF(data\Arcadian.p3d);
     icon = QPATHTOF(ui\icon_arcadian.paa);
     MACRO_ARCADIAN_DAMAGE
 
@@ -58,7 +58,7 @@ class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
 };
 
 class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
-    model = QPATHTOF(Arcadian_Armed.p3d);
+    model = QPATHTOF(data\Arcadian_Armed.p3d);
     icon = QPATHTOF(ui\icon_arcadian_armed.paa);
     #include "config_animationsources_armed.hpp"
     #include "config_texturesources_armed.hpp"
