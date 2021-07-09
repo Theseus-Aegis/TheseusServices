@@ -51,10 +51,7 @@ getOutAction = "GetOutLow";
 
 class TransportBackpacks {};
 class TransportItems {
-    class _xx_FirstAidKit {
-        name = "FirstAidKit";
-        count = 4;
-    };
+    MACRO_ADDITEM(FirstAidKit,4);
 };
 class TransportMagazines {};
 class TransportWeapons {};
