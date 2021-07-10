@@ -57,7 +57,7 @@ class TransportMagazines {};
 class TransportWeapons {};
 
 // Damage
-crewCrashProtection = 2; // Lower is better protection
+crewCrashProtection = 2.75; // Matches Polaris DAGOR (Lower values are better protection)
 armor = 120;
 armorStructural = 3;
 damageResistance = 0.006;
