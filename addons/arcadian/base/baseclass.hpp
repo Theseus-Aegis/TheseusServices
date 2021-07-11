@@ -71,6 +71,7 @@ class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
         QPATHTOF(data\arcadian_body_armed_black_co.paa),
         QPATHTOF(data\arcadian_interior_armed_co.paa)
     };
+    MACRO_ARCADIAN_ARMED_DAMAGE
     #include "config_animationsources_armed.hpp"
     #include "config_texturesources_armed.hpp"
     #include "config_turret_gatling.hpp"

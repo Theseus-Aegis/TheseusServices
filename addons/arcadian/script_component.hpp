@@ -21,6 +21,22 @@
         }; \
     };
 
+#define MACRO_ARCADIAN_ARMED_DAMAGE \
+    class Damage { \
+        tex[] = {}; \
+        mat[] = { \
+            QPATHTOR(data\arcadian_body_armed.rvmat), \
+            QPATHTOR(data\arcadian_body_armed_damage.rvmat), \
+            QPATHTOR(data\arcadian_body_armed_destruct.rvmat), \
+            QPATHTOR(data\arcadian_chrome.rvmat), \
+            QPATHTOR(data\arcadian_chrome_damage.rvmat), \
+            QPATHTOR(data\arcadian_chrome_destruct.rvmat), \
+            "a3\data_f\glass_veh.rvmat", \
+            "a3\data_f\glass_veh_armored_damage.rvmat", \
+            "a3\data_f\glass_veh_armored_damage.rvmat" \
+        }; \
+    };
+
 #define MACRO_INDEPENDENT_VEHICLE \
     scope = 2; \
     scopeCurator = 2; \
