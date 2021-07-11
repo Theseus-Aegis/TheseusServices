@@ -34,6 +34,11 @@ class CLASS(Arcadian_Base): Car_F {
     model = QPATHTOF(data\Arcadian.p3d);
     icon = "iconCar";
     picture = QPATHTOF(ui\icon_arcadian.paa);
+    hiddenSelections[] = {"camo1", "camo2"};
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\arcadian_body_black_co.paa),
+        QPATHTOF(data\arcadian_interior_co.paa)
+    };
     MACRO_ARCADIAN_DAMAGE
 
     #include "config_acre.hpp"
@@ -61,6 +66,11 @@ class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
 class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
     model = QPATHTOF(data\Arcadian_Armed.p3d);
     picture = QPATHTOF(ui\icon_arcadian_armed.paa);
+    hiddenSelections[] = {"camo1", "camo2"};
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\arcadian_body_armed_black_co.paa),
+        QPATHTOF(data\arcadian_interior_armed_co.paa)
+    };
     #include "config_animationsources_armed.hpp"
     #include "config_texturesources_armed.hpp"
     #include "config_turret_gatling.hpp"

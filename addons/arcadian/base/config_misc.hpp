@@ -11,11 +11,6 @@ driverLeftHandAnimName = "drivewheel";
 driverRightHandAnimName = "drivewheel";
 weapons[] = {"SportCarHorn"};
 outsideSoundFilter = 1;
-hiddenSelections[] = {"camo1", "camo2"};
-hiddenSelectionsTextures[] = {
-    QPATHTOF(data\arcadian_body_black_co.paa),
-    QPATHTOF(data\arcadian_interior_co.paa)
-};
 maxFordingDepth = 1.25;
 waterResistance = 1;
 fuelCapacity = 20;
