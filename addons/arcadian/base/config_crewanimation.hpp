@@ -17,7 +17,7 @@ class CfgMovesMaleSdr: CfgMovesBasic {
             interpolateTo[] = {
                 "Arcadian_KIA_Gunner", 1
             };
-            speed = 1e+010;
+            speed = "1e+010";
             leftHandIKCurve[] = {0, 0, 1, 1};
             rightHandIKCurve[] = {0, 0, 1, 1};
         };
@@ -27,9 +27,9 @@ class CfgMovesMaleSdr: CfgMovesBasic {
             rightHandIKCurve[] = {0};
         };
         class Arcadian_KIA_Gunner: DefaultDie {
-            actions = DeadActions;
+            actions = "DeadActions";
             file = QPATHTOF(data\anim\arcadian_gunner_death.rtm);
-            speed = 1e+010;
+            speed = "1e+010";
             terminal = 1;
             soundEnabled = 0;
             looped = 0;

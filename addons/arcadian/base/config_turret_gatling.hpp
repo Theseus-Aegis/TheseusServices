@@ -7,7 +7,7 @@ class Turrets: Turrets {
         maxElev = 10;
         initElev = 0;
         soundServo[] = {"a3\sounds_f\dummysound", 0, 1};
-        stabilizedInAxes = StabilizedInAxesNone;
+        stabilizedInAxes = 0; // StabilizedInAxesNone
         gunBeg = "muzzle_1";
         gunEnd = "chamber_1";
         weapons[] = {QCLASS(LMG_Minigun_SUV)};
