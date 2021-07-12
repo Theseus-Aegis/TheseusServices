@@ -6,12 +6,13 @@
 # request, preferably including an email address.
 
 # CORE TEAM
+GilleeDoo
 Jonpas <jonpas33@gmail.com>
 JoramD <j.davids@hotmail.nl>
+Kresky
 SyMP2005 <rory@theseus-aegis.com>
 System98 <jedi_jones@outlook.de>
-GilleeDoo
-Kresky
+Tyrone
 
 # PG SERVICES CREDITS
 Pomigit

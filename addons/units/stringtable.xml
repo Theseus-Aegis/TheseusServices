@@ -8,7 +8,7 @@
             <French>[TACS] Uniformes</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_ATACS_ATX">
-            <English>Combat Uniform Long (A-TACS A-TX)</English>
+            <English>Combat Uniform Long (A-TACS AT-X)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_ATACS_AUX">
             <English>Combat Uniform Long (A-TACS AU-X)</English>
@@ -448,6 +448,18 @@
             <German>Kampfkleidung, kurz (Hellbraun, Schwarz, Schwarz)</German>
             <Japanese>戦闘ガーメント 袖まくり (黄褐、黒、黒)</Japanese>
             <French>Tenue de combat retroussée (Beige, Noir, Noir)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_HeliPilotCoveralls_Black">
+            <English>Heli Pilot Coveralls (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_HeliPilotCoveralls_Green">
+            <English>Heli Pilot Coveralls (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_HeliPilotCoveralls_Grey">
+            <English>Heli Pilot Coveralls (Grey)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_HeliPilotCoveralls_Sand">
+            <English>Heli Pilot Coveralls (Sand)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Polo_TP_LS_TP_TB">
             <English>Tactical Clothes (Blue, Tan, Tan) Logo</English>

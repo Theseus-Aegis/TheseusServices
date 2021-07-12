@@ -51,6 +51,18 @@ class CfgUnitInsignia {
         displayName = "Boba Fett (Black-Silver)";
         texture = QPATHTOF(data\bobafett_blacksilver.paa);
     };
+    class CLASS(Insignia_BrandOfSacrifice) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Brand Of Sacrifice";
+        texture = QPATHTOF(data\brandofsacrifice.paa);
+    };
+    class CLASS(Insignia_BridgeFour) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Bridge Four";
+        texture = QPATHTOF(data\bridgefour.paa);
+    };
     class CLASS(Insignia_BobaFett_CoyoteBrown) {
         MACRO_INSIGNIA_COMMON
         author = "System98";
@@ -87,6 +99,12 @@ class CfgUnitInsignia {
         displayName = "Clone Trooper";
         texture = QPATHTOF(data\clonetrooper.paa);
     };
+    class CLASS(Insignia_CobaltGuard) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Cobalt Guard";
+        texture = QPATHTOF(data\cobaltguard.paa);
+    };
     class CLASS(Insignia_CombatLifeSupport) {
         MACRO_INSIGNIA_COMMON
         author = "System98";
@@ -117,6 +135,18 @@ class CfgUnitInsignia {
         displayName = "Commando Skull And Knife";
         texture = QPATHTOF(data\commandoskullandknife.paa);
     };
+    class CLASS(Insignia_ContractorBadass) {
+        MACRO_INSIGNIA_COMMON
+        author = "System98";
+        displayName = "Contractor Badass";
+        texture = QPATHTOF(data\contractorbadass.paa);
+    };
+    class CLASS(Insignia_DefiantDefenceForce) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Defiant Defence Force";
+        texture = QPATHTOF(data\defiantdefenceforce.paa);
+    };
     class CLASS(Insignia_DixieFlag) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
@@ -128,6 +158,12 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Dixie Flag (Multicam)";
         texture = QPATHTOF(data\dixieflag_multicam.paa);
+    };
+    class CLASS(Insignia_DoNotPet) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Do Not Pet";
+        texture = QPATHTOF(data\donotpet.paa);
     };
     class CLASS(Insignia_DontTreadOnMe) {
         MACRO_INSIGNIA_COMMON
@@ -152,6 +188,12 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Don't Tread On Me (Shield)";
         texture = QPATHTOF(data\donttreadonme_shield.paa);
+    };
+    class CLASS(Insignia_Doomslug) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Doomslug";
+        texture = QPATHTOF(data\doomslug.paa);
     };
     class CLASS(Insignia_DoubleTap) {
         MACRO_INSIGNIA_COMMON
@@ -201,6 +243,12 @@ class CfgUnitInsignia {
         displayName = "Galactic Empire";
         texture = QPATHTOF(data\galacticempire.paa);
     };
+    class CLASS(Insignia_GoodBoysClub) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Good Boys Club";
+        texture = QPATHTOF(data\goodboysclub.paa);
+    };
     class CLASS(Insignia_GrimReaper) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
@@ -249,6 +297,12 @@ class CfgUnitInsignia {
         displayName = "I'm A Lead Farmer (Arid)";
         texture = QPATHTOF(data\iamaleadfarmer_arid.paa);
     };
+    class CLASS(Insignia_IAmUnstoppable) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "I Am Unstoppable";
+        texture = QPATHTOF(data\iamunstoppable.paa);
+    };
     class CLASS(Insignia_IComeILeave) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
@@ -272,6 +326,12 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Jedi Order Shield";
         texture = QPATHTOF(data\jediordershield.paa);
+    };
+    class CLASS(Insignia_Judge) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Judge";
+        texture = QPATHTOF(data\judge.paa);
     };
     class CLASS(Insignia_KeepCalmAndReload) {
         MACRO_INSIGNIA_COMMON
@@ -339,6 +399,54 @@ class CfgUnitInsignia {
         displayName = "Medic";
         texture = QPATHTOF(data\medic.paa);
     };
+    class CLASS(Insignia_MedicSimple_Black) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (Black)";
+        texture = QPATHTOF(data\medicsimple_black.paa);
+    };
+    class CLASS(Insignia_MedicSimple_Green) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (Green)";
+        texture = QPATHTOF(data\medicsimple_green.paa);
+    };
+    class CLASS(Insignia_MedicSimple_MTP) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (MTP)";
+        texture = QPATHTOF(data\medicsimple_mtp.paa);
+    };
+    class CLASS(Insignia_MedicSimple_Sage) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (Sage)";
+        texture = QPATHTOF(data\medicsimple_sage.paa);
+    };
+    class CLASS(Insignia_MedicSimple_Tan) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (Tan)";
+        texture = QPATHTOF(data\medicsimple_tan.paa);
+    };
+    class CLASS(Insignia_MedicSimple_White) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo, JoramD";
+        displayName = "Simple Medic (White)";
+        texture = QPATHTOF(data\medicsimple_white.paa);
+    };
+    class CLASS(Insignia_MinotaurDesert) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo";
+        displayName = "Minotaur (Desert)";
+        texture = QPATHTOF(data\minotaur_desert.paa);
+    };
+    class CLASS(Insignia_MinotaurForest) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo";
+        displayName = "Minotaur (Forest)";
+        texture = QPATHTOF(data\minotaur_forest.paa);
+    };
     class CLASS(Insignia_MolonLabe) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
@@ -368,6 +476,18 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Murica (Multicam)";
         texture = QPATHTOF(data\murica_Multicam.paa);
+    };
+    class CLASS(Insignia_NaturalTwenty) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Natural Twenty";
+        texture = QPATHTOF(data\naturaltwenty.paa);
+    };
+    class CLASS(Insignia_NeverForget) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Never Forget";
+        texture = QPATHTOF(data\neverforget.paa);
     };
     class CLASS(Insignia_NeverGoFullRetard) {
         MACRO_INSIGNIA_COMMON
@@ -441,6 +561,12 @@ class CfgUnitInsignia {
         displayName = "Punisher Tactical";
         texture = QPATHTOF(data\punishertactical.paa);
     };
+    class CLASS(Insignia_RaptorSquad) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Raptor Squad";
+        texture = QPATHTOF(data\raptorsquad.paa);
+    };
     class CLASS(Insignia_RatsAss) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
@@ -512,6 +638,12 @@ class CfgUnitInsignia {
         author = "System98";
         displayName = "Sniper Unit";
         texture = QPATHTOF(data\sniperunit.paa);
+    };
+    class CLASS(Insignia_SpaceCowboy) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Space Cowboy";
+        texture = QPATHTOF(data\spacecowboy.paa);
     };
     class CLASS(Insignia_SpartanHelmet_ACU) {
         MACRO_INSIGNIA_COMMON
@@ -633,6 +765,18 @@ class CfgUnitInsignia {
         displayName = "Who's Your Daddy?";
         texture = QPATHTOF(data\whosyourdaddy.paa);
     };
+    class CLASS(Insignia_WillWorkForAmmo) {
+        MACRO_INSIGNIA_COMMON
+        author = "GilleeDoo";
+        displayName = "Will Work For Ammo";
+        texture = QPATHTOF(data\willworkforammo.paa);
+    };
+    class CLASS(Insignia_WingsOfFreedom) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Wings Of Freedom";
+        texture = QPATHTOF(data\wingsoffreedom.paa);
+    };
     class CLASS(Insignia_ZombieOutbreakResponseTeam) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
@@ -644,65 +788,5 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Zombie Outbreak Response Team (Black)";
         texture = QPATHTOF(data\zombieoutbreakresponseteam_black.paa);
-    };
-    class CLASS(Insignia_MinotaurForest) {
-        MACRO_INSIGNIA_COMMON
-        author = "GilleeDoo";
-        displayName = "Minotaur (Forest)";
-        texture = QPATHTOF(data\minotaur_forest.paa);
-    };
-    class CLASS(Insignia_MinotaurDesert) {
-        MACRO_INSIGNIA_COMMON
-        author = "GilleeDoo";
-        displayName = "Minotaur (Desert)";
-        texture = QPATHTOF(data\minotaur_desert.paa);
-    };
-    class CLASS(Insignia_ContractorBadass) {
-        MACRO_INSIGNIA_COMMON
-        author = "System98";
-        displayName = "Contractor Badass";
-        texture = QPATHTOF(data\contractorbadass.paa);
-    };
-    class CLASS(Insignia_MedicSimple_Black) {
-        MACRO_INSIGNIA_COMMON
-        author = "GilleeDoo, JoramD";
-        displayName = "Simple Medic (Black)";
-        texture = QPATHTOF(data\medicsimple_black.paa);
-    };
-    class CLASS(Insignia_MedicSimple_MTP) {
-        MACRO_INSIGNIA_COMMON
-        author = "GilleeDoo, JoramD";
-        displayName = "Simple Medic (MTP)";
-        texture = QPATHTOF(data\medicsimple_mtp.paa);
-    };
-    class CLASS(Insignia_MedicSimple_Green) {
-        MACRO_INSIGNIA_COMMON
-        author = "GilleeDoo, JoramD";
-        displayName = "Simple Medic (Green)";
-        texture = QPATHTOF(data\medicsimple_green.paa);
-    };
-    class CLASS(Insignia_MedicSimple_Sage) {
-        MACRO_INSIGNIA_COMMON
-        author = "GilleeDoo, JoramD";
-        displayName = "Simple Medic (Sage)";
-        texture = QPATHTOF(data\medicsimple_sage.paa);
-    };
-    class CLASS(Insignia_MedicSimple_Tan) {
-        MACRO_INSIGNIA_COMMON
-        author = "GilleeDoo, JoramD";
-        displayName = "Simple Medic (Tan)";
-        texture = QPATHTOF(data\medicsimple_tan.paa);
-    };
-    class CLASS(Insignia_MedicSimple_White) {
-        MACRO_INSIGNIA_COMMON
-        author = "GilleeDoo, JoramD";
-        displayName = "Simple Medic (White)";
-        texture = QPATHTOF(data\medicsimple_white.paa);
-    };
-    class CLASS(Insignia_WillWorkForAmmo) {
-        MACRO_INSIGNIA_COMMON
-        author = "GilleeDoo";
-        displayName = "Will Work For Ammo";
-        texture = QPATHTOF(data\willworkforammo.paa);
     };
 };
