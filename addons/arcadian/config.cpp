@@ -30,6 +30,9 @@ class CfgPatches {
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
+
+    // Backwards compatibility
+    class Arcadian: ADDON {author = "";}; // Component renamed in 1.20.0
 };
 
 #include "CfgWeapons.hpp"
