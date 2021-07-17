@@ -22,7 +22,7 @@ class Turrets: Turrets {
         gunnerOpticsModel = "";
         gunnerOutOpticsModel = "\a3\weapons_f\reticle\optics_empty";
         memoryPointGunnerOutOptics = "gunnerview";
-        memoryPointGunnerOptics = "";
+        memoryPointGunnerOptics = "gunnerview";
         memoryPointsGetInGunner = "pos cargo rear";
         memoryPointsGetInGunnerDir = "pos cargo dir rear";
         outGunnerMayFire = 1;
@@ -38,9 +38,9 @@ class Turrets: Turrets {
         forceHideGunner = 0;
         gunnerCompartments = "Compartment1";
         class ViewOptics: ViewOptics {
-            minFov = 0.25;
-            maxFov = 1.25;
-            initFov = 0.75;
+            minFov = 0.30;
+            maxFov = 1.45;
+            initFov = 0.85;
         };
         class ViewGunner: ViewOptics {};
     };
