@@ -60,6 +60,7 @@ class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
 
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle;};";
+        killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };
 
@@ -82,6 +83,7 @@ class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
 
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle;};";
+        killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };
 
