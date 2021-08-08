@@ -1,0 +1,12 @@
+density = 5000;
+thickness = 16;
+rough = 0;
+dust = 0;
+bulletPenetrabilityWithThickness = 12;
+soundEnviron = "Empty";
+isWater = "false";
+friction = 0.69;
+restitution = 0.3;
+impact = "hitGlassArmored";
+soundHit = "glass_armored";
+deflection = 1;
