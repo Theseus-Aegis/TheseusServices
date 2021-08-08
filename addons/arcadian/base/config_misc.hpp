@@ -32,9 +32,9 @@ ace_cargo_space = 6;
 cargoAction[] = {
     "passenger_low01",
     "passenger_generic01_leanleft",
+    "passenger_generic01_leanright",
     "passenger_generic01_foldhands",
-    "passenger_generic01_leanleft",
-    "passenger_low01"
+    "passenger_generic01_leanleft"
 };
 cargoCompartments[] = {"Compartment1"};
 cargoGetInAction[] = {"GetInLow"};
@@ -43,6 +43,7 @@ driverAction = "Driver_low01";
 driverCompartments = "Compartment1";
 getInAction = "GetInLow";
 getOutAction = "GetOutLow";
+hideWeaponsCargo = 1;
 
 class TransportBackpacks {};
 class TransportItems {
