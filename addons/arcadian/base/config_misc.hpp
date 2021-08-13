@@ -59,6 +59,9 @@ armorStructural = 3;
 damageResistance = 0.006;
 wheelDamageThreshold = 0.18;
 
+// TAC - Heavy Lifter
+tac_heavylifter_attachPos[] = {0, -0.06, -1.23};
+
 // Transport
 transportSoldier = 5;
 transportMaxMagazines = 20000;
