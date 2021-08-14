@@ -18,7 +18,7 @@ class CfgWorlds {
                 john = "John";
                 jonah = "Jonah";
                 joram = "Joram";
-                josh = "josh";
+                josh = "Josh";
                 josuan = "Josuan";
                 keith = "Keith";
                 kelly = "Kelly";
@@ -31,7 +31,6 @@ class CfgWorlds {
                 philippe = "Philippe";
                 rory = "Rory";
                 skits = "Skits";
-                skye = "Skye";
                 thomas = "Thomas";
                 tim = "Tim";
                 tyrone = "Tyrone";
@@ -69,7 +68,6 @@ class CfgWorlds {
                 taylor = "Taylor";
                 teschner = "Teschner";
                 vee = "Vee";
-                walker = "Walker";
                 werthers = "Werthers";
                 woods = "Woods";
                 zakharov = "Zakharov";
