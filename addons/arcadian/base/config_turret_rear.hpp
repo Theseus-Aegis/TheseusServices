@@ -20,7 +20,7 @@ class Turrets: Turrets {
         gunnerOpticsModel = "";
         enabledByAnimationSource = "reardoor_2_source";
         usepip = 0;
-        ejectDeadGunner = 1;
+        ejectDeadGunner = 0;
         startEngine = 0;
         outGunnerMayFire = 1;
         inGunnerMayFire = 0;
