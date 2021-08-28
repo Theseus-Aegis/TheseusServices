@@ -1,4 +1,4 @@
-attenuationEffectType = "MrapAttenuation";
+attenuationEffectType = "CarAttenuation";
 
 soundGetIn[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Enter", 0.44, 1};
 soundGetOut[] = {"A3\Sounds_F\vehicles2\soft\Mrap_01\Mrap_01_Exit", 0.44, 1, 40};
