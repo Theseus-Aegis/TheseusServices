@@ -32,8 +32,17 @@ class CLASS(Offroad_Base): Offroad_01_unarmed_base_F {
         "HideDoor3", 0.5
     };
 
+    class PlateInfos {
+        name = "spz";
+        color[] = {0, 0, 0, 0.75};
+        plateFont = "RobotoCondensedBold";
+        plateFormat = "TACS - ###"; // Will show as TACS - 001 in game.
+        plateLetters = "ABCDEFHIKLMOPRSTVXYZ";
+    };
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };
 class CLASS(Offroad_I_Black): CLASS(Offroad_Base) {
@@ -99,8 +108,17 @@ class CLASS(Offroad_Armed_Base): Offroad_01_armed_base_F {
         "Hide_Shield", 0.5
     };
 
+    class PlateInfos {
+        name = "spz";
+        color[] = {0, 0, 0, 0.75};
+        plateFont = "RobotoCondensedBold";
+        plateFormat = "TACS - ###"; // Will show as TACS - 001 in game.
+        plateLetters = "ABCDEFHIKLMOPRSTVXYZ";
+    };
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };
 

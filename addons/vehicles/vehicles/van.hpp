@@ -54,8 +54,17 @@ class CLASS(Van_Cargo_Base): Van_02_vehicle_base_F {
         "beacon_rear_hide", 1
     };
 
+    class PlateInfos {
+        name = "spz";
+        color[] = {0, 0, 0, 0.75};
+        plateFont = "RobotoCondensedBold";
+        plateFormat = "TACS - ####"; // Will show as TACS - 0001 in game.
+        plateLetters = "ABCDEFHIKLMOPRSTVXYZ";
+    };
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };
 
@@ -140,8 +149,17 @@ class CLASS(Van_Transport_Base): Van_02_transport_base_F {
         "beacon_rear_hide", 1
     };
 
+    class PlateInfos {
+        name = "spz";
+        color[] = {0, 0, 0, 0.75};
+        plateFont = "RobotoCondensedBold";
+        plateFormat = "TACS - ####"; // Will show as TACS - 0001 in game.
+        plateLetters = "ABCDEFHIKLMOPRSTVXYZ";
+    };
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };
 
