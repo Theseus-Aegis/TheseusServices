@@ -1,4 +1,10 @@
-class Car;
+class LandVehicle;
+class Car: LandVehicle {
+    class ACE_Actions {
+        class ACE_MainActions;
+    };
+};
+
 class Car_F: Car {
     class AnimationSources;
     class NewTurret;
@@ -41,6 +47,7 @@ class CLASS(Arcadian_Base): Car_F {
     };
     MACRO_ARCADIAN_DAMAGE
 
+    #include "config_ace.hpp"
     #include "config_acre.hpp"
     #include "config_animationsources.hpp"
     #include "config_hitpoints.hpp"
