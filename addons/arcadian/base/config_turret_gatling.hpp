@@ -4,7 +4,7 @@ class Turrets: Turrets {
         gun = "mainGun";
         viewGunnerInExternal = 1;
         minElev = -10;
-        maxElev = 10;
+        maxElev = 20;
         initElev = 0;
         soundServo[] = {"a3\sounds_f\dummysound", 0, 1};
         stabilizedInAxes = 0; // StabilizedInAxesNone
