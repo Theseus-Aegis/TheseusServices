@@ -59,11 +59,11 @@ class CLASS(Arcadian_Base): Car_F {
     #include "config_simpleobject.hpp"
     #include "config_sound.hpp"
     #include "config_turret_rear.hpp"
-    #include "config_useractions.hpp"
 };
 
 class CLASS(Arcadian_Unarmed_Base): CLASS(Arcadian_Base) {
     #include "config_texturesources_unarmed.hpp"
+    #include "config_useractions.hpp"
 
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle;};";

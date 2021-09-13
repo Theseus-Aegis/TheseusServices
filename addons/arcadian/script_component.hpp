@@ -19,7 +19,7 @@
             "a3\data_f\glass_veh_armored_damage.rvmat", \
             "a3\data_f\glass_veh_armored_damage.rvmat" \
         }; \
-    }
+    };
 
 #define MACRO_ARCADIAN_ARMED_DAMAGE \
     class Damage { \
@@ -35,7 +35,7 @@
             "a3\data_f\glass_veh_armored_damage.rvmat", \
             "a3\data_f\glass_veh_armored_damage.rvmat" \
         }; \
-    }
+    };
 
 #define MACRO_INDEPENDENT_VEHICLE \
     scope = 2; \
