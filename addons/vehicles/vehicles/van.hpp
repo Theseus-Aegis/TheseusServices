@@ -71,6 +71,7 @@ class CLASS(Van_Cargo_Base): Van_02_vehicle_base_F {
 class CLASS(Van_Cargo_I_Black): CLASS(Van_Cargo_Base) {
     dlc = QUOTE(PREFIX);
     scope = 2;
+    scopeCurator = 2;
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
@@ -166,6 +167,7 @@ class CLASS(Van_Transport_Base): Van_02_transport_base_F {
 class CLASS(Van_Transport_I_Black): CLASS(Van_Transport_Base) {
     dlc = QUOTE(PREFIX);
     scope = 2;
+    scopeCurator = 2;
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
