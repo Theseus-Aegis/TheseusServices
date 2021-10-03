@@ -1,22 +1,33 @@
-class I_C_Boat_Transport_02_F;
-class CLASS(Boat_I_RHIB): I_C_Boat_Transport_02_F {
+class Boat_Transport_02_base_F;
+class CLASS(RHIB_Base): Boat_Transport_02_base_F {
+    class TextureSources {
+        class Theseus {
+            displayName = "Theseus";
+            author = "GilleeDoo";
+            textures[] = {
+                QPATHTOF(data\rhib_ext_co.paa),
+                QPATHTOF(data\rhib_int02_co.paa)
+            };
+            factions[] = {QCLASS(IND), QCLASS(BLU)};
+        };
+    };
+};
+
+class CLASS(RHIB_I): CLASS(RHIB_Base) {
     MACRO_LANDVEHICLE_CARGO
     dlc = QUOTE(PREFIX);
     scope = 2;
+    scopeCurator = 2;
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
     author = "GilleeDoo, JoramD";
-    editorPreview = QPATHTOF(UI\Boat_RHIB.jpg);
+    editorPreview = QPATHTOF(UI\RHIB.jpg);
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Contractor)};
-    hiddenSelectionsTextures[] = {
-        QPATHTOF(data\boat_rhib_ext_co.paa),
-        QPATHTOF(data\boat_rhib_int01_co.paa),
-        QPATHTOF(data\boat_rhib_int02_co.paa)
-    };
+    textureList[] = {"Theseus", 1};
 };
-class CLASS(Boat_I_RHIB): I_C_Boat_Transport_02_F {
+class CLASS(RHIB_B): CLASS(RHIB_I) {
     scope = 2;
     forceInGarage = 0;
     side = 1;
