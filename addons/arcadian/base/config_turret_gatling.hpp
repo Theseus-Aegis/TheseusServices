@@ -1,5 +1,6 @@
 class Turrets: Turrets {
     class MainTurret: MainTurret {
+        disableSoundAttenuation = 1;
         body = "mainTurret";
         gun = "mainGun";
         viewGunnerInExternal = 1;
