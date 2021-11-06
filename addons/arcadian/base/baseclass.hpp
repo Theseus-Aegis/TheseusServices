@@ -83,13 +83,7 @@ class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
     #include "config_animationsources_armed.hpp"
     #include "config_texturesources_armed.hpp"
     #include "config_turret_gatling.hpp"
-
-    // Required for different Cargo index
-    class AcreRacks: AcreRacks {
-        class Rack_1: Rack_1 {
-            allowedPositions[] = {"driver", {"cargo", 0}};
-        };
-    };
+    #include "config_acre_armed.hpp"
 
     animationList[] = {
         "rearseats_source", 1,
