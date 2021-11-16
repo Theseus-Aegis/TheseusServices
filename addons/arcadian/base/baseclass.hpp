@@ -83,6 +83,7 @@ class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
     #include "config_animationsources_armed.hpp"
     #include "config_texturesources_armed.hpp"
     #include "config_turret_gatling.hpp"
+    #include "config_acre_armed.hpp"
 
     animationList[] = {
         "rearseats_source", 1,
