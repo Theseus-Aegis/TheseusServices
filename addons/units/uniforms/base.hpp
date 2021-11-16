@@ -42,7 +42,7 @@ class CLASS(Uniform_Base): Uniform_Base {
 
     class ItemInfo: UniformItem {
         uniformModel = "-";
-        containerClass = "Supply40";
+        containerClass = "Supply50";
         mass = 40;
     };
 };
