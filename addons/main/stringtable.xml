@@ -55,5 +55,14 @@
             <Japanese>[TACS] ウェアラブル</Japanese>
             <French>[TACS] Vêtements</French>
         </Key>
+        <Key ID="STR_TACS_Main_Theseus_Black">
+            <English>Theseus Black</English>
+        </Key>
+        <Key ID="STR_TACS_Main_Theseus_Green">
+            <English>Theseus Green</English>
+        </Key>
+        <Key ID="STR_TACS_Main_Theseus_Tan">
+            <English>Theseus Tan</English>
+        </Key>
     </Package>
 </Project>

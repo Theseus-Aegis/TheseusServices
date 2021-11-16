@@ -17,7 +17,7 @@ class CLASS(Van_Cargo_Base): Van_02_vehicle_base_F {
             factions[] = {QCLASS(IND), QCLASS(BLU)};
         };
         class TheseusBlack {
-            displayName = "Theseus Black";
+            displayName = ECSTRING(main,Theseus_Black);
             author = "Tyrone";
             textures[] = {
                 QPATHTOF(data\van_body_theseus_black_co.paa),
@@ -114,7 +114,7 @@ class CLASS(Van_Transport_Base): Van_02_transport_base_F {
             factions[] = {QCLASS(IND), QCLASS(BLU)};
         };
         class TheseusBlack {
-            displayName = "Theseus Black";
+            displayName = ECSTRING(main,Theseus_Black);
             author = "Tyrone";
             textures[] = {
                 QPATHTOF(data\van_body_theseus_black_co.paa),
