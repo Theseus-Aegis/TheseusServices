@@ -143,7 +143,7 @@ class CfgVehicles {
             };
 
             class CLASS(Black) {
-                displayName = ECSTRING(main,Theseus_Black);
+                displayName = ECSTRING(Main,Theseus_Black);
                 author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_black_co.paa),
@@ -171,7 +171,7 @@ class CfgVehicles {
             };
 
             class CLASS(Green) {
-                displayName = ECSTRING(main,Theseus_Green);
+                displayName = ECSTRING(Main,Theseus_Green);
                 author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_green_co.paa),
@@ -199,7 +199,7 @@ class CfgVehicles {
             };
 
             class CLASS(Tan) {
-                displayName = ECSTRING(main,Theseus_Tan);
+                displayName = ECSTRING(Main,Theseus_Tan);
                 author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tan_co.paa),
@@ -491,7 +491,7 @@ class CfgVehicles {
             };
 
             class CLASS(Black) {
-                displayName = ECSTRING(main,Theseus_Black);
+                displayName = ECSTRING(Main,Theseus_Black);
                 author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_black_co.paa),
@@ -520,7 +520,7 @@ class CfgVehicles {
             };
 
             class CLASS(Green) {
-                displayName = ECSTRING(main,Theseus_Green);
+                displayName = ECSTRING(Main,Theseus_Green);
                 author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_green_co.paa),
@@ -549,7 +549,7 @@ class CfgVehicles {
             };
 
             class CLASS(Tan) {
-                displayName = ECSTRING(main,Theseus_Tan);
+                displayName = ECSTRING(Main,Theseus_Tan);
                 author = "BW-Mod, GilleeDoo, Jonpas";
                 textures[] = {
                     QPATHTOF(data\bwa3_eagle_tan_co.paa),
