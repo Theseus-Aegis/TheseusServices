@@ -44,41 +44,32 @@
             <German>Eagle IV (FLW 100) (Hellbraun)</German>
         </Key>
 
-        <Key ID="STR_TACS_Camo_Theseus_Fleck">
+        <Key ID="STR_TACS_Variants_BWA3_Theseus_Fleck">
             <English>Theseus Flecktarn</English>
         </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Tropen">
+        <Key ID="STR_TACS_Variants_BWA3_Theseus_Tropen">
             <English>Theseus Tropentarn</English>
         </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Tropen2">
+        <Key ID="STR_TACS_Variants_BWA3_Theseus_Tropen2">
             <English>Theseus Tropentarn 2</English>
         </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Tropen_Light">
+        <Key ID="STR_TACS_Variants_BWA3_Theseus_Tropen_Light">
             <English>Theseus Tropentarn (light)</English>
         </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Tropen_Light2">
+        <Key ID="STR_TACS_Variants_BWA3_Theseus_Tropen_Light2">
             <English>Theseus Tropentarn 2 (light)</English>
         </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Tropen_Fleck">
+        <Key ID="STR_TACS_Variants_BWA3_Theseus_Tropen_Fleck">
             <English>Theseus Tropentarn (FLW100 Flecktarn)</English>
         </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Tropen_Fleck2">
+        <Key ID="STR_TACS_Variants_BWA3_Theseus_Tropen_Fleck2">
             <English>Theseus Tropentarn 2 (FLW100 Flecktarn)</English>
         </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Tropen_Light_Fleck">
+        <Key ID="STR_TACS_Variants_BWA3_Theseus_Tropen_Light_Fleck">
             <English>Theseus Tropentarn (light, FLW100 Flecktarn)</English>
         </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Tropen_Light_Fleck2">
+        <Key ID="STR_TACS_Variants_BWA3_Theseus_Tropen_Light_Fleck2">
             <English>Theseus Tropentarn 2 (light, FLW100 Flecktarn)</English>
-        </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Black">
-            <English>Theseus Black</English>
-        </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Green">
-            <English>Theseus Green</English>
-        </Key>
-        <Key ID="STR_TACS_Camo_Theseus_Tan">
-            <English>Theseus Tan</English>
         </Key>
     </Package>
 </Project>
