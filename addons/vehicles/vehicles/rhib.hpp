@@ -13,7 +13,7 @@ class CLASS(RHIB_Base): Boat_Transport_02_base_F {
     };
 };
 
-class CLASS(RHIB_I_Black): CLASS(RHIB_Base) {
+class CLASS(RHIB_I_Theseus_Black): CLASS(RHIB_Base) {
     MACRO_LANDVEHICLE_CARGO
     dlc = QUOTE(PREFIX);
     scope = 2;
@@ -22,7 +22,7 @@ class CLASS(RHIB_I_Black): CLASS(RHIB_Base) {
     side = 2;
     faction = QCLASS(IND);
     author = "GilleeDoo, JoramD";
-    editorPreview = QPATHTOF(UI\RHIB.jpg);
+    editorPreview = QPATHTOF(UI\RHIB_Theseus_Black.jpg);
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Contractor)};
 
@@ -30,7 +30,7 @@ class CLASS(RHIB_I_Black): CLASS(RHIB_Base) {
         "TheseusBlack", 1
     };
 };
-class CLASS(RHIB_B_Black): CLASS(RHIB_I_Black) {
+class CLASS(RHIB_B_Theseus_Black): CLASS(RHIB_I_Theseus_Black) {
     scope = 2;
     forceInGarage = 0;
     side = 1;
