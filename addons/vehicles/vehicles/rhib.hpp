@@ -2,7 +2,7 @@ class Boat_Transport_02_base_F;
 class CLASS(RHIB_Base): Boat_Transport_02_base_F {
     class TextureSources {
         class TheseusBlack {
-            displayName = "Theseus Black";
+            displayName = ECSTRING(main,Theseus_Black);
             author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\rhib_ext_co.paa),
