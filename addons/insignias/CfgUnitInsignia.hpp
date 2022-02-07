@@ -15,6 +15,12 @@ class CfgUnitInsignia {
         displayName = "Assassin's Creed";
         texture = QPATHTOF(data\assassinscreed.paa);
     };
+    class CLASS(Insignia_Banaan) {
+        MACRO_INSIGNIA_COMMON
+        author = "Phillipe";
+        displayName = "Banaan";
+        texture = QPATHTOF(data\Banaan.paa);
+    };
     class CLASS(Insignia_BeardUp) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
