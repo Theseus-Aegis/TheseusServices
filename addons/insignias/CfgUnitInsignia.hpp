@@ -495,6 +495,12 @@ class CfgUnitInsignia {
         displayName = "Never Go Full Retard";
         texture = QPATHTOF(data\nevergofullretard.paa);
     };
+    class CLASS(Insignia_Nurgle) {
+        MACRO_INSIGNIA_COMMON
+        author = "Tyrone";
+        displayName = "Nurgle";
+        texture = QPATHTOF(data\nurgle.paa);
+    };
     class CLASS(Insignia_OneShotOneKill) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
