@@ -6,6 +6,10 @@ class CfgPatches {
         units[] = {
             QCLASS(Heli_I_MH6_Blue),
             QCLASS(Heli_B_MH6_Blue),
+            QCLASS(Heli_I_Wildcat_Theseus),
+            QCLASS(Heli_B_Wildcat_Theseus),
+            QCLASS(Heli_I_Wildcat_Theseus_Unarmed),
+            QCLASS(Heli_B_Wildcat_Theseus_Unarmed),
             QCLASS(Offroad_I_Black),
             QCLASS(Offroad_B_Black),
             QCLASS(Offroad_I_Armed_Black),
@@ -39,7 +43,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_units"};
         author = ECSTRING(main,Author);
-        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Tyrone"};
+        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Mike", "GilleeDoo"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
