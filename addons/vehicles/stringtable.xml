@@ -7,6 +7,12 @@
             <Japanese>MH-6 リトルバード (青)</Japanese>
             <French>MH-6 Little Bird (Bleu)</French>
         </Key>
+        <Key ID="STR_TACS_Vehicles_Heli_Wildcat_Theseus">
+            <English>AW159 Wildcat (Theseus Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Heli_Wildcat_Theseus_Unarmed">
+            <English>AW159 Wildcat (Unarmed) (Theseus Black)</English>
+        </Key>
         <Key ID="STR_TACS_Vehicles_Offroad_Black">
             <English>Offroad (Black)</English>
             <German>Geländewagen (Schwarz)</German>
