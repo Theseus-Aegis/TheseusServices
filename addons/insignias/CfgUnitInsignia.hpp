@@ -19,7 +19,7 @@ class CfgUnitInsignia {
         MACRO_INSIGNIA_COMMON
         author = "Phillipe";
         displayName = "Banaan";
-        texture = QPATHTOF(data\Banaan.paa);
+        texture = QPATHTOF(data\banaan.paa);
     };
     class CLASS(Insignia_BeardUp) {
         MACRO_INSIGNIA_COMMON
