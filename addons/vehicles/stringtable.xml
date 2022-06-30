@@ -13,6 +13,18 @@
         <Key ID="STR_TACS_Vehicles_Heli_Wildcat_Theseus_Unarmed">
             <English>AW159 Wildcat (Unarmed) (Theseus Black)</English>
         </Key>
+        <Key ID="STR_TACS_Vehicles_Hemtt_Ammo_Theseus">
+            <English>HEMTT (Ammo) (Theseus Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Hemtt_Fuel_Theseus">
+            <English>HEMTT (Fuel) (Theseus Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Hemtt_Repair_Theseus">
+            <English>HEMTT (Repair) (Theseus Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Hemtt_Transport_Theseus">
+            <English>HEMTT (Transport) (Theseus Black)</English>
+        </Key>
         <Key ID="STR_TACS_Vehicles_Offroad_Black">
             <English>Offroad (Black)</English>
             <German>Geländewagen (Schwarz)</German>
