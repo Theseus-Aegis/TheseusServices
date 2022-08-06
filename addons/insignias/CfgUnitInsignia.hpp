@@ -503,7 +503,7 @@ class CfgUnitInsignia {
     };
     class CLASS(Insignia_Nurgle) {
         MACRO_INSIGNIA_COMMON
-        author = "Tyrone";
+        author = "Mike";
         displayName = "Nurgle";
         texture = QPATHTOF(data\nurgle.paa);
     };

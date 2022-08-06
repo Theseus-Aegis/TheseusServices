@@ -16,7 +16,7 @@ class CLASS(Offroad_Base): Offroad_01_unarmed_base_F {
 
         class TheseusBlack {
             displayName = ECSTRING(Main,Theseus_Black);
-            author = "Tyrone";
+            author = "Mike";
             textures[] = {
                 QPATHTOF(data\offroad_theseus_black_ext_co.paa),
                 QPATHTOF(data\offroad_theseus_black_ext_co.paa)
@@ -90,7 +90,7 @@ class CLASS(Offroad_Armed_Base): Offroad_01_armed_base_F {
 
         class TheseusBlack {
             displayName = ECSTRING(Main,Theseus_Black);
-            author = "Tyrone";
+            author = "Mike";
             textures[] = {
                 QPATHTOF(data\offroad_theseus_black_ext_co.paa),
                 QPATHTOF(data\offroad_theseus_black_ext_co.paa)

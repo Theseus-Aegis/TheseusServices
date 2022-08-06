@@ -9,5 +9,5 @@ Hawaiian clothing integrated with permissions from [DADPAT](https://steamcommuni
 - [Jonpas](http://github.com/jonpas)
 - [Rory](http://github.com/SyMP2005)
 - [Kresky](https://github.com/Kresky)
-- [Tyrone](https://github.com/TyroneMF)
+- [Mike](https://github.com/MikeMF)
 - [Trenchgun](https://github.com/trenchgun)

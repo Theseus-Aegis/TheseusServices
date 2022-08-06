@@ -18,7 +18,7 @@ class CLASS(Van_Cargo_Base): Van_02_vehicle_base_F {
         };
         class TheseusBlack {
             displayName = ECSTRING(Main,Theseus_Black);
-            author = "Tyrone";
+            author = "Mike";
             textures[] = {
                 QPATHTOF(data\van_body_theseus_black_co.paa),
                 "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
@@ -75,7 +75,7 @@ class CLASS(Van_Cargo_I_Black): CLASS(Van_Cargo_Base) {
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
-    author = "Tyrone";
+    author = "Mike";
     displayName = CSTRING(Van_Cargo_Black);
     editorPreview = QPATHTOF(UI\Van_Cargo_Black.jpg);
     crew = QCLASS(Unit_I_Contractor);
@@ -115,7 +115,7 @@ class CLASS(Van_Transport_Base): Van_02_transport_base_F {
         };
         class TheseusBlack {
             displayName = ECSTRING(Main,Theseus_Black);
-            author = "Tyrone";
+            author = "Mike";
             textures[] = {
                 QPATHTOF(data\van_body_theseus_black_co.paa),
                 "\a3\soft_f_orange\van_02\data\van_wheel_transport_co.paa",
@@ -171,7 +171,7 @@ class CLASS(Van_Transport_I_Black): CLASS(Van_Transport_Base) {
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
-    author = "Tyrone";
+    author = "Mike";
     displayName = CSTRING(Van_Transport_Black);
     editorPreview = QPATHTOF(UI\Van_Transport_Black.jpg);
     crew = QCLASS(Unit_I_Contractor);

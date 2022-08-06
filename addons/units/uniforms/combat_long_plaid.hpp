@@ -2,7 +2,7 @@
 // Plaid - Long sleeves
 class CLASS(Uniform_Combat_LS_CBPS_BP_BB): CLASS(Uniform_Base) { // CBP = Buffalo Plaid
     scope = 2;
-    author = "GilleeDoo, Tyrone";
+    author = "GilleeDoo, Mike";
     displayName = CSTRING(Uniform_Combat_LS_CBPS_BP_BB);
     picture = QPATHTOF(UI\uniform_combat_ls_cbps_bp_ca.paa);
 
@@ -12,7 +12,7 @@ class CLASS(Uniform_Combat_LS_CBPS_BP_BB): CLASS(Uniform_Base) { // CBP = Buffal
 };
 class CLASS(Uniform_Combat_LS_CDES_TP_TB): CLASS(Uniform_Base) { // CDE = Plaid Dark Earth
     scope = 2;
-    author = "GilleeDoo, Tyrone";
+    author = "GilleeDoo, Mike";
     displayName = CSTRING(Uniform_Combat_LS_CDES_TP_TB);
     picture = QPATHTOF(UI\uniform_combat_ls_cdes_tp_ca.paa);
 
@@ -22,7 +22,7 @@ class CLASS(Uniform_Combat_LS_CDES_TP_TB): CLASS(Uniform_Base) { // CDE = Plaid 
 };
 class CLASS(Uniform_Combat_LS_CDFS_GP_TB): CLASS(Uniform_Base) { // CDF = Plaid Dark Foliage
     scope = 2;
-    author = "GilleeDoo, Tyrone";
+    author = "GilleeDoo, Mike";
     displayName = CSTRING(Uniform_Combat_LS_CDFS_GP_TB);
     picture = QPATHTOF(UI\uniform_combat_ls_cdfs_gp_ca.paa);
 
@@ -32,7 +32,7 @@ class CLASS(Uniform_Combat_LS_CDFS_GP_TB): CLASS(Uniform_Base) { // CDF = Plaid 
 };
 class CLASS(Uniform_Combat_LS_CLES_TP_BB): CLASS(Uniform_Base) { // CLE = Plaid Light Earth
     scope = 2;
-    author = "GilleeDoo, Tyrone";
+    author = "GilleeDoo, Mike";
     displayName = CSTRING(Uniform_Combat_LS_CLES_TP_BB);
     picture = QPATHTOF(UI\uniform_combat_ls_cles_tp_ca.paa);
 
@@ -42,7 +42,7 @@ class CLASS(Uniform_Combat_LS_CLES_TP_BB): CLASS(Uniform_Base) { // CLE = Plaid 
 };
 class CLASS(Uniform_Combat_LS_CLFS_GP_BB): CLASS(Uniform_Base) { // CLF = Plaid Light Foliage
     scope = 2;
-    author = "GilleeDoo, Tyrone";
+    author = "GilleeDoo, Mike";
     displayName = CSTRING(Uniform_Combat_LS_CLFS_GP_BB);
     picture = QPATHTOF(UI\uniform_combat_ls_clfs_gp_ca.paa);
 

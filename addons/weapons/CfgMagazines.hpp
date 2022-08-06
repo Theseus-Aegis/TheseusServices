@@ -4,7 +4,7 @@ class CfgMagazines {
     class CLASS(30Rnd_65x39_caseless_BlackCamo_mag): 30Rnd_65x39_caseless_mag {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "BadHabitz, TyroneMF";
+        author = "BadHabitz, Mike";
         displayName = CSTRING(30Rnd_65x39_caseless_BlackCamo_mag);
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\mx_blackcamo_base_co.paa)};

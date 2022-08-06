@@ -108,7 +108,7 @@ class CfgVehicles {
     class CLASS(Backpack_Kitbag_RGR): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Bohemia Interactive, GilleeDoo, Tyrone";
+        author = "Bohemia Interactive, GilleeDoo, Mike";
         displayName = CSTRING(Backpack_Kitbag_RGR);
         picture = QPATHTOF(UI\backpack_kitbag_rgr_ca.paa);
         hiddenSelectionsTextures[] = {
@@ -207,7 +207,7 @@ class CfgVehicles {
     class CLASS(Backpack_Kitbag_Medic_RGR): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Bohemia Interactive, GilleeDoo, Tyrone";
+        author = "Bohemia Interactive, GilleeDoo, Mike";
         displayName = CSTRING(Backpack_Kitbag_Medic_RGR);
         picture = QPATHTOF(UI\backpack_kitbag_medic_rgr_ca.paa);
         hiddenSelectionsTextures[] = {

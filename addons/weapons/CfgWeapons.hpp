@@ -33,7 +33,7 @@ class CfgWeapons {
     class CLASS(EBR_Black_F): srifle_EBR_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Tyrone";
+        author = "Mike";
         displayName = CSTRING(EBR_Black_F);
         picture = QPATHTOF(UI\mk14_ebr_ca.paa);
         hiddenSelections[] = {"camo1", "camo2"};
@@ -48,7 +48,7 @@ class CfgWeapons {
     class CLASS(Mk20_Black_F): arifle_Mk20_plain_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Tyrone";
+        author = "Mike";
         displayName = CSTRING(Mk20_Black_F);
         picture = QPATHTOF(UI\mk20_blackcamo_ca.paa);
         hiddenSelections[] = {"camo"};
@@ -62,7 +62,7 @@ class CfgWeapons {
     class CLASS(MK20C_Black_F): arifle_Mk20C_plain_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Tyrone";
+        author = "Mike";
         displayName = CSTRING(Mk20C_Black_F);
         picture = QPATHTOF(UI\mk20c_blackcamo_ca.paa);
         hiddenSelections[] = {"camo"};
@@ -76,7 +76,7 @@ class CfgWeapons {
     class CLASS(MK20_EGLM_Black_F): arifle_Mk20_GL_plain_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Tyrone";
+        author = "Mike";
         displayName = CSTRING(Mk20_EGLM_Black_F);
         picture = QPATHTOF(UI\mk20_eglm_ca.paa);
         hiddenSelections[] = {"camo", "camo2"};

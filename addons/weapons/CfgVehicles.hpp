@@ -29,7 +29,7 @@ class CfgVehicles {
     class CLASS(Item_EBR_Black_F): Weapon_Base_F {
         MACRO_ITEM_COMMON
         vehicleClass = "WeaponsPrimary";
-        author = "Tyrone";
+        author = "Mike";
         displayName = CSTRING(EBR_Black_F);
 
         class TransportItems {
@@ -39,7 +39,7 @@ class CfgVehicles {
     class CLASS(Item_Mk20_Black_F): Weapon_Base_F {
         MACRO_ITEM_COMMON
         vehicleClass = "WeaponsPrimary";
-        author = "Tyrone";
+        author = "Mike";
         displayName = CSTRING(Mk20_Black_F);
 
         class TransportItems {
@@ -49,7 +49,7 @@ class CfgVehicles {
     class CLASS(Item_MK20C_Black_F): Weapon_Base_F {
         MACRO_ITEM_COMMON
         vehicleClass = "WeaponsPrimary";
-        author = "Tyrone";
+        author = "Mike";
         displayName = CSTRING(MK20C_Black_F);
 
         class TransportItems {
@@ -59,7 +59,7 @@ class CfgVehicles {
     class CLASS(Item_MK20_EGLM_Black_F): Weapon_Base_F {
         MACRO_ITEM_COMMON
         vehicleClass = "WeaponsPrimary";
-        author = "Tyrone";
+        author = "Mike";
         displayName = CSTRING(MK20_EGLM_Black_F);
 
         class TransportItems {

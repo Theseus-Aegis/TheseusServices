@@ -144,7 +144,7 @@ class CfgVehicles {
     // Modular Carrier
     class CLASS(Item_Vest_Modular_Black): Vest_Base_F {
         MACRO_ITEM_COMMON
-        author = "Trenchgun, Tyrone";
+        author = "Trenchgun, Mike";
         displayName = CSTRING(Vest_Modular_Black);
 
         class TransportItems {
@@ -154,7 +154,7 @@ class CfgVehicles {
 
     class CLASS(Item_Vest_Modular_Coyote): Vest_Base_F {
         MACRO_ITEM_COMMON
-        author = "Trenchgun, Tyrone";
+        author = "Trenchgun, Mike";
         displayName = CSTRING(Vest_Modular_Coyote);
 
         class TransportItems {
