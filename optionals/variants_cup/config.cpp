@@ -11,7 +11,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_units", "CUP_AirVehicles_C130J"};
         author = ECSTRING(main,Author);
-        authors[] = {"GilleeDoo", "Tyrone"};
+        authors[] = {"GilleeDoo", "Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

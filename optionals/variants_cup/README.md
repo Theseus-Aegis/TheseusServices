@@ -5,4 +5,4 @@ Adds additional textured variants of assets from [CUP](https://www.cup-arma3.org
 ### Authors
 
 - GilleeDoo
-- [TyroneMF](http://github.com/tyronemf)
+- [MikeMF](http://github.com/MikeMF)
