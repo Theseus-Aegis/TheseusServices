@@ -184,7 +184,7 @@ class CLASS(Hemtt_I_Fuel): CLASS(Hemtt_Fuel_Base) {
     faction = QCLASS(IND);
     author = "Mike";
     displayName = CSTRING(Hemtt_Fuel_Theseus);
-    editorPreview = QPATHTOF(UI/Hemtt_Fuel).jpg);
+    editorPreview = QPATHTOF(UI/Hemtt_Fuel.jpg);
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Engineer)};
     transportMaxBackpacks = 6;
