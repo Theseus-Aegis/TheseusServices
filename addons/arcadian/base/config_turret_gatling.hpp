@@ -14,7 +14,7 @@ class Turrets: Turrets {
         weapons[] = {QCLASS(LMG_Minigun_SUV)};
         maxHorizontalRotSpeed = 2;
         maxVerticalRotSpeed = 2;
-        magazines[] = {"2000Rnd_65x39_Belt_Tracer_Red"};
+        magazines[] = {"2000Rnd_65x39_Belt_Tracer_Red", "2000Rnd_65x39_Belt_Tracer_Red", "2000Rnd_65x39_Belt_Tracer_Red"};
         gunnerRightHandAnimName = "OtocHlavenSUV";
         gunnerLeftHandAnimName = "OtocHlavenSUV";
         animationSourceHatch = "close_cover_source";
