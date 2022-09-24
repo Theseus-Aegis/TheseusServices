@@ -32,7 +32,7 @@ class CLASS(Hemtt_I_Transport): CLASS(Hemtt_Base) {
     faction = QCLASS(IND);
     author = "Mike";
     displayName = CSTRING(Hemtt_Transport_Theseus);
-    //editorPreview = QPATHTOF(UI/Hemtt_Transport.jpg);
+    editorPreview = QPATHTOF(UI/Hemtt_Transport.jpg);
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Engineer)};
     transportMaxBackpacks = 6;
@@ -83,7 +83,7 @@ class CLASS(Hemtt_I_Repair): CLASS(Hemtt_Repair_Base) {
     faction = QCLASS(IND);
     author = "Mike";
     displayName = CSTRING(Hemtt_Repair_Theseus);
-    //editorPreview = QPATHTOF(UI/Hemtt_Repair.jpg);
+    editorPreview = QPATHTOF(UI/Hemtt_Repair.jpg);
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Engineer)};
     transportMaxBackpacks = 6;
@@ -134,7 +134,7 @@ class CLASS(Hemtt_I_Ammo): CLASS(Hemtt_Ammo_Base) {
     faction = QCLASS(IND);
     author = "Mike";
     displayName = CSTRING(Hemtt_Ammo_Theseus);
-    //editorPreview = QPATHTOF(UI/Hemtt_Ammo.jpg);
+    editorPreview = QPATHTOF(UI/Hemtt_Ammo.jpg);
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Engineer)};
     transportMaxBackpacks = 6;
@@ -184,7 +184,7 @@ class CLASS(Hemtt_I_Fuel): CLASS(Hemtt_Fuel_Base) {
     faction = QCLASS(IND);
     author = "Mike";
     displayName = CSTRING(Hemtt_Fuel_Theseus);
-    //editorPreview = QPATHTOF(UI/Hemtt_Fuel).jpg);
+    editorPreview = QPATHTOF(UI/Hemtt_Fuel).jpg);
     crew = QCLASS(Unit_I_Contractor);
     typicalCargo[] = {QCLASS(Unit_I_Engineer)};
     transportMaxBackpacks = 6;
