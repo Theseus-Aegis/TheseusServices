@@ -5,6 +5,7 @@ class B_Truck_01_transport_F : Truck_01_base_F {
 };
 
 class CLASS(HEMTT_Base): B_Truck_01_transport_F {
+    scope = 0;
     class TextureSources {
         class Theseus_Black {
             displayName = "Theseus";
@@ -56,6 +57,7 @@ class B_Truck_01_Repair_F: B_Truck_01_mover_F {
 };
 
 class CLASS(HEMTT_Repair_Base): B_Truck_01_Repair_F {
+    scope = 0;
     class TextureSources {
         class Theseus_Black {
             displayName = "Theseus";
@@ -107,6 +109,7 @@ class B_Truck_01_ammo_F: B_Truck_01_mover_F {
 };
 
 class CLASS(HEMTT_Ammo_Base): B_Truck_01_ammo_F {
+    scope = 0;
     class TextureSources {
         class Theseus_Black {
             displayName = "Theseus";
@@ -158,6 +161,7 @@ class B_Truck_01_fuel_F: B_Truck_01_mover_F {
 };
 
 class CLASS(HEMTT_Fuel_Base): B_Truck_01_fuel_F {
+    scope = 0;
     class TextureSources {
         class Theseus_Black {
             displayName = "Theseus";
