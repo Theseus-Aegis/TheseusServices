@@ -4,7 +4,7 @@ class B_Truck_01_transport_F : Truck_01_base_F {
     class EventHandlers;
 };
 
-class CLASS(Hemtt_Base): B_Truck_01_transport_F {
+class CLASS(HEMTT_Base): B_Truck_01_transport_F {
     class TextureSources {
         class Theseus_Black {
             displayName = "Theseus";
@@ -24,7 +24,7 @@ class CLASS(Hemtt_Base): B_Truck_01_transport_F {
     };
 };
 
-class CLASS(Hemtt_I_Transport): CLASS(Hemtt_Base) {
+class CLASS(HEMTT_I_Transport): CLASS(HEMTT_Base) {
     dlc = QUOTE(PREFIX);
     scope = 2;
     forceInGarage = 1;
@@ -41,7 +41,7 @@ class CLASS(Hemtt_I_Transport): CLASS(Hemtt_Base) {
         "Theseus_Black", 1
     };
 };
-class CLASS(Hemtt_B_Transport): CLASS(Hemtt_I_Transport) {
+class CLASS(HEMTT_B_Transport): CLASS(HEMTT_I_Transport) {
     scope = 2;
     forceInGarage = 0;
     side = 1;
@@ -55,7 +55,7 @@ class B_Truck_01_Repair_F: B_Truck_01_mover_F {
     class EventHandlers;
 };
 
-class CLASS(Hemtt_Repair_Base): B_Truck_01_Repair_F {
+class CLASS(HEMTT_Repair_Base): B_Truck_01_Repair_F {
     class TextureSources {
         class Theseus_Black {
             displayName = "Theseus";
@@ -75,7 +75,7 @@ class CLASS(Hemtt_Repair_Base): B_Truck_01_Repair_F {
     };
 };
 
-class CLASS(Hemtt_I_Repair): CLASS(Hemtt_Repair_Base) {
+class CLASS(HEMTT_I_Repair): CLASS(HEMTT_Repair_Base) {
     dlc = QUOTE(PREFIX);
     scope = 2;
     forceInGarage = 1;
@@ -92,7 +92,7 @@ class CLASS(Hemtt_I_Repair): CLASS(Hemtt_Repair_Base) {
         "Theseus_Black", 1
     };
 };
-class CLASS(Hemtt_B_Repair): CLASS(Hemtt_I_Repair) {
+class CLASS(HEMTT_B_Repair): CLASS(HEMTT_I_Repair) {
     scope = 2;
     forceInGarage = 0;
     side = 1;
@@ -106,7 +106,7 @@ class B_Truck_01_ammo_F: B_Truck_01_mover_F {
     class EventHandlers;
 };
 
-class CLASS(Hemtt_Ammo_Base): B_Truck_01_ammo_F {
+class CLASS(HEMTT_Ammo_Base): B_Truck_01_ammo_F {
     class TextureSources {
         class Theseus_Black {
             displayName = "Theseus";
@@ -126,7 +126,7 @@ class CLASS(Hemtt_Ammo_Base): B_Truck_01_ammo_F {
     };
 };
 
-class CLASS(Hemtt_I_Ammo): CLASS(Hemtt_Ammo_Base) {
+class CLASS(HEMTT_I_Ammo): CLASS(HEMTT_Ammo_Base) {
     dlc = QUOTE(PREFIX);
     scope = 2;
     forceInGarage = 1;
@@ -143,7 +143,7 @@ class CLASS(Hemtt_I_Ammo): CLASS(Hemtt_Ammo_Base) {
         "Theseus_Black", 1
     };
 };
-class CLASS(Hemtt_B_Ammo): CLASS(Hemtt_I_Ammo) {
+class CLASS(HEMTT_B_Ammo): CLASS(HEMTT_I_Ammo) {
     scope = 2;
     forceInGarage = 0;
     side = 1;
@@ -157,7 +157,7 @@ class B_Truck_01_fuel_F: B_Truck_01_mover_F {
     class EventHandlers;
 };
 
-class CLASS(Hemtt_Fuel_Base): B_Truck_01_fuel_F {
+class CLASS(HEMTT_Fuel_Base): B_Truck_01_fuel_F {
     class TextureSources {
         class Theseus_Black {
             displayName = "Theseus";
@@ -176,7 +176,7 @@ class CLASS(Hemtt_Fuel_Base): B_Truck_01_fuel_F {
     };
 };
 
-class CLASS(Hemtt_I_Fuel): CLASS(Hemtt_Fuel_Base) {
+class CLASS(HEMTT_I_Fuel): CLASS(HEMTT_Fuel_Base) {
     dlc = QUOTE(PREFIX);
     scope = 2;
     forceInGarage = 1;
@@ -194,7 +194,7 @@ class CLASS(Hemtt_I_Fuel): CLASS(Hemtt_Fuel_Base) {
     };
 };
 
-class CLASS(Hemtt_B_Fuel): CLASS(Hemtt_I_Fuel) {
+class CLASS(HEMTT_B_Fuel): CLASS(HEMTT_I_Fuel) {
     scope = 2;
     forceInGarage = 0;
     side = 1;
