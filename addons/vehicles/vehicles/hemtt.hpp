@@ -52,6 +52,7 @@ class CLASS(HEMTT_B_Transport): CLASS(HEMTT_I_Transport) {
 };
 
 // Repair HEMTT
+class B_Truck_01_mover_F;
 class B_Truck_01_Repair_F: B_Truck_01_mover_F {
     class EventHandlers;
 };
