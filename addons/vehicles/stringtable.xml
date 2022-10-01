@@ -31,6 +31,9 @@
             <Japanese>オフロード (黒)</Japanese>
             <French>Tout-terrain (Noir)</French>
         </Key>
+        <Key ID="STR_TACS_Vehicles_Offroad_Covered_Black">
+            <English>Offroad Covered (Black)</English>
+        </Key>
         <Key ID="STR_TACS_Vehicles_Offroad_Armed_Black">
             <English>Offroad Armed (Black)</English>
             <German>Geländewagen, bewaffnet (Schwarz)</German>
