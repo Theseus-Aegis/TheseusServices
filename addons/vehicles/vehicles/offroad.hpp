@@ -77,7 +77,7 @@ class CLASS(Offroad_Covered_Base): Offroad_01_military_covered_base_F {
     class TextureSources {
         class Black {
             displayName = "$STR_A3_TEXTURESOURCES_BLACK0";
-            author = "BadHabitz, Jonpas";
+            author = "JoramD";
             textures[] = {
                 QPATHTOF(data\offroad_black_ext_co.paa),
                 QPATHTOF(data\offroad_black_ext_co.paa),
@@ -131,7 +131,7 @@ class CLASS(Offroad_I_Covered_Black): CLASS(Offroad_Covered_Base) {
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
-    author = "BadHabitz, Jonpas";
+    author = "JoramD";
     displayName = CSTRING(Offroad_Covered_Black);
     editorPreview = QPATHTOF(UI\Offroad_Covered_Black.jpg);
     crew = QCLASS(Unit_I_Contractor);
