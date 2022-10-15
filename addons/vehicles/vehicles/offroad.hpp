@@ -72,7 +72,10 @@ class CLASS(Offroad_B_Black): CLASS(Offroad_I_Black) {
     typicalCargo[] = {QCLASS(Unit_B_Engineer)};
 };
 
-class Offroad_01_military_covered_base_F;
+class Offroad_01_military_base_F;
+class Offroad_01_military_covered_base_F: Offroad_01_military_base_F {
+    class EventHandlers;
+};
 class CLASS(Offroad_Covered_Base): Offroad_01_military_covered_base_F {
     class TextureSources {
         class Black {
