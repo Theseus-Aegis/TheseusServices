@@ -84,6 +84,16 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\a3\weapons_f\ammoboxes\bags\data\backpack_tortila_blk_co.paa"};
     };
 
+    class CLASS(Backpack_Carryall_White): CLASS(Backpack_Carryall_DarkBlack) {
+        author = "GilleeDoo, Mike";
+        displayName = CSTRING(Backpack_Carryall_White);
+        picture = QPATHTOF(UI\backpack_carryall_white_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_carryall_white_co.paa)
+        };
+    };
+
+
     class B_Kitbag_Base;
     class CLASS(Backpack_Kitbag_DarkBlack): B_Kitbag_Base {
         dlc = QUOTE(PREFIX);
