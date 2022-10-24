@@ -23,9 +23,7 @@ class CfgGroups {
                         position[] = {-5, -5, 0};
                     };
                 };
-                class Patrol {
-                    side = 2;
-                    faction = QCLASS(IND);
+                class Patrol: Bodyguards {
                     name = CSTRING(Group_Patrol);
                     class Unit0 {
                         side = 2;
@@ -46,9 +44,7 @@ class CfgGroups {
                         position[] = {10, -10, 0};
                     };
                 };
-                class Team {
-                    side = 2;
-                    faction = QCLASS(IND);
+                class Team: Patrol {
                     name = CSTRING(Group_Team);
                     class Unit0 {
                         side = 2;
@@ -80,9 +76,7 @@ class CfgGroups {
                         position[] = {15, -15, 0};
                     };
                 };
-                class Squad {
-                    side = 2;
-                    faction = QCLASS(IND);
+                class Squad: Team {
                     name = CSTRING(Group_Squad);
                     class Unit0 {
                         side = 2;
@@ -129,9 +123,7 @@ class CfgGroups {
                         position[] = {25, -25, 0};
                     };
                 };
-                class Specialists {
-                    side = 2;
-                    faction = QCLASS(IND);
+                class Specialists: Squad {
                     name = CSTRING(Group_Specialists);
                     class Unit0 {
                         side = 2;
@@ -159,9 +151,7 @@ class CfgGroups {
                         position[] = {-10, -10, 0};
                     };
                 };
-                class Support {
-                    side = 2;
-                    faction = QCLASS(IND);
+                class Support: Specialists {
                     name = CSTRING(Group_Support);
                     class Unit0 {
                         side = 2;
@@ -211,9 +201,7 @@ class CfgGroups {
                         position[] = {-5, -5, 0};
                     };
                 };
-                class Patrol {
-                    side = 1;
-                    faction = QCLASS(BLU);
+                class Patrol: Bodyguards {
                     name = CSTRING(Group_Patrol);
                     class Unit0 {
                         side = 1;
@@ -234,9 +222,7 @@ class CfgGroups {
                         position[] = {10, -10, 0};
                     };
                 };
-                class Team {
-                    side = 1;
-                    faction = QCLASS(BLU);
+                class Team: Patrol {
                     name = CSTRING(Group_Team);
                     class Unit0 {
                         side = 1;
@@ -268,9 +254,7 @@ class CfgGroups {
                         position[] = {15, -15, 0};
                     };
                 };
-                class Squad {
-                    side = 1;
-                    faction = QCLASS(BLU);
+                class Squad: Team {
                     name = CSTRING(Group_Squad);
                     class Unit0 {
                         side = 1;
@@ -317,9 +301,7 @@ class CfgGroups {
                         position[] = {25, -25, 0};
                     };
                 };
-                class Specialists {
-                    side = 1;
-                    faction = QCLASS(BLU);
+                class Specialists: Squad {
                     name = CSTRING(Group_Specialists);
                     class Unit0 {
                         side = 1;
@@ -347,9 +329,7 @@ class CfgGroups {
                         position[] = {-10, -10, 0};
                     };
                 };
-                class Support {
-                    side = 1;
-                    faction = QCLASS(BLU);
+                class Support: Specialists {
                     name = CSTRING(Group_Support);
                     class Unit0 {
                         side = 1;
