@@ -11,6 +11,7 @@ class CfgPatches {
             QCLASS(Backpack_AssaultExpanded_RGR),
             QCLASS(Backpack_AssaultPack_RGR),
             QCLASS(Backpack_Carryall_DarkBlack),
+            QCLASS(Backpack_Carryall_White),
             QCLASS(Backpack_Kitbag_DarkBlack),
             QCLASS(Backpack_Kitbag_White),
             QCLASS(Backpack_Kitbag_RGR),
@@ -32,7 +33,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_vests"};
         author = ECSTRING(main,Author);
-        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky"};
+        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky", "GilleeDoo", "Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

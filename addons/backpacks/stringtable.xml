@@ -37,6 +37,11 @@
             <Japanese>キャリオール バックパック (暗黒)</Japanese>
             <French>Sac à dos multifonction (Noir Foncé)</French>
         </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Carryall_White">
+            <English>Carryall Backpack (White)</English>
+            <German>Carryall Rucksack (Weiss)</German>
+            <French>Sac à dos multifonction (Blanc)</French>
+        </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_DarkBlack">
             <English>Kitbag (Dark Black)</English>
             <German>Kitbag (Dunkelschwarz)</German>
