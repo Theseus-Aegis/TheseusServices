@@ -8,7 +8,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"A3_Data_F_Tank_Loadorder"};
+        requiredAddons[] = {"A3_Data_F_AoW_Loadorder"};
         author = CSTRING(Author);
         authors[] = {"Jonpas"};
         url = CSTRING(URL);
