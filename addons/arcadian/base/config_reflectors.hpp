@@ -8,19 +8,19 @@ class Reflectors {
         selection = "Light_L";
         size = 1;
         innerAngle = 30;
-        outerAngle = 179;
+        outerAngle = 180;
         coneFadeCoef = 5;
-        intensity = 10;
+        intensity = 50;
         useFlare = 1;
         dayLight = 0;
-        flareSize = 2;
-        flareMaxDistance = 90;
+        flareSize = 4;
+        flareMaxDistance = 600;
         class Attenuation {
             start = 1;
             constant = 0;
             linear = 0;
             quadratic = 0.25;
-            hardLimitStart = 10;
+            hardLimitStart = 50;
             hardLimitEnd = 120;
         };
     };
