@@ -12,7 +12,7 @@ JoramD <j.davids@hotmail.nl>
 Kresky
 SyMP2005 <rory@theseus-aegis.com>
 System98 <jedi_jones@outlook.de>
-Tyrone
+Mike
 
 # PG SERVICES CREDITS
 Pomigit
@@ -22,3 +22,4 @@ sykoCrazy
 # CONTRIBUTORS
 classicarma
 VastGameMaster
+Evrik

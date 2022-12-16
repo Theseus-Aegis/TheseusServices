@@ -310,7 +310,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_backpacks", "tacs_headgear", "tacs_vests", "tacs_weapons"};
         author = ECSTRING(main,Author);
-        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky", "Tibernius", "Mike", "GilleeDoo"};
+        authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky", "Tibernius", "Mike", "GilleeDoo", "Evrik"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
