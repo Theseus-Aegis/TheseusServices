@@ -57,6 +57,12 @@ class CfgUnitInsignia {
         displayName = "Boba Fett (Black-Silver)";
         texture = QPATHTOF(data\bobafett_blacksilver.paa);
     };
+    class CLASS(Insignia_Bondsmith) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Bondsmith";
+        texture = QPATHTOF(data\bondsmith.paa);
+    };
     class CLASS(Insignia_BrandOfSacrifice) {
         MACRO_INSIGNIA_COMMON
         author = "Lairdd1989";
@@ -213,6 +219,24 @@ class CfgUnitInsignia {
         displayName = "Do You Even Lift?";
         texture = QPATHTOF(data\doyouevenlift.paa);
     };
+    class CLASS(Insignia_Dustbringer) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Dustbringer";
+        texture = QPATHTOF(data\dustbringer.paa);
+    };
+    class CLASS(Insignia_Edgedancer) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Edgedancer";
+        texture = QPATHTOF(data\edgedancer.paa);
+    };
+    class CLASS(Insignia_Elsecaller) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Elsecaller";
+        texture = QPATHTOF(data\elsecaller.paa);
+    };
     class CLASS(Insignia_FourLeafClover) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
@@ -350,6 +374,12 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Liberty or Death";
         texture = QPATHTOF(data\libertyordeath.paa);
+    };
+    class CLASS(Insignia_Lightweaver) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Lightweaver";
+        texture = QPATHTOF(data\lightweaver.paa);
     };
     class CLASS(Insignia_LockNLoad) {
         MACRO_INSIGNIA_COMMON
@@ -645,6 +675,12 @@ class CfgUnitInsignia {
         displayName = "S.H.I.E.L.D.";
         texture = QPATHTOF(data\shield.paa);
     };
+    class CLASS(Insignia_Skybreaker) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Skybreaker";
+        texture = QPATHTOF(data\skybreaker.paa);
+    };
     class CLASS(Insignia_SniperUnit) {
         MACRO_INSIGNIA_COMMON
         author = "System98";
@@ -686,6 +722,12 @@ class CfgUnitInsignia {
         author = "System98";
         displayName = "Spartan Helmet (Woodland)";
         texture = QPATHTOF(data\spartanhelmet_woodland.paa);
+    };
+    class CLASS(Insignia_Stoneward) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Stoneward";
+        texture = QPATHTOF(data\stoneward.paa);
     };
     class CLASS(Insignia_TacticalBeardOwnersClub) {
         MACRO_INSIGNIA_COMMON
@@ -753,6 +795,12 @@ class CfgUnitInsignia {
         displayName = "Trunk Monkey";
         texture = QPATHTOF(data\trunkmonkey.paa);
     };
+    class CLASS(Insignia_Truthwatcher) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Truthwatcher";
+        texture = QPATHTOF(data\truthwatcher.paa);
+    };
     class CLASS(Insignia_UmbrellaCorporation) {
         MACRO_INSIGNIA_COMMON
         author = "BadHabitz";
@@ -777,11 +825,23 @@ class CfgUnitInsignia {
         displayName = "Who's Your Daddy?";
         texture = QPATHTOF(data\whosyourdaddy.paa);
     };
+    class CLASS(Insignia_Willshaper) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Willshaper";
+        texture = QPATHTOF(data\willshaper.paa);
+    };
     class CLASS(Insignia_WillWorkForAmmo) {
         MACRO_INSIGNIA_COMMON
         author = "GilleeDoo";
         displayName = "Will Work For Ammo";
         texture = QPATHTOF(data\willworkforammo.paa);
+    };
+    class CLASS(Insignia_Windrunner) {
+        MACRO_INSIGNIA_COMMON
+        author = "Lairdd1989";
+        displayName = "Windrunner";
+        texture = QPATHTOF(data\windrunner.paa);
     };
     class CLASS(Insignia_WingsOfFreedom) {
         MACRO_INSIGNIA_COMMON
