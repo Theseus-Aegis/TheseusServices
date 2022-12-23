@@ -383,6 +383,15 @@ class CLASS(Unit_I_VIP): Civilian_F {
     linkedItems[] = {DEFAULT_ITEMS, "G_Squares_Tinted"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "G_Squares_Tinted"};
 
+    class Wounds {
+        tex[] = {};
+        mat[] = {
+            QPATHTOR(data\vip.rvmat),
+            QPATHTOR(data\w1_vip.rvmat),
+            QPATHTOR(data\w2_vip.rvmat)
+        };
+    };
+
     CBA_facewearList[] = {
         "", 1,
         "G_Squares_Tinted", 1,
