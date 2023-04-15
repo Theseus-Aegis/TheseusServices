@@ -817,13 +817,13 @@ class CfgUnitInsignia {
         MACRO_INSIGNIA_COMMON
         author = "GilleeDoo";
         displayName = "VTAG";
-        texture = QPATHTOF(data\vtagPatch.paa);
+        texture = QPATHTOF(data\vtag.paa);
     };
     class CLASS(Insignia_VTAG_Grey) {
         MACRO_INSIGNIA_COMMON
         author = "GilleeDoo";
         displayName = "VTAG (Grey)";
-        texture = QPATHTOF(data\vtagPatch_grey.paa);
+        texture = QPATHTOF(data\vtag_grey.paa);
     };
     class CLASS(Insignia_WellDoItLive) {
         MACRO_INSIGNIA_COMMON
