@@ -1,0 +1,3 @@
+no_bin = [
+    "data/anim/Arcadian_Gunner_*.rtm", # pre-binarized
+]
