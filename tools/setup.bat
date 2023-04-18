@@ -10,7 +10,7 @@ function Unzip {
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $client = New-Object Net.WebClient
 Write-Output "=> Downloading ..."
-$client.DownloadFile("https://github.com/BrettMayson/HEMTT/releases/download/v1.3.1/windows-x64.zip", "hemtt.zip")
+$client.DownloadFile("https://github.com/BrettMayson/HEMTT/releases/download/v1.3.2/windows-x64.zip", "hemtt.zip")
 $client.dispose()
 
 Write-Output "=> Cleaning old ..."
