@@ -4,5 +4,5 @@ Weapon retextures and equipped weapons for units.
 
 ### Authors
 
-- [Jonpas](http://github.com/jonpas)
-- [JoramD](http://github.com/JoramD0)
+- [Jonpas](https://github.com/jonpas)
+- [JoramD](https://github.com/JoramD0)

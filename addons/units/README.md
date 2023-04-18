@@ -6,8 +6,9 @@ Hawaiian clothing integrated with permissions from [DADPAT](https://steamcommuni
 
 ### Authors
 
-- [Jonpas](http://github.com/jonpas)
-- [Rory](http://github.com/SyMP2005)
+- [Jonpas](https://github.com/jonpas)
+- [Rory](https://github.com/SyMP2005)
 - [Kresky](https://github.com/Kresky)
 - [Mike](https://github.com/MikeMF)
+- [GilleeDoo](https://github.com/GilleeDoo)
 - [Trenchgun](https://github.com/trenchgun)

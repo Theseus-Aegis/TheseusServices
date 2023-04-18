@@ -8,7 +8,7 @@ Features four color variants: Black, Green, Grey & Tan.
 
 - [Deltagamer](https://github.com/deltagamer)
 - [MikeMF](https://github.com/MikeMF)
-- GilleeDoo
+- [GileeDoo](https://github.com/GilleeDoo)
 - [Flyzoor](https://github.com/flyzoor)
 
 ### Pull Requests

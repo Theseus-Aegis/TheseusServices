@@ -4,5 +4,7 @@ A plethora of insignias.
 
 ### Authors
 
-- [Jonpas](http://github.com/jonpas)
-- [System98](http://github.com/System98)
+- [Jonpas](https://github.com/jonpas)
+- [System98](https://github.com/System98)
+- [Laird1989](https://github.com/Laird1989)
+- [JoramD](https://github.com/JoramD0)
