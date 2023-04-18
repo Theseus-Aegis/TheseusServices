@@ -54,10 +54,12 @@ releases/*
 # HEMTT
 hemtt
 hemtt.exe
+.hemttout
 keys/*
 .hemtt/local
 x/*
 a3/*
+*.zip
 
 # Swap
 *.swp
