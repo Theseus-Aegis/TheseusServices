@@ -11,3 +11,5 @@
 #endif
 
 #include "\x\tacs\addons\main\script_macros.hpp"
+
+#define CCLASS(var1) TRIPLES(PREFIX,milgp,var1)

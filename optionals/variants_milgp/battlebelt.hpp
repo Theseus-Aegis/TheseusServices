@@ -24,26 +24,26 @@
 
 // Assaulter Grey
 class milgp_v_battle_belt_assaulter_RGR;
-class CLASS(battle_belt_assaulter_gry):milgp_v_battle_belt_assaulter_RGR {
+class CCLASS(battle_belt_assaulter_gry):milgp_v_battle_belt_assaulter_RGR {
     displayName = CSTRING(battle_belt_assaulter_gry);
     MACRO_BATTLEBELT_GRY
 };
 
 // Assaulter Black
-class CLASS(battle_belt_assaulter_blk):milgp_v_battle_belt_assaulter_RGR {
+class CCLASS(battle_belt_assaulter_blk):milgp_v_battle_belt_assaulter_RGR {
     displayName = CSTRING(battle_belt_assaulter_blk);
     MACRO_BATTLEBELT_BLK
 };
 
 // HeavyGunner Grey
 class milgp_v_battle_belt_hgunner_RGR;
-class CLASS(battle_belt_hgunner_gry):milgp_v_battle_belt_hgunner_RGR {
+class CCLASS(battle_belt_hgunner_gry):milgp_v_battle_belt_hgunner_RGR {
     displayName = CSTRING(battle_belt_hgunner_gry);
     MACRO_BATTLEBELT_GRY
 };
 
 // HeavyGunner Black
-class CLASS(battle_belt_hgunner_blk):milgp_v_battle_belt_hgunner_RGR {
+class CCLASS(battle_belt_hgunner_blk):milgp_v_battle_belt_hgunner_RGR {
     displayName = CSTRING(battle_belt_hgunner_blk);
     MACRO_BATTLEBELT_BLK
 };

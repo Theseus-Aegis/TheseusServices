@@ -48,7 +48,7 @@
 
 // Light Grey
 class milgp_v_marciras_light_rgr;
-class CLASS(marciras_light_gry): milgp_v_marciras_light_rgr {
+class CCLASS(marciras_light_gry): milgp_v_marciras_light_rgr {
     displayName = CSTRING(marciras_light_gry);
     picture = QPATHTOF(ui\icon_v_marciras_gry_ca.paa);
     author = "GilleeDoo";
@@ -61,7 +61,7 @@ class CLASS(marciras_light_gry): milgp_v_marciras_light_rgr {
 };
 
 // Light Black
-class CLASS(marciras_light_blk): milgp_v_marciras_light_rgr {
+class CCLASS(marciras_light_blk): milgp_v_marciras_light_rgr {
     displayName = CSTRING(marciras_light_blk);
     picture = QPATHTOF(ui\icon_v_marciras_blk_ca.paa);
     author = "GilleeDoo";
@@ -75,145 +75,145 @@ class CLASS(marciras_light_blk): milgp_v_marciras_light_rgr {
 
 // Assaulter Grey
 class milgp_v_marciras_assaulter_rgr;
-class CLASS(marciras_assaulter_gry): milgp_v_marciras_assaulter_rgr {
+class CCLASS(marciras_assaulter_gry): milgp_v_marciras_assaulter_rgr {
     displayName = CSTRING(marciras_assaulter_gry);
     MACRO_MARCIRAS_GRY
 };
 
 class milgp_v_marciras_assaulter_belt_rgr;
-class CLASS(marciras_assaulter_belt_gry): milgp_v_marciras_assaulter_belt_rgr {
+class CCLASS(marciras_assaulter_belt_gry): milgp_v_marciras_assaulter_belt_rgr {
     displayName = CSTRING(marciras_assaulter_belt_gry);
     MACRO_MARCIRAS_BELT_GRY
 };
 
 // Assaulter Black
-class CLASS(marciras_assaulter_blk): milgp_v_marciras_assaulter_rgr {
+class CCLASS(marciras_assaulter_blk): milgp_v_marciras_assaulter_rgr {
     displayName = CSTRING(marciras_assaulter_blk);
     MACRO_MARCIRAS_BLK
 };
 
-class CLASS(marciras_assaulter_belt_blk): milgp_v_marciras_assaulter_belt_rgr {
+class CCLASS(marciras_assaulter_belt_blk): milgp_v_marciras_assaulter_belt_rgr {
     displayName = CSTRING(marciras_assaulter_belt_blk);
     MACRO_MARCIRAS_BELT_BLK
 };
 
 // Grenadier Grey
 class milgp_v_marciras_grenadier_rgr;
-class CLASS(marciras_grenadier_gry): milgp_v_marciras_grenadier_rgr {
+class CCLASS(marciras_grenadier_gry): milgp_v_marciras_grenadier_rgr {
     displayName = CSTRING(marciras_grenadier_gry);
     MACRO_MARCIRAS_GRY
 };
 
 class milgp_v_marciras_grenadier_belt_rgr;
-class CLASS(marciras_grenadier_belt_gry): milgp_v_marciras_grenadier_belt_rgr {
+class CCLASS(marciras_grenadier_belt_gry): milgp_v_marciras_grenadier_belt_rgr {
     displayName = CSTRING(marciras_grenadier_belt_gry);
     MACRO_MARCIRAS_BELT_GRY
 };
 
 // Grenadier Black
-class CLASS(marciras_grenadier_blk): milgp_v_marciras_grenadier_rgr {
+class CCLASS(marciras_grenadier_blk): milgp_v_marciras_grenadier_rgr {
     displayName = CSTRING(marciras_grenadier_blk);
     MACRO_MARCIRAS_BLK
 };
 
-class CLASS(marciras_grenadier_belt_blk): milgp_v_marciras_grenadier_belt_rgr {
+class CCLASS(marciras_grenadier_belt_blk): milgp_v_marciras_grenadier_belt_rgr {
     displayName = CSTRING(marciras_grenadier_belt_blk);
     MACRO_MARCIRAS_BELT_BLK
 };
 
 // HeavyGunner Grey
 class milgp_v_marciras_hgunner_rgr;
-class CLASS(marciras_hgunner_gry): milgp_v_marciras_hgunner_rgr {
+class CCLASS(marciras_hgunner_gry): milgp_v_marciras_hgunner_rgr {
     displayName = CSTRING(marciras_hgunner_gry);
     MACRO_MARCIRAS_GRY
 };
 
 class milgp_v_marciras_hgunner_belt_rgr;
-class CLASS(marciras_hgunner_belt_gry): milgp_v_marciras_hgunner_belt_rgr {
+class CCLASS(marciras_hgunner_belt_gry): milgp_v_marciras_hgunner_belt_rgr {
     displayName = CSTRING(marciras_hgunner_belt_gry);
     MACRO_MARCIRAS_BELT_GRY
 };
 
 // HeavyGuner Black
-class CLASS(marciras_hgunner_blk): milgp_v_marciras_hgunner_rgr {
+class CCLASS(marciras_hgunner_blk): milgp_v_marciras_hgunner_rgr {
     displayName = CSTRING(marciras_hgunner_blk);
     MACRO_MARCIRAS_BLK
 };
 
-class CLASS(marciras_hgunner_belt_gry): milgp_v_marciras_hgunner_belt_rgr {
+class CCLASS(marciras_hgunner_belt_gry): milgp_v_marciras_hgunner_belt_rgr {
     displayName = CSTRING(marciras_hgunner_belt_gry);
     MACRO_MARCIRAS_BELT_BLK
 };
 
 // Marksman Grey
 class milgp_v_marciras_marksman_rgr;
-class CLASS(marciras_marksman_gry): milgp_v_marciras_marksman_rgr {
+class CCLASS(marciras_marksman_gry): milgp_v_marciras_marksman_rgr {
     displayName = CSTRING(marciras_marksman_gry);
     MACRO_MARCIRAS_GRY
 };
 
 class milgp_v_marciras_marksman_belt_rgr;
-class CLASS(marciras_marksman_belt_gry): milgp_v_marciras_marksman_belt_rgr {
+class CCLASS(marciras_marksman_belt_gry): milgp_v_marciras_marksman_belt_rgr {
     displayName = CSTRING(marciras_marksman_belt_gry);
     MACRO_MARCIRAS_BELT_GRY
 };
 
 // Marksman Black
-class CLASS(marciras_marksman_blk): milgp_v_marciras_marksman_rgr {
+class CCLASS(marciras_marksman_blk): milgp_v_marciras_marksman_rgr {
     displayName = CSTRING(marciras_marksman_blk);
     MACRO_MARCIRAS_BLK
 };
 
-class CLASS(marciras_marksman_belt_blk): milgp_v_marciras_marksman_belt_rgr {
+class CCLASS(marciras_marksman_belt_blk): milgp_v_marciras_marksman_belt_rgr {
     displayName = CSTRING(marciras_marksman_belt_blk);
     MACRO_MARCIRAS_BELT_BLK
 };
 
 // Medic Grey
 class milgp_v_marciras_medic_rgr;
-class CLASS(marciras_medic_gry): milgp_v_marciras_medic_rgr {
+class CCLASS(marciras_medic_gry): milgp_v_marciras_medic_rgr {
     displayName = CSTRING(marciras_medic_gry);
     MACRO_MARCIRAS_GRY
 };
 
 class milgp_v_marciras_medic_belt_rgr;
-class CLASS(marciras_medic_belt_gry): milgp_v_marciras_medic_belt_rgr {
+class CCLASS(marciras_medic_belt_gry): milgp_v_marciras_medic_belt_rgr {
     displayName = CSTRING(marciras_medic_belt_gry);
     MACRO_MARCIRAS_BELT_GRY
 };
 
 // Medic Black
-class CLASS(marciras_medic_blk): milgp_v_marciras_medic_rgr {
+class CCLASS(marciras_medic_blk): milgp_v_marciras_medic_rgr {
     displayName = CSTRING(marciras_medic_blk);
     MACRO_MARCIRAS_BLK
 };
 
 class milgp_v_marciras_medic_belt_rgr;
-class CLASS(marciras_medic_belt_blk): milgp_v_marciras_medic_belt_rgr {
+class CCLASS(marciras_medic_belt_blk): milgp_v_marciras_medic_belt_rgr {
     displayName = CSTRING(marciras_medic_belt_blk);
     MACRO_MARCIRAS_BELT_BLK
 };
 
 // TeamLeader Grey
 class milgp_v_marciras_teamleader_RGR;
-class CLASS(marciras_teamleader_gry): milgp_v_marciras_teamleader_RGR {
+class CCLASS(marciras_teamleader_gry): milgp_v_marciras_teamleader_RGR {
     displayName = CSTRING(marciras_teamleader_gry);
     MACRO_MARCIRAS_GRY
 };
 
 class milgp_v_marciras_teamleader_belt_RGR;
-class CLASS(marciras_teamleader_belt_gry): milgp_v_marciras_teamleader_belt_RGR {
+class CCLASS(marciras_teamleader_belt_gry): milgp_v_marciras_teamleader_belt_RGR {
     displayName = CSTRING(marciras_teamleader_belt_gry);
     MACRO_MARCIRAS_BELT_GRY
 };
 
 // TeamLeader Black
-class CLASS(marciras_teamleader_blk): milgp_v_marciras_teamleader_RGR {
+class CCLASS(marciras_teamleader_blk): milgp_v_marciras_teamleader_RGR {
     displayName = CSTRING(marciras_teamleader_blk);
     MACRO_MARCIRAS_BLK
 };
 
-class CLASS(marciras_teamleader_belt_blk): milgp_v_marciras_teamleader_belt_RGR {
+class CCLASS(marciras_teamleader_belt_blk): milgp_v_marciras_teamleader_belt_RGR {
     displayName = CSTRING(marciras_teamleader_belt_blk);
     MACRO_MARCIRAS_BELT_BLK
 };

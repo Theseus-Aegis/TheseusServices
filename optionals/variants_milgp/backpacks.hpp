@@ -1,6 +1,6 @@
 // Breacher Grey
 class milgp_bp_Breacher_rgr;
-class CLASS(breacher_gry): milgp_bp_Breacher_rgr {
+class CCLASS(breacher_gry): milgp_bp_Breacher_rgr {
     displayName = CSTRING(breacher_gry);
     picture = QPATHTOF(ui\icon_b_cryedro_gry_ca.paa);
     author = "GilleeDoo";
@@ -12,7 +12,7 @@ class CLASS(breacher_gry): milgp_bp_Breacher_rgr {
 };
 
 // Breacher Black
-class CLASS(breacher_blk): milgp_bp_Breacher_rgr {
+class CCLASS(breacher_blk): milgp_bp_Breacher_rgr {
     displayName = CSTRING(breacher_blk);
     picture = QPATHTOF(ui\icon_b_cryedro_blk_ca.paa);
     author = "GilleeDoo";
@@ -25,7 +25,7 @@ class CLASS(breacher_blk): milgp_bp_Breacher_rgr {
 
 // Hydration Grey
 class milgp_bp_hydration_rgr;
-class CLASS(hydration_gry): milgp_bp_hydration_rgr {
+class CCLASS(hydration_gry): milgp_bp_hydration_rgr {
     displayName = CSTRING(hydration_gry);
     picture = QPATHTOF(ui\icon_b_cryedro_gry_ca.paa);
     author = "GilleeDoo";
@@ -34,7 +34,7 @@ class CLASS(hydration_gry): milgp_bp_hydration_rgr {
 };
 
 // Hydration Black
-class CLASS(hydration_blk): milgp_bp_hydration_rgr {
+class CCLASS(hydration_blk): milgp_bp_hydration_rgr {
     displayName = CSTRING(hydration_blk);
     picture = QPATHTOF(ui\icon_b_cryedro_blk_ca.paa);
     author = "GilleeDoo";
@@ -44,7 +44,7 @@ class CLASS(hydration_blk): milgp_bp_hydration_rgr {
 
 // Pointman Grey
 class milgp_bp_Pointman_rgr;
-class CLASS(pointman_gry): milgp_bp_Pointman_rgr {
+class CCLASS(pointman_gry): milgp_bp_Pointman_rgr {
     displayName = CSTRING(pointman_gry);
     picture = QPATHTOF(ui\icon_b_cryedro_gry_ca.paa);
     author = "GilleeDoo";
@@ -53,7 +53,7 @@ class CLASS(pointman_gry): milgp_bp_Pointman_rgr {
 };
 
 // Pointman Black
-class CLASS(pointman_blk): milgp_bp_Pointman_rgr {
+class CCLASS(pointman_blk): milgp_bp_Pointman_rgr {
     displayName = CSTRING(pointman_blk);
     picture = QPATHTOF(ui\icon_b_cryedro_blk_ca.paa);
     author = "GilleeDoo";
@@ -63,7 +63,7 @@ class CLASS(pointman_blk): milgp_bp_Pointman_rgr {
 
 // Tomahawk Grey
 class milgp_bp_Tomahawk_rgr;
-class CLASS(tomahawk_gry): milgp_bp_Tomahawk_rgr {
+class CCLASS(tomahawk_gry): milgp_bp_Tomahawk_rgr {
     displayName = CSTRING(tomahawk_gry);
     picture = QPATHTOF(ui\icon_b_cryedro_gry_ca.paa);
     author = "GilleeDoo";
@@ -75,7 +75,7 @@ class CLASS(tomahawk_gry): milgp_bp_Tomahawk_rgr {
 };
 
 // Tomahawk Black
-class CLASS(tomahawk_blk): milgp_bp_Tomahawk_rgr {
+class CCLASS(tomahawk_blk): milgp_bp_Tomahawk_rgr {
     displayName = CSTRING(tomahawk_blk);
     picture = QPATHTOF(ui\icon_b_cryedro_blk_ca.paa);
     author = "GilleeDoo";
