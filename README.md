@@ -11,8 +11,8 @@
     <a href="https://github.com/Theseus-Aegis/TheseusServices/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-GPLv2-red.svg" alt="Theseus Services License">
     </a>
-    <a href="https://travis-ci.org/Theseus-Aegis/TheseusServices">
-        <img src="https://travis-ci.org/Theseus-Aegis/TheseusServices.svg?branch=master" alt="Theseus Services Build Status">
+    <a href="https://github.com/Theseus-Aegis/TheseusServices/actions/workflows/arma.yml">
+        <img src="https://github.com/Theseus-Aegis/TheseusServices/actions/workflows/arma.yml/badge.svg?branch=master" alt="Theseus Services Build Status">
     </a>
 </p>
 
