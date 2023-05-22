@@ -134,13 +134,13 @@ class CCLASS(marciras_hgunner_belt_gry): milgp_v_marciras_hgunner_belt_rgr {
     MACRO_MARCIRAS_BELT_GRY
 };
 
-// HeavyGuner Black
+// HeavyGunner Black
 class CCLASS(marciras_hgunner_blk): milgp_v_marciras_hgunner_rgr {
     displayName = CSTRING(marciras_hgunner_blk);
     MACRO_MARCIRAS_BLK
 };
 
-class CCLASS(marciras_hgunner_belt_gry): milgp_v_marciras_hgunner_belt_rgr {
+class CCLASS(marciras_hgunner_belt_blk): milgp_v_marciras_hgunner_belt_rgr {
     displayName = CSTRING(marciras_hgunner_belt_gry);
     MACRO_MARCIRAS_BELT_BLK
 };
