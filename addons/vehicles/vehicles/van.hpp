@@ -63,7 +63,7 @@ class CLASS(Van_Cargo_Base): Van_02_vehicle_base_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
         killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };
@@ -159,7 +159,7 @@ class CLASS(Van_Transport_Base): Van_02_transport_base_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
         killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };

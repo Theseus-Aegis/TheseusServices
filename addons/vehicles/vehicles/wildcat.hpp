@@ -30,7 +30,7 @@ class CLASS(Heli_Wildcat_Base): I_Heli_light_03_dynamicLoadout_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
 };
 
@@ -90,7 +90,7 @@ class CLASS(Heli_I_Wildcat_Unarmed_Base): I_Heli_light_03_unarmed_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
 };
 

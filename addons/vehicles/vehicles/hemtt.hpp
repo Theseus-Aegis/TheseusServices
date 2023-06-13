@@ -21,7 +21,7 @@ class CLASS(HEMTT_Base): B_Truck_01_transport_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
 };
 
@@ -74,7 +74,7 @@ class CLASS(HEMTT_Repair_Base): B_Truck_01_Repair_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
 };
 
@@ -126,7 +126,7 @@ class CLASS(HEMTT_Ammo_Base): B_Truck_01_ammo_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
 };
 
@@ -177,7 +177,7 @@ class CLASS(HEMTT_Fuel_Base): B_Truck_01_fuel_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
 };
 
