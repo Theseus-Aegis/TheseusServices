@@ -41,7 +41,7 @@
         }; \
     }; \
     class EventHandlers: EventHandlers { \
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };"; \
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };"; \
     };
 
 class LSV_01_base_F;

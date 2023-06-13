@@ -41,7 +41,7 @@ class CLASS(Offroad_Base): Offroad_01_unarmed_base_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
         killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };
@@ -124,7 +124,7 @@ class CLASS(Offroad_Covered_Base): Offroad_01_military_covered_base_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
         killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };
@@ -200,7 +200,7 @@ class CLASS(Offroad_Armed_Base): Offroad_01_armed_base_F {
     };
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
         killed = "if (local (_this select 0)) then { _this select 0 setPlateNumber '';};";
     };
 };
