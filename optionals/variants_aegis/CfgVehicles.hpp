@@ -1,7 +1,7 @@
 class CfgVehicles {
     class Plane_Transport_01_base_F;
 
-    class CLASS(C130J_I_Theseus): Plane_Transport_01_base_F {
+    class CLASS(C130J_Aegis_I_Theseus): Plane_Transport_01_base_F {
         MACRO_AIRVEHICLE_CARGO
         dlc = QUOTE(PREFIX);
         scope = 2;
@@ -34,7 +34,7 @@ class CfgVehicles {
         };
     };
 
-    class CLASS(C130J_B_Theseus): CLASS(C130J_I_Theseus) {
+    class CLASS(C130J_Aegis_B_Theseus): CLASS(C130J_Aegis_I_Theseus) {
         scope = 2;
         forceInGarage = 0;
         side = 1;

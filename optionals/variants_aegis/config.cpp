@@ -4,8 +4,8 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            QCLASS(C130J_I_Theseus),
-            QCLASS(C130J_B_Theseus)
+            QCLASS(C130J_Aegis_I_Theseus),
+            QCLASS(C130J_Aegis_B_Theseus)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
