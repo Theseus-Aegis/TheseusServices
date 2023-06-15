@@ -2,7 +2,7 @@
 <Project name="TACS">
     <Package name="Variants_Aegis">
         <Key ID="STR_TACS_Variants_Aegis_C130J_Theseus_Name">
-            <English>C-130J</English>
+            <English>C-130J Super Hercules</English>
         </Key>
         <Key ID="STR_TACS_Variants_Aegis_C130J_Theseus_Texture_Name">
             <English>Theseus Grey</English>
