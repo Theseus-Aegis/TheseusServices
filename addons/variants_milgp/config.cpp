@@ -6,14 +6,12 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacs_main",
-            "milgp_uniforms_cfg"
-        };
+        requiredAddons[] = {"tacs_main", "milgp_uniforms_cfg"};
         author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo", "JoramD"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 

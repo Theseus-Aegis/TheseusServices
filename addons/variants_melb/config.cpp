@@ -32,6 +32,7 @@ class CfgPatches {
         authors[] = {"Diesel5187", "sykoCrazy", "Kresky", "Jonpas", "Rory"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
