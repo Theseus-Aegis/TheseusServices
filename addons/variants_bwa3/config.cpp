@@ -32,6 +32,7 @@ class CfgPatches {
         authors[] = {"BW-Mod", "GilleeDoo", "Jonpas"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
