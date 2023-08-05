@@ -2,18 +2,22 @@ class CfgWorlds {
     class GenericNames {
         class PREFIX {
             class FirstNames {
+                alan = "Alan";
                 brent = "Brent";
                 brett = "Brett";
+                bruno = "Bruno";
                 chris = "Chris";
                 cole = "Cole";
                 cory = "Cory";
                 dimas = "Dimas";
+                drago = "Drago";
                 earth = "Earth";
                 ethan = "Ethan";
                 garrett = "Garrett";
                 gary = "Gary";
                 hayes = "Hayes";
                 ian = "Ian";
+                izzy = "Izzy";
                 jack = "Jack";
                 john = "John";
                 jonah = "Jonah";
@@ -26,6 +30,7 @@ class CfgWorlds {
                 leila = "Leila";
                 matt = "Matt";
                 mick = "Mick";
+                mike = "Mike";
                 omer = "Omer";
                 phil = "Phil";
                 philippe = "Philippe";
@@ -33,12 +38,13 @@ class CfgWorlds {
                 skits = "Skits";
                 thomas = "Thomas";
                 tim = "Tim";
-                Mike = "Mike";
+                tyrone = "Tyrone";
                 zak = "Zak";
             };
             class LastNames {
                 ackerly = "Ackerly";
                 albin = "Albin";
+                almeida = "Almeida";
                 crimbo = "Crimbo";
                 dau = "Dau";
                 davids = "Davids";
@@ -50,14 +56,16 @@ class CfgWorlds {
                 johnson = "Johnson";
                 knyte = "Knyte";
                 kovacs = "Kovács";
+                krotzko = "Krotzko";
                 kuma = "Kuma";
                 laird = "Laird";
                 larose = "Larose";
                 lopez = "López";
-                mccarthy = "McCarthy";
-                mcquade = "McQuade";
                 maciejewski = "Maciejewski";
                 mathews = "Mathews";
+                matonoha = "Matonoha";
+                mccarthy = "McCarthy";
+                mcquade = "McQuade";
                 mueller = "Müller";
                 pierce = "Pierce";
                 rambo = "Rambo";
