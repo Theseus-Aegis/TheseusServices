@@ -33,10 +33,12 @@ class CfgWorlds {
                 mike = "Mike";
                 omer = "Omer";
                 phil = "Phil";
+                philippe = "Philippe";
                 rory = "Rory";
                 skits = "Skits";
                 thomas = "Thomas";
                 tim = "Tim";
+                tyrone = "Tyrone";
                 zak = "Zak";
             };
             class LastNames {
