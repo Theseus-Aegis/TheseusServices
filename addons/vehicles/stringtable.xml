@@ -73,5 +73,8 @@
         <Key ID="STR_TACS_Vehicles_Van_Transport_Black">
             <English>Van (Transport) (Black)</English>
         </Key>
+        <Key ID="STR_TACS_Vehicles_Heli_Mohawk_Theseus">
+            <English>AW101 Merlin (Theseus Black)</English>
+        </Key>
     </Package>
 </Project>
