@@ -4,8 +4,8 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            QCLASS(Heli_I_Mohawk),
-            QCLASS(Heli_B_Mohawk),
+            QCLASS(Heli_I_Mohawk_Theseus),
+            QCLASS(Heli_B_Mohawk_Theseus),
             QCLASS(Heli_I_MH6_Blue),
             QCLASS(Heli_B_MH6_Blue),
             QCLASS(Heli_I_Wildcat_Theseus),

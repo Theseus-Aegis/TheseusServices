@@ -25,7 +25,7 @@ class CLASS(Mohawk_Base): I_Heli_Transport_02_F {
     };
 };
 
-class CLASS(Heli_I_Mohawk): CLASS(Mohawk_Base) {
+class CLASS(Heli_I_Mohawk_Theseus): CLASS(Mohawk_Base) {
     scope = 2;
     forceInGarage = 1;
     side = 2;
@@ -38,7 +38,7 @@ class CLASS(Heli_I_Mohawk): CLASS(Mohawk_Base) {
     textureList[] = {"Theseus_Black", 1};
 };
 
-class CLASS(Heli_B_Mohawk): CLASS(Heli_I_Mohawk) {
+class CLASS(Heli_B_Mohawk_Theseus): CLASS(Heli_I_Mohawk_Theseus) {
     forceInGarage = 0;
     side = 1;
     faction = QCLASS(BLU);
