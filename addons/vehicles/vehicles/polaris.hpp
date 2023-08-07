@@ -42,7 +42,7 @@
     }; \
     class EventHandlers: EventHandlers { \
         postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };"; \
-    };
+    }
 
 class LSV_01_base_F;
 class LSV_01_unarmed_base_F: LSV_01_base_F {
@@ -50,11 +50,11 @@ class LSV_01_unarmed_base_F: LSV_01_base_F {
 };
 
 class CLASS(Polaris_Base): LSV_01_unarmed_base_F {
-    MACRO_POLARIS_TEXTURES
+    MACRO_POLARIS_TEXTURES;
 };
 
 class CLASS(Polaris_I_Black): CLASS(Polaris_Base) {
-    MACRO_LANDVEHICLE_CARGO
+    MACRO_LANDVEHICLE_CARGO;
     dlc = QUOTE(PREFIX);
     scope = 2;
     scopeCurator = 2;
@@ -111,11 +111,11 @@ class LSV_01_armed_base_F: LSV_01_base_F {
     class EventHandlers;
 };
 class CLASS(Polaris_Armed_Base): LSV_01_armed_base_F {
-    MACRO_POLARIS_TEXTURES
+    MACRO_POLARIS_TEXTURES;
 };
 
 class CLASS(Polaris_I_Armed_Black): CLASS(Polaris_Armed_Base) {
-    MACRO_LANDVEHICLE_CARGO
+    MACRO_LANDVEHICLE_CARGO;
     dlc = QUOTE(PREFIX);
     scope = 2;
     scopeCurator = 2;
@@ -172,10 +172,10 @@ class LSV_01_AT_base_F: LSV_01_base_F {
     class EventHandlers;
 };
 class CLASS(Polaris_AT_Base): LSV_01_AT_base_F {
-    MACRO_POLARIS_TEXTURES
+    MACRO_POLARIS_TEXTURES;
 };
 class CLASS(Polaris_I_AT_Black): CLASS(Polaris_AT_Base) {
-    MACRO_LANDVEHICLE_CARGO
+    MACRO_LANDVEHICLE_CARGO;
     dlc = QUOTE(PREFIX);
     scope = 2;
     scopeCurator = 2;

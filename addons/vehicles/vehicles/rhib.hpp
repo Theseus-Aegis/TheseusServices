@@ -14,7 +14,7 @@ class CLASS(RHIB_Base): Boat_Transport_02_base_F {
 };
 
 class CLASS(RHIB_I_Theseus_Black): CLASS(RHIB_Base) {
-    MACRO_LANDVEHICLE_CARGO
+    MACRO_LANDVEHICLE_CARGO;
     dlc = QUOTE(PREFIX);
     scope = 2;
     scopeCurator = 2;
