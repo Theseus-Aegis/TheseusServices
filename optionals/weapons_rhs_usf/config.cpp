@@ -11,6 +11,7 @@ class CfgPatches {
         authors[] = {"JoramD", "VastGameMaster"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
