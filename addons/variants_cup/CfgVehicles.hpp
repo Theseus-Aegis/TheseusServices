@@ -2,7 +2,7 @@ class CfgVehicles {
     class CUP_B_C130J_USMC;
 
     class CLASS(C130J_I_Theseus): CUP_B_C130J_USMC {
-        MACRO_AIRVEHICLE_CARGO
+        MACRO_AIRVEHICLE_CARGO;
         dlc = QUOTE(PREFIX);
         scope = 2;
         forceInGarage = 1;

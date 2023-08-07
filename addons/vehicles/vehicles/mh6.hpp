@@ -1,6 +1,6 @@
 class B_Heli_Light_01_F;
 class CLASS(Heli_I_MH6_Blue): B_Heli_Light_01_F {
-    MACRO_AIRVEHICLE_CARGO
+    MACRO_AIRVEHICLE_CARGO;
     dlc = QUOTE(PREFIX);
     scope = 2;
     forceInGarage = 1;
