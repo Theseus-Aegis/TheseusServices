@@ -1,7 +1,7 @@
 class CfgVehicles {
     #include "vehicles\hemtt.hpp"
+    #include "vehicles\merlin.hpp"
     #include "vehicles\mh6.hpp"
-    #include "vehicles\mohawk.hpp"
     #include "vehicles\offroad.hpp"
     #include "vehicles\polaris.hpp"
     #include "vehicles\rhib.hpp"

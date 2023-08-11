@@ -3,7 +3,7 @@ class I_Heli_Transport_02_F: Heli_Transport_02_base_F {
     class EventHandlers;
 };
 
-class CLASS(Mohawk_Base): I_Heli_Transport_02_F {
+class CLASS(Merlin_Base): I_Heli_Transport_02_F {
     dlc = QUOTE(PREFIX);
     scope = 0;
     class TextureSources {
@@ -25,20 +25,20 @@ class CLASS(Mohawk_Base): I_Heli_Transport_02_F {
     };
 };
 
-class CLASS(Heli_I_Mohawk_Theseus): CLASS(Mohawk_Base) {
+class CLASS(Heli_I_Merlin_Theseus): CLASS(Merlin_Base) {
     scope = 2;
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
-    displayName = CSTRING(Heli_Mohawk_Theseus);
-    editorPreview = QPATHTOF(UI\Heli_Mohawk.jpg);
+    displayName = CSTRING(Heli_Merlin_Theseus);
+    editorPreview = QPATHTOF(UI\Heli_Merlin.jpg);
     author = "Mike";
     crew = QCLASS(Unit_I_PilotHeli);
     typicalCargo[] = {QCLASS(Unit_I_Engineer)};
     textureList[] = {"Theseus_Black", 1};
 };
 
-class CLASS(Heli_B_Mohawk_Theseus): CLASS(Heli_I_Mohawk_Theseus) {
+class CLASS(Heli_B_Merlin_Theseus): CLASS(Heli_I_Merlin_Theseus) {
     forceInGarage = 0;
     side = 1;
     faction = QCLASS(BLU);
