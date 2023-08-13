@@ -8,5 +8,5 @@ logoOver = "logo_tacs_small_ca.paa";
 tooltip = "Theseus Services";
 tooltipOwned = "Theseus Services Owned";
 overview = "Theseus Services is a content mod providing assets for Private Military Companies.";
-author = "Theseus Services Team";
+author = "Theseus Incorporated";
 overviewPicture = "logo_tacs_ca.paa";

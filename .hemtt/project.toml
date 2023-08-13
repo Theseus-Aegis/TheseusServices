@@ -1,6 +1,6 @@
 name = "Theseus Services"
 prefix = "tacs"
-author = "Theseus Services Team"
+author = "Theseus Incorporated"
 
 [files]
 include = [
