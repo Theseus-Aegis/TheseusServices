@@ -14,16 +14,15 @@
             <Japanese>テーセウス サービス</Japanese>
         </Key>
         <Key ID="STR_TACS_Main_Author">
-            <English>Theseus Services Team</English>
-            <German>Theseus Services Team</German>
-            <Polish>Theseus Services Team</Polish>
-            <Portuguese>Theseus Services Team</Portuguese>
-            <Russian>Theseus Services Team</Russian>
-            <Czech>Theseus Services Team</Czech>
-            <Spanish>Theseus Services Team</Spanish>
-            <Italian>Theseus Services Team</Italian>
-            <French>Theseus Services Team</French>
-            <Japanese>テーセウス サービス チーム</Japanese>
+            <English>Theseus Incorporated</English>
+            <German>Theseus Incorporated</German>
+            <Polish>Theseus Incorporated</Polish>
+            <Portuguese>Theseus Incorporated</Portuguese>
+            <Russian>Theseus Incorporated</Russian>
+            <Czech>Theseus Incorporated</Czech>
+            <Spanish>Theseus Incorporated</Spanish>
+            <Italian>Theseus Incorporated</Italian>
+            <French>Theseus Incorporated</French>
         </Key>
         <Key ID="STR_TACS_Main_URL">
             <English>https://github.com/Theseus-Aegis/TheseusServices</English>
