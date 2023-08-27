@@ -16,6 +16,8 @@ class CfgPatches {
             QCLASS(Item_Vest_PlateCarrier_Khaki),
             QCLASS(Item_Vest_PlateCarrier_MARPAT),
             QCLASS(Item_Vest_PlateCarrier_White),
+            QCLASS(Item_Vest_PlateCarrier_RGR),
+            QCLASS(Item_Vest_PlateCarrier_Grey),
             QCLASS(Item_Vest_Tactical_DarkBlack),
             QCLASS(Item_Vest_Modular_Black),
             QCLASS(Item_Vest_Modular_Coyote)
@@ -33,6 +35,8 @@ class CfgPatches {
             QCLASS(Vest_PlateCarrier_Khaki),
             QCLASS(Vest_PlateCarrier_MARPAT),
             QCLASS(Vest_PlateCarrier_White),
+            QCLASS(Vest_PlateCarrier_RGR),
+            QCLASS(Vest_PlateCarrier_Grey),
             QCLASS(Vest_Tactical_DarkBlack),
             QCLASS(Vest_Modular_Black),
             QCLASS(Vest_Modular_Coyote)

@@ -28,8 +28,14 @@
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_RGR">
             <English>Assault Pack Expanded (RGR) Logo</English>
         </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Grey">
+            <English>Assault Pack Expanded (Grey) Logo</English>
+        </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultPack_RGR">
             <English>Assault Pack (RGR)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_AssaultPack_Grey">
+            <English>Assault Pack (Grey)</English>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Carryall_DarkBlack">
             <English>Carryall Backpack (Dark Black)</English>
@@ -53,6 +59,9 @@
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_RGR">
             <English>Kitbag (RGR)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Grey">
+            <English>Kitbag (Grey)</English>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_White">
             <English>Kitbag Medic (White)</English>

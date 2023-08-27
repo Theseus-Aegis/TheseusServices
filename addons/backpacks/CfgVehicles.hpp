@@ -60,6 +60,18 @@ class CfgVehicles {
         };
         maximumLoad = 180;
     };
+    class CLASS(Backpack_AssaultExpanded_Grey): B_AssaultPack_Kerry {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "GilleeDoo";
+        displayName = CSTRING(Backpack_AssaultExpanded_Grey);
+        picture = "";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_assaultexpanded_gry_co.paa),
+            QPATHTOEF(vests,data\vest_platecarrier_gry_co.paa)
+        };
+        maximumLoad = 180;
+    };
 
     class B_AssaultPack_Base;
     class CLASS(Backpack_AssaultPack_RGR): B_AssaultPack_Base {
@@ -70,6 +82,18 @@ class CfgVehicles {
         picture = QPATHTOF(UI\backpack_assaultpack_rgr_ca.paa);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\backpack_assaultexpanded_rgr_co.paa)
+        };
+        maximumLoad = 160;
+    };
+
+    class CLASS(Backpack_AssaultPack_Grey): B_AssaultPack_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "GilleeDoo";
+        displayName = CSTRING(Backpack_AssaultPack_Grey);
+        picture = "";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_assaultexpanded_gry_co.paa)
         };
         maximumLoad = 160;
     };
@@ -94,7 +118,6 @@ class CfgVehicles {
             QPATHTOF(data\backpack_carryall_white_co.paa)
         };
     };
-
 
     class B_Kitbag_Base;
     class CLASS(Backpack_Kitbag_DarkBlack): B_Kitbag_Base {
@@ -125,6 +148,17 @@ class CfgVehicles {
         picture = QPATHTOF(UI\backpack_kitbag_rgr_ca.paa);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\backpack_kitbag_rgr_co.paa)
+        };
+    };
+
+    class CLASS(Backpack_Kitbag_Grey): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo";
+        displayName = CSTRING(Backpack_Kitbag_Grey);
+        picture = "";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_gry_co.paa)
         };
     };
 
