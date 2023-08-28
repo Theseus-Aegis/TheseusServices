@@ -1,7 +1,7 @@
 // Naming pattern: SizeSleeves_ColorShirt_ColorPants_ColorBoots
 // TShirt - Jean Pants
 class CLASS(Unit_TShirt_JP_Base): B_Soldier_base_F {
-    MACRO_BASE_CLASS_COMMON
+    MACRO_BASE_CLASS_COMMON;
     nakedUniform = QCLASS(Unit_Underwear_BlackLogo);
     model = "\A3\Characters_F\Civil\c_citizen5.p3d";
     hiddenSelections[] = {"Camo1", "Camo2"};

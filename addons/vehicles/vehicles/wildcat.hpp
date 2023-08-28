@@ -35,7 +35,7 @@ class CLASS(Heli_Wildcat_Base): I_Heli_light_03_dynamicLoadout_F {
 };
 
 class CLASS(Heli_I_Wildcat_Theseus): CLASS(Heli_Wildcat_Base) {
-    MACRO_AIRVEHICLE_CARGO
+    MACRO_AIRVEHICLE_CARGO;
     dlc = QUOTE(PREFIX);
     scope = 2;
     forceInGarage = 1;
@@ -95,7 +95,7 @@ class CLASS(Heli_I_Wildcat_Unarmed_Base): I_Heli_light_03_unarmed_F {
 };
 
 class CLASS(Heli_I_Wildcat_Theseus_Unarmed): CLASS(Heli_I_Wildcat_Unarmed_Base) {
-    MACRO_AIRVEHICLE_CARGO
+    MACRO_AIRVEHICLE_CARGO;
     dlc = QUOTE(PREFIX);
     scope = 2;
     forceInGarage = 1;

@@ -75,7 +75,7 @@
         MACRO_ADDMAGAZINE(SmokeShellBlue,2); \
         MACRO_ADDMAGAZINE(SmokeShellRed,2); \
     }; \
-    class TransportWeapons {};
+    class TransportWeapons {}
 
 #define MACRO_AIRVEHICLE_CARGO \
     class TransportBackpacks { \
@@ -91,4 +91,4 @@
         MACRO_ADDMAGAZINE(SmokeShellBlue,2); \
         MACRO_ADDMAGAZINE(SmokeShellRed,2); \
     }; \
-    class TransportWeapons {};
+    class TransportWeapons {}

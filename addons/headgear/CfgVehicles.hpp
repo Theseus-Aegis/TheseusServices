@@ -4,11 +4,11 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX); \
         scope = 2; \
         scopeCurator = 2; \
-        vehicleClass = "ItemsHeadgear";
+        vehicleClass = "ItemsHeadgear"
 
     class Headgear_Base_F;
     class CLASS(Item_Cap_Headphones_BlackLogo): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Cap_Headphones_BlackLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -18,7 +18,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Cap_BlackLogo): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Cap_BlackLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -28,7 +28,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Cap_TanLogo): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Cap_TanLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -38,7 +38,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Cap_Earpiece_BlackLogo): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Cap_Earpiece_BlackLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -48,7 +48,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Cap_Earpiece_TanLogo): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Cap_Earpiece_TanLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -58,7 +58,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Cap_Backwards_BlackLogo): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Cap_Backwards_BlackLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -68,7 +68,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Cap_Backwards_TanLogo): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Cap_Backwards_TanLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -78,7 +78,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Helmet_Ballistic_DarkBlack): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Helmet_Ballistic_DarkBlack);
 
@@ -87,7 +87,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Helmet_Ballistic_White): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Kresky";
         displayName = CSTRING(Helmet_Ballistic_White);
 
@@ -96,7 +96,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Helmet_Enc_Ballistic_DarkBlack): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Kresky";
         displayName = CSTRING(Helmet_Enc_Ballistic_DarkBlack);
 
@@ -105,7 +105,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Helmet_Enc_Ballistic_White): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Kresky";
         displayName = CSTRING(Helmet_Enc_Ballistic_White);
 
@@ -114,7 +114,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Helmet_Light_Ballistic_DarkBlack): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Kresky";
         displayName = CSTRING(Helmet_Light_Ballistic_DarkBlack);
 
@@ -123,7 +123,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Helmet_PilotHeli_Tan): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Helmet_PilotHeli_Tan);
 
@@ -132,7 +132,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Hat_Boonie_RangerGreen): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Hat_Boonie_RangerGreen);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -142,7 +142,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Hat_Boonie_DesertMARPAT): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Hat_Boonie_DesertMARPAT);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -152,7 +152,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Hat_Boonie_Woodland): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Hat_Boonie_Woodland);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -162,7 +162,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Hat_Boonie_UCP): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Hat_Boonie_UCP);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -172,7 +172,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Hat_Beret_BlackLogo): Headgear_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Kresky";
         displayName = CSTRING(Hat_Beret_BlackLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
@@ -184,7 +184,7 @@ class CfgVehicles {
 
     class Headgear_H_HelmetHBK_F;
     class CLASS(Item_Helmet_Modular_Black): Headgear_H_HelmetHBK_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Black);
 
@@ -194,7 +194,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Green): Headgear_H_HelmetHBK_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Green);
 
@@ -204,7 +204,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Coyote): Headgear_H_HelmetHBK_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Coyote);
 
@@ -214,7 +214,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_AU): Headgear_H_HelmetHBK_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_AU);
 
@@ -224,7 +224,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_FG): Headgear_H_HelmetHBK_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_FG);
 
@@ -234,7 +234,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_RGR): Headgear_H_HelmetHBK_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Mike";
         displayName = CSTRING(Helmet_Modular_RGR);
 
@@ -245,7 +245,7 @@ class CfgVehicles {
 
     class Headgear_H_HelmetHBK_headset_F;
     class CLASS(Item_Helmet_Modular_Headset_Black): Headgear_H_HelmetHBK_headset_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Headset_Black);
 
@@ -255,7 +255,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Headset_Green): Headgear_H_HelmetHBK_headset_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Headset_Green);
 
@@ -265,7 +265,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Headset_Coyote): Headgear_H_HelmetHBK_headset_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Headset_Coyote);
 
@@ -275,7 +275,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Headset_AU): Headgear_H_HelmetHBK_headset_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Headset_AU);
 
@@ -285,7 +285,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Headset_FG): Headgear_H_HelmetHBK_headset_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Headset_FG);
 
@@ -295,7 +295,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Headset_RGR): Headgear_H_HelmetHBK_headset_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Mike";
         displayName = CSTRING(Helmet_Modular_Headset_RGR);
 
@@ -306,7 +306,7 @@ class CfgVehicles {
 
     class Headgear_H_HelmetHBK_chops_F;
     class CLASS(Item_Helmet_Modular_Chops_Black): Headgear_H_HelmetHBK_chops_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Chops_Black);
 
@@ -316,7 +316,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Chops_Green): Headgear_H_HelmetHBK_chops_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Chops_Green);
 
@@ -326,7 +326,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Chops_Coyote): Headgear_H_HelmetHBK_chops_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Chops_Coyote);
 
@@ -336,7 +336,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Chops_AU): Headgear_H_HelmetHBK_chops_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Chops_AU);
 
@@ -346,7 +346,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Chops_FG): Headgear_H_HelmetHBK_chops_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Chops_FG);
 
@@ -356,7 +356,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Chops_RGR): Headgear_H_HelmetHBK_chops_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Mike";
         displayName = CSTRING(Helmet_Modular_Chops_RGR);
 
@@ -367,7 +367,7 @@ class CfgVehicles {
 
     class Headgear_H_HelmetHBK_ear_F;
     class CLASS(Item_Helmet_Modular_Ear_Black): Headgear_H_HelmetHBK_ear_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Ear_Black);
 
@@ -377,7 +377,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Ear_Green): Headgear_H_HelmetHBK_ear_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Ear_Green);
 
@@ -387,7 +387,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Ear_Coyote): Headgear_H_HelmetHBK_ear_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Ear_Coyote);
 
@@ -397,7 +397,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Ear_AU): Headgear_H_HelmetHBK_ear_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Ear_AU);
 
@@ -407,7 +407,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Ear_FG): Headgear_H_HelmetHBK_ear_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Helmet_Modular_Ear_FG);
 
@@ -417,7 +417,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Helmet_Modular_Ear_RGR): Headgear_H_HelmetHBK_ear_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Mike";
         displayName = CSTRING(Helmet_Modular_Ear_RGR);
 
