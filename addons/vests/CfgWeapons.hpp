@@ -102,7 +102,7 @@ class CfgWeapons {
         scope = 2;
         author = "GilleeDoo";
         displayName = CSTRING(Vest_PlateCarrier_Grey);
-        picture = "";
+        picture = QPATHTOF(UI\vest_platecarrier_gry_ca.paa);
         FIX_CAMO_HIDDENSELECTIONS
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_gry_co.paa)};
     };
