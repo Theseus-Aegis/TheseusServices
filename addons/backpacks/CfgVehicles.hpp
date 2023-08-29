@@ -65,10 +65,10 @@ class CfgVehicles {
         scope = 2;
         author = "GilleeDoo";
         displayName = CSTRING(Backpack_AssaultExpanded_Grey);
-        picture = QPATHTOF(UI\backpack_assaultexpanded_gry_ca.paa);
+        picture = QPATHTOF(UI\backpack_assaultexpanded_grey_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_assaultexpanded_gry_co.paa),
-            QPATHTOEF(vests,data\vest_platecarrier_gry_co.paa)
+            QPATHTOF(data\backpack_assaultexpanded_grey_co.paa),
+            QPATHTOEF(vests,data\vest_platecarrier_grey_co.paa)
         };
         maximumLoad = 180;
     };
@@ -91,9 +91,9 @@ class CfgVehicles {
         scope = 2;
         author = "GilleeDoo";
         displayName = CSTRING(Backpack_AssaultPack_Grey);
-        picture = QPATHTOF(UI\backpack_assaultpack_gry_ca.paa);
+        picture = QPATHTOF(UI\backpack_assaultpack_grey_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_assaultexpanded_gry_co.paa)
+            QPATHTOF(data\backpack_assaultexpanded_grey_co.paa)
         };
         maximumLoad = 160;
     };
@@ -156,9 +156,9 @@ class CfgVehicles {
         scope = 2;
         author = "Bohemia Interactive, GilleeDoo";
         displayName = CSTRING(Backpack_Kitbag_Grey);
-        picture = QPATHTOF(UI\backpack_kitbag_gry_ca.paa);
+        picture = QPATHTOF(UI\backpack_kitbag_grey_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\backpack_kitbag_gry_co.paa)
+            QPATHTOF(data\backpack_kitbag_grey_co.paa)
         };
     };
 
