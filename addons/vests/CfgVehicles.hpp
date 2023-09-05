@@ -4,12 +4,12 @@ class CfgVehicles {
         dlc = QUOTE(PREFIX); \
         scope = 2; \
         scopeCurator = 2; \
-        vehicleClass = "ItemsVests";
+        vehicleClass = "ItemsVests"
 
     // Plate Carrier Full
     class Vest_Base_F;
     class CLASS(Item_Vest_PlateCarrierFull_Black): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Vest_PlateCarrierFull_Black);
 
@@ -18,7 +18,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrierFull_Green): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Vest_PlateCarrierFull_Green);
 
@@ -29,7 +29,7 @@ class CfgVehicles {
 
     // Plate Carrier
     class CLASS(Item_Vest_PlateCarrier_Black): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Vest_PlateCarrier_Black);
 
@@ -38,7 +38,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrier_Green): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Vest_PlateCarrier_Green);
 
@@ -47,7 +47,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrier_Coyote): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Vest_PlateCarrier_Coyote);
 
@@ -56,7 +56,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrier_Khaki): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Vest_PlateCarrier_Khaki);
 
@@ -65,7 +65,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrier_MARPAT): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Vest_PlateCarrier_MARPAT);
 
@@ -74,7 +74,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrier_White): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Kresky";
         displayName = CSTRING(Vest_PlateCarrier_White);
 
@@ -83,7 +83,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrier_RGR): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas, JoramD, GilleeDoo";
         displayName = CSTRING(Vest_PlateCarrier_RGR);
 
@@ -92,7 +92,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrier_Grey): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "GilleDoo";
         displayName = CSTRING(Vest_PlateCarrier_Grey);
 
@@ -103,7 +103,7 @@ class CfgVehicles {
 
     // Plate Carrier Heavy
     class CLASS(Item_Vest_PlateCarrierHeavy_Black): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Kresky";
         displayName = CSTRING(Vest_PlateCarrierHeavy_Black);
 
@@ -112,7 +112,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_Coyote): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Kresky";
         displayName = CSTRING(Vest_PlateCarrierHeavy_Coyote);
 
@@ -121,7 +121,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_Green): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Kresky";
         displayName = CSTRING(Vest_PlateCarrierHeavy_Green);
 
@@ -130,7 +130,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_White): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Kresky";
         displayName = CSTRING(Vest_PlateCarrierHeavy_White);
 
@@ -141,7 +141,7 @@ class CfgVehicles {
 
     // Tactical
     class CLASS(Item_Vest_Tactical_DarkBlack): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Jonpas";
         displayName = CSTRING(Vest_Tactical_DarkBlack);
 
@@ -152,7 +152,7 @@ class CfgVehicles {
 
     // Modular Carrier
     class CLASS(Item_Vest_Modular_Black): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Vest_Modular_Black);
 
@@ -162,7 +162,7 @@ class CfgVehicles {
     };
 
     class CLASS(Item_Vest_Modular_Coyote): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "Trenchgun, Mike";
         displayName = CSTRING(Vest_Modular_Coyote);
 

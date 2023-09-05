@@ -7,6 +7,6 @@
     displayName = CSTRING(item); \
     class TransportItems { \
         MACRO_ADDITEM(CLASS(item),1); \
-    };
+    }
 
 class Item_Base_F;

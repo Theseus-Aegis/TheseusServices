@@ -3,11 +3,11 @@ class CfgVehicles {
     #define MACRO_ITEM_COMMON \
         dlc = QUOTE(PREFIX); \
         scope = 2; \
-        scopeCurator = 2;
+        scopeCurator = 2
 
     class Weapon_Base_F;
     class CLASS(Item_MX_BlackCamo): Weapon_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsPrimary";
         author = "Jonpas";
         displayName = CSTRING(MX_BlackCamo);
@@ -17,7 +17,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_MX_GL_BlackCamo): Weapon_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsPrimary";
         author = "Jonpas";
         displayName = CSTRING(MX_GL_BlackCamo);
@@ -27,7 +27,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_EBR_Black_F): Weapon_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsPrimary";
         author = "Mike";
         displayName = CSTRING(EBR_Black_F);
@@ -37,7 +37,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Mk20_Black_F): Weapon_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsPrimary";
         author = "Mike";
         displayName = CSTRING(Mk20_Black_F);
@@ -47,7 +47,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_MK20C_Black_F): Weapon_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsPrimary";
         author = "Mike";
         displayName = CSTRING(MK20C_Black_F);
@@ -57,7 +57,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_MK20_EGLM_Black_F): Weapon_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsPrimary";
         author = "Mike";
         displayName = CSTRING(MK20_EGLM_Black_F);
@@ -68,7 +68,7 @@ class CfgVehicles {
     };
     class Pistol_Base_F;
     class CLASS(Item_Walther_P99): Pistol_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsHandguns";
         author = "JoramD";
         displayName = CSTRING(Walther_P99);
@@ -87,7 +87,7 @@ class CfgVehicles {
 
     class Launcher_Base_F;
     class CLASS(Item_MRAWS_Black_F): Launcher_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsSecondary";
         author = "Kresky";
         displayName = CSTRING(MRAWS_Black_F);
@@ -97,7 +97,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_MRAWS_Black_Rail_F): Launcher_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsSecondary";
         author = "Kresky";
         displayName = CSTRING(MRAWS_Black_Rail_F);

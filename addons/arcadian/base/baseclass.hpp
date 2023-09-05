@@ -45,7 +45,7 @@ class CLASS(Arcadian_Base): Car_F {
         QPATHTOF(data\arcadian_body_black_co.paa),
         QPATHTOF(data\arcadian_interior_co.paa)
     };
-    MACRO_ARCADIAN_DAMAGE
+    MACRO_ARCADIAN_DAMAGE;
 
     #include "config_ace.hpp"
     #include "config_acre.hpp"
@@ -79,7 +79,7 @@ class CLASS(Arcadian_Armed_Base): CLASS(Arcadian_Base) {
         QPATHTOF(data\arcadian_body_armed_black_co.paa),
         QPATHTOF(data\arcadian_interior_armed_co.paa)
     };
-    MACRO_ARCADIAN_ARMED_DAMAGE
+    MACRO_ARCADIAN_ARMED_DAMAGE;
     #include "config_animationsources_armed.hpp"
     #include "config_texturesources_armed.hpp"
     #include "config_turret_gatling.hpp"
