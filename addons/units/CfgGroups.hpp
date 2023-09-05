@@ -8,6 +8,7 @@ class CfgGroups {
                     side = 2;
                     faction = QCLASS(IND);
                     name = CSTRING(Group_Bodyguards);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 2;
                         vehicle = QCLASS(Unit_I_Bodyguard);
@@ -27,6 +28,7 @@ class CfgGroups {
                     side = 2;
                     faction = QCLASS(IND);
                     name = CSTRING(Group_Patrol);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 2;
                         vehicle = QCLASS(Unit_I_Contractor_GL);
@@ -50,6 +52,7 @@ class CfgGroups {
                     side = 2;
                     faction = QCLASS(IND);
                     name = CSTRING(Group_Team);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 2;
                         vehicle = QCLASS(Unit_I_TeamLeader);
@@ -84,6 +87,7 @@ class CfgGroups {
                     side = 2;
                     faction = QCLASS(IND);
                     name = CSTRING(Group_Squad);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 2;
                         vehicle = QCLASS(Unit_I_TeamLeader);
@@ -133,6 +137,7 @@ class CfgGroups {
                     side = 2;
                     faction = QCLASS(IND);
                     name = CSTRING(Group_Specialists);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 2;
                         vehicle = QCLASS(Unit_I_TeamLeader);
@@ -163,6 +168,7 @@ class CfgGroups {
                     side = 2;
                     faction = QCLASS(IND);
                     name = CSTRING(Group_Support);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 2;
                         vehicle = QCLASS(Unit_I_Contractor_GL);
@@ -196,6 +202,7 @@ class CfgGroups {
                     side = 1;
                     faction = QCLASS(BLU);
                     name = CSTRING(Group_Bodyguards);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 1;
                         vehicle = QCLASS(Unit_B_Bodyguard);
@@ -215,6 +222,7 @@ class CfgGroups {
                     side = 1;
                     faction = QCLASS(BLU);
                     name = CSTRING(Group_Patrol);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 1;
                         vehicle = QCLASS(Unit_B_Contractor_GL);
@@ -238,6 +246,7 @@ class CfgGroups {
                     side = 1;
                     faction = QCLASS(BLU);
                     name = CSTRING(Group_Team);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 1;
                         vehicle = QCLASS(Unit_B_TeamLeader);
@@ -272,6 +281,7 @@ class CfgGroups {
                     side = 1;
                     faction = QCLASS(BLU);
                     name = CSTRING(Group_Squad);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 1;
                         vehicle = QCLASS(Unit_B_TeamLeader);
@@ -321,6 +331,7 @@ class CfgGroups {
                     side = 1;
                     faction = QCLASS(BLU);
                     name = CSTRING(Group_Specialists);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 1;
                         vehicle = QCLASS(Unit_B_TeamLeader);
@@ -351,6 +362,7 @@ class CfgGroups {
                     side = 1;
                     faction = QCLASS(BLU);
                     name = CSTRING(Group_Support);
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class Unit0 {
                         side = 1;
                         vehicle = QCLASS(Unit_B_Contractor_GL);

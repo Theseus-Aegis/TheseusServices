@@ -7,6 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_units", "hlcweapons_ar15"};
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Jonpas"};
         url = ECSTRING(main,URL);
