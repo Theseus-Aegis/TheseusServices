@@ -92,7 +92,7 @@ class CfgVehicles {
         };
     };
     class CLASS(Item_Vest_PlateCarrier_Grey): Vest_Base_F {
-        MACRO_ITEM_COMMON
+        MACRO_ITEM_COMMON;
         author = "GilleDoo";
         displayName = CSTRING(Vest_PlateCarrier_Grey);
 
