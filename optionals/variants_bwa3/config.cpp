@@ -28,6 +28,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_units", "bwa3_eagle"};
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"BW-Mod", "GilleeDoo", "Jonpas"};
         url = ECSTRING(main,URL);

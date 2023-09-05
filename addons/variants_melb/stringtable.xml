@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACS">
+    <Package name="Variants_MELB">
+        <Key ID="STR_TACS_Variants_MELB_AH6M_H_Theseus_Black">
+            <English>AH-6M-H Little Bird (Theseus Black)</English>
+            <Japanese>AH-6M-H リトルバード (テーセウス ブラック)</Japanese>
+            <French>AH-6M-H Little Bird (Theseus Noir)</French>
+            <German>AH-6M-H Little Bird (Theseus Schwarz)</German>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_L_Theseus_Black">
+            <English>AH-6M-L Little Bird (Theseus Black)</English>
+            <Japanese>AH-6M-L リトルバード (テーセウス ブラック)</Japanese>
+            <French>AH-6M-L Little Bird (Theseus Noir)</French>
+            <German>AH-6M-L Little Bird (Theseus Schwarz)</German>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_M_Theseus_Black">
+            <English>AH-6M-M Little Bird (Theseus Black)</English>
+            <Japanese>AH-6M-M リトルバード (テーセウス ブラック)</Japanese>
+            <French>AH-6M-M Little Bird (Theseus Noir)</French>
+            <German>AH-6M-M Little Bird (Theseus Schwarz)</German>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_H6M_Theseus_Black">
+            <English>OH-6M (Theseus Black)</English>
+            <Japanese>OH-6M (テーセウス ブラック)</Japanese>
+            <French>OH-6M (Theseus Noir)</French>
+            <German>OH-6M (Theseus Schwarz)</German>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_MH6M_Theseus_Black">
+            <English>MH-6M Little Bird (Theseus Black)</English>
+            <Japanese>MH-6M リトルバード (テーセウス ブラック)</Japanese>
+            <French>MH-6M Little Bird (Theseus Noir)</French>
+            <German>MH-6M (Theseus Schwarz)</German>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_H_Black">
+            <English>AH-6M-H Little Bird (Black)</English>
+            <Japanese>AH-6M-H リトルバード (黒)</Japanese>
+            <French>AH-6M-H Little Bird (Noir)</French>
+            <German>AH-6M-H (Theseus Schwarz)</German>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_L_Black">
+            <English>AH-6M-L Little Bird (Black)</English>
+            <Japanese>AH-6M-L リトルバード (黒)</Japanese>
+            <French>AH-6M-L Little Bird (Noir)</French>
+            <German>AH-6M-L Little Bird (Schwarz)</German>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_AH6M_M_Black">
+            <English>AH-6M-M Little Bird (Black)</English>
+            <Japanese>AH-6M-M リトルバード (黒)</Japanese>
+            <French>AH-6M-M Little Bird (Noir)</French>
+            <German>AH-6M-M Little Bird (Schwarz)</German>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_H6M_Black">
+            <English>OH-6M (Black)</English>
+            <Japanese>OH-6M (黒)</Japanese>
+            <French>OH-6M (Noir)</French>
+            <German>OH-6M (Schwarz)</German>
+        </Key>
+        <Key ID="STR_TACS_Variants_MELB_MH6M_Black">
+            <English>MH-6M Little Bird (Black)</English>
+            <Japanese>MH-6M リトルバード (黒)</Japanese>
+            <French>MH-6M Little Bird (Noir)</French>
+            <German>MH-6M Little Bird (Schwarz)</German>
+        </Key>
+    </Package>
+</Project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACS">
+    <Package name="Variants_CUP">
+        <Key ID="STR_TACS_Variants_CUP_C130J_Theseus_Name">
+            <English>C-130J</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_C130J_Theseus_Texture_Name">
+            <English>Theseus Grey</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_C130J_Author">
+            <English>GilleeDoo, Mike</English>
+        </Key>
+    </Package>
+</Project>
