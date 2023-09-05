@@ -37,10 +37,10 @@ class CLASS(Unit_I_Contractor): CLASS(Unit_Combat_LS_BS_TP_TB) {
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Contractor);
     editorPreview = QPATHTOF(UI\Unit_Contractor.jpg);
-    weapons[] = {QCLASS(MX_BlackCamo_ACO), "hgun_P07_F", "Binocular", "Throw", "Put"};
-    respawnWeapons[] = {QCLASS(MX_BlackCamo_ACO), "hgun_P07_F", "Binocular", "Throw", "Put"};
-    magazines[] = {ITEMS_8(30Rnd_65x39_caseless_black_mag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
-    respawnMagazines[] = {ITEMS_8(30Rnd_65x39_caseless_black_mag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
+    weapons[] = {QCLASS(HK416_Black_Holo), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    respawnWeapons[] = {QCLASS(HK416_Black_Holo), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    magazines[] = {ITEMS_8(30Rnd_556x45_Stanag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
+    respawnMagazines[] = {ITEMS_8(30Rnd_556x45_Stanag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
     linkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Aviator", QCLASS(Vest_PlateCarrier_Black)};
     respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Aviator", QCLASS(Vest_PlateCarrier_Black)};
 
@@ -75,10 +75,10 @@ class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_LS_BS_TP_TB) {
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Contractor_GL);
     editorPreview = QPATHTOF(UI\Unit_Contractor_GL.jpg);
-    weapons[] = {QCLASS(MX_GL_BlackCamo_ACO), "hgun_P07_F", "Binocular", "Throw", "Put"};
-    respawnWeapons[] = {QCLASS(MX_GL_BlackCamo_ACO), "hgun_P07_F", "Binocular", "Throw", "Put"};
-    magazines[] = {ITEMS_5(30Rnd_65x39_caseless_black_mag), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", ITEMS_3(1Rnd_HE_Grenade_shell), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_2(HandGrenade)};
-    respawnMagazines[] = {ITEMS_5(30Rnd_65x39_caseless_black_mag), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", ITEMS_3(1Rnd_HE_Grenade_shell), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_2(HandGrenade)};
+    weapons[] = {QCLASS(HK416_GL_Black_HAMR), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    respawnWeapons[] = {QCLASS(HK416_GL_Black_HAMR), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    magazines[] = {ITEMS_5(30Rnd_556x45_Stanag), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", ITEMS_3(1Rnd_HE_Grenade_shell), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_2(HandGrenade)};
+    respawnMagazines[] = {ITEMS_5(30Rnd_556x45_Stanag), "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", ITEMS_3(1Rnd_HE_Grenade_shell), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", ITEMS_2(HandGrenade)};
     linkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Black)};
     respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Black)};
 
@@ -113,10 +113,10 @@ class CLASS(Unit_I_Engineer): CLASS(Unit_Combat_RS_GS_BP_BB) {
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Engineer);
     editorPreview = QPATHTOF(UI\Unit_Engineer.jpg);
-    weapons[] = {QCLASS(MX_BlackCamo_MRCO), "hgun_P07_F", "Binocular", "Throw", "Put"};
-    respawnWeapons[] = {QCLASS(MX_BlackCamo_MRCO), "hgun_P07_F", "Binocular", "Throw", "Put"};
-    magazines[] = {ITEMS_12(30Rnd_65x39_caseless_black_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-    respawnMagazines[] = {ITEMS_12(30Rnd_65x39_caseless_black_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+    weapons[] = {QCLASS(HK416_Black_Holo), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    respawnWeapons[] = {QCLASS(HK416_Black_Holo), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    magazines[] = {ITEMS_12(30Rnd_556x45_Stanag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+    respawnMagazines[] = {ITEMS_12(30Rnd_556x45_Stanag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
     linkedItems[] = {DEFAULT_ITEMS, "H_HelmetB", "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "H_HelmetB", "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
     backpack = QCLASS(Backpack_AssaultExpanded_Green_ExplosivesTechnician_Filled);
@@ -157,10 +157,10 @@ class CLASS(Unit_I_Medic): CLASS(Unit_Combat_RS_BS_GP_BB) {
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Medic);
     editorPreview = QPATHTOF(UI\Unit_Medic.jpg);
-    weapons[] = {QCLASS(MX_BlackCamo_ACO), "hgun_P07_F", "Binocular", "Throw", "Put"};
-    respawnWeapons[] = {QCLASS(MX_BlackCamo_ACO), "hgun_P07_F", "Binocular", "Throw", "Put"};
-    magazines[] = {ITEMS_8(30Rnd_65x39_caseless_black_mag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
-    respawnMagazines[] = {ITEMS_8(30Rnd_65x39_caseless_black_mag), ITEMS_3(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
+    weapons[] = {QCLASS(HK416_Black_Holo), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    respawnWeapons[] = {QCLASS(HK416_Black_Holo), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    magazines[] = {ITEMS_11(30Rnd_556x45_Stanag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+    respawnMagazines[] = {ITEMS_11(30Rnd_556x45_Stanag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
     linkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
     respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_Tactical_DarkBlack)};
     backpack = QCLASS(Backpack_Kitbag_DarkBlack_Medic_Filled);
@@ -200,10 +200,10 @@ class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_GS_BP_BB) {
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Specialist);
     editorPreview = QPATHTOF(UI\Unit_Specialist.jpg);
-    weapons[] = {"LMG_Mk200_MRCO_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
-    respawnWeapons[] = {"LMG_Mk200_MRCO_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
-    magazines[] = {"200Rnd_65x39_cased_Box_Tracer", ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-    respawnMagazines[] = {"200Rnd_65x39_cased_Box_Tracer", ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+    weapons[] = {QCLASS(M249_Holo)};
+    respawnWeapons[] = {QCLASS(M249_Holo)};
+    magazines[] = {ITEMS_3(200Rnd_556x45_Box_F), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+    respawnMagazines[] = {ITEMS_3(200Rnd_556x45_Box_F), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
     linkedItems[] = {DEFAULT_ITEMS, "H_HelmetB", "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "H_HelmetB", "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
     backpack = QCLASS(Backpack_AssaultExpanded_Green_Specialist_Filled);
@@ -241,10 +241,10 @@ class CLASS(Unit_I_TeamLeader): CLASS(Unit_Combat_RS_BS_TP_BB) {
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_TeamLeader);
     editorPreview = QPATHTOF(UI\Unit_TeamLeader.jpg);
-    weapons[] = {QCLASS(MX_BlackCamo_MRCO), "hgun_Rook40_F", "Binocular", "Throw", "Put"};
-    respawnWeapons[] = {QCLASS(MX_BlackCamo_MRCO), "hgun_Rook40_F", "Binocular", "Throw", "Put"};
-    magazines[] = {ITEMS_11(30Rnd_65x39_caseless_black_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-    respawnMagazines[] = {ITEMS_11(30Rnd_65x39_caseless_black_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+    weapons[] = {QCLASS(HK416_Black_Holo), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    respawnWeapons[] = {QCLASS(HK416_Black_Holo), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    magazines[] = {ITEMS_11(30Rnd_556x45_Stanag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+    respawnMagazines[] = {ITEMS_11(30Rnd_556x45_Stanag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
     linkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Black)};
     respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_Ballistic_DarkBlack), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Black)};
 
@@ -291,10 +291,10 @@ class CLASS(Unit_I_Marksman): CLASS(Unit_Garment_RS_GS_GP_BB) {
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_Marksman);
     editorPreview = QPATHTOF(UI\Unit_Marksman.jpg);
-    weapons[] = {"srifle_EBR_SOS_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
-    respawnWeapons[] = {"srifle_EBR_SOS_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
-    magazines[] = {ITEMS_6(20Rnd_762x51_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-    respawnMagazines[] = {ITEMS_6(20Rnd_762x51_Mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+    weapons[] = {QCLASS(MXM_Black_HAMR), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    respawnWeapons[] = {QCLASS(MXM_Black_HAMR), "hgun_P07_F", "Binocular", "Throw", "Put"};
+    magazines[] = {ITEMS_7(30Rnd_65x39_caseless_black_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+    respawnMagazines[] = {ITEMS_7(30Rnd_65x39_caseless_black_mag), ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
     linkedItems[] = {DEFAULT_ITEMS, QCLASS(Hat_Boonie_RangerGreen), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
     respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Hat_Boonie_RangerGreen), "G_Shades_Black", QCLASS(Vest_PlateCarrier_Green)};
 
@@ -329,10 +329,10 @@ class CLASS(Unit_I_PilotHeli): CLASS(Unit_Combat_RS_BS_GP_BB) {
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Unit_PilotHeli);
     editorPreview = QPATHTOF(UI\Unit_PilotHeli.jpg);
-    weapons[] = {"hgun_Rook40_F", "Binocular", "Throw", "Put"};
-    respawnWeapons[] = {"hgun_Rook40_F", "Binocular", "Throw", "Put"};
-    magazines[] = {ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
-    respawnMagazines[] = {ITEMS_2(16Rnd_9x21_Mag), ITEMS_2(SmokeShell), ITEMS_2(HandGrenade)};
+    weapons[] = {"SMG_03C_black", "hgun_P07_F", "Binocular", "Throw", "Put"};
+    respawnWeapons[] = {"SMG_03C_black", "hgun_P07_F", "Binocular", "Throw", "Put"};
+    magazines[] = {ITEMS_4(50Rnd_570x28_SMG_03), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
+    respawnMagazines[] = {ITEMS_4(50Rnd_570x28_SMG_03), ITEMS_2(16Rnd_9x21_Mag), "SmokeShell", ITEMS_4(HandGrenade)};
     linkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_PilotHeli_Tan), QCLASS(Vest_Tactical_DarkBlack)};
     respawnLinkedItems[] = {DEFAULT_ITEMS, QCLASS(Helmet_PilotHeli_Tan), QCLASS(Vest_Tactical_DarkBlack)};
 
