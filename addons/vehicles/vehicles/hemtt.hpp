@@ -1,3 +1,19 @@
+#define MACRO_ACRE_RACKS \
+    class AcreRacks { \
+        class Rack_1 { \
+            displayName = "$STR_ACRE_sys_rack_dash"; \
+            shortName = "$STR_ACRE_sys_rack_dashShort"; \
+            componentName = "ACRE_VRC110"; \
+            allowedPositions[] = {"driver", {"cargo", 0}}; \
+            disabledPositions[] = {}; \
+            defaultComponents[] = {}; \
+            mountedRadio = "ACRE_PRC152"; \
+            isRadioRemovable = 0; \
+            intercom[] = {}; \
+        }; \
+    }
+
+
 // Transport HEMTT
 class Truck_01_base_F;
 class B_Truck_01_transport_F : Truck_01_base_F {
@@ -23,6 +39,8 @@ class CLASS(HEMTT_Base): B_Truck_01_transport_F {
     class EventHandlers: EventHandlers {
         postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
+
+    MACRO_ACRE_RACKS;
 };
 
 class CLASS(HEMTT_I_Transport): CLASS(HEMTT_Base) {
@@ -76,6 +94,8 @@ class CLASS(HEMTT_Repair_Base): B_Truck_01_Repair_F {
     class EventHandlers: EventHandlers {
         postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
+
+    MACRO_ACRE_RACKS;
 };
 
 class CLASS(HEMTT_I_Repair): CLASS(HEMTT_Repair_Base) {
@@ -128,6 +148,8 @@ class CLASS(HEMTT_Ammo_Base): B_Truck_01_ammo_F {
     class EventHandlers: EventHandlers {
         postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
+
+    MACRO_ACRE_RACKS;
 };
 
 class CLASS(HEMTT_I_Ammo): CLASS(HEMTT_Ammo_Base) {
@@ -179,6 +201,8 @@ class CLASS(HEMTT_Fuel_Base): B_Truck_01_fuel_F {
     class EventHandlers: EventHandlers {
         postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
+
+    MACRO_ACRE_RACKS;
 };
 
 class CLASS(HEMTT_I_Fuel): CLASS(HEMTT_Fuel_Base) {
