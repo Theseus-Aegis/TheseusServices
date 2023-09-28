@@ -22,9 +22,8 @@ The project is entirely **open-source** and all contributions are welcome. Feel 
 
 Reference the [wiki](https://github.com/Theseus-Aegis/TheseusServices/wiki) to learn about ways of contributing, getting sources and general information about the mod.
 
-![Showcase VIP](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_vip.jpg)
+![Showcase Secure](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_secure.jpg)
 ![Showcase Winter](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_winter.jpg)
-![Showcase Heli](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_heli.jpg)
-![Showcase Team](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_team.jpg)
+![Showcase Stack](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_stack.jpg)
 ![Showcase Winter Medic](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_winter_medic.jpg)
 ![Showcase Arcadian](https://raw.githubusercontent.com/Theseus-Aegis/TheseusServices/master/extras/assets/img/showcase_arcadian.jpg)
