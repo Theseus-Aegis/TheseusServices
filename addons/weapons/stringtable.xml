@@ -49,14 +49,30 @@
             <French>Walther P99 (Beige)</French>
             <German>Walter P99 (Hellbraun)</German>
         </Key>
+        <Key ID="STR_TACS_Weapons_FNX_45_Black">
+            <English>FNX-45 Tactical (Black)</English>
+            <French>FNX-45 Tactique (Noir)</French>
+            <German>FNX-45 Taktisch (Schwarz)</German>
+        </Key>
+        <Key ID="STR_TACS_Weapons_FNX_45_Stainless">
+            <English>FNX-45 Tactical (Stainless)</English>
+            <French>FNX-45 Tactique (inoxydable)</French>
+            <German>FNX-45 Taktisch (Rostfrei)</German>
+        </Key>
         <Key ID="STR_TACS_Weapons_MRAWS_Black_F">
             <English>MAAWS Mk4 Mod 1 (Black)</English>
+            <French>MAAWS Mk4 Mod 1 (Noir)</French>
+            <German>MAAWS Mk4 Mod 1 (Schwarz)</German>
         </Key>
         <Key ID="STR_TACS_Weapons_MRAWS_Black_Rail_F">
             <English>MAAWS Mk4 Mod 0 (Black)</English>
+            <French>MAAWS Mk4 Mod 0 (Noir)</French>
+            <German>MAAWS Mk4 Mod 0 (Schwarz)</German>
         </Key>
         <Key ID="STR_TACS_Weapons_30Rnd_65x39_caseless_BlackCamo_mag">
             <English>30Rnd 6.5mm Magazine (Black Camo)</English>
+            <French>Chargeur 30Rnd 6.5mm (Noir Camo)</French>
+            <German>30Rnd 6.5mm Magazin (Schwarz Tarnfarbe)</German>
         </Key>
     </Package>
 </Project>

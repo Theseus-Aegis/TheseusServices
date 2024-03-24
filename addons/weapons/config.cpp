@@ -16,6 +16,8 @@ class CfgPatches {
             QCLASS(Item_MX_BlackCamo),
             QCLASS(Item_MX_GL_BlackCamo),
             QCLASS(Item_Walther_P99),
+            QCLASS(FNX_45_Black),
+            QCLASS(FNX_45_Stainless),
             QCLASS(Box_Weapons)
         };
         weapons[] = {
