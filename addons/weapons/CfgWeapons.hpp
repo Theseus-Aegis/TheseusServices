@@ -107,6 +107,28 @@ class CfgWeapons {
         baseWeapon = QCLASS(Walther_P99_Tan);
     };
 
+    class hgun_Pistol_heavy_01_F;
+    class CLASS(FNX_45_Black): hgun_Pistol_heavy_01_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "GilleeDoo";
+        displayName = CSTRING(FNX_45_Black);
+        picture = QPATHTOF(UI\fnx45_black_ca.paa);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fnx_45_black_co.paa)};
+        baseWeapon = QCLASS(FNX_45_Black);
+    };
+    class CLASS(FNX_45_Stainless): hgun_Pistol_heavy_01_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "GilleeDoo";
+        displayName = CSTRING(FNX_45_Stainless);
+        picture = QPATHTOF(UI\fnx45_stainless_ca.paa);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fnx_45_stainless_co.paa)};
+        baseWeapon = QCLASS(FNX_45_Stainless);
+    };
+
     class launch_MRAWS_green_F;
     class CLASS(MRAWS_Black_F): launch_MRAWS_green_F {
         dlc = QUOTE(PREFIX);
