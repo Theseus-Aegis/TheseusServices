@@ -8,8 +8,8 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = ECSTRING(vehicles,C130J_Author);
-        displayName = ECSTRING(vehicles,C130J_Theseus_Name);
+        author = CSTRING(C130J_Author);
+        displayName = CSTRING(C130J_Theseus_Name);
         editorPreview = QPATHTOF(ui\C130J_Theseus.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
         typicalCargo[] = {QCLASS(Unit_I_Engineer)};
@@ -19,9 +19,9 @@ class CfgVehicles {
             QPATHTOF(data\theseus_c130j_wings_co.paa)
         };
         class TextureSources {
-            class ADDON {
-                displayname = ECSTRING(vehicles,C130J_Theseus_Texture_Name);
-                author = ECSTRING(vehicles,C130J_Author);
+            class SUBADDON {
+                displayname = CSTRING(C130J_Theseus_Texture_Name);
+                author = CSTRING(C130J_Author);
                 textures[] = {
                     QPATHTOF(data\theseus_c130j_body_co.paa),
                     QPATHTOF(data\theseus_c130j_wings_co.paa)
