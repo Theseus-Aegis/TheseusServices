@@ -3,6 +3,10 @@
 #define TRIPLES(var1,var2,var3) var1##_##var2##_##var3
 #define ADDON DOUBLES(PREFIX,COMPONENT)
 
+#ifdef SUBCOMPONENT
+    #define SUBADDON DOUBLES(ADDON,SUBCOMPONENT)
+#endif
+
 // Main
 #define QUOTE(var1) #var1
 #define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCHLVL.BUILD); versionAr[] = {MAJOR,MINOR,PATCHLVL,BUILD}
