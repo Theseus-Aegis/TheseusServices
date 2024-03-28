@@ -10,5 +10,65 @@
         <Key ID="STR_TACS_Variants_CUP_C130J_Author">
             <English>GilleeDoo, Mike</English>
         </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Black">
+            <English>PMC Clothes, Long Shirt (Plain Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Earth">
+            <English>PMC Clothes, Long Shirt (Plain Earth)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Pattern_Foliage">
+            <English>PMC Clothes, Long Shirt (Pattern Foliage)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black">
+            <English>PMC Clothes, Long Shirt (Plaid Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black2">
+            <English>PMC Clothes, Long Shirt (Plaid Black 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo">
+            <English>PMC Clothes, Long Shirt (Plaid Buffalo)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo2">
+            <English>PMC Clothes, Long Shirt (Plaid Buffalo 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth">
+            <English>PMC Clothes, Long Shirt (Plaid Earth)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth2">
+            <English>PMC Clothes, Long Shirt (Plaid Earth 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth3">
+            <English>PMC Clothes, Long Shirt (Plaid Earth 3)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage">
+            <English>PMC Clothes, Long Shirt (Plaid Foliage)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage2">
+            <English>PMC Clothes, Long Shirt (Plaid Foliage 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage3">
+            <English>PMC Clothes, Long Shirt (Plaid Foliage 3)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM1">
+            <English>PMC Clothes, Long Shirt (Plaid MM1)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM2">
+            <English>PMC Clothes, Long Shirt (Plaid MM2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM3">
+            <English>PMC Clothes, Long Shirt (Plaid MM3)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM4">
+            <English>PMC Clothes, Long Shirt (Plaid MM4)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM5">
+            <English>PMC Clothes, Long Shirt (Plaid MM5)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_White">
+            <English>PMC Clothes, Long Shirt (Plain White)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_White2">
+            <English>PMC Clothes, Long Shirt (Plain White 2)</English>
+        </Key>
     </Package>
 </Project>
