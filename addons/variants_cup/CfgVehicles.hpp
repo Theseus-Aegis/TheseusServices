@@ -180,24 +180,109 @@ class CfgVehicles {
             "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
         };
     };
-    class CLASS(unit_long_white1): CUP_I_PMC_Soldier_42 {
-        displayName = CSTRING(Uniform_Long_White);
+
+    // Long, Kneepads
+    class CLASS(unit_long_foliage_kneepads): CUP_I_PMC_Soldier_42 {
+        displayName = CSTRING(Uniform_Long_Foliage_Kneepads);
         author = "GilleeDoo";
-        uniformClass = QCLASS(uniform_long_white1);
+        uniformClass = QCLASS(uniform_long_foliage_kneepads);
+        KNEEPAD_LONG_MODEL;
         hiddenSelections[] = {"camo", "camo3"};
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\uniform_plaid_white1_co.paa),
+            QPATHTOF(data\uniform_foliage1_kneepads_co.paa),
             "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
         };
     };
-    class CLASS(unit_long_white2): CUP_I_PMC_Soldier_42 {
-        displayName = CSTRING(Uniform_Long_White2);
-        author = "GilleeDoo";
-        uniformClass = QCLASS(uniform_long_white2);
-        hiddenSelections[] = {"camo", "camo3"};
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\uniform_plaid_white2_co.paa),
-            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
-        };
+
+    // Rolled
+    class CLASS(unit_rolled_black): CLASS(unit_long_black) {
+        displayName = CSTRING(Uniform_Rolled_Black);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_long_black);
+    };
+    class CLASS(unit_rolled_earth): CLASS(unit_long_earth) {
+        displayName = CSTRING(Uniform_Rolled_Earth);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_earth);
+    };
+    class CLASS(unit_rolled_pattern_foliage): CLASS(unit_long_pattern_foliage) {
+        displayName = CSTRING(Uniform_Rolled_Pattern_Foliage);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_pattern_foliage);
+    };
+    class CLASS(unit_rolled_plaid_black1): CLASS(unit_long_plaid_black1) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_Black);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_black1);
+    };
+    class CLASS(unit_rolled_plaid_black2): CLASS(unit_long_plaid_black2) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_Black2);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_black2);
+    };
+    class CLASS(unit_rolled_plaid_buffalo1): CLASS(unit_long_plaid_buffalo1) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_Buffalo);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_buffalo1);
+    };
+    class CLASS(unit_rolled_plaid_buffalo2): CLASS(unit_long_plaid_buffalo2) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_Buffalo2);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_buffalo2);
+    };
+    class CLASS(unit_rolled_plaid_earth1): CLASS(unit_long_plaid_earth1) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_Earth);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_earth1);
+    };
+    class CLASS(unit_rolled_plaid_earth2): CLASS(unit_long_plaid_earth2) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_Earth2);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_earth2);
+    };
+    class CLASS(unit_rolled_plaid_earth3): CLASS(unit_long_plaid_earth3) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_Earth3);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_earth3);
+    };
+    class CLASS(unit_rolled_plaid_foliage1): CLASS(unit_long_plaid_foliage1) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_Foliage);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_foliage1);
+    };
+    class CLASS(unit_rolled_plaid_foliage2): CLASS(unit_long_plaid_foliage2) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_Foliage2);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_foliage2);
+    };
+    class CLASS(unit_rolled_plaid_foliage3): CLASS(unit_long_plaid_foliage3) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_Foliage3);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_foliage3);
+    };
+    class CLASS(unit_rolled_plaid_mm1): CLASS(unit_long_plaid_mm1) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_MM1);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_mm1);
+    };
+    class CLASS(unit_rolled_plaid_mm2): CLASS(unit_long_plaid_mm2) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_MM2);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_mm2);
+    };
+    class CLASS(unit_rolled_plaid_mm3): CLASS(unit_long_plaid_mm3) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_MM3);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_mm3);
+    };
+    class CLASS(unit_rolled_plaid_mm4): CLASS(unit_long_plaid_mm4) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_MM4);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_mm4);
+    };
+    class CLASS(unit_rolled_plaid_mm5): CLASS(unit_long_plaid_mm5) {
+        displayName = CSTRING(Uniform_Rolled_Plaid_MM5);
+        ROLLED_MODEL;
+        uniformClass = QCLASS(uniform_rolled_plaid_mm5);
     };
 };
