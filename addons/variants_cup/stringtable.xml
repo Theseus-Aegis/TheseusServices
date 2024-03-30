@@ -64,8 +64,62 @@
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM5">
             <English>PMC Clothes, Long Shirt (Plaid MM5)</English>
         </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Black_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plain Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Earth_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plain Earth)</English>
+        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Foliage_Kneepads">
             <English>PMC Clothes, Long Shirt, Kneepads (Plain Foliage)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Pattern_Foliage_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Pattern Foliage)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black1_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black2_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid Black 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo1_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid Buffalo)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo2_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid Buffalo 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth1_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid Earth)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth2_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid Earth 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth3_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid Earth 3)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage1_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid Foliage)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage2_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid Foliage 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage3_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid Foliage 3)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM1_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid MM1)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM2_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid MM2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM3_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid MM3)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM4_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid MM4)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MM5_Kneepads">
+            <English>PMC Clothes, Long Shirt, Kneepads (Plaid MM5)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Black">
             <English>PMC Clothes, Rolled Shirt (Plain Black)</English>
@@ -120,6 +174,60 @@
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MM5">
             <English>PMC Clothes, Rolled Shirt (Plaid MM5)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Black_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plain Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Earth_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plain Earth)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Pattern_Foliage_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Pattern Foliage)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Black1_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Black2_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid Black 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Buffalo1_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid Buffalo)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Buffalo2_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid Buffalo 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth1_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid Earth)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth2_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid Earth 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth3_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid Earth 3)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage1_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid Foliage)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage2_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid Foliage 2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage3_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid Foliage 3)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MM1_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid MM1)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MM2_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid MM2)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MM3_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid MM3)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MM4_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid MM4)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MM5_Kneepads">
+            <English>PMC Clothes, Rolled Shirt, Kneepads (Plaid MM5)</English>
         </Key>
     </Package>
 </Project>
