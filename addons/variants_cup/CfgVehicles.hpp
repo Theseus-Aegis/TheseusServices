@@ -7,7 +7,7 @@ class CfgVehicles {
         hiddenSelections[] = {"camo", "camo3"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\uniform_black_co.paa),
-            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa" // placeholder
         };
     };
     class CLASS(Unit_Long_Earth): CUP_I_PMC_Soldier_42 {
