@@ -489,90 +489,180 @@ class CfgVehicles {
         displayName = CSTRING(Uniform_Rolled_Black_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Black_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_black_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Earth_Kneepads): CLASS(Unit_Rolled_Earth) {
         displayName = CSTRING(Uniform_Rolled_Earth_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Earth_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_earth_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Pattern_Foliage_Kneepads): CLASS(Unit_Rolled_Pattern_Foliage) {
         displayName = CSTRING(Uniform_Rolled_Pattern_Foliage_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Pattern_Foliage_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_pattern_foliage_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Black_Kneepads): CLASS(Unit_Rolled_Plaid_Black) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Black_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Black_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_black_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Black2_Kneepads): CLASS(Unit_Rolled_Plaid_Black2) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Black2_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Black2_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_black2_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Buffalo_Kneepads): CLASS(Unit_Rolled_Plaid_Buffalo) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Buffalo_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Buffalo_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_buffalo_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Buffalo2_Kneepads): CLASS(Unit_Rolled_Plaid_Buffalo2) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Buffalo2_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Buffalo2_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_buffalo2_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Earth_Kneepads): CLASS(Unit_Rolled_Plaid_Earth) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Earth_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Earth_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_earth_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Earth2_Kneepads): CLASS(Unit_Rolled_Plaid_Earth2) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Earth2_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Earth2_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_earth2_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Earth3_Kneepads): CLASS(Unit_Rolled_Plaid_Earth3) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Earth3_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Earth3_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_earth3_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Foliage_Kneepads): CLASS(Unit_Rolled_Plaid_Foliage) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Foliage_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Foliage_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_foliage_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Foliage2_Kneepads): CLASS(Unit_Rolled_Plaid_Foliage2) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Foliage2_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Foliage2_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_foliage2_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Foliage3_Kneepads): CLASS(Unit_Rolled_Plaid_Foliage3) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Foliage3_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Foliage3_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_foliage3_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_MacMillan_Ancient_Kneepads): CLASS(Unit_Rolled_Plaid_MacMillan_Ancient) {
         displayName = CSTRING(Uniform_Rolled_Plaid_MacMillan_Ancient_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_MacMillan_Ancient_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_macmillan_ancient_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Melville_2_Black_Lines_Kneepads): CLASS(Unit_Rolled_Plaid_Melville_2_Black_Lines) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Melville_2_Black_Lines_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Melville_2_Black_Lines_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_melville_2_black_lines_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_MacMillan_Hunting_Ancient_Kneepads): CLASS(Unit_Rolled_Plaid_MacMillan_Hunting_Ancient) {
         displayName = CSTRING(Uniform_Rolled_Plaid_MacMillan_Hunting_Ancient_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_MacMillan_Hunting_Ancient_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_macmillan_hunting_ancient_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_MacMillan_Dress_Kneepads): CLASS(Unit_Rolled_Plaid_MacMillan_Dress) {
         displayName = CSTRING(Uniform_Rolled_Plaid_MacMillan_Dress_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_MacMillan_Dress_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_macmillan_dress_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
     class CLASS(Unit_Rolled_Plaid_Melville_Kneepads): CLASS(Unit_Rolled_Plaid_Melville) {
         displayName = CSTRING(Uniform_Rolled_Plaid_Melville_Kneepads);
         KNEEPAD_ROLLED_MODEL;
         uniformClass = QCLASS(Uniform_Rolled_Plaid_Melville_Kneepads);
+        hiddenSelections[] = {"camo", "camo3"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\uniform_plaid_melville_kneepads_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\oakley_grey_co.paa"
+        };
     };
 };
