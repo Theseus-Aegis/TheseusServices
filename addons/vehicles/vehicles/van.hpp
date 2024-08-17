@@ -95,7 +95,6 @@ class CLASS(Van_Cargo_B_Black): CLASS(Van_Cargo_I_Black) {
     typicalCargo[] = {QCLASS(Unit_B_Engineer)};
 };
 
-class Van_02_base_F;
 class Van_02_transport_base_F: Van_02_base_F {
     class EventHandlers;
 };
