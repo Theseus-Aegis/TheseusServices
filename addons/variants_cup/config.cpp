@@ -154,7 +154,7 @@ class CfgPatches {
             QCLASS(Uniform_Rolled_Plaid_Melville_Kneepads)
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacs_units"};
+        requiredAddons[] = {"tacs_units", "CUP_Creatures_Military_PMC"};
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo", "Mike"};
