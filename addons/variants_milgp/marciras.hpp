@@ -188,7 +188,6 @@ class CCLASS(marciras_medic_blk): milgp_v_marciras_medic_rgr {
     MACRO_MARCIRAS_BLK;
 };
 
-class milgp_v_marciras_medic_belt_rgr;
 class CCLASS(marciras_medic_belt_blk): milgp_v_marciras_medic_belt_rgr {
     displayName = CSTRING(marciras_medic_belt_blk);
     MACRO_MARCIRAS_BELT_BLK;
