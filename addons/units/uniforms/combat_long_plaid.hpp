@@ -60,6 +60,16 @@ class CLASS(Uniform_Combat_LS_CDBS_GP_TB): CLASS(Uniform_Base) { // CDB = Plaid 
         uniformClass = QCLASS(Unit_Combat_LS_CDBS_GP_TB);
     };
 };
+class CLASS(Uniform_Combat_LS_CDBS_BP_BB): CLASS(Uniform_Base) { // CDB = Plaid Dark Blue
+    scope = 2;
+    author = "GilleeDoo";
+    displayName = CSTRING(Uniform_Combat_LS_CDBS_BP_BB);
+    picture = QPATHTOF(UI\uniform_combat_ls_cdbs_bp_ca.paa);
+
+    class ItemInfo: ItemInfo {
+        uniformClass = QCLASS(Unit_Combat_LS_CDBS_BP_BB);
+    };
+};
 class CLASS(Uniform_Combat_LS_CLBS_GP_BB): CLASS(Uniform_Base) { // CLB = Plaid Light Blue
     scope = 2;
     author = "Pomigit, Jonpas";
