@@ -363,6 +363,12 @@ class CfgUnitInsignia {
         displayName = "Judge";
         texture = QPATHTOF(data\judge.paa);
     };
+ class CLASS(Insignia_kangaroo_AUSCAM) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Jack Jones";
+        displayName = "Kangaroo (Auscam)";
+        texture = QPATHTOF(data\kangaroo_AUSCAM.paa);
+    };
     class CLASS(Insignia_KeepCalmAndReload) {
         MACRO_INSIGNIA_COMMON;
         author = "BadHabitz";
