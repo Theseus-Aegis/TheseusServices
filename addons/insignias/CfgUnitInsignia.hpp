@@ -13,13 +13,19 @@ class CfgUnitInsignia {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "AntiTank";
-        texture = QPATHTOF(data\Anti_Tank.paa);
+        texture = QPATHTOF(data\anti_tank.paa);
     };
     class CLASS(Insignia_AssassinsCreed) {
         MACRO_INSIGNIA_COMMON;
         author = "BadHabitz";
         displayName = "Assassin's Creed";
         texture = QPATHTOF(data\assassinscreed.paa);
+    };
+   class CLASS(Insignia_Aussie) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Jack Jones";
+        displayName = "Aussie";
+        texture = QPATHTOF(data\aussie.paa);
     };
     class CLASS(Insignia_Banaan) {
         MACRO_INSIGNIA_COMMON;
@@ -229,7 +235,7 @@ class CfgUnitInsignia {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "Drop Bear";
-        texture = QPATHTOF(data\Drop_Bear.paa);
+        texture = QPATHTOF(data\drop_bear.paa);
     };
     class CLASS(Insignia_Dustbringer) {
         MACRO_INSIGNIA_COMMON;
@@ -757,7 +763,7 @@ class CfgUnitInsignia {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "Super Earth";
-        texture = QPATHTOF(data\Super_earth.paa);
+        texture = QPATHTOF(data\super_earth.paa);
     };
     class CLASS(Insignia_TacticalBeardOwnersClub) {
         MACRO_INSIGNIA_COMMON;
@@ -877,7 +883,7 @@ class CfgUnitInsignia {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "Wireless Device";
-        texture = QPATHTOF(data\Wireless_device.paa);
+        texture = QPATHTOF(data\wireless_device.paa);
     };
     class CLASS(Insignia_WillWorkForAmmo) {
         MACRO_INSIGNIA_COMMON;
