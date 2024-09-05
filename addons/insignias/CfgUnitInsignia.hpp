@@ -9,6 +9,12 @@ class CfgUnitInsignia {
         displayName = "Ace Of Spades";
         texture = QPATHTOF(data\aceofspades.paa);
     };
+   class CLASS(Insignia_AntiTank) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Jack Jones";
+        displayName = "AntiTank";
+        texture = QPATHTOF(data\Anti_Tank.paa);
+    };
     class CLASS(Insignia_AssassinsCreed) {
         MACRO_INSIGNIA_COMMON;
         author = "BadHabitz";
@@ -219,6 +225,12 @@ class CfgUnitInsignia {
         displayName = "Do You Even Lift?";
         texture = QPATHTOF(data\doyouevenlift.paa);
     };
+   class CLASS(Insignia_Drop_Bear) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Jack Jones";
+        displayName = "Drop Bear";
+        texture = QPATHTOF(data\Drop_Bear.paa);
+    };
     class CLASS(Insignia_Dustbringer) {
         MACRO_INSIGNIA_COMMON;
         author = "Lairdd1989";
@@ -363,11 +375,17 @@ class CfgUnitInsignia {
         displayName = "Judge";
         texture = QPATHTOF(data\judge.paa);
     };
- class CLASS(Insignia_kangaroo_AUSCAM) {
+    class CLASS(Insignia_kangaroo_AUSCAM) {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "Kangaroo (Auscam)";
         texture = QPATHTOF(data\kangaroo_AUSCAM.paa);
+    };
+   class CLASS(Insignia_kangaroo_Camo_Red) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Jack Jones";
+        displayName = "Kangaroo Red (Auscam)";
+        texture = QPATHTOF(data\kangaroo_Camo_Red.paa);
     };
     class CLASS(Insignia_KeepCalmAndReload) {
         MACRO_INSIGNIA_COMMON;
@@ -735,6 +753,12 @@ class CfgUnitInsignia {
         displayName = "Stoneward";
         texture = QPATHTOF(data\stoneward.paa);
     };
+   class CLASS(Insignia_Super_earth) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Jack Jones";
+        displayName = "Super Earth";
+        texture = QPATHTOF(data\Super_earth.paa);
+    };
     class CLASS(Insignia_TacticalBeardOwnersClub) {
         MACRO_INSIGNIA_COMMON;
         author = "BadHabitz";
@@ -848,6 +872,12 @@ class CfgUnitInsignia {
         author = "Lairdd1989";
         displayName = "Willshaper";
         texture = QPATHTOF(data\willshaper.paa);
+    };
+   class CLASS(Insignia_Wireless_device) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Jack Jones";
+        displayName = "Wireless Device";
+        texture = QPATHTOF(data\Wireless_device.paa);
     };
     class CLASS(Insignia_WillWorkForAmmo) {
         MACRO_INSIGNIA_COMMON;
