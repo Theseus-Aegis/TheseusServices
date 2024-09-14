@@ -32,3 +32,4 @@ jobs:
       with:
         name: TheseusServices_${{ github.sha }}-nobin
         path: .hemttout/@*
+        include-hidden-files: true # Because .hemttout is a hidden directory
