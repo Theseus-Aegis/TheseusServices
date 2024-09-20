@@ -22,6 +22,9 @@
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_AUSCAM">
             <English>Combat Uniform Long (AUSCAM)</English>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_AUSCAM_Khk">
+            <English>Combat Uniform Long (AUSCAM, Khaki)</English>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_BS_BP_BB">
             <English>Combat Uniform Long (Black, Black, Black)</English>
             <German>Kampfuniform, lang (Schwarz, Schwarz, Schwarz)</German>
@@ -164,6 +167,9 @@
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_AUSCAM">
             <English>Combat Uniform Rolled (AUSCAM)</English>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_AUSCAM_Khk">
+            <English>Combat Uniform Rolled (AUSCAM, Khaki)</English>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_BS_BP_BB">
             <English>Combat Uniform Rolled (Black, Black, Black)</English>
