@@ -27,6 +27,7 @@ class CfgPatches {
             QCLASS(Backpack_Kitbag_Medic_Sage),
             QCLASS(Backpack_Kitbag_Medic_Tan),
             QCLASS(Backpack_Kitbag_Medic_RGR),
+            QCLASS(Backpack_Kitbag_Medic_Grey),
             QCLASS(Backpack_ViperHarness_Coyote),
             QCLASS(Backpack_ViperHarness_Green),
             QCLASS(Backpack_ViperLightHarness_Coyote),
