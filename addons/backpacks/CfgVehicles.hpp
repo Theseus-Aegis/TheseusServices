@@ -247,6 +247,16 @@ class CfgVehicles {
             QPATHTOF(data\backpack_kitbag_medic_rgr_co.paa)
         };
     };
+    class CLASS(Backpack_Kitbag_Medic_Grey): B_Kitbag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Bohemia Interactive, GilleeDoo, Mike";
+        displayName = CSTRING(Backpack_Kitbag_Medic_Grey);
+        picture = QPATHTOF(UI\backpack_kitbag_medic_grey_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack_kitbag_medic_grey_co.paa)
+        };
+    };
 
     class B_ViperHarness_base_F;
     class CLASS(Backpack_ViperHarness_Coyote): B_ViperHarness_base_F {
