@@ -26,6 +26,7 @@ class CLASS(Box_Uniforms): B_supplyCrate_F {
         MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BS_TP_BB),10);
         MACRO_ADDITEM(CLASS(Uniform_Combat_LS_BS_TP_TB),10);
         MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CBPS_BP_BB),10);
+        MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CDBS_BP_BB),10);
         MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CDBS_GP_TB),10);
         MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CDES_TP_TB),10);
         MACRO_ADDITEM(CLASS(Uniform_Combat_LS_CDFS_GP_TB),10);
@@ -53,6 +54,7 @@ class CLASS(Box_Uniforms): B_supplyCrate_F {
         MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BS_TP_BB),10);
         MACRO_ADDITEM(CLASS(Uniform_Combat_RS_BS_TP_TB),10);
         MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CBPS_BP_BB),10);
+        MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CDBS_BP_BB),10);
         MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CDBS_GP_TB),10);
         MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CDES_TP_TB),10);
         MACRO_ADDITEM(CLASS(Uniform_Combat_RS_CDFS_GP_TB),10);

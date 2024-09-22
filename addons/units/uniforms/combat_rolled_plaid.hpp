@@ -50,7 +50,7 @@ class CLASS(Uniform_Combat_RS_CLFS_GP_BB): CLASS(Uniform_Base) { // CLF = Plaid 
         uniformClass = QCLASS(Unit_Combat_RS_CLFS_GP_BB);
     };
 };
-class CLASS(Uniform_Combat_RS_CDBS_GP_TB): CLASS(Uniform_Base) {
+class CLASS(Uniform_Combat_RS_CDBS_GP_TB): CLASS(Uniform_Base) { // CDB = Plaid Dark Blue
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Uniform_Combat_RS_CDBS_GP_TB);
@@ -60,7 +60,17 @@ class CLASS(Uniform_Combat_RS_CDBS_GP_TB): CLASS(Uniform_Base) {
         uniformClass = QCLASS(Unit_Combat_RS_CDBS_GP_TB);
     };
 };
-class CLASS(Uniform_Combat_RS_CLBS_GP_BB): CLASS(Uniform_Base) {
+class CLASS(Uniform_Combat_RS_CDBS_BP_BB): CLASS(Uniform_Base) { // CDB = Plaid Dark Blue
+    scope = 2;
+    author = "GilleeDoo";
+    displayName = CSTRING(Uniform_Combat_RS_CDBS_BP_BB);
+    picture = QPATHTOF(UI\uniform_combat_rs_cdbs_bp_ca.paa);
+
+    class ItemInfo: ItemInfo {
+        uniformClass = QCLASS(Unit_Combat_RS_CDBS_BP_BB);
+    };
+};
+class CLASS(Uniform_Combat_RS_CLBS_GP_BB): CLASS(Uniform_Base) { // CLB = Plaid Light Blue
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Uniform_Combat_RS_CLBS_GP_BB);
@@ -70,7 +80,7 @@ class CLASS(Uniform_Combat_RS_CLBS_GP_BB): CLASS(Uniform_Base) {
         uniformClass = QCLASS(Unit_Combat_RS_CLBS_GP_BB);
     };
 };
-class CLASS(Uniform_Combat_RS_CLRS_TP_BB): CLASS(Uniform_Base) {
+class CLASS(Uniform_Combat_RS_CLRS_TP_BB): CLASS(Uniform_Base) { // CLR = Plaid Light Red
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Uniform_Combat_RS_CLRS_TP_BB);
@@ -80,7 +90,7 @@ class CLASS(Uniform_Combat_RS_CLRS_TP_BB): CLASS(Uniform_Base) {
         uniformClass = QCLASS(Unit_Combat_RS_CLRS_TP_BB);
     };
 };
-class CLASS(Uniform_Combat_RS_CPS_BP_BB): CLASS(Uniform_Base) {
+class CLASS(Uniform_Combat_RS_CPS_BP_BB): CLASS(Uniform_Base) { // CP = Plaid Purple
     scope = 2;
     author = "Pomigit, Jonpas";
     displayName = CSTRING(Uniform_Combat_RS_CPS_BP_BB);

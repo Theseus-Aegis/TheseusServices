@@ -126,6 +126,11 @@
             <Japanese>戦闘服 長袖 (チェック濃紺、緑、黄褐)</Japanese>
             <French>Uniforme de combat long (Plaid bleu foncé, Vert, Beige)</French>
         </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_LS_CDBS_BP_BB">
+            <English>Combat Uniform Long (Plaid Dark Blue, Black, Black)</English>
+            <German>Kampfuniform, lang (Dunkelblau-Kariert, Schwarz, Schwarz)</German>
+            <French>Uniforme de combat long (Plaid bleu foncé, Noir, Noir)</French>
+        </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_LS_CLBS_GP_BB">
             <English>Combat Uniform Long (Plaid Light Blue, Green, Black)</English>
             <German>Kampfuniform, lang (Hellblau-Kariert, Grün, Schwarz)</German>
@@ -268,6 +273,11 @@
             <German>Kampfuniform, kurz (Dunkelblau-Kariert, Grün, Hellbraun)</German>
             <Japanese>戦闘服 袖まくり (チェック濃紺、緑、黄褐)</Japanese>
             <French>Uniforme de combat retroussé (Plaid bleu foncé, Vert, Beige)</French>
+        </Key>
+        <Key ID="STR_TACS_Units_Uniform_Combat_RS_CDBS_BP_BB">
+            <English>Combat Uniform Rolled (Plaid Dark Blue, Black, Black)</English>
+            <German>Kampfuniform, kurz (Dunkelblau-Kariert, Schwarz, Schwarz)</German>
+            <French>Uniforme de combat retroussé (Plaid bleu foncé, Noir, Noir)</French>
         </Key>
         <Key ID="STR_TACS_Units_Uniform_Combat_RS_CLBS_GP_BB">
             <English>Combat Uniform Rolled (Plaid Light Blue, Green, Black)</English>

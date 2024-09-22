@@ -36,6 +36,12 @@ class CLASS(Unit_Combat_RS_CDBS_GP_TB): CLASS(Unit_Combat_RS_C_Base) {
     uniformClass = QCLASS(Uniform_Combat_RS_CDBS_GP_TB);
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cdbs_gp_tb_co.paa)};
 };
+class CLASS(Unit_Combat_RS_CDBS_BP_BB): CLASS(Unit_Combat_RS_C_Base) {
+    scope = 1;
+    author = "GilleeDoo";
+    uniformClass = QCLASS(Uniform_Combat_RS_CDBS_BP_BB);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_cdbs_bp_bb_co.paa)};
+};
 class CLASS(Unit_Combat_RS_CLBS_GP_BB): CLASS(Unit_Combat_RS_C_Base) {
     scope = 1;
     author = "Pomigit, Jonpas";
