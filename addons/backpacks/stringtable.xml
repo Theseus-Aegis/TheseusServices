@@ -3,68 +3,59 @@
     <Package name="Backpacks">
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Black">
             <English>Assault Pack Expanded (Black) Logo</English>
+            <French>Paquetage d'assaut étendu (Noir) logo</French>
             <German>Assault Pack, erweitert (Schwarz) Logo</German>
             <Japanese>拡張型アサルト パック (黒) ロゴ</Japanese>
-            <French>Paquetage d'assaut étendu (Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Green">
             <English>Assault Pack Expanded (Green) Logo</English>
+            <French>Paquetage d'assaut étendu (Vert) logo</French>
             <German>Assault Pack, erweitert (Grün) Logo</German>
             <Japanese>拡張型アサルト パック (緑) ロゴ</Japanese>
-            <French>Paquetage d'assaut étendu (Vert) logo</French>
-        </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Tan">
-            <English>Assault Pack Expanded (Tan) Logo</English>
-            <German>Assault Pack, erweitert (Hellbraun) Logo</German>
-            <Japanese>拡張型アサルト パック (黄渇) ロゴ</Japanese>
-            <French>Paquetage d'assaut étendu (Beige) logo</French>
-        </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_White">
-            <English>Assault Pack Expanded (White) Logo</English>
-            <German>Assault Pack, erweitert (Weiß) Logo</German>
-            <Japanese>拡張型アサルト パック (白) ロゴ</Japanese>
-            <French>Paquetage d'assaut étendu (Blanc) logo</French>
-        </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_RGR">
-            <English>Assault Pack Expanded (RGR) Logo</English>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Grey">
             <English>Assault Pack Expanded (Grijs) Logo</English>
         </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_AssaultPack_RGR">
-            <English>Assault Pack (RGR)</English>
+        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_RGR">
+            <English>Assault Pack Expanded (RGR) Logo</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_Tan">
+            <English>Assault Pack Expanded (Tan) Logo</English>
+            <French>Paquetage d'assaut étendu (Beige) logo</French>
+            <German>Assault Pack, erweitert (Hellbraun) Logo</German>
+            <Japanese>拡張型アサルト パック (黄渇) ロゴ</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_AssaultExpanded_White">
+            <English>Assault Pack Expanded (White) Logo</English>
+            <French>Paquetage d'assaut étendu (Blanc) logo</French>
+            <German>Assault Pack, erweitert (Weiß) Logo</German>
+            <Japanese>拡張型アサルト パック (白) ロゴ</Japanese>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_AssaultPack_Grey">
             <English>Assault Pack (Grijs)</English>
         </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_AssaultPack_RGR">
+            <English>Assault Pack (RGR)</English>
+        </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Carryall_DarkBlack">
             <English>Carryall Backpack (Dark Black)</English>
+            <French>Sac à dos multifonction (Noir Foncé)</French>
             <German>Carryall Rucksack (Dunkelschwarz)</German>
             <Japanese>キャリオール バックパック (暗黒)</Japanese>
-            <French>Sac à dos multifonction (Noir Foncé)</French>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Carryall_White">
             <English>Carryall Backpack (White)</English>
-            <German>Carryall Rucksack (Weiss)</German>
             <French>Sac à dos multifonction (Blanc)</French>
+            <German>Carryall Rucksack (Weiss)</German>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_DarkBlack">
             <English>Kitbag (Dark Black)</English>
+            <French>Sac modulable (Noir Foncé)</French>
             <German>Kitbag (Dunkelschwarz)</German>
             <Japanese>雑のう (暗黒)</Japanese>
-            <French>Sac modulable (Noir Foncé)</French>
-        </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_White">
-            <English>Kitbag (White)</English>
-        </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_RGR">
-            <English>Kitbag (RGR)</English>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Grey">
             <English>Kitbag (Grijs)</English>
-        </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_White">
-            <English>Kitbag Medic (White)</English>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Black">
             <English>Kitbag Medic (Black)</English>
@@ -75,11 +66,17 @@
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Digital">
             <English>Kitbag Medic (Digital)</English>
         </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Green">
+            <English>Kitbag Medic (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Grey">
+            <English>Kitbag Medic (Grey)</English>
+        </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_MTP">
             <English>Kitbag Medic (MTP)</English>
         </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Green">
-            <English>Kitbag Medic (Green)</English>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_RGR">
+            <English>Kitbag Medic (RGR)</English>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Sage">
             <English>Kitbag Medic (Sage)</English>
@@ -87,11 +84,14 @@
         <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Tan">
             <English>Kitbag Medic (Tan)</English>
         </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_RGR">
-            <English>Kitbag Medic (RGR)</English>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_White">
+            <English>Kitbag Medic (White)</English>
         </Key>
-        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_Medic_Grey">
-            <English>Kitbag Medic (Grey)</English>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_RGR">
+            <English>Kitbag (RGR)</English>
+        </Key>
+        <Key ID="STR_TACS_Backpacks_Backpack_Kitbag_White">
+            <English>Kitbag (White)</English>
         </Key>
         <Key ID="STR_TACS_Backpacks_Backpack_ViperHarness_Coyote">
             <English>Viper Harness (Coyote)</English>

@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Arcadian">
-        <Key ID="STR_TACS_Arcadian_Black">
-            <English>Arcadian GT (Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Arcadian_Tan">
-            <English>Arcadian GT (Tan)</English>
-        </Key>
-        <Key ID="STR_TACS_Arcadian_Green">
-            <English>Arcadian GT (Green)</English>
-        </Key>
-        <Key ID="STR_TACS_Arcadian_Grey">
-            <English>Arcadian GT (Grey)</English>
+        <Key ID="STR_TACS_Arcadian_Antenna">
+            <English>Toggle Antenna</English>
         </Key>
         <Key ID="STR_TACS_Arcadian_Armed_Black">
             <English>Arcadian GT (Black) (M134)</English>
-        </Key>
-        <Key ID="STR_TACS_Arcadian_Armed_Tan">
-            <English>Arcadian GT (Tan) (M134)</English>
         </Key>
         <Key ID="STR_TACS_Arcadian_Armed_Green">
             <English>Arcadian GT (Green) (M134)</English>
@@ -25,11 +13,17 @@
         <Key ID="STR_TACS_Arcadian_Armed_Grey">
             <English>Arcadian GT (Grey) (M134)</English>
         </Key>
-        <Key ID="STR_TACS_Arcadian_Window">
-            <English>Open Rear Window</English>
+        <Key ID="STR_TACS_Arcadian_Armed_Tan">
+            <English>Arcadian GT (Tan) (M134)</English>
         </Key>
-        <Key ID="STR_TACS_Arcadian_Window_Close">
-            <English>Close Rear Window</English>
+        <Key ID="STR_TACS_Arcadian_Black">
+            <English>Arcadian GT (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Green">
+            <English>Arcadian GT (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Grey">
+            <English>Arcadian GT (Grey)</English>
         </Key>
         <Key ID="STR_TACS_Arcadian_Pushbar">
             <English>Toggle Pushbar</English>
@@ -37,8 +31,14 @@
         <Key ID="STR_TACS_Arcadian_Roofbar">
             <English>Extend Roofbar</English>
         </Key>
-        <Key ID="STR_TACS_Arcadian_Antenna">
-            <English>Toggle Antenna</English>
+        <Key ID="STR_TACS_Arcadian_Tan">
+            <English>Arcadian GT (Tan)</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Window">
+            <English>Open Rear Window</English>
+        </Key>
+        <Key ID="STR_TACS_Arcadian_Window_Close">
+            <English>Close Rear Window</English>
         </Key>
     </Package>
 </Project>

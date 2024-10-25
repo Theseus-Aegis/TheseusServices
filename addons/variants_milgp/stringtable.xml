@@ -1,50 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Variants_MilGP">
-        <Key ID="STR_TACS_Variants_MilGP_breacher_gry">
-            <English>MarCiras Back Panel Breacher (Grijs)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_breacher_blk">
-            <English>MarCiras Back Panel Breacher (BLK)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_hydration_gry">
-            <English>MarCiras Back Panel Hydration (Grijs)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_hydration_blk">
-            <English>MarCiras Back Panel Hydration (BLK)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_pointman_gry">
-            <English>MarCiras Back Panel Pointman (Grijs)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_pointman_blk">
-            <English>MarCiras Back Panel Pointman (BLK)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_tomahawk_gry">
-            <English>MarCiras Back Panel Tomahawk (Grijs)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_tomahawk_blk">
-            <English>MarCiras Back Panel Tomahawk (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_battle_belt_assaulter_blk">
+            <English>Battle Belt Assaulter (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_battle_belt_assaulter_gry">
             <English>Battle Belt Assaulter (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_battle_belt_assaulter_blk">
-            <English>Battle Belt Assaulter (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_battle_belt_hgunner_blk">
+            <English>Battle Belt HeavyGunner (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_battle_belt_hgunner_gry">
             <English>Battle Belt HeavyGunner (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_battle_belt_hgunner_blk">
-            <English>Battle Belt HeavyGunner (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_breacher_blk">
+            <English>MarCiras Back Panel Breacher (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_light_gry">
-            <English>JPC Light (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_breacher_gry">
+            <English>MarCiras Back Panel Breacher (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_light_blk">
-            <English>JPC Light (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_hydration_blk">
+            <English>MarCiras Back Panel Hydration (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_assaulter_gry">
-            <English>JPC Assaulter (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_hydration_gry">
+            <English>MarCiras Back Panel Hydration (Grijs)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_assaulter_belt_blk">
+            <English>JPC Assaulter + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_jpc_assaulter_belt_gry">
             <English>JPC Assaulter + Belt (Grijs)</English>
@@ -52,11 +34,11 @@
         <Key ID="STR_TACS_Variants_MilGP_jpc_assaulter_blk">
             <English>JPC Assaulter (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_assaulter_belt_blk">
-            <English>JPC Assaulter + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_assaulter_gry">
+            <English>JPC Assaulter (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_grenadier_gry">
-            <English>JPC Grenadier (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_grenadier_belt_blk">
+            <English>JPC Grenadier + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_jpc_grenadier_belt_gry">
             <English>JPC Grenadier + Belt (Grijs)</English>
@@ -64,11 +46,11 @@
         <Key ID="STR_TACS_Variants_MilGP_jpc_grenadier_blk">
             <English>JPC Grenadier (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_grenadier_belt_blk">
-            <English>JPC Grenadier + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_grenadier_gry">
+            <English>JPC Grenadier (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_hgunner_gry">
-            <English>JPC HeavyGunner (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_hgunner_belt_blk">
+            <English>JPC HeavyGunner + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_jpc_hgunner_belt_gry">
             <English>JPC HeavyGunner + Belt (Grijs)</English>
@@ -76,11 +58,17 @@
         <Key ID="STR_TACS_Variants_MilGP_jpc_hgunner_blk">
             <English>JPC HeavyGunner (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_hgunner_belt_blk">
-            <English>JPC HeavyGunner + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_hgunner_gry">
+            <English>JPC HeavyGunner (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_marksman_gry">
-            <English>JPC Marksman (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_light_blk">
+            <English>JPC Light (BLK)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_light_gry">
+            <English>JPC Light (Grijs)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_marksman_belt_blk">
+            <English>JPC Marksman + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_jpc_marksman_belt_gry">
             <English>JPC Marksman + Belt (Grijs)</English>
@@ -88,11 +76,11 @@
         <Key ID="STR_TACS_Variants_MilGP_jpc_marksman_blk">
             <English>JPC Marksman (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_marksman_belt_blk">
-            <English>JPC Marksman + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_marksman_gry">
+            <English>JPC Marksman (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_medic_gry">
-            <English>JPC Medic (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_medic_belt_blk">
+            <English>JPC Medic + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_jpc_medic_belt_gry">
             <English>JPC Medic + Belt (Grijs)</English>
@@ -100,11 +88,11 @@
         <Key ID="STR_TACS_Variants_MilGP_jpc_medic_blk">
             <English>JPC Medic (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_medic_belt_blk">
-            <English>JPC Medic + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_medic_gry">
+            <English>JPC Medic (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_teamleader_gry">
-            <English>JPC TeamLeader (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_teamleader_belt_blk">
+            <English>JPC TeamLeader + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_jpc_teamleader_belt_gry">
             <English>JPC TeamLeader + Belt (Grijs)</English>
@@ -112,17 +100,11 @@
         <Key ID="STR_TACS_Variants_MilGP_jpc_teamleader_blk">
             <English>JPC TeamLeader (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_jpc_teamleader_belt_blk">
-            <English>JPC TeamLeader + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_jpc_teamleader_gry">
+            <English>JPC TeamLeader (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_light_gry">
-            <English>MarCiras Light (Grijs)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_light_blk">
-            <English>MarCiras Light (BLK)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_assaulter_gry">
-            <English>MarCiras Assaulter (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_assaulter_belt_blk">
+            <English>MarCiras Assaulter + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_marciras_assaulter_belt_gry">
             <English>MarCiras Assaulter + Belt (Grijs)</English>
@@ -130,11 +112,11 @@
         <Key ID="STR_TACS_Variants_MilGP_marciras_assaulter_blk">
             <English>MarCiras Assaulter (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_assaulter_belt_blk">
-            <English>MarCiras Assaulter + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_assaulter_gry">
+            <English>MarCiras Assaulter (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_grenadier_gry">
-            <English>MarCiras Grenadier (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_grenadier_belt_blk">
+            <English>MarCiras Grenadier + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_marciras_grenadier_belt_gry">
             <English>MarCiras Grenadier + Belt (Grijs)</English>
@@ -142,11 +124,11 @@
         <Key ID="STR_TACS_Variants_MilGP_marciras_grenadier_blk">
             <English>MarCiras Grenadier (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_grenadier_belt_blk">
-            <English>MarCiras Grenadier + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_grenadier_gry">
+            <English>MarCiras Grenadier (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_hgunner_gry">
-            <English>MarCiras HeavyGunner (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_hgunner_belt_blk">
+            <English>MarCiras HeavyGunner + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_marciras_hgunner_belt_gry">
             <English>MarCiras HeavyGunner + Belt (Grijs)</English>
@@ -154,11 +136,17 @@
         <Key ID="STR_TACS_Variants_MilGP_marciras_hgunner_blk">
             <English>MarCiras HeavyGunner (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_hgunner_belt_blk">
-            <English>MarCiras HeavyGunner + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_hgunner_gry">
+            <English>MarCiras HeavyGunner (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_marksman_gry">
-            <English>MarCiras Marksman (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_light_blk">
+            <English>MarCiras Light (BLK)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_light_gry">
+            <English>MarCiras Light (Grijs)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_marksman_belt_blk">
+            <English>MarCiras Marksman + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_marciras_marksman_belt_gry">
             <English>MarCiras Marksman + Belt (Grijs)</English>
@@ -166,11 +154,11 @@
         <Key ID="STR_TACS_Variants_MilGP_marciras_marksman_blk">
             <English>MarCiras Marksman (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_marksman_belt_blk">
-            <English>MarCiras Marksman + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_marksman_gry">
+            <English>MarCiras Marksman (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_medic_gry">
-            <English>MarCiras Medic (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_medic_belt_blk">
+            <English>MarCiras Medic + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_marciras_medic_belt_gry">
             <English>MarCiras Medic + Belt (Grijs)</English>
@@ -178,11 +166,11 @@
         <Key ID="STR_TACS_Variants_MilGP_marciras_medic_blk">
             <English>MarCiras Medic (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_medic_belt_blk">
-            <English>MarCiras Medic + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_medic_gry">
+            <English>MarCiras Medic (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_teamleader_gry">
-            <English>MarCiras TeamLeader (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_teamleader_belt_blk">
+            <English>MarCiras TeamLeader + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_marciras_teamleader_belt_gry">
             <English>MarCiras TeamLeader + Belt (Grijs)</English>
@@ -190,17 +178,11 @@
         <Key ID="STR_TACS_Variants_MilGP_marciras_teamleader_blk">
             <English>MarCiras TeamLeader (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_marciras_teamleader_belt_blk">
-            <English>MarCiras TeamLeader + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_marciras_teamleader_gry">
+            <English>MarCiras TeamLeader (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_light_gry">
-            <English>MMAC Light (Grijs)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_light_blk">
-            <English>MMAC Light (BLK)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_assaulter_gry">
-            <English>MMAC Assaulter (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_assaulter_belt_blk">
+            <English>MMAC Assaulter + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_mmac_assaulter_belt_gry">
             <English>MMAC Assaulter + Belt (Grijs)</English>
@@ -208,11 +190,11 @@
         <Key ID="STR_TACS_Variants_MilGP_mmac_assaulter_blk">
             <English>MMAC Assaulter (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_assaulter_belt_blk">
-            <English>MMAC Assaulter + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_assaulter_gry">
+            <English>MMAC Assaulter (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_grenadier_gry">
-            <English>MMAC Grenadier (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_grenadier_belt_blk">
+            <English>MMAC Grenadier + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_mmac_grenadier_belt_gry">
             <English>MMAC Grenadier + Belt (Grijs)</English>
@@ -220,11 +202,11 @@
         <Key ID="STR_TACS_Variants_MilGP_mmac_grenadier_blk">
             <English>MMAC Grenadier (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_grenadier_belt_blk">
-            <English>MMAC Grenadier + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_grenadier_gry">
+            <English>MMAC Grenadier (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_hgunner_gry">
-            <English>MMAC HeavyGunner (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_hgunner_belt_blk">
+            <English>MMAC HeavyGunner + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_mmac_hgunner_belt_gry">
             <English>MMAC HeavyGunner + Belt (Grijs)</English>
@@ -232,11 +214,17 @@
         <Key ID="STR_TACS_Variants_MilGP_mmac_hgunner_blk">
             <English>MMAC HeavyGunner (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_hgunner_belt_blk">
-            <English>MMAC HeavyGunner + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_hgunner_gry">
+            <English>MMAC HeavyGunner (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_marksman_gry">
-            <English>MMAC Marksman (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_light_blk">
+            <English>MMAC Light (BLK)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_light_gry">
+            <English>MMAC Light (Grijs)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_marksman_belt_blk">
+            <English>MMAC Marksman + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_mmac_marksman_belt_gry">
             <English>MMAC Marksman + Belt (Grijs)</English>
@@ -244,11 +232,11 @@
         <Key ID="STR_TACS_Variants_MilGP_mmac_marksman_blk">
             <English>MMAC Marksman (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_marksman_belt_blk">
-            <English>MMAC Marksman + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_marksman_gry">
+            <English>MMAC Marksman (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_medic_gry">
-            <English>MMAC Medic (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_medic_belt_blk">
+            <English>MMAC Medic + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_mmac_medic_belt_gry">
             <English>MMAC Medic + Belt (Grijs)</English>
@@ -256,11 +244,11 @@
         <Key ID="STR_TACS_Variants_MilGP_mmac_medic_blk">
             <English>MMAC Medic (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_medic_belt_blk">
-            <English>MMAC Medic + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_medic_gry">
+            <English>MMAC Medic (Grijs)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_teamleader_gry">
-            <English>MMAC TeamLeader (Grijs)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_teamleader_belt_blk">
+            <English>MMAC TeamLeader + Belt (BLK)</English>
         </Key>
         <Key ID="STR_TACS_Variants_MilGP_mmac_teamleader_belt_gry">
             <English>MMAC TeamLeader + Belt (Grijs)</English>
@@ -268,8 +256,20 @@
         <Key ID="STR_TACS_Variants_MilGP_mmac_teamleader_blk">
             <English>MMAC TeamLeader (BLK)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_MilGP_mmac_teamleader_belt_blk">
-            <English>MMAC TeamLeader + Belt (BLK)</English>
+        <Key ID="STR_TACS_Variants_MilGP_mmac_teamleader_gry">
+            <English>MMAC TeamLeader (Grijs)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_pointman_blk">
+            <English>MarCiras Back Panel Pointman (BLK)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_pointman_gry">
+            <English>MarCiras Back Panel Pointman (Grijs)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_tomahawk_blk">
+            <English>MarCiras Back Panel Tomahawk (BLK)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_MilGP_tomahawk_gry">
+            <English>MarCiras Back Panel Tomahawk (Grijs)</English>
         </Key>
     </Package>
 </Project>

@@ -1,59 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Vests">
+        <Key ID="STR_TACS_Vests_Vest_Modular_Black">
+            <English>Modular Carrier Vest (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_Modular_Coyote">
+            <English>Modular Carrier Vest (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_Modular_Green">
+            <English>Modular Carrier Vest (Green)</English>
+        </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrierFull_Black">
             <English>Plate Carrier Full (Black)</English>
+            <French>Gilet léger AV (Noir)</French>
             <German>Plattenträger, komplett (Schwarz)</German>
             <Japanese>完全型プレート キャリア (黒)</Japanese>
-            <French>Gilet léger AV (Noir)</French>
         </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrierFull_Green">
             <English>Plate Carrier Full (Green)</English>
+            <French>Gilet léger AV (Vert)</French>
             <German>Plattenträger, komplett (Grün)</German>
             <Japanese>プレート キャリア (MARPAT)</Japanese>
-            <French>Gilet léger AV (Vert)</French>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Black">
-            <English>Plate Carrier (Black)</English>
-            <German>Plattenträger (Schwarz)</German>
-            <Japanese>プレート キャリア (黒)</Japanese>
-            <French>Gilet léger (Noir)</French>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Green">
-            <English>Plate Carrier (Green)</English>
-            <German>Plattenträger (Grün)</German>
-            <Japanese>プレート キャリア (緑)</Japanese>
-            <French>Gilet léger (Vert)</French>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Coyote">
-            <English>Plate Carrier (Coyote)</English>
-            <German>Plattenträger (Coyote)</German>
-            <Japanese>プレート キャリア (コヨーテ)</Japanese>
-            <French>Gilet léger (Coyote)</French>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Khaki">
-            <English>Plate Carrier (Khaki)</English>
-            <German>Plattenträger (Khaki)</German>
-            <Japanese>プレート キャリア (土埃)</Japanese>
-            <French>Gilet léger (Kaki)</French>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_MARPAT">
-            <English>Plate Carrier (MARPAT)</English>
-            <German>Plattenträger (MARPAT)</German>
-            <Japanese>プレート キャリア (MARPAT)</Japanese>
-            <French>Gilet léger (MARPAT)</French>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_White">
-            <English>Plate Carrier (White)</English>
-            <German>Plattenträger (Weiß)</German>
-            <Japanese>プレート キャリア (白)</Japanese>
-            <French>Gilet léger (Blanc)</French>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_RGR">
-            <English>Plate Carrier (RGR)</English>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Grey">
-            <English>Plate Carrier (Grey)</English>
         </Key>
         <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_Black">
             <English>Heavy Plate Carrier (Black)</English>
@@ -67,20 +34,53 @@
         <Key ID="STR_TACS_Vests_Vest_PlateCarrierHeavy_White">
             <English>Heavy Plate Carrier (White)</English>
         </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Black">
+            <English>Plate Carrier (Black)</English>
+            <French>Gilet léger (Noir)</French>
+            <German>Plattenträger (Schwarz)</German>
+            <Japanese>プレート キャリア (黒)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Coyote">
+            <English>Plate Carrier (Coyote)</English>
+            <French>Gilet léger (Coyote)</French>
+            <German>Plattenträger (Coyote)</German>
+            <Japanese>プレート キャリア (コヨーテ)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Green">
+            <English>Plate Carrier (Green)</English>
+            <French>Gilet léger (Vert)</French>
+            <German>Plattenträger (Grün)</German>
+            <Japanese>プレート キャリア (緑)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Grey">
+            <English>Plate Carrier (Grey)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_Khaki">
+            <English>Plate Carrier (Khaki)</English>
+            <French>Gilet léger (Kaki)</French>
+            <German>Plattenträger (Khaki)</German>
+            <Japanese>プレート キャリア (土埃)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_MARPAT">
+            <English>Plate Carrier (MARPAT)</English>
+            <French>Gilet léger (MARPAT)</French>
+            <German>Plattenträger (MARPAT)</German>
+            <Japanese>プレート キャリア (MARPAT)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_RGR">
+            <English>Plate Carrier (RGR)</English>
+        </Key>
+        <Key ID="STR_TACS_Vests_Vest_PlateCarrier_White">
+            <English>Plate Carrier (White)</English>
+            <French>Gilet léger (Blanc)</French>
+            <German>Plattenträger (Weiß)</German>
+            <Japanese>プレート キャリア (白)</Japanese>
+        </Key>
         <Key ID="STR_TACS_Vests_Vest_Tactical_DarkBlack">
             <English>Tactical Vest (Dark Black)</English>
+            <French>Gillet par-balles (Noir Foncé)</French>
             <German>Plattenträger (Dunkelschwarz)</German>
             <Japanese>タクティカル ベスト (漆黒)</Japanese>
-            <French>Gillet par-balles (Noir Foncé)</French>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_Modular_Black">
-            <English>Modular Carrier Vest (Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_Modular_Green">
-            <English>Modular Carrier Vest (Green)</English>
-        </Key>
-        <Key ID="STR_TACS_Vests_Vest_Modular_Coyote">
-            <English>Modular Carrier Vest (Coyote)</English>
         </Key>
     </Package>
 </Project>

@@ -1,58 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Main">
-        <Key ID="STR_TACS_Main_Name">
-            <English>Theseus Services</English>
-            <German>Theseus Services</German>
-            <Polish>Theseus Services</Polish>
-            <Portuguese>Theseus Services</Portuguese>
-            <Russian>Theseus Services</Russian>
-            <Czech>Theseus Services</Czech>
-            <Spanish>Theseus Services</Spanish>
-            <Italian>Theseus Services</Italian>
-            <French>Theseus Services</French>
-            <Japanese>テーセウス サービス</Japanese>
-        </Key>
         <Key ID="STR_TACS_Main_Author">
             <English>Theseus Incorporated</English>
-            <German>Theseus Incorporated</German>
+            <Czech>Theseus Incorporated</Czech>
+            <French>Theseus Incorporated</French>
+            <Spanish>Theseus Incorporated</Spanish>
+            <Italian>Theseus Incorporated</Italian>
             <Polish>Theseus Incorporated</Polish>
             <Portuguese>Theseus Incorporated</Portuguese>
             <Russian>Theseus Incorporated</Russian>
-            <Czech>Theseus Incorporated</Czech>
-            <Spanish>Theseus Incorporated</Spanish>
-            <Italian>Theseus Incorporated</Italian>
-            <French>Theseus Incorporated</French>
-        </Key>
-        <Key ID="STR_TACS_Main_URL">
-            <English>https://github.com/Theseus-Aegis/TheseusServices</English>
-            <German>https://github.com/Theseus-Aegis/TheseusServices</German>
-            <Polish>https://github.com/Theseus-Aegis/TheseusServices</Polish>
-            <Portuguese>https://github.com/Theseus-Aegis/TheseusServices</Portuguese>
-            <Russian>https://github.com/Theseus-Aegis/TheseusServices</Russian>
-            <Czech>https://github.com/Theseus-Aegis/TheseusServices</Czech>
-            <Spanish>https://github.com/Theseus-Aegis/TheseusServices</Spanish>
-            <Italian>https://github.com/Theseus-Aegis/TheseusServices</Italian>
-            <French>https://github.com/Theseus-Aegis/TheseusServices</French>
-            <Japanese>https://github.com/Theseus-Aegis/TheseusServices</Japanese>
-        </Key>
-        <Key ID="STR_TACS_Main_Company">
-            <English>Theseus Inc.</English>
-            <German>Theseus Inc.</German>
-            <Polish>Theseus Inc.</Polish>
-            <Portuguese>Theseus Inc.</Portuguese>
-            <Russian>Theseus Inc.</Russian>
-            <Czech>Theseus Inc.</Czech>
-            <Spanish>Theseus Inc.</Spanish>
-            <Italian>Theseus Inc.</Italian>
-            <French>Theseus Inc.</French>
-            <Japanese>Theseus Inc.</Japanese>
+            <German>Theseus Incorporated</German>
         </Key>
         <Key ID="STR_TACS_Main_Box_Wearables">
             <English>[TACS] Wearables</English>
+            <French>[TACS] Vêtements</French>
             <German>[TACS] Tragbares</German>
             <Japanese>[TACS] ウェアラブル</Japanese>
-            <French>[TACS] Vêtements</French>
+        </Key>
+        <Key ID="STR_TACS_Main_Company">
+            <English>Theseus Inc.</English>
+            <Czech>Theseus Inc.</Czech>
+            <French>Theseus Inc.</French>
+            <Spanish>Theseus Inc.</Spanish>
+            <Italian>Theseus Inc.</Italian>
+            <Polish>Theseus Inc.</Polish>
+            <Portuguese>Theseus Inc.</Portuguese>
+            <Russian>Theseus Inc.</Russian>
+            <German>Theseus Inc.</German>
+            <Japanese>Theseus Inc.</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Main_Name">
+            <English>Theseus Services</English>
+            <Czech>Theseus Services</Czech>
+            <French>Theseus Services</French>
+            <Spanish>Theseus Services</Spanish>
+            <Italian>Theseus Services</Italian>
+            <Polish>Theseus Services</Polish>
+            <Portuguese>Theseus Services</Portuguese>
+            <Russian>Theseus Services</Russian>
+            <German>Theseus Services</German>
+            <Japanese>テーセウス サービス</Japanese>
         </Key>
         <Key ID="STR_TACS_Main_Theseus_Black">
             <English>Theseus Black</English>
@@ -62,6 +50,18 @@
         </Key>
         <Key ID="STR_TACS_Main_Theseus_Tan">
             <English>Theseus Tan</English>
+        </Key>
+        <Key ID="STR_TACS_Main_URL">
+            <English>https://github.com/Theseus-Aegis/TheseusServices</English>
+            <Czech>https://github.com/Theseus-Aegis/TheseusServices</Czech>
+            <French>https://github.com/Theseus-Aegis/TheseusServices</French>
+            <Spanish>https://github.com/Theseus-Aegis/TheseusServices</Spanish>
+            <Italian>https://github.com/Theseus-Aegis/TheseusServices</Italian>
+            <Polish>https://github.com/Theseus-Aegis/TheseusServices</Polish>
+            <Portuguese>https://github.com/Theseus-Aegis/TheseusServices</Portuguese>
+            <Russian>https://github.com/Theseus-Aegis/TheseusServices</Russian>
+            <German>https://github.com/Theseus-Aegis/TheseusServices</German>
+            <Japanese>https://github.com/Theseus-Aegis/TheseusServices</Japanese>
         </Key>
     </Package>
 </Project>

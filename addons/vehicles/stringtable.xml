@@ -3,9 +3,12 @@
     <Package name="Vehicles">
         <Key ID="STR_TACS_Vehicles_Heli_MH6_Blue">
             <English>MH-6 Little Bird (Blue)</English>
+            <French>MH-6 Little Bird (Bleu)</French>
             <German>MH-6 Little Bird (Blau)</German>
             <Japanese>MH-6 リトルバード (青)</Japanese>
-            <French>MH-6 Little Bird (Bleu)</French>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Heli_Merlin_Theseus">
+            <English>AW101 Merlin (Theseus Black)</English>
         </Key>
         <Key ID="STR_TACS_Vehicles_Heli_Wildcat_Theseus">
             <English>AW159 Wildcat (Theseus Black)</English>
@@ -25,56 +28,53 @@
         <Key ID="STR_TACS_Vehicles_Hemtt_Transport_Theseus">
             <English>HEMTT (Transport) (Theseus Black)</English>
         </Key>
+        <Key ID="STR_TACS_Vehicles_Offroad_Armed_Black">
+            <English>Offroad Armed (Black)</English>
+            <French>Tout-terrain armé (Noir)</French>
+            <German>Geländewagen, bewaffnet (Schwarz)</German>
+            <Japanese>武装オフロード (黒)</Japanese>
+        </Key>
         <Key ID="STR_TACS_Vehicles_Offroad_Black">
             <English>Offroad (Black)</English>
+            <French>Tout-terrain (Noir)</French>
             <German>Geländewagen (Schwarz)</German>
             <Japanese>オフロード (黒)</Japanese>
-            <French>Tout-terrain (Noir)</French>
         </Key>
         <Key ID="STR_TACS_Vehicles_Offroad_Covered_Black">
             <English>Offroad Covered (Black)</English>
         </Key>
-        <Key ID="STR_TACS_Vehicles_Offroad_Armed_Black">
-            <English>Offroad Armed (Black)</English>
-            <German>Geländewagen, bewaffnet (Schwarz)</German>
-            <Japanese>武装オフロード (黒)</Japanese>
-            <French>Tout-terrain armé (Noir)</French>
-        </Key>
-        <Key ID="STR_TACS_Vehicles_Polaris_Black">
-            <English>Polaris DAGOR (Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Vehicles_Polaris_Armed_Black">
-            <English>Polaris DAGOR (XM312) (Black)</English>
-        </Key>
         <Key ID="STR_TACS_Vehicles_Polaris_AT_Black">
             <English>Polaris DAGOR (Mini-Spike AT) (Black)</English>
         </Key>
-        <Key ID="STR_TACS_Vehicles_Polaris_Tan">
-            <English>Polaris DAGOR (Tan)</English>
-        </Key>
-        <Key ID="STR_TACS_Vehicles_Polaris_Armed_Tan">
-            <English>Polaris DAGOR (XM312) (Tan)</English>
+        <Key ID="STR_TACS_Vehicles_Polaris_AT_Green">
+            <English>Polaris DAGOR (Mini-Spike AT) (Green)</English>
         </Key>
         <Key ID="STR_TACS_Vehicles_Polaris_AT_Tan">
             <English>Polaris DAGOR (Mini-Spike AT) (Tan)</English>
         </Key>
-        <Key ID="STR_TACS_Vehicles_Polaris_Green">
-            <English>Polaris DAGOR (Green)</English>
+        <Key ID="STR_TACS_Vehicles_Polaris_Armed_Black">
+            <English>Polaris DAGOR (XM312) (Black)</English>
         </Key>
         <Key ID="STR_TACS_Vehicles_Polaris_Armed_Green">
             <English>Polaris DAGOR (XM312) (Green)</English>
         </Key>
-        <Key ID="STR_TACS_Vehicles_Polaris_AT_Green">
-            <English>Polaris DAGOR (Mini-Spike AT) (Green)</English>
+        <Key ID="STR_TACS_Vehicles_Polaris_Armed_Tan">
+            <English>Polaris DAGOR (XM312) (Tan)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Black">
+            <English>Polaris DAGOR (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Green">
+            <English>Polaris DAGOR (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Vehicles_Polaris_Tan">
+            <English>Polaris DAGOR (Tan)</English>
         </Key>
         <Key ID="STR_TACS_Vehicles_Van_Cargo_Black">
             <English>Van (Cargo) (Black)</English>
         </Key>
         <Key ID="STR_TACS_Vehicles_Van_Transport_Black">
             <English>Van (Transport) (Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Vehicles_Heli_Merlin_Theseus">
-            <English>AW101 Merlin (Theseus Black)</English>
         </Key>
     </Package>
 </Project>
