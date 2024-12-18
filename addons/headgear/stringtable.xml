@@ -1,185 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Headgear">
-        <Key ID="STR_TACS_Headgear_Cap_Headphones_BlackLogo">
-            <English>Cap Headphones (Black) Logo</English>
-            <German>Kappe, Kopfhöhrer (Schwarz) Logo</German>
-            <Japanese>ヘッドホン付き帽子 (黒) ロゴ</Japanese>
-            <French>Casquette écouteurs (Noir) Logo</French>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Cap_BlackLogo">
-            <English>Cap (Black) Logo</English>
-            <German>Kappe, Kopfhöhrer (Schwarz)</German>
-            <Japanese>帽子 (黒) ロゴ</Japanese>
-            <French>Casquette (Noir) logo</French>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Cap_TanLogo">
-            <English>Cap (Tan) Logo</English>
-            <German>Kappe (Hellbraun) Logo</German>
-            <Japanese>帽子 (黄褐) ロゴ</Japanese>
-            <French>Casquette (Beige) logo</French>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Cap_Earpiece_BlackLogo">
-            <English>Cap Earpiece (Black) Logo</English>
-            <German>Kappe, Ohrhöhrer (Schwarz) Logo</German>
-            <Japanese>耳栓付き帽子 (黒) ロゴ</Japanese>
-            <French>Casquette oreillette (Noir) logo</French>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Cap_Earpiece_TanLogo">
-            <English>Cap Earpiece (Tan) Logo</English>
-            <German>Kappe, Ohrhöhrer (Hellbraun) Logo</German>
-            <Japanese>耳栓付き帽子 (黄褐) ロゴ</Japanese>
-            <French>Casquette oreillette (Beige) logo</French>
-        </Key>
         <Key ID="STR_TACS_Headgear_Cap_Backwards_BlackLogo">
             <English>Cap Backwards (Black) Logo</English>
+            <French>Casquette retournée (Noir) logo</French>
             <German>Kappe, umgekehrt (Schwarz) Logo</German>
             <Japanese>後ろ向き帽子 (黒) ロゴ</Japanese>
-            <French>Casquette retournée (Noir) logo</French>
         </Key>
         <Key ID="STR_TACS_Headgear_Cap_Backwards_TanLogo">
             <English>Cap Backwards (Tan) Logo</English>
+            <French>Casquette retournée (Beige) logo</French>
             <German>Kappe, umgekehrt (Hellbraun) Logo</German>
             <Japanese>後ろ向き帽子 (黄褐) ロゴ</Japanese>
-            <French>Casquette retournée (Beige) logo</French>
         </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Ballistic_DarkBlack">
-            <English>Combat Helmet (Dark Black)</English>
-            <German>Gefechtshelm (Dunkelschwarz)</German>
-            <Japanese>戦闘ヘルメット (漆黒)</Japanese>
-            <French>Casque de combat (Noir Foncé)</French>
+        <Key ID="STR_TACS_Headgear_Cap_BlackLogo">
+            <English>Cap (Black) Logo</English>
+            <French>Casquette (Noir) logo</French>
+            <German>Kappe, Kopfhöhrer (Schwarz)</German>
+            <Japanese>帽子 (黒) ロゴ</Japanese>
         </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Ballistic_White">
-            <English>Combat Helmet (White)</English>
-            <German>Gefechtshelm (Weiß)</German>
-            <Japanese>戦闘ヘルメット (白)</Japanese>
-            <French>Casque de combat (Blanc)</French>
+        <Key ID="STR_TACS_Headgear_Cap_Earpiece_BlackLogo">
+            <English>Cap Earpiece (Black) Logo</English>
+            <French>Casquette oreillette (Noir) logo</French>
+            <German>Kappe, Ohrhöhrer (Schwarz) Logo</German>
+            <Japanese>耳栓付き帽子 (黒) ロゴ</Japanese>
         </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Enc_Ballistic_DarkBlack">
-            <English>Enhanced Combat Helmet (Dark Black)</English>
-            <German>Verbesserter Gefechtshelm (Dunkelschwarz)</German>
-            <Japanese>強化戦闘ヘルメット (漆黒)</Japanese>
-            <French>Casque de combat amélioré (Noir Foncé)</French>
+        <Key ID="STR_TACS_Headgear_Cap_Earpiece_TanLogo">
+            <English>Cap Earpiece (Tan) Logo</English>
+            <French>Casquette oreillette (Beige) logo</French>
+            <German>Kappe, Ohrhöhrer (Hellbraun) Logo</German>
+            <Japanese>耳栓付き帽子 (黄褐) ロゴ</Japanese>
         </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Enc_Ballistic_White">
-            <English>Enhanced Combat Helmet (White)</English>
-            <German>Verbesserter Gefechtshelm (Weiß)</German>
-            <Japanese>強化戦闘ヘルメット (白)</Japanese>
-            <French>Casque de combat amélioré (Blanc)</French>
+        <Key ID="STR_TACS_Headgear_Cap_Headphones_BlackLogo">
+            <English>Cap Headphones (Black) Logo</English>
+            <French>Casquette écouteurs (Noir) Logo</French>
+            <German>Kappe, Kopfhöhrer (Schwarz) Logo</German>
+            <Japanese>ヘッドホン付き帽子 (黒) ロゴ</Japanese>
         </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Light_Ballistic_DarkBlack">
-            <English>Light Combat Helmet (Dark Black)</English>
-            <German>Leichter Gefechtshelm (Dunkelschwarz)</German>
-            <Japanese>光戦闘ヘルメット (漆黒)</Japanese>
-            <French>Casque de combat léger (Noir Foncé)</French>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_PilotHeli_Tan">
-            <English>Heli Pilot Helmet (Tan)</English>
-            <German>Heli-Pilotenhelm (Hellbraun)</German>
-            <Japanese>ヘリ操縦士ヘルメット (黄褐)</Japanese>
-            <French>Casque de pilote d'hélico (Beige)</French>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Hat_Boonie_RangerGreen">
-            <English>Boonie Hat (Ranger Green)</English>
-            <German>Buschhut (Ranger-grün)</German>
-            <Japanese>ブーニーハット (レンジャー グリーン)</Japanese>
-            <French>Chapeau de brousse (Vert Ranger)</French>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Hat_Boonie_DesertMARPAT">
-            <English>Boonie Hat (Desert MARPAT)</English>
-            <German>Buschhut (Wüste-MARPAT)</German>
-            <Japanese>ブーニーハット (MARPAT 砂漠)</Japanese>
-            <French>Chapeau de brousse (MARPAT)</French>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Hat_Boonie_Woodland">
-            <English>Boonie Hat (Woodland)</English>
-            <German>Buschhut (Wald)</German>
-            <Japanese>ブーニーハット (森林迷彩)</Japanese>
-            <French>Chapeau de brousse (Woodland)</French>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Hat_Boonie_UCP">
-            <English>Boonie Hat (UCP)</English>
-            <German>Buschhut (UCP)</German>
-            <Japanese>ブーニーハット (UCP)</Japanese>
-            <French>Chapeau de brousse (UCP)</French>
+        <Key ID="STR_TACS_Headgear_Cap_TanLogo">
+            <English>Cap (Tan) Logo</English>
+            <French>Casquette (Beige) logo</French>
+            <German>Kappe (Hellbraun) Logo</German>
+            <Japanese>帽子 (黄褐) ロゴ</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Hat_Beret_BlackLogo">
             <English>Beret (Black) Logo</English>
+            <French>Béret (Noir) Logo</French>
             <German>Barett (Schwarz) Logo</German>
             <Japanese>ベレー (黒) ロゴ</Japanese>
-            <French>Béret (Noir) Logo</French>
         </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Black">
-            <English>Advanced Modular Helmet (Black)</English>
+        <Key ID="STR_TACS_Headgear_Hat_Boonie_DesertMARPAT">
+            <English>Boonie Hat (Desert MARPAT)</English>
+            <French>Chapeau de brousse (MARPAT)</French>
+            <German>Buschhut (Wüste-MARPAT)</German>
+            <Japanese>ブーニーハット (MARPAT 砂漠)</Japanese>
         </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Green">
-            <English>Advanced Modular Helmet (Green)</English>
+        <Key ID="STR_TACS_Headgear_Hat_Boonie_RangerGreen">
+            <English>Boonie Hat (Ranger Green)</English>
+            <French>Chapeau de brousse (Vert Ranger)</French>
+            <German>Buschhut (Ranger-grün)</German>
+            <Japanese>ブーニーハット (レンジャー グリーン)</Japanese>
         </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Coyote">
-            <English>Advanced Modular Helmet (Coyote)</English>
+        <Key ID="STR_TACS_Headgear_Hat_Boonie_UCP">
+            <English>Boonie Hat (UCP)</English>
+            <French>Chapeau de brousse (UCP)</French>
+            <German>Buschhut (UCP)</German>
+            <Japanese>ブーニーハット (UCP)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Hat_Boonie_Woodland">
+            <English>Boonie Hat (Woodland)</English>
+            <French>Chapeau de brousse (Woodland)</French>
+            <German>Buschhut (Wald)</German>
+            <Japanese>ブーニーハット (森林迷彩)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Ballistic_DarkBlack">
+            <English>Combat Helmet (Dark Black)</English>
+            <French>Casque de combat (Noir Foncé)</French>
+            <German>Gefechtshelm (Dunkelschwarz)</German>
+            <Japanese>戦闘ヘルメット (漆黒)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Ballistic_White">
+            <English>Combat Helmet (White)</English>
+            <French>Casque de combat (Blanc)</French>
+            <German>Gefechtshelm (Weiß)</German>
+            <Japanese>戦闘ヘルメット (白)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Enc_Ballistic_DarkBlack">
+            <English>Enhanced Combat Helmet (Dark Black)</English>
+            <French>Casque de combat amélioré (Noir Foncé)</French>
+            <German>Verbesserter Gefechtshelm (Dunkelschwarz)</German>
+            <Japanese>強化戦闘ヘルメット (漆黒)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Enc_Ballistic_White">
+            <English>Enhanced Combat Helmet (White)</English>
+            <French>Casque de combat amélioré (Blanc)</French>
+            <German>Verbesserter Gefechtshelm (Weiß)</German>
+            <Japanese>強化戦闘ヘルメット (白)</Japanese>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Light_Ballistic_DarkBlack">
+            <English>Light Combat Helmet (Dark Black)</English>
+            <French>Casque de combat léger (Noir Foncé)</French>
+            <German>Leichter Gefechtshelm (Dunkelschwarz)</German>
+            <Japanese>光戦闘ヘルメット (漆黒)</Japanese>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_AU">
             <English>Advanced Modular Helmet (A-TACS AU)</English>
         </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_FG">
-            <English>Advanced Modular Helmet (A-TACS FG)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_RGR">
-            <English>Advanced Modular Helmet (RGR)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Black">
-            <English>Advanced Modular Helmet, Chops (Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Green">
-            <English>Advanced Modular Helmet, Chops (Green)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Coyote">
-            <English>Advanced Modular Helmet, Chops (Coyote)</English>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Black">
+            <English>Advanced Modular Helmet (Black)</English>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_AU">
             <English>Advanced Modular Helmet, Chops (A-TACS AU)</English>
         </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Black">
+            <English>Advanced Modular Helmet, Chops (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Coyote">
+            <English>Advanced Modular Helmet, Chops (Coyote)</English>
+        </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_FG">
             <English>Advanced Modular Helmet, Chops (A-TACS FG)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Green">
+            <English>Advanced Modular Helmet, Chops (Green)</English>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_RGR">
             <English>Advanced Modular Helmet, Chops (RGR)</English>
         </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Black">
-            <English>Advanced Modular Helmet, Headset (Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Green">
-            <English>Advanced Modular Helmet, Headset (Green)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Coyote">
-            <English>Advanced Modular Helmet, Headset (Coyote)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_AU">
-            <English>Advanced Modular Helmet, Headset (A-TACS AU)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_FG">
-            <English>Advanced Modular Helmet, Headset (A-TACS FG)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_RGR">
-            <English>Advanced Modular Helmet, Headset (RGR)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Black">
-            <English>Advanced Modular Helmet, Ear Protection (Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Green">
-            <English>Advanced Modular Helmet, Ear Protection (Green)</English>
-        </Key>
-        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Coyote">
-            <English>Advanced Modular Helmet, Ear Protection (Coyote)</English>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Coyote">
+            <English>Advanced Modular Helmet (Coyote)</English>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_AU">
             <English>Advanced Modular Helmet, Ear Protection (A-TACS AU)</English>
         </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Black">
+            <English>Advanced Modular Helmet, Ear Protection (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Coyote">
+            <English>Advanced Modular Helmet, Ear Protection (Coyote)</English>
+        </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_FG">
             <English>Advanced Modular Helmet, Ear Protection (A-TACS FG)</English>
         </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Green">
+            <English>Advanced Modular Helmet, Ear Protection (Green)</English>
+        </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_RGR">
             <English>Advanced Modular Helmet, Ear Protection (RGR)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_FG">
+            <English>Advanced Modular Helmet (A-TACS FG)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Green">
+            <English>Advanced Modular Helmet (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_AU">
+            <English>Advanced Modular Helmet, Headset (A-TACS AU)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Black">
+            <English>Advanced Modular Helmet, Headset (Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Coyote">
+            <English>Advanced Modular Helmet, Headset (Coyote)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_FG">
+            <English>Advanced Modular Helmet, Headset (A-TACS FG)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Green">
+            <English>Advanced Modular Helmet, Headset (Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_RGR">
+            <English>Advanced Modular Helmet, Headset (RGR)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_RGR">
+            <English>Advanced Modular Helmet (RGR)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_PilotHeli_Tan">
+            <English>Heli Pilot Helmet (Tan)</English>
+            <French>Casque de pilote d'hélico (Beige)</French>
+            <German>Heli-Pilotenhelm (Hellbraun)</German>
+            <Japanese>ヘリ操縦士ヘルメット (黄褐)</Japanese>
         </Key>
     </Package>
 </Project>

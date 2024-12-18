@@ -1,71 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACS">
     <Package name="Variants_CUP">
+        <Key ID="STR_TACS_Variants_CUP_C130J_Author">
+            <English>GilleeDoo, Mike</English>
+        </Key>
         <Key ID="STR_TACS_Variants_CUP_C130J_Theseus_Name">
             <English>C-130J</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_C130J_Theseus_Texture_Name">
             <English>Theseus Grey</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_C130J_Author">
-            <English>GilleeDoo, Mike</English>
-        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Black">
             <English>PMC Clothes Long (Black)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Earth">
-            <English>PMC Clothes Long (Earth)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Pattern_Foliage">
-            <English>PMC Clothes Long (Pattern Foliage)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black">
-            <English>PMC Clothes Long (Plaid Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black2">
-            <English>PMC Clothes Long (Plaid Black Grey)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo">
-            <English>PMC Clothes Long (Plaid Buffalo, Black)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo2">
-            <English>PMC Clothes Long (Plaid Buffalo, Brown)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth">
-            <English>PMC Clothes Long (Plaid Earth)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth2">
-            <English>PMC Clothes Long (Plaid Earth Tan)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth3">
-            <English>PMC Clothes Long (Plaid Earth Green)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage">
-            <English>PMC Clothes Long (Plaid Foliage Lime)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage2">
-            <English>PMC Clothes Long (Plaid Foliage Lemon)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage3">
-            <English>PMC Clothes Long (Plaid Foliage Grass)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MacMillan_Ancient">
-            <English>PMC Clothes Long (Plaid MacMillan Ancient)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Melville_2_Black_Lines">
-            <English>PMC Clothes Long (Plaid Melville 2 Black Lines)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MacMillan_Hunting_Ancient">
-            <English>PMC Clothes Long (Plaid MacMillan Hunting Ancient)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MacMillan_Dress">
-            <English>PMC Clothes Long (Plaid MacMillan Dress)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Melville">
-            <English>PMC Clothes Long (Plaid Melville)</English>
-        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Black_Kneepads">
             <English>PMC Clothes Long (Black) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Earth">
+            <English>PMC Clothes Long (Earth)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Earth_Kneepads">
             <English>PMC Clothes Long (Earth) Kneepads</English>
@@ -73,50 +25,98 @@
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Foliage_Kneepads">
             <English>PMC Clothes Long (Foliage) Kneepads</English>
         </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Pattern_Foliage">
+            <English>PMC Clothes Long (Pattern Foliage)</English>
+        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Pattern_Foliage_Kneepads">
             <English>PMC Clothes Long (Pattern Foliage) Kneepads</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black_Kneepads">
-            <English>PMC Clothes Long (Plaid Black) Kneepads</English>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black">
+            <English>PMC Clothes Long (Plaid Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black2">
+            <English>PMC Clothes Long (Plaid Black Grey)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black2_Kneepads">
             <English>PMC Clothes Long (Plaid Black Grey) Kneepads</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo_Kneepads">
-            <English>PMC Clothes Long (Plaid Buffalo, Black) Kneepads</English>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Black_Kneepads">
+            <English>PMC Clothes Long (Plaid Black) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo">
+            <English>PMC Clothes Long (Plaid Buffalo, Black)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo2">
+            <English>PMC Clothes Long (Plaid Buffalo, Brown)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo2_Kneepads">
             <English>PMC Clothes Long (Plaid Buffalo, Brown) Kneepads</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth_Kneepads">
-            <English>PMC Clothes Long (Plaid Earth) Kneepads</English>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Buffalo_Kneepads">
+            <English>PMC Clothes Long (Plaid Buffalo, Black) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth">
+            <English>PMC Clothes Long (Plaid Earth)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth2">
+            <English>PMC Clothes Long (Plaid Earth Tan)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth2_Kneepads">
             <English>PMC Clothes Long (Plaid Earth Tan) Kneepads</English>
         </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth3">
+            <English>PMC Clothes Long (Plaid Earth Green)</English>
+        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth3_Kneepads">
             <English>PMC Clothes Long (Plaid Earth Green) Kneepads</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage_Kneepads">
-            <English>PMC Clothes Long (Plaid Foliage Lime) Kneepads</English>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Earth_Kneepads">
+            <English>PMC Clothes Long (Plaid Earth) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage">
+            <English>PMC Clothes Long (Plaid Foliage Lime)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage2">
+            <English>PMC Clothes Long (Plaid Foliage Lemon)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage2_Kneepads">
             <English>PMC Clothes Long (Plaid Foliage Lemon) Kneepads</English>
         </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage3">
+            <English>PMC Clothes Long (Plaid Foliage Grass)</English>
+        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage3_Kneepads">
             <English>PMC Clothes Long (Plaid Foliage Grass) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Foliage_Kneepads">
+            <English>PMC Clothes Long (Plaid Foliage Lime) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MacMillan_Ancient">
+            <English>PMC Clothes Long (Plaid MacMillan Ancient)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MacMillan_Ancient_Kneepads">
             <English>PMC Clothes Long (Plaid MacMillan Ancient) Kneepads</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Melville_2_Black_Lines_Kneepads">
-            <English>PMC Clothes Long (Plaid Melville 2 Black Lines) Kneepads</English>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MacMillan_Dress">
+            <English>PMC Clothes Long (Plaid MacMillan Dress)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MacMillan_Dress_Kneepads">
+            <English>PMC Clothes Long (Plaid MacMillan Dress) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MacMillan_Hunting_Ancient">
+            <English>PMC Clothes Long (Plaid MacMillan Hunting Ancient)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MacMillan_Hunting_Ancient_Kneepads">
             <English>PMC Clothes Long (Plaid MacMillan Hunting Ancient) Kneepads</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_MacMillan_Dress_Kneepads">
-            <English>PMC Clothes Long (Plaid MacMillan Dress) Kneepads</English>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Melville">
+            <English>PMC Clothes Long (Plaid Melville)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Melville_2_Black_Lines">
+            <English>PMC Clothes Long (Plaid Melville 2 Black Lines)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Melville_2_Black_Lines_Kneepads">
+            <English>PMC Clothes Long (Plaid Melville 2 Black Lines) Kneepads</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Long_Plaid_Melville_Kneepads">
             <English>PMC Clothes Long (Plaid Melville) Kneepads</English>
@@ -124,11 +124,20 @@
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Black">
             <English>PMC Clothes Rolled (Black)</English>
         </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Black_Kneepads">
+            <English>PMC Clothes Rolled (Black) Kneepads</English>
+        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Earth">
             <English>PMC Clothes Rolled (Earth)</English>
         </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Earth_Kneepads">
+            <English>PMC Clothes Rolled (Earth) Kneepads</English>
+        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Pattern_Foliage">
             <English>PMC Clothes Rolled (Pattern Foliage)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Pattern_Foliage_Kneepads">
+            <English>PMC Clothes Rolled (Pattern Foliage) Kneepads</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Black">
             <English>PMC Clothes Rolled (Plaid Black)</English>
@@ -136,11 +145,23 @@
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Black2">
             <English>PMC Clothes Rolled (Plaid Black Grey)</English>
         </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Black2_Kneepads">
+            <English>PMC Clothes Rolled (Plaid Black Grey) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Black_Kneepads">
+            <English>PMC Clothes Rolled (Plaid Black) Kneepads</English>
+        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Buffalo">
             <English>PMC Clothes Rolled (Plaid Buffalo, Black)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Buffalo2">
             <English>PMC Clothes Rolled (Plaid Buffalo, Brown)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Buffalo2_Kneepads">
+            <English>PMC Clothes Rolled (Plaid Buffalo, Brown) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Buffalo_Kneepads">
+            <English>PMC Clothes Rolled (Plaid Buffalo, Black) Kneepads</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth">
             <English>PMC Clothes Rolled (Plaid Earth)</English>
@@ -148,8 +169,17 @@
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth2">
             <English>PMC Clothes Rolled (Plaid Earth Tan)</English>
         </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth2_Kneepads">
+            <English>PMC Clothes Rolled (Plaid Earth Tan) Kneepads</English>
+        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth3">
             <English>PMC Clothes Rolled (Plaid Earth Green)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth3_Kneepads">
+            <English>PMC Clothes Rolled (Plaid Earth Green) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth_Kneepads">
+            <English>PMC Clothes Rolled (Plaid Earth) Kneepads</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage">
             <English>PMC Clothes Rolled (Plaid Foliage Lime)</English>
@@ -157,74 +187,44 @@
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage2">
             <English>PMC Clothes Rolled (Plaid Foliage Lemon)</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage3">
-            <English>PMC Clothes Rolled (Plaid Foliage Grass)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MacMillan_Ancient">
-            <English>PMC Clothes Rolled (Plaid MacMillan Ancient)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Melville_2_Black_Lines">
-            <English>PMC Clothes Rolled (Plaid Melville 2 Black Lines)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MacMillan_Hunting_Ancient">
-            <English>PMC Clothes Rolled (Plaid MacMillan Hunting Ancient)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MacMillan_Dress">
-            <English>PMC Clothes Rolled (Plaid MacMillan Dress)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Melville">
-            <English>PMC Clothes Rolled (Plaid Melville)</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Black_Kneepads">
-            <English>PMC Clothes Rolled (Black) Kneepads</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Earth_Kneepads">
-            <English>PMC Clothes Rolled (Earth) Kneepads</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Pattern_Foliage_Kneepads">
-            <English>PMC Clothes Rolled (Pattern Foliage) Kneepads</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Black_Kneepads">
-            <English>PMC Clothes Rolled (Plaid Black) Kneepads</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Black2_Kneepads">
-            <English>PMC Clothes Rolled (Plaid Black Grey) Kneepads</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Buffalo_Kneepads">
-            <English>PMC Clothes Rolled (Plaid Buffalo, Black) Kneepads</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Buffalo2_Kneepads">
-            <English>PMC Clothes Rolled (Plaid Buffalo, Brown) Kneepads</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth_Kneepads">
-            <English>PMC Clothes Rolled (Plaid Earth) Kneepads</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth2_Kneepads">
-            <English>PMC Clothes Rolled (Plaid Earth Tan) Kneepads</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Earth3_Kneepads">
-            <English>PMC Clothes Rolled (Plaid Earth Green) Kneepads</English>
-        </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage_Kneepads">
-            <English>PMC Clothes Rolled (Plaid Foliage Lime) Kneepads</English>
-        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage2_Kneepads">
             <English>PMC Clothes Rolled (Plaid Foliage Lemon) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage3">
+            <English>PMC Clothes Rolled (Plaid Foliage Grass)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage3_Kneepads">
             <English>PMC Clothes Rolled (Plaid Foliage Grass) Kneepads</English>
         </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Foliage_Kneepads">
+            <English>PMC Clothes Rolled (Plaid Foliage Lime) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MacMillan_Ancient">
+            <English>PMC Clothes Rolled (Plaid MacMillan Ancient)</English>
+        </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MacMillan_Ancient_Kneepads">
             <English>PMC Clothes Rolled (Plaid MacMillan Ancient) Kneepads</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Melville_2_Black_Lines_Kneepads">
-            <English>PMC Clothes Rolled (Plaid Melville 2 Black Lines) Kneepads</English>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MacMillan_Dress">
+            <English>PMC Clothes Rolled (Plaid MacMillan Dress)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MacMillan_Dress_Kneepads">
+            <English>PMC Clothes Rolled (Plaid MacMillan Dress) Kneepads</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MacMillan_Hunting_Ancient">
+            <English>PMC Clothes Rolled (Plaid MacMillan Hunting Ancient)</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MacMillan_Hunting_Ancient_Kneepads">
             <English>PMC Clothes Rolled (Plaid MacMillan Hunting Ancient) Kneepads</English>
         </Key>
-        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_MacMillan_Dress_Kneepads">
-            <English>PMC Clothes Rolled (Plaid MacMillan Dress) Kneepads</English>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Melville">
+            <English>PMC Clothes Rolled (Plaid Melville)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Melville_2_Black_Lines">
+            <English>PMC Clothes Rolled (Plaid Melville 2 Black Lines)</English>
+        </Key>
+        <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Melville_2_Black_Lines_Kneepads">
+            <English>PMC Clothes Rolled (Plaid Melville 2 Black Lines) Kneepads</English>
         </Key>
         <Key ID="STR_TACS_Variants_CUP_Uniform_Rolled_Plaid_Melville_Kneepads">
             <English>PMC Clothes Rolled (Plaid Melville) Kneepads</English>
