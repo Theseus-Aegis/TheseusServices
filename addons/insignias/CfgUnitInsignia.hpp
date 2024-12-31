@@ -271,7 +271,7 @@ class CfgUnitInsignia {
         MACRO_INSIGNIA_COMMON;
         author = "BadHabitz";
         displayName = "Fuck ISIS";
-        texture = QPATHTOF(data\FuckISIS.paa);
+        texture = QPATHTOF(data\fuckisis.paa);
     };
     class CLASS(Insignia_FuckIt_BLack) {
         MACRO_INSIGNIA_COMMON;
@@ -385,13 +385,13 @@ class CfgUnitInsignia {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "Kangaroo (Auscam)";
-        texture = QPATHTOF(data\kangaroo_AUSCAM.paa);
+        texture = QPATHTOF(data\kangaroo_auscam.paa);
     };
    class CLASS(Insignia_Kangaroo_Camo_Red) {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "Kangaroo Red (Auscam)";
-        texture = QPATHTOF(data\kangaroo_Camo_Red.paa);
+        texture = QPATHTOF(data\kangaroo_camo_red.paa);
     };
     class CLASS(Insignia_KeepCalmAndReload) {
         MACRO_INSIGNIA_COMMON;
