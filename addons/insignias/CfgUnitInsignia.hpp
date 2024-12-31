@@ -381,13 +381,13 @@ class CfgUnitInsignia {
         displayName = "Judge";
         texture = QPATHTOF(data\judge.paa);
     };
-    class CLASS(Insignia_kangaroo_AUSCAM) {
+    class CLASS(Insignia_Kangaroo_AUSCAM) {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "Kangaroo (Auscam)";
         texture = QPATHTOF(data\kangaroo_AUSCAM.paa);
     };
-   class CLASS(Insignia_kangaroo_Camo_Red) {
+   class CLASS(Insignia_Kangaroo_Camo_Red) {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "Kangaroo Red (Auscam)";
@@ -759,7 +759,7 @@ class CfgUnitInsignia {
         displayName = "Stoneward";
         texture = QPATHTOF(data\stoneward.paa);
     };
-   class CLASS(Insignia_Super_earth) {
+   class CLASS(Insignia_Super_Earth) {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "Super Earth";
@@ -879,7 +879,7 @@ class CfgUnitInsignia {
         displayName = "Willshaper";
         texture = QPATHTOF(data\willshaper.paa);
     };
-   class CLASS(Insignia_Wireless_device) {
+   class CLASS(Insignia_Wireless_Device) {
         MACRO_INSIGNIA_COMMON;
         author = "Jack Jones";
         displayName = "Wireless Device";
