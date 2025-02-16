@@ -261,6 +261,14 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_rgr_co.paa)};
     };
 
+    class CLASS(Helmet_Modular_Grijs): H_HelmetHBK_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "GilleeDoo";
+        displayName = CSTRING(Helmet_Modular_Grijs);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_grijs_co.paa)};
+    };
+
     class H_HelmetHBK_chops_F;
     class CLASS(Helmet_Modular_Chops_Black): H_HelmetHBK_chops_F {
         dlc = QUOTE(PREFIX);
@@ -313,6 +321,14 @@ class CfgWeapons {
         author = "Mike";
         displayName = CSTRING(Helmet_Modular_Chops_RGR);
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_rgr_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Chops_Grijs): H_HelmetHBK_chops_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Mike";
+        displayName = CSTRING(Helmet_Modular_Chops_Grijs);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_grijs_co.paa)};
     };
 
     class H_HelmetHBK_headset_F;
@@ -369,6 +385,14 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_rgr_co.paa)};
     };
 
+    class CLASS(Helmet_Modular_Headset_Grijs): H_HelmetHBK_headset_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Mike";
+        displayName = CSTRING(Helmet_Modular_Headset_Grijs);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_grijs_co.paa)};
+    };
+
     class H_HelmetHBK_ear_F;
     class CLASS(Helmet_Modular_Ear_Black): H_HelmetHBK_ear_F {
         dlc = QUOTE(PREFIX);
@@ -421,5 +445,13 @@ class CfgWeapons {
         author = "Mike";
         displayName = CSTRING(Helmet_Modular_Ear_RGR);
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_rgr_co.paa)};
+    };
+
+    class CLASS(Helmet_Modular_Ear_Grijs): H_HelmetHBK_ear_F {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Mike";
+        displayName = CSTRING(Helmet_Modular_Ear_Grijs);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\helmet_modular_grijs_co.paa)};
     };
 };
