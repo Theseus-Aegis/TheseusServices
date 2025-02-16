@@ -7,7 +7,7 @@ class Turrets: Turrets {
         minElev = -10;
         maxElev = 20;
         initElev = 0;
-        soundServo[] = {"a3\sounds_f\dummysound", 0, 1};
+        soundServo[] = {"a3\sounds_f\dummysound.wss", 0, 1};
         stabilizedInAxes = 0; // StabilizedInAxesNone
         gunBeg = "muzzle_1";
         gunEnd = "chamber_1";
@@ -21,7 +21,7 @@ class Turrets: Turrets {
         gunnerInAction = "Arcadian_GunnerTurnIn";
         gunnerAction = "Arcadian_GunnerTurnOut";
         gunnerOpticsModel = "";
-        gunnerOutOpticsModel = "\a3\weapons_f\reticle\optics_empty";
+        gunnerOutOpticsModel = "\a3\weapons_f\reticle\optics_empty.p3d";
         memoryPointGunnerOutOptics = "gunnerview";
         memoryPointGunnerOptics = "gunnerview";
         memoryPointsGetInGunner = "pos cargo rear";

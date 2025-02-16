@@ -38,7 +38,7 @@ class UniformItem;
 class CLASS(Uniform_Base): Uniform_Base {
     dlc = QUOTE(PREFIX);
     scope = 0;
-    model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+    model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver.p3d";
 
     class ItemInfo: UniformItem {
         uniformModel = "-";
