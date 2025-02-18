@@ -127,6 +127,9 @@
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_RGR">
             <English>Advanced Modular Helmet, Chops (RGR)</English>
         </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Chops_Grijs">
+            <English>Advanced Modular Helmet, Chops (Grijs)</English>
+        </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Coyote">
             <English>Advanced Modular Helmet (Coyote)</English>
         </Key>
@@ -147,6 +150,9 @@
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_RGR">
             <English>Advanced Modular Helmet, Ear Protection (RGR)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Ear_Grijs">
+            <English>Advanced Modular Helmet, Ear Protection (Grijs)</English>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_FG">
             <English>Advanced Modular Helmet (A-TACS FG)</English>
@@ -172,8 +178,14 @@
         <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_RGR">
             <English>Advanced Modular Helmet, Headset (RGR)</English>
         </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Headset_Grijs">
+            <English>Advanced Modular Helmet, Headset (Grijs)</English>
+        </Key>
         <Key ID="STR_TACS_Headgear_Helmet_Modular_RGR">
             <English>Advanced Modular Helmet (RGR)</English>
+        </Key>
+        <Key ID="STR_TACS_Headgear_Helmet_Modular_Grijs">
+            <English>Advanced Modular Helmet (Grijs)</English>
         </Key>
         <Key ID="STR_TACS_Headgear_Helmet_PilotHeli_Tan">
             <English>Heli Pilot Helmet (Tan)</English>

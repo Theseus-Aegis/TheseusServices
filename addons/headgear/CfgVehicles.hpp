@@ -243,6 +243,16 @@ class CfgVehicles {
         };
     };
 
+    class CLASS(Item_Helmet_Modular_Grijs): Headgear_H_HelmetHBK_F {
+        MACRO_ITEM_COMMON;
+        author = "Mike";
+        displayName = CSTRING(Helmet_Modular_Grijs);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Grijs),1);
+        };
+    };
+
     class Headgear_H_HelmetHBK_headset_F;
     class CLASS(Item_Helmet_Modular_Headset_Black): Headgear_H_HelmetHBK_headset_F {
         MACRO_ITEM_COMMON;
@@ -301,6 +311,16 @@ class CfgVehicles {
 
         class TransportItems {
             MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_RGR),1);
+        };
+    };
+
+    class CLASS(Item_Helmet_Modular_Headset_Grijs): Headgear_H_HelmetHBK_headset_F {
+        MACRO_ITEM_COMMON;
+        author = "Mike";
+        displayName = CSTRING(Helmet_Modular_Headset_Grijs);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Grijs),1);
         };
     };
 
@@ -365,6 +385,16 @@ class CfgVehicles {
         };
     };
 
+    class CLASS(Item_Helmet_Modular_Chops_Grijs): Headgear_H_HelmetHBK_chops_F {
+        MACRO_ITEM_COMMON;
+        author = "Mike";
+        displayName = CSTRING(Helmet_Modular_Chops_Grijs);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Grijs),1);
+        };
+    };
+
     class Headgear_H_HelmetHBK_ear_F;
     class CLASS(Item_Helmet_Modular_Ear_Black): Headgear_H_HelmetHBK_ear_F {
         MACRO_ITEM_COMMON;
@@ -426,6 +456,16 @@ class CfgVehicles {
         };
     };
 
+    class CLASS(Item_Helmet_Modular_Ear_Grijs): Headgear_H_HelmetHBK_ear_F {
+        MACRO_ITEM_COMMON;
+        author = "Mike";
+        displayName = CSTRING(Helmet_Modular_Ear_Grijs);
+
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Grijs),1);
+        };
+    };
+
     // Box
     class B_supplyCrate_F;
     class CLASS(Box_Wearables): B_supplyCrate_F {
@@ -453,21 +493,29 @@ class CfgVehicles {
             MACRO_ADDITEM(CLASS(Helmet_Modular_Coyote),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_AU),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_FG),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_RGR),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Grijs),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Black),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Green),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Coyote),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_AU),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_FG),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_RGR),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Headset_Grijs),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Black),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Green),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Coyote),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_AU),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_FG),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_RGR),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Chops_Grijs),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Black),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Green),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Coyote),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_AU),10);
             MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_FG),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_RGR),10);
+            MACRO_ADDITEM(CLASS(Helmet_Modular_Ear_Grijs),10);
         };
     };
 };
