@@ -5,7 +5,11 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             QCLASS(C130J_I_Theseus),
-            QCLASS(C130J_B_Theseus)
+            QCLASS(C130J_B_Theseus),
+            QCLASS(UH60_I_Theseus),
+            QCLASS(UH60_B_Theseus),
+            QCLASS(UH60_Minigun_I_Theseus),
+            QCLASS(UH60_Minigun_B_Theseus)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
