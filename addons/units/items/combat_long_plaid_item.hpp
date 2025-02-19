@@ -23,7 +23,7 @@ class CLASS(Item_Uniform_Combat_LS_CDBS_GP_TB): Item_Base_F {
     author = "Jonpas";
 };
 class CLASS(Item_Uniform_Combat_LS_CDBS_BP_BB): Item_Base_F {
-    MACRO_ITEM_COMMON(Uniform_Combat_LS_CDBS_GP_BB);
+    MACRO_ITEM_COMMON(Uniform_Combat_LS_CDBS_BP_BB);
     author = "GilleeDoo";
 };
 class CLASS(Item_Uniform_Combat_LS_CLBS_GP_BB): Item_Base_F {
