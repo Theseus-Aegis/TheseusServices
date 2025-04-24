@@ -14,7 +14,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = "Diesel5187 & sykoCrazy, Kresky, Jonpas, Rory";
+        author = "Diesel5187 & sykoCrazy, Emythiel, Jonpas, Rory";
         displayName = CSTRING(AH6M_H_Theseus_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_H_Black.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
@@ -38,7 +38,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = "Diesel5187 & sykoCrazy, Kresky, Jonpas, Rory";
+        author = "Diesel5187 & sykoCrazy, Emythiel, Jonpas, Rory";
         displayName = CSTRING(AH6M_L_Theseus_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_L_Black.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
@@ -62,7 +62,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = "Diesel5187 & sykoCrazy, Kresky, Jonpas, Rory";
+        author = "Diesel5187 & sykoCrazy, Emythiel, Jonpas, Rory";
         displayName = CSTRING(AH6M_M_Theseus_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_M_Black.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
@@ -86,7 +86,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = "Diesel5187 & sykoCrazy, Kresky, Jonpas, Rory";
+        author = "Diesel5187 & sykoCrazy, Emythiel, Jonpas, Rory";
         displayName = CSTRING(H6M_Theseus_Black);
         editorPreview = QPATHTOF(UI\MELB_H6M_Black.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
@@ -110,7 +110,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = "Diesel5187 & sykoCrazy, Kresky, Jonpas, Rory";
+        author = "Diesel5187 & sykoCrazy, Emythiel, Jonpas, Rory";
         displayName = CSTRING(MH6M_Theseus_Black);
         editorPreview = QPATHTOF(UI\MELB_MH6M_Black.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
@@ -136,7 +136,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = "Diesel5187 & sykoCrazy, Kresky, Jonpas";
+        author = "Diesel5187 & sykoCrazy, Emythiel, Jonpas";
         displayName = CSTRING(AH6M_H_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_H_Black.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
@@ -160,7 +160,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = "Diesel5187 & sykoCrazy, Kresky, Jonpas";
+        author = "Diesel5187 & sykoCrazy, Emythiel, Jonpas";
         displayName = CSTRING(AH6M_L_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_L_Black.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
@@ -184,7 +184,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = "Diesel5187 & sykoCrazy, Kresky, Jonpas";
+        author = "Diesel5187 & sykoCrazy, Emythiel, Jonpas";
         displayName = CSTRING(AH6M_M_Black);
         editorPreview = QPATHTOF(UI\MELB_AH6M_M_Black.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
@@ -208,7 +208,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = "Diesel5187 & sykoCrazy, Kresky, Jonpas";
+        author = "Diesel5187 & sykoCrazy, Emythiel, Jonpas";
         displayName = CSTRING(H6M_Black);
         editorPreview = QPATHTOF(UI\MELB_H6M_Black.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
@@ -232,7 +232,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = "Diesel5187 & sykoCrazy, Kresky, Jonpas";
+        author = "Diesel5187 & sykoCrazy, Emythiel, Jonpas";
         displayName = CSTRING(MH6M_Black);
         editorPreview = QPATHTOF(UI\MELB_MH6M_Black.jpg);
         crew = QCLASS(Unit_I_PilotHeli);

@@ -5,5 +5,5 @@ Vehicle retextures.
 ### Authors
 
 - [Jonpas](https://github.com/jonpas)
-- [Kresky](https://github.com/Kresky)
+- [Emythiel](https://github.com/emythiel)
 - [GilleeDoo](https://github.com/GilleeDoo)

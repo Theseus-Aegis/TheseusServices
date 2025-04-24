@@ -2,7 +2,7 @@
 // Combat - Long Sleeves
 class CLASS(Uniform_Combat_LS_BS_BP_BB): CLASS(Uniform_Base) {
     scope = 2;
-    author = "Pomigit, Kresky";
+    author = "Pomigit, Emythiel";
     displayName = CSTRING(Uniform_Combat_LS_BS_BP_BB);
     picture = QPATHTOF(UI\uniform_combat_ls_bs_bp_ca.paa);
 
@@ -52,7 +52,7 @@ class CLASS(Uniform_Combat_LS_BS_TP_TB): CLASS(Uniform_Base) {
 };
 class CLASS(Uniform_Combat_LS_GS_GP_BB): CLASS(Uniform_Base) {
     scope = 2;
-    author = "Kresky";
+    author = "Emythiel";
     displayName = CSTRING(Uniform_Combat_LS_GS_GP_BB);
     picture = QPATHTOF(UI\uniform_combat_ls_gs_gp_ca.paa);
 
@@ -122,7 +122,7 @@ class CLASS(Uniform_Combat_LS_TS_GP_TB): CLASS(Uniform_Base) {
 };
 class CLASS(Uniform_Combat_LS_TS_TP_TB): CLASS(Uniform_Base) {
     scope = 2;
-    author = "Kresky";
+    author = "Emythiel";
     displayName = CSTRING(Uniform_Combat_LS_TS_TP_TB);
     picture = QPATHTOF(UI\uniform_combat_ls_ts_tp_ca.paa);
 
@@ -132,7 +132,7 @@ class CLASS(Uniform_Combat_LS_TS_TP_TB): CLASS(Uniform_Base) {
 };
 class CLASS(Uniform_Combat_LS_WS_WP_WB): CLASS(Uniform_Base) {
     scope = 2;
-    author = "Kresky";
+    author = "Emythiel";
     displayName = CSTRING(Uniform_Combat_LS_WS_WP_WB);
     picture = QPATHTOF(UI\uniform_combat_ls_ws_wp_ca.paa);
 

@@ -2,7 +2,7 @@
 // Combat - Rolled Sleeves
 class CLASS(Unit_Combat_RS_BS_BP_BB): CLASS(Unit_Combat_RS_Base) {
     scope = 1;
-    author = "Pomigit, Kresky";
+    author = "Pomigit, Emythiel";
     uniformClass = QCLASS(Uniform_Combat_RS_BS_BP_BB);
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_bs_bp_bb_co.paa)};
 };
@@ -74,7 +74,7 @@ class CLASS(Unit_Combat_RS_TS_GP_TB): CLASS(Unit_Combat_RS_Base) {
 };
 class CLASS(Unit_Combat_RS_TS_TP_TB): CLASS(Unit_Combat_RS_Base) {
     scope = 1;
-    author = "Kresky";
+    author = "Emythiel";
     uniformClass = QCLASS(Uniform_Combat_RS_TS_TP_TB);
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_combat_ts_tp_tb_co.paa)};
 };

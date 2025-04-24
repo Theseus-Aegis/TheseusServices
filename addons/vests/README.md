@@ -6,5 +6,5 @@ Vest retextures.
 
 - [Jonpas](http://github.com/jonpas)
 - [Rory](http://github.com/SyMP2005)
-- [Kresky](https://github.com/Kresky)
+- [Emythiel](https://github.com/emythiel)
 - [GilleeDoo](https://github.com/GilleeDoo)

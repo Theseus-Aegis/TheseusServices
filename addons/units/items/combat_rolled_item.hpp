@@ -1,6 +1,6 @@
 class CLASS(Item_Uniform_Combat_RS_BS_BP_BB): Item_Base_F {
     MACRO_ITEM_COMMON(Uniform_Combat_RS_BS_BP_BB);
-    author = "Jonpas, Kresky";
+    author = "Jonpas, Emythiel";
 };
 class CLASS(Item_Uniform_Combat_RS_BS_GP_BB): Item_Base_F {
     MACRO_ITEM_COMMON(Uniform_Combat_RS_BS_GP_BB);

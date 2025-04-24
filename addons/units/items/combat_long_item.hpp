@@ -1,6 +1,6 @@
 class CLASS(Item_Uniform_Combat_LS_BS_BP_BB): Item_Base_F {
     MACRO_ITEM_COMMON(Uniform_Combat_LS_BS_BP_BB);
-    author = "Kresky";
+    author = "Emythiel";
 };
 class CLASS(Item_Uniform_Combat_LS_BS_GP_BB): Item_Base_F {
     MACRO_ITEM_COMMON(Uniform_Combat_LS_BS_GP_BB);
@@ -52,5 +52,5 @@ class CLASS(Item_Uniform_Combat_LS_TS_TP_TB): Item_Base_F {
 };
 class CLASS(Item_Uniform_Combat_LS_WS_WP_WB): Item_Base_F {
     MACRO_ITEM_COMMON(Uniform_Combat_LS_WS_WP_WB);
-    author = "Jonpas, Kresky";
+    author = "Jonpas, Emythiel";
 };

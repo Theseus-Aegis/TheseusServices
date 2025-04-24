@@ -82,7 +82,7 @@ class CfgWeapons {
     class CLASS(Vest_PlateCarrier_White): V_PlateCarrier1_rgr {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Pomigit, Rory, Kresky";
+        author = "Pomigit, Rory, Emythiel";
         displayName = CSTRING(Vest_PlateCarrier_White);
         picture = QPATHTOF(UI\vest_platecarrier_white_ca.paa);
         FIX_CAMO_HIDDENSELECTIONS
@@ -112,7 +112,7 @@ class CfgWeapons {
     class CLASS(Vest_PlateCarrierHeavy_Black): V_PlateCarrierGL_rgr {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Vest_PlateCarrierHeavy_Black);
         picture = QPATHTOF(UI\vest_PlateCarrierHeavy_black_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_PlateCarrierHeavy_black_co.paa)};
@@ -120,7 +120,7 @@ class CfgWeapons {
     class CLASS(Vest_PlateCarrierHeavy_Coyote): V_PlateCarrierGL_rgr {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Vest_PlateCarrierHeavy_Coyote);
         picture = QPATHTOF(UI\vest_PlateCarrierHeavy_coyote_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_PlateCarrierHeavy_coyote_co.paa)};
@@ -128,7 +128,7 @@ class CfgWeapons {
     class CLASS(Vest_PlateCarrierHeavy_Green): V_PlateCarrierGL_rgr {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Vest_PlateCarrierHeavy_Green);
         picture = QPATHTOF(UI\vest_PlateCarrierHeavy_green_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_PlateCarrierHeavy_green_co.paa)};
@@ -136,7 +136,7 @@ class CfgWeapons {
     class CLASS(Vest_PlateCarrierHeavy_White): V_PlateCarrierGL_rgr {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Vest_PlateCarrierHeavy_White);
         picture = QPATHTOF(UI\vest_PlateCarrierHeavy_white_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_PlateCarrierHeavy_white_co.paa)};

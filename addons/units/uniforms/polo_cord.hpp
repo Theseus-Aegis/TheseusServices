@@ -32,7 +32,7 @@ class CLASS(Uniform_Polo_CP_BS_TP_BB): CLASS(Uniform_Base) {
 };
 class CLASS(Uniform_Polo_CP_BS_TP_BB_NoLogo): CLASS(Uniform_Base) {
     scope = 2;
-    author = "Pomigit, Jonpas, Kresky";
+    author = "Pomigit, Jonpas, Emythiel";
     displayName = CSTRING(Uniform_Polo_CP_BS_TP_BB_NoLogo);
     picture = QPATHTOF(UI\uniform_polo_cp_bs_tp_nologo_ca.paa);
 

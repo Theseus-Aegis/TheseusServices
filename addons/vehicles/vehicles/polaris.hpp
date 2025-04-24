@@ -2,7 +2,7 @@
     class TextureSources { \
         class Black { \
             displayName = "$STR_A3_TEXTURESOURCES_BLACK0"; \
-            author = "Kresky"; \
+            author = "Emythiel"; \
             textures[] = { \
                 QPATHTOF(data\polaris_black_ext01_co.paa), \
                 QPATHTOF(data\polaris_black_ext02_co.paa), \
@@ -61,7 +61,7 @@ class CLASS(Polaris_I_Black): CLASS(Polaris_Base) {
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
-    author = "Kresky";
+    author = "Emythiel";
     displayName = CSTRING(Polaris_Black);
     editorPreview = QPATHTOF(UI\Polaris_Black.jpg);
     crew = QCLASS(Unit_I_Contractor);
@@ -122,7 +122,7 @@ class CLASS(Polaris_I_Armed_Black): CLASS(Polaris_Armed_Base) {
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
-    author = "Kresky";
+    author = "Emythiel";
     displayName = CSTRING(Polaris_Armed_Black);
     editorPreview = QPATHTOF(UI\Polaris_Armed_Black.jpg);
     crew = QCLASS(Unit_I_Contractor);
@@ -182,7 +182,7 @@ class CLASS(Polaris_I_AT_Black): CLASS(Polaris_AT_Base) {
     forceInGarage = 1;
     side = 2;
     faction = QCLASS(IND);
-    author = "Kresky";
+    author = "Emythiel";
     displayName = CSTRING(Polaris_AT_Black);
     editorPreview = QPATHTOF(UI\Polaris_AT_Black.jpg);
     crew = QCLASS(Unit_I_Contractor);
