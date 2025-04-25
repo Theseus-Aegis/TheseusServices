@@ -39,7 +39,7 @@ class CfgVehicles {
     class CLASS(Backpack_AssaultExpanded_White): B_AssaultPack_Kerry {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "BadHabitz, Rory, Kresky";
+        author = "BadHabitz, Rory, Emythiel";
         displayname = CSTRING(Backpack_AssaultExpanded_White);
         picture = QPATHTOF(UI\backpack_assaultexpanded_white_ca.paa);
         hiddenSelectionsTextures[] = {
@@ -262,7 +262,7 @@ class CfgVehicles {
     class CLASS(Backpack_ViperHarness_Coyote): B_ViperHarness_base_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Backpack_ViperHarness_Coyote);
         picture = QPATHTOF(UI\backpack_viperharness_coyote_ca.paa);
         hiddenSelectionsTextures[] = {
@@ -272,7 +272,7 @@ class CfgVehicles {
     class CLASS(Backpack_ViperHarness_Green): B_ViperHarness_base_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Backpack_ViperHarness_Green);
         picture = QPATHTOF(UI\backpack_viperharness_green_ca.paa);
         hiddenSelectionsTextures[] = {
@@ -284,7 +284,7 @@ class CfgVehicles {
     class CLASS(Backpack_ViperLightHarness_Coyote): B_ViperLightHarness_base_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Backpack_ViperLightHarness_Coyote);
         picture = QPATHTOF(UI\backpack_viperlightharness_coyote_ca.paa);
         hiddenSelectionsTextures[] = {
@@ -294,7 +294,7 @@ class CfgVehicles {
     class CLASS(Backpack_ViperLightHarness_Green): B_ViperLightHarness_base_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Backpack_ViperLightHarness_Green);
         picture = QPATHTOF(UI\backpack_viperlightharness_green_ca.paa);
         hiddenSelectionsTextures[] = {

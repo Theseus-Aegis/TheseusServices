@@ -44,7 +44,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacs_main"};
         author = ECSTRING(main,Author);
-        authors[] = {"Jonpas", "Pomigit", "BadHabitz", "Rory", "Kresky", "Trenchgun", "Mike"};
+        authors[] = {"Jonpas", "Pomigit", "BadHabitz", "Rory", "Emythiel", "Trenchgun", "Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

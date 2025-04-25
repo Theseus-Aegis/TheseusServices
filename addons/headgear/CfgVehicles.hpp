@@ -88,7 +88,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Helmet_Ballistic_White): Headgear_Base_F {
         MACRO_ITEM_COMMON;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Helmet_Ballistic_White);
 
         class TransportItems {
@@ -97,7 +97,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Helmet_Enc_Ballistic_DarkBlack): Headgear_Base_F {
         MACRO_ITEM_COMMON;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Helmet_Enc_Ballistic_DarkBlack);
 
         class TransportItems {
@@ -106,7 +106,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Helmet_Enc_Ballistic_White): Headgear_Base_F {
         MACRO_ITEM_COMMON;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Helmet_Enc_Ballistic_White);
 
         class TransportItems {
@@ -115,7 +115,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Helmet_Light_Ballistic_DarkBlack): Headgear_Base_F {
         MACRO_ITEM_COMMON;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Helmet_Light_Ballistic_DarkBlack);
 
         class TransportItems {
@@ -173,7 +173,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Hat_Beret_BlackLogo): Headgear_Base_F {
         MACRO_ITEM_COMMON;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Hat_Beret_BlackLogo);
         model = "\A3\Weapons_F\DummyCap.p3d";
 

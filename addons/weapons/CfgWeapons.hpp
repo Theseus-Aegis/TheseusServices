@@ -133,7 +133,7 @@ class CfgWeapons {
     class CLASS(MRAWS_Black_F): launch_MRAWS_green_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(MRAWS_Black_F);
         picture = QPATHTOF(UI\mraws_black_ca.paa);
         hiddenSelections[] = {"camo1", "camo2"};
@@ -148,7 +148,7 @@ class CfgWeapons {
     class CLASS(MRAWS_Black_Rail_F): launch_MRAWS_green_rail_F {
         dlc = QUOTE(PREFIX);
         scope = 2;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(MRAWS_Black_Rail_F);
         picture = QPATHTOF(UI\mraws_black_rail_ca.paa);
         hiddenSelections[] = {"camo1", "camo2"};

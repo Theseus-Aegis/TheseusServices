@@ -20,7 +20,7 @@ class CLASS(Unit_Polo_CP_BS_TP_BB): CLASS(Unit_Polo_TP_Base) {
 };
 class CLASS(Unit_Polo_CP_BS_TP_BB_NoLogo): CLASS(Unit_Polo_TP_Base) {
     scope = 1;
-    author = "Pomigit, Jonpas, Kresky";
+    author = "Pomigit, Jonpas, Emythiel";
     uniformClass = QCLASS(Uniform_Polo_CP_BS_TP_BB_NoLogo);
     hiddenSelectionsTextures[] = {QPATHTOF(data\uniform_polo_bs_tp_bb_nologo_co.paa)};
 };

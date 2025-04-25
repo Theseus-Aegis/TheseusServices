@@ -30,7 +30,7 @@ class CfgPatches {
         requiredAddons[] = {"tacs_units", "MELB"};
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
-        authors[] = {"Diesel5187", "sykoCrazy", "Kresky", "Jonpas", "Rory"};
+        authors[] = {"Diesel5187", "sykoCrazy", "Emythiel", "Jonpas", "Rory"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

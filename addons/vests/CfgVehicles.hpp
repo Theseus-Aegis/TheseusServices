@@ -75,7 +75,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Vest_PlateCarrier_White): Vest_Base_F {
         MACRO_ITEM_COMMON;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Vest_PlateCarrier_White);
 
         class TransportItems {
@@ -104,7 +104,7 @@ class CfgVehicles {
     // Plate Carrier Heavy
     class CLASS(Item_Vest_PlateCarrierHeavy_Black): Vest_Base_F {
         MACRO_ITEM_COMMON;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Vest_PlateCarrierHeavy_Black);
 
         class TransportItems {
@@ -113,7 +113,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_Coyote): Vest_Base_F {
         MACRO_ITEM_COMMON;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Vest_PlateCarrierHeavy_Coyote);
 
         class TransportItems {
@@ -122,7 +122,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_Green): Vest_Base_F {
         MACRO_ITEM_COMMON;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Vest_PlateCarrierHeavy_Green);
 
         class TransportItems {
@@ -131,7 +131,7 @@ class CfgVehicles {
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_White): Vest_Base_F {
         MACRO_ITEM_COMMON;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(Vest_PlateCarrierHeavy_White);
 
         class TransportItems {

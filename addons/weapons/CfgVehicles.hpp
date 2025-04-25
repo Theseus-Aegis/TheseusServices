@@ -89,7 +89,7 @@ class CfgVehicles {
     class CLASS(Item_MRAWS_Black_F): Launcher_Base_F {
         MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsSecondary";
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(MRAWS_Black_F);
 
         class TransportItems {
@@ -99,7 +99,7 @@ class CfgVehicles {
     class CLASS(Item_MRAWS_Black_Rail_F): Launcher_Base_F {
         MACRO_ITEM_COMMON;
         vehicleClass = "WeaponsSecondary";
-        author = "Kresky";
+        author = "Emythiel";
         displayName = CSTRING(MRAWS_Black_Rail_F);
 
         class TransportItems {
