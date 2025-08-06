@@ -915,4 +915,100 @@ class CfgUnitInsignia {
         displayName = "Zombie Outbreak Response Team (Black)";
         texture = QPATHTOF(data\zombieoutbreakresponseteam_black.paa);
     };
+    class CLASS(Insignia_BecomeUngovernable) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Become Ungovernable";
+        texture = QPATHTOF(data\becomeungovernable.paa);
+    };
+    class CLASS(Insignia_BigEnergy) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Big Energy";
+        texture = QPATHTOF(data\bigenergy.paa);
+    };
+    class CLASS(Insignia_BooBees) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Boo Bees";
+        texture = QPATHTOF(data\boobees.paa);
+    };
+    class CLASS(Insignia_Boomslug) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Boomslug";
+        texture = QPATHTOF(data\boomslug.paa);
+    };
+    class CLASS(Insignia_Carl) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Carl";
+        texture = QPATHTOF(data\carl.paa);
+    };
+    class CLASS(Insignia_Commslug) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Commslug";
+        texture = QPATHTOF(data\commslug.paa);
+    };
+    class CLASS(Insignia_GreatShellWrangling) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Great Shell Wrangling";
+        texture = QPATHTOF(data\greatshellwrangling.paa);
+    };
+    class CLASS(Insignia_Inhibitorslug) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Inhibitorslug";
+        texture = QPATHTOF(data\inhibitorslug.paa);
+    };
+    class CLASS(Insignia_Mervin) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Mervin";
+        texture = QPATHTOF(data\mervin.paa);
+    };
+    class CLASS(Insignia_MommaWasATechnical) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Momma Was A Technical";
+        texture = QPATHTOF(data\mommawasatechnical.paa);
+    };
+    class CLASS(Insignia_NiceRack) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Nice Rack";
+        texture = QPATHTOF(data\nicerack.paa);
+    };
+    class CLASS(Insignia_ShardbladeSafety) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Shardblade Safety";
+        texture = QPATHTOF(data\shardbladesafety.paa);
+    };
+    class CLASS(Insignia_Tits) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Tits";
+        texture = QPATHTOF(data\tits.paa);
+    };
+    class CLASS(Insignia_WorksOnMyMachine) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Works On My Machine";
+        texture = QPATHTOF(data\worksonmymachine.paa);
+    };
+    class CLASS(Insignia_Wrinkleslug) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Wrinkleslug";
+        texture = QPATHTOF(data\wrinkleslug.paa);
+    };
+    class CLASS(Insignia_YourAssIsWild) {
+        MACRO_INSIGNIA_COMMON;
+        author = "Lairdd1989";
+        displayName = "Your Ass Is Wild";
+        texture = QPATHTOF(data\yourassiswild.paa);
+    };
 };
