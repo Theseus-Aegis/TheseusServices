@@ -333,12 +333,6 @@ class CfgUnitInsignia {
         displayName = "Good Boys Club";
         texture = QPATHTOF(data\goodboysclub.paa);
     };
-    class CLASS(Insignia_GreatShellWrangling) {
-        MACRO_INSIGNIA_COMMON;
-        author = "Lairdd1989";
-        displayName = "Great Shell Wrangling";
-        texture = QPATHTOF(data\greatshellwrangling.paa);
-    };
     class CLASS(Insignia_GrimReaper) {
         MACRO_INSIGNIA_COMMON;
         author = "BadHabitz";
@@ -764,12 +758,6 @@ class CfgUnitInsignia {
         author = "BadHabitz";
         displayName = "Security";
         texture = QPATHTOF(data\security.paa);
-    };
-    class CLASS(Insignia_ShardbladeSafety) {
-        MACRO_INSIGNIA_COMMON;
-        author = "Lairdd1989";
-        displayName = "Shardblade Safety";
-        texture = QPATHTOF(data\shardbladesafety.paa);
     };
     class CLASS(Insignia_SHIELD) {
         MACRO_INSIGNIA_COMMON;
