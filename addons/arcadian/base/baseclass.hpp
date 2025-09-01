@@ -15,8 +15,6 @@ class Car_F: Car {
     };
 
     class HitPoints {
-        class HitRGlass;
-        class HitLGlass;
         class HitGlass1;
         class HitGlass2;
         class HitGlass3;
@@ -33,7 +31,6 @@ class Car_F: Car {
     };
 
     class EventHandlers;
-    class CargoTurret;
 };
 
 class CLASS(Arcadian_Base): Car_F {
