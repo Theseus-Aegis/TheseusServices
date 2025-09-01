@@ -27,6 +27,16 @@ class CLASS(Van_Cargo_Base): Van_02_vehicle_base_F {
             };
             factions[] = {QCLASS(IND), QCLASS(BLU)};
         };
+        class ArmazonSlime {
+            displayName = "Armazon Slime";
+            author = "GilleeDoo";
+            textures[] = {
+                QPATHTOF(data\van_body_slime_co.paa),
+                "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
+                "\a3\soft_f_orange\van_02\data\van_glass_utility_ca.paa",
+                "\a3\soft_F_Orange\van_02\data\van_body_black_co.paa"
+            };
+        };
     };
 
     animationList[] = {
