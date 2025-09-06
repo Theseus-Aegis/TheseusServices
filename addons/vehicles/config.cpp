@@ -24,6 +24,8 @@ class CfgPatches {
             QCLASS(Offroad_B_Black),
             QCLASS(Offroad_I_Armed_Black),
             QCLASS(Offroad_B_Armed_Black),
+            QCLASS(Otokar_I_Black),
+            QCLASS(Otokar_B_Black),
             QCLASS(Polaris_I_Black),
             QCLASS(Polaris_B_Black),
             QCLASS(Polaris_I_Armed_Black),
