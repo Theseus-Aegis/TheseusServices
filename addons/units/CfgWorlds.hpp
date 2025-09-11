@@ -9,6 +9,7 @@ class CfgWorlds {
                 chris = "Chris";
                 cole = "Cole";
                 cory = "Cory";
+                dave = "Dave";
                 dimas = "Dimas";
                 drago = "Drago";
                 earth = "Earth";
@@ -19,6 +20,7 @@ class CfgWorlds {
                 ian = "Ian";
                 izzy = "Izzy";
                 jack = "Jack";
+                jay = "Jay";
                 john = "John";
                 jonah = "Jonah";
                 joram = "Joram";
@@ -49,6 +51,7 @@ class CfgWorlds {
                 dau = "Dau";
                 davids = "Davids";
                 finn = "Finn";
+                fifright = "Fifright";
                 gingras = "Gingras";
                 guldentops = "Guldentops";
                 harrison = "Harrison";
@@ -59,6 +62,7 @@ class CfgWorlds {
                 krotzko = "Krotzko";
                 kuma = "Kuma";
                 laird = "Laird";
+                langston = "Langston";
                 larose = "Larose";
                 lopez = "López";
                 maciejewski = "Maciejewski";
