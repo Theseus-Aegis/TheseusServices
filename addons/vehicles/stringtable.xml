@@ -43,6 +43,9 @@
         <Key ID="STR_TACS_Vehicles_Offroad_Covered_Black">
             <English>Offroad Covered (Black)</English>
         </Key>
+        <Key ID="STR_TACS_Vehicles_Otokar_Black">
+            <English>Otokar ARMA (Black)</English>
+        </Key>
         <Key ID="STR_TACS_Vehicles_Polaris_AT_Black">
             <English>Polaris DAGOR (Mini-Spike AT) (Black)</English>
         </Key>
